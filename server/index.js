@@ -387,7 +387,7 @@ function buildEccnTreeFromNodes($, nodes, { code, heading }) {
 
     let pathTokens = null;
     if (allowPath) {
-      pathTokens = derivePathFromNode($, node, code);
+      pathTokens = derivePathFromNode($, node, code, block, lastPath);
     }
 
     const targetTokens = Array.isArray(pathTokens)
@@ -509,7 +509,7 @@ function hasEccnId($, node, baseCode) {
   return Array.isArray(tokens);
 }
 
-function derivePathFromNode($, node, baseCode) {
+function derivePathFromNode($, node, baseCode, block, lastPath) {
   if (!node || node.type === 'text') {
     return null;
   }
@@ -519,6 +519,24 @@ function derivePathFromNode($, node, baseCode) {
   const fromId = extractPathTokensFromId(idAttr, baseCode);
   if (fromId) {
     return fromId;
+  }
+
+  const fromText = extractPathTokensFromText(block?.text, baseCode);
+  if (fromText) {
+    return fromText;
+  }
+
+  const enumerator = extractEnumeratorFromBlock(block);
+  if (enumerator) {
+    const { token, type } = enumerator;
+    const level = determineEnumeratorLevel(type);
+    if (level) {
+      const normalized = normalizeEnumeratorToken(token, type);
+      const derived = buildPathForEnumerator(normalized, level, lastPath);
+      if (derived) {
+        return derived;
+      }
+    }
   }
 
   return null;
@@ -570,6 +588,155 @@ function extractPathTokensFromId(id, baseCode) {
   }
 
   return filtered;
+}
+
+function extractPathTokensFromText(text, baseCode) {
+  if (!text || !baseCode) {
+    return null;
+  }
+
+  const normalizedBase = String(baseCode).trim();
+  if (!normalizedBase) {
+    return null;
+  }
+
+  const escaped = escapeRegExp(normalizedBase);
+  const pattern = new RegExp(`(?:^|[^A-Za-z0-9])${escaped}((?:\\.[A-Za-z0-9]+)+)`, 'i');
+  const match = String(text).match(pattern);
+  if (!match) {
+    return null;
+  }
+
+  const suffix = match[1];
+  if (!suffix) {
+    return null;
+  }
+
+  const tokens = suffix
+    .split('.')
+    .map((part) => part.trim())
+    .filter(Boolean);
+
+  return tokens.length ? tokens : null;
+}
+
+function escapeRegExp(value) {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function extractEnumeratorFromBlock(block) {
+  if (!block) {
+    return null;
+  }
+
+  if (block.type === 'text') {
+    return extractEnumeratorFromText(block.text);
+  }
+
+  const text = block.text || null;
+  return extractEnumeratorFromText(text);
+}
+
+function extractEnumeratorFromText(text) {
+  if (!text) {
+    return null;
+  }
+
+  const normalized = String(text).replace(/^\s+/, '');
+  if (!normalized) {
+    return null;
+  }
+
+  const patterns = [
+    /^\(([ivxlcdm]{1,6})\)/i,
+    /^\(([a-z]{1,2})\)/i,
+    /^\(([0-9]{1,3})\)/,
+    /^([ivxlcdm]{1,6})[).\-–—]/i,
+    /^([a-z]{1,2})[).\-–—]/i,
+    /^([0-9]{1,3})[).\-–—]/,
+    /^([A-Z]{1,2})[).\-–—]/,
+  ];
+
+  for (const pattern of patterns) {
+    const match = normalized.match(pattern);
+    if (match && match[1]) {
+      const token = match[1];
+      const type = classifyEnumeratorToken(token);
+      if (type) {
+        return { token, type };
+      }
+    }
+  }
+
+  return null;
+}
+
+function classifyEnumeratorToken(token) {
+  if (!token) {
+    return null;
+  }
+
+  const raw = String(token);
+  const lower = raw.toLowerCase();
+
+  if (/^[0-9]{1,3}$/.test(raw)) {
+    return 'digit';
+  }
+
+  if (/^[ivxlcdm]{1,6}$/.test(lower)) {
+    return 'roman';
+  }
+
+  if (/^[A-Z]{1,2}$/.test(raw)) {
+    return 'upper';
+  }
+
+  if (/^[a-z]{1,2}$/.test(lower)) {
+    return 'letter';
+  }
+
+  return null;
+}
+
+function determineEnumeratorLevel(type) {
+  switch (type) {
+    case 'letter':
+      return 1;
+    case 'digit':
+      return 2;
+    case 'roman':
+      return 3;
+    case 'upper':
+      return 4;
+    default:
+      return null;
+  }
+}
+
+function normalizeEnumeratorToken(token, type) {
+  if (!token) {
+    return token;
+  }
+
+  if (type === 'digit') {
+    return String(token).replace(/^0+/, '') || '0';
+  }
+
+  return String(token).toLowerCase();
+}
+
+function buildPathForEnumerator(token, level, lastPath) {
+  if (!token || !level) {
+    return null;
+  }
+
+  const base = Array.isArray(lastPath) ? lastPath.slice(0, level - 1) : [];
+  if (level > 1 && base.length < level - 1) {
+    return null;
+  }
+
+  base[level - 1] = token;
+  return base;
 }
 
 function deriveParagraphHeadingFromBlock(node, block) {
