@@ -410,6 +410,7 @@ function buildEccnTreeFromNodes($, nodes, { code, heading }) {
       const headingCandidate = deriveParagraphHeadingFromBlock(node, block);
       if (headingCandidate && !targetNode.heading) {
         targetNode.heading = headingCandidate;
+        markNodeRequiresAllChildren(targetNode, headingCandidate);
       }
     }
 
@@ -1479,5 +1480,5 @@ function buildContentBlock($, node) {
   };
 }
 
-export { fetchAndParseCcl, parsePart };
+export { fetchAndParseCcl, parsePart, flattenEccnTree, createTreeNode, markNodeRequiresAllChildren };
 
