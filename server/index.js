@@ -337,21 +337,288 @@ const SUPPLEMENT_PARSERS = {
   '7': parseSupplementSeven,
 };
 
-function createEccnEntry({ code, heading, content, breadcrumbs, supplement }) {
-  return {
-    eccn: code,
+function createEccnEntries($, { code, heading, nodes, content, breadcrumbs, supplement }) {
+  const tree = nodes
+    ? buildEccnTreeFromNodes($, nodes, { code, heading })
+    : buildEccnTreeFromContent({ code, heading, content: content || [] });
+
+  return flattenEccnTree(tree, { code, heading, breadcrumbs, supplement });
+}
+
+function buildEccnTreeFromContent({ code, heading, content }) {
+  const root = createTreeNode({
+    identifier: code,
     heading: heading || null,
-    title: deriveEccnTitle(code, heading),
-    category: code ? code.charAt(0) : null,
-    group: code ? code.slice(0, 2) : null,
-    breadcrumbs,
-    supplement,
-    structure: {
-      identifier: code,
-      heading: heading || null,
-      label: heading || code,
-      content: content.length > 0 ? content : undefined,
-    },
+    path: [],
+    parent: null,
+  });
+
+  if (Array.isArray(content)) {
+    for (const block of content) {
+      if (block) {
+        root.content.push(block);
+      }
+    }
+  }
+
+  return root;
+}
+
+function buildEccnTreeFromNodes($, nodes, { code, heading }) {
+  const root = createTreeNode({
+    identifier: code,
+    heading: heading || null,
+    path: [],
+    parent: null,
+  });
+  const nodeMap = new Map();
+  nodeMap.set('', root);
+
+  let lastPath = [];
+
+  for (const rawNode of nodes) {
+    const block = buildContentBlock($, rawNode);
+    if (!block) {
+      continue;
+    }
+
+    let pathTokens = derivePathFromNode($, rawNode, code);
+    if (pathTokens === null) {
+      pathTokens = lastPath.slice();
+    }
+
+    if (!Array.isArray(pathTokens)) {
+      pathTokens = [];
+    }
+
+    const targetNode = ensureTreeNode({
+      root,
+      map: nodeMap,
+      baseCode: code,
+      pathTokens,
+    });
+
+    if (targetNode !== root) {
+      const headingCandidate = deriveParagraphHeadingFromBlock(rawNode, block);
+      if (headingCandidate && !targetNode.heading) {
+        targetNode.heading = headingCandidate;
+      }
+    }
+
+    targetNode.content.push(block);
+    lastPath = pathTokens.slice();
+  }
+
+  return root;
+}
+
+function ensureTreeNode({ root, map, baseCode, pathTokens }) {
+  if (!pathTokens.length) {
+    return root;
+  }
+
+  let current = root;
+  const keyParts = [];
+
+  for (const token of pathTokens) {
+    keyParts.push(token);
+    const key = keyParts.join('.');
+    let child = map.get(key);
+    if (!child) {
+      child = createTreeNode({
+        identifier: `${baseCode}.${key}`,
+        heading: null,
+        path: keyParts.slice(),
+        parent: current,
+      });
+      map.set(key, child);
+      current.children.push(child);
+    }
+    current = child;
+  }
+
+  return current;
+}
+
+function derivePathFromNode($, node, baseCode) {
+  if (!node || node.type === 'text') {
+    return null;
+  }
+
+  const element = $(node);
+  const idAttr = element.attr('ID') || element.attr('id');
+  const fromId = extractPathTokensFromId(idAttr, baseCode);
+  if (fromId) {
+    return fromId;
+  }
+
+  return null;
+}
+
+function extractPathTokensFromId(id, baseCode) {
+  if (!id || !baseCode) {
+    return null;
+  }
+
+  const normalizedId = String(id).toLowerCase();
+  const normalizedCode = String(baseCode).toLowerCase().replace(/[^a-z0-9]/g, '');
+  const index = normalizedId.lastIndexOf(normalizedCode);
+  if (index === -1) {
+    return null;
+  }
+
+  let suffix = normalizedId.slice(index + normalizedCode.length);
+  if (!suffix) {
+    return [];
+  }
+
+  suffix = suffix.replace(/[^a-z0-9]+/g, '');
+  if (!suffix || /^note\d*/.test(suffix)) {
+    return null;
+  }
+
+  const tokens = [];
+  let current = '';
+  let currentType = '';
+
+  for (const char of suffix) {
+    const type = /[0-9]/.test(char) ? 'digit' : 'letter';
+    if (current && type !== currentType) {
+      tokens.push(current);
+      current = '';
+    }
+    current += char;
+    currentType = type;
+  }
+
+  if (current) {
+    tokens.push(current);
+  }
+
+  const filtered = tokens.filter((token) => !/^note\d*$/i.test(token));
+  if (!filtered.length) {
+    return null;
+  }
+
+  return filtered;
+}
+
+function deriveParagraphHeadingFromBlock(node, block) {
+  const textSource = block?.text || (node && node.type === 'text' ? node.data : null);
+  if (!textSource) {
+    return null;
+  }
+
+  const stripped = stripLeadingEnumerators(String(textSource));
+  return stripped || null;
+}
+
+function stripLeadingEnumerators(text) {
+  if (!text) {
+    return '';
+  }
+
+  let working = text.replace(/\s+/g, ' ').trim();
+  if (!working) {
+    return '';
+  }
+
+  let changed = false;
+  do {
+    changed = false;
+    const match = working.match(/^\(([a-z0-9]{1,4}|[ivxlcdm]{1,5})\)[-\s\u2013\u2014:;.,]*/i);
+    if (match) {
+      const candidate = working.slice(match[0].length).trim();
+      if (candidate) {
+        working = candidate;
+        changed = true;
+        continue;
+      }
+    }
+
+    const dotMatch = working.match(/^([a-z0-9]{1,4})\.[-\s\u2013\u2014:;.,]*/i);
+    if (dotMatch) {
+      const candidate = working.slice(dotMatch[0].length).trim();
+      if (candidate) {
+        working = candidate;
+        changed = true;
+      }
+    }
+  } while (changed);
+
+  return working.trim();
+}
+
+function flattenEccnTree(root, { code, heading, breadcrumbs, supplement }) {
+  const entries = [];
+  const category = code ? code.charAt(0) : null;
+  const group = code ? code.slice(0, 2) : null;
+
+  const visit = (node) => {
+    const parent = node.parent;
+    const isRoot = node === root;
+    const nodeHeading = isRoot ? heading || node.heading : node.heading || null;
+    const entry = {
+      eccn: node.identifier,
+      heading: nodeHeading,
+      title: isRoot ? deriveEccnTitle(code, nodeHeading) : nodeHeading,
+      category,
+      group,
+      breadcrumbs: buildNodeBreadcrumbs(node, root, breadcrumbs || []),
+      supplement,
+      structure: convertTreeNodeToStructure(node),
+      parentEccn: parent ? parent.identifier : null,
+      childEccns: node.children.map((child) => child.identifier),
+    };
+
+    entries.push(entry);
+    node.children.forEach(visit);
+  };
+
+  visit(root);
+  return entries;
+}
+
+function buildNodeBreadcrumbs(node, root, baseBreadcrumbs) {
+  const trail = [];
+  let current = node.parent;
+
+  while (current && current !== root) {
+    const label = current.heading || current.identifier;
+    if (label) {
+      trail.unshift(label);
+    }
+    current = current.parent;
+  }
+
+  if (node !== root && root.heading) {
+    trail.unshift(root.heading);
+  }
+
+  return [...(baseBreadcrumbs || []), ...trail];
+}
+
+function convertTreeNodeToStructure(node) {
+  const children = node.children.map((child) => convertTreeNodeToStructure(child));
+  const label = node.heading && node.heading !== node.identifier ? `${node.identifier} – ${node.heading}` : node.identifier;
+
+  return {
+    identifier: node.identifier,
+    heading: node.heading || null,
+    label,
+    content: node.content.length > 0 ? node.content : undefined,
+    children: children.length > 0 ? children : undefined,
+  };
+}
+
+function createTreeNode({ identifier, heading, path, parent }) {
+  return {
+    identifier,
+    heading: heading || null,
+    content: [],
+    children: [],
+    path: path ? path.slice() : [],
+    parent: parent || null,
   };
 }
 
@@ -368,14 +635,10 @@ function parseSupplementOne($, supplementEl, number, heading) {
       return;
     }
 
-    const content = current.nodes
-      .map((node) => buildContentBlock($, node))
-      .filter(Boolean);
-
-    const entry = createEccnEntry({
+    const entries = createEccnEntries($, {
       code: current.code,
       heading: current.heading,
-      content,
+      nodes: current.nodes,
       breadcrumbs: current.breadcrumbs,
       supplement: {
         number,
@@ -383,7 +646,7 @@ function parseSupplementOne($, supplementEl, number, heading) {
       },
     });
 
-    eccns.push(entry);
+    eccns.push(...entries);
     current = null;
   };
 
@@ -490,7 +753,7 @@ function parseSupplementFive($, supplementEl, number, heading) {
       rowHtml ? `<tbody>${rowHtml}</tbody>` : ''
     }</table>`;
 
-    const entry = createEccnEntry({
+    const entries = createEccnEntries($, {
       code: current.code,
       heading: current.heading,
       content: [
@@ -509,7 +772,7 @@ function parseSupplementFive($, supplementEl, number, heading) {
       },
     });
 
-    eccns.push(entry);
+    eccns.push(...entries);
     current = null;
   };
 
@@ -583,24 +846,20 @@ function parseListStyleSupplement($, supplementEl, number, heading) {
       return;
     }
 
-    const content = current.nodes
-      .map((node) => buildContentBlock($, node))
-      .filter(Boolean);
-
     for (const code of current.codes) {
       if (seenCodes.has(code)) {
         continue;
       }
 
-      const entry = createEccnEntry({
+      const entries = createEccnEntries($, {
         code,
         heading: current.heading,
-        content,
+        nodes: current.nodes,
         breadcrumbs: current.breadcrumbs,
         supplement: supplementInfo,
       });
 
-      eccns.push(entry);
+      eccns.push(...entries);
       seenCodes.add(code);
     }
 
