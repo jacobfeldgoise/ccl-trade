@@ -852,9 +852,12 @@ function flattenEccnTree(root, { code, heading, breadcrumbs, supplement }) {
     const parentRequiresAll = parent ? parent.requireAllChildren : false;
     const suppressed = Boolean(suppressedDueToAncestor || parentRequiresAll);
 
+    node.boundToParent = Boolean(suppressedDueToAncestor);
+
     let entry = null;
     if (!suppressed) {
       const nodeHeading = isRoot ? heading || node.heading : node.heading || null;
+      node.isEccn = true;
       entry = {
         eccn: node.identifier,
         heading: nodeHeading,
@@ -863,7 +866,7 @@ function flattenEccnTree(root, { code, heading, breadcrumbs, supplement }) {
         group,
         breadcrumbs: buildNodeBreadcrumbs(node, root, breadcrumbs || []),
         supplement,
-        structure: convertTreeNodeToStructure(node),
+        structure: null,
         parentEccn: parent ? parent.identifier : null,
         childEccns: [],
       };
@@ -878,6 +881,10 @@ function flattenEccnTree(root, { code, heading, breadcrumbs, supplement }) {
       if (entry && childProducesEntry) {
         entry.childEccns.push(child.identifier);
       }
+    }
+
+    if (entry) {
+      entry.structure = convertTreeNodeToStructure(node);
     }
 
     return Boolean(entry);
@@ -926,6 +933,9 @@ function convertTreeNodeToStructure(node) {
     label,
     content: node.content.length > 0 ? node.content : undefined,
     children: children.length > 0 ? children : undefined,
+    isEccn: Boolean(node.isEccn),
+    boundToParent: Boolean(node.boundToParent),
+    requireAllChildren: Boolean(node.requireAllChildren),
   };
 }
 
@@ -938,6 +948,8 @@ function createTreeNode({ identifier, heading, path, parent }) {
     path: path ? path.slice() : [],
     parent: parent || null,
     requireAllChildren: false,
+    isEccn: false,
+    boundToParent: false,
   };
 }
 

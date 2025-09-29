@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import DOMPurify from 'dompurify';
 import { EccnContentBlock, EccnNode } from '../types';
 
@@ -8,7 +8,12 @@ interface EccnNodeViewProps {
 }
 
 export function EccnNodeView({ node, level = 0 }: EccnNodeViewProps) {
-  const [open, setOpen] = useState(level < 2);
+  const isAccordion = Boolean(node.isEccn && !node.boundToParent);
+  const [open, setOpen] = useState(() => (isAccordion ? level < 2 : true));
+
+  useEffect(() => {
+    setOpen(isAccordion ? level < 2 : true);
+  }, [isAccordion, level, node.identifier]);
 
   const label = useMemo(() => {
     const parts = [] as string[];
@@ -27,6 +32,22 @@ export function EccnNodeView({ node, level = 0 }: EccnNodeViewProps) {
     }
     return undefined;
   }, [node.identifier, node.heading]);
+
+  if (!isAccordion) {
+    return (
+      <div className={`eccn-node level-${level} static`} id={anchorId}>
+        <div className="node-label">{label}</div>
+        <div className="node-body">
+          {node.content?.map((entry, index) => (
+            <ContentBlock entry={entry} key={`${anchorId || label}-content-${index}`} />
+          ))}
+          {node.children?.map((child, index) => (
+            <EccnNodeView node={child} level={level + 1} key={`${anchorId || label}-child-${index}`} />
+          ))}
+        </div>
+      </div>
+    );
+  }
 
   return (
     <details

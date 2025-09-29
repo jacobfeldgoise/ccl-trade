@@ -36,7 +36,10 @@ test('nodes marked as requiring all children suppress standalone ECCNs', () => {
   const parentEntry = entries.find((entry) => entry.eccn === '3B001.a.4');
   assert(parentEntry, 'expected parent entry to be present');
   assert.deepEqual(parentEntry.childEccns, []);
-  assert(parentEntry.structure.children?.some((child) => child.identifier === '3B001.a.4.a'));
+  const boundChild = parentEntry.structure.children?.find((child) => child.identifier === '3B001.a.4.a');
+  assert(boundChild, 'bound child should remain in the parent structure');
+  assert.equal(boundChild?.isEccn, false);
+  assert.equal(boundChild?.boundToParent, true);
 });
 
 test('nodes without the phrase still produce standalone ECCNs for children', () => {
@@ -59,4 +62,6 @@ test('nodes without the phrase still produce standalone ECCNs for children', () 
 
   const childEntry = entries.find((entry) => entry.eccn === '3B002.a.1.a');
   assert(childEntry, 'child without the special phrase should remain its own ECCN');
+  assert.equal(childEntry?.structure.isEccn, true);
+  assert.equal(childEntry?.structure.boundToParent, false);
 });
