@@ -136,30 +136,37 @@ function App() {
     await handleRefreshVersion(date);
   };
 
+  const supplements = useMemo(() => {
+    if (!dataset || !Array.isArray(dataset.supplements)) {
+      return [] as CclSupplement[];
+    }
+    return dataset.supplements;
+  }, [dataset]);
+
   useEffect(() => {
-    if (!dataset) {
+    if (!dataset || supplements.length === 0) {
       setSelectedSupplement(undefined);
       setSelectedEccn(undefined);
       return;
     }
 
     setSelectedSupplement((previous) => {
-      if (previous && dataset.supplements.some((supplement) => supplement.number === previous)) {
+      if (previous && supplements.some((supplement) => supplement.number === previous)) {
         return previous;
       }
-      return dataset.supplements[0]?.number;
+      return supplements[0]?.number;
     });
-  }, [dataset]);
+  }, [dataset, supplements]);
 
   const activeSupplement: CclSupplement | undefined = useMemo(() => {
-    if (!dataset) {
+    if (!dataset || supplements.length === 0) {
       return undefined;
     }
     if (selectedSupplement) {
-      return dataset.supplements.find((supplement) => supplement.number === selectedSupplement);
+      return supplements.find((supplement) => supplement.number === selectedSupplement);
     }
-    return dataset.supplements[0];
-  }, [dataset, selectedSupplement]);
+    return supplements[0];
+  }, [dataset, supplements, selectedSupplement]);
 
   useEffect(() => {
     if (!activeSupplement) {
@@ -282,7 +289,7 @@ function App() {
                 </div>
               </section>
 
-              {dataset.supplements.length > 0 ? (
+              {supplements.length > 0 ? (
                 <div className="eccn-browser">
                   <aside className="eccn-sidebar">
                     <div className="control-group">
@@ -293,7 +300,7 @@ function App() {
                         value={activeSupplement?.number ?? ''}
                         onChange={(event) => handleSelectSupplement(event.target.value)}
                       >
-                        {dataset.supplements.map((supplement) => (
+                        {supplements.map((supplement) => (
                           <option key={supplement.number} value={supplement.number}>
                             {`Supplement No. ${supplement.number}`}
                           </option>
