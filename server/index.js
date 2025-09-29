@@ -100,7 +100,9 @@ app.get('*', async (req, res, next) => {
   }
 });
 
-startServer();
+if (process.env.CCL_SKIP_SERVER !== 'true') {
+  startServer();
+}
 
 async function startServer() {
   try {
@@ -267,7 +269,7 @@ function buildHeaders(accept) {
 }
 
 const TARGET_SUPPLEMENTS = new Set(['1', '5', '6', '7']);
-const ECCN_CODE_PATTERN = /^[0-9][A-Z][0-9]{3}$/;
+const ECCN_HEADING_PATTERN = /^([0-9][A-Z][0-9]{3})(?=$|[\s\-–—:;(\[])/;
 
 function parsePart(xml) {
   const $ = load(xml, { xmlMode: true, decodeEntities: true });
@@ -278,8 +280,17 @@ function parsePart(xml) {
 
   const supplements = [];
 
-  part.find('DIV8[TYPE="SUPPLEMENT"]').each((_, rawSupplement) => {
-    const supplementEl = $(rawSupplement);
+  part.children().each((_, rawChild) => {
+    if (!rawChild.name || !/^DIV\d+$/i.test(rawChild.name)) {
+      return;
+    }
+
+    const supplementEl = $(rawChild);
+    const typeAttr = (supplementEl.attr('TYPE') || '').toUpperCase();
+    if (typeAttr !== 'SUPPLEMENT' && typeAttr !== 'APPENDIX') {
+      return;
+    }
+
     const heading = extractHeading($, supplementEl);
     const number = determineSupplementNumber(supplementEl, heading);
     if (!number || !TARGET_SUPPLEMENTS.has(number)) {
@@ -315,24 +326,88 @@ function determineSupplementNumber(element, headingText) {
 }
 
 function parseSupplement($, supplementEl, number, heading) {
-  const eccnElements = [];
-  const seen = new Set();
+  const eccns = [];
+  const seenCodes = new Set();
+  const headingTrail = [];
+  const children = supplementEl.children().toArray();
 
-  supplementEl.find('[N]').each((_, raw) => {
-    const el = $(raw);
-    const identifier = (el.attr('N') || '').trim();
-    if (!identifier || seen.has(identifier)) {
+  let current = null;
+
+  const finalizeCurrent = () => {
+    if (!current) {
       return;
     }
-    if (ECCN_CODE_PATTERN.test(identifier)) {
-      seen.add(identifier);
-      eccnElements.push(el);
+
+    const content = current.nodes
+      .map((node) => buildContentBlock($, node))
+      .filter(Boolean);
+
+    const entry = {
+      eccn: current.code,
+      heading: current.heading || null,
+      title: deriveEccnTitle(current.code, current.heading),
+      category: current.code ? current.code.charAt(0) : null,
+      group: current.code ? current.code.slice(0, 2) : null,
+      breadcrumbs: current.breadcrumbs,
+      structure: {
+        identifier: current.code,
+        heading: current.heading || null,
+        label: current.heading || current.code,
+        content: content.length > 0 ? content : undefined,
+      },
+    };
+
+    eccns.push(entry);
+    current = null;
+  };
+
+  for (const node of children) {
+    if (!node || (node.type !== 'tag' && node.type !== 'text')) {
+      continue;
     }
-  });
 
-  eccnElements.sort((a, b) => compareIdentifiers(a.attr('N'), b.attr('N')));
+    if (node.type === 'text') {
+      if (current) {
+        const text = node.data.replace(/\s+/g, ' ').trim();
+        if (text) {
+          current.nodes.push({ type: 'text', data: text });
+        }
+      }
+      continue;
+    }
 
-  const eccns = eccnElements.map((el) => parseEccn($, el, supplementEl));
+    const element = $(node);
+    const tagName = node.name ? node.name.toUpperCase() : '';
+
+    const headingLevel = getHeadingLevel(tagName);
+    if (headingLevel) {
+      const headingText = element.text().replace(/\s+/g, ' ').trim();
+      updateHeadingTrail(headingTrail, headingLevel, headingText);
+      if (!current || headingLevel <= 2) {
+        // Treat top-level headings as navigational context instead of ECCN content.
+        continue;
+      }
+    }
+
+    const eccnInfo = extractEccnHeadingFromNode($, element);
+    if (eccnInfo && !seenCodes.has(eccnInfo.code)) {
+      finalizeCurrent();
+      seenCodes.add(eccnInfo.code);
+      current = {
+        code: eccnInfo.code,
+        heading: eccnInfo.heading,
+        nodes: [node],
+        breadcrumbs: headingTrail.filter(Boolean),
+      };
+      continue;
+    }
+
+    if (current) {
+      current.nodes.push(node);
+    }
+  }
+
+  finalizeCurrent();
 
   const categoryCounts = eccns.reduce((acc, entry) => {
     const key = entry.category || 'unknown';
@@ -351,24 +426,6 @@ function parseSupplement($, supplementEl, number, heading) {
   };
 }
 
-function parseEccn($, element, supplementEl) {
-  const eccn = (element.attr('N') || '').trim();
-  const heading = extractHeading($, element);
-  const title = deriveEccnTitle(eccn, heading);
-  const breadcrumbs = collectBreadcrumbs($, element, supplementEl);
-  const structure = parseEccnNode($, element, eccn);
-
-  return {
-    eccn,
-    heading: heading || null,
-    title,
-    category: eccn ? eccn.charAt(0) : null,
-    group: eccn ? eccn.slice(0, 2) : null,
-    breadcrumbs,
-    structure,
-  };
-}
-
 function deriveEccnTitle(eccn, heading) {
   if (!heading) {
     return null;
@@ -379,115 +436,6 @@ function deriveEccnTitle(eccn, heading) {
   }
   const regex = new RegExp(`^(${eccn}|ECCN\s+${eccn})\s*[-–—]?\s*`, 'i');
   return normalizedHeading.replace(regex, '').trim() || null;
-}
-
-function collectBreadcrumbs($, element, stopAt) {
-  const crumbs = [];
-  let current = element.parent();
-  while (current && current.length && current[0] !== stopAt[0]) {
-    if (current[0].type === 'tag') {
-      const heading = extractHeading($, current);
-      if (heading) {
-        crumbs.push(heading);
-      }
-    }
-    current = current.parent();
-  }
-  return crumbs.reverse();
-}
-
-function parseEccnNode($, element, baseIdentifier) {
-  const identifier = (element.attr('N') || baseIdentifier || '').trim();
-  const heading = extractHeading($, element);
-  const node = {
-    identifier: identifier || null,
-    label: deriveNodeLabel(identifier, baseIdentifier),
-    heading: heading || null,
-    content: [],
-    children: [],
-  };
-
-  element.contents().each((_, rawChild) => {
-    if (rawChild.type === 'text') {
-      const text = rawChild.data.trim();
-      if (text) {
-        node.content.push({ type: 'text', text });
-      }
-      return;
-    }
-
-    const child = $(rawChild);
-    const tagName = rawChild.name ? rawChild.name.toUpperCase() : '#UNKNOWN';
-
-    if (tagName === 'HEAD') {
-      return;
-    }
-
-    if (/^DIV\d+$/.test(tagName)) {
-      const childIdentifier = (child.attr('N') || '').trim();
-      if (isDescendantIdentifier(childIdentifier, baseIdentifier)) {
-        node.children.push(parseEccnNode($, child, baseIdentifier));
-        return;
-      }
-    }
-
-    const html = normalizeHtml($, rawChild);
-    if (!html) {
-      return;
-    }
-    const text = child.text().replace(/\s+/g, ' ').trim();
-    const idAttr = child.attr('ID') || null;
-    node.content.push({
-      type: 'html',
-      tag: tagName,
-      html,
-      text: text || null,
-      id: idAttr,
-    });
-  });
-
-  if (node.content.length === 0) {
-    delete node.content;
-  }
-  if (node.children.length === 0) {
-    delete node.children;
-  }
-  if (!node.heading) {
-    delete node.heading;
-  }
-  if (!node.identifier) {
-    delete node.identifier;
-  }
-  if (!node.label) {
-    delete node.label;
-  }
-
-  return node;
-}
-
-function deriveNodeLabel(identifier, baseIdentifier) {
-  if (!identifier || !baseIdentifier) {
-    return null;
-  }
-  if (identifier === baseIdentifier) {
-    return baseIdentifier;
-  }
-  const remainder = identifier.slice(baseIdentifier.length);
-  return remainder.replace(/^\./, '') || null;
-}
-
-function isDescendantIdentifier(identifier, base) {
-  if (!identifier || !base) {
-    return false;
-  }
-  if (identifier === base) {
-    return true;
-  }
-  if (!identifier.startsWith(base)) {
-    return false;
-  }
-  const remainder = identifier.slice(base.length);
-  return /^([.][\w-]+)+$/.test(remainder);
 }
 
 function extractHeading($, element) {
@@ -502,11 +450,70 @@ function normalizeHtml($, node) {
   return $.html(node, { decodeEntities: false }).trim();
 }
 
-function compareIdentifiers(a, b) {
-  const valueA = (a || '').toString();
-  const valueB = (b || '').toString();
-  if (valueA < valueB) return -1;
-  if (valueA > valueB) return 1;
-  return 0;
+function getHeadingLevel(tagName) {
+  if (!tagName || !tagName.startsWith('HD')) {
+    return 0;
+  }
+  const level = Number(tagName.slice(2));
+  return Number.isFinite(level) ? level : 0;
 }
+
+function updateHeadingTrail(trail, level, text) {
+  const index = level - 1;
+  trail[index] = text;
+  trail.length = index + 1;
+}
+
+function extractEccnHeadingFromNode($, element) {
+  const bold = element.children('B').first();
+  const target = bold.length ? bold : element;
+  const text = target.text().replace(/\s+/g, ' ').trim();
+  if (!text) {
+    return null;
+  }
+
+  const match = text.match(ECCN_HEADING_PATTERN);
+  if (!match) {
+    return null;
+  }
+
+  return {
+    code: match[1],
+    heading: text,
+  };
+}
+
+function buildContentBlock($, node) {
+  if (!node) {
+    return null;
+  }
+
+  if (node.type === 'text') {
+    const text = (node.data || '').trim();
+    if (!text) {
+      return null;
+    }
+    return { type: 'text', text };
+  }
+
+  const element = $(node);
+  const html = normalizeHtml($, node);
+  if (!html) {
+    return null;
+  }
+
+  const tagName = node.name ? node.name.toUpperCase() : '#UNKNOWN';
+  const text = element.text().replace(/\s+/g, ' ').trim() || null;
+  const id = element.attr('ID') || null;
+
+  return {
+    type: 'html',
+    tag: tagName,
+    html,
+    text,
+    id,
+  };
+}
+
+export { fetchAndParseCcl, parsePart };
 
