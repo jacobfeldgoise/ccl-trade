@@ -27,9 +27,9 @@ function App() {
   const [defaultDate, setDefaultDate] = useState<string | undefined>();
   const [selectedDate, setSelectedDate] = useState<string | undefined>();
   const [dataset, setDataset] = useState<CclDataset | null>(null);
-  const [selectedSupplement, setSelectedSupplement] = useState<string | undefined>();
   const [selectedEccn, setSelectedEccn] = useState<string | undefined>();
   const [eccnFilter, setEccnFilter] = useState('');
+  const [supplementFilter, setSupplementFilter] = useState<string>('all');
   const [loadingVersions, setLoadingVersions] = useState(false);
   const [loadingDataset, setLoadingDataset] = useState(false);
   const [refreshing, setRefreshing] = useState(false);
@@ -90,6 +90,8 @@ function App() {
         if (!cancelled) {
           setDataset(data);
           setEccnFilter('');
+          setSupplementFilter('all');
+          setSelectedEccn(undefined);
         }
       })
       .catch((err) => {
@@ -124,6 +126,8 @@ function App() {
       setDataset(data);
       setSelectedDate(date);
       setEccnFilter('');
+      setSupplementFilter('all');
+      setSelectedEccn(undefined);
       await loadVersions();
     } catch (err) {
       setError(`Unable to refresh version ${date}: ${getErrorMessage(err)}`);
@@ -143,61 +147,51 @@ function App() {
     return dataset.supplements;
   }, [dataset]);
 
-  useEffect(() => {
-    if (!dataset || supplements.length === 0) {
-      setSelectedSupplement(undefined);
-      setSelectedEccn(undefined);
-      return;
-    }
-
-    setSelectedSupplement((previous) => {
-      if (previous && supplements.some((supplement) => supplement.number === previous)) {
-        return previous;
-      }
-      return supplements[0]?.number;
-    });
-  }, [dataset, supplements]);
-
-  const activeSupplement: CclSupplement | undefined = useMemo(() => {
-    if (!dataset || supplements.length === 0) {
-      return undefined;
-    }
-    if (selectedSupplement) {
-      return supplements.find((supplement) => supplement.number === selectedSupplement);
-    }
-    return supplements[0];
-  }, [dataset, supplements, selectedSupplement]);
-
-  useEffect(() => {
-    if (!activeSupplement) {
-      setSelectedEccn(undefined);
-      return;
-    }
-
-    setSelectedEccn((previous) => {
-      if (previous && activeSupplement.eccns.some((entry) => entry.eccn === previous)) {
-        return previous;
-      }
-      return activeSupplement.eccns[0]?.eccn;
-    });
-  }, [activeSupplement]);
+  const allEccns: EccnEntry[] = useMemo(() => {
+    return supplements.flatMap((supplement) =>
+      supplement.eccns.map((entry) =>
+        entry.supplement
+          ? entry
+          : {
+              ...entry,
+              supplement: {
+                number: supplement.number,
+                heading: supplement.heading ?? null,
+              },
+            }
+      )
+    );
+  }, [supplements]);
 
   const filteredEccns: EccnEntry[] = useMemo(() => {
-    if (!activeSupplement) {
-      return [];
-    }
     const term = eccnFilter.trim().toLowerCase();
-    if (!term) {
-      return activeSupplement.eccns;
-    }
-    return activeSupplement.eccns.filter((entry) => {
+    return allEccns.filter((entry) => {
+      if (supplementFilter !== 'all' && entry.supplement.number !== supplementFilter) {
+        return false;
+      }
+      if (!term) {
+        return true;
+      }
       const searchTarget = [entry.eccn, entry.heading, entry.title]
         .filter(Boolean)
         .join(' ')
         .toLowerCase();
       return searchTarget.includes(term);
     });
-  }, [activeSupplement, eccnFilter]);
+  }, [allEccns, eccnFilter, supplementFilter]);
+
+  const selectedSupplementInfo = useMemo(() => {
+    if (supplementFilter === 'all') {
+      return undefined;
+    }
+    return supplements.find((supplement) => supplement.number === supplementFilter);
+  }, [supplementFilter, supplements]);
+
+  const totalEccnCount = allEccns.length;
+  const supplementScopeCount =
+    supplementFilter === 'all'
+      ? totalEccnCount
+      : selectedSupplementInfo?.metadata?.eccnCount ?? filteredEccns.length;
 
   useEffect(() => {
     if (!filteredEccns.length) {
@@ -222,9 +216,10 @@ function App() {
     return filteredEccns[0];
   }, [filteredEccns, selectedEccn]);
 
-  const handleSelectSupplement = (value: string) => {
-    setSelectedSupplement(value);
+  const handleSelectSupplementFilter = (value: string) => {
+    setSupplementFilter(value);
     setEccnFilter('');
+    setSelectedEccn(undefined);
   };
 
   const handleSelectEccn = (value: string) => {
@@ -293,21 +288,22 @@ function App() {
                 <div className="eccn-browser">
                   <aside className="eccn-sidebar">
                     <div className="control-group">
-                      <label htmlFor="supplement-select">Supplement</label>
+                      <label htmlFor="supplement-filter">Supplement</label>
                       <select
-                        id="supplement-select"
+                        id="supplement-filter"
                         className="control"
-                        value={activeSupplement?.number ?? ''}
-                        onChange={(event) => handleSelectSupplement(event.target.value)}
+                        value={supplementFilter}
+                        onChange={(event) => handleSelectSupplementFilter(event.target.value)}
                       >
+                        <option value="all">All supplements</option>
                         {supplements.map((supplement) => (
                           <option key={supplement.number} value={supplement.number}>
                             {`Supplement No. ${supplement.number}`}
                           </option>
                         ))}
                       </select>
-                      {activeSupplement?.heading && (
-                        <p className="help-text">{activeSupplement.heading}</p>
+                      {selectedSupplementInfo?.heading && (
+                        <p className="help-text">{selectedSupplementInfo.heading}</p>
                       )}
                     </div>
 
@@ -323,8 +319,10 @@ function App() {
                       />
                       <p className="help-text">
                         Showing {formatNumber(filteredEccns.length)} of{' '}
-                        {formatNumber(activeSupplement?.metadata?.eccnCount ?? 0)} ECCNs in this
-                        supplement.
+                        {formatNumber(supplementScopeCount)} ECCNs
+                        {supplementFilter === 'all'
+                          ? ' across all supplements.'
+                          : ` from Supplement No. ${supplementFilter}.`}
                       </p>
                     </div>
 
@@ -335,7 +333,19 @@ function App() {
                           className={entry.eccn === activeEccn?.eccn ? 'active' : ''}
                         >
                           <button type="button" onClick={() => handleSelectEccn(entry.eccn)}>
-                            <span className="eccn-code">{entry.eccn}</span>
+                            <div className="eccn-list-header">
+                              <span className="eccn-code">{entry.eccn}</span>
+                              <span
+                                className="eccn-tag"
+                                title={
+                                  entry.supplement.heading
+                                    ? `Supplement No. ${entry.supplement.number} – ${entry.supplement.heading}`
+                                    : `Supplement No. ${entry.supplement.number}`
+                                }
+                              >
+                                {`Supp. No. ${entry.supplement.number}`}
+                              </span>
+                            </div>
                             {entry.title && <span className="eccn-title">{entry.title}</span>}
                           </button>
                         </li>
@@ -352,6 +362,17 @@ function App() {
                             {activeEccn.title && <span className="eccn-title">{activeEccn.title}</span>}
                           </h3>
                           <dl className="eccn-meta">
+                            <div>
+                              <dt>Supplement</dt>
+                              <dd>
+                                {activeEccn.supplement
+                                  ? `Supplement No. ${activeEccn.supplement.number}` +
+                                    (activeEccn.supplement.heading
+                                      ? ` – ${activeEccn.supplement.heading}`
+                                      : '')
+                                  : '–'}
+                              </dd>
+                            </div>
                             <div>
                               <dt>Category</dt>
                               <dd>{activeEccn.category ?? '–'}</dd>

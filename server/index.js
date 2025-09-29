@@ -269,7 +269,7 @@ function buildHeaders(accept) {
 }
 
 const TARGET_SUPPLEMENTS = new Set(['1', '5', '6', '7']);
-const ECCN_HEADING_PATTERN = /^([0-9][A-Z][0-9]{3})(?=$|[\s\-–—:;(\[])/;
+const ECCN_HEADING_PATTERN = /^([0-9][A-Z][0-9]{3})(?=$|[\s.\-–—:;(\[])/;
 
 function parsePart(xml) {
   const $ = load(xml, { xmlMode: true, decodeEntities: true });
@@ -326,6 +326,36 @@ function determineSupplementNumber(element, headingText) {
 }
 
 function parseSupplement($, supplementEl, number, heading) {
+  const parser = SUPPLEMENT_PARSERS[number] || parseSupplementOne;
+  return parser($, supplementEl, number, heading);
+}
+
+const SUPPLEMENT_PARSERS = {
+  '1': parseSupplementOne,
+  '5': parseSupplementFive,
+  '6': parseSupplementSix,
+  '7': parseSupplementSeven,
+};
+
+function createEccnEntry({ code, heading, content, breadcrumbs, supplement }) {
+  return {
+    eccn: code,
+    heading: heading || null,
+    title: deriveEccnTitle(code, heading),
+    category: code ? code.charAt(0) : null,
+    group: code ? code.slice(0, 2) : null,
+    breadcrumbs,
+    supplement,
+    structure: {
+      identifier: code,
+      heading: heading || null,
+      label: heading || code,
+      content: content.length > 0 ? content : undefined,
+    },
+  };
+}
+
+function parseSupplementOne($, supplementEl, number, heading) {
   const eccns = [];
   const seenCodes = new Set();
   const headingTrail = [];
@@ -342,20 +372,16 @@ function parseSupplement($, supplementEl, number, heading) {
       .map((node) => buildContentBlock($, node))
       .filter(Boolean);
 
-    const entry = {
-      eccn: current.code,
-      heading: current.heading || null,
-      title: deriveEccnTitle(current.code, current.heading),
-      category: current.code ? current.code.charAt(0) : null,
-      group: current.code ? current.code.slice(0, 2) : null,
+    const entry = createEccnEntry({
+      code: current.code,
+      heading: current.heading,
+      content,
       breadcrumbs: current.breadcrumbs,
-      structure: {
-        identifier: current.code,
-        heading: current.heading || null,
-        label: current.heading || current.code,
-        content: content.length > 0 ? content : undefined,
+      supplement: {
+        number,
+        heading: heading || null,
       },
-    };
+    });
 
     eccns.push(entry);
     current = null;
@@ -426,6 +452,309 @@ function parseSupplement($, supplementEl, number, heading) {
   };
 }
 
+function parseSupplementFive($, supplementEl, number, heading) {
+  const eccns = [];
+  const table = supplementEl.find('TABLE').first();
+  if (!table.length) {
+    return {
+      number,
+      heading: heading || null,
+      eccns,
+      metadata: {
+        eccnCount: 0,
+        categoryCounts: {},
+      },
+    };
+  }
+
+  const header = table.children('THEAD').first().length
+    ? table.children('THEAD').first()
+    : table.children('thead').first();
+  const headerHtml = header.length ? normalizeHtml($, header[0]) : '';
+
+  let body = table.children('TBODY');
+  if (!body.length) {
+    body = table.children('tbody');
+  }
+  const rows = (body.length ? body.children('TR') : table.find('TR')).toArray();
+
+  let current = null;
+
+  const finalizeCurrent = () => {
+    if (!current) {
+      return;
+    }
+
+    const rowHtml = current.rows.map((row) => normalizeHtml($, row)).join('');
+    const tableHtml = `<table class="supplement-table supplement-5-table">${headerHtml}${
+      rowHtml ? `<tbody>${rowHtml}</tbody>` : ''
+    }</table>`;
+
+    const entry = createEccnEntry({
+      code: current.code,
+      heading: current.heading,
+      content: [
+        {
+          type: 'html',
+          tag: 'TABLE',
+          html: tableHtml,
+          text: null,
+          id: null,
+        },
+      ],
+      breadcrumbs: [],
+      supplement: {
+        number,
+        heading: heading || null,
+      },
+    });
+
+    eccns.push(entry);
+    current = null;
+  };
+
+  for (const row of rows) {
+    const element = $(row);
+    const text = element.text().replace(/\s+/g, ' ').trim();
+    if (!text) {
+      if (current) {
+        current.rows.push(row);
+      }
+      continue;
+    }
+
+    const match = text.match(ECCN_HEADING_PATTERN);
+    if (match) {
+      finalizeCurrent();
+      current = {
+        code: match[1],
+        heading: text,
+        rows: [row],
+      };
+      continue;
+    }
+
+    if (current) {
+      current.rows.push(row);
+    }
+  }
+
+  finalizeCurrent();
+
+  const categoryCounts = eccns.reduce((acc, entry) => {
+    const key = entry.category || 'unknown';
+    acc[key] = (acc[key] || 0) + 1;
+    return acc;
+  }, {});
+
+  return {
+    number,
+    heading: heading || null,
+    eccns,
+    metadata: {
+      eccnCount: eccns.length,
+      categoryCounts,
+    },
+  };
+}
+
+function parseSupplementSix($, supplementEl, number, heading) {
+  return parseListStyleSupplement($, supplementEl, number, heading);
+}
+
+function parseSupplementSeven($, supplementEl, number, heading) {
+  return parseListStyleSupplement($, supplementEl, number, heading);
+}
+
+function parseListStyleSupplement($, supplementEl, number, heading) {
+  const eccns = [];
+  const seenCodes = new Set();
+  const headingTrail = [];
+  const supplementInfo = {
+    number,
+    heading: heading || null,
+  };
+
+  const nodes = supplementEl.children().toArray();
+  let current = null;
+
+  const finalizeCurrent = () => {
+    if (!current) {
+      return;
+    }
+
+    const content = current.nodes
+      .map((node) => buildContentBlock($, node))
+      .filter(Boolean);
+
+    for (const code of current.codes) {
+      if (seenCodes.has(code)) {
+        continue;
+      }
+
+      const entry = createEccnEntry({
+        code,
+        heading: current.heading,
+        content,
+        breadcrumbs: current.breadcrumbs,
+        supplement: supplementInfo,
+      });
+
+      eccns.push(entry);
+      seenCodes.add(code);
+    }
+
+    current = null;
+  };
+
+  for (const node of nodes) {
+    if (!node || (node.type !== 'tag' && node.type !== 'text')) {
+      continue;
+    }
+
+    if (node.type === 'text') {
+      const text = node.data.replace(/\s+/g, ' ').trim();
+      if (!text) {
+        continue;
+      }
+      if (current) {
+        current.nodes.push({ type: 'text', data: text });
+      }
+      continue;
+    }
+
+    const element = $(node);
+    const tagName = node.name ? node.name.toUpperCase() : '';
+
+    const headingLevel = getHeadingLevel(tagName);
+    if (headingLevel) {
+      finalizeCurrent();
+      const headingText = element.text().replace(/\s+/g, ' ').trim();
+      updateHeadingTrail(headingTrail, headingLevel, headingText);
+      continue;
+    }
+
+    const codes = extractEccnCodesFromNode($, element);
+    if (codes.length > 0) {
+      finalizeCurrent();
+      current = {
+        codes,
+        heading: element.text().replace(/\s+/g, ' ').trim(),
+        nodes: [node],
+        breadcrumbs: headingTrail.filter(Boolean),
+      };
+      continue;
+    }
+
+    if (current) {
+      current.nodes.push(node);
+    }
+  }
+
+  finalizeCurrent();
+
+  const categoryCounts = eccns.reduce((acc, entry) => {
+    const key = entry.category || 'unknown';
+    acc[key] = (acc[key] || 0) + 1;
+    return acc;
+  }, {});
+
+  return {
+    number,
+    heading: heading || null,
+    eccns,
+    metadata: {
+      eccnCount: eccns.length,
+      categoryCounts,
+    },
+  };
+}
+
+function extractEccnCodesFromNode($, element) {
+  const text = element.text().replace(/\s+/g, ' ').trim();
+  if (!text) {
+    return [];
+  }
+  return extractEccnCodesFromText(text);
+}
+
+const ECCN_BASE_PATTERN = /[0-9][A-Z][0-9]{3}(?:\.[A-Za-z0-9]+)*/g;
+
+function extractEccnCodesFromText(text) {
+  const codes = [];
+  const seen = new Set();
+
+  ECCN_BASE_PATTERN.lastIndex = 0;
+
+  let match;
+  while ((match = ECCN_BASE_PATTERN.exec(text))) {
+    const fullCode = sanitizeEccnCode(match[0]);
+    if (fullCode && !seen.has(fullCode)) {
+      seen.add(fullCode);
+      codes.push(fullCode);
+    }
+
+    const root = fullCode ? fullCode.split('.')[0] : null;
+    if (!root) {
+      continue;
+    }
+
+    let tailIndex = ECCN_BASE_PATTERN.lastIndex;
+    while (tailIndex < text.length) {
+      const tail = text.slice(tailIndex);
+      const prefixMatch = tail.match(/^[\s,]*(?:and|or|to|through)?\s*/);
+      if (!prefixMatch) {
+        break;
+      }
+
+      const afterPrefix = tail.slice(prefixMatch[0].length);
+      if (!afterPrefix.startsWith('.') && !/^[A-Za-z]\./.test(afterPrefix)) {
+        break;
+      }
+
+      const segmentMatch = afterPrefix.match(/^(?:\.[A-Za-z0-9]+(?:\.[A-Za-z0-9]+)*)|(?:[A-Za-z](?:\.[A-Za-z0-9]+)+)/);
+      if (!segmentMatch) {
+        break;
+      }
+
+      const suffix = segmentMatch[0];
+      const normalizedSuffix = sanitizeSuffix(suffix);
+      if (!normalizedSuffix) {
+        tailIndex += prefixMatch[0].length + segmentMatch[0].length;
+        continue;
+      }
+
+      const derived = `${root}${normalizedSuffix}`;
+      if (!seen.has(derived)) {
+        seen.add(derived);
+        codes.push(derived);
+      }
+
+      tailIndex += prefixMatch[0].length + segmentMatch[0].length;
+    }
+  }
+
+  return codes;
+}
+
+function sanitizeSuffix(suffix) {
+  if (!suffix) {
+    return null;
+  }
+  const trimmed = suffix.replace(/^[\s,;:–—-]*/, '').replace(/[\s).,;:–—'"“”-]+$/g, '');
+  if (!trimmed) {
+    return null;
+  }
+  return trimmed.startsWith('.') ? trimmed : `.${trimmed}`;
+}
+
+function sanitizeEccnCode(code) {
+  if (!code) {
+    return null;
+  }
+  return code.replace(/[\s).,;:–—'"“”-]+$/g, '');
+}
+
 function deriveEccnTitle(eccn, heading) {
   if (!heading) {
     return null;
@@ -435,7 +764,7 @@ function deriveEccnTitle(eccn, heading) {
     return null;
   }
   const regex = new RegExp(`^(${eccn}|ECCN\s+${eccn})\s*[-–—]?\s*`, 'i');
-  return normalizedHeading.replace(regex, '').trim() || null;
+  return normalizedHeading.replace(regex, '').replace(/^[\s,.;:–—-]+/, '').trim() || null;
 }
 
 function extractHeading($, element) {
@@ -466,7 +795,8 @@ function updateHeadingTrail(trail, level, text) {
 
 function extractEccnHeadingFromNode($, element) {
   const bold = element.children('B').first();
-  const target = bold.length ? bold : element;
+  const strong = element.children('STRONG').first();
+  const target = bold.length ? bold : strong.length ? strong : element;
   const text = target.text().replace(/\s+/g, ' ').trim();
   if (!text) {
     return null;
