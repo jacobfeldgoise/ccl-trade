@@ -526,6 +526,11 @@ function derivePathFromNode($, node, baseCode, block, lastPath) {
     return fromText;
   }
 
+  const compound = extractCompoundEnumeratorTokens(block?.text);
+  if (compound) {
+    return compound;
+  }
+
   const enumerator = extractEnumeratorFromBlock(block);
   if (enumerator) {
     const { token, type } = enumerator;
@@ -647,6 +652,14 @@ function extractEnumeratorFromText(text) {
     return null;
   }
 
+  const compound = extractCompoundEnumeratorTokens(normalized);
+  if (compound) {
+    return {
+      token: compound[compound.length - 1],
+      type: classifyEnumeratorToken(compound[compound.length - 1]),
+    };
+  }
+
   const patterns = [
     /^\(([ivxlcdm]{1,6})\)/i,
     /^\(([a-z]{1,2})\)/i,
@@ -723,6 +736,40 @@ function normalizeEnumeratorToken(token, type) {
   }
 
   return String(token).toLowerCase();
+}
+
+function extractCompoundEnumeratorTokens(text) {
+  if (!text) {
+    return null;
+  }
+
+  const normalized = String(text).replace(/^\s+/, '');
+  if (!normalized) {
+    return null;
+  }
+
+  const pattern = /^([A-Za-z0-9]{1,4}(?:\.[A-Za-z0-9]{1,4})+)(?:[).,;:\s\-–—]|$)/;
+  const match = normalized.match(pattern);
+  if (!match) {
+    return null;
+  }
+
+  const rawTokens = match[1].split('.');
+  if (rawTokens.length < 2) {
+    return null;
+  }
+
+  const tokens = [];
+
+  for (const rawToken of rawTokens) {
+    const type = classifyEnumeratorToken(rawToken);
+    if (!type) {
+      return null;
+    }
+    tokens.push(normalizeEnumeratorToken(rawToken, type));
+  }
+
+  return tokens;
 }
 
 function buildPathForEnumerator(token, level, lastPath) {
@@ -1181,15 +1228,22 @@ function extractEccnCodesFromText(text) {
 
   ECCN_BASE_PATTERN.lastIndex = 0;
 
+  let lastCode = null;
   let match;
   while ((match = ECCN_BASE_PATTERN.exec(text))) {
     const fullCode = sanitizeEccnCode(match[0]);
-    if (fullCode && !seen.has(fullCode)) {
+    if (!fullCode) {
+      continue;
+    }
+
+    if (!seen.has(fullCode)) {
       seen.add(fullCode);
       codes.push(fullCode);
     }
 
-    const root = fullCode ? fullCode.split('.')[0] : null;
+    lastCode = fullCode;
+
+    const root = fullCode.split('.')[0];
     if (!root) {
       continue;
     }
@@ -1197,11 +1251,12 @@ function extractEccnCodesFromText(text) {
     let tailIndex = ECCN_BASE_PATTERN.lastIndex;
     while (tailIndex < text.length) {
       const tail = text.slice(tailIndex);
-      const prefixMatch = tail.match(/^[\s,]*(?:and|or|to|through)?\s*/);
+      const prefixMatch = tail.match(/^[\s,;:–—\-()\[\]]*(and|or|to|through)?\s*/i);
       if (!prefixMatch) {
         break;
       }
 
+      const connector = prefixMatch[1] ? prefixMatch[1].toLowerCase() : null;
       const afterPrefix = tail.slice(prefixMatch[0].length);
       if (!afterPrefix.startsWith('.') && !/^[A-Za-z]\./.test(afterPrefix)) {
         break;
@@ -1214,18 +1269,31 @@ function extractEccnCodesFromText(text) {
 
       const suffix = segmentMatch[0];
       const normalizedSuffix = sanitizeSuffix(suffix);
+      const consumed = prefixMatch[0].length + segmentMatch[0].length;
+      tailIndex += consumed;
+
       if (!normalizedSuffix) {
-        tailIndex += prefixMatch[0].length + segmentMatch[0].length;
         continue;
       }
 
       const derived = `${root}${normalizedSuffix}`;
+
+      if ((connector === 'through' || connector === 'to') && lastCode) {
+        const rangeCodes = expandEccnRange(lastCode, derived);
+        for (const rangeCode of rangeCodes) {
+          if (!seen.has(rangeCode)) {
+            seen.add(rangeCode);
+            codes.push(rangeCode);
+          }
+        }
+      }
+
       if (!seen.has(derived)) {
         seen.add(derived);
         codes.push(derived);
       }
 
-      tailIndex += prefixMatch[0].length + segmentMatch[0].length;
+      lastCode = derived;
     }
   }
 
@@ -1236,11 +1304,47 @@ function sanitizeSuffix(suffix) {
   if (!suffix) {
     return null;
   }
-  const trimmed = suffix.replace(/^[\s,;:–—-]*/, '').replace(/[\s).,;:–—'"“”-]+$/g, '');
+  const trimmed = suffix
+    .replace(/^[\s,;:–—\-()\[\]]*/, '')
+    .replace(/[\s).,;:–—'"“”\-\]]+$/g, '');
   if (!trimmed) {
     return null;
   }
   return trimmed.startsWith('.') ? trimmed : `.${trimmed}`;
+}
+
+function expandEccnRange(startCode, endCode) {
+  if (!startCode || !endCode) {
+    return [];
+  }
+
+  const startParts = startCode.split('.');
+  const endParts = endCode.split('.');
+
+  if (startParts.length !== endParts.length) {
+    return [];
+  }
+
+  for (let i = 0; i < startParts.length - 1; i += 1) {
+    if (startParts[i] !== endParts[i]) {
+      return [];
+    }
+  }
+
+  const startValue = Number(startParts[startParts.length - 1]);
+  const endValue = Number(endParts[endParts.length - 1]);
+  if (!Number.isInteger(startValue) || !Number.isInteger(endValue) || startValue >= endValue) {
+    return [];
+  }
+
+  const prefix = startParts.slice(0, -1).join('.');
+  const results = [];
+  for (let value = startValue + 1; value < endValue; value += 1) {
+    const next = prefix ? `${prefix}.${value}` : String(value);
+    results.push(next);
+  }
+
+  return results;
 }
 
 function sanitizeEccnCode(code) {
