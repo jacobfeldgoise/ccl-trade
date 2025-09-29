@@ -376,37 +376,91 @@ function buildEccnTreeFromNodes($, nodes, { code, heading }) {
 
   let lastPath = [];
 
-  for (const rawNode of nodes) {
-    const block = buildContentBlock($, rawNode);
+  const pathBearingTags = new Set(['P', 'LI']);
+  const contentTags = new Set(['P', 'LI', 'NOTE', 'TABLE', 'UL', 'OL', 'DL']);
+
+  const processBlock = (node, { allowPath }) => {
+    const block = buildContentBlock($, node);
     if (!block) {
-      continue;
+      return;
     }
 
-    let pathTokens = derivePathFromNode($, rawNode, code);
-    if (pathTokens === null) {
-      pathTokens = lastPath.slice();
+    let pathTokens = null;
+    if (allowPath) {
+      pathTokens = derivePathFromNode($, node, code);
     }
 
-    if (!Array.isArray(pathTokens)) {
-      pathTokens = [];
-    }
-
+    const targetTokens = Array.isArray(pathTokens)
+      ? pathTokens
+      : Array.isArray(lastPath)
+      ? lastPath
+      : [];
     const targetNode = ensureTreeNode({
       root,
       map: nodeMap,
       baseCode: code,
-      pathTokens,
+      pathTokens: Array.isArray(targetTokens) ? targetTokens : [],
     });
 
     if (targetNode !== root) {
-      const headingCandidate = deriveParagraphHeadingFromBlock(rawNode, block);
+      const headingCandidate = deriveParagraphHeadingFromBlock(node, block);
       if (headingCandidate && !targetNode.heading) {
         targetNode.heading = headingCandidate;
       }
     }
 
     targetNode.content.push(block);
-    lastPath = pathTokens.slice();
+
+    if (Array.isArray(pathTokens)) {
+      lastPath = pathTokens.slice();
+    }
+  };
+
+  const traverse = (node) => {
+    if (!node) {
+      return;
+    }
+
+    if (node.type === 'text') {
+      const text = (node.data || '').trim();
+      if (!text) {
+        return;
+      }
+      const targetNode = ensureTreeNode({
+        root,
+        map: nodeMap,
+        baseCode: code,
+        pathTokens: Array.isArray(lastPath) ? lastPath : [],
+      });
+      targetNode.content.push({ type: 'text', text });
+      return;
+    }
+
+    if (node.type !== 'tag') {
+      return;
+    }
+
+    const tagName = node.name ? node.name.toUpperCase() : '';
+    const allowPath = pathBearingTags.has(tagName) || hasEccnId($, node, code);
+    const shouldCapture = contentTags.has(tagName) || allowPath || tagName.startsWith('HD');
+
+    if (shouldCapture) {
+      processBlock(node, { allowPath });
+
+      if (pathBearingTags.has(tagName)) {
+        return;
+      }
+    }
+
+    const element = $(node);
+    const children = element.contents().toArray();
+    for (const child of children) {
+      traverse(child);
+    }
+  };
+
+  for (const rawNode of nodes) {
+    traverse(rawNode);
   }
 
   return root;
@@ -438,6 +492,21 @@ function ensureTreeNode({ root, map, baseCode, pathTokens }) {
   }
 
   return current;
+}
+
+function hasEccnId($, node, baseCode) {
+  if (!node || node.type !== 'tag') {
+    return false;
+  }
+
+  const element = $(node);
+  const idAttr = element.attr('ID') || element.attr('id');
+  if (!idAttr) {
+    return false;
+  }
+
+  const tokens = extractPathTokensFromId(idAttr, baseCode);
+  return Array.isArray(tokens);
 }
 
 function derivePathFromNode($, node, baseCode) {
