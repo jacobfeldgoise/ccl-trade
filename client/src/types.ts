@@ -21,6 +21,10 @@ export interface EccnEntry {
   category?: string | null;
   group?: string | null;
   breadcrumbs: string[];
+  supplement: {
+    number: string;
+    heading?: string | null;
+  };
   structure: EccnNode;
 }
 
