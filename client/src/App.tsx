@@ -389,6 +389,18 @@ function App() {
                                   : '–'}
                               </dd>
                             </div>
+                            <div>
+                              <dt>Parent ECCN</dt>
+                              <dd>{activeEccn.parentEccn ?? '–'}</dd>
+                            </div>
+                            <div>
+                              <dt>Child ECCNs</dt>
+                              <dd>
+                                {activeEccn.childEccns && activeEccn.childEccns.length > 0
+                                  ? activeEccn.childEccns.join(', ')
+                                  : '–'}
+                              </dd>
+                            </div>
                           </dl>
                         </header>
                         <EccnNodeView node={activeEccn.structure} />

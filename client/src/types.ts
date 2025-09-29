@@ -26,6 +26,8 @@ export interface EccnEntry {
     heading?: string | null;
   };
   structure: EccnNode;
+  parentEccn?: string | null;
+  childEccns?: string[];
 }
 
 export interface SupplementMetadata {

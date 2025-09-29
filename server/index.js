@@ -337,21 +337,524 @@ const SUPPLEMENT_PARSERS = {
   '7': parseSupplementSeven,
 };
 
-function createEccnEntry({ code, heading, content, breadcrumbs, supplement }) {
-  return {
-    eccn: code,
+function createEccnEntries($, { code, heading, nodes, content, breadcrumbs, supplement }) {
+  const tree = nodes
+    ? buildEccnTreeFromNodes($, nodes, { code, heading })
+    : buildEccnTreeFromContent({ code, heading, content: content || [] });
+
+  return flattenEccnTree(tree, { code, heading, breadcrumbs, supplement });
+}
+
+function buildEccnTreeFromContent({ code, heading, content }) {
+  const root = createTreeNode({
+    identifier: code,
     heading: heading || null,
-    title: deriveEccnTitle(code, heading),
-    category: code ? code.charAt(0) : null,
-    group: code ? code.slice(0, 2) : null,
-    breadcrumbs,
-    supplement,
-    structure: {
-      identifier: code,
-      heading: heading || null,
-      label: heading || code,
-      content: content.length > 0 ? content : undefined,
-    },
+    path: [],
+    parent: null,
+  });
+
+  if (Array.isArray(content)) {
+    for (const block of content) {
+      if (block) {
+        root.content.push(block);
+      }
+    }
+  }
+
+  return root;
+}
+
+function buildEccnTreeFromNodes($, nodes, { code, heading }) {
+  const root = createTreeNode({
+    identifier: code,
+    heading: heading || null,
+    path: [],
+    parent: null,
+  });
+  const nodeMap = new Map();
+  nodeMap.set('', root);
+
+  let lastPath = [];
+
+  const pathBearingTags = new Set(['P', 'LI']);
+  const contentTags = new Set(['P', 'LI', 'NOTE', 'TABLE', 'UL', 'OL', 'DL']);
+
+  const processBlock = (node, { allowPath }) => {
+    const block = buildContentBlock($, node);
+    if (!block) {
+      return;
+    }
+
+    let pathTokens = null;
+    if (allowPath) {
+      pathTokens = derivePathFromNode($, node, code, block, lastPath);
+    }
+
+    const targetTokens = Array.isArray(pathTokens)
+      ? pathTokens
+      : Array.isArray(lastPath)
+      ? lastPath
+      : [];
+    const targetNode = ensureTreeNode({
+      root,
+      map: nodeMap,
+      baseCode: code,
+      pathTokens: Array.isArray(targetTokens) ? targetTokens : [],
+    });
+
+    if (targetNode !== root) {
+      const headingCandidate = deriveParagraphHeadingFromBlock(node, block);
+      if (headingCandidate && !targetNode.heading) {
+        targetNode.heading = headingCandidate;
+      }
+    }
+
+    targetNode.content.push(block);
+
+    if (Array.isArray(pathTokens)) {
+      lastPath = pathTokens.slice();
+    }
+  };
+
+  const traverse = (node) => {
+    if (!node) {
+      return;
+    }
+
+    if (node.type === 'text') {
+      const text = (node.data || '').trim();
+      if (!text) {
+        return;
+      }
+      const targetNode = ensureTreeNode({
+        root,
+        map: nodeMap,
+        baseCode: code,
+        pathTokens: Array.isArray(lastPath) ? lastPath : [],
+      });
+      targetNode.content.push({ type: 'text', text });
+      return;
+    }
+
+    if (node.type !== 'tag') {
+      return;
+    }
+
+    const tagName = node.name ? node.name.toUpperCase() : '';
+    const allowPath = pathBearingTags.has(tagName) || hasEccnId($, node, code);
+    const shouldCapture = contentTags.has(tagName) || allowPath || tagName.startsWith('HD');
+
+    if (shouldCapture) {
+      processBlock(node, { allowPath });
+
+      if (pathBearingTags.has(tagName)) {
+        return;
+      }
+    }
+
+    const element = $(node);
+    const children = element.contents().toArray();
+    for (const child of children) {
+      traverse(child);
+    }
+  };
+
+  for (const rawNode of nodes) {
+    traverse(rawNode);
+  }
+
+  return root;
+}
+
+function ensureTreeNode({ root, map, baseCode, pathTokens }) {
+  if (!pathTokens.length) {
+    return root;
+  }
+
+  let current = root;
+  const keyParts = [];
+
+  for (const token of pathTokens) {
+    keyParts.push(token);
+    const key = keyParts.join('.');
+    let child = map.get(key);
+    if (!child) {
+      child = createTreeNode({
+        identifier: `${baseCode}.${key}`,
+        heading: null,
+        path: keyParts.slice(),
+        parent: current,
+      });
+      map.set(key, child);
+      current.children.push(child);
+    }
+    current = child;
+  }
+
+  return current;
+}
+
+function hasEccnId($, node, baseCode) {
+  if (!node || node.type !== 'tag') {
+    return false;
+  }
+
+  const element = $(node);
+  const idAttr = element.attr('ID') || element.attr('id');
+  if (!idAttr) {
+    return false;
+  }
+
+  const tokens = extractPathTokensFromId(idAttr, baseCode);
+  return Array.isArray(tokens);
+}
+
+function derivePathFromNode($, node, baseCode, block, lastPath) {
+  if (!node || node.type === 'text') {
+    return null;
+  }
+
+  const element = $(node);
+  const idAttr = element.attr('ID') || element.attr('id');
+  const fromId = extractPathTokensFromId(idAttr, baseCode);
+  if (fromId) {
+    return fromId;
+  }
+
+  const fromText = extractPathTokensFromText(block?.text, baseCode);
+  if (fromText) {
+    return fromText;
+  }
+
+  const enumerator = extractEnumeratorFromBlock(block);
+  if (enumerator) {
+    const { token, type } = enumerator;
+    const level = determineEnumeratorLevel(type);
+    if (level) {
+      const normalized = normalizeEnumeratorToken(token, type);
+      const derived = buildPathForEnumerator(normalized, level, lastPath);
+      if (derived) {
+        return derived;
+      }
+    }
+  }
+
+  return null;
+}
+
+function extractPathTokensFromId(id, baseCode) {
+  if (!id || !baseCode) {
+    return null;
+  }
+
+  const normalizedId = String(id).toLowerCase();
+  const normalizedCode = String(baseCode).toLowerCase().replace(/[^a-z0-9]/g, '');
+  const index = normalizedId.lastIndexOf(normalizedCode);
+  if (index === -1) {
+    return null;
+  }
+
+  let suffix = normalizedId.slice(index + normalizedCode.length);
+  if (!suffix) {
+    return [];
+  }
+
+  suffix = suffix.replace(/[^a-z0-9]+/g, '');
+  if (!suffix || /^note\d*/.test(suffix)) {
+    return null;
+  }
+
+  const tokens = [];
+  let current = '';
+  let currentType = '';
+
+  for (const char of suffix) {
+    const type = /[0-9]/.test(char) ? 'digit' : 'letter';
+    if (current && type !== currentType) {
+      tokens.push(current);
+      current = '';
+    }
+    current += char;
+    currentType = type;
+  }
+
+  if (current) {
+    tokens.push(current);
+  }
+
+  const filtered = tokens.filter((token) => !/^note\d*$/i.test(token));
+  if (!filtered.length) {
+    return null;
+  }
+
+  return filtered;
+}
+
+function extractPathTokensFromText(text, baseCode) {
+  if (!text || !baseCode) {
+    return null;
+  }
+
+  const normalizedBase = String(baseCode).trim();
+  if (!normalizedBase) {
+    return null;
+  }
+
+  const escaped = escapeRegExp(normalizedBase);
+  const pattern = new RegExp(`(?:^|[^A-Za-z0-9])${escaped}((?:\\.[A-Za-z0-9]+)+)`, 'i');
+  const match = String(text).match(pattern);
+  if (!match) {
+    return null;
+  }
+
+  const suffix = match[1];
+  if (!suffix) {
+    return null;
+  }
+
+  const tokens = suffix
+    .split('.')
+    .map((part) => part.trim())
+    .filter(Boolean);
+
+  return tokens.length ? tokens : null;
+}
+
+function escapeRegExp(value) {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function extractEnumeratorFromBlock(block) {
+  if (!block) {
+    return null;
+  }
+
+  if (block.type === 'text') {
+    return extractEnumeratorFromText(block.text);
+  }
+
+  const text = block.text || null;
+  return extractEnumeratorFromText(text);
+}
+
+function extractEnumeratorFromText(text) {
+  if (!text) {
+    return null;
+  }
+
+  const normalized = String(text).replace(/^\s+/, '');
+  if (!normalized) {
+    return null;
+  }
+
+  const patterns = [
+    /^\(([ivxlcdm]{1,6})\)/i,
+    /^\(([a-z]{1,2})\)/i,
+    /^\(([0-9]{1,3})\)/,
+    /^([ivxlcdm]{1,6})[).\-–—]/i,
+    /^([a-z]{1,2})[).\-–—]/i,
+    /^([0-9]{1,3})[).\-–—]/,
+    /^([A-Z]{1,2})[).\-–—]/,
+  ];
+
+  for (const pattern of patterns) {
+    const match = normalized.match(pattern);
+    if (match && match[1]) {
+      const token = match[1];
+      const type = classifyEnumeratorToken(token);
+      if (type) {
+        return { token, type };
+      }
+    }
+  }
+
+  return null;
+}
+
+function classifyEnumeratorToken(token) {
+  if (!token) {
+    return null;
+  }
+
+  const raw = String(token);
+  const lower = raw.toLowerCase();
+
+  if (/^[0-9]{1,3}$/.test(raw)) {
+    return 'digit';
+  }
+
+  if (/^[ivxlcdm]{1,6}$/.test(lower)) {
+    return 'roman';
+  }
+
+  if (/^[A-Z]{1,2}$/.test(raw)) {
+    return 'upper';
+  }
+
+  if (/^[a-z]{1,2}$/.test(lower)) {
+    return 'letter';
+  }
+
+  return null;
+}
+
+function determineEnumeratorLevel(type) {
+  switch (type) {
+    case 'letter':
+      return 1;
+    case 'digit':
+      return 2;
+    case 'roman':
+      return 3;
+    case 'upper':
+      return 4;
+    default:
+      return null;
+  }
+}
+
+function normalizeEnumeratorToken(token, type) {
+  if (!token) {
+    return token;
+  }
+
+  if (type === 'digit') {
+    return String(token).replace(/^0+/, '') || '0';
+  }
+
+  return String(token).toLowerCase();
+}
+
+function buildPathForEnumerator(token, level, lastPath) {
+  if (!token || !level) {
+    return null;
+  }
+
+  const base = Array.isArray(lastPath) ? lastPath.slice(0, level - 1) : [];
+  if (level > 1 && base.length < level - 1) {
+    return null;
+  }
+
+  base[level - 1] = token;
+  return base;
+}
+
+function deriveParagraphHeadingFromBlock(node, block) {
+  const textSource = block?.text || (node && node.type === 'text' ? node.data : null);
+  if (!textSource) {
+    return null;
+  }
+
+  const stripped = stripLeadingEnumerators(String(textSource));
+  return stripped || null;
+}
+
+function stripLeadingEnumerators(text) {
+  if (!text) {
+    return '';
+  }
+
+  let working = text.replace(/\s+/g, ' ').trim();
+  if (!working) {
+    return '';
+  }
+
+  let changed = false;
+  do {
+    changed = false;
+    const match = working.match(/^\(([a-z0-9]{1,4}|[ivxlcdm]{1,5})\)[-\s\u2013\u2014:;.,]*/i);
+    if (match) {
+      const candidate = working.slice(match[0].length).trim();
+      if (candidate) {
+        working = candidate;
+        changed = true;
+        continue;
+      }
+    }
+
+    const dotMatch = working.match(/^([a-z0-9]{1,4})\.[-\s\u2013\u2014:;.,]*/i);
+    if (dotMatch) {
+      const candidate = working.slice(dotMatch[0].length).trim();
+      if (candidate) {
+        working = candidate;
+        changed = true;
+      }
+    }
+  } while (changed);
+
+  return working.trim();
+}
+
+function flattenEccnTree(root, { code, heading, breadcrumbs, supplement }) {
+  const entries = [];
+  const category = code ? code.charAt(0) : null;
+  const group = code ? code.slice(0, 2) : null;
+
+  const visit = (node) => {
+    const parent = node.parent;
+    const isRoot = node === root;
+    const nodeHeading = isRoot ? heading || node.heading : node.heading || null;
+    const entry = {
+      eccn: node.identifier,
+      heading: nodeHeading,
+      title: isRoot ? deriveEccnTitle(code, nodeHeading) : nodeHeading,
+      category,
+      group,
+      breadcrumbs: buildNodeBreadcrumbs(node, root, breadcrumbs || []),
+      supplement,
+      structure: convertTreeNodeToStructure(node),
+      parentEccn: parent ? parent.identifier : null,
+      childEccns: node.children.map((child) => child.identifier),
+    };
+
+    entries.push(entry);
+    node.children.forEach(visit);
+  };
+
+  visit(root);
+  return entries;
+}
+
+function buildNodeBreadcrumbs(node, root, baseBreadcrumbs) {
+  const trail = [];
+  let current = node.parent;
+
+  while (current && current !== root) {
+    const label = current.heading || current.identifier;
+    if (label) {
+      trail.unshift(label);
+    }
+    current = current.parent;
+  }
+
+  if (node !== root && root.heading) {
+    trail.unshift(root.heading);
+  }
+
+  return [...(baseBreadcrumbs || []), ...trail];
+}
+
+function convertTreeNodeToStructure(node) {
+  const children = node.children.map((child) => convertTreeNodeToStructure(child));
+  const label = node.heading && node.heading !== node.identifier ? `${node.identifier} – ${node.heading}` : node.identifier;
+
+  return {
+    identifier: node.identifier,
+    heading: node.heading || null,
+    label,
+    content: node.content.length > 0 ? node.content : undefined,
+    children: children.length > 0 ? children : undefined,
+  };
+}
+
+function createTreeNode({ identifier, heading, path, parent }) {
+  return {
+    identifier,
+    heading: heading || null,
+    content: [],
+    children: [],
+    path: path ? path.slice() : [],
+    parent: parent || null,
   };
 }
 
@@ -368,14 +871,10 @@ function parseSupplementOne($, supplementEl, number, heading) {
       return;
     }
 
-    const content = current.nodes
-      .map((node) => buildContentBlock($, node))
-      .filter(Boolean);
-
-    const entry = createEccnEntry({
+    const entries = createEccnEntries($, {
       code: current.code,
       heading: current.heading,
-      content,
+      nodes: current.nodes,
       breadcrumbs: current.breadcrumbs,
       supplement: {
         number,
@@ -383,7 +882,7 @@ function parseSupplementOne($, supplementEl, number, heading) {
       },
     });
 
-    eccns.push(entry);
+    eccns.push(...entries);
     current = null;
   };
 
@@ -490,7 +989,7 @@ function parseSupplementFive($, supplementEl, number, heading) {
       rowHtml ? `<tbody>${rowHtml}</tbody>` : ''
     }</table>`;
 
-    const entry = createEccnEntry({
+    const entries = createEccnEntries($, {
       code: current.code,
       heading: current.heading,
       content: [
@@ -509,7 +1008,7 @@ function parseSupplementFive($, supplementEl, number, heading) {
       },
     });
 
-    eccns.push(entry);
+    eccns.push(...entries);
     current = null;
   };
 
@@ -583,24 +1082,20 @@ function parseListStyleSupplement($, supplementEl, number, heading) {
       return;
     }
 
-    const content = current.nodes
-      .map((node) => buildContentBlock($, node))
-      .filter(Boolean);
-
     for (const code of current.codes) {
       if (seenCodes.has(code)) {
         continue;
       }
 
-      const entry = createEccnEntry({
+      const entries = createEccnEntries($, {
         code,
         heading: current.heading,
-        content,
+        nodes: current.nodes,
         breadcrumbs: current.breadcrumbs,
         supplement: supplementInfo,
       });
 
-      eccns.push(entry);
+      eccns.push(...entries);
       seenCodes.add(code);
     }
 
