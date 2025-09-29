@@ -267,7 +267,7 @@ function buildHeaders(accept) {
 }
 
 const TARGET_SUPPLEMENTS = new Set(['1', '5', '6', '7']);
-const ECCN_CODE_PATTERN = /^[0-9][A-Z][0-9]{3}$/;
+const ECCN_CODE_CAPTURE_PATTERN = /([0-9][A-Z][0-9]{3})/;
 
 function parsePart(xml) {
   const $ = load(xml, { xmlMode: true, decodeEntities: true });
@@ -319,20 +319,31 @@ function parseSupplement($, supplementEl, number, heading) {
   const seen = new Set();
 
   supplementEl.find('[N]').each((_, raw) => {
-    const el = $(raw);
-    const identifier = (el.attr('N') || '').trim();
-    if (!identifier || seen.has(identifier)) {
+    if (!raw.name) {
       return;
     }
-    if (ECCN_CODE_PATTERN.test(identifier)) {
-      seen.add(identifier);
-      eccnElements.push(el);
+    const tagName = raw.name.toUpperCase();
+    if (!/^DIV\d+$/.test(tagName)) {
+      return;
     }
+
+    const el = $(raw);
+    const candidate = extractEccnCandidate($, el);
+    if (!candidate) {
+      return;
+    }
+    if (seen.has(candidate.eccn)) {
+      return;
+    }
+    seen.add(candidate.eccn);
+    eccnElements.push(candidate);
   });
 
-  eccnElements.sort((a, b) => compareIdentifiers(a.attr('N'), b.attr('N')));
+  eccnElements.sort((a, b) => compareIdentifiers(a.eccn, b.eccn));
 
-  const eccns = eccnElements.map((el) => parseEccn($, el, supplementEl));
+  const eccns = eccnElements.map((entry) =>
+    parseEccn($, entry.element, supplementEl, { eccn: entry.eccn, identifier: entry.identifier })
+  );
 
   const categoryCounts = eccns.reduce((acc, entry) => {
     const key = entry.category || 'unknown';
@@ -351,12 +362,63 @@ function parseSupplement($, supplementEl, number, heading) {
   };
 }
 
-function parseEccn($, element, supplementEl) {
-  const eccn = (element.attr('N') || '').trim();
+function extractEccnCandidate($, element) {
+  const identifier = (element.attr('N') || '').trim();
+  const identifierMatch = findEccnInIdentifier(identifier);
+  const heading = extractHeading($, element);
+  const headingMatch = findEccnInHeading(heading);
+
+  const match = identifierMatch || headingMatch;
+  if (!match) {
+    return null;
+  }
+
+  return {
+    eccn: match.code,
+    identifier: identifier || null,
+    element,
+  };
+}
+
+function findEccnInIdentifier(identifier) {
+  if (!identifier) {
+    return null;
+  }
+
+  const match = identifier.match(ECCN_CODE_CAPTURE_PATTERN);
+  if (!match) {
+    return null;
+  }
+
+  const code = match[1];
+  const suffix = identifier.slice(match.index + code.length);
+  if (/[A-Z0-9]/i.test(suffix)) {
+    return null;
+  }
+
+  return { code };
+}
+
+function findEccnInHeading(heading) {
+  if (!heading) {
+    return null;
+  }
+
+  const match = heading.match(/^(?:ECCN\s+)?([0-9][A-Z][0-9]{3})\b/);
+  if (!match) {
+    return null;
+  }
+
+  return { code: match[1] };
+}
+
+function parseEccn($, element, supplementEl, context = {}) {
+  const eccn = context.eccn || (element.attr('N') || '').trim() || null;
   const heading = extractHeading($, element);
   const title = deriveEccnTitle(eccn, heading);
   const breadcrumbs = collectBreadcrumbs($, element, supplementEl);
-  const structure = parseEccnNode($, element, eccn);
+  const baseIdentifier = pickBaseIdentifier(context.identifier, eccn);
+  const structure = parseEccnNode($, element, baseIdentifier);
 
   return {
     eccn,
@@ -367,6 +429,19 @@ function parseEccn($, element, supplementEl) {
     breadcrumbs,
     structure,
   };
+}
+
+function pickBaseIdentifier(identifier, eccn) {
+  const normalized = (identifier || '').trim();
+  if (!normalized) {
+    return eccn || null;
+  }
+  if (!eccn) {
+    return normalized;
+  }
+
+  const containsEccn = normalized.toUpperCase().includes(eccn.toUpperCase());
+  return containsEccn ? normalized : eccn;
 }
 
 function deriveEccnTitle(eccn, heading) {
