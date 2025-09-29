@@ -854,10 +854,11 @@ function flattenEccnTree(root, { code, heading, breadcrumbs, supplement }) {
 
     node.boundToParent = Boolean(suppressedDueToAncestor);
 
+    node.isEccn = true;
+
     let entry = null;
     if (!suppressed) {
       const nodeHeading = isRoot ? heading || node.heading : node.heading || null;
-      node.isEccn = true;
       entry = {
         eccn: node.identifier,
         heading: nodeHeading,
@@ -926,17 +927,89 @@ function buildNodeBreadcrumbs(node, root, baseBreadcrumbs) {
 function convertTreeNodeToStructure(node) {
   const children = node.children.map((child) => convertTreeNodeToStructure(child));
   const label = node.heading && node.heading !== node.identifier ? `${node.identifier} – ${node.heading}` : node.identifier;
+  const content = filterRedundantContent(node);
 
   return {
     identifier: node.identifier,
     heading: node.heading || null,
     label,
-    content: node.content.length > 0 ? node.content : undefined,
+    content: content.length > 0 ? content : undefined,
     children: children.length > 0 ? children : undefined,
     isEccn: Boolean(node.isEccn),
     boundToParent: Boolean(node.boundToParent),
     requireAllChildren: Boolean(node.requireAllChildren),
   };
+}
+
+function filterRedundantContent(node) {
+  if (!Array.isArray(node.content) || node.content.length === 0) {
+    return [];
+  }
+
+  if (!node.heading) {
+    return node.content.slice();
+  }
+
+  const candidates = new Set();
+
+  const headingText = normalizeComparableText(node.heading);
+  if (headingText) {
+    candidates.add(headingText);
+  }
+
+  if (node.identifier) {
+    const identifierText = normalizeComparableText(node.identifier);
+    if (identifierText) {
+      candidates.add(identifierText);
+    }
+
+    const dashed = normalizeComparableText(`${node.identifier} – ${node.heading}`);
+    if (dashed) {
+      candidates.add(dashed);
+    }
+
+    const spaced = normalizeComparableText(`${node.identifier} ${node.heading}`);
+    if (spaced) {
+      candidates.add(spaced);
+    }
+  }
+
+  return node.content.filter((block) => {
+    const comparable = extractComparableText(block);
+    if (!comparable) {
+      return true;
+    }
+
+    return !candidates.has(comparable);
+  });
+}
+
+function extractComparableText(block) {
+  if (!block) {
+    return null;
+  }
+
+  if (block.text) {
+    return normalizeComparableText(block.text);
+  }
+
+  if (block.html) {
+    const stripped = block.html
+      .replace(/<[^>]*>/g, ' ')
+      .replace(/&nbsp;/gi, ' ')
+      .replace(/&amp;/gi, '&');
+    return normalizeComparableText(stripped);
+  }
+
+  return null;
+}
+
+function normalizeComparableText(value) {
+  if (!value) {
+    return null;
+  }
+
+  return value.replace(/\s+/g, ' ').trim().toLowerCase() || null;
 }
 
 function createTreeNode({ identifier, heading, path, parent }) {

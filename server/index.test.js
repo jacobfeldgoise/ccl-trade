@@ -38,7 +38,7 @@ test('nodes marked as requiring all children suppress standalone ECCNs', () => {
   assert.deepEqual(parentEntry.childEccns, []);
   const boundChild = parentEntry.structure.children?.find((child) => child.identifier === '3B001.a.4.a');
   assert(boundChild, 'bound child should remain in the parent structure');
-  assert.equal(boundChild?.isEccn, false);
+  assert.equal(boundChild?.isEccn, true);
   assert.equal(boundChild?.boundToParent, true);
 });
 
@@ -64,4 +64,22 @@ test('nodes without the phrase still produce standalone ECCNs for children', () 
   assert(childEntry, 'child without the special phrase should remain its own ECCN');
   assert.equal(childEntry?.structure.isEccn, true);
   assert.equal(childEntry?.structure.boundToParent, false);
+});
+
+test('duplicate headings are removed from structure content', () => {
+  const root = createTreeNode({ identifier: '3C001', heading: 'Widgets', path: [], parent: null });
+  root.content.push({ type: 'text', text: 'Widgets' });
+  root.content.push({ type: 'text', text: 'Note: Additional context' });
+
+  const entries = flattenEccnTree(root, {
+    code: '3C001',
+    heading: root.heading,
+    breadcrumbs: [],
+    supplement: '1',
+  });
+
+  const [entry] = entries;
+  assert(entry, 'expected entry to be generated');
+  assert.equal(entry.structure.content?.length, 1);
+  assert.equal(entry.structure.content?.[0].text, 'Note: Additional context');
 });

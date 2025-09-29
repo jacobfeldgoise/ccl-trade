@@ -33,7 +33,7 @@ export function EccnNodeView({ node, level = 0 }: EccnNodeViewProps) {
     return undefined;
   }, [node.identifier, node.heading]);
 
-  const showLabel = !node.isEccn || !node.boundToParent;
+  const showLabel = !node.boundToParent;
 
   if (!isAccordion) {
     return (
