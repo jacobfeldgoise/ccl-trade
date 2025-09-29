@@ -1,0 +1,69 @@
+import { useMemo, useState } from 'react';
+import DOMPurify from 'dompurify';
+import { EccnContentBlock, EccnNode } from '../types';
+
+interface EccnNodeViewProps {
+  node: EccnNode;
+  level?: number;
+}
+
+export function EccnNodeView({ node, level = 0 }: EccnNodeViewProps) {
+  const [open, setOpen] = useState(level < 2);
+
+  const label = useMemo(() => {
+    const parts = [] as string[];
+    if (node.identifier) parts.push(node.identifier);
+    if (node.heading && node.heading !== node.identifier) parts.push(node.heading);
+    if (!parts.length && node.label) parts.push(node.label);
+    return parts.join(' – ') || 'Details';
+  }, [node.identifier, node.heading, node.label]);
+
+  const anchorId = useMemo(() => {
+    if (node.identifier) {
+      return `eccn-node-${node.identifier.replace(/[^\w.-]+/g, '-')}`;
+    }
+    if (node.heading) {
+      return `eccn-node-${node.heading.replace(/[^\w.-]+/g, '-').toLowerCase()}`;
+    }
+    return undefined;
+  }, [node.identifier, node.heading]);
+
+  return (
+    <details
+      className={`eccn-node level-${level}`}
+      open={open}
+      onToggle={(event) => setOpen((event.target as HTMLDetailsElement).open)}
+      id={anchorId}
+    >
+      <summary>
+        <span className="node-label">{label}</span>
+      </summary>
+      <div className="node-body">
+        {node.content?.map((entry, index) => (
+          <ContentBlock entry={entry} key={`${anchorId || label}-content-${index}`} />
+        ))}
+        {node.children?.map((child, index) => (
+          <EccnNodeView node={child} level={level + 1} key={`${anchorId || label}-child-${index}`} />
+        ))}
+      </div>
+    </details>
+  );
+}
+
+function ContentBlock({ entry }: { entry: EccnContentBlock }) {
+  if (entry.type === 'text') {
+    return <p className="content text-only">{entry.text}</p>;
+  }
+
+  const sanitizedHtml = entry.html
+    ? DOMPurify.sanitize(entry.html, { USE_PROFILES: { html: true } })
+    : entry.text;
+
+  if (!sanitizedHtml) {
+    return null;
+  }
+
+  const className = `content content-${(entry.tag || 'html').toLowerCase()}`;
+
+  return <div className={className} dangerouslySetInnerHTML={{ __html: sanitizedHtml }} />;
+}
