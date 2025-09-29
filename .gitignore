@@ -1,0 +1,18 @@
+node_modules/
+client/node_modules/
+server/node_modules/
+client/dist/
+server/.cache/
+*.log
+npm-debug.log*
+.DS_Store
+
+# Local data cache generated at runtime
+/data/*.json
+/data/*.xml
+/data/*.txt
+
+# Temporary artifacts
+*.tmp
+*.temp
+*.sqlite
