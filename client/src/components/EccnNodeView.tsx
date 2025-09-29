@@ -33,10 +33,12 @@ export function EccnNodeView({ node, level = 0 }: EccnNodeViewProps) {
     return undefined;
   }, [node.identifier, node.heading]);
 
+  const showLabel = !node.isEccn || !node.boundToParent;
+
   if (!isAccordion) {
     return (
       <div className={`eccn-node level-${level} static`} id={anchorId}>
-        <div className="node-label">{label}</div>
+        {showLabel ? <div className="node-label">{label}</div> : null}
         <div className="node-body">
           {node.content?.map((entry, index) => (
             <ContentBlock entry={entry} key={`${anchorId || label}-content-${index}`} />
