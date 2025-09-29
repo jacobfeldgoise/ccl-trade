@@ -526,6 +526,11 @@ function derivePathFromNode($, node, baseCode, block, lastPath) {
     return fromText;
   }
 
+  const compound = extractCompoundEnumeratorTokens(block?.text);
+  if (compound) {
+    return compound;
+  }
+
   const enumerator = extractEnumeratorFromBlock(block);
   if (enumerator) {
     const { token, type } = enumerator;
@@ -647,6 +652,14 @@ function extractEnumeratorFromText(text) {
     return null;
   }
 
+  const compound = extractCompoundEnumeratorTokens(normalized);
+  if (compound) {
+    return {
+      token: compound[compound.length - 1],
+      type: classifyEnumeratorToken(compound[compound.length - 1]),
+    };
+  }
+
   const patterns = [
     /^\(([ivxlcdm]{1,6})\)/i,
     /^\(([a-z]{1,2})\)/i,
@@ -723,6 +736,40 @@ function normalizeEnumeratorToken(token, type) {
   }
 
   return String(token).toLowerCase();
+}
+
+function extractCompoundEnumeratorTokens(text) {
+  if (!text) {
+    return null;
+  }
+
+  const normalized = String(text).replace(/^\s+/, '');
+  if (!normalized) {
+    return null;
+  }
+
+  const pattern = /^([A-Za-z0-9]{1,4}(?:\.[A-Za-z0-9]{1,4})+)(?:[).,;:\s\-–—]|$)/;
+  const match = normalized.match(pattern);
+  if (!match) {
+    return null;
+  }
+
+  const rawTokens = match[1].split('.');
+  if (rawTokens.length < 2) {
+    return null;
+  }
+
+  const tokens = [];
+
+  for (const rawToken of rawTokens) {
+    const type = classifyEnumeratorToken(rawToken);
+    if (!type) {
+      return null;
+    }
+    tokens.push(normalizeEnumeratorToken(rawToken, type));
+  }
+
+  return tokens;
 }
 
 function buildPathForEnumerator(token, level, lastPath) {
