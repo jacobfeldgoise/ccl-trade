@@ -270,6 +270,7 @@ function buildHeaders(accept) {
 
 const TARGET_SUPPLEMENTS = new Set(['1', '5', '6', '7']);
 const ECCN_HEADING_PATTERN = /^([0-9][A-Z][0-9]{3})(?=$|[\s.\-–—:;(\[])/;
+const ALL_OF_FOLLOWING_PATTERN = /\bhaving all of the following\b/i;
 
 function parsePart(xml) {
   const $ = load(xml, { xmlMode: true, decodeEntities: true });
@@ -357,6 +358,9 @@ function buildEccnTreeFromContent({ code, heading, content }) {
     for (const block of content) {
       if (block) {
         root.content.push(block);
+        if (block?.text) {
+          markNodeRequiresAllChildren(root, block.text);
+        }
       }
     }
   }
@@ -406,10 +410,14 @@ function buildEccnTreeFromNodes($, nodes, { code, heading }) {
       const headingCandidate = deriveParagraphHeadingFromBlock(node, block);
       if (headingCandidate && !targetNode.heading) {
         targetNode.heading = headingCandidate;
+        markNodeRequiresAllChildren(targetNode, headingCandidate);
       }
     }
 
     targetNode.content.push(block);
+    if (block?.text) {
+      markNodeRequiresAllChildren(targetNode, block.text);
+    }
 
     if (Array.isArray(pathTokens)) {
       lastPath = pathTokens.slice();
@@ -433,6 +441,7 @@ function buildEccnTreeFromNodes($, nodes, { code, heading }) {
         pathTokens: Array.isArray(lastPath) ? lastPath : [],
       });
       targetNode.content.push({ type: 'text', text });
+      markNodeRequiresAllChildren(targetNode, text);
       return;
     }
 
@@ -837,29 +846,63 @@ function flattenEccnTree(root, { code, heading, breadcrumbs, supplement }) {
   const category = code ? code.charAt(0) : null;
   const group = code ? code.slice(0, 2) : null;
 
-  const visit = (node) => {
+  const visit = (node, suppressedDueToAncestor) => {
     const parent = node.parent;
     const isRoot = node === root;
-    const nodeHeading = isRoot ? heading || node.heading : node.heading || null;
-    const entry = {
-      eccn: node.identifier,
-      heading: nodeHeading,
-      title: isRoot ? deriveEccnTitle(code, nodeHeading) : nodeHeading,
-      category,
-      group,
-      breadcrumbs: buildNodeBreadcrumbs(node, root, breadcrumbs || []),
-      supplement,
-      structure: convertTreeNodeToStructure(node),
-      parentEccn: parent ? parent.identifier : null,
-      childEccns: node.children.map((child) => child.identifier),
-    };
+    const parentRequiresAll = parent ? parent.requireAllChildren : false;
+    const suppressed = Boolean(suppressedDueToAncestor || parentRequiresAll);
 
-    entries.push(entry);
-    node.children.forEach(visit);
+    node.boundToParent = Boolean(suppressedDueToAncestor);
+
+    node.isEccn = true;
+
+    let entry = null;
+    if (!suppressed) {
+      const nodeHeading = isRoot ? heading || node.heading : node.heading || null;
+      entry = {
+        eccn: node.identifier,
+        heading: nodeHeading,
+        title: isRoot ? deriveEccnTitle(code, nodeHeading) : nodeHeading,
+        category,
+        group,
+        breadcrumbs: buildNodeBreadcrumbs(node, root, breadcrumbs || []),
+        supplement,
+        structure: null,
+        parentEccn: parent ? parent.identifier : null,
+        childEccns: [],
+      };
+
+      entries.push(entry);
+    }
+
+    const childSuppression = suppressed || node.requireAllChildren;
+
+    for (const child of node.children) {
+      const childProducesEntry = visit(child, childSuppression);
+      if (entry && childProducesEntry) {
+        entry.childEccns.push(child.identifier);
+      }
+    }
+
+    if (entry) {
+      entry.structure = convertTreeNodeToStructure(node);
+    }
+
+    return Boolean(entry);
   };
 
-  visit(root);
+  visit(root, false);
   return entries;
+}
+
+function markNodeRequiresAllChildren(node, text) {
+  if (!node || node.requireAllChildren || !text) {
+    return;
+  }
+
+  if (ALL_OF_FOLLOWING_PATTERN.test(text)) {
+    node.requireAllChildren = true;
+  }
 }
 
 function buildNodeBreadcrumbs(node, root, baseBreadcrumbs) {
@@ -884,14 +927,89 @@ function buildNodeBreadcrumbs(node, root, baseBreadcrumbs) {
 function convertTreeNodeToStructure(node) {
   const children = node.children.map((child) => convertTreeNodeToStructure(child));
   const label = node.heading && node.heading !== node.identifier ? `${node.identifier} – ${node.heading}` : node.identifier;
+  const content = filterRedundantContent(node);
 
   return {
     identifier: node.identifier,
     heading: node.heading || null,
     label,
-    content: node.content.length > 0 ? node.content : undefined,
+    content: content.length > 0 ? content : undefined,
     children: children.length > 0 ? children : undefined,
+    isEccn: Boolean(node.isEccn),
+    boundToParent: Boolean(node.boundToParent),
+    requireAllChildren: Boolean(node.requireAllChildren),
   };
+}
+
+function filterRedundantContent(node) {
+  if (!Array.isArray(node.content) || node.content.length === 0) {
+    return [];
+  }
+
+  if (!node.heading) {
+    return node.content.slice();
+  }
+
+  const candidates = new Set();
+
+  const headingText = normalizeComparableText(node.heading);
+  if (headingText) {
+    candidates.add(headingText);
+  }
+
+  if (node.identifier) {
+    const identifierText = normalizeComparableText(node.identifier);
+    if (identifierText) {
+      candidates.add(identifierText);
+    }
+
+    const dashed = normalizeComparableText(`${node.identifier} – ${node.heading}`);
+    if (dashed) {
+      candidates.add(dashed);
+    }
+
+    const spaced = normalizeComparableText(`${node.identifier} ${node.heading}`);
+    if (spaced) {
+      candidates.add(spaced);
+    }
+  }
+
+  return node.content.filter((block) => {
+    const comparable = extractComparableText(block);
+    if (!comparable) {
+      return true;
+    }
+
+    return !candidates.has(comparable);
+  });
+}
+
+function extractComparableText(block) {
+  if (!block) {
+    return null;
+  }
+
+  if (block.text) {
+    return normalizeComparableText(block.text);
+  }
+
+  if (block.html) {
+    const stripped = block.html
+      .replace(/<[^>]*>/g, ' ')
+      .replace(/&nbsp;/gi, ' ')
+      .replace(/&amp;/gi, '&');
+    return normalizeComparableText(stripped);
+  }
+
+  return null;
+}
+
+function normalizeComparableText(value) {
+  if (!value) {
+    return null;
+  }
+
+  return value.replace(/\s+/g, ' ').trim().toLowerCase() || null;
 }
 
 function createTreeNode({ identifier, heading, path, parent }) {
@@ -902,6 +1020,9 @@ function createTreeNode({ identifier, heading, path, parent }) {
     children: [],
     path: path ? path.slice() : [],
     parent: parent || null,
+    requireAllChildren: false,
+    isEccn: false,
+    boundToParent: false,
   };
 }
 
@@ -1444,5 +1565,5 @@ function buildContentBlock($, node) {
   };
 }
 
-export { fetchAndParseCcl, parsePart };
+export { fetchAndParseCcl, parsePart, flattenEccnTree, createTreeNode, markNodeRequiresAllChildren };
 

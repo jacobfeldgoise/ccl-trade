@@ -12,6 +12,9 @@ export interface EccnNode {
   heading?: string | null;
   content?: EccnContentBlock[];
   children?: EccnNode[];
+  isEccn?: boolean;
+  boundToParent?: boolean;
+  requireAllChildren?: boolean;
 }
 
 export interface EccnEntry {
