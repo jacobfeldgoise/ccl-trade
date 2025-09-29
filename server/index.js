@@ -270,6 +270,7 @@ function buildHeaders(accept) {
 
 const TARGET_SUPPLEMENTS = new Set(['1', '5', '6', '7']);
 const ECCN_HEADING_PATTERN = /^([0-9][A-Z][0-9]{3})(?=$|[\s.\-–—:;(\[])/;
+const ALL_OF_FOLLOWING_PATTERN = /\bhaving all of the following\b/i;
 
 function parsePart(xml) {
   const $ = load(xml, { xmlMode: true, decodeEntities: true });
@@ -357,6 +358,9 @@ function buildEccnTreeFromContent({ code, heading, content }) {
     for (const block of content) {
       if (block) {
         root.content.push(block);
+        if (block?.text) {
+          markNodeRequiresAllChildren(root, block.text);
+        }
       }
     }
   }
@@ -410,6 +414,9 @@ function buildEccnTreeFromNodes($, nodes, { code, heading }) {
     }
 
     targetNode.content.push(block);
+    if (block?.text) {
+      markNodeRequiresAllChildren(targetNode, block.text);
+    }
 
     if (Array.isArray(pathTokens)) {
       lastPath = pathTokens.slice();
@@ -433,6 +440,7 @@ function buildEccnTreeFromNodes($, nodes, { code, heading }) {
         pathTokens: Array.isArray(lastPath) ? lastPath : [],
       });
       targetNode.content.push({ type: 'text', text });
+      markNodeRequiresAllChildren(targetNode, text);
       return;
     }
 
@@ -837,29 +845,55 @@ function flattenEccnTree(root, { code, heading, breadcrumbs, supplement }) {
   const category = code ? code.charAt(0) : null;
   const group = code ? code.slice(0, 2) : null;
 
-  const visit = (node) => {
+  const visit = (node, suppressedDueToAncestor) => {
     const parent = node.parent;
     const isRoot = node === root;
-    const nodeHeading = isRoot ? heading || node.heading : node.heading || null;
-    const entry = {
-      eccn: node.identifier,
-      heading: nodeHeading,
-      title: isRoot ? deriveEccnTitle(code, nodeHeading) : nodeHeading,
-      category,
-      group,
-      breadcrumbs: buildNodeBreadcrumbs(node, root, breadcrumbs || []),
-      supplement,
-      structure: convertTreeNodeToStructure(node),
-      parentEccn: parent ? parent.identifier : null,
-      childEccns: node.children.map((child) => child.identifier),
-    };
+    const parentRequiresAll = parent ? parent.requireAllChildren : false;
+    const suppressed = Boolean(suppressedDueToAncestor || parentRequiresAll);
 
-    entries.push(entry);
-    node.children.forEach(visit);
+    let entry = null;
+    if (!suppressed) {
+      const nodeHeading = isRoot ? heading || node.heading : node.heading || null;
+      entry = {
+        eccn: node.identifier,
+        heading: nodeHeading,
+        title: isRoot ? deriveEccnTitle(code, nodeHeading) : nodeHeading,
+        category,
+        group,
+        breadcrumbs: buildNodeBreadcrumbs(node, root, breadcrumbs || []),
+        supplement,
+        structure: convertTreeNodeToStructure(node),
+        parentEccn: parent ? parent.identifier : null,
+        childEccns: [],
+      };
+
+      entries.push(entry);
+    }
+
+    const childSuppression = suppressed || node.requireAllChildren;
+
+    for (const child of node.children) {
+      const childProducesEntry = visit(child, childSuppression);
+      if (entry && childProducesEntry) {
+        entry.childEccns.push(child.identifier);
+      }
+    }
+
+    return Boolean(entry);
   };
 
-  visit(root);
+  visit(root, false);
   return entries;
+}
+
+function markNodeRequiresAllChildren(node, text) {
+  if (!node || node.requireAllChildren || !text) {
+    return;
+  }
+
+  if (ALL_OF_FOLLOWING_PATTERN.test(text)) {
+    node.requireAllChildren = true;
+  }
 }
 
 function buildNodeBreadcrumbs(node, root, baseBreadcrumbs) {
@@ -902,6 +936,7 @@ function createTreeNode({ identifier, heading, path, parent }) {
     children: [],
     path: path ? path.slice() : [],
     parent: parent || null,
+    requireAllChildren: false,
   };
 }
 
