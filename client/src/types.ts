@@ -1,28 +1,51 @@
-export interface CclContentEntry {
-  tag: string;
+export interface EccnContentBlock {
+  type: 'html' | 'text';
+  tag?: string;
   html?: string;
-  text?: string;
-  id?: string;
+  text?: string | null;
+  id?: string | null;
 }
 
-export interface CclNode {
-  type: string;
-  identifier?: string;
-  heading?: string;
-  attributes?: Record<string, string>;
-  content?: CclContentEntry[];
-  children?: CclNode[];
+export interface EccnNode {
+  identifier?: string | null;
+  label?: string | null;
+  heading?: string | null;
+  content?: EccnContentBlock[];
+  children?: EccnNode[];
+}
+
+export interface EccnEntry {
+  eccn: string;
+  heading?: string | null;
+  title?: string | null;
+  category?: string | null;
+  group?: string | null;
+  breadcrumbs: string[];
+  structure: EccnNode;
+}
+
+export interface SupplementMetadata {
+  eccnCount: number;
+  categoryCounts: Record<string, number>;
+}
+
+export interface CclSupplement {
+  number: string;
+  heading?: string | null;
+  eccns: EccnEntry[];
+  metadata: SupplementMetadata;
 }
 
 export interface CclDataset {
   version: string;
   sourceUrl: string;
   counts: {
-    totalNodes: number;
+    supplements: number;
+    eccns: number;
   };
   date: string;
   fetchedAt: string;
-  part: CclNode;
+  supplements: CclSupplement[];
 }
 
 export interface VersionSummary {
@@ -30,7 +53,8 @@ export interface VersionSummary {
   fetchedAt: string;
   sourceUrl: string;
   counts: {
-    totalNodes: number;
+    supplements: number;
+    eccns: number;
   };
 }
 

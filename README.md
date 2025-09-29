@@ -2,16 +2,27 @@
 
 This project provides a React web application and supporting Node.js service for downloading,
 parsing, storing, and visualizing the U.S. Commerce Control List (CCL) contained in 15 CFR
-§ 774. The backend retrieves full title data from the eCFR API, extracts Part 774, and caches the
-processed structure locally so that multiple historical versions can be browsed offline.
+§ 774. The backend retrieves full title data from the eCFR API, extracts the ECCN listings
+contained in Supplements No. 1, 5, 6, and 7 to Part 774, and caches the processed structure locally
+so that multiple historical versions can be browsed offline.
 
 ## Features
 
 - Fetch any historical CCL version by date (YYYY-MM-DD) using the public eCFR API.
 - Cache each parsed version to a local JSON file for fast reloading.
-- Display a hierarchical view of Part 774, including sections, notes, supplements, and appendices.
-- Summaries showing when each version was stored and how many structured nodes were parsed.
+- Parse and organize ECCNs (Export Control Classification Numbers) with their nested paragraphs,
+  notes, and supporting metadata.
+- Summaries showing when each version was stored, which supplements were parsed, and how many
+  ECCNs were captured.
 - Front-end controls to reload cached versions, refresh the latest version, or download new ones on demand.
+
+## ECCN data model
+
+Each cached dataset stores the targeted supplements, the ECCNs they contain, and a hierarchical
+representation of every ECCN's subparagraphs. Supplement metadata includes category counts so you
+can quickly see which portions of the list are populated in a given version. The client provides a
+supplement selector, ECCN filtering, and a nested viewer for drilling into each ECCN's detailed
+structure.
 
 ## Project structure
 

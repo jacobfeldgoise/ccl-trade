@@ -246,10 +246,8 @@ async function fetchAndParseCcl(date) {
   return {
     version: date,
     sourceUrl: url,
-    counts: {
-      totalNodes: countNodes(parsed),
-    },
-    part: parsed,
+    counts: parsed.counts,
+    supplements: parsed.supplements,
   };
 }
 
@@ -268,6 +266,9 @@ function buildHeaders(accept) {
   };
 }
 
+const TARGET_SUPPLEMENTS = new Set(['1', '5', '6', '7']);
+const ECCN_CODE_PATTERN = /^[0-9][A-Z][0-9]{3}$/;
+
 function parsePart(xml) {
   const $ = load(xml, { xmlMode: true, decodeEntities: true });
   const part = $('DIV5[TYPE="PART"][N="774"]').first();
@@ -275,15 +276,133 @@ function parsePart(xml) {
     throw new Error(`Part ${PART_NUMBER} not found in the downloaded title data`);
   }
 
-  return parseDiv($, part, { includeAttrs: true });
+  const supplements = [];
+
+  part.find('DIV8[TYPE="SUPPLEMENT"]').each((_, rawSupplement) => {
+    const supplementEl = $(rawSupplement);
+    const heading = extractHeading($, supplementEl);
+    const number = determineSupplementNumber(supplementEl, heading);
+    if (!number || !TARGET_SUPPLEMENTS.has(number)) {
+      return;
+    }
+
+    supplements.push(parseSupplement($, supplementEl, number, heading));
+  });
+
+  const counts = {
+    supplements: supplements.length,
+    eccns: supplements.reduce((sum, supplement) => sum + supplement.eccns.length, 0),
+  };
+
+  return { supplements, counts };
 }
 
-function parseDiv($, element, options = {}) {
+function determineSupplementNumber(element, headingText) {
+  const sources = [element.attr('N'), headingText];
+  for (const source of sources) {
+    if (!source) continue;
+    const normalized = String(source);
+    const match = normalized.match(/Supplement\s+No\.?\s*(\d+)/i);
+    if (match) {
+      return match[1];
+    }
+    const fallback = normalized.match(/(?:^|[^\d])([1567])(?:[^\d]|$)/);
+    if (fallback) {
+      return fallback[1];
+    }
+  }
+  return null;
+}
+
+function parseSupplement($, supplementEl, number, heading) {
+  const eccnElements = [];
+  const seen = new Set();
+
+  supplementEl.find('[N]').each((_, raw) => {
+    const el = $(raw);
+    const identifier = (el.attr('N') || '').trim();
+    if (!identifier || seen.has(identifier)) {
+      return;
+    }
+    if (ECCN_CODE_PATTERN.test(identifier)) {
+      seen.add(identifier);
+      eccnElements.push(el);
+    }
+  });
+
+  eccnElements.sort((a, b) => compareIdentifiers(a.attr('N'), b.attr('N')));
+
+  const eccns = eccnElements.map((el) => parseEccn($, el, supplementEl));
+
+  const categoryCounts = eccns.reduce((acc, entry) => {
+    const key = entry.category || 'unknown';
+    acc[key] = (acc[key] || 0) + 1;
+    return acc;
+  }, {});
+
+  return {
+    number,
+    heading: heading || null,
+    eccns,
+    metadata: {
+      eccnCount: eccns.length,
+      categoryCounts,
+    },
+  };
+}
+
+function parseEccn($, element, supplementEl) {
+  const eccn = (element.attr('N') || '').trim();
+  const heading = extractHeading($, element);
+  const title = deriveEccnTitle(eccn, heading);
+  const breadcrumbs = collectBreadcrumbs($, element, supplementEl);
+  const structure = parseEccnNode($, element, eccn);
+
+  return {
+    eccn,
+    heading: heading || null,
+    title,
+    category: eccn ? eccn.charAt(0) : null,
+    group: eccn ? eccn.slice(0, 2) : null,
+    breadcrumbs,
+    structure,
+  };
+}
+
+function deriveEccnTitle(eccn, heading) {
+  if (!heading) {
+    return null;
+  }
+  const normalizedHeading = heading.replace(/\s+/g, ' ').trim();
+  if (!normalizedHeading) {
+    return null;
+  }
+  const regex = new RegExp(`^(${eccn}|ECCN\s+${eccn})\s*[-–—]?\s*`, 'i');
+  return normalizedHeading.replace(regex, '').trim() || null;
+}
+
+function collectBreadcrumbs($, element, stopAt) {
+  const crumbs = [];
+  let current = element.parent();
+  while (current && current.length && current[0] !== stopAt[0]) {
+    if (current[0].type === 'tag') {
+      const heading = extractHeading($, current);
+      if (heading) {
+        crumbs.push(heading);
+      }
+    }
+    current = current.parent();
+  }
+  return crumbs.reverse();
+}
+
+function parseEccnNode($, element, baseIdentifier) {
+  const identifier = (element.attr('N') || baseIdentifier || '').trim();
+  const heading = extractHeading($, element);
   const node = {
-    type: element.attr('TYPE') || element[0].name,
-    identifier: element.attr('N') || null,
-    heading: extractHeading($, element),
-    attributes: options.includeAttrs ? { ...element.attr() } : undefined,
+    identifier: identifier || null,
+    label: deriveNodeLabel(identifier, baseIdentifier),
+    heading: heading || null,
     content: [],
     children: [],
   };
@@ -292,7 +411,7 @@ function parseDiv($, element, options = {}) {
     if (rawChild.type === 'text') {
       const text = rawChild.data.trim();
       if (text) {
-        node.content.push({ tag: '#text', text });
+        node.content.push({ type: 'text', text });
       }
       return;
     }
@@ -305,24 +424,26 @@ function parseDiv($, element, options = {}) {
     }
 
     if (/^DIV\d+$/.test(tagName)) {
-      node.children.push(parseDiv($, child));
-      return;
+      const childIdentifier = (child.attr('N') || '').trim();
+      if (isDescendantIdentifier(childIdentifier, baseIdentifier)) {
+        node.children.push(parseEccnNode($, child, baseIdentifier));
+        return;
+      }
     }
 
     const html = normalizeHtml($, rawChild);
+    if (!html) {
+      return;
+    }
     const text = child.text().replace(/\s+/g, ' ').trim();
-    const entry = {
+    const idAttr = child.attr('ID') || null;
+    node.content.push({
+      type: 'html',
       tag: tagName,
       html,
-    };
-    if (text) {
-      entry.text = text;
-    }
-    const idAttr = child.attr('ID');
-    if (idAttr) {
-      entry.id = idAttr;
-    }
-    node.content.push(entry);
+      text: text || null,
+      id: idAttr,
+    });
   });
 
   if (node.content.length === 0) {
@@ -331,17 +452,42 @@ function parseDiv($, element, options = {}) {
   if (node.children.length === 0) {
     delete node.children;
   }
-  if (!node.attributes) {
-    delete node.attributes;
-  }
   if (!node.heading) {
     delete node.heading;
   }
   if (!node.identifier) {
     delete node.identifier;
   }
+  if (!node.label) {
+    delete node.label;
+  }
 
   return node;
+}
+
+function deriveNodeLabel(identifier, baseIdentifier) {
+  if (!identifier || !baseIdentifier) {
+    return null;
+  }
+  if (identifier === baseIdentifier) {
+    return baseIdentifier;
+  }
+  const remainder = identifier.slice(baseIdentifier.length);
+  return remainder.replace(/^\./, '') || null;
+}
+
+function isDescendantIdentifier(identifier, base) {
+  if (!identifier || !base) {
+    return false;
+  }
+  if (identifier === base) {
+    return true;
+  }
+  if (!identifier.startsWith(base)) {
+    return false;
+  }
+  const remainder = identifier.slice(base.length);
+  return /^([.][\w-]+)+$/.test(remainder);
 }
 
 function extractHeading($, element) {
@@ -356,9 +502,11 @@ function normalizeHtml($, node) {
   return $.html(node, { decodeEntities: false }).trim();
 }
 
-function countNodes(node) {
-  if (!node) return 0;
-  const childCount = (node.children || []).reduce((acc, child) => acc + countNodes(child), 0);
-  return 1 + childCount;
+function compareIdentifiers(a, b) {
+  const valueA = (a || '').toString();
+  const valueB = (b || '').toString();
+  if (valueA < valueB) return -1;
+  if (valueA > valueB) return 1;
+  return 0;
 }
 

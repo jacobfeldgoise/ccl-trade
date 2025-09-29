@@ -1,42 +1,41 @@
 import { useMemo, useState } from 'react';
 import DOMPurify from 'dompurify';
-import { CclContentEntry, CclNode } from '../types';
+import { EccnContentBlock, EccnNode } from '../types';
 
-interface CclNodeViewProps {
-  node: CclNode;
+interface EccnNodeViewProps {
+  node: EccnNode;
   level?: number;
 }
 
-export function CclNodeView({ node, level = 0 }: CclNodeViewProps) {
+export function EccnNodeView({ node, level = 0 }: EccnNodeViewProps) {
   const [open, setOpen] = useState(level < 2);
 
   const label = useMemo(() => {
     const parts = [] as string[];
     if (node.identifier) parts.push(node.identifier);
-    if (node.heading) parts.push(node.heading);
-    if (!node.heading && !node.identifier) parts.push(node.type);
-    return parts.join(' – ');
-  }, [node.identifier, node.heading, node.type]);
+    if (node.heading && node.heading !== node.identifier) parts.push(node.heading);
+    if (!parts.length && node.label) parts.push(node.label);
+    return parts.join(' – ') || 'Details';
+  }, [node.identifier, node.heading, node.label]);
 
   const anchorId = useMemo(() => {
     if (node.identifier) {
-      return `node-${node.identifier.replace(/[^\w.-]+/g, '-')}`;
+      return `eccn-node-${node.identifier.replace(/[^\w.-]+/g, '-')}`;
     }
     if (node.heading) {
-      return `node-${node.heading.replace(/[^\w.-]+/g, '-').toLowerCase()}`;
+      return `eccn-node-${node.heading.replace(/[^\w.-]+/g, '-').toLowerCase()}`;
     }
     return undefined;
   }, [node.identifier, node.heading]);
 
   return (
     <details
-      className={`ccl-node level-${level}`}
+      className={`eccn-node level-${level}`}
       open={open}
       onToggle={(event) => setOpen((event.target as HTMLDetailsElement).open)}
       id={anchorId}
     >
       <summary>
-        <span className="node-type">{node.type}</span>
         <span className="node-label">{label}</span>
       </summary>
       <div className="node-body">
@@ -44,15 +43,15 @@ export function CclNodeView({ node, level = 0 }: CclNodeViewProps) {
           <ContentBlock entry={entry} key={`${anchorId || label}-content-${index}`} />
         ))}
         {node.children?.map((child, index) => (
-          <CclNodeView node={child} level={level + 1} key={`${anchorId || label}-child-${index}`} />
+          <EccnNodeView node={child} level={level + 1} key={`${anchorId || label}-child-${index}`} />
         ))}
       </div>
     </details>
   );
 }
 
-function ContentBlock({ entry }: { entry: CclContentEntry }) {
-  if (entry.tag === '#text') {
+function ContentBlock({ entry }: { entry: EccnContentBlock }) {
+  if (entry.type === 'text') {
     return <p className="content text-only">{entry.text}</p>;
   }
 
@@ -64,7 +63,7 @@ function ContentBlock({ entry }: { entry: CclContentEntry }) {
     return null;
   }
 
-  const className = `content content-${entry.tag.toLowerCase()}`;
+  const className = `content content-${(entry.tag || 'html').toLowerCase()}`;
 
   return <div className={className} dangerouslySetInnerHTML={{ __html: sanitizedHtml }} />;
 }

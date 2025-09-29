@@ -1,9 +1,15 @@
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import './App.css';
 import { getCcl, getVersions, refreshCcl } from './api';
-import { CclDataset, VersionSummary, VersionsResponse } from './types';
+import {
+  CclDataset,
+  CclSupplement,
+  EccnEntry,
+  VersionSummary,
+  VersionsResponse,
+} from './types';
 import { VersionControls } from './components/VersionControls';
-import { CclNodeView } from './components/CclNodeView';
+import { EccnNodeView } from './components/EccnNodeView';
 import { formatDateTime, formatNumber } from './utils/format';
 
 function getErrorMessage(error: unknown): string {
@@ -21,6 +27,9 @@ function App() {
   const [defaultDate, setDefaultDate] = useState<string | undefined>();
   const [selectedDate, setSelectedDate] = useState<string | undefined>();
   const [dataset, setDataset] = useState<CclDataset | null>(null);
+  const [selectedSupplement, setSelectedSupplement] = useState<string | undefined>();
+  const [selectedEccn, setSelectedEccn] = useState<string | undefined>();
+  const [eccnFilter, setEccnFilter] = useState('');
   const [loadingVersions, setLoadingVersions] = useState(false);
   const [loadingDataset, setLoadingDataset] = useState(false);
   const [refreshing, setRefreshing] = useState(false);
@@ -80,6 +89,7 @@ function App() {
       .then((data) => {
         if (!cancelled) {
           setDataset(data);
+          setEccnFilter('');
         }
       })
       .catch((err) => {
@@ -113,6 +123,7 @@ function App() {
       skipNextLoad.current = true;
       setDataset(data);
       setSelectedDate(date);
+      setEccnFilter('');
       await loadVersions();
     } catch (err) {
       setError(`Unable to refresh version ${date}: ${getErrorMessage(err)}`);
@@ -123,6 +134,94 @@ function App() {
 
   const handleLoadNewVersion = async (date: string) => {
     await handleRefreshVersion(date);
+  };
+
+  useEffect(() => {
+    if (!dataset) {
+      setSelectedSupplement(undefined);
+      setSelectedEccn(undefined);
+      return;
+    }
+
+    setSelectedSupplement((previous) => {
+      if (previous && dataset.supplements.some((supplement) => supplement.number === previous)) {
+        return previous;
+      }
+      return dataset.supplements[0]?.number;
+    });
+  }, [dataset]);
+
+  const activeSupplement: CclSupplement | undefined = useMemo(() => {
+    if (!dataset) {
+      return undefined;
+    }
+    if (selectedSupplement) {
+      return dataset.supplements.find((supplement) => supplement.number === selectedSupplement);
+    }
+    return dataset.supplements[0];
+  }, [dataset, selectedSupplement]);
+
+  useEffect(() => {
+    if (!activeSupplement) {
+      setSelectedEccn(undefined);
+      return;
+    }
+
+    setSelectedEccn((previous) => {
+      if (previous && activeSupplement.eccns.some((entry) => entry.eccn === previous)) {
+        return previous;
+      }
+      return activeSupplement.eccns[0]?.eccn;
+    });
+  }, [activeSupplement]);
+
+  const filteredEccns: EccnEntry[] = useMemo(() => {
+    if (!activeSupplement) {
+      return [];
+    }
+    const term = eccnFilter.trim().toLowerCase();
+    if (!term) {
+      return activeSupplement.eccns;
+    }
+    return activeSupplement.eccns.filter((entry) => {
+      const searchTarget = [entry.eccn, entry.heading, entry.title]
+        .filter(Boolean)
+        .join(' ')
+        .toLowerCase();
+      return searchTarget.includes(term);
+    });
+  }, [activeSupplement, eccnFilter]);
+
+  useEffect(() => {
+    if (!filteredEccns.length) {
+      setSelectedEccn(undefined);
+      return;
+    }
+    setSelectedEccn((previous) => {
+      if (previous && filteredEccns.some((entry) => entry.eccn === previous)) {
+        return previous;
+      }
+      return filteredEccns[0]?.eccn;
+    });
+  }, [filteredEccns]);
+
+  const activeEccn: EccnEntry | undefined = useMemo(() => {
+    if (!filteredEccns.length) {
+      return undefined;
+    }
+    if (selectedEccn) {
+      return filteredEccns.find((entry) => entry.eccn === selectedEccn) ?? filteredEccns[0];
+    }
+    return filteredEccns[0];
+  }, [filteredEccns, selectedEccn]);
+
+  const handleSelectSupplement = (value: string) => {
+    setSelectedSupplement(value);
+    setEccnFilter('');
+  };
+
+  const handleSelectEccn = (value: string) => {
+    setSelectedEccn(value);
   };
 
   return (
@@ -170,21 +269,112 @@ function App() {
             <>
               <section className="dataset-summary">
                 <div>
-                  <h3>Part heading</h3>
-                  <p>{dataset.part.heading ?? 'Part 774'}</p>
+                  <h3>Supplements parsed</h3>
+                  <p>{formatNumber(dataset.counts?.supplements ?? 0)}</p>
                 </div>
                 <div>
-                  <h3>Total nodes parsed</h3>
-                  <p>{formatNumber(dataset.counts?.totalNodes)}</p>
+                  <h3>Total ECCNs captured</h3>
+                  <p>{formatNumber(dataset.counts?.eccns ?? 0)}</p>
                 </div>
                 <div>
                   <h3>Stored locally</h3>
                   <p>{formatDateTime(dataset.fetchedAt)}</p>
                 </div>
               </section>
-              <div className="tree-container">
-                <CclNodeView node={dataset.part} />
-              </div>
+
+              {dataset.supplements.length > 0 ? (
+                <div className="eccn-browser">
+                  <aside className="eccn-sidebar">
+                    <div className="control-group">
+                      <label htmlFor="supplement-select">Supplement</label>
+                      <select
+                        id="supplement-select"
+                        className="control"
+                        value={activeSupplement?.number ?? ''}
+                        onChange={(event) => handleSelectSupplement(event.target.value)}
+                      >
+                        {dataset.supplements.map((supplement) => (
+                          <option key={supplement.number} value={supplement.number}>
+                            {`Supplement No. ${supplement.number}`}
+                          </option>
+                        ))}
+                      </select>
+                      {activeSupplement?.heading && (
+                        <p className="help-text">{activeSupplement.heading}</p>
+                      )}
+                    </div>
+
+                    <div className="control-group">
+                      <label htmlFor="eccn-filter">Filter ECCNs</label>
+                      <input
+                        id="eccn-filter"
+                        className="control"
+                        type="search"
+                        value={eccnFilter}
+                        onChange={(event) => setEccnFilter(event.target.value)}
+                        placeholder="Search by code or title"
+                      />
+                      <p className="help-text">
+                        Showing {formatNumber(filteredEccns.length)} of{' '}
+                        {formatNumber(activeSupplement?.metadata?.eccnCount ?? 0)} ECCNs in this
+                        supplement.
+                      </p>
+                    </div>
+
+                    <ul className="eccn-list">
+                      {filteredEccns.map((entry) => (
+                        <li
+                          key={entry.eccn}
+                          className={entry.eccn === activeEccn?.eccn ? 'active' : ''}
+                        >
+                          <button type="button" onClick={() => handleSelectEccn(entry.eccn)}>
+                            <span className="eccn-code">{entry.eccn}</span>
+                            {entry.title && <span className="eccn-title">{entry.title}</span>}
+                          </button>
+                        </li>
+                      ))}
+                    </ul>
+                  </aside>
+
+                  <div className="eccn-detail">
+                    {activeEccn ? (
+                      <article>
+                        <header className="eccn-header">
+                          <h3>
+                            <span className="eccn-code">{activeEccn.eccn}</span>
+                            {activeEccn.title && <span className="eccn-title">{activeEccn.title}</span>}
+                          </h3>
+                          <dl className="eccn-meta">
+                            <div>
+                              <dt>Category</dt>
+                              <dd>{activeEccn.category ?? '–'}</dd>
+                            </div>
+                            <div>
+                              <dt>Group</dt>
+                              <dd>{activeEccn.group ?? '–'}</dd>
+                            </div>
+                            <div>
+                              <dt>Breadcrumbs</dt>
+                              <dd>
+                                {activeEccn.breadcrumbs.length > 0
+                                  ? activeEccn.breadcrumbs.join(' › ')
+                                  : '–'}
+                              </dd>
+                            </div>
+                          </dl>
+                        </header>
+                        <EccnNodeView node={activeEccn.structure} />
+                      </article>
+                    ) : (
+                      <div className="placeholder">No ECCNs match the current filter.</div>
+                    )}
+                  </div>
+                </div>
+              ) : (
+                <div className="placeholder">
+                  No ECCNs were parsed from the selected version. Try refreshing the dataset.
+                </div>
+              )}
             </>
           ) : null}
 
