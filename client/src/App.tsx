@@ -265,19 +265,25 @@ function extractValueAfterLabel(plainText: string, label: string): string | null
   return value || null;
 }
 
-const LICENSE_SECTION_STOP_PATTERNS = [
+const COMMON_SECTION_STOP_PATTERNS = [
   /List of Items Controlled/i,
   /Related Controls?/i,
   /Related Definitions?/i,
   /^Items:?/i,
   /^Item:?/i,
-  /Reason for Control/i,
   /License Requirements/i,
 ];
+
+const LICENSE_SECTION_STOP_PATTERNS = [...COMMON_SECTION_STOP_PATTERNS, /Reason for Control/i];
+
+const REASON_SECTION_STOP_PATTERNS = [...COMMON_SECTION_STOP_PATTERNS, /List Based License Exceptions/i];
 
 const LICENSE_SECTION_PLACEHOLDER_PATTERN = /^\(\s*See\s+Part\s+740\b/i;
 
 const ECCN_HEADING_PATTERN_CLIENT = /^([0-9][A-Z][0-9]{3})(?=$|[\s.\-–—:;(\[])/;
+
+const LIST_BASED_LICENSE_LABEL_PATTERN = /^\s*List Based License Exceptions\b/i;
+const REASON_FOR_CONTROL_LABEL_PATTERN = /^\s*Reason for Control\b/i;
 
 function isPlaceholderLicenseValue(value: string | null | undefined): boolean {
   if (!value) {
@@ -317,16 +323,107 @@ function shouldStopCollectingLicenseBlocks(block: EccnContentBlock | undefined):
     return true;
   }
 
-  if (/^List Based License Exceptions/i.test(trimmed)) {
+  if (LIST_BASED_LICENSE_LABEL_PATTERN.test(trimmed)) {
     return true;
   }
 
   return false;
 }
 
+function shouldStopCollectingReasonBlocks(block: EccnContentBlock | undefined): boolean {
+  if (!block) {
+    return true;
+  }
+
+  const plain = getBlockPlainText(block);
+  const trimmed = plain.trim();
+
+  if (!trimmed && !block.html) {
+    return false;
+  }
+
+  if (block.tag && /^FP-2$/i.test(block.tag)) {
+    return true;
+  }
+
+  if (ECCN_HEADING_PATTERN_CLIENT.test(trimmed)) {
+    return true;
+  }
+
+  if (block.html && /<E\b/i.test(block.html)) {
+    return true;
+  }
+
+  if (REASON_SECTION_STOP_PATTERNS.some((pattern) => pattern.test(trimmed))) {
+    return true;
+  }
+
+  if (REASON_FOR_CONTROL_LABEL_PATTERN.test(trimmed)) {
+    return true;
+  }
+
+  return false;
+}
+
+interface SectionCollectionResult {
+  blocks: EccnContentBlock[];
+  nextIndex: number;
+}
+
+interface CollectSectionOptions {
+  stopPredicate: (block: EccnContentBlock | undefined) => boolean;
+  skipValue?: (value: string | null | undefined) => boolean;
+  includeSkippedValueInFallback?: boolean;
+}
+
+function collectSectionAfterLabel(
+  blocks: EccnContentBlock[],
+  startIndex: number,
+  label: string,
+  options: CollectSectionOptions
+): SectionCollectionResult {
+  const startBlock = blocks[startIndex];
+  if (!startBlock) {
+    return { blocks: [], nextIndex: startIndex + 1 };
+  }
+
+  const plain = getBlockPlainText(startBlock);
+  const extractedValue = extractValueAfterLabel(plain, label);
+  const shouldSkipValue = options.skipValue?.(extractedValue) ?? false;
+  const collected: EccnContentBlock[] = [];
+
+  if (extractedValue && !shouldSkipValue) {
+    collected.push({ type: 'text', text: extractedValue });
+  }
+
+  let nextIndex = startIndex + 1;
+  for (; nextIndex < blocks.length; nextIndex += 1) {
+    const candidate = blocks[nextIndex];
+    if (options.stopPredicate(candidate)) {
+      break;
+    }
+    collected.push(candidate);
+  }
+
+  const shouldIncludeSkippedValue =
+    extractedValue && shouldSkipValue && options.includeSkippedValueInFallback;
+
+  if (collected.length === 0) {
+    if (shouldIncludeSkippedValue || (extractedValue && !shouldSkipValue)) {
+      collected.push({ type: 'text', text: extractedValue });
+    } else if (startBlock.html) {
+      collected.push({ type: 'html', html: startBlock.html, tag: startBlock.tag });
+    } else if (startBlock.text) {
+      collected.push({ type: 'text', text: startBlock.text });
+    }
+  }
+
+  return { blocks: collected, nextIndex };
+}
+
 function extractHighLevelDetails(node: EccnNode): HighLevelField[] {
   const blocks = collectPrimaryBlocks(node);
-  let reasonBlock: EccnContentBlock | null = null;
+  let reasonBlocks: EccnContentBlock[] = [];
   const licenseBlocks: EccnContentBlock[] = [];
   let controlTableBlock: EccnContentBlock | null = null;
   let controlHeading: string | null = null;
@@ -335,39 +432,32 @@ function extractHighLevelDetails(node: EccnNode): HighLevelField[] {
     const block = blocks[index];
     const plain = getBlockPlainText(block);
 
-    if (!reasonBlock && plain) {
-      const value = extractValueAfterLabel(plain, 'Reason for Control');
-      if (value) {
-        reasonBlock = { type: 'text', text: value };
-      }
-    }
+    if (reasonBlocks.length === 0 && plain && REASON_FOR_CONTROL_LABEL_PATTERN.test(plain)) {
+      const { blocks: collected, nextIndex } = collectSectionAfterLabel(blocks, index, 'Reason for Control', {
+        stopPredicate: shouldStopCollectingReasonBlocks,
+      });
 
-    if (!licenseBlocks.length && plain && /list\s+based\s+license\s+exceptions/i.test(plain)) {
-      const value = extractValueAfterLabel(plain, 'List Based License Exceptions');
-      if (value && !isPlaceholderLicenseValue(value)) {
-        licenseBlocks.push({ type: 'text', text: value });
-      }
-
-      let nextIndex = index + 1;
-      for (; nextIndex < blocks.length; nextIndex += 1) {
-        const candidate = blocks[nextIndex];
-        if (shouldStopCollectingLicenseBlocks(candidate)) {
-          break;
-        }
-        licenseBlocks.push(candidate);
-      }
-
-      if (!licenseBlocks.length) {
-        if (value) {
-          licenseBlocks.push({ type: 'text', text: value });
-        } else if (block.html) {
-          licenseBlocks.push({ type: 'html', html: block.html, tag: block.tag });
-        } else if (block.text) {
-          licenseBlocks.push({ type: 'text', text: block.text });
-        }
+      if (collected.length > 0) {
+        reasonBlocks = collected;
       }
 
       index = nextIndex - 1;
+      continue;
+    }
+
+    if (!licenseBlocks.length && plain && LIST_BASED_LICENSE_LABEL_PATTERN.test(plain)) {
+      const { blocks: collected, nextIndex } = collectSectionAfterLabel(blocks, index, 'List Based License Exceptions', {
+        stopPredicate: shouldStopCollectingLicenseBlocks,
+        skipValue: isPlaceholderLicenseValue,
+        includeSkippedValueInFallback: true,
+      });
+
+      if (collected.length > 0) {
+        licenseBlocks.push(...collected);
+      }
+
+      index = nextIndex - 1;
+      continue;
     }
 
     if (!controlTableBlock) {
@@ -395,8 +485,8 @@ function extractHighLevelDetails(node: EccnNode): HighLevelField[] {
   }
 
   const fields: HighLevelField[] = [];
-  if (reasonBlock) {
-    fields.push({ id: 'reason-for-control', label: 'Reason for Control', blocks: [reasonBlock] });
+  if (reasonBlocks.length) {
+    fields.push({ id: 'reason-for-control', label: 'Reason for Control', blocks: reasonBlocks });
   }
   if (controlTableBlock) {
     const blocksToShow = controlHeading
