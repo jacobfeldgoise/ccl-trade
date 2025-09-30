@@ -555,6 +555,17 @@ function App() {
     });
   }, [allEccns]);
 
+  const eccnLookup = useMemo(() => {
+    const map = new Map<string, EccnEntry>();
+    allEccns.forEach((entry) => {
+      const normalized = entry.eccn.trim().toUpperCase();
+      if (!map.has(normalized)) {
+        map.set(normalized, entry);
+      }
+    });
+    return map;
+  }, [allEccns]);
+
   const filteredEccns: EccnEntry[] = useMemo(() => {
     const normalizedTerm = normalizeSearchText(eccnFilter);
     const tokens = normalizedTerm.split(/\s+/).filter(Boolean);
@@ -712,9 +723,49 @@ function App() {
       return;
     }
 
+    const normalizedCode = parsed.code.toUpperCase();
+    const exactMatch = eccnLookup.get(normalizedCode);
+
+    if (exactMatch) {
+      setSelectedEccn(exactMatch.eccn);
+      setFocusedNodeIdentifier(undefined);
+
+      const supplementNumber = exactMatch.supplement.number;
+      if (supplementNumber) {
+        setSelectedSupplements((previous) => {
+          if (previous.includes(supplementNumber)) {
+            return previous;
+          }
+          const next = new Set(previous);
+          next.add(supplementNumber);
+          return supplements
+            .map((supplement) => supplement.number)
+            .filter((number) => next.has(number));
+        });
+      }
+      return;
+    }
+
     const baseSegment = parsed.segments[0];
     const baseCode = baseSegment.raw;
     setSelectedEccn(baseCode);
+
+    const baseMatch = eccnLookup.get(baseCode.toUpperCase());
+    if (baseMatch) {
+      const supplementNumber = baseMatch.supplement.number;
+      if (supplementNumber) {
+        setSelectedSupplements((previous) => {
+          if (previous.includes(supplementNumber)) {
+            return previous;
+          }
+          const next = new Set(previous);
+          next.add(supplementNumber);
+          return supplements
+            .map((supplement) => supplement.number)
+            .filter((number) => next.has(number));
+        });
+      }
+    }
 
     if (parsed.segments.length > 1) {
       setFocusedNodeIdentifier(parsed.code);
