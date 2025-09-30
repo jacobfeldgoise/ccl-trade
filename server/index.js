@@ -270,7 +270,7 @@ function buildHeaders(accept) {
 
 const TARGET_SUPPLEMENTS = new Set(['1', '5', '6', '7']);
 const ECCN_HEADING_PATTERN = /^([0-9][A-Z][0-9]{3})(?=$|[\s.\-–—:;(\[])/;
-const ALL_OF_FOLLOWING_PATTERN = /\bhaving all of the following\b/i;
+const ALL_OF_FOLLOWING_PATTERN = /\ball of the following\b/i;
 
 function parsePart(xml) {
   const $ = load(xml, { xmlMode: true, decodeEntities: true });
