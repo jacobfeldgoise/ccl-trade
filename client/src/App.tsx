@@ -265,10 +265,69 @@ function extractValueAfterLabel(plainText: string, label: string): string | null
   return value || null;
 }
 
+const LICENSE_SECTION_STOP_PATTERNS = [
+  /List of Items Controlled/i,
+  /Related Controls?/i,
+  /Related Definitions?/i,
+  /^Items:?/i,
+  /^Item:?/i,
+  /Reason for Control/i,
+  /License Requirements/i,
+];
+
+const LICENSE_SECTION_PLACEHOLDER_PATTERN = /^\(\s*See\s+Part\s+740\b/i;
+
+const ECCN_HEADING_PATTERN_CLIENT = /^([0-9][A-Z][0-9]{3})(?=$|[\s.\-–—:;(\[])/;
+
+function isPlaceholderLicenseValue(value: string | null | undefined): boolean {
+  if (!value) {
+    return false;
+  }
+  return LICENSE_SECTION_PLACEHOLDER_PATTERN.test(value);
+}
+
+function shouldStopCollectingLicenseBlocks(block: EccnContentBlock | undefined): boolean {
+  if (!block) {
+    return true;
+  }
+
+  const plain = getBlockPlainText(block);
+  const trimmed = plain.trim();
+
+  if (!trimmed && !block.html) {
+    return false;
+  }
+
+  if (block.tag && /^FP-2$/i.test(block.tag)) {
+    return true;
+  }
+
+  if (ECCN_HEADING_PATTERN_CLIENT.test(trimmed)) {
+    return true;
+  }
+
+  if (block.html && /<E\b/i.test(block.html)) {
+    if (/special conditions for sta/i.test(trimmed)) {
+      return false;
+    }
+    return true;
+  }
+
+  if (LICENSE_SECTION_STOP_PATTERNS.some((pattern) => pattern.test(trimmed))) {
+    return true;
+  }
+
+  if (/^List Based License Exceptions/i.test(trimmed)) {
+    return true;
+  }
+
+  return false;
+}
+
 function extractHighLevelDetails(node: EccnNode): HighLevelField[] {
   const blocks = collectPrimaryBlocks(node);
   let reasonBlock: EccnContentBlock | null = null;
-  let licenseBlock: EccnContentBlock | null = null;
+  const licenseBlocks: EccnContentBlock[] = [];
   let controlTableBlock: EccnContentBlock | null = null;
   let controlHeading: string | null = null;
 
@@ -283,13 +342,32 @@ function extractHighLevelDetails(node: EccnNode): HighLevelField[] {
       }
     }
 
-    if (!licenseBlock && plain) {
+    if (!licenseBlocks.length && plain && /list\s+based\s+license\s+exceptions/i.test(plain)) {
       const value = extractValueAfterLabel(plain, 'List Based License Exceptions');
-      if (value) {
-        licenseBlock = { type: 'text', text: value };
-      } else if (/list\s+based\s+license\s+exceptions/i.test(plain) && block.html) {
-        licenseBlock = { type: 'html', html: block.html, tag: block.tag };
+      if (value && !isPlaceholderLicenseValue(value)) {
+        licenseBlocks.push({ type: 'text', text: value });
       }
+
+      let nextIndex = index + 1;
+      for (; nextIndex < blocks.length; nextIndex += 1) {
+        const candidate = blocks[nextIndex];
+        if (shouldStopCollectingLicenseBlocks(candidate)) {
+          break;
+        }
+        licenseBlocks.push(candidate);
+      }
+
+      if (!licenseBlocks.length) {
+        if (value) {
+          licenseBlocks.push({ type: 'text', text: value });
+        } else if (block.html) {
+          licenseBlocks.push({ type: 'html', html: block.html, tag: block.tag });
+        } else if (block.text) {
+          licenseBlocks.push({ type: 'text', text: block.text });
+        }
+      }
+
+      index = nextIndex - 1;
     }
 
     if (!controlTableBlock) {
@@ -326,11 +404,11 @@ function extractHighLevelDetails(node: EccnNode): HighLevelField[] {
       : [controlTableBlock];
     fields.push({ id: 'control-table', label: 'Control table', blocks: blocksToShow });
   }
-  if (licenseBlock) {
+  if (licenseBlocks.length) {
     fields.push({
       id: 'list-based-license-exceptions',
       label: 'List Based License Exceptions',
-      blocks: [licenseBlock],
+      blocks: licenseBlocks,
     });
   }
   return fields;
