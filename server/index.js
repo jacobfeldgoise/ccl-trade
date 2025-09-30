@@ -393,6 +393,9 @@ function buildEccnTreeFromNodes($, nodes, { code, heading }) {
     let pathTokens = null;
     if (allowPath) {
       pathTokens = derivePathFromNode($, node, code, block, lastPath);
+      if (shouldTreatAsNoteContinuation(node, block, pathTokens, lastPath)) {
+        pathTokens = Array.isArray(lastPath) ? lastPath.slice() : [];
+      }
     }
 
     const targetTokens = Array.isArray(pathTokens)
@@ -410,7 +413,12 @@ function buildEccnTreeFromNodes($, nodes, { code, heading }) {
     if (targetNode !== root) {
       const headingCandidate = deriveParagraphHeadingFromBlock(node, block, targetNode.identifier);
       if (headingCandidate) {
-        if (shouldAdoptHeading(targetNode.heading, headingCandidate, targetNode.identifier)) {
+        if (
+          shouldAdoptHeading(targetNode.heading, headingCandidate, targetNode.identifier, {
+            node,
+            block,
+          })
+        ) {
           targetNode.heading = headingCandidate;
         }
         markNodeRequiresAllChildren(targetNode, headingCandidate);
@@ -568,6 +576,11 @@ function derivePathFromNode($, node, baseCode, block, lastPath) {
     return fromText;
   }
 
+  const fromNoteHeading = extractTokensFromNoteHeading(block?.text, baseCode);
+  if (fromNoteHeading) {
+    return fromNoteHeading;
+  }
+
   return null;
 }
 
@@ -667,15 +680,41 @@ function extractPathTokensFromText(text, baseCode) {
       continue;
     }
 
-    const type = classifyEnumeratorToken(part);
+    const match = part.match(/^([A-Za-z0-9]+)/);
+    if (!match) {
+      continue;
+    }
+
+    const token = match[1];
+    const type = classifyEnumeratorToken(token);
     if (!type) {
       return null;
     }
 
-    tokens.push(normalizeEnumeratorToken(part, type));
+    tokens.push(normalizeEnumeratorToken(token, type));
   }
 
   return tokens.length ? tokens : null;
+}
+
+function extractTokensFromNoteHeading(text, baseCode) {
+  if (!text || !baseCode) {
+    return null;
+  }
+
+  const pattern = new RegExp(`${escapeRegExp(baseCode)}\s*\.\s*([A-Za-z0-9]+)`, 'i');
+  const match = String(text).match(pattern);
+  if (!match || !match[1]) {
+    return null;
+  }
+
+  const token = match[1];
+  const type = classifyEnumeratorToken(token);
+  if (!type) {
+    return null;
+  }
+
+  return [normalizeEnumeratorToken(token, type)];
 }
 
 function escapeRegExp(value) {
@@ -846,7 +885,7 @@ function deriveParagraphHeadingFromBlock(node, block, identifier) {
   }
 
   const normalized = String(textSource).replace(/\s+/g, ' ').trim();
-  if (!normalized || isNoteLikeHeadingCandidate(block, normalized)) {
+  if (!normalized || isNoteLikeHeadingCandidate(block, normalized, node)) {
     return null;
   }
 
@@ -865,7 +904,7 @@ function deriveParagraphHeadingFromBlock(node, block, identifier) {
   return stripped || null;
 }
 
-function isNoteLikeHeadingCandidate(block, text) {
+function isNoteLikeHeadingCandidate(block, text, node) {
   if (!text) {
     return false;
   }
@@ -887,16 +926,28 @@ function isNoteLikeHeadingCandidate(block, text) {
     return true;
   }
 
+  if (/^technical\s+note[:\s]/i.test(normalized)) {
+    return true;
+  }
+
+  if (isLikelyItalicParagraph(node)) {
+    return true;
+  }
+
   return false;
 }
 
-function shouldAdoptHeading(currentHeading, candidateHeading, identifier) {
+function shouldAdoptHeading(currentHeading, candidateHeading, identifier, { node, block } = {}) {
   if (!candidateHeading) {
     return false;
   }
 
   if (!currentHeading) {
     return true;
+  }
+
+  if (isLikelyItalicParagraph(node)) {
+    return false;
   }
 
   const current = normalizeHeadingValue(currentHeading);
@@ -933,6 +984,137 @@ function shouldAdoptHeading(currentHeading, candidateHeading, identifier) {
 
   if (candidate.length > current.length + 10) {
     return true;
+  }
+
+  return false;
+}
+
+function shouldTreatAsNoteContinuation(node, block, pathTokens, lastPath) {
+  if (!isLikelyItalicParagraph(node)) {
+    return false;
+  }
+
+  if (!Array.isArray(lastPath) || lastPath.length === 0) {
+    return false;
+  }
+
+  if (!Array.isArray(pathTokens) || pathTokens.length === 0) {
+    return false;
+  }
+
+  return true;
+}
+
+function isLikelyItalicParagraph(node) {
+  if (!node || node.type !== 'tag') {
+    return false;
+  }
+
+  const tagName = node.name ? node.name.toUpperCase() : '';
+  if (tagName !== 'P' && tagName !== 'LI') {
+    return false;
+  }
+
+  const firstMeaningful = findFirstMeaningfulChild(node);
+  if (!firstMeaningful || firstMeaningful.type === 'text') {
+    return false;
+  }
+
+  return isItalicLeadElement(firstMeaningful);
+}
+
+function findFirstMeaningfulChild(node) {
+  if (!node || node.type !== 'tag') {
+    return null;
+  }
+
+  const children = Array.isArray(node.children) ? node.children : [];
+  for (const child of children) {
+    if (!child) {
+      continue;
+    }
+
+    if (child.type === 'text') {
+      if ((child.data || '').trim()) {
+        return child;
+      }
+      continue;
+    }
+
+    if (child.type !== 'tag') {
+      continue;
+    }
+
+    if (containsMeaningfulText(child)) {
+      return child;
+    }
+  }
+
+  return null;
+}
+
+const ITALIC_E_TYPES = new Set(['04', '0714', '7462', '8064']);
+const ITALIC_WRAPPER_TAGS = new Set(['SPAN', 'B', 'STRONG', 'SUP', 'SUB', 'SMALL']);
+
+function isItalicLeadElement(node) {
+  if (!node || node.type !== 'tag') {
+    return false;
+  }
+
+  const tagName = node.name ? node.name.toUpperCase() : '';
+  if (!tagName) {
+    return false;
+  }
+
+  if (tagName === 'I' || tagName === 'EM') {
+    return true;
+  }
+
+  if (tagName === 'E') {
+    const attribs = node.attribs || {};
+    const type = (attribs.T || attribs.t || '').trim();
+    if (!type) {
+      return true;
+    }
+
+    if (ITALIC_E_TYPES.has(type)) {
+      return true;
+    }
+  }
+
+  const styleAttr = node.attribs?.style || node.attribs?.STYLE || '';
+  if (styleAttr && /italic/i.test(styleAttr)) {
+    return true;
+  }
+
+  if (ITALIC_WRAPPER_TAGS.has(tagName)) {
+    const nested = findFirstMeaningfulChild(node);
+    if (nested && nested.type === 'tag') {
+      return isItalicLeadElement(nested);
+    }
+  }
+
+  return false;
+}
+
+function containsMeaningfulText(node) {
+  if (!node) {
+    return false;
+  }
+
+  if (node.type === 'text') {
+    return Boolean((node.data || '').trim());
+  }
+
+  if (node.type !== 'tag') {
+    return false;
+  }
+
+  const children = Array.isArray(node.children) ? node.children : [];
+  for (const child of children) {
+    if (containsMeaningfulText(child)) {
+      return true;
+    }
   }
 
   return false;
