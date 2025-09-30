@@ -265,10 +265,210 @@ function extractValueAfterLabel(plainText: string, label: string): string | null
   return value || null;
 }
 
+const COMMON_SECTION_STOP_PATTERNS = [
+  /List of Items Controlled/i,
+  /Related Controls?/i,
+  /Related Definitions?/i,
+  /^Items:?/i,
+  /^Item:?/i,
+  /License Requirements/i,
+];
+
+const LICENSE_SECTION_STOP_PATTERNS = [...COMMON_SECTION_STOP_PATTERNS, /Reason for Control/i];
+
+const REASON_SECTION_STOP_PATTERNS = [...COMMON_SECTION_STOP_PATTERNS, /List Based License Exceptions/i];
+
+const LICENSE_SECTION_PLACEHOLDER_PATTERN = /^\(\s*See\s+Part\s+740\b/i;
+
+const ECCN_HEADING_PATTERN_CLIENT = /^([0-9][A-Z][0-9]{3})(?=$|[\s.\-–—:;(\[])/;
+
+const LIST_BASED_LICENSE_LABEL_PATTERN = /^\s*List Based License Exceptions\b/i;
+const REASON_FOR_CONTROL_LABEL_PATTERN = /^\s*Reason for Control\b/i;
+
+const KNOWN_REASON_CODES = new Set([
+  'AT',
+  'CB',
+  'CC',
+  'EI',
+  'FC',
+  'MT',
+  'NP',
+  'NS',
+  'RS',
+  'SI',
+  'SL',
+  'SS',
+  'UN',
+]);
+
+function isPlaceholderLicenseValue(value: string | null | undefined): boolean {
+  if (!value) {
+    return false;
+  }
+  return LICENSE_SECTION_PLACEHOLDER_PATTERN.test(value);
+}
+
+function shouldStopCollectingLicenseBlocks(block: EccnContentBlock | undefined): boolean {
+  if (!block) {
+    return true;
+  }
+
+  const plain = getBlockPlainText(block);
+  const trimmed = plain.trim();
+
+  if (!trimmed && !block.html) {
+    return false;
+  }
+
+  if (block.tag && /^FP-2$/i.test(block.tag)) {
+    return true;
+  }
+
+  if (ECCN_HEADING_PATTERN_CLIENT.test(trimmed)) {
+    return true;
+  }
+
+  if (block.html && /<E\b/i.test(block.html)) {
+    if (/special conditions for sta/i.test(trimmed)) {
+      return false;
+    }
+    return true;
+  }
+
+  if (LICENSE_SECTION_STOP_PATTERNS.some((pattern) => pattern.test(trimmed))) {
+    return true;
+  }
+
+  if (LIST_BASED_LICENSE_LABEL_PATTERN.test(trimmed)) {
+    return true;
+  }
+
+  return false;
+}
+
+function shouldStopCollectingReasonBlocks(block: EccnContentBlock | undefined): boolean {
+  if (!block) {
+    return true;
+  }
+
+  const plain = getBlockPlainText(block);
+  const trimmed = plain.trim();
+
+  if (!trimmed && !block.html) {
+    return false;
+  }
+
+  if (block.tag && /^FP-2$/i.test(block.tag)) {
+    return true;
+  }
+
+  if (ECCN_HEADING_PATTERN_CLIENT.test(trimmed)) {
+    return true;
+  }
+
+  if (block.html && /<E\b/i.test(block.html)) {
+    return true;
+  }
+
+  if (REASON_SECTION_STOP_PATTERNS.some((pattern) => pattern.test(trimmed))) {
+    return true;
+  }
+
+  if (REASON_FOR_CONTROL_LABEL_PATTERN.test(trimmed)) {
+    return true;
+  }
+
+  return false;
+}
+
+interface SectionCollectionResult {
+  blocks: EccnContentBlock[];
+  nextIndex: number;
+}
+
+interface CollectSectionOptions {
+  stopPredicate: (block: EccnContentBlock | undefined) => boolean;
+  skipValue?: (value: string | null | undefined) => boolean;
+  includeSkippedValueInFallback?: boolean;
+}
+
+function collectSectionAfterLabel(
+  blocks: EccnContentBlock[],
+  startIndex: number,
+  label: string,
+  options: CollectSectionOptions
+): SectionCollectionResult {
+  const startBlock = blocks[startIndex];
+  if (!startBlock) {
+    return { blocks: [], nextIndex: startIndex + 1 };
+  }
+
+  const plain = getBlockPlainText(startBlock);
+  const extractedValue = extractValueAfterLabel(plain, label);
+  const shouldSkipValue = options.skipValue?.(extractedValue) ?? false;
+  const collected: EccnContentBlock[] = [];
+
+  if (extractedValue && !shouldSkipValue) {
+    collected.push({ type: 'text', text: extractedValue });
+  }
+
+  let nextIndex = startIndex + 1;
+  for (; nextIndex < blocks.length; nextIndex += 1) {
+    const candidate = blocks[nextIndex];
+    if (options.stopPredicate(candidate)) {
+      break;
+    }
+    collected.push(candidate);
+  }
+
+  const shouldIncludeSkippedValue =
+    extractedValue && shouldSkipValue && options.includeSkippedValueInFallback;
+
+  if (collected.length === 0) {
+    if (shouldIncludeSkippedValue || (extractedValue && !shouldSkipValue)) {
+      collected.push({ type: 'text', text: extractedValue });
+    } else if (startBlock.html) {
+      collected.push({ type: 'html', html: startBlock.html, tag: startBlock.tag });
+    } else if (startBlock.text) {
+      collected.push({ type: 'text', text: startBlock.text });
+    }
+  }
+
+  return { blocks: collected, nextIndex };
+}
+
+function summarizeReasonValue(raw: string | null | undefined): string | null {
+  if (!raw) {
+    return null;
+  }
+
+  const upper = raw.toUpperCase();
+  const detected: string[] = [];
+  const seen = new Set<string>();
+  const pattern = /\b([A-Z]{2,3})\b/g;
+  let match: RegExpExecArray | null;
+  while ((match = pattern.exec(upper))) {
+    const code = match[1];
+    if (KNOWN_REASON_CODES.has(code) && !seen.has(code)) {
+      detected.push(code);
+      seen.add(code);
+    }
+  }
+
+  if (detected.length > 0) {
+    return detected.join(', ');
+  }
+
+  return null;
+}
+
 function extractHighLevelDetails(node: EccnNode): HighLevelField[] {
   const blocks = collectPrimaryBlocks(node);
-  let reasonBlock: EccnContentBlock | null = null;
-  let licenseBlock: EccnContentBlock | null = null;
+  let reasonBlocks: EccnContentBlock[] = [];
+  let reasonSummary: string | null = null;
+  let reasonCountryBlocks: EccnContentBlock[] = [];
+  let reasonDetailBlocks: EccnContentBlock[] = [];
+  const licenseBlocks: EccnContentBlock[] = [];
   let controlTableBlock: EccnContentBlock | null = null;
   let controlHeading: string | null = null;
 
@@ -276,20 +476,35 @@ function extractHighLevelDetails(node: EccnNode): HighLevelField[] {
     const block = blocks[index];
     const plain = getBlockPlainText(block);
 
-    if (!reasonBlock && plain) {
-      const value = extractValueAfterLabel(plain, 'Reason for Control');
-      if (value) {
-        reasonBlock = { type: 'text', text: value };
+    if (reasonBlocks.length === 0 && plain && REASON_FOR_CONTROL_LABEL_PATTERN.test(plain)) {
+      if (!reasonSummary) {
+        reasonSummary = summarizeReasonValue(extractValueAfterLabel(plain, 'Reason for Control'));
       }
+      const { blocks: collected, nextIndex } = collectSectionAfterLabel(blocks, index, 'Reason for Control', {
+        stopPredicate: shouldStopCollectingReasonBlocks,
+      });
+
+      if (collected.length > 0) {
+        reasonBlocks = collected;
+      }
+
+      index = nextIndex - 1;
+      continue;
     }
 
-    if (!licenseBlock && plain) {
-      const value = extractValueAfterLabel(plain, 'List Based License Exceptions');
-      if (value) {
-        licenseBlock = { type: 'text', text: value };
-      } else if (/list\s+based\s+license\s+exceptions/i.test(plain) && block.html) {
-        licenseBlock = { type: 'html', html: block.html, tag: block.tag };
+    if (!licenseBlocks.length && plain && LIST_BASED_LICENSE_LABEL_PATTERN.test(plain)) {
+      const { blocks: collected, nextIndex } = collectSectionAfterLabel(blocks, index, 'List Based License Exceptions', {
+        stopPredicate: shouldStopCollectingLicenseBlocks,
+        skipValue: isPlaceholderLicenseValue,
+        includeSkippedValueInFallback: true,
+      });
+
+      if (collected.length > 0) {
+        licenseBlocks.push(...collected);
       }
+
+      index = nextIndex - 1;
+      continue;
     }
 
     if (!controlTableBlock) {
@@ -317,8 +532,84 @@ function extractHighLevelDetails(node: EccnNode): HighLevelField[] {
   }
 
   const fields: HighLevelField[] = [];
-  if (reasonBlock) {
-    fields.push({ id: 'reason-for-control', label: 'Reason for Control', blocks: [reasonBlock] });
+  if (reasonBlocks.length) {
+    const combinedReasonText = reasonBlocks
+      .map((block) => getBlockPlainText(block))
+      .filter((text) => Boolean(text && text.trim()))
+      .join(' ');
+
+    const aggregatedSummary = summarizeReasonValue(combinedReasonText);
+    if (aggregatedSummary) {
+      reasonSummary = aggregatedSummary;
+    }
+
+    const tableIndices = new Set<number>();
+    const contextualIndices = new Set<number>();
+
+    reasonBlocks.forEach((block, index) => {
+      if (block.html && /<table[\s>]/i.test(block.html)) {
+        tableIndices.add(index);
+        const previous = reasonBlocks[index - 1];
+        if (previous) {
+          const previousText = getBlockPlainText(previous).trim();
+          if (previousText && /country/i.test(previousText)) {
+            contextualIndices.add(index - 1);
+          }
+        }
+        const next = reasonBlocks[index + 1];
+        if (next) {
+          const nextText = getBlockPlainText(next).trim();
+          if (nextText && /country/i.test(nextText)) {
+            contextualIndices.add(index + 1);
+          }
+        }
+      }
+    });
+
+    const normalizedSummary = reasonSummary
+      ? reasonSummary.replace(/\s+/g, ' ').trim().toLowerCase()
+      : null;
+
+    reasonBlocks.forEach((block, index) => {
+      if (tableIndices.has(index) || contextualIndices.has(index)) {
+        reasonCountryBlocks.push(block);
+        return;
+      }
+
+      if (
+        normalizedSummary &&
+        block.type === 'text' &&
+        block.text &&
+        block.text.replace(/\s+/g, ' ').trim().toLowerCase() === normalizedSummary
+      ) {
+        return;
+      }
+
+      reasonDetailBlocks.push(block);
+    });
+  }
+
+  if (reasonSummary) {
+    fields.push({ id: 'reason-for-control', label: 'Reason for Control', blocks: [{ type: 'text', text: reasonSummary }] });
+  }
+
+  if (!reasonSummary && !reasonDetailBlocks.length && reasonCountryBlocks.length) {
+    fields.push({ id: 'reason-for-control', label: 'Reason for Control', blocks: reasonCountryBlocks });
+    reasonCountryBlocks = [];
+  } else if (!reasonSummary && reasonDetailBlocks.length) {
+    fields.push({
+      id: 'reason-for-control',
+      label: 'Reason for Control',
+      blocks: reasonDetailBlocks,
+    });
+  }
+
+  if (reasonCountryBlocks.length) {
+    fields.push({
+      id: 'reason-for-control-country-chart',
+      label: 'Country Chart',
+      blocks: reasonCountryBlocks,
+    });
   }
   if (controlTableBlock) {
     const blocksToShow = controlHeading
@@ -326,11 +617,11 @@ function extractHighLevelDetails(node: EccnNode): HighLevelField[] {
       : [controlTableBlock];
     fields.push({ id: 'control-table', label: 'Control table', blocks: blocksToShow });
   }
-  if (licenseBlock) {
+  if (licenseBlocks.length) {
     fields.push({
       id: 'list-based-license-exceptions',
       label: 'List Based License Exceptions',
-      blocks: [licenseBlock],
+      blocks: licenseBlocks,
     });
   }
   return fields;
