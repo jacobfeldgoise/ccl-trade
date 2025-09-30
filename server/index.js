@@ -1014,11 +1014,13 @@ function normalizeComparableText(value) {
     return null;
   }
 
-  const stripped = collapsed
+  const withoutEnumerators = stripLeadingEnumerators(collapsed) || collapsed;
+
+  const stripped = withoutEnumerators
     .replace(/^["'“”‘’()\[\]{}\-–—:;,.!?]+/, '')
     .replace(/["'“”‘’()\[\]{}\-–—:;,.!?]+$/, '');
 
-  return (stripped || collapsed).toLowerCase() || null;
+  return (stripped || withoutEnumerators).toLowerCase() || null;
 }
 
 function createTreeNode({ identifier, heading, path, parent }) {
