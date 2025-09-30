@@ -12,6 +12,38 @@ import { VersionControls } from './components/VersionControls';
 import { EccnNodeView } from './components/EccnNodeView';
 import { formatDateTime, formatNumber } from './utils/format';
 
+function normalizeSearchText(value: string | null | undefined): string {
+  if (!value) {
+    return '';
+  }
+
+  return value
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim();
+}
+
+function buildEccnSearchTarget(entry: EccnEntry): string {
+  const fields: Array<string | null | undefined> = [
+    entry.eccn,
+    entry.heading,
+    entry.title,
+    entry.category ? `category ${entry.category}` : null,
+    entry.group ? `group ${entry.group}` : null,
+    entry.parentEccn ? `parent ${entry.parentEccn}` : null,
+    entry.childEccns && entry.childEccns.length > 0 ? entry.childEccns.join(' ') : null,
+    entry.breadcrumbs.length > 0 ? entry.breadcrumbs.join(' ') : null,
+    entry.supplement?.heading,
+    entry.supplement?.number,
+    entry.supplement ? `supplement ${entry.supplement.number}` : null,
+    entry.supplement ? `supp no ${entry.supplement.number}` : null,
+  ];
+
+  return normalizeSearchText(fields.filter(Boolean).join(' '));
+}
+
 function getErrorMessage(error: unknown): string {
   if (error instanceof Error) {
     return error.message;
@@ -163,22 +195,29 @@ function App() {
     );
   }, [supplements]);
 
+  const searchableEccns = useMemo(() => {
+    return allEccns.map((entry) => ({
+      entry,
+      searchText: buildEccnSearchTarget(entry),
+    }));
+  }, [allEccns]);
+
   const filteredEccns: EccnEntry[] = useMemo(() => {
-    const term = eccnFilter.trim().toLowerCase();
-    return allEccns.filter((entry) => {
-      if (supplementFilter !== 'all' && entry.supplement.number !== supplementFilter) {
-        return false;
-      }
-      if (!term) {
-        return true;
-      }
-      const searchTarget = [entry.eccn, entry.heading, entry.title]
-        .filter(Boolean)
-        .join(' ')
-        .toLowerCase();
-      return searchTarget.includes(term);
-    });
-  }, [allEccns, eccnFilter, supplementFilter]);
+    const normalizedTerm = normalizeSearchText(eccnFilter);
+    const tokens = normalizedTerm.split(/\s+/).filter(Boolean);
+
+    return searchableEccns
+      .filter(({ entry, searchText }) => {
+        if (supplementFilter !== 'all' && entry.supplement.number !== supplementFilter) {
+          return false;
+        }
+        if (tokens.length === 0) {
+          return true;
+        }
+        return tokens.every((token) => searchText.includes(token));
+      })
+      .map(({ entry }) => entry);
+  }, [searchableEccns, eccnFilter, supplementFilter]);
 
   const selectedSupplementInfo = useMemo(() => {
     if (supplementFilter === 'all') {
@@ -329,7 +368,7 @@ function App() {
                     <ul className="eccn-list">
                       {filteredEccns.map((entry) => (
                         <li
-                          key={entry.eccn}
+                          key={`${entry.supplement.number}-${entry.eccn}`}
                           className={entry.eccn === activeEccn?.eccn ? 'active' : ''}
                         >
                           <button type="button" onClick={() => handleSelectEccn(entry.eccn)}>
