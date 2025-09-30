@@ -1009,7 +1009,18 @@ function normalizeComparableText(value) {
     return null;
   }
 
-  return value.replace(/\s+/g, ' ').trim().toLowerCase() || null;
+  const collapsed = value.replace(/\s+/g, ' ').trim();
+  if (!collapsed) {
+    return null;
+  }
+
+  const withoutEnumerators = stripLeadingEnumerators(collapsed) || collapsed;
+
+  const stripped = withoutEnumerators
+    .replace(/^["'“”‘’()\[\]{}\-–—:;,.!?]+/, '')
+    .replace(/["'“”‘’()\[\]{}\-–—:;,.!?]+$/, '');
+
+  return (stripped || withoutEnumerators).toLowerCase() || null;
 }
 
 function createTreeNode({ identifier, heading, path, parent }) {

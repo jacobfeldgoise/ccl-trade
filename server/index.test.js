@@ -83,3 +83,33 @@ test('duplicate headings are removed from structure content', () => {
   assert.equal(entry.structure.content?.length, 1);
   assert.equal(entry.structure.content?.[0].text, 'Note: Additional context');
 });
+
+test('duplicate headings with enumerators are removed from structure content', () => {
+  const root = createTreeNode({ identifier: '3B001', heading: 'Root heading', path: [], parent: null });
+  const child = createTreeNode({
+    identifier: '3B001.a',
+    heading: 'Equipment designed for epitaxial growth as follows',
+    path: ['a'],
+    parent: root,
+  });
+
+  root.children.push(child);
+
+  child.content.push({ type: 'text', text: 'a. Equipment designed for epitaxial growth as follows:' });
+  child.content.push({ type: 'text', text: 'Includes metal-organic chemical vapor deposition (MOCVD) systems.' });
+
+  const entries = flattenEccnTree(root, {
+    code: '3B001',
+    heading: root.heading,
+    breadcrumbs: [],
+    supplement: '1',
+  });
+
+  const entry = entries.find((candidate) => candidate.eccn === '3B001.a');
+  assert(entry, 'expected ECCN entry to be present');
+  assert.equal(entry.structure.content?.length, 1);
+  assert.equal(
+    entry.structure.content?.[0].text,
+    'Includes metal-organic chemical vapor deposition (MOCVD) systems.'
+  );
+});
