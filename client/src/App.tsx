@@ -560,6 +560,32 @@ function escapeHtml(value: string): string {
     .replace(/'/g, '&#39;');
 }
 
+function getDummyCodeDetail(code: string, type: 'license' | 'reason'): string {
+  if (type === 'license') {
+    return `Placeholder description for license exception ${code}.`;
+  }
+  return `Placeholder description for reason for control ${code}.`;
+}
+
+function buildCodeChipHtml(code: string, type: 'license' | 'reason'): string {
+  const normalizedCode = code.trim().toUpperCase();
+  if (!normalizedCode) {
+    return '';
+  }
+  const detail = getDummyCodeDetail(normalizedCode, type);
+  return `<span class="code-chip code-chip-${type}" title="${escapeHtml(detail)}" data-code="${escapeHtml(
+    normalizedCode
+  )}">${escapeHtml(normalizedCode)}</span>`;
+}
+
+function buildCodeChipListHtml(codes: string[], type: 'license' | 'reason'): string {
+  const chips = codes
+    .map((code) => buildCodeChipHtml(code, type))
+    .filter(Boolean)
+    .join('');
+  return `<div class="code-chip-list code-chip-list-${type}">${chips}</div>`;
+}
+
 function buildLicenseExceptionContent(blocks: EccnContentBlock[]): EccnContentBlock[] {
   const { entries, leftovers } = parseLicenseExceptionBlocks(blocks);
   if (!entries.length) {
@@ -569,7 +595,8 @@ function buildLicenseExceptionContent(blocks: EccnContentBlock[]): EccnContentBl
   const rowsHtml = entries
     .map((entry) => {
       const description = entry.description || '—';
-      return `    <tr>\n      <th scope="row">${escapeHtml(entry.code)}</th>\n      <td>${escapeHtml(description)}</td>\n    </tr>`;
+      const codeHtml = buildCodeChipHtml(entry.code, 'license') || escapeHtml(entry.code);
+      return `    <tr>\n      <th scope="row">${codeHtml}</th>\n      <td>${escapeHtml(description)}</td>\n    </tr>`;
     })
     .join('\n');
 
@@ -616,6 +643,22 @@ function summarizeReasonValue(raw: string | null | undefined): string | null {
   }
 
   return null;
+}
+
+function extractReasonSummaryCodes(summary: string): string[] {
+  const seen = new Set<string>();
+  const codes: string[] = [];
+  const upper = summary.toUpperCase();
+  const pattern = /\b([A-Z]{2,3})\b/g;
+  let match: RegExpExecArray | null;
+  while ((match = pattern.exec(upper))) {
+    const code = match[1];
+    if (!seen.has(code) && KNOWN_REASON_CODES.has(code)) {
+      seen.add(code);
+      codes.push(code);
+    }
+  }
+  return codes;
 }
 
 function extractHighLevelDetails(node: EccnNode): HighLevelField[] {
@@ -759,7 +802,23 @@ function extractHighLevelDetails(node: EccnNode): HighLevelField[] {
   }
 
   if (reasonSummary) {
-    fields.push({ id: 'reason-for-control', label: 'Reason for Control', blocks: [{ type: 'text', text: reasonSummary }] });
+    const codes = extractReasonSummaryCodes(reasonSummary);
+    if (codes.length) {
+      fields.push({
+        id: 'reason-for-control',
+        label: 'Reason for Control',
+        blocks: [
+          {
+            type: 'html',
+            tag: 'DIV',
+            html: buildCodeChipListHtml(codes, 'reason'),
+            text: reasonSummary,
+          },
+        ],
+      });
+    } else {
+      fields.push({ id: 'reason-for-control', label: 'Reason for Control', blocks: [{ type: 'text', text: reasonSummary }] });
+    }
   }
 
   if (!reasonSummary && !reasonDetailBlocks.length && reasonCountryBlocks.length) {
