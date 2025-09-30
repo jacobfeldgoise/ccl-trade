@@ -12,7 +12,28 @@ import { VersionControls } from './components/VersionControls';
 import { EccnNodeView } from './components/EccnNodeView';
 import { formatDateTime, formatNumber } from './utils/format';
 
-const ECCN_QUERY_PATTERN = /^[0-9][A-Z][0-9]{3}(?:\.[A-Z0-9]+)*$/;
+const ECCN_BASE_PATTERN = /^[0-9][A-Z][0-9]{3}$/;
+const ECCN_SEGMENT_PATTERN = /^[A-Z0-9]+(?:-[A-Z0-9]+)*$/;
+const ECCN_ALLOWED_CHARS_PATTERN = /^[0-9A-Z.\-\s]+$/;
+
+type EccnQueryResult = {
+  code: string;
+  segments: string[];
+};
+
+function stripWrappingPunctuation(value: string): string {
+  let working = value.trim();
+
+  while (working && /[).,;:–—]+$/u.test(working)) {
+    working = working.replace(/[).,;:–—]+$/u, '').trimEnd();
+  }
+
+  while (working && /^[([{"'`]+/u.test(working)) {
+    working = working.replace(/^[([{"'`]+/u, '').trimStart();
+  }
+
+  return working;
+}
 
 function parseEccnSegments(value: string | null | undefined): string[] | null {
   if (!value) {
@@ -77,7 +98,7 @@ function buildEccnSearchTarget(entry: EccnEntry): string {
   return normalizeSearchText(fields.filter(Boolean).join(' '));
 }
 
-function extractEccnQuery(value: string | null | undefined): string | null {
+function extractEccnQuery(value: string | null | undefined): EccnQueryResult | null {
   if (!value) {
     return null;
   }
@@ -87,15 +108,43 @@ function extractEccnQuery(value: string | null | undefined): string | null {
     return null;
   }
 
-  const collapsed = trimmed.replace(/\s+/g, '');
-  const stripped = collapsed.replace(/[).,;:–—-]+$/g, '');
-  const normalized = stripped.toUpperCase();
-
-  if (!ECCN_QUERY_PATTERN.test(normalized)) {
+  const stripped = stripWrappingPunctuation(trimmed);
+  if (!stripped) {
     return null;
   }
 
-  return normalized;
+  const upper = stripped.toUpperCase();
+  if (!ECCN_ALLOWED_CHARS_PATTERN.test(upper)) {
+    return null;
+  }
+
+  const parts = upper.split('.');
+  if (parts.length === 0) {
+    return null;
+  }
+
+  const base = parts[0]?.replace(/\s+/g, '') ?? '';
+  if (!ECCN_BASE_PATTERN.test(base)) {
+    return null;
+  }
+
+  const segments = [base];
+
+  for (let index = 1; index < parts.length; index += 1) {
+    const segment = parts[index]?.trim();
+    if (!segment || segment.includes(' ')) {
+      return null;
+    }
+    if (!ECCN_SEGMENT_PATTERN.test(segment)) {
+      return null;
+    }
+    segments.push(segment);
+  }
+
+  return {
+    code: segments.join('.'),
+    segments,
+  };
 }
 
 function getErrorMessage(error: unknown): string {
@@ -267,7 +316,8 @@ function App() {
     const normalizedTerm = normalizeSearchText(eccnFilter);
     const tokens = normalizedTerm.split(/\s+/).filter(Boolean);
     const eccnQuery = extractEccnQuery(eccnFilter);
-    const querySegments = eccnQuery ? parseEccnSegments(eccnQuery) : null;
+    const queryCode = eccnQuery?.code ?? null;
+    const querySegments = eccnQuery?.segments ?? null;
 
     if (selectedSupplements.length === 0) {
       return [];
@@ -278,12 +328,12 @@ function App() {
         if (!selectedSupplements.includes(entry.supplement.number)) {
           return false;
         }
-        if (eccnQuery && querySegments) {
+        if (queryCode && querySegments) {
           const entryCode = entry.eccn.toUpperCase();
-          if (entryCode === eccnQuery) {
+          if (entryCode === queryCode) {
             return true;
           }
-          if (entryCode.startsWith(`${eccnQuery}.`) || entryCode.startsWith(`${eccnQuery}-`)) {
+          if (entryCode.startsWith(`${queryCode}.`) || entryCode.startsWith(`${queryCode}-`)) {
             return true;
           }
 
