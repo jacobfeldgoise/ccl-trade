@@ -1174,6 +1174,8 @@ function App() {
     return extractHighLevelDetails(activeEccn.structure);
   }, [activeEccn]);
 
+  const eccnChildren = activeEccn?.structure.children ?? [];
+
   const normalizedFocusedIdentifier = useMemo(() => normalizeNodeIdentifier(focusedNodeIdentifier), [focusedNodeIdentifier]);
 
   const { focusedNode, focusedPath } = useMemo<{
@@ -1497,12 +1499,28 @@ function App() {
                             ))}
                           </dl>
                         )}
-                        <EccnNodeView
-                          node={activeEccn.structure}
-                          onSelectEccn={handleSelectEccn}
-                          activeNode={focusedNode}
-                          activePath={focusedPath}
-                        />
+                        <section className="eccn-children">
+                          <h4>ECCN Children</h4>
+                          {eccnChildren.length > 0 ? (
+                            <div className="eccn-children-tree">
+                              {eccnChildren.map((child, index) => {
+                                const key = getNodeAnchorId(child) ?? `eccn-child-${index}`;
+                                return (
+                                  <EccnNodeView
+                                    node={child}
+                                    level={1}
+                                    key={key}
+                                    onSelectEccn={handleSelectEccn}
+                                    activeNode={focusedNode}
+                                    activePath={focusedPath}
+                                  />
+                                );
+                              })}
+                            </div>
+                          ) : (
+                            <p className="help-text">This ECCN does not have any child entries.</p>
+                          )}
+                        </section>
                       </article>
                     ) : (
                       <div className="placeholder">No ECCNs match the current filter.</div>
