@@ -285,6 +285,22 @@ const ECCN_HEADING_PATTERN_CLIENT = /^([0-9][A-Z][0-9]{3})(?=$|[\s.\-–—:;(\[
 const LIST_BASED_LICENSE_LABEL_PATTERN = /^\s*List Based License Exceptions\b/i;
 const REASON_FOR_CONTROL_LABEL_PATTERN = /^\s*Reason for Control\b/i;
 
+const KNOWN_REASON_CODES = new Set([
+  'AT',
+  'CB',
+  'CC',
+  'EI',
+  'FC',
+  'MT',
+  'NP',
+  'NS',
+  'RS',
+  'SI',
+  'SL',
+  'SS',
+  'UN',
+]);
+
 function isPlaceholderLicenseValue(value: string | null | undefined): boolean {
   if (!value) {
     return false;
@@ -421,9 +437,36 @@ function collectSectionAfterLabel(
   return { blocks: collected, nextIndex };
 }
 
+function summarizeReasonValue(raw: string | null | undefined): string | null {
+  if (!raw) {
+    return null;
+  }
+
+  const upper = raw.toUpperCase();
+  const detected: string[] = [];
+  const seen = new Set<string>();
+  const pattern = /\b([A-Z]{2,3})\b/g;
+  let match: RegExpExecArray | null;
+  while ((match = pattern.exec(upper))) {
+    const code = match[1];
+    if (KNOWN_REASON_CODES.has(code) && !seen.has(code)) {
+      detected.push(code);
+      seen.add(code);
+    }
+  }
+
+  if (detected.length > 0) {
+    return detected.join(', ');
+  }
+
+  const trimmed = raw.trim();
+  return trimmed || null;
+}
+
 function extractHighLevelDetails(node: EccnNode): HighLevelField[] {
   const blocks = collectPrimaryBlocks(node);
   let reasonBlocks: EccnContentBlock[] = [];
+  let reasonSummary: string | null = null;
   const licenseBlocks: EccnContentBlock[] = [];
   let controlTableBlock: EccnContentBlock | null = null;
   let controlHeading: string | null = null;
@@ -433,6 +476,9 @@ function extractHighLevelDetails(node: EccnNode): HighLevelField[] {
     const plain = getBlockPlainText(block);
 
     if (reasonBlocks.length === 0 && plain && REASON_FOR_CONTROL_LABEL_PATTERN.test(plain)) {
+      if (!reasonSummary) {
+        reasonSummary = summarizeReasonValue(extractValueAfterLabel(plain, 'Reason for Control'));
+      }
       const { blocks: collected, nextIndex } = collectSectionAfterLabel(blocks, index, 'Reason for Control', {
         stopPredicate: shouldStopCollectingReasonBlocks,
       });
@@ -485,7 +531,9 @@ function extractHighLevelDetails(node: EccnNode): HighLevelField[] {
   }
 
   const fields: HighLevelField[] = [];
-  if (reasonBlocks.length) {
+  if (reasonSummary) {
+    fields.push({ id: 'reason-for-control', label: 'Reason for Control', blocks: [{ type: 'text', text: reasonSummary }] });
+  } else if (reasonBlocks.length) {
     fields.push({ id: 'reason-for-control', label: 'Reason for Control', blocks: reasonBlocks });
   }
   if (controlTableBlock) {
