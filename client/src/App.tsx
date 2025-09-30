@@ -459,8 +459,7 @@ function summarizeReasonValue(raw: string | null | undefined): string | null {
     return detected.join(', ');
   }
 
-  const trimmed = raw.trim();
-  return trimmed || null;
+  return null;
 }
 
 function extractHighLevelDetails(node: EccnNode): HighLevelField[] {
@@ -534,6 +533,16 @@ function extractHighLevelDetails(node: EccnNode): HighLevelField[] {
 
   const fields: HighLevelField[] = [];
   if (reasonBlocks.length) {
+    const combinedReasonText = reasonBlocks
+      .map((block) => getBlockPlainText(block))
+      .filter((text) => Boolean(text && text.trim()))
+      .join(' ');
+
+    const aggregatedSummary = summarizeReasonValue(combinedReasonText);
+    if (aggregatedSummary) {
+      reasonSummary = aggregatedSummary;
+    }
+
     const tableIndices = new Set<number>();
     const contextualIndices = new Set<number>();
 
