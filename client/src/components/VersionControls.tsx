@@ -124,10 +124,6 @@ export function VersionControls({
                     <dd>{formatDateTime(version.fetchedAt)}</dd>
                   </div>
                   <div>
-                    <dt>Supplements</dt>
-                    <dd>{formatNumber(version.counts?.supplements ?? 0)}</dd>
-                  </div>
-                  <div>
                     <dt>ECCNs</dt>
                     <dd>{formatNumber(version.counts?.eccns ?? 0)}</dd>
                   </div>
