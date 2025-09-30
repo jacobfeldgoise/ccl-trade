@@ -669,7 +669,7 @@ function App() {
                             </div>
                           </dl>
                         </header>
-                        <EccnNodeView node={activeEccn.structure} />
+                        <EccnNodeView node={activeEccn.structure} onSelectEccn={handleSelectEccn} />
                       </article>
                     ) : (
                       <div className="placeholder">No ECCNs match the current filter.</div>

@@ -443,6 +443,33 @@ body {
   line-height: 1.6;
 }
 
+.eccn-reference-link,
+.eccn-reference-button {
+  color: #2563eb;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.eccn-reference-button {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+}
+
+.eccn-reference-link:hover,
+.eccn-reference-link:focus-visible,
+.eccn-reference-button:hover,
+.eccn-reference-button:focus-visible {
+  text-decoration: none;
+}
+
+.eccn-reference-button:focus-visible {
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.4);
+  border-radius: 0.2rem;
+  outline: none;
+}
+
 .content-note,
 .content-ednote {
   padding: 0.75rem;
