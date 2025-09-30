@@ -12,6 +12,139 @@ import { VersionControls } from './components/VersionControls';
 import { EccnNodeView } from './components/EccnNodeView';
 import { formatDateTime, formatNumber } from './utils/format';
 
+const ECCN_BASE_PATTERN = /^[0-9][A-Z][0-9]{3}$/;
+const ECCN_SEGMENT_PATTERN = /^[A-Z0-9]+(?:-[A-Z0-9]+)*$/;
+const ECCN_ALLOWED_CHARS_PATTERN = /^[0-9A-Z.\-\s]+$/;
+
+type EccnSegment = {
+  raw: string;
+  parts: string[];
+};
+
+type ParsedEccnCode = {
+  code: string;
+  segments: EccnSegment[];
+};
+
+type SearchableEccn = {
+  entry: EccnEntry;
+  searchText: string;
+  normalizedCode: string;
+  segments: EccnSegment[] | null;
+};
+
+function stripWrappingPunctuation(value: string): string {
+  let working = value.trim();
+
+  while (working && /[).,;:–—]+$/u.test(working)) {
+    working = working.replace(/[).,;:–—]+$/u, '').trimEnd();
+  }
+
+  while (working && /^[([{"'`]+/u.test(working)) {
+    working = working.replace(/^[([{"'`]+/u, '').trimStart();
+  }
+
+  return working;
+}
+
+function parseNormalizedEccn(value: string | null | undefined): ParsedEccnCode | null {
+  if (!value) {
+    return null;
+  }
+
+  const trimmed = value.trim().toUpperCase();
+  if (!trimmed) {
+    return null;
+  }
+
+  const squished = trimmed.replace(/\s+/g, '');
+  if (!squished) {
+    return null;
+  }
+
+  if (squished.length < 5) {
+    return null;
+  }
+
+  const base = squished.slice(0, 5);
+  if (!ECCN_BASE_PATTERN.test(base)) {
+    return null;
+  }
+  const segments: EccnSegment[] = [
+    {
+      raw: base,
+      parts: base.split('-'),
+    },
+  ];
+
+  let index = base.length;
+
+  while (index < squished.length) {
+    if (squished[index] !== '.') {
+      return null;
+    }
+    index += 1;
+
+    const segmentStart = index;
+    while (index < squished.length && squished[index] !== '.') {
+      index += 1;
+    }
+
+    const segmentRaw = squished.slice(segmentStart, index);
+    if (!segmentRaw) {
+      return null;
+    }
+    if (!ECCN_SEGMENT_PATTERN.test(segmentRaw)) {
+      return null;
+    }
+
+    segments.push({
+      raw: segmentRaw,
+      parts: segmentRaw.split('-'),
+    });
+  }
+
+  return {
+    code: segments.map((segment) => segment.raw).join('.'),
+    segments,
+  };
+}
+
+function eccnSegmentsMatchQuery(querySegments: EccnSegment[], entrySegments: EccnSegment[]): boolean {
+  if (!querySegments.length || !entrySegments.length) {
+    return false;
+  }
+
+  if (entrySegments[0].raw !== querySegments[0].raw) {
+    return false;
+  }
+
+  if (entrySegments.length < querySegments.length) {
+    return false;
+  }
+
+  return querySegments.every((querySegment, index) => {
+    const target = entrySegments[index];
+    if (!target) {
+      return false;
+    }
+
+    if (index === 0) {
+      return target.raw === querySegment.raw;
+    }
+
+    if (target.raw === querySegment.raw) {
+      return true;
+    }
+
+    if (target.parts.length < querySegment.parts.length) {
+      return false;
+    }
+
+    return querySegment.parts.every((part, partIndex) => target.parts[partIndex] === part);
+  });
+}
+
 function normalizeSearchText(value: string | null | undefined): string {
   if (!value) {
     return '';
@@ -42,6 +175,29 @@ function buildEccnSearchTarget(entry: EccnEntry): string {
   ];
 
   return normalizeSearchText(fields.filter(Boolean).join(' '));
+}
+
+function extractEccnQuery(value: string | null | undefined): ParsedEccnCode | null {
+  if (!value) {
+    return null;
+  }
+
+  const trimmed = value.trim();
+  if (!trimmed) {
+    return null;
+  }
+
+  const stripped = stripWrappingPunctuation(trimmed);
+  if (!stripped) {
+    return null;
+  }
+
+  const upper = stripped.toUpperCase();
+  if (!ECCN_ALLOWED_CHARS_PATTERN.test(upper)) {
+    return null;
+  }
+
+  return parseNormalizedEccn(upper);
 }
 
 function getErrorMessage(error: unknown): string {
@@ -202,25 +358,54 @@ function App() {
     );
   }, [supplements]);
 
-  const searchableEccns = useMemo(() => {
-    return allEccns.map((entry) => ({
-      entry,
-      searchText: buildEccnSearchTarget(entry),
-    }));
+  const searchableEccns = useMemo<SearchableEccn[]>(() => {
+    const seen = new Set<string>();
+
+    return allEccns.flatMap<SearchableEccn>((entry) => {
+      const supplementNumber = entry.supplement.number;
+      const normalizedCode = entry.eccn.trim().toUpperCase();
+      const key = `${supplementNumber}::${normalizedCode}`;
+
+      if (seen.has(key)) {
+        return [];
+      }
+
+      seen.add(key);
+
+      const parsed = parseNormalizedEccn(normalizedCode);
+
+      return [
+        {
+          entry,
+          searchText: buildEccnSearchTarget(entry),
+          normalizedCode,
+          segments: parsed?.segments ?? null,
+        },
+      ];
+    });
   }, [allEccns]);
 
   const filteredEccns: EccnEntry[] = useMemo(() => {
     const normalizedTerm = normalizeSearchText(eccnFilter);
     const tokens = normalizedTerm.split(/\s+/).filter(Boolean);
+    const eccnQuery = extractEccnQuery(eccnFilter);
+    const querySegments = eccnQuery?.segments ?? null;
 
     if (selectedSupplements.length === 0) {
       return [];
     }
 
     return searchableEccns
-      .filter(({ entry, searchText }) => {
+      .filter(({ entry, searchText, segments }) => {
         if (!selectedSupplements.includes(entry.supplement.number)) {
           return false;
+        }
+        if (querySegments) {
+          if (!segments) {
+            return false;
+          }
+
+          return eccnSegmentsMatchQuery(querySegments, segments);
         }
         if (tokens.length === 0) {
           return true;
