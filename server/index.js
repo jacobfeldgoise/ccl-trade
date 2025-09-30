@@ -533,11 +533,6 @@ function derivePathFromNode($, node, baseCode, block, lastPath) {
     return fromId;
   }
 
-  const fromText = extractPathTokensFromText(block?.text, baseCode);
-  if (fromText) {
-    return fromText;
-  }
-
   const compound = extractCompoundEnumeratorTokens(block?.text);
   if (compound) {
     return compound;
@@ -549,11 +544,28 @@ function derivePathFromNode($, node, baseCode, block, lastPath) {
     const level = determineEnumeratorLevel(type);
     if (level) {
       const normalized = normalizeEnumeratorToken(token, type);
-      const derived = buildPathForEnumerator(normalized, level, lastPath);
+      const trimmedText = block?.text ? String(block.text).trim() : '';
+      let derived = buildPathForEnumerator(normalized, level, lastPath);
+
+      if (type === 'roman' && /^[a-z]$/i.test(token) && !trimmedText.startsWith('(')) {
+        if (!derived || derived[0] !== normalized) {
+          return [normalized];
+        }
+      }
+
+      if (!derived && type === 'roman' && /^[a-z]$/i.test(token)) {
+        derived = buildPathForEnumerator(normalized, 1, lastPath);
+      }
+
       if (derived) {
         return derived;
       }
     }
+  }
+
+  const fromText = extractPathTokensFromText(block?.text, baseCode);
+  if (fromText) {
+    return fromText;
   }
 
   return null;
@@ -617,22 +629,51 @@ function extractPathTokensFromText(text, baseCode) {
     return null;
   }
 
-  const escaped = escapeRegExp(normalizedBase);
-  const pattern = new RegExp(`(?:^|[^A-Za-z0-9])${escaped}((?:\\.[A-Za-z0-9]+)+)`, 'i');
-  const match = String(text).match(pattern);
-  if (!match) {
+  const normalizedText = String(text);
+  const lowerText = normalizedText.toLowerCase();
+  const lowerBase = normalizedBase.toLowerCase();
+
+  let index = lowerText.indexOf(lowerBase);
+  while (index !== -1) {
+    const beforeChar = index > 0 ? lowerText.charAt(index - 1) : '';
+    if (!beforeChar || /[^a-z0-9]/i.test(beforeChar)) {
+      break;
+    }
+    index = lowerText.indexOf(lowerBase, index + 1);
+  }
+
+  if (index === -1) {
     return null;
   }
 
-  const suffix = match[1];
+  const MAX_OFFSET_FOR_DIRECT_CODE = 5;
+  if (index > MAX_OFFSET_FOR_DIRECT_CODE) {
+    return null;
+  }
+
+  const suffix = normalizedText
+    .slice(index + normalizedBase.length)
+    .replace(/^[^A-Za-z0-9]+/, '');
+
   if (!suffix) {
     return null;
   }
 
-  const tokens = suffix
-    .split('.')
-    .map((part) => part.trim())
-    .filter(Boolean);
+  const tokens = [];
+
+  for (const rawPart of suffix.split('.')) {
+    const part = rawPart.trim();
+    if (!part) {
+      continue;
+    }
+
+    const type = classifyEnumeratorToken(part);
+    if (!type) {
+      return null;
+    }
+
+    tokens.push(normalizeEnumeratorToken(part, type));
+  }
 
   return tokens.length ? tokens : null;
 }

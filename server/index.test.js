@@ -170,6 +170,57 @@ test('parser handles notes, headings, and all-of-the-following blocks correctly'
   assert.equal(suppressedEntries.length, 0, 'child ECCNs should not produce standalone entries');
 });
 
+test('letter enumerators reset after deeply nested paragraphs', () => {
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>
+<ROOT>
+  <DIV5 TYPE="PART" N="774">
+    <DIV9 TYPE="SUPPLEMENT" N="1">
+      <HEAD>Supplement No. 1 to Part 774—The Commerce Control List</HEAD>
+      <P><B>3B001 Equipment</B></P>
+      <P><E T="03">c.4.c.3.</E> Placeholder requirement</P>
+      <P><E T="03">d.</E> Semiconductor manufacturing deposition equipment, as follows:</P>
+      <P><E T="03">d.1.</E> Equipment designed for cobalt (Co) electroplating or cobalt electroless-plating deposition processes;</P>
+    </DIV9>
+  </DIV5>
+</ROOT>`;
+
+  const { supplements } = parsePart(xml);
+  const supplement = supplements.find((entry) => entry.number === '1');
+  assert(supplement, 'expected supplement to be parsed');
+
+  const entries = supplement.eccns;
+  const dEntry = entries.find((entry) => entry.eccn === '3B001.d');
+  assert(dEntry, 'expected 3B001.d to be parsed');
+  assert.equal(dEntry.heading, 'Semiconductor manufacturing deposition equipment, as follows:');
+});
+
+test('compound enumerators with cross references keep descriptive children', () => {
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>
+<ROOT>
+  <DIV5 TYPE="PART" N="774">
+    <DIV9 TYPE="SUPPLEMENT" N="1">
+      <HEAD>Supplement No. 1 to Part 774—The Commerce Control List</HEAD>
+      <P><B>3B993 Components</B></P>
+      <P ID="fheading"><E T="03">(f)</E> Devices</P>
+      <P ID="f4"><E T="03">f.4.</E> Commodities not specified by 3B993.f.1 designed or modified to perform all of the following in or with deep-ultraviolet immersion photolithography equipment:</P>
+      <P ID="f4a"><E T="03">f.4.a.</E> Decrease the minimum resolvable feature specified by 3B993.f.1.b.1; and</P>
+      <P ID="f4b"><E T="03">f.4.b.</E> Decrease the maximum 'dedicated chuck overlay' of deep-ultraviolet immersion lithography equipment above 1.5 nm and below or equal to 2.4 nm.</P>
+    </DIV9>
+  </DIV5>
+</ROOT>`;
+
+  const { supplements } = parsePart(xml);
+  const supplement = supplements.find((entry) => entry.number === '1');
+  assert(supplement, 'expected supplement to be parsed');
+
+  const entry = supplement.eccns.find((candidate) => candidate.eccn === '3B993.f.4');
+  assert(entry, 'expected 3B993.f.4 entry to exist');
+  assert.equal(entry.heading, 'Commodities not specified by 3B993.f.1 designed or modified to perform all of the following in or with deep-ultraviolet immersion photolithography equipment:');
+  assert.deepEqual(entry.childEccns, [], 'children should be suppressed when all-of-the-following applies');
+  const childIdentifiers = entry.structure.children?.map((child) => child.identifier).sort();
+  assert.deepEqual(childIdentifiers, ['3B993.f.4.a', '3B993.f.4.b']);
+});
+
 test('heading updates when initial capture only yields the ECCN identifier', () => {
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <ROOT>
