@@ -4,12 +4,15 @@ import { getCcl, getVersions, refreshCcl } from './api';
 import {
   CclDataset,
   CclSupplement,
+  EccnContentBlock,
   EccnEntry,
+  EccnNode,
   VersionSummary,
   VersionsResponse,
 } from './types';
 import { VersionControls } from './components/VersionControls';
 import { EccnNodeView } from './components/EccnNodeView';
+import { EccnContentBlockView } from './components/EccnContentBlock';
 import { formatDateTime, formatNumber } from './utils/format';
 
 const ECCN_BASE_PATTERN = /^[0-9][A-Z][0-9]{3}$/;
@@ -200,6 +203,170 @@ function extractEccnQuery(value: string | null | undefined): ParsedEccnCode | nu
   return parseNormalizedEccn(upper);
 }
 
+interface HighLevelField {
+  id: string;
+  label: string;
+  blocks: EccnContentBlock[];
+}
+
+const SANITIZE_ANCHOR_PATTERN = /[^\w.-]+/g;
+const CONTROL_HEADING_PATTERN = /control(?:s)?\s+(?:country\s+chart|table)/i;
+
+function normalizeNodeIdentifier(value?: string | null): string | null {
+  if (!value) {
+    return null;
+  }
+
+  const normalized = value
+    .trim()
+    .toUpperCase()
+    .replace(/[\u2013\u2014]/g, '-')
+    .replace(/\s+/g, '');
+
+  return normalized || null;
+}
+
+function stripHtmlTags(value: string): string {
+  return value.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
+}
+
+function getBlockPlainText(block: EccnContentBlock): string {
+  if (block.text) {
+    return block.text;
+  }
+  if (block.html) {
+    return stripHtmlTags(block.html);
+  }
+  return '';
+}
+
+function collectPrimaryBlocks(node: EccnNode): EccnContentBlock[] {
+  const blocks: EccnContentBlock[] = [];
+  if (node.content) {
+    blocks.push(...node.content);
+  }
+  if (node.children) {
+    node.children.forEach((child) => {
+      if (child.boundToParent) {
+        blocks.push(...collectPrimaryBlocks(child));
+      }
+    });
+  }
+  return blocks;
+}
+
+function extractValueAfterLabel(plainText: string, label: string): string | null {
+  const escapedLabel = label.replace(/[.*+?^${}()|[\\]\\]/g, '\\$&');
+  const prefixPattern = new RegExp(`^\\s*${escapedLabel}\\s*[:\\-–—]*\\s*`, 'i');
+  if (!prefixPattern.test(plainText)) {
+    return null;
+  }
+  const value = plainText.replace(prefixPattern, '').trim();
+  return value || null;
+}
+
+function extractHighLevelDetails(node: EccnNode): HighLevelField[] {
+  const blocks = collectPrimaryBlocks(node);
+  let reasonBlock: EccnContentBlock | null = null;
+  let licenseBlock: EccnContentBlock | null = null;
+  let controlTableBlock: EccnContentBlock | null = null;
+  let controlHeading: string | null = null;
+
+  for (let index = 0; index < blocks.length; index += 1) {
+    const block = blocks[index];
+    const plain = getBlockPlainText(block);
+
+    if (!reasonBlock && plain) {
+      const value = extractValueAfterLabel(plain, 'Reason for Control');
+      if (value) {
+        reasonBlock = { type: 'text', text: value };
+      }
+    }
+
+    if (!licenseBlock && plain) {
+      const value = extractValueAfterLabel(plain, 'List Based License Exceptions');
+      if (value) {
+        licenseBlock = { type: 'text', text: value };
+      } else if (/list\s+based\s+license\s+exceptions/i.test(plain) && block.html) {
+        licenseBlock = { type: 'html', html: block.html, tag: block.tag };
+      }
+    }
+
+    if (!controlTableBlock) {
+      const hasTableHtml = Boolean(block.html && /<table[\s>]/i.test(block.html));
+      if (hasTableHtml && block.html) {
+        controlTableBlock = { type: 'html', html: block.html, tag: block.tag };
+        if (!controlHeading && index > 0) {
+          const previousPlain = getBlockPlainText(blocks[index - 1]).trim();
+          if (previousPlain && CONTROL_HEADING_PATTERN.test(previousPlain)) {
+            controlHeading = previousPlain;
+          }
+        }
+        continue;
+      }
+
+      if (plain && CONTROL_HEADING_PATTERN.test(plain)) {
+        controlHeading = plain.trim();
+        const next = blocks[index + 1];
+        if (next && next.html && /<table[\s>]/i.test(next.html)) {
+          controlTableBlock = { type: 'html', html: next.html, tag: next.tag };
+          index += 1;
+        }
+      }
+    }
+  }
+
+  const fields: HighLevelField[] = [];
+  if (reasonBlock) {
+    fields.push({ id: 'reason-for-control', label: 'Reason for Control', blocks: [reasonBlock] });
+  }
+  if (controlTableBlock) {
+    const blocksToShow = controlHeading
+      ? ([{ type: 'text', text: controlHeading }, controlTableBlock] as EccnContentBlock[])
+      : [controlTableBlock];
+    fields.push({ id: 'control-table', label: 'Control table', blocks: blocksToShow });
+  }
+  if (licenseBlock) {
+    fields.push({
+      id: 'list-based-license-exceptions',
+      label: 'List Based License Exceptions',
+      blocks: [licenseBlock],
+    });
+  }
+  return fields;
+}
+
+function findNodePathByIdentifier(node: EccnNode, target: string): EccnNode[] | null {
+  const normalizedTarget = target.trim();
+  const normalizedIdentifier = normalizeNodeIdentifier(node.identifier);
+  if (normalizedIdentifier && normalizedIdentifier === normalizedTarget) {
+    return [node];
+  }
+
+  if (!node.children || node.children.length === 0) {
+    return null;
+  }
+
+  for (const child of node.children) {
+    const childPath = findNodePathByIdentifier(child, normalizedTarget);
+    if (childPath) {
+      return [node, ...childPath];
+    }
+  }
+
+  return null;
+}
+
+function getNodeAnchorId(node: EccnNode): string | undefined {
+  if (node.identifier) {
+    return `eccn-node-${node.identifier.replace(SANITIZE_ANCHOR_PATTERN, '-')}`;
+  }
+  if (node.heading) {
+    return `eccn-node-${node.heading.replace(SANITIZE_ANCHOR_PATTERN, '-').toLowerCase()}`;
+  }
+  return undefined;
+}
+
 function getErrorMessage(error: unknown): string {
   if (error instanceof Error) {
     return error.message;
@@ -216,6 +383,7 @@ function App() {
   const [selectedDate, setSelectedDate] = useState<string | undefined>();
   const [dataset, setDataset] = useState<CclDataset | null>(null);
   const [selectedEccn, setSelectedEccn] = useState<string | undefined>();
+  const [focusedNodeIdentifier, setFocusedNodeIdentifier] = useState<string | undefined>();
   const [eccnFilter, setEccnFilter] = useState('');
   const [selectedSupplements, setSelectedSupplements] = useState<string[]>([]);
   const [loadingVersions, setLoadingVersions] = useState(false);
@@ -279,6 +447,7 @@ function App() {
           setDataset(data);
           setEccnFilter('');
           setSelectedEccn(undefined);
+          setFocusedNodeIdentifier(undefined);
         }
       })
       .catch((err) => {
@@ -314,6 +483,7 @@ function App() {
       setSelectedDate(date);
       setEccnFilter('');
       setSelectedEccn(undefined);
+      setFocusedNodeIdentifier(undefined);
       await loadVersions();
     } catch (err) {
       setError(`Unable to refresh version ${date}: ${getErrorMessage(err)}`);
@@ -443,6 +613,7 @@ function App() {
         }, 0);
 
   useEffect(() => {
+    setFocusedNodeIdentifier(undefined);
     if (!filteredEccns.length) {
       setSelectedEccn(undefined);
       return;
@@ -465,6 +636,59 @@ function App() {
     return filteredEccns[0];
   }, [filteredEccns, selectedEccn]);
 
+  const highLevelFields = useMemo<HighLevelField[]>(() => {
+    if (!activeEccn) {
+      return [];
+    }
+    return extractHighLevelDetails(activeEccn.structure);
+  }, [activeEccn]);
+
+  const normalizedFocusedIdentifier = useMemo(() => normalizeNodeIdentifier(focusedNodeIdentifier), [focusedNodeIdentifier]);
+
+  const { focusedNode, focusedPath } = useMemo<{
+    focusedNode: EccnNode | undefined;
+    focusedPath: Set<EccnNode> | undefined;
+  }>(() => {
+    if (!activeEccn || !normalizedFocusedIdentifier) {
+      return { focusedNode: undefined, focusedPath: undefined };
+    }
+
+    const directPath = findNodePathByIdentifier(activeEccn.structure, normalizedFocusedIdentifier);
+    if (directPath) {
+      return {
+        focusedNode: directPath[directPath.length - 1],
+        focusedPath: new Set(directPath),
+      };
+    }
+
+    if (normalizedFocusedIdentifier.includes('.')) {
+      const baseIdentifier = normalizedFocusedIdentifier.split('.')[0];
+      const basePath = findNodePathByIdentifier(activeEccn.structure, baseIdentifier);
+      if (basePath) {
+        return {
+          focusedNode: basePath[basePath.length - 1],
+          focusedPath: new Set(basePath),
+        };
+      }
+    }
+
+    return { focusedNode: undefined, focusedPath: undefined };
+  }, [activeEccn, normalizedFocusedIdentifier]);
+
+  useEffect(() => {
+    if (!focusedNode) {
+      return;
+    }
+    const anchorId = getNodeAnchorId(focusedNode);
+    if (!anchorId || typeof document === 'undefined') {
+      return;
+    }
+    const element = document.getElementById(anchorId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }, [focusedNode]);
+
   const handleToggleSupplementFilter = (value: string) => {
     setSelectedSupplements((previous) => {
       const nextSelection = new Set(previous);
@@ -479,10 +703,24 @@ function App() {
     });
     setEccnFilter('');
     setSelectedEccn(undefined);
+    setFocusedNodeIdentifier(undefined);
   };
 
   const handleSelectEccn = (value: string) => {
-    setSelectedEccn(value);
+    const parsed = extractEccnQuery(value) ?? parseNormalizedEccn(value);
+    if (!parsed || parsed.segments.length === 0) {
+      return;
+    }
+
+    const baseSegment = parsed.segments[0];
+    const baseCode = baseSegment.raw;
+    setSelectedEccn(baseCode);
+
+    if (parsed.segments.length > 1) {
+      setFocusedNodeIdentifier(parsed.code);
+    } else {
+      setFocusedNodeIdentifier(undefined);
+    }
   };
 
   return (
@@ -669,7 +907,31 @@ function App() {
                             </div>
                           </dl>
                         </header>
-                        <EccnNodeView node={activeEccn.structure} onSelectEccn={handleSelectEccn} />
+                        {highLevelFields.length > 0 && (
+                          <dl className="eccn-high-level">
+                            {highLevelFields.map((field) => (
+                              <div className="eccn-high-level-row" key={field.id}>
+                                <dt>{field.label}</dt>
+                                <dd>
+                                  {field.blocks.map((block, index) => (
+                                    <EccnContentBlockView
+                                      entry={block}
+                                      key={`${field.id}-${index}`}
+                                      onSelectEccn={handleSelectEccn}
+                                      className="high-level-content"
+                                    />
+                                  ))}
+                                </dd>
+                              </div>
+                            ))}
+                          </dl>
+                        )}
+                        <EccnNodeView
+                          node={activeEccn.structure}
+                          onSelectEccn={handleSelectEccn}
+                          activeNode={focusedNode}
+                          activePath={focusedPath}
+                        />
                       </article>
                     ) : (
                       <div className="placeholder">No ECCNs match the current filter.</div>

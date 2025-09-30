@@ -383,10 +383,79 @@ body {
   color: #4b5563;
 }
 
+.eccn-high-level {
+  margin: 1.5rem 0;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  background: #f9fafb;
+  overflow: hidden;
+}
+
+.eccn-high-level-row {
+  display: grid;
+  grid-template-columns: minmax(180px, 220px) 1fr;
+  gap: 0.5rem 1.5rem;
+  padding: 0.85rem 1rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.eccn-high-level-row:first-child {
+  border-top: none;
+}
+
+.eccn-high-level dt {
+  margin: 0;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.eccn-high-level dd {
+  margin: 0;
+  color: #1f2937;
+}
+
+.eccn-high-level .content {
+  margin: 0;
+}
+
+.eccn-high-level .content + .content {
+  margin-top: 0.5rem;
+}
+
+.eccn-high-level table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.eccn-high-level table th,
+.eccn-high-level table td {
+  border: 1px solid #d1d5db;
+  padding: 0.35rem 0.5rem;
+  text-align: left;
+}
+
+.eccn-high-level table thead th {
+  background: rgba(37, 99, 235, 0.1);
+  color: #1f2937;
+}
+
+.high-level-content {
+  margin: 0;
+}
+
 .eccn-node {
   border-left: 3px solid rgba(37, 99, 235, 0.25);
   margin-left: 0.5rem;
   padding-left: 0.75rem;
+}
+
+.eccn-node.active {
+  border-left-color: #2563eb;
+}
+
+.eccn-node.active-path:not(.active) {
+  border-left-color: rgba(37, 99, 235, 0.45);
 }
 
 .eccn-node summary {
@@ -406,6 +475,12 @@ body {
   flex-wrap: wrap;
   font-weight: 600;
   color: #1f2937;
+}
+
+.eccn-node.active .node-label {
+  background: rgba(37, 99, 235, 0.12);
+  border-radius: 0.4rem;
+  padding: 0.2rem 0.4rem;
 }
 
 .eccn-node .node-identifier {
@@ -436,6 +511,14 @@ body {
   border-left: 1px dashed rgba(37, 99, 235, 0.2);
   margin-left: 0.25rem;
   margin-bottom: 0.75rem;
+}
+
+.eccn-node.active .node-body {
+  border-left-color: rgba(37, 99, 235, 0.45);
+}
+
+.eccn-node.active-path .node-body {
+  border-left-color: rgba(37, 99, 235, 0.35);
 }
 
 .content {
