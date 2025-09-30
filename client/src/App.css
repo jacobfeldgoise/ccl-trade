@@ -399,10 +399,35 @@ body {
   color: #1f2937;
 }
 
-.eccn-node.static .node-label {
-  display: block;
+.eccn-node .node-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-wrap: wrap;
   font-weight: 600;
   color: #1f2937;
+}
+
+.eccn-node .node-identifier {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.1rem 0.45rem;
+  border-radius: 0.4rem;
+  background: rgba(37, 99, 235, 0.12);
+  color: #1d4ed8;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  font-size: 0.95rem;
+  line-height: 1.2;
+}
+
+.eccn-node .node-heading {
+  display: inline-flex;
+  align-items: center;
+  line-height: 1.3;
+}
+
+.eccn-node.static .node-label {
   padding: 0.35rem 0;
 }
 

@@ -15,13 +15,30 @@ export function EccnNodeView({ node, level = 0 }: EccnNodeViewProps) {
     setOpen(isAccordion ? level < 2 : true);
   }, [isAccordion, level, node.identifier]);
 
-  const label = useMemo(() => {
+  const labelText = useMemo(() => {
     const parts = [] as string[];
     if (node.identifier) parts.push(node.identifier);
     if (node.heading && node.heading !== node.identifier) parts.push(node.heading);
     if (!parts.length && node.label) parts.push(node.label);
+    if (!parts.length && node.heading) parts.push(node.heading);
     return parts.join(' – ') || 'Details';
   }, [node.identifier, node.heading, node.label]);
+
+  const labelIdentifier = node.identifier;
+  const labelHeading = useMemo(() => {
+    if (node.heading && node.heading !== node.identifier) {
+      return node.heading;
+    }
+    if (!node.identifier && node.heading) {
+      return node.heading;
+    }
+    if (!node.identifier && !node.heading && node.label) {
+      return node.label;
+    }
+    return undefined;
+  }, [node.heading, node.identifier, node.label]);
+
+  const labelFallback = !labelIdentifier && !labelHeading ? labelText : undefined;
 
   const anchorId = useMemo(() => {
     if (node.identifier) {
@@ -38,13 +55,21 @@ export function EccnNodeView({ node, level = 0 }: EccnNodeViewProps) {
   if (!isAccordion) {
     return (
       <div className={`eccn-node level-${level} static`} id={anchorId}>
-        {showLabel ? <div className="node-label">{label}</div> : null}
+        {showLabel ? (
+          <div className="node-label" aria-label={labelText} title={labelText}>
+            {labelIdentifier ? <span className="node-identifier">{labelIdentifier}</span> : null}
+            {labelHeading ? <span className="node-heading">{labelHeading}</span> : null}
+            {!labelIdentifier && !labelHeading ? (
+              <span className="node-heading">{labelFallback}</span>
+            ) : null}
+          </div>
+        ) : null}
         <div className="node-body">
           {node.content?.map((entry, index) => (
-            <ContentBlock entry={entry} key={`${anchorId || label}-content-${index}`} />
+            <ContentBlock entry={entry} key={`${anchorId || labelText}-content-${index}`} />
           ))}
           {node.children?.map((child, index) => (
-            <EccnNodeView node={child} level={level + 1} key={`${anchorId || label}-child-${index}`} />
+            <EccnNodeView node={child} level={level + 1} key={`${anchorId || labelText}-child-${index}`} />
           ))}
         </div>
       </div>
@@ -59,14 +84,20 @@ export function EccnNodeView({ node, level = 0 }: EccnNodeViewProps) {
       id={anchorId}
     >
       <summary>
-        <span className="node-label">{label}</span>
+        <span className="node-label" aria-label={labelText} title={labelText}>
+          {labelIdentifier ? <span className="node-identifier">{labelIdentifier}</span> : null}
+          {labelHeading ? <span className="node-heading">{labelHeading}</span> : null}
+          {!labelIdentifier && !labelHeading ? (
+            <span className="node-heading">{labelFallback}</span>
+          ) : null}
+        </span>
       </summary>
       <div className="node-body">
         {node.content?.map((entry, index) => (
-          <ContentBlock entry={entry} key={`${anchorId || label}-content-${index}`} />
+          <ContentBlock entry={entry} key={`${anchorId || labelText}-content-${index}`} />
         ))}
         {node.children?.map((child, index) => (
-          <EccnNodeView node={child} level={level + 1} key={`${anchorId || label}-child-${index}`} />
+          <EccnNodeView node={child} level={level + 1} key={`${anchorId || labelText}-child-${index}`} />
         ))}
       </div>
     </details>
