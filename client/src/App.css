@@ -424,6 +424,23 @@ body {
   overflow: hidden;
 }
 
+.eccn-children {
+  margin-top: 1.5rem;
+}
+
+.eccn-children h4 {
+  margin: 0 0 0.75rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.eccn-children-tree {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
 .eccn-high-level-row {
   display: grid;
   grid-template-columns: minmax(180px, 220px) 1fr;
