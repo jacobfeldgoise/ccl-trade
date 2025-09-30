@@ -381,6 +381,7 @@ function buildEccnTreeFromNodes($, nodes, { code, heading }) {
   let lastPath = [];
 
   const pathBearingTags = new Set(['P', 'LI']);
+  const nonRecursiveCaptureTags = new Set(['NOTE']);
   const contentTags = new Set(['P', 'LI', 'NOTE', 'TABLE', 'UL', 'OL', 'DL']);
 
   const processBlock = (node, { allowPath }) => {
@@ -407,7 +408,7 @@ function buildEccnTreeFromNodes($, nodes, { code, heading }) {
     });
 
     if (targetNode !== root) {
-      const headingCandidate = deriveParagraphHeadingFromBlock(node, block);
+      const headingCandidate = deriveParagraphHeadingFromBlock(node, block, targetNode.identifier);
       if (headingCandidate && !targetNode.heading) {
         targetNode.heading = headingCandidate;
         markNodeRequiresAllChildren(targetNode, headingCandidate);
@@ -456,7 +457,7 @@ function buildEccnTreeFromNodes($, nodes, { code, heading }) {
     if (shouldCapture) {
       processBlock(node, { allowPath });
 
-      if (pathBearingTags.has(tagName)) {
+      if (pathBearingTags.has(tagName) || nonRecursiveCaptureTags.has(tagName)) {
         return;
       }
     }
@@ -795,13 +796,24 @@ function buildPathForEnumerator(token, level, lastPath) {
   return base;
 }
 
-function deriveParagraphHeadingFromBlock(node, block) {
+function deriveParagraphHeadingFromBlock(node, block, identifier) {
   const textSource = block?.text || (node && node.type === 'text' ? node.data : null);
   if (!textSource) {
     return null;
   }
 
   const stripped = stripLeadingEnumerators(String(textSource));
+  if (!stripped) {
+    return null;
+  }
+
+  if (identifier) {
+    const withoutCode = deriveEccnTitle(identifier, stripped);
+    if (withoutCode) {
+      return withoutCode;
+    }
+  }
+
   return stripped || null;
 }
 
@@ -946,7 +958,7 @@ function filterRedundantContent(node) {
     return [];
   }
 
-  if (!node.heading) {
+  if (!node.heading || node.boundToParent) {
     return node.content.slice();
   }
 
