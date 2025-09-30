@@ -1,22 +1,35 @@
 import { useEffect, useMemo, useState } from 'react';
-import DOMPurify from 'dompurify';
-import { EccnContentBlock, EccnNode } from '../types';
+import { EccnNode } from '../types';
+import { EccnContentBlockView } from './EccnContentBlock';
 
 interface EccnNodeViewProps {
   node: EccnNode;
   level?: number;
+  onSelectEccn?: (eccn: string) => void;
+  activeNode?: EccnNode;
+  activePath?: Set<EccnNode>;
 }
 
-export function EccnNodeView({ node, level = 0 }: EccnNodeViewProps) {
-  const isAccordion = Boolean(node.isEccn && !node.boundToParent);
-  const [open, setOpen] = useState(() => (isAccordion ? level < 2 : true));
+export function EccnNodeView({
+  node,
+  level = 0,
+  onSelectEccn,
+  activeNode,
+  activePath,
+}: EccnNodeViewProps) {
+  const isRootEccn = Boolean(node.isEccn && level === 0);
+  const isAccordion = Boolean(node.isEccn && !node.boundToParent && !isRootEccn);
+  const isActive = activeNode === node;
+  const isInActivePath = activePath?.has(node) ?? false;
+  const shouldForceOpen = isAccordion ? level < 2 || isInActivePath : true;
+  const [open, setOpen] = useState(() => shouldForceOpen);
 
   useEffect(() => {
-    setOpen(isAccordion ? level < 2 : true);
-  }, [isAccordion, level, node.identifier]);
+    setOpen(shouldForceOpen);
+  }, [shouldForceOpen]);
 
   const labelText = useMemo(() => {
-    const parts = [] as string[];
+    const parts: string[] = [];
     if (node.identifier) parts.push(node.identifier);
     if (node.heading && node.heading !== node.identifier) parts.push(node.heading);
     if (!parts.length && node.label) parts.push(node.label);
@@ -52,9 +65,20 @@ export function EccnNodeView({ node, level = 0 }: EccnNodeViewProps) {
 
   const showLabel = !node.boundToParent;
 
+  const containerClasses = useMemo(() => {
+    const classes = ['eccn-node', `level-${level}`, !isAccordion ? 'static' : ''];
+    if (isActive) {
+      classes.push('active');
+    }
+    if (isInActivePath && !isActive) {
+      classes.push('active-path');
+    }
+    return classes.filter(Boolean).join(' ');
+  }, [isAccordion, isActive, isInActivePath, level]);
+
   if (!isAccordion) {
     return (
-      <div className={`eccn-node level-${level} static`} id={anchorId}>
+      <div className={containerClasses} id={anchorId}>
         {showLabel ? (
           <div className="node-label" aria-label={labelText} title={labelText}>
             {labelIdentifier ? <span className="node-identifier">{labelIdentifier}</span> : null}
@@ -66,10 +90,21 @@ export function EccnNodeView({ node, level = 0 }: EccnNodeViewProps) {
         ) : null}
         <div className="node-body">
           {node.content?.map((entry, index) => (
-            <ContentBlock entry={entry} key={`${anchorId || labelText}-content-${index}`} />
+            <EccnContentBlockView
+              entry={entry}
+              key={`${anchorId || labelText}-content-${index}`}
+              onSelectEccn={onSelectEccn}
+            />
           ))}
           {node.children?.map((child, index) => (
-            <EccnNodeView node={child} level={level + 1} key={`${anchorId || labelText}-child-${index}`} />
+            <EccnNodeView
+              node={child}
+              level={level + 1}
+              key={`${anchorId || labelText}-child-${index}`}
+              onSelectEccn={onSelectEccn}
+              activeNode={activeNode}
+              activePath={activePath}
+            />
           ))}
         </div>
       </div>
@@ -78,7 +113,7 @@ export function EccnNodeView({ node, level = 0 }: EccnNodeViewProps) {
 
   return (
     <details
-      className={`eccn-node level-${level}`}
+      className={containerClasses}
       open={open}
       onToggle={(event) => setOpen((event.currentTarget as HTMLDetailsElement).open)}
       id={anchorId}
@@ -94,30 +129,23 @@ export function EccnNodeView({ node, level = 0 }: EccnNodeViewProps) {
       </summary>
       <div className="node-body">
         {node.content?.map((entry, index) => (
-          <ContentBlock entry={entry} key={`${anchorId || labelText}-content-${index}`} />
+          <EccnContentBlockView
+            entry={entry}
+            key={`${anchorId || labelText}-content-${index}`}
+            onSelectEccn={onSelectEccn}
+          />
         ))}
         {node.children?.map((child, index) => (
-          <EccnNodeView node={child} level={level + 1} key={`${anchorId || labelText}-child-${index}`} />
+          <EccnNodeView
+            node={child}
+            level={level + 1}
+            key={`${anchorId || labelText}-child-${index}`}
+            onSelectEccn={onSelectEccn}
+            activeNode={activeNode}
+            activePath={activePath}
+          />
         ))}
       </div>
     </details>
   );
-}
-
-function ContentBlock({ entry }: { entry: EccnContentBlock }) {
-  if (entry.type === 'text') {
-    return <p className="content text-only">{entry.text}</p>;
-  }
-
-  const sanitizedHtml = entry.html
-    ? DOMPurify.sanitize(entry.html, { USE_PROFILES: { html: true } })
-    : entry.text;
-
-  if (!sanitizedHtml) {
-    return null;
-  }
-
-  const className = `content content-${(entry.tag || 'html').toLowerCase()}`;
-
-  return <div className={className} dangerouslySetInnerHTML={{ __html: sanitizedHtml }} />;
 }
