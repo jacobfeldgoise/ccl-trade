@@ -384,6 +384,20 @@ function buildEccnTreeFromNodes($, nodes, { code, heading }) {
   const nonRecursiveCaptureTags = new Set(['NOTE']);
   const contentTags = new Set(['P', 'LI', 'NOTE', 'TABLE', 'UL', 'OL', 'DL']);
 
+  const finalizePendingNoteForNode = (treeNode) => {
+    if (!treeNode || !treeNode.pendingNote) {
+      return;
+    }
+
+    const noteBlock = createNoteBlockFromState($, treeNode.pendingNote);
+    treeNode.pendingNote = null;
+
+    if (noteBlock) {
+      treeNode.content.push(noteBlock);
+      markNodeRequiresAllChildrenFromBlock(treeNode, noteBlock);
+    }
+  };
+
   const processBlock = (node, { allowPath }) => {
     const block = buildContentBlock($, node);
     if (!block) {
@@ -393,6 +407,9 @@ function buildEccnTreeFromNodes($, nodes, { code, heading }) {
     let pathTokens = null;
     if (allowPath) {
       pathTokens = derivePathFromNode($, node, code, block, lastPath);
+      if (shouldTreatAsNoteContinuation(node, block, pathTokens, lastPath)) {
+        pathTokens = Array.isArray(lastPath) ? lastPath.slice() : [];
+      }
     }
 
     const targetTokens = Array.isArray(pathTokens)
@@ -407,10 +424,43 @@ function buildEccnTreeFromNodes($, nodes, { code, heading }) {
       pathTokens: Array.isArray(targetTokens) ? targetTokens : [],
     });
 
+    if (targetNode.pendingNote) {
+      if (isNoteHeadingBlockCandidate(block, node)) {
+        finalizePendingNoteForNode(targetNode);
+      } else if (isNoteContinuationBlockNode(node, block)) {
+        targetNode.pendingNote.content.push({ node, block });
+        if (Array.isArray(pathTokens)) {
+          lastPath = pathTokens.slice();
+        }
+        return;
+      } else {
+        finalizePendingNoteForNode(targetNode);
+      }
+    }
+
+    if (isNoteHeadingBlockCandidate(block, node)) {
+      targetNode.pendingNote = {
+        headingNode: node,
+        headingBlock: block,
+        content: [],
+      };
+
+      if (Array.isArray(pathTokens)) {
+        lastPath = pathTokens.slice();
+      }
+
+      return;
+    }
+
     if (targetNode !== root) {
       const headingCandidate = deriveParagraphHeadingFromBlock(node, block, targetNode.identifier);
       if (headingCandidate) {
-        if (shouldAdoptHeading(targetNode.heading, headingCandidate, targetNode.identifier)) {
+        if (
+          shouldAdoptHeading(targetNode.heading, headingCandidate, targetNode.identifier, {
+            node,
+            block,
+          })
+        ) {
           targetNode.heading = headingCandidate;
         }
         markNodeRequiresAllChildren(targetNode, headingCandidate);
@@ -471,6 +521,10 @@ function buildEccnTreeFromNodes($, nodes, { code, heading }) {
 
   for (const rawNode of nodes) {
     traverse(rawNode);
+  }
+
+  for (const node of nodeMap.values()) {
+    finalizePendingNoteForNode(node);
   }
 
   refreshRequireAllChildrenFlags(root);
@@ -566,6 +620,11 @@ function derivePathFromNode($, node, baseCode, block, lastPath) {
   const fromText = extractPathTokensFromText(block?.text, baseCode);
   if (fromText) {
     return fromText;
+  }
+
+  const fromNoteHeading = extractTokensFromNoteHeading(block?.text, baseCode);
+  if (fromNoteHeading) {
+    return fromNoteHeading;
   }
 
   return null;
@@ -667,19 +726,58 @@ function extractPathTokensFromText(text, baseCode) {
       continue;
     }
 
-    const type = classifyEnumeratorToken(part);
+    const match = part.match(/^([A-Za-z0-9]+)/);
+    if (!match) {
+      continue;
+    }
+
+    const token = match[1];
+    const type = classifyEnumeratorToken(token, 'suffix');
     if (!type) {
       return null;
     }
 
-    tokens.push(normalizeEnumeratorToken(part, type));
+    tokens.push(normalizeEnumeratorToken(token, type));
   }
 
   return tokens.length ? tokens : null;
 }
 
+function extractTokensFromNoteHeading(text, baseCode) {
+  if (!text || !baseCode) {
+    return null;
+  }
+
+  const pattern = new RegExp(`${escapeRegExp(baseCode)}\s*\.\s*([A-Za-z0-9]+)`, 'i');
+  const match = String(text).match(pattern);
+  if (!match || !match[1]) {
+    return null;
+  }
+
+  const token = match[1];
+  const type = classifyEnumeratorToken(token, 'suffix');
+  if (!type) {
+    return null;
+  }
+
+  return [normalizeEnumeratorToken(token, type)];
+}
+
 function escapeRegExp(value) {
   return String(value).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function escapeHtml(value) {
+  if (value == null) {
+    return '';
+  }
+
+  return String(value)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
 }
 
 function extractEnumeratorFromBlock(block) {
@@ -707,29 +805,31 @@ function extractEnumeratorFromText(text) {
 
   const compound = extractCompoundEnumeratorTokens(normalized);
   if (compound) {
+    const last = compound[compound.length - 1];
     return {
-      token: compound[compound.length - 1],
-      type: classifyEnumeratorToken(compound[compound.length - 1]),
+      token: last,
+      type: classifyEnumeratorToken(last, 'suffix'),
+      style: 'suffix',
     };
   }
 
   const patterns = [
-    /^\(([ivxlcdm]{1,6})\)/i,
-    /^\(([a-z]{1,2})\)/i,
-    /^\(([0-9]{1,3})\)/,
-    /^([ivxlcdm]{1,6})[).\-–—]/i,
-    /^([a-z]{1,2})[).\-–—]/i,
-    /^([0-9]{1,3})[).\-–—]/,
-    /^([A-Z]{1,2})[).\-–—]/,
+    { regex: /^\(([ivxlcdm]{1,6})\)/i, style: 'paren' },
+    { regex: /^\(([a-z]{1,2})\)/i, style: 'paren' },
+    { regex: /^\(([0-9]{1,3})\)/, style: 'paren' },
+    { regex: /^([ivxlcdm]{1,6})[).\-–—]/i, style: 'suffix' },
+    { regex: /^([a-z]{1,2})[).\-–—]/i, style: 'suffix' },
+    { regex: /^([0-9]{1,3})[).\-–—]/, style: 'suffix' },
+    { regex: /^([A-Z]{1,2})[).\-–—]/, style: 'suffix' },
   ];
 
-  for (const pattern of patterns) {
-    const match = normalized.match(pattern);
+  for (const { regex, style } of patterns) {
+    const match = normalized.match(regex);
     if (match && match[1]) {
       const token = match[1];
-      const type = classifyEnumeratorToken(token);
+      const type = classifyEnumeratorToken(token, style);
       if (type) {
-        return { token, type };
+        return { token, type, style };
       }
     }
   }
@@ -737,7 +837,7 @@ function extractEnumeratorFromText(text) {
   return null;
 }
 
-function classifyEnumeratorToken(token) {
+function classifyEnumeratorToken(token, style) {
   if (!token) {
     return null;
   }
@@ -747,6 +847,12 @@ function classifyEnumeratorToken(token) {
 
   if (/^[0-9]{1,3}$/.test(raw)) {
     return 'digit';
+  }
+
+  if (style === 'suffix' && /^[a-z]{1,2}$/.test(lower)) {
+    if (lower.length === 1) {
+      return 'letter';
+    }
   }
 
   if (/^[ivxlcdm]{1,6}$/.test(lower)) {
@@ -815,7 +921,7 @@ function extractCompoundEnumeratorTokens(text) {
   const tokens = [];
 
   for (const rawToken of rawTokens) {
-    const type = classifyEnumeratorToken(rawToken);
+    const type = classifyEnumeratorToken(rawToken, 'suffix');
     if (!type) {
       return null;
     }
@@ -846,7 +952,7 @@ function deriveParagraphHeadingFromBlock(node, block, identifier) {
   }
 
   const normalized = String(textSource).replace(/\s+/g, ' ').trim();
-  if (!normalized || isNoteLikeHeadingCandidate(block, normalized)) {
+  if (!normalized || isNoteLikeHeadingCandidate(block, normalized, node)) {
     return null;
   }
 
@@ -865,7 +971,7 @@ function deriveParagraphHeadingFromBlock(node, block, identifier) {
   return stripped || null;
 }
 
-function isNoteLikeHeadingCandidate(block, text) {
+function isNoteLikeHeadingCandidate(block, text, node) {
   if (!text) {
     return false;
   }
@@ -887,16 +993,28 @@ function isNoteLikeHeadingCandidate(block, text) {
     return true;
   }
 
+  if (/^technical\s+note[:\s]/i.test(normalized)) {
+    return true;
+  }
+
+  if (isLikelyItalicParagraph(node)) {
+    return true;
+  }
+
   return false;
 }
 
-function shouldAdoptHeading(currentHeading, candidateHeading, identifier) {
+function shouldAdoptHeading(currentHeading, candidateHeading, identifier, { node, block } = {}) {
   if (!candidateHeading) {
     return false;
   }
 
   if (!currentHeading) {
     return true;
+  }
+
+  if (isLikelyItalicParagraph(node)) {
+    return false;
   }
 
   const current = normalizeHeadingValue(currentHeading);
@@ -933,6 +1051,488 @@ function shouldAdoptHeading(currentHeading, candidateHeading, identifier) {
 
   if (candidate.length > current.length + 10) {
     return true;
+  }
+
+  return false;
+}
+
+function shouldTreatAsNoteContinuation(node, block, pathTokens, lastPath) {
+  if (!isLikelyItalicParagraph(node)) {
+    return false;
+  }
+
+  if (isNoteHeadingBlockCandidate(block, node)) {
+    return false;
+  }
+
+  if (!Array.isArray(lastPath) || lastPath.length === 0) {
+    return false;
+  }
+
+  if (!Array.isArray(pathTokens) || pathTokens.length === 0) {
+    return false;
+  }
+
+  return true;
+}
+
+function isNoteHeadingBlockCandidate(block, node) {
+  if (!block || block.type !== 'html') {
+    return false;
+  }
+
+  const tagName = block.tag ? String(block.tag).toUpperCase() : '';
+  if (!tagName || !(tagName === 'LI' || /^F?P(?:-\d+)?$/.test(tagName))) {
+    return false;
+  }
+
+  const text = (block.text || '').replace(/\s+/g, ' ').trim();
+  if (!text) {
+    return false;
+  }
+
+  if (!isLikelyItalicParagraph(node)) {
+    return false;
+  }
+
+  const colonIndex = text.indexOf(':');
+  if (colonIndex === -1) {
+    return false;
+  }
+
+  const label = text.slice(0, colonIndex).trim();
+  if (!label || /^see\s+note\b/i.test(label)) {
+    return false;
+  }
+
+  return isNoteLabelText(label);
+}
+
+function isNoteContinuationBlockNode(node, block) {
+  if (!block || block.type !== 'html') {
+    return false;
+  }
+
+  if (isNoteHeadingBlockCandidate(block, node)) {
+    return false;
+  }
+
+  const tagName = block.tag ? String(block.tag).toUpperCase() : '';
+  if (tagName === 'NOTE') {
+    return true;
+  }
+
+  return isLikelyItalicParagraph(node);
+}
+
+function createNoteBlockFromState($, pendingNote) {
+  if (!pendingNote || !pendingNote.headingNode || !pendingNote.headingBlock) {
+    return null;
+  }
+
+  const { headingNode, headingBlock, content } = pendingNote;
+  const { labelHtml, bodyHtml } = splitNoteHeadingElement($, headingNode);
+
+  const contentItems = [];
+
+  if (bodyHtml) {
+    const text = bodyHtml.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
+    contentItems.push({ html: bodyHtml, text });
+  }
+
+  for (const entry of content || []) {
+    if (!entry || !entry.block) {
+      continue;
+    }
+    const html = entry.block.html || null;
+    if (!html) {
+      continue;
+    }
+    const text = (entry.block.text || '').replace(/\s+/g, ' ').trim();
+    contentItems.push({ html, text });
+  }
+
+  const segments = buildNoteSegmentsFromHtml(contentItems);
+  const rendered = segments.map((segment) => renderNoteSegment(segment)).join('');
+
+  const headingSection = labelHtml ? `<HED>${labelHtml}</HED>` : '';
+  const noteHtml = `<NOTE>${headingSection}${rendered}</NOTE>`;
+
+  const textParts = [];
+  if (headingBlock.text) {
+    textParts.push(headingBlock.text);
+  }
+  for (const entry of content || []) {
+    if (entry?.block?.text) {
+      textParts.push(entry.block.text);
+    }
+  }
+  const combinedText = textParts.join(' ').replace(/\s+/g, ' ').trim();
+
+  return {
+    type: 'html',
+    tag: 'NOTE',
+    html: noteHtml,
+    text: combinedText || null,
+    id: headingBlock.id || null,
+  };
+}
+
+function splitNoteHeadingElement($, headingNode) {
+  if (!headingNode) {
+    return { labelHtml: null, bodyHtml: null };
+  }
+
+  const element = $(headingNode).clone();
+  const labelElement = findNoteHeadingLabelElement($, element);
+
+  let labelHtml = null;
+  if (labelElement) {
+    labelHtml = normalizeHtml($, labelElement[0]);
+    labelElement.remove();
+  }
+
+  let bodyHtml = '';
+  if (containsMeaningfulText(element[0])) {
+    const normalized = normalizeHtml($, element[0]);
+    bodyHtml = normalized ? normalized.trim() : '';
+  }
+
+  if (!labelHtml) {
+    const text = element.text().replace(/\s+/g, ' ').trim();
+    if (text) {
+      const colonIndex = text.indexOf(':');
+      if (colonIndex !== -1) {
+        const label = text.slice(0, colonIndex + 1).trim();
+        const remainder = text.slice(colonIndex + 1).trim();
+        if (isNoteLabelText(label)) {
+          labelHtml = escapeHtml(label);
+          bodyHtml = remainder ? `<P>${escapeHtml(remainder)}</P>` : '';
+        }
+      }
+    }
+  }
+
+  return {
+    labelHtml: labelHtml || null,
+    bodyHtml: bodyHtml || null,
+  };
+}
+
+function findNoteHeadingLabelElement($, element) {
+  const contents = element.contents().toArray();
+  for (const child of contents) {
+    if (!child || child.type !== 'tag') {
+      continue;
+    }
+
+    const text = $(child).text().replace(/\s+/g, ' ').trim();
+    if (!text) {
+      continue;
+    }
+
+    const colonIndex = text.indexOf(':');
+    if (colonIndex === -1) {
+      continue;
+    }
+
+    const label = text.slice(0, colonIndex + 1).trim();
+    if (isNoteLabelText(label)) {
+      return $(child);
+    }
+  }
+
+  return null;
+}
+
+function isNoteLabelText(value) {
+  if (!value) {
+    return false;
+  }
+
+  const normalized = String(value).replace(/\s+/g, ' ').trim();
+  if (!normalized) {
+    return false;
+  }
+
+  return /^(?:technical\s+note|general\s+note|license\s+(?:requirement|exception)\s+note|notes?|note)\b/i.test(normalized);
+}
+
+function buildNoteSegmentsFromHtml(items) {
+  const segments = [];
+  const listStack = [];
+
+  for (const item of items) {
+    if (!item || !item.html) {
+      continue;
+    }
+
+    const text = (item.text || '').replace(/\s+/g, ' ').trim();
+    const enumerator = extractEnumeratorFromText(text);
+    const level = enumerator ? determineEnumeratorLevel(enumerator.type) : null;
+
+    if (enumerator && level) {
+      if (level > listStack.length + 1) {
+        listStack.length = 0;
+        segments.push({ type: 'paragraph', html: item.html });
+        continue;
+      }
+
+      const entry = ensureListLevelForSegments(segments, listStack, level, enumerator.type);
+      const cleanedHtml = removeLeadingEnumeratorFromHtml(item.html, enumerator.token);
+      const listItem = { html: cleanedHtml, children: [] };
+      entry.list.items.push(listItem);
+      entry.currentItem = listItem;
+      continue;
+    }
+
+    listStack.length = 0;
+    segments.push({ type: 'paragraph', html: item.html });
+  }
+
+  return segments;
+}
+
+function ensureListLevelForSegments(segments, listStack, level, enumeratorType) {
+  while (listStack.length > level) {
+    listStack.pop();
+  }
+
+  while (listStack.length < level) {
+    const newList = { olType: null, items: [] };
+    if (listStack.length === 0) {
+      segments.push({ type: 'list', list: newList });
+    } else {
+      const parentEntry = listStack[listStack.length - 1];
+      if (parentEntry.currentItem) {
+        parentEntry.currentItem.children.push(newList);
+      } else {
+        const placeholder = { html: '', children: [newList] };
+        parentEntry.list.items.push(placeholder);
+        parentEntry.currentItem = placeholder;
+      }
+    }
+    listStack.push({ list: newList, currentItem: null });
+  }
+
+  const entry = listStack[level - 1];
+  const olType = mapEnumeratorTypeToOlType(enumeratorType);
+  if (olType) {
+    entry.list.olType = entry.list.olType || olType;
+  }
+  return entry;
+}
+
+function mapEnumeratorTypeToOlType(type) {
+  switch (type) {
+    case 'letter':
+      return 'a';
+    case 'upper':
+      return 'A';
+    case 'digit':
+      return '1';
+    case 'roman':
+      return 'i';
+    default:
+      return null;
+  }
+}
+
+function removeLeadingEnumeratorFromHtml(html, token) {
+  if (!html || !token) {
+    return html;
+  }
+
+  const $fragment = load(html, { xmlMode: true, decodeEntities: false });
+  const root = $fragment.root().children().first();
+  if (!root || !root.length) {
+    return html;
+  }
+
+  const pattern = buildLeadingEnumeratorRegex(token);
+  removeLeadingTextFromFragment($fragment, root, pattern);
+  return $fragment.html();
+}
+
+function buildLeadingEnumeratorRegex(token) {
+  const escaped = escapeRegExp(String(token));
+  return new RegExp(`^\\s*(?:\\(${escaped}\\)|${escaped})(?:[).:;\-–—]*)?\\s*`, 'i');
+}
+
+function removeLeadingTextFromFragment($fragment, element, pattern) {
+  const contents = element.contents().toArray();
+  for (const child of contents) {
+    if (!child) {
+      continue;
+    }
+
+    if (child.type === 'text') {
+      const data = child.data || '';
+      const updated = data.replace(pattern, '');
+      if (updated !== data) {
+        child.data = updated;
+        return true;
+      }
+      if (data.trim()) {
+        return false;
+      }
+      continue;
+    }
+
+    if (child.type === 'tag') {
+      const wrapped = $fragment(child);
+      if (removeLeadingTextFromFragment($fragment, wrapped, pattern)) {
+        return true;
+      }
+    }
+  }
+
+  return false;
+}
+
+function renderNoteSegment(segment) {
+  if (!segment) {
+    return '';
+  }
+
+  if (segment.type === 'paragraph') {
+    return segment.html || '';
+  }
+
+  if (segment.type === 'list') {
+    return renderNoteList(segment.list);
+  }
+
+  return '';
+}
+
+function renderNoteList(list) {
+  if (!list) {
+    return '';
+  }
+
+  const typeAttr = list.olType ? ` type="${list.olType}"` : '';
+  const items = list.items
+    .map((item) => {
+      const content = item.html || '';
+      const children = (item.children || []).map((child) => renderNoteList(child)).join('');
+      return `<LI>${content}${children}</LI>`;
+    })
+    .join('');
+
+  return `<OL${typeAttr}>${items}</OL>`;
+}
+
+function isLikelyItalicParagraph(node) {
+  if (!node || node.type !== 'tag') {
+    return false;
+  }
+
+  const tagName = node.name ? node.name.toUpperCase() : '';
+  if (tagName !== 'P' && tagName !== 'LI') {
+    return false;
+  }
+
+  const firstMeaningful = findFirstMeaningfulChild(node);
+  if (!firstMeaningful || firstMeaningful.type === 'text') {
+    return false;
+  }
+
+  return isItalicLeadElement(firstMeaningful);
+}
+
+function findFirstMeaningfulChild(node) {
+  if (!node || node.type !== 'tag') {
+    return null;
+  }
+
+  const children = Array.isArray(node.children) ? node.children : [];
+  for (const child of children) {
+    if (!child) {
+      continue;
+    }
+
+    if (child.type === 'text') {
+      if ((child.data || '').trim()) {
+        return child;
+      }
+      continue;
+    }
+
+    if (child.type !== 'tag') {
+      continue;
+    }
+
+    if (containsMeaningfulText(child)) {
+      return child;
+    }
+  }
+
+  return null;
+}
+
+const ITALIC_E_TYPES = new Set(['04', '0714', '7462', '8064']);
+const ITALIC_WRAPPER_TAGS = new Set(['SPAN', 'B', 'STRONG', 'SUP', 'SUB', 'SMALL']);
+
+function isItalicLeadElement(node) {
+  if (!node || node.type !== 'tag') {
+    return false;
+  }
+
+  const tagName = node.name ? node.name.toUpperCase() : '';
+  if (!tagName) {
+    return false;
+  }
+
+  if (tagName === 'I' || tagName === 'EM') {
+    return true;
+  }
+
+  if (tagName === 'E') {
+    const attribs = node.attribs || {};
+    const type = (attribs.T || attribs.t || '').trim();
+    if (!type) {
+      return true;
+    }
+
+    if (ITALIC_E_TYPES.has(type)) {
+      return true;
+    }
+  }
+
+  const styleAttr = node.attribs?.style || node.attribs?.STYLE || '';
+  if (styleAttr && /italic/i.test(styleAttr)) {
+    return true;
+  }
+
+  if (ITALIC_WRAPPER_TAGS.has(tagName)) {
+    const nested = findFirstMeaningfulChild(node);
+    if (nested && nested.type === 'tag') {
+      return isItalicLeadElement(nested);
+    }
+  }
+
+  return false;
+}
+
+function containsMeaningfulText(node) {
+  if (!node) {
+    return false;
+  }
+
+  if (node.type === 'text') {
+    return Boolean((node.data || '').trim());
+  }
+
+  if (node.type !== 'tag') {
+    return false;
+  }
+
+  const children = Array.isArray(node.children) ? node.children : [];
+  for (const child of children) {
+    if (containsMeaningfulText(child)) {
+      return true;
+    }
   }
 
   return false;
@@ -1251,6 +1851,7 @@ function createTreeNode({ identifier, heading, path, parent }) {
     requireAllChildren: false,
     isEccn: false,
     boundToParent: false,
+    pendingNote: null,
   };
 }
 
