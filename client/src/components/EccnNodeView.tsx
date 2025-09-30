@@ -55,7 +55,7 @@ export function EccnNodeView({ node, level = 0 }: EccnNodeViewProps) {
     <details
       className={`eccn-node level-${level}`}
       open={open}
-      onToggle={(event) => setOpen((event.target as HTMLDetailsElement).open)}
+      onToggle={(event) => setOpen((event.currentTarget as HTMLDetailsElement).open)}
       id={anchorId}
     >
       <summary>
