@@ -14,6 +14,15 @@ import { formatDateTime, formatNumber } from './utils/format';
 
 const ECCN_QUERY_PATTERN = /^[0-9][A-Z][0-9]{3}(?:\.[A-Z0-9]+)*$/;
 
+function getEccnBase(code: string | null | undefined): string | null {
+  if (!code) {
+    return null;
+  }
+
+  const match = /^[0-9][A-Z][0-9]{3}/.exec(code);
+  return match ? match[0] : null;
+}
+
 function normalizeSearchText(value: string | null | undefined): string {
   if (!value) {
     return '';
@@ -248,14 +257,20 @@ function App() {
         }
         if (eccnQuery) {
           const entryCode = entry.eccn.toUpperCase();
+          const entryBase = getEccnBase(entryCode);
+          const queryBase = getEccnBase(eccnQuery);
+          if (entryBase && queryBase && entryBase !== queryBase) {
+            return false;
+          }
           const parentCode = entry.parentEccn ? entry.parentEccn.toUpperCase() : null;
+          const parentBase = getEccnBase(parentCode);
           if (entryCode === eccnQuery) {
             return true;
           }
           if (entryCode.startsWith(`${eccnQuery}.`)) {
             return true;
           }
-          if (parentCode === eccnQuery) {
+          if (parentCode === eccnQuery && (!parentBase || !queryBase || parentBase === queryBase)) {
             return true;
           }
           return false;
