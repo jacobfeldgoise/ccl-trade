@@ -845,7 +845,12 @@ function deriveParagraphHeadingFromBlock(node, block, identifier) {
     return null;
   }
 
-  const stripped = stripLeadingEnumerators(String(textSource));
+  const normalized = String(textSource).replace(/\s+/g, ' ').trim();
+  if (!normalized || isNoteLikeHeadingCandidate(block, normalized)) {
+    return null;
+  }
+
+  const stripped = stripLeadingEnumerators(normalized);
   if (!stripped) {
     return null;
   }
@@ -858,6 +863,31 @@ function deriveParagraphHeadingFromBlock(node, block, identifier) {
   }
 
   return stripped || null;
+}
+
+function isNoteLikeHeadingCandidate(block, text) {
+  if (!text) {
+    return false;
+  }
+
+  if (block?.tag === 'NOTE') {
+    return true;
+  }
+
+  const normalized = String(text).replace(/\s+/g, ' ').trim();
+  if (!normalized) {
+    return false;
+  }
+
+  if (/^note\s+to\s+[0-9a-z.()\-]+/i.test(normalized)) {
+    return true;
+  }
+
+  if (/^note[:\s]/i.test(normalized)) {
+    return true;
+  }
+
+  return false;
 }
 
 function shouldAdoptHeading(currentHeading, candidateHeading, identifier) {

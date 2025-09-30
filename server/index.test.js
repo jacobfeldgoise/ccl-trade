@@ -170,6 +170,45 @@ test('parser handles notes, headings, and all-of-the-following blocks correctly'
   assert.equal(suppressedEntries.length, 0, 'child ECCNs should not produce standalone entries');
 });
 
+test('note paragraphs do not replace ECCN headings', () => {
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>
+<ROOT>
+  <DIV5 TYPE="PART" N="774">
+    <DIV9 TYPE="SUPPLEMENT" N="1">
+      <HEAD>Supplement No. 1 to Part 774—The Commerce Control List</HEAD>
+      <P><B>3B001 Equipment</B></P>
+      <P ID="3b001f"><E T="03">(f)</E> Assemblies, as follows:</P>
+      <P ID="3b001f2"><E T="03">(2)</E> Assemblies with positional accuracy better than 5 nm</P>
+      <NOTE ID="note3b001f2"><P>Note to 3B001.f.2: These notes provide additional context.</P></NOTE>
+      <P ID="3b001f2i"><E T="03">(i)</E> Incorporating closed-loop feedback control</P>
+    </DIV9>
+  </DIV5>
+</ROOT>`;
+
+  const { supplements } = parsePart(xml);
+  const supplement = supplements.find((entry) => entry.number === '1');
+  assert(supplement, 'expected supplement to be parsed');
+
+  const entries = supplement.eccns;
+  const entry = entries.find((candidate) => candidate.eccn === '3B001.f.2');
+  assert(entry, 'expected 3B001.f.2 entry to be present');
+  assert.equal(
+    entry.heading,
+    'Assemblies with positional accuracy better than 5 nm',
+    'note text should not replace the ECCN heading'
+  );
+
+  const label = entry.structure.label;
+  assert(label?.includes('3B001.f.2'), 'label should include the ECCN identifier');
+  assert(label?.includes('Assemblies with positional accuracy better than 5 nm'));
+  assert(!label?.includes('Note to 3B001.f.2'), 'label should not include the note text');
+
+  const noteBlocks = (entry.structure.content || []).filter((block) =>
+    block.text?.startsWith('Note to 3B001.f.2:')
+  );
+  assert.equal(noteBlocks.length, 1, 'note should remain in the ECCN content');
+});
+
 test('letter enumerators reset after deeply nested paragraphs', () => {
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <ROOT>
