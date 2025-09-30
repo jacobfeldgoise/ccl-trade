@@ -61,7 +61,7 @@ function App() {
   const [dataset, setDataset] = useState<CclDataset | null>(null);
   const [selectedEccn, setSelectedEccn] = useState<string | undefined>();
   const [eccnFilter, setEccnFilter] = useState('');
-  const [supplementFilter, setSupplementFilter] = useState<string>('all');
+  const [selectedSupplements, setSelectedSupplements] = useState<string[]>([]);
   const [loadingVersions, setLoadingVersions] = useState(false);
   const [loadingDataset, setLoadingDataset] = useState(false);
   const [refreshing, setRefreshing] = useState(false);
@@ -122,7 +122,6 @@ function App() {
         if (!cancelled) {
           setDataset(data);
           setEccnFilter('');
-          setSupplementFilter('all');
           setSelectedEccn(undefined);
         }
       })
@@ -158,7 +157,6 @@ function App() {
       setDataset(data);
       setSelectedDate(date);
       setEccnFilter('');
-      setSupplementFilter('all');
       setSelectedEccn(undefined);
       await loadVersions();
     } catch (err) {
@@ -178,6 +176,15 @@ function App() {
     }
     return dataset.supplements;
   }, [dataset]);
+
+  useEffect(() => {
+    if (!supplements.length) {
+      setSelectedSupplements([]);
+      return;
+    }
+
+    setSelectedSupplements(supplements.map((supplement) => supplement.number));
+  }, [supplements]);
 
   const allEccns: EccnEntry[] = useMemo(() => {
     return supplements.flatMap((supplement) =>
@@ -206,9 +213,13 @@ function App() {
     const normalizedTerm = normalizeSearchText(eccnFilter);
     const tokens = normalizedTerm.split(/\s+/).filter(Boolean);
 
+    if (selectedSupplements.length === 0) {
+      return [];
+    }
+
     return searchableEccns
       .filter(({ entry, searchText }) => {
-        if (supplementFilter !== 'all' && entry.supplement.number !== supplementFilter) {
+        if (!selectedSupplements.includes(entry.supplement.number)) {
           return false;
         }
         if (tokens.length === 0) {
@@ -217,20 +228,34 @@ function App() {
         return tokens.every((token) => searchText.includes(token));
       })
       .map(({ entry }) => entry);
-  }, [searchableEccns, eccnFilter, supplementFilter]);
+  }, [searchableEccns, eccnFilter, selectedSupplements]);
 
-  const selectedSupplementInfo = useMemo(() => {
-    if (supplementFilter === 'all') {
+  const singleSelectedSupplement = useMemo(() => {
+    if (selectedSupplements.length !== 1) {
       return undefined;
     }
-    return supplements.find((supplement) => supplement.number === supplementFilter);
-  }, [supplementFilter, supplements]);
+    const [selectedNumber] = selectedSupplements;
+    return supplements.find((supplement) => supplement.number === selectedNumber);
+  }, [selectedSupplements, supplements]);
 
   const totalEccnCount = allEccns.length;
+  const allSupplementsSelected =
+    supplements.length > 0 && selectedSupplements.length === supplements.length;
   const supplementScopeCount =
-    supplementFilter === 'all'
+    selectedSupplements.length === 0
+      ? 0
+      : allSupplementsSelected
       ? totalEccnCount
-      : selectedSupplementInfo?.metadata?.eccnCount ?? filteredEccns.length;
+      : selectedSupplements.reduce((total, number) => {
+          const supplement = supplements.find((item) => item.number === number);
+          if (!supplement) {
+            return total;
+          }
+          if (supplement.metadata?.eccnCount != null) {
+            return total + supplement.metadata.eccnCount;
+          }
+          return total + supplement.eccns.length;
+        }, 0);
 
   useEffect(() => {
     if (!filteredEccns.length) {
@@ -255,8 +280,18 @@ function App() {
     return filteredEccns[0];
   }, [filteredEccns, selectedEccn]);
 
-  const handleSelectSupplementFilter = (value: string) => {
-    setSupplementFilter(value);
+  const handleToggleSupplementFilter = (value: string) => {
+    setSelectedSupplements((previous) => {
+      const nextSelection = new Set(previous);
+      if (nextSelection.has(value)) {
+        nextSelection.delete(value);
+      } else {
+        nextSelection.add(value);
+      }
+
+      const ordered = supplements.map((supplement) => supplement.number);
+      return ordered.filter((number) => nextSelection.has(number));
+    });
     setEccnFilter('');
     setSelectedEccn(undefined);
   };
@@ -310,10 +345,6 @@ function App() {
             <>
               <section className="dataset-summary">
                 <div>
-                  <h3>Supplements parsed</h3>
-                  <p>{formatNumber(dataset.counts?.supplements ?? 0)}</p>
-                </div>
-                <div>
                   <h3>Total ECCNs captured</h3>
                   <p>{formatNumber(dataset.counts?.eccns ?? 0)}</p>
                 </div>
@@ -327,22 +358,25 @@ function App() {
                 <div className="eccn-browser">
                   <aside className="eccn-sidebar">
                     <div className="control-group">
-                      <label htmlFor="supplement-filter">Supplement</label>
-                      <select
-                        id="supplement-filter"
-                        className="control"
-                        value={supplementFilter}
-                        onChange={(event) => handleSelectSupplementFilter(event.target.value)}
-                      >
-                        <option value="all">All supplements</option>
-                        {supplements.map((supplement) => (
-                          <option key={supplement.number} value={supplement.number}>
-                            {`Supplement No. ${supplement.number}`}
-                          </option>
-                        ))}
-                      </select>
-                      {selectedSupplementInfo?.heading && (
-                        <p className="help-text">{selectedSupplementInfo.heading}</p>
+                      <span className="control-label">Supplements</span>
+                      <div className="checkbox-list">
+                        {supplements.map((supplement) => {
+                          const checkboxId = `supplement-${supplement.number}`;
+                          return (
+                            <label key={supplement.number} className="checkbox-option" htmlFor={checkboxId}>
+                              <input
+                                id={checkboxId}
+                                type="checkbox"
+                                checked={selectedSupplements.includes(supplement.number)}
+                                onChange={() => handleToggleSupplementFilter(supplement.number)}
+                              />
+                              <span>{`Supplement No. ${supplement.number}`}</span>
+                            </label>
+                          );
+                        })}
+                      </div>
+                      {singleSelectedSupplement?.heading && (
+                        <p className="help-text">{singleSelectedSupplement.heading}</p>
                       )}
                     </div>
 
@@ -359,9 +393,17 @@ function App() {
                       <p className="help-text">
                         Showing {formatNumber(filteredEccns.length)} of{' '}
                         {formatNumber(supplementScopeCount)} ECCNs
-                        {supplementFilter === 'all'
+                        {selectedSupplements.length === 0
+                          ? ' with no supplements selected.'
+                          : allSupplementsSelected
                           ? ' across all supplements.'
-                          : ` from Supplement No. ${supplementFilter}.`}
+                          : selectedSupplements.length === 1
+                          ? ` from Supplement No. ${selectedSupplements[0]}${
+                              singleSelectedSupplement?.heading
+                                ? ` – ${singleSelectedSupplement.heading}`
+                                : ''
+                            }.`
+                          : ` across ${selectedSupplements.length} supplements.`}
                       </p>
                     </div>
 
