@@ -409,16 +409,16 @@ function buildEccnTreeFromNodes($, nodes, { code, heading }) {
 
     if (targetNode !== root) {
       const headingCandidate = deriveParagraphHeadingFromBlock(node, block, targetNode.identifier);
-      if (headingCandidate && !targetNode.heading) {
-        targetNode.heading = headingCandidate;
+      if (headingCandidate) {
+        if (shouldAdoptHeading(targetNode.heading, headingCandidate, targetNode.identifier)) {
+          targetNode.heading = headingCandidate;
+        }
         markNodeRequiresAllChildren(targetNode, headingCandidate);
       }
     }
 
     targetNode.content.push(block);
-    if (block?.text) {
-      markNodeRequiresAllChildren(targetNode, block.text);
-    }
+    markNodeRequiresAllChildrenFromBlock(targetNode, block);
 
     if (Array.isArray(pathTokens)) {
       lastPath = pathTokens.slice();
@@ -472,6 +472,8 @@ function buildEccnTreeFromNodes($, nodes, { code, heading }) {
   for (const rawNode of nodes) {
     traverse(rawNode);
   }
+
+  refreshRequireAllChildrenFlags(root);
 
   return root;
 }
@@ -817,6 +819,97 @@ function deriveParagraphHeadingFromBlock(node, block, identifier) {
   return stripped || null;
 }
 
+function shouldAdoptHeading(currentHeading, candidateHeading, identifier) {
+  if (!candidateHeading) {
+    return false;
+  }
+
+  if (!currentHeading) {
+    return true;
+  }
+
+  const current = normalizeHeadingValue(currentHeading);
+  const candidate = normalizeHeadingValue(candidateHeading);
+  if (!candidate) {
+    return false;
+  }
+
+  if (!current) {
+    return true;
+  }
+
+  const currentLooksLikeIdentifier = isIdentifierLikeHeading(current, identifier);
+  const candidateLooksLikeIdentifier = isIdentifierLikeHeading(candidate, identifier);
+
+  if (currentLooksLikeIdentifier && !candidateLooksLikeIdentifier) {
+    return true;
+  }
+
+  if (!currentLooksLikeIdentifier && candidateLooksLikeIdentifier) {
+    return false;
+  }
+
+  if (currentLooksLikeIdentifier && candidateLooksLikeIdentifier) {
+    return candidate.length > current.length;
+  }
+
+  const currentWordCount = current.split(/\s+/).filter(Boolean).length;
+  const candidateWordCount = candidate.split(/\s+/).filter(Boolean).length;
+
+  if (candidateWordCount > currentWordCount) {
+    return true;
+  }
+
+  if (candidate.length > current.length + 10) {
+    return true;
+  }
+
+  return false;
+}
+
+function normalizeHeadingValue(value) {
+  if (!value) {
+    return '';
+  }
+  return String(value).replace(/\s+/g, ' ').trim();
+}
+
+function isIdentifierLikeHeading(heading, identifier) {
+  if (!heading) {
+    return true;
+  }
+
+  const normalizedHeading = heading.replace(/\s+/g, ' ').trim();
+  if (!normalizedHeading) {
+    return true;
+  }
+
+  if (/^[(\[]?[a-z0-9]{1,4}[)\].-]?$/.test(normalizedHeading)) {
+    return true;
+  }
+
+  const headingComparable = normalizeIdentifierForComparison(normalizedHeading);
+  if (!headingComparable) {
+    return true;
+  }
+
+  const identifierComparable = normalizeIdentifierForComparison(identifier);
+  if (identifierComparable && headingComparable === identifierComparable) {
+    return true;
+  }
+
+  return false;
+}
+
+function normalizeIdentifierForComparison(value) {
+  if (!value) {
+    return '';
+  }
+  return String(value)
+    .replace(/[^A-Za-z0-9]/g, '')
+    .toLowerCase();
+}
+
 function stripLeadingEnumerators(text) {
   if (!text) {
     return '';
@@ -914,6 +1007,47 @@ function markNodeRequiresAllChildren(node, text) {
 
   if (ALL_OF_FOLLOWING_PATTERN.test(text)) {
     node.requireAllChildren = true;
+  }
+}
+
+function markNodeRequiresAllChildrenFromBlock(node, block) {
+  if (!node || !block) {
+    return;
+  }
+
+  if (block.text) {
+    markNodeRequiresAllChildren(node, block.text);
+    return;
+  }
+
+  if (block.html) {
+    const stripped = block.html
+      .replace(/<[^>]*>/g, ' ')
+      .replace(/&nbsp;/gi, ' ')
+      .replace(/&amp;/gi, '&');
+    markNodeRequiresAllChildren(node, stripped);
+  }
+}
+
+function refreshRequireAllChildrenFlags(node) {
+  if (!node) {
+    return;
+  }
+
+  if (node.heading) {
+    markNodeRequiresAllChildren(node, node.heading);
+  }
+
+  if (Array.isArray(node.content)) {
+    for (const block of node.content) {
+      markNodeRequiresAllChildrenFromBlock(node, block);
+    }
+  }
+
+  if (Array.isArray(node.children)) {
+    for (const child of node.children) {
+      refreshRequireAllChildrenFlags(child);
+    }
   }
 }
 

@@ -169,3 +169,60 @@ test('parser handles notes, headings, and all-of-the-following blocks correctly'
   const suppressedEntries = entries.filter((entry) => entry.eccn.startsWith('3B993.f.4.'));
   assert.equal(suppressedEntries.length, 0, 'child ECCNs should not produce standalone entries');
 });
+
+test('heading updates when initial capture only yields the ECCN identifier', () => {
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>
+<ROOT>
+  <DIV5 TYPE="PART" N="774">
+    <DIV9 TYPE="SUPPLEMENT" N="1">
+      <HEAD>Supplement No. 1 to Part 774—The Commerce Control List</HEAD>
+      <P><B>3B001 Equipment</B></P>
+      <P ID="3b001d"><E T="03">d.</E><E T="03">3B001.d</E></P>
+      <P>Control systems for manufacturing wafers</P>
+    </DIV9>
+  </DIV5>
+</ROOT>`;
+
+  const { supplements } = parsePart(xml);
+  const supplement = supplements.find((entry) => entry.number === '1');
+  assert(supplement, 'supplement should be parsed');
+
+  const entry = supplement.eccns.find((candidate) => candidate.eccn === '3B001.d');
+  assert(entry, '3B001.d entry should exist');
+  assert.equal(entry.heading, 'Control systems for manufacturing wafers');
+  assert.equal(entry.structure.label, '3B001.d – Control systems for manufacturing wafers');
+});
+
+test('all-of-the-following is detected even when descriptive text is separated into another paragraph', () => {
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>
+<ROOT>
+  <DIV5 TYPE="PART" N="774">
+    <DIV9 TYPE="SUPPLEMENT" N="1">
+      <HEAD>Supplement No. 1 to Part 774—The Commerce Control List</HEAD>
+      <P><B>3B993 Components</B></P>
+      <P ID="3b993f"><E T="03">(f)</E> Devices</P>
+      <P ID="3b993f4"><E T="03">(4)</E></P>
+      <P><I>All of the following:</I></P>
+      <P ID="3b993f4a"><E T="03">(a)</E> Component A with precision alignment</P>
+      <P ID="3b993f4b"><E T="03">(b)</E> Component B capable of rapid alignment</P>
+    </DIV9>
+  </DIV5>
+</ROOT>`;
+
+  const { supplements } = parsePart(xml);
+  const supplement = supplements.find((entry) => entry.number === '1');
+  assert(supplement, 'supplement should be parsed');
+
+  const entries = supplement.eccns;
+
+  const f4Entry = entries.find((entry) => entry.eccn === '3B993.f.4');
+  assert(f4Entry, '3B993.f.4 entry should exist');
+  assert.equal(f4Entry.childEccns.length, 0, 'children should be suppressed');
+
+  const suppressedChildren = f4Entry.structure.children || [];
+  const childAText = suppressedChildren.find((child) => child.identifier === '3B993.f.4.a')?.content?.[0]?.text;
+  assert(childAText?.includes('Component A with precision alignment'), 'child A text should be retained');
+
+  const suppressedStandaloneEntries = entries.filter((entry) => entry.eccn.startsWith('3B993.f.4.'));
+  assert.equal(suppressedStandaloneEntries.length, 0, 'suppressed children must not produce standalone ECCNs');
+});
