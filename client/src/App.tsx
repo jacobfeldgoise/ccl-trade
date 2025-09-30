@@ -14,13 +14,35 @@ import { formatDateTime, formatNumber } from './utils/format';
 
 const ECCN_QUERY_PATTERN = /^[0-9][A-Z][0-9]{3}(?:\.[A-Z0-9]+)*$/;
 
-function getEccnBase(code: string | null | undefined): string | null {
-  if (!code) {
+function parseEccnSegments(value: string | null | undefined): string[] | null {
+  if (!value) {
     return null;
   }
 
-  const match = /^[0-9][A-Z][0-9]{3}/.exec(code);
-  return match ? match[0] : null;
+  const normalized = value.trim().toUpperCase();
+  if (!normalized) {
+    return null;
+  }
+
+  const baseMatch = normalized.match(/^([0-9][A-Z][0-9]{3})/);
+  if (!baseMatch) {
+    return null;
+  }
+
+  const segments = [baseMatch[1]];
+  let remainder = normalized.slice(baseMatch[1].length);
+
+  while (remainder.startsWith('.')) {
+    remainder = remainder.slice(1);
+    const segmentMatch = remainder.match(/^[A-Z0-9-]+/);
+    if (!segmentMatch) {
+      break;
+    }
+    segments.push(segmentMatch[0]);
+    remainder = remainder.slice(segmentMatch[0].length);
+  }
+
+  return segments;
 }
 
 function normalizeSearchText(value: string | null | undefined): string {
@@ -245,6 +267,7 @@ function App() {
     const normalizedTerm = normalizeSearchText(eccnFilter);
     const tokens = normalizedTerm.split(/\s+/).filter(Boolean);
     const eccnQuery = extractEccnQuery(eccnFilter);
+    const querySegments = eccnQuery ? parseEccnSegments(eccnQuery) : null;
 
     if (selectedSupplements.length === 0) {
       return [];
@@ -255,25 +278,30 @@ function App() {
         if (!selectedSupplements.includes(entry.supplement.number)) {
           return false;
         }
-        if (eccnQuery) {
+        if (eccnQuery && querySegments) {
           const entryCode = entry.eccn.toUpperCase();
-          const entryBase = getEccnBase(entryCode);
-          const queryBase = getEccnBase(eccnQuery);
-          if (entryBase && queryBase && entryBase !== queryBase) {
-            return false;
-          }
-          const parentCode = entry.parentEccn ? entry.parentEccn.toUpperCase() : null;
-          const parentBase = getEccnBase(parentCode);
           if (entryCode === eccnQuery) {
             return true;
           }
-          if (entryCode.startsWith(`${eccnQuery}.`)) {
+          if (entryCode.startsWith(`${eccnQuery}.`) || entryCode.startsWith(`${eccnQuery}-`)) {
             return true;
           }
-          if (parentCode === eccnQuery && (!parentBase || !queryBase || parentBase === queryBase)) {
-            return true;
+
+          const entrySegments = parseEccnSegments(entryCode);
+          if (!entrySegments || entrySegments[0] !== querySegments[0]) {
+            return false;
           }
-          return false;
+
+          return querySegments.every((segment, index) => {
+            const entrySegment = entrySegments[index];
+            if (!entrySegment) {
+              return false;
+            }
+            if (entrySegment === segment) {
+              return true;
+            }
+            return entrySegment.startsWith(`${segment}-`);
+          });
         }
         if (tokens.length === 0) {
           return true;
