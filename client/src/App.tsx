@@ -596,10 +596,10 @@ function extractHighLevelDetails(node: EccnNode): HighLevelField[] {
   if (!reasonSummary && !reasonDetailBlocks.length && reasonCountryBlocks.length) {
     fields.push({ id: 'reason-for-control', label: 'Reason for Control', blocks: reasonCountryBlocks });
     reasonCountryBlocks = [];
-  } else if (reasonDetailBlocks.length) {
+  } else if (!reasonSummary && reasonDetailBlocks.length) {
     fields.push({
-      id: reasonSummary ? 'reason-for-control-details' : 'reason-for-control',
-      label: reasonSummary ? 'Reason for Control details' : 'Reason for Control',
+      id: 'reason-for-control',
+      label: 'Reason for Control',
       blocks: reasonDetailBlocks,
     });
   }
