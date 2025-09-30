@@ -283,6 +283,9 @@ const LICENSE_SECTION_PLACEHOLDER_PATTERN = /^\(\s*See\s+Part\s+740\b/i;
 const ECCN_HEADING_PATTERN_CLIENT = /^([0-9][A-Z][0-9]{3})(?=$|[\s.\-–—:;(\[])/;
 
 const LIST_BASED_LICENSE_LABEL_PATTERN = /^\s*List Based License Exceptions\b/i;
+const LICENSE_EXCEPTION_CODE_LINE_PATTERN = /^\s*([A-Z]{3}(?:\/[A-Z]{3})?)\s*[:：]\s*(.*)$/;
+const LICENSE_EXCEPTION_CODE_ONLY_PATTERN = /^\s*([A-Z]{3}(?:\/[A-Z]{3})?)\s*[:：]?\s*$/;
+const LICENSE_EXCEPTION_SPECIAL_PATTERN = /^\s*Special Conditions for\s+([A-Z]{3}(?:\/[A-Z]{3})?)\b/i;
 const REASON_FOR_CONTROL_LABEL_PATTERN = /^\s*Reason for Control\b/i;
 
 const KNOWN_REASON_CODES = new Set([
@@ -437,6 +440,186 @@ function collectSectionAfterLabel(
   return { blocks: collected, nextIndex };
 }
 
+function collectSectionFromIndex(
+  blocks: EccnContentBlock[],
+  startIndex: number,
+  options: Pick<CollectSectionOptions, 'stopPredicate'>
+): SectionCollectionResult {
+  const collected: EccnContentBlock[] = [];
+
+  let nextIndex = startIndex;
+  for (; nextIndex < blocks.length; nextIndex += 1) {
+    const candidate = blocks[nextIndex];
+    if (nextIndex !== startIndex && options.stopPredicate(candidate)) {
+      break;
+    }
+    if (!candidate) {
+      break;
+    }
+    collected.push(candidate);
+  }
+
+  return { blocks: collected, nextIndex };
+}
+
+interface LicenseExceptionEntry {
+  code: string;
+  description: string;
+}
+
+function isLicenseExceptionCodeText(text: string): boolean {
+  return LICENSE_EXCEPTION_CODE_ONLY_PATTERN.test(text.trim());
+}
+
+function parseLicenseExceptionBlocks(
+  blocks: EccnContentBlock[]
+): { entries: LicenseExceptionEntry[]; leftovers: EccnContentBlock[] } {
+  const entries: Array<{ code: string; descriptionParts: string[] }> = [];
+  const leftovers: EccnContentBlock[] = [];
+  const pendingSpecial = new Map<string, string[]>();
+
+  let current: { code: string; descriptionParts: string[] } | null = null;
+
+  for (const block of blocks) {
+    const plain = getBlockPlainText(block).trim();
+    if (!plain) {
+      continue;
+    }
+
+    if (LIST_BASED_LICENSE_LABEL_PATTERN.test(plain)) {
+      continue;
+    }
+
+    const specialMatch = plain.match(LICENSE_EXCEPTION_SPECIAL_PATTERN);
+    if (specialMatch) {
+      const code = specialMatch[1].toUpperCase();
+      if (current && current.code === code) {
+        current.descriptionParts.push(plain);
+      } else {
+        const existing = pendingSpecial.get(code) ?? [];
+        existing.push(plain);
+        pendingSpecial.set(code, existing);
+      }
+      continue;
+    }
+
+    const codeLineMatch = plain.match(LICENSE_EXCEPTION_CODE_LINE_PATTERN);
+    if (codeLineMatch) {
+      const code = codeLineMatch[1].toUpperCase();
+      const remainder = codeLineMatch[2]?.trim();
+      const entry = { code, descriptionParts: [] as string[] };
+      const special = pendingSpecial.get(code);
+      if (special) {
+        entry.descriptionParts.push(...special);
+        pendingSpecial.delete(code);
+      }
+      if (remainder) {
+        entry.descriptionParts.push(remainder);
+      }
+      current = entry;
+      entries.push(entry);
+      continue;
+    }
+
+    const codeOnlyMatch = plain.match(LICENSE_EXCEPTION_CODE_ONLY_PATTERN);
+    if (codeOnlyMatch) {
+      const code = codeOnlyMatch[1].toUpperCase();
+      const entry = { code, descriptionParts: [] as string[] };
+      const special = pendingSpecial.get(code);
+      if (special) {
+        entry.descriptionParts.push(...special);
+        pendingSpecial.delete(code);
+      }
+      current = entry;
+      entries.push(entry);
+      continue;
+    }
+
+    if (current) {
+      current.descriptionParts.push(plain);
+      continue;
+    }
+
+    leftovers.push(block);
+  }
+
+  const parsedEntries: LicenseExceptionEntry[] = entries.map((entry) => ({
+    code: entry.code,
+    description: entry.descriptionParts.join(' ').replace(/\s+/g, ' ').trim(),
+  }));
+
+  return { entries: parsedEntries, leftovers };
+}
+
+function escapeHtml(value: string): string {
+  return value
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+function getDummyCodeDetail(code: string, type: 'license' | 'reason'): string {
+  if (type === 'license') {
+    return `Placeholder description for license exception ${code}.`;
+  }
+  return `Placeholder description for reason for control ${code}.`;
+}
+
+function buildCodeChipHtml(code: string, type: 'license' | 'reason'): string {
+  const normalizedCode = code.trim().toUpperCase();
+  if (!normalizedCode) {
+    return '';
+  }
+  const detail = getDummyCodeDetail(normalizedCode, type);
+  return `<span class="code-chip code-chip-${type}" title="${escapeHtml(detail)}" data-code="${escapeHtml(
+    normalizedCode
+  )}">${escapeHtml(normalizedCode)}</span>`;
+}
+
+function buildCodeChipListHtml(codes: string[], type: 'license' | 'reason'): string {
+  const chips = codes
+    .map((code) => buildCodeChipHtml(code, type))
+    .filter(Boolean)
+    .join('');
+  return `<div class="code-chip-list code-chip-list-${type}">${chips}</div>`;
+}
+
+function buildLicenseExceptionContent(blocks: EccnContentBlock[]): EccnContentBlock[] {
+  const { entries, leftovers } = parseLicenseExceptionBlocks(blocks);
+  if (!entries.length) {
+    return blocks;
+  }
+
+  const rowsHtml = entries
+    .map((entry) => {
+      const description = entry.description || '—';
+      const codeHtml = buildCodeChipHtml(entry.code, 'license') || escapeHtml(entry.code);
+      return `    <tr>\n      <th scope="row">${codeHtml}</th>\n      <td>${escapeHtml(description)}</td>\n    </tr>`;
+    })
+    .join('\n');
+
+  const tableHtml = `\n<table class="license-exception-table">\n  <thead>\n    <tr>\n      <th scope="col">Exception</th>\n      <th scope="col">Description</th>\n    </tr>\n  </thead>\n  <tbody>\n${rowsHtml}\n  </tbody>\n</table>`;
+
+  const tableText = entries.map((entry) => `${entry.code}: ${entry.description || '—'}`).join(' ');
+
+  const rendered: EccnContentBlock[] = [
+    {
+      type: 'html',
+      tag: 'TABLE',
+      html: tableHtml,
+      text: tableText,
+    },
+  ];
+
+  if (leftovers.length) {
+    rendered.push(...leftovers);
+  }
+
+  return rendered;
+}
+
 function summarizeReasonValue(raw: string | null | undefined): string | null {
   if (!raw) {
     return null;
@@ -460,6 +643,22 @@ function summarizeReasonValue(raw: string | null | undefined): string | null {
   }
 
   return null;
+}
+
+function extractReasonSummaryCodes(summary: string): string[] {
+  const seen = new Set<string>();
+  const codes: string[] = [];
+  const upper = summary.toUpperCase();
+  const pattern = /\b([A-Z]{2,3})\b/g;
+  let match: RegExpExecArray | null;
+  while ((match = pattern.exec(upper))) {
+    const code = match[1];
+    if (!seen.has(code) && KNOWN_REASON_CODES.has(code)) {
+      seen.add(code);
+      codes.push(code);
+    }
+  }
+  return codes;
 }
 
 function extractHighLevelDetails(node: EccnNode): HighLevelField[] {
@@ -497,6 +696,19 @@ function extractHighLevelDetails(node: EccnNode): HighLevelField[] {
         stopPredicate: shouldStopCollectingLicenseBlocks,
         skipValue: isPlaceholderLicenseValue,
         includeSkippedValueInFallback: true,
+      });
+
+      if (collected.length > 0) {
+        licenseBlocks.push(...collected);
+      }
+
+      index = nextIndex - 1;
+      continue;
+    }
+
+    if (!licenseBlocks.length && plain && isLicenseExceptionCodeText(plain)) {
+      const { blocks: collected, nextIndex } = collectSectionFromIndex(blocks, index, {
+        stopPredicate: shouldStopCollectingLicenseBlocks,
       });
 
       if (collected.length > 0) {
@@ -590,7 +802,23 @@ function extractHighLevelDetails(node: EccnNode): HighLevelField[] {
   }
 
   if (reasonSummary) {
-    fields.push({ id: 'reason-for-control', label: 'Reason for Control', blocks: [{ type: 'text', text: reasonSummary }] });
+    const codes = extractReasonSummaryCodes(reasonSummary);
+    if (codes.length) {
+      fields.push({
+        id: 'reason-for-control',
+        label: 'Reason for Control',
+        blocks: [
+          {
+            type: 'html',
+            tag: 'DIV',
+            html: buildCodeChipListHtml(codes, 'reason'),
+            text: reasonSummary,
+          },
+        ],
+      });
+    } else {
+      fields.push({ id: 'reason-for-control', label: 'Reason for Control', blocks: [{ type: 'text', text: reasonSummary }] });
+    }
   }
 
   if (!reasonSummary && !reasonDetailBlocks.length && reasonCountryBlocks.length) {
@@ -618,10 +846,11 @@ function extractHighLevelDetails(node: EccnNode): HighLevelField[] {
     fields.push({ id: 'control-table', label: 'Control table', blocks: blocksToShow });
   }
   if (licenseBlocks.length) {
+    const renderedBlocks = buildLicenseExceptionContent(licenseBlocks);
     fields.push({
       id: 'list-based-license-exceptions',
       label: 'List Based License Exceptions',
-      blocks: licenseBlocks,
+      blocks: renderedBlocks,
     });
   }
   return fields;

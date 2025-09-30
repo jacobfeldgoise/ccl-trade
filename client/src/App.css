@@ -203,6 +203,39 @@ body {
   color: #4b5563;
 }
 
+.code-chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  align-items: center;
+}
+
+.code-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid #d1d5db;
+  background: #f3f4f6;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #1f2937;
+  cursor: help;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.code-chip:hover,
+.code-chip:focus {
+  background: #e0e7ff;
+  border-color: #6366f1;
+  color: #312e81;
+}
+
+.license-exception-table .code-chip {
+  margin: 0 auto;
+}
+
 .version-list dt {
   font-weight: 600;
 }
