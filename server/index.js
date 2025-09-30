@@ -1009,7 +1009,16 @@ function normalizeComparableText(value) {
     return null;
   }
 
-  return value.replace(/\s+/g, ' ').trim().toLowerCase() || null;
+  const collapsed = value.replace(/\s+/g, ' ').trim();
+  if (!collapsed) {
+    return null;
+  }
+
+  const stripped = collapsed
+    .replace(/^["'“”‘’()\[\]{}\-–—:;,.!?]+/, '')
+    .replace(/["'“”‘’()\[\]{}\-–—:;,.!?]+$/, '');
+
+  return (stripped || collapsed).toLowerCase() || null;
 }
 
 function createTreeNode({ identifier, heading, path, parent }) {
