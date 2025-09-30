@@ -467,6 +467,8 @@ function extractHighLevelDetails(node: EccnNode): HighLevelField[] {
   const blocks = collectPrimaryBlocks(node);
   let reasonBlocks: EccnContentBlock[] = [];
   let reasonSummary: string | null = null;
+  let reasonCountryBlocks: EccnContentBlock[] = [];
+  let reasonDetailBlocks: EccnContentBlock[] = [];
   const licenseBlocks: EccnContentBlock[] = [];
   let controlTableBlock: EccnContentBlock | null = null;
   let controlHeading: string | null = null;
@@ -531,10 +533,74 @@ function extractHighLevelDetails(node: EccnNode): HighLevelField[] {
   }
 
   const fields: HighLevelField[] = [];
+  if (reasonBlocks.length) {
+    const tableIndices = new Set<number>();
+    const contextualIndices = new Set<number>();
+
+    reasonBlocks.forEach((block, index) => {
+      if (block.html && /<table[\s>]/i.test(block.html)) {
+        tableIndices.add(index);
+        const previous = reasonBlocks[index - 1];
+        if (previous) {
+          const previousText = getBlockPlainText(previous).trim();
+          if (previousText && /country/i.test(previousText)) {
+            contextualIndices.add(index - 1);
+          }
+        }
+        const next = reasonBlocks[index + 1];
+        if (next) {
+          const nextText = getBlockPlainText(next).trim();
+          if (nextText && /country/i.test(nextText)) {
+            contextualIndices.add(index + 1);
+          }
+        }
+      }
+    });
+
+    const normalizedSummary = reasonSummary
+      ? reasonSummary.replace(/\s+/g, ' ').trim().toLowerCase()
+      : null;
+
+    reasonBlocks.forEach((block, index) => {
+      if (tableIndices.has(index) || contextualIndices.has(index)) {
+        reasonCountryBlocks.push(block);
+        return;
+      }
+
+      if (
+        normalizedSummary &&
+        block.type === 'text' &&
+        block.text &&
+        block.text.replace(/\s+/g, ' ').trim().toLowerCase() === normalizedSummary
+      ) {
+        return;
+      }
+
+      reasonDetailBlocks.push(block);
+    });
+  }
+
   if (reasonSummary) {
     fields.push({ id: 'reason-for-control', label: 'Reason for Control', blocks: [{ type: 'text', text: reasonSummary }] });
-  } else if (reasonBlocks.length) {
-    fields.push({ id: 'reason-for-control', label: 'Reason for Control', blocks: reasonBlocks });
+  }
+
+  if (!reasonSummary && !reasonDetailBlocks.length && reasonCountryBlocks.length) {
+    fields.push({ id: 'reason-for-control', label: 'Reason for Control', blocks: reasonCountryBlocks });
+    reasonCountryBlocks = [];
+  } else if (reasonDetailBlocks.length) {
+    fields.push({
+      id: reasonSummary ? 'reason-for-control-details' : 'reason-for-control',
+      label: reasonSummary ? 'Reason for Control details' : 'Reason for Control',
+      blocks: reasonDetailBlocks,
+    });
+  }
+
+  if (reasonCountryBlocks.length) {
+    fields.push({
+      id: 'reason-for-control-country-chart',
+      label: 'Country Chart',
+      blocks: reasonCountryBlocks,
+    });
   }
   if (controlTableBlock) {
     const blocksToShow = controlHeading
