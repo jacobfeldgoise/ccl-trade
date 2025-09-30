@@ -12,6 +12,8 @@ import { VersionControls } from './components/VersionControls';
 import { EccnNodeView } from './components/EccnNodeView';
 import { formatDateTime, formatNumber } from './utils/format';
 
+const ECCN_QUERY_PATTERN = /^[0-9][A-Z][0-9]{3}(?:\.[A-Z0-9]+)*$/;
+
 function normalizeSearchText(value: string | null | undefined): string {
   if (!value) {
     return '';
@@ -42,6 +44,27 @@ function buildEccnSearchTarget(entry: EccnEntry): string {
   ];
 
   return normalizeSearchText(fields.filter(Boolean).join(' '));
+}
+
+function extractEccnQuery(value: string | null | undefined): string | null {
+  if (!value) {
+    return null;
+  }
+
+  const trimmed = value.trim();
+  if (!trimmed) {
+    return null;
+  }
+
+  const collapsed = trimmed.replace(/\s+/g, '');
+  const stripped = collapsed.replace(/[).,;:–—-]+$/g, '');
+  const normalized = stripped.toUpperCase();
+
+  if (!ECCN_QUERY_PATTERN.test(normalized)) {
+    return null;
+  }
+
+  return normalized;
 }
 
 function getErrorMessage(error: unknown): string {
@@ -212,6 +235,7 @@ function App() {
   const filteredEccns: EccnEntry[] = useMemo(() => {
     const normalizedTerm = normalizeSearchText(eccnFilter);
     const tokens = normalizedTerm.split(/\s+/).filter(Boolean);
+    const eccnQuery = extractEccnQuery(eccnFilter);
 
     if (selectedSupplements.length === 0) {
       return [];
@@ -220,6 +244,20 @@ function App() {
     return searchableEccns
       .filter(({ entry, searchText }) => {
         if (!selectedSupplements.includes(entry.supplement.number)) {
+          return false;
+        }
+        if (eccnQuery) {
+          const entryCode = entry.eccn.toUpperCase();
+          const parentCode = entry.parentEccn ? entry.parentEccn.toUpperCase() : null;
+          if (entryCode === eccnQuery) {
+            return true;
+          }
+          if (entryCode.startsWith(`${eccnQuery}.`)) {
+            return true;
+          }
+          if (parentCode === eccnQuery) {
+            return true;
+          }
           return false;
         }
         if (tokens.length === 0) {
