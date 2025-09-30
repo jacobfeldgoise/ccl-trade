@@ -381,6 +381,7 @@ function buildEccnTreeFromNodes($, nodes, { code, heading }) {
   let lastPath = [];
 
   const pathBearingTags = new Set(['P', 'LI']);
+  const nonRecursiveCaptureTags = new Set(['NOTE']);
   const contentTags = new Set(['P', 'LI', 'NOTE', 'TABLE', 'UL', 'OL', 'DL']);
 
   const processBlock = (node, { allowPath }) => {
@@ -407,17 +408,17 @@ function buildEccnTreeFromNodes($, nodes, { code, heading }) {
     });
 
     if (targetNode !== root) {
-      const headingCandidate = deriveParagraphHeadingFromBlock(node, block);
-      if (headingCandidate && !targetNode.heading) {
-        targetNode.heading = headingCandidate;
+      const headingCandidate = deriveParagraphHeadingFromBlock(node, block, targetNode.identifier);
+      if (headingCandidate) {
+        if (shouldAdoptHeading(targetNode.heading, headingCandidate, targetNode.identifier)) {
+          targetNode.heading = headingCandidate;
+        }
         markNodeRequiresAllChildren(targetNode, headingCandidate);
       }
     }
 
     targetNode.content.push(block);
-    if (block?.text) {
-      markNodeRequiresAllChildren(targetNode, block.text);
-    }
+    markNodeRequiresAllChildrenFromBlock(targetNode, block);
 
     if (Array.isArray(pathTokens)) {
       lastPath = pathTokens.slice();
@@ -456,7 +457,7 @@ function buildEccnTreeFromNodes($, nodes, { code, heading }) {
     if (shouldCapture) {
       processBlock(node, { allowPath });
 
-      if (pathBearingTags.has(tagName)) {
+      if (pathBearingTags.has(tagName) || nonRecursiveCaptureTags.has(tagName)) {
         return;
       }
     }
@@ -471,6 +472,8 @@ function buildEccnTreeFromNodes($, nodes, { code, heading }) {
   for (const rawNode of nodes) {
     traverse(rawNode);
   }
+
+  refreshRequireAllChildrenFlags(root);
 
   return root;
 }
@@ -530,11 +533,6 @@ function derivePathFromNode($, node, baseCode, block, lastPath) {
     return fromId;
   }
 
-  const fromText = extractPathTokensFromText(block?.text, baseCode);
-  if (fromText) {
-    return fromText;
-  }
-
   const compound = extractCompoundEnumeratorTokens(block?.text);
   if (compound) {
     return compound;
@@ -546,11 +544,28 @@ function derivePathFromNode($, node, baseCode, block, lastPath) {
     const level = determineEnumeratorLevel(type);
     if (level) {
       const normalized = normalizeEnumeratorToken(token, type);
-      const derived = buildPathForEnumerator(normalized, level, lastPath);
+      const trimmedText = block?.text ? String(block.text).trim() : '';
+      let derived = buildPathForEnumerator(normalized, level, lastPath);
+
+      if (type === 'roman' && /^[a-z]$/i.test(token) && !trimmedText.startsWith('(')) {
+        if (!derived || derived[0] !== normalized) {
+          return [normalized];
+        }
+      }
+
+      if (!derived && type === 'roman' && /^[a-z]$/i.test(token)) {
+        derived = buildPathForEnumerator(normalized, 1, lastPath);
+      }
+
       if (derived) {
         return derived;
       }
     }
+  }
+
+  const fromText = extractPathTokensFromText(block?.text, baseCode);
+  if (fromText) {
+    return fromText;
   }
 
   return null;
@@ -614,22 +629,51 @@ function extractPathTokensFromText(text, baseCode) {
     return null;
   }
 
-  const escaped = escapeRegExp(normalizedBase);
-  const pattern = new RegExp(`(?:^|[^A-Za-z0-9])${escaped}((?:\\.[A-Za-z0-9]+)+)`, 'i');
-  const match = String(text).match(pattern);
-  if (!match) {
+  const normalizedText = String(text);
+  const lowerText = normalizedText.toLowerCase();
+  const lowerBase = normalizedBase.toLowerCase();
+
+  let index = lowerText.indexOf(lowerBase);
+  while (index !== -1) {
+    const beforeChar = index > 0 ? lowerText.charAt(index - 1) : '';
+    if (!beforeChar || /[^a-z0-9]/i.test(beforeChar)) {
+      break;
+    }
+    index = lowerText.indexOf(lowerBase, index + 1);
+  }
+
+  if (index === -1) {
     return null;
   }
 
-  const suffix = match[1];
+  const MAX_OFFSET_FOR_DIRECT_CODE = 5;
+  if (index > MAX_OFFSET_FOR_DIRECT_CODE) {
+    return null;
+  }
+
+  const suffix = normalizedText
+    .slice(index + normalizedBase.length)
+    .replace(/^[^A-Za-z0-9]+/, '');
+
   if (!suffix) {
     return null;
   }
 
-  const tokens = suffix
-    .split('.')
-    .map((part) => part.trim())
-    .filter(Boolean);
+  const tokens = [];
+
+  for (const rawPart of suffix.split('.')) {
+    const part = rawPart.trim();
+    if (!part) {
+      continue;
+    }
+
+    const type = classifyEnumeratorToken(part);
+    if (!type) {
+      return null;
+    }
+
+    tokens.push(normalizeEnumeratorToken(part, type));
+  }
 
   return tokens.length ? tokens : null;
 }
@@ -795,14 +839,146 @@ function buildPathForEnumerator(token, level, lastPath) {
   return base;
 }
 
-function deriveParagraphHeadingFromBlock(node, block) {
+function deriveParagraphHeadingFromBlock(node, block, identifier) {
   const textSource = block?.text || (node && node.type === 'text' ? node.data : null);
   if (!textSource) {
     return null;
   }
 
-  const stripped = stripLeadingEnumerators(String(textSource));
+  const normalized = String(textSource).replace(/\s+/g, ' ').trim();
+  if (!normalized || isNoteLikeHeadingCandidate(block, normalized)) {
+    return null;
+  }
+
+  const stripped = stripLeadingEnumerators(normalized);
+  if (!stripped) {
+    return null;
+  }
+
+  if (identifier) {
+    const withoutCode = deriveEccnTitle(identifier, stripped);
+    if (withoutCode) {
+      return withoutCode;
+    }
+  }
+
   return stripped || null;
+}
+
+function isNoteLikeHeadingCandidate(block, text) {
+  if (!text) {
+    return false;
+  }
+
+  if (block?.tag === 'NOTE') {
+    return true;
+  }
+
+  const normalized = String(text).replace(/\s+/g, ' ').trim();
+  if (!normalized) {
+    return false;
+  }
+
+  if (/^note\s+to\s+[0-9a-z.()\-]+/i.test(normalized)) {
+    return true;
+  }
+
+  if (/^note[:\s]/i.test(normalized)) {
+    return true;
+  }
+
+  return false;
+}
+
+function shouldAdoptHeading(currentHeading, candidateHeading, identifier) {
+  if (!candidateHeading) {
+    return false;
+  }
+
+  if (!currentHeading) {
+    return true;
+  }
+
+  const current = normalizeHeadingValue(currentHeading);
+  const candidate = normalizeHeadingValue(candidateHeading);
+  if (!candidate) {
+    return false;
+  }
+
+  if (!current) {
+    return true;
+  }
+
+  const currentLooksLikeIdentifier = isIdentifierLikeHeading(current, identifier);
+  const candidateLooksLikeIdentifier = isIdentifierLikeHeading(candidate, identifier);
+
+  if (currentLooksLikeIdentifier && !candidateLooksLikeIdentifier) {
+    return true;
+  }
+
+  if (!currentLooksLikeIdentifier && candidateLooksLikeIdentifier) {
+    return false;
+  }
+
+  if (currentLooksLikeIdentifier && candidateLooksLikeIdentifier) {
+    return candidate.length > current.length;
+  }
+
+  const currentWordCount = current.split(/\s+/).filter(Boolean).length;
+  const candidateWordCount = candidate.split(/\s+/).filter(Boolean).length;
+
+  if (candidateWordCount > currentWordCount) {
+    return true;
+  }
+
+  if (candidate.length > current.length + 10) {
+    return true;
+  }
+
+  return false;
+}
+
+function normalizeHeadingValue(value) {
+  if (!value) {
+    return '';
+  }
+  return String(value).replace(/\s+/g, ' ').trim();
+}
+
+function isIdentifierLikeHeading(heading, identifier) {
+  if (!heading) {
+    return true;
+  }
+
+  const normalizedHeading = heading.replace(/\s+/g, ' ').trim();
+  if (!normalizedHeading) {
+    return true;
+  }
+
+  if (/^[(\[]?[a-z0-9]{1,4}[)\].-]?$/.test(normalizedHeading)) {
+    return true;
+  }
+
+  const headingComparable = normalizeIdentifierForComparison(normalizedHeading);
+  if (!headingComparable) {
+    return true;
+  }
+
+  const identifierComparable = normalizeIdentifierForComparison(identifier);
+  if (identifierComparable && headingComparable === identifierComparable) {
+    return true;
+  }
+
+  return false;
+}
+
+function normalizeIdentifierForComparison(value) {
+  if (!value) {
+    return '';
+  }
+  return String(value)
+    .replace(/[^A-Za-z0-9]/g, '')
+    .toLowerCase();
 }
 
 function stripLeadingEnumerators(text) {
@@ -905,6 +1081,47 @@ function markNodeRequiresAllChildren(node, text) {
   }
 }
 
+function markNodeRequiresAllChildrenFromBlock(node, block) {
+  if (!node || !block) {
+    return;
+  }
+
+  if (block.text) {
+    markNodeRequiresAllChildren(node, block.text);
+    return;
+  }
+
+  if (block.html) {
+    const stripped = block.html
+      .replace(/<[^>]*>/g, ' ')
+      .replace(/&nbsp;/gi, ' ')
+      .replace(/&amp;/gi, '&');
+    markNodeRequiresAllChildren(node, stripped);
+  }
+}
+
+function refreshRequireAllChildrenFlags(node) {
+  if (!node) {
+    return;
+  }
+
+  if (node.heading) {
+    markNodeRequiresAllChildren(node, node.heading);
+  }
+
+  if (Array.isArray(node.content)) {
+    for (const block of node.content) {
+      markNodeRequiresAllChildrenFromBlock(node, block);
+    }
+  }
+
+  if (Array.isArray(node.children)) {
+    for (const child of node.children) {
+      refreshRequireAllChildrenFlags(child);
+    }
+  }
+}
+
 function buildNodeBreadcrumbs(node, root, baseBreadcrumbs) {
   const trail = [];
   let current = node.parent;
@@ -946,7 +1163,7 @@ function filterRedundantContent(node) {
     return [];
   }
 
-  if (!node.heading) {
+  if (!node.heading || node.boundToParent) {
     return node.content.slice();
   }
 
