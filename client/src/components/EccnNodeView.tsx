@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { type MouseEvent as ReactMouseEvent, useEffect, useMemo, useState } from 'react';
 import { EccnNode } from '../types';
 import { EccnContentBlockView } from './EccnContentBlock';
 
@@ -85,6 +85,31 @@ export function EccnNodeView({
     return classes.filter(Boolean).join(' ');
   }, [isAccordion, isActive, isInActivePath, isCollapsible, level]);
 
+  const handleIdentifierPreview = onPreviewEccn && node.identifier
+    ? (event: ReactMouseEvent<HTMLElement>) => {
+        event.preventDefault();
+        event.stopPropagation();
+        onPreviewEccn(node.identifier!, event.currentTarget as HTMLElement);
+      }
+    : undefined;
+
+  const identifierElement = labelIdentifier
+    ? handleIdentifierPreview
+      ? (
+          <button
+            type="button"
+            className="node-identifier is-clickable"
+            onClick={handleIdentifierPreview}
+            aria-haspopup="dialog"
+          >
+            {labelIdentifier}
+          </button>
+        )
+      : (
+          <span className="node-identifier">{labelIdentifier}</span>
+        )
+    : null;
+
   if (!isCollapsible) {
     return (
       <div className={containerClasses} id={anchorId}>
@@ -95,7 +120,7 @@ export function EccnNodeView({
             title={labelText}
             aria-disabled={isAccordion && !hasDetails ? true : undefined}
           >
-            {labelIdentifier ? <span className="node-identifier">{labelIdentifier}</span> : null}
+            {identifierElement}
             {labelHeading ? <span className="node-heading">{labelHeading}</span> : null}
             {!labelIdentifier && !labelHeading ? (
               <span className="node-heading">{labelFallback}</span>
@@ -134,7 +159,7 @@ export function EccnNodeView({
     >
       <summary>
         <span className="node-label" aria-label={labelText} title={labelText}>
-          {labelIdentifier ? <span className="node-identifier">{labelIdentifier}</span> : null}
+          {identifierElement}
           {labelHeading ? <span className="node-heading">{labelHeading}</span> : null}
           {!labelIdentifier && !labelHeading ? (
             <span className="node-heading">{labelFallback}</span>

@@ -520,7 +520,7 @@ body {
 
 .eccn-node.accordion summary {
   position: relative;
-  padding-left: 1.35rem;
+  padding-left: 1.75rem;
 }
 
 .eccn-node.accordion summary::marker,
@@ -536,7 +536,7 @@ body {
   transform: translateY(-50%);
   color: #2563eb;
   transition: transform 0.2s ease;
-  font-size: 0.85rem;
+  font-size: 1.1rem;
   line-height: 1;
 }
 
@@ -555,7 +555,7 @@ body {
 
 .eccn-node.accordion.no-details .node-label {
   position: relative;
-  padding-left: 1.35rem;
+  padding-left: 1.75rem;
   color: #6b7280;
 }
 
@@ -660,6 +660,23 @@ body {
 
 .eccn-node .node-identifier {
   cursor: default;
+}
+
+.eccn-node .node-identifier.is-clickable {
+  cursor: pointer;
+  font: inherit;
+}
+
+.eccn-node .node-identifier.is-clickable:hover,
+.eccn-node .node-identifier.is-clickable:focus-visible {
+  background: rgba(37, 99, 235, 0.18);
+  border-color: #2563eb;
+  text-decoration: none;
+}
+
+.eccn-node .node-identifier.is-clickable:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.35);
 }
 
 .eccn-meta .eccn-meta-eccn-list {
