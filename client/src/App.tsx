@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import './App.css';
-import { downloadCcl, getCcl, getVersions, redownloadRawXml, reparseStoredCcls } from './api';
+import { downloadCcl, getCcl, getVersions, reparseStoredCcls } from './api';
 import {
   CclDataset,
   CclSupplement,
@@ -1098,21 +1098,6 @@ function App() {
     }
   };
 
-  const handleRedownloadVersionXml = async (date: string) => {
-    setRefreshing(true);
-    setError(null);
-    try {
-      datasetCacheRef.current.delete(date);
-      const data = await redownloadRawXml(date);
-      applyDataset(data);
-      await loadVersions();
-    } catch (err) {
-      setError(`Unable to redownload raw XML for ${date}: ${getErrorMessage(err)}`);
-    } finally {
-      setRefreshing(false);
-    }
-  };
-
   const handleLoadNewVersion = async (date: string) => {
     await handleDownloadVersion(date);
   };
@@ -1976,7 +1961,6 @@ function App() {
               versions={versions}
               onReparseAll={handleReparseAll}
               onLoad={handleLoadNewVersion}
-              onRedownloadXml={handleRedownloadVersionXml}
               refreshing={refreshing}
               error={error}
             />
@@ -1987,11 +1971,12 @@ function App() {
               <p>
                 The Explorer stores downloaded Commerce Control List data on the server, including the raw
                 XML source and parsed JSON that powers the interface. Re-parsing rebuilds every stored
-                version from the XML files, while "Download &amp; parse" fetches a specific edition on demand.
+                version from the XML files, while "Download &amp; parse" fetches a specific edition on demand
+                and keeps the XML up to date when it is older than a month.
               </p>
               <p className="help-text">
-                Raw XML files are cached locally on the server and can be redownloaded once a month to keep
-                data fresh without repeatedly downloading large files.
+                Raw XML files are cached locally on the server and automatically refreshed the next time you
+                fetch a version after 30 days, keeping data fresh without repeatedly downloading large files.
               </p>
             </section>
           </div>

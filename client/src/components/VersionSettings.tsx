@@ -9,7 +9,6 @@ interface VersionSettingsProps {
   refreshing: boolean;
   onReparseAll: () => Promise<void> | void;
   onLoad: (date: string) => Promise<void> | void;
-  onRedownloadXml: (date: string) => Promise<void> | void;
   error?: string | null;
 }
 
@@ -20,11 +19,9 @@ export function VersionSettings({
   refreshing,
   onReparseAll,
   onLoad,
-  onRedownloadXml,
   error,
 }: VersionSettingsProps) {
   const [manualDate, setManualDate] = useState('');
-  const [redownloadDate, setRedownloadDate] = useState('');
 
   useEffect(() => {
     if (selectedDate && !manualDate) {
@@ -32,38 +29,51 @@ export function VersionSettings({
     }
   }, [selectedDate, manualDate]);
 
-  useEffect(() => {
-    if (selectedDate) {
-      setRedownloadDate(selectedDate);
-    }
-  }, [selectedDate]);
-
   const selectedVersion = useMemo(
     () => versions.find((version) => version.date === selectedDate),
     [versions, selectedDate]
   );
 
-  const redownloadTarget = useMemo(
-    () => versions.find((version) => version.date === redownloadDate),
-    [versions, redownloadDate]
+  const manualTarget = useMemo(
+    () => versions.find((version) => version.date === manualDate),
+    [versions, manualDate]
   );
 
-  const canRedownload = Boolean(redownloadTarget?.canRedownloadXml);
+  const manualHelpText = (() => {
+    if (!manualDate) {
+      return 'Downloads the selected CCL version, stores the raw XML, and parses it for offline use.';
+    }
+    if (!manualTarget) {
+      return 'The selected date is not cached yet; fetching will download and parse the dataset.';
+    }
+    if (!manualTarget.rawDownloadedAt) {
+      return 'Raw XML for this version has not been downloaded yet; fetching will download and parse it now.';
+    }
+    if (manualTarget.canRedownloadXml) {
+      return `Raw XML last downloaded ${formatDateTime(
+        manualTarget.rawDownloadedAt
+      )}. Fetching will refresh the XML before parsing because it is older than 30 days.`;
+    }
+    return `Raw XML last downloaded ${formatDateTime(
+      manualTarget.rawDownloadedAt
+    )}. Fetching will reuse the cached XML until it is at least 30 days old.`;
+  })();
 
-  const redownloadHelpText = (() => {
-    if (!redownloadDate) {
-      return 'Select a stored version to enable raw XML redownloads.';
+  const selectedVersionRawText = (() => {
+    if (!selectedVersion) {
+      return null;
     }
-    if (!redownloadTarget) {
-      return 'The selected date is not stored locally.';
+    if (!selectedVersion.rawDownloadedAt) {
+      return 'Selected version raw XML has not been downloaded yet.';
     }
-    if (!redownloadTarget.rawDownloadedAt) {
-      return 'The raw XML has not been downloaded yet; use “Download & parse” to fetch it.';
+    if (selectedVersion.canRedownloadXml) {
+      return `Selected version raw XML downloaded ${formatDateTime(
+        selectedVersion.rawDownloadedAt
+      )}. Fetching this version will refresh the XML before parsing.`;
     }
-    if (!redownloadTarget.canRedownloadXml) {
-      return 'Raw XML can only be redownloaded if the existing copy is older than 30 days.';
-    }
-    return `Last downloaded ${formatDateTime(redownloadTarget.rawDownloadedAt)}.`;
+    return `Selected version raw XML downloaded ${formatDateTime(
+      selectedVersion.rawDownloadedAt
+    )}. Refresh will be available after 30 days.`;
   })();
 
   const handleReparseClick = () => {
@@ -74,13 +84,6 @@ export function VersionSettings({
     event.preventDefault();
     if (manualDate) {
       onLoad(manualDate);
-    }
-  };
-
-  const handleRedownloadSubmit = (event: FormEvent) => {
-    event.preventDefault();
-    if (redownloadDate && canRedownload) {
-      onRedownloadXml(redownloadDate);
     }
   };
 
@@ -102,11 +105,7 @@ export function VersionSettings({
         <button type="button" className="button" onClick={handleReparseClick} disabled={refreshing}>
           {refreshing ? 'Re-parsing…' : 'Re-parse all stored XML'}
         </button>
-        {selectedVersion?.rawDownloadedAt ? (
-          <p className="help-text subtle">
-            Selected version raw XML downloaded {formatDateTime(selectedVersion.rawDownloadedAt)}.
-          </p>
-        ) : null}
+        {selectedVersionRawText ? <p className="help-text subtle">{selectedVersionRawText}</p> : null}
       </div>
 
       <form className="control-group" onSubmit={handleManualSubmit}>
@@ -124,31 +123,7 @@ export function VersionSettings({
             {refreshing ? 'Loading…' : 'Fetch & store'}
           </button>
         </div>
-        <p className="help-text">
-          Downloads the selected CCL version, stores the raw XML, and parses it for offline use.
-        </p>
-      </form>
-
-      <form className="control-group" onSubmit={handleRedownloadSubmit}>
-        <h3>Redownload raw XML</h3>
-        <div className="inline-controls">
-          <input
-            id="settings-redownload-date"
-            className="control"
-            type="date"
-            value={redownloadDate}
-            onChange={(event) => setRedownloadDate(event.target.value)}
-            max={defaultDate}
-          />
-          <button
-            type="submit"
-            className="button"
-            disabled={!redownloadDate || refreshing || !canRedownload}
-          >
-            {refreshing ? 'Processing…' : 'Redownload raw XML'}
-          </button>
-        </div>
-        <p className="help-text">{redownloadHelpText}</p>
+        <p className="help-text">{manualHelpText}</p>
       </form>
 
       {error ? <div className="alert error">{error}</div> : null}

@@ -81,10 +81,14 @@ export function VersionControls({
                         : 'Not downloaded'}
                     </dd>
                   </div>
-                  {version.rawDownloadedAt && !version.canRedownloadXml ? (
+                  {version.rawDownloadedAt ? (
                     <div>
-                      <dt>Redownload</dt>
-                      <dd>Available after 30 days</dd>
+                      <dt>Refresh status</dt>
+                      <dd>
+                        {version.canRedownloadXml
+                          ? 'Eligible for refresh on next fetch'
+                          : 'Refresh available after 30 days'}
+                      </dd>
                     </div>
                   ) : null}
                 </dl>

@@ -30,7 +30,12 @@ export async function downloadCcl(date: string): Promise<CclDataset> {
     },
     body: JSON.stringify({ date }),
   });
-  const payload = await handleResponse<{ message: string; data: CclDataset }>(res);
+  const payload = await handleResponse<{
+    message: string;
+    data: CclDataset;
+    rawDownloadedAt: string | null;
+    reDownloadedRaw: boolean;
+  }>(res);
   return payload.data;
 }
 
@@ -48,14 +53,3 @@ export async function reparseStoredCcls(): Promise<{
   return handleResponse<{ message: string; processedDates: { date: string; fetchedAt: string }[] }>(res);
 }
 
-export async function redownloadRawXml(date: string): Promise<CclDataset> {
-  const res = await fetch('/api/ccl/xml/redownload', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({ date }),
-  });
-  const payload = await handleResponse<{ message: string; downloadedAt: string | null; data: CclDataset }>(res);
-  return payload.data;
-}

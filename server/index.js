@@ -88,9 +88,28 @@ app.post('/api/ccl/download', async (req, res) => {
   }
 
   try {
-    const data = await loadVersion(date, { forceParse: true });
+    const rawInfo = await getRawXmlInfo(date);
+    const canRefreshRaw = rawInfo ? shouldAllowXmlRedownload(rawInfo.downloadedAt) : true;
+    const shouldForceDownload = !rawInfo || canRefreshRaw;
+    const data = await loadVersion(date, {
+      forceParse: true,
+      forceDownloadRaw: shouldForceDownload,
+    });
+    const updatedRawInfo = await getRawXmlInfo(date);
+    const reDownloadedRaw = Boolean(rawInfo) && canRefreshRaw;
+    const messageParts = [];
+    if (!rawInfo) {
+      messageParts.push(`Downloaded raw XML for ${date}`);
+    } else if (reDownloadedRaw) {
+      messageParts.push(`Refreshed raw XML for ${date}`);
+    } else {
+      messageParts.push(`Used cached raw XML for ${date}`);
+    }
+    messageParts.push('parsed data stored');
     res.json({
-      message: `Stored CCL data for ${date}`,
+      message: messageParts.join('; '),
+      rawDownloadedAt: updatedRawInfo?.downloadedAt ?? null,
+      reDownloadedRaw,
       data,
     });
   } catch (error) {
@@ -124,38 +143,6 @@ app.post('/api/ccl/reparse', async (_req, res) => {
   } catch (error) {
     console.error('Error re-parsing stored XML files', error);
     res.status(500).json({ message: 'Failed to re-parse stored XML files', error: error.message });
-  }
-});
-
-app.post('/api/ccl/xml/redownload', async (req, res) => {
-  const { date } = req.body || {};
-  if (!date) {
-    res.status(400).json({ message: 'A version date (YYYY-MM-DD) is required' });
-    return;
-  }
-
-  try {
-    const rawInfo = await getRawXmlInfo(date);
-    const downloadedAt = rawInfo?.downloadedAt ?? null;
-    if (downloadedAt && !shouldAllowXmlRedownload(downloadedAt)) {
-      res.status(400).json({
-        message: `The raw XML for ${date} was downloaded recently and cannot be redownloaded yet`,
-        downloadedAt,
-      });
-      return;
-    }
-
-    const data = await loadVersion(date, { forceParse: true, forceDownloadRaw: true });
-    const updatedInfo = await getRawXmlInfo(date);
-
-    res.json({
-      message: `Redownloaded raw XML for ${date}`,
-      downloadedAt: updatedInfo?.downloadedAt ?? null,
-      data,
-    });
-  } catch (error) {
-    console.error('Error redownloading raw XML', date, error);
-    res.status(500).json({ message: `Failed to redownload raw XML for ${date}`, error: error.message });
   }
 });
 
