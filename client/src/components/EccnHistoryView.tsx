@@ -202,7 +202,7 @@ function determineChangeStatus(
   if (!current && previous) {
     return 'removed';
   }
-  if (!current && !previous) {
+  if (!current || !previous) {
     return 'unchanged';
   }
   return current.text === previous.text ? 'unchanged' : 'changed';

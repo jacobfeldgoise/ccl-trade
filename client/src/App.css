@@ -92,6 +92,15 @@ body {
   min-height: 0;
 }
 
+.settings-layout {
+  flex: 1;
+  display: grid;
+  grid-template-columns: minmax(280px, 360px) 1fr;
+  gap: 1.5rem;
+  min-height: 0;
+  align-items: start;
+}
+
 .sidebar {
   display: flex;
   flex-direction: column;
@@ -1483,6 +1492,10 @@ body {
   }
 
   .history-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .settings-layout {
     grid-template-columns: 1fr;
   }
 

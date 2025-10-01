@@ -11,6 +11,7 @@ import {
   VersionsResponse,
 } from './types';
 import { VersionControls } from './components/VersionControls';
+import { VersionSettings } from './components/VersionSettings';
 import { EccnNodeView } from './components/EccnNodeView';
 import { EccnContentBlockView } from './components/EccnContentBlock';
 import { TradeDataView } from './components/TradeDataView';
@@ -944,7 +945,7 @@ function App() {
   const [refreshing, setRefreshing] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [eccnPreview, setEccnPreview] = useState<EccnPreviewState | null>(null);
-  const [activeTab, setActiveTab] = useState<'explorer' | 'history' | 'trade'>('explorer');
+  const [activeTab, setActiveTab] = useState<'explorer' | 'history' | 'trade' | 'settings'>('explorer');
   const [showScrollTop, setShowScrollTop] = useState(false);
   const skipNextLoad = useRef(false);
   const previewCardRef = useRef<HTMLDivElement | null>(null);
@@ -1634,6 +1635,15 @@ function App() {
           >
             Trade Data by ECCN
           </button>
+          <button
+            type="button"
+            className="app-tab-button"
+            data-active={activeTab === 'settings'}
+            onClick={() => setActiveTab('settings')}
+            aria-current={activeTab === 'settings' ? 'page' : undefined}
+          >
+            Settings
+          </button>
         </nav>
       </header>
       <main className="app-main">
@@ -1645,10 +1655,7 @@ function App() {
                 defaultDate={defaultDate}
                 selectedDate={selectedDate}
                 onSelect={handleSelectVersion}
-                onRefresh={handleRefreshVersion}
-                onLoad={handleLoadNewVersion}
                 loadingVersions={loadingVersions}
-                refreshing={refreshing}
               />
               {error && <div className="alert error">{error}</div>}
             </aside>
@@ -1919,6 +1926,32 @@ function App() {
         {activeTab === 'trade' ? (
           <div className="trade-layout">
             <TradeDataView onNavigateToEccn={handleNavigateToEccn} />
+          </div>
+        ) : null}
+        {activeTab === 'settings' ? (
+          <div className="settings-layout">
+            <VersionSettings
+              defaultDate={defaultDate}
+              selectedDate={selectedDate}
+              onRefresh={handleRefreshVersion}
+              onLoad={handleLoadNewVersion}
+              refreshing={refreshing}
+              error={error}
+            />
+            <section className="panel settings-info">
+              <header className="panel-header">
+                <h2>How data caching works</h2>
+              </header>
+              <p>
+                The Explorer stores downloaded Commerce Control List data in your local browser so you can
+                revisit previously fetched versions without downloading them again. Refreshing replaces the
+                cached copy for the selected date, while "Fetch &amp; store" adds a new version by date.
+              </p>
+              <p className="help-text">
+                Data is loaded from the official eCFR XML source and parsed locally for fast, offline
+                browsing.
+              </p>
+            </section>
           </div>
         ) : null}
       </main>
