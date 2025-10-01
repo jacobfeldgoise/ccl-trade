@@ -545,6 +545,7 @@ body {
   transform-origin: center;
 }
 
+.eccn-node.accordion.has-details.is-open summary::before,
 .eccn-node.accordion.has-details[open] summary::before {
   transform: rotate(90deg);
 }
@@ -591,6 +592,7 @@ body {
   flex: 1 1 0%;
   min-width: 0;
   line-height: 1.35;
+  padding-top: 0.1em;
   white-space: normal;
 }
 

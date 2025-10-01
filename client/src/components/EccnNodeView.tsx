@@ -71,6 +71,9 @@ export function EccnNodeView({
     const classes = ['eccn-node', `level-${level}`];
     if (isCollapsible) {
       classes.push('accordion', 'has-details');
+      if (open) {
+        classes.push('is-open');
+      }
     } else if (isAccordion) {
       classes.push('accordion', 'no-details');
     } else {
@@ -83,7 +86,7 @@ export function EccnNodeView({
       classes.push('active-path');
     }
     return classes.filter(Boolean).join(' ');
-  }, [isAccordion, isActive, isInActivePath, isCollapsible, level]);
+  }, [isAccordion, isActive, isInActivePath, isCollapsible, level, open]);
 
   const handleIdentifierPreview = onPreviewEccn && node.identifier
     ? (event: ReactMouseEvent<HTMLElement>) => {
