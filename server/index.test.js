@@ -210,6 +210,22 @@ test('shorthand ECCN references expand to explicit lists', () => {
   assert(!/g\s+to\s+j/.test(html), 'letter shorthand should be removed');
 });
 
+test('country table entire entry phrases include the ECCN context', () => {
+  const xml = readFileSync(new URL('../example-title-15.xml', import.meta.url), 'utf8');
+  const { supplements } = parsePart(xml);
+  const supplement = supplements.find((entry) => entry.number === '1');
+  assert(supplement, 'supplement 1 should be present');
+
+  const eccn = supplement.eccns.find((entry) => entry.eccn === '0A501');
+  assert(eccn, 'expected ECCN 0A501 to be parsed');
+
+  const tableBlock = eccn.structure.content?.find((block) => block.tag === 'TABLE');
+  assert(tableBlock, 'expected country table to be present');
+
+  const html = tableBlock.html ?? '';
+  assert(/applies to entire entry\s*\(0A501\)/i.test(html), 'table should annotate the ECCN in entire entry phrases');
+});
+
 test('note paragraphs do not replace ECCN headings', () => {
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <ROOT>

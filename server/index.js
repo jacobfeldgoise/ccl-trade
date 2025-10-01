@@ -1744,7 +1744,8 @@ function buildNodeBreadcrumbs(node, root, baseBreadcrumbs) {
 function convertTreeNodeToStructure(node) {
   const children = node.children.map((child) => convertTreeNodeToStructure(child));
   const label = node.heading && node.heading !== node.identifier ? `${node.identifier} – ${node.heading}` : node.identifier;
-  const content = filterRedundantContent(node);
+  const filteredContent = filterRedundantContent(node);
+  const content = annotateEntireEntryPhrases(filteredContent, node.identifier);
 
   return {
     identifier: node.identifier,
@@ -1756,6 +1757,56 @@ function convertTreeNodeToStructure(node) {
     boundToParent: Boolean(node.boundToParent),
     requireAllChildren: Boolean(node.requireAllChildren),
   };
+}
+
+const ENTIRE_ENTRY_PHRASE_REGEX = /\b(apply|applies)\s+to\s+(?:the\s+)?entire entry\b(?!\s*\(\s*[0-9][A-Z][0-9]{3})/gi;
+
+function annotateEntireEntryPhrases(blocks, eccn) {
+  if (!Array.isArray(blocks) || blocks.length === 0 || !eccn) {
+    return Array.isArray(blocks) ? blocks : [];
+  }
+
+  let changed = false;
+
+  const updatedBlocks = blocks.map((block) => {
+    if (!block || block.tag !== 'TABLE') {
+      return block;
+    }
+
+    let updated = block;
+
+    if (typeof block.html === 'string') {
+      const rewrittenHtml = injectEntireEntryAnnotation(block.html, eccn);
+      if (rewrittenHtml !== block.html) {
+        updated = { ...updated, html: rewrittenHtml };
+        changed = true;
+      }
+    }
+
+    if (typeof block.text === 'string') {
+      const rewrittenText = injectEntireEntryAnnotation(block.text, eccn);
+      if (rewrittenText !== block.text) {
+        if (updated === block) {
+          updated = { ...updated };
+        }
+        updated.text = rewrittenText;
+        changed = true;
+      }
+    }
+
+    return updated;
+  });
+
+  return changed ? updatedBlocks : blocks;
+}
+
+function injectEntireEntryAnnotation(value, eccn) {
+  if (!value || !eccn) {
+    return value;
+  }
+
+  ENTIRE_ENTRY_PHRASE_REGEX.lastIndex = 0;
+  return value.replace(ENTIRE_ENTRY_PHRASE_REGEX, (match) => `${match} (${eccn})`);
 }
 
 function filterRedundantContent(node) {
