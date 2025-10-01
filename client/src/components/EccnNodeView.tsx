@@ -161,6 +161,9 @@ export function EccnNodeView({
       id={anchorId}
     >
       <summary>
+        <span className="node-toggle-icon" aria-hidden="true">
+          ▸
+        </span>
         <span className="node-label" aria-label={labelText} title={labelText}>
           {identifierElement}
           {labelHeading ? <span className="node-heading">{labelHeading}</span> : null}
