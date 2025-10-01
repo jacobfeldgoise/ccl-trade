@@ -86,11 +86,11 @@ export function linkHtmlEccnReferences(html: string): string {
 
 interface EccnContentBlockViewProps {
   entry: EccnContentBlock;
-  onSelectEccn?: (eccn: string) => void;
+  onPreviewEccn?: (eccn: string, anchor: HTMLElement) => void;
   className?: string;
 }
 
-export function EccnContentBlockView({ entry, onSelectEccn, className }: EccnContentBlockViewProps) {
+export function EccnContentBlockView({ entry, onPreviewEccn, className }: EccnContentBlockViewProps) {
   if (entry.type === 'text') {
     const text = entry.text ?? '';
     const fragments: Array<string | JSX.Element> = [];
@@ -108,7 +108,7 @@ export function EccnContentBlockView({ entry, onSelectEccn, className }: EccnCon
         <button
           type="button"
           className="eccn-reference-button"
-          onClick={() => onSelectEccn?.(eccn)}
+          onClick={(event) => onPreviewEccn?.(eccn, event.currentTarget)}
           aria-label={`View ECCN ${eccn}`}
           title={`View ECCN ${eccn}`}
           key={`text-ref-${eccn}-${index}`}
@@ -147,7 +147,7 @@ export function EccnContentBlockView({ entry, onSelectEccn, className }: EccnCon
 
   const handleClick = useCallback(
     (event: React.MouseEvent<HTMLDivElement>) => {
-      if (!onSelectEccn) {
+      if (!onPreviewEccn) {
         return;
       }
 
@@ -163,9 +163,9 @@ export function EccnContentBlockView({ entry, onSelectEccn, className }: EccnCon
       }
 
       event.preventDefault();
-      onSelectEccn(eccn);
+      onPreviewEccn(eccn, anchor);
     },
-    [onSelectEccn]
+    [onPreviewEccn]
   );
 
   return (

@@ -212,6 +212,35 @@ interface HighLevelField {
 const SANITIZE_ANCHOR_PATTERN = /[^\w.-]+/g;
 const CONTROL_HEADING_PATTERN = /control(?:s)?\s+(?:country\s+chart|table)/i;
 
+interface AnchorRect {
+  top: number;
+  left: number;
+  right: number;
+  bottom: number;
+  width: number;
+  height: number;
+}
+
+interface EccnPreviewState {
+  normalizedCode: string;
+  displayEccn: string;
+  entry: EccnEntry | null;
+  anchor: HTMLElement;
+  rect: AnchorRect;
+}
+
+function getAnchorRect(element: HTMLElement): AnchorRect {
+  const rect = element.getBoundingClientRect();
+  return {
+    top: rect.top,
+    left: rect.left,
+    right: rect.right,
+    bottom: rect.bottom,
+    width: rect.width,
+    height: rect.height,
+  };
+}
+
 function normalizeNodeIdentifier(value?: string | null): string | null {
   if (!value) {
     return null;
@@ -910,7 +939,9 @@ function App() {
   const [loadingDataset, setLoadingDataset] = useState(false);
   const [refreshing, setRefreshing] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [eccnPreview, setEccnPreview] = useState<EccnPreviewState | null>(null);
   const skipNextLoad = useRef(false);
+  const previewCardRef = useRef<HTMLDivElement | null>(null);
 
   const loadVersions = useCallback(async (): Promise<VersionsResponse | null> => {
     setLoadingVersions(true);
@@ -1239,11 +1270,13 @@ function App() {
     setFocusedNodeIdentifier(undefined);
   };
 
-  const handleSelectEccn = (value: string) => {
-    const parsed = extractEccnQuery(value) ?? parseNormalizedEccn(value);
-    if (!parsed || parsed.segments.length === 0) {
-      return;
-    }
+  const handleSelectEccn = useCallback(
+    (value: string) => {
+      setEccnPreview(null);
+      const parsed = extractEccnQuery(value) ?? parseNormalizedEccn(value);
+      if (!parsed || parsed.segments.length === 0) {
+        return;
+      }
 
     const normalizedCode = parsed.code.toUpperCase();
     const exactMatch = eccnLookup.get(normalizedCode);
@@ -1294,7 +1327,188 @@ function App() {
     } else {
       setFocusedNodeIdentifier(undefined);
     }
-  };
+    },
+    [eccnLookup, supplements]
+  );
+
+  const handlePreviewEccn = useCallback(
+    (value: string, anchor: HTMLElement) => {
+      if (!anchor) {
+        return;
+      }
+
+      const trimmedValue = value.trim();
+      const parsed = extractEccnQuery(trimmedValue) ?? parseNormalizedEccn(trimmedValue);
+      const fallbackValue = trimmedValue || value;
+      const normalizedCode = (parsed?.code ?? fallbackValue).toUpperCase();
+      const matchedEntry = eccnLookup.get(normalizedCode) ?? null;
+      const displayEccn = matchedEntry?.eccn ?? fallbackValue;
+
+      setEccnPreview((previous) => {
+        if (previous && previous.anchor === anchor && previous.normalizedCode === normalizedCode) {
+          return null;
+        }
+
+        return {
+          normalizedCode,
+          displayEccn,
+          entry: matchedEntry,
+          anchor,
+          rect: getAnchorRect(anchor),
+        };
+      });
+    },
+    [eccnLookup]
+  );
+
+  const handleClosePreview = useCallback(() => {
+    setEccnPreview(null);
+  }, []);
+
+  const handleConfirmPreview = useCallback(() => {
+    if (!eccnPreview) {
+      return;
+    }
+
+    const eccnToOpen = eccnPreview.displayEccn;
+    setEccnPreview(null);
+    handleSelectEccn(eccnToOpen);
+  }, [eccnPreview, handleSelectEccn]);
+
+  useEffect(() => {
+    const anchor = eccnPreview?.anchor;
+    if (!anchor || typeof window === 'undefined') {
+      return;
+    }
+
+    const updateRect = () => {
+      setEccnPreview((previous) => {
+        if (!previous || previous.anchor !== anchor) {
+          return previous;
+        }
+        if (!anchor.isConnected) {
+          return null;
+        }
+        return {
+          ...previous,
+          rect: getAnchorRect(anchor),
+        };
+      });
+    };
+
+    updateRect();
+
+    window.addEventListener('scroll', updateRect, true);
+    window.addEventListener('resize', updateRect);
+
+    return () => {
+      window.removeEventListener('scroll', updateRect, true);
+      window.removeEventListener('resize', updateRect);
+    };
+  }, [eccnPreview?.anchor]);
+
+  useEffect(() => {
+    if (!eccnPreview || typeof document === 'undefined') {
+      return;
+    }
+
+    const handlePointerDown = (event: MouseEvent | TouchEvent) => {
+      const target = event.target as Node | null;
+      const card = previewCardRef.current;
+      if (card && target && card.contains(target)) {
+        return;
+      }
+      if (eccnPreview.anchor && target && eccnPreview.anchor.contains(target)) {
+        return;
+      }
+      handleClosePreview();
+    };
+
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        event.preventDefault();
+        handleClosePreview();
+      }
+    };
+
+    document.addEventListener('mousedown', handlePointerDown);
+    document.addEventListener('touchstart', handlePointerDown);
+    document.addEventListener('keydown', handleKeyDown);
+
+    return () => {
+      document.removeEventListener('mousedown', handlePointerDown);
+      document.removeEventListener('touchstart', handlePointerDown);
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [eccnPreview, handleClosePreview]);
+
+  useEffect(() => {
+    if (!eccnPreview || typeof window === 'undefined') {
+      return;
+    }
+
+    const frame = window.requestAnimationFrame(() => {
+      previewCardRef.current?.focus();
+    });
+
+    return () => {
+      window.cancelAnimationFrame(frame);
+    };
+  }, [eccnPreview]);
+
+  const previewPosition = useMemo(() => {
+    if (!eccnPreview) {
+      return null;
+    }
+
+    const anchorRect = eccnPreview.rect;
+    const viewportWidth = typeof window !== 'undefined'
+      ? window.innerWidth || document.documentElement.clientWidth || 0
+      : 0;
+    const viewportHeight = typeof window !== 'undefined'
+      ? window.innerHeight || document.documentElement.clientHeight || 0
+      : 0;
+
+    const maxCardWidth = viewportWidth ? Math.min(360, viewportWidth - 32) : 360;
+    const halfWidth = maxCardWidth / 2;
+
+    let left = anchorRect.left + anchorRect.width / 2;
+    if (viewportWidth) {
+      left = Math.min(viewportWidth - 16 - halfWidth, Math.max(16 + halfWidth, left));
+    }
+
+    let position: 'above' | 'below' = 'below';
+    let top = anchorRect.bottom + 12;
+
+    if (viewportHeight) {
+      const spaceBelow = viewportHeight - anchorRect.bottom;
+      const spaceAbove = anchorRect.top;
+      if (spaceBelow < 260 && spaceAbove > spaceBelow) {
+        position = 'above';
+        top = Math.max(16, anchorRect.top - 12);
+      } else {
+        top = Math.min(Math.max(16, top), viewportHeight - 16);
+      }
+    }
+
+    return {
+      left,
+      top,
+      position,
+      maxWidth: maxCardWidth,
+    };
+  }, [eccnPreview]);
+
+  const previewIdSuffix = eccnPreview
+    ? eccnPreview.normalizedCode.replace(/[^A-Z0-9]+/gi, '-').toLowerCase()
+    : null;
+  const previewTitleId = previewIdSuffix ? `eccn-preview-title-${previewIdSuffix}` : undefined;
+  const previewBodyId = previewIdSuffix ? `eccn-preview-body-${previewIdSuffix}` : undefined;
+  const previewEntry = eccnPreview?.entry ?? null;
+  const previewHeading = previewEntry
+    ? previewEntry.title ||
+      (previewEntry.heading && previewEntry.heading !== previewEntry.eccn ? previewEntry.heading : null)
+    : null;
 
   return (
     <div className="app">
@@ -1474,7 +1688,9 @@ function App() {
                                     <button
                                       type="button"
                                       className="eccn-reference-button"
-                                      onClick={() => handleSelectEccn(activeEccn.parentEccn!)}
+                                      onClick={(event) =>
+                                        handlePreviewEccn(activeEccn.parentEccn!, event.currentTarget)
+                                      }
                                       aria-label={`View ECCN ${activeEccn.parentEccn}`}
                                       title={`View ECCN ${activeEccn.parentEccn}`}
                                     >
@@ -1496,7 +1712,7 @@ function App() {
                                           <button
                                             type="button"
                                             className="eccn-reference-button"
-                                            onClick={() => handleSelectEccn(childEccn)}
+                                            onClick={(event) => handlePreviewEccn(childEccn, event.currentTarget)}
                                             aria-label={`View ECCN ${childEccn}`}
                                             title={`View ECCN ${childEccn}`}
                                             key={childEccn}
@@ -1521,7 +1737,7 @@ function App() {
                                     <EccnContentBlockView
                                       entry={block}
                                       key={`${field.id}-${index}`}
-                                      onSelectEccn={handleSelectEccn}
+                                      onPreviewEccn={handlePreviewEccn}
                                       className="high-level-content"
                                     />
                                   ))}
@@ -1541,7 +1757,7 @@ function App() {
                                     node={child}
                                     level={1}
                                     key={key}
-                                    onSelectEccn={handleSelectEccn}
+                                    onPreviewEccn={handlePreviewEccn}
                                     activeNode={focusedNode}
                                     activePath={focusedPath}
                                   />
@@ -1584,6 +1800,87 @@ function App() {
         </p>
         <p className="fine-print">The data is cached locally for offline analysis.</p>
       </footer>
+      {eccnPreview && previewPosition ? (
+        <div className="eccn-preview-overlay">
+          <div
+            className="eccn-preview-card"
+            ref={previewCardRef}
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby={previewTitleId}
+            aria-describedby={previewBodyId}
+            data-position={previewPosition.position}
+            style={{
+              top: previewPosition.top,
+              left: previewPosition.left,
+              maxWidth: previewPosition.maxWidth,
+            }}
+            tabIndex={-1}
+          >
+            <header className="eccn-preview-header">
+              <div className="eccn-preview-heading">
+                <span className="eccn-preview-code" id={previewTitleId}>
+                  {eccnPreview.displayEccn}
+                </span>
+                {previewHeading ? <p className="eccn-preview-title">{previewHeading}</p> : null}
+              </div>
+              <button
+                type="button"
+                className="eccn-preview-close"
+                onClick={handleClosePreview}
+                aria-label="Close ECCN preview"
+              >
+                <span aria-hidden="true">×</span>
+              </button>
+            </header>
+            <div className="eccn-preview-body" id={previewBodyId}>
+              {previewEntry ? (
+                <>
+                  <dl className="eccn-preview-meta">
+                    <div>
+                      <dt>Supplement</dt>
+                      <dd>
+                        {previewEntry.supplement
+                          ? `Supp. No. ${previewEntry.supplement.number}` +
+                            (previewEntry.supplement.heading
+                              ? ` – ${previewEntry.supplement.heading}`
+                              : '')
+                          : '–'}
+                      </dd>
+                    </div>
+                    <div>
+                      <dt>Category</dt>
+                      <dd>{previewEntry.category ?? '–'}</dd>
+                    </div>
+                    <div>
+                      <dt>Group</dt>
+                      <dd>{previewEntry.group ?? '–'}</dd>
+                    </div>
+                    <div>
+                      <dt>Breadcrumbs</dt>
+                      <dd>
+                        {previewEntry.breadcrumbs.length > 0
+                          ? previewEntry.breadcrumbs.join(' › ')
+                          : '–'}
+                      </dd>
+                    </div>
+                  </dl>
+                </>
+              ) : (
+                <p className="eccn-preview-empty">
+                  This ECCN was referenced in the text but is not part of the loaded supplements. Selecting
+                  "Open ECCN" will try to locate it in the dataset.
+                </p>
+              )}
+            </div>
+            <div className="eccn-preview-actions">
+              <button type="button" className="button primary" onClick={handleConfirmPreview}>
+                Open ECCN
+              </button>
+            </div>
+          </div>
+        </div>
+      ) : null}
     </div>
   );
 }
