@@ -73,6 +73,20 @@ export function VersionControls({
                     <dt>ECCNs</dt>
                     <dd>{formatNumber(version.counts?.eccns ?? 0)}</dd>
                   </div>
+                  <div>
+                    <dt>Raw XML</dt>
+                    <dd>
+                      {version.rawDownloadedAt
+                        ? formatDateTime(version.rawDownloadedAt)
+                        : 'Not downloaded'}
+                    </dd>
+                  </div>
+                  {version.rawDownloadedAt && !version.canRedownloadXml ? (
+                    <div>
+                      <dt>Redownload</dt>
+                      <dd>Available after 30 days</dd>
+                    </div>
+                  ) : null}
                 </dl>
               </li>
             ))}

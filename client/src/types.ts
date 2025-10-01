@@ -65,6 +65,8 @@ export interface VersionSummary {
     supplements: number;
     eccns: number;
   };
+  rawDownloadedAt: string | null;
+  canRedownloadXml: boolean;
 }
 
 export interface VersionsResponse {

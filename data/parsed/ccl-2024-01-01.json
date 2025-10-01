@@ -1,0 +1,198 @@
+{
+  "version": "2024-01-01",
+  "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-01-01/title-15?format=xml",
+  "counts": {
+    "supplements": 2,
+    "eccns": 5
+  },
+  "supplements": [
+    {
+      "number": "1",
+      "heading": "Supplement No. 1 to Part 774—The Commerce Control List",
+      "eccns": [
+        {
+          "eccn": "0A001",
+          "heading": "0A001 Nuclear reactors and specially designed or prepared equipment and components therefor",
+          "title": "Nuclear reactors and specially designed or prepared equipment and components therefor",
+          "category": "0",
+          "group": "0A",
+          "breadcrumbs": [],
+          "supplement": {
+            "number": "1",
+            "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+          },
+          "structure": {
+            "identifier": "0A001",
+            "heading": "0A001 Nuclear reactors and specially designed or prepared equipment and components therefor",
+            "label": "0A001 – 0A001 Nuclear reactors and specially designed or prepared equipment and components therefor",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P ID=\"0a001\"><E T=\"03\">0A001.</E> Nuclear reactors and specially designed or prepared equipment and components therefor.</P>",
+                "text": "0A001. Nuclear reactors and specially designed or prepared equipment and components therefor.",
+                "id": "0a001"
+              }
+            ],
+            "children": [
+              {
+                "identifier": "0A001.a",
+                "heading": "Complete nuclear reactors capable of operation so as to maintain a controlled self-sustaining fission chain reaction.",
+                "label": "0A001.a – Complete nuclear reactors capable of operation so as to maintain a controlled self-sustaining fission chain reaction.",
+                "isEccn": true,
+                "boundToParent": false,
+                "requireAllChildren": false
+              },
+              {
+                "identifier": "0A001.b",
+                "heading": "Nuclear reactor pressure vessels specially designed or prepared to contain the core of a nuclear reactor.",
+                "label": "0A001.b – Nuclear reactor pressure vessels specially designed or prepared to contain the core of a nuclear reactor.",
+                "isEccn": true,
+                "boundToParent": false,
+                "requireAllChildren": false
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": false,
+            "requireAllChildren": false
+          },
+          "parentEccn": null,
+          "childEccns": [
+            "0A001.a",
+            "0A001.b"
+          ]
+        },
+        {
+          "eccn": "0A001.a",
+          "heading": "Complete nuclear reactors capable of operation so as to maintain a controlled self-sustaining fission chain reaction.",
+          "title": "Complete nuclear reactors capable of operation so as to maintain a controlled self-sustaining fission chain reaction.",
+          "category": "0",
+          "group": "0A",
+          "breadcrumbs": [
+            "0A001 Nuclear reactors and specially designed or prepared equipment and components therefor"
+          ],
+          "supplement": {
+            "number": "1",
+            "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+          },
+          "structure": {
+            "identifier": "0A001.a",
+            "heading": "Complete nuclear reactors capable of operation so as to maintain a controlled self-sustaining fission chain reaction.",
+            "label": "0A001.a – Complete nuclear reactors capable of operation so as to maintain a controlled self-sustaining fission chain reaction.",
+            "isEccn": true,
+            "boundToParent": false,
+            "requireAllChildren": false
+          },
+          "parentEccn": "0A001",
+          "childEccns": []
+        },
+        {
+          "eccn": "0A001.b",
+          "heading": "Nuclear reactor pressure vessels specially designed or prepared to contain the core of a nuclear reactor.",
+          "title": "Nuclear reactor pressure vessels specially designed or prepared to contain the core of a nuclear reactor.",
+          "category": "0",
+          "group": "0A",
+          "breadcrumbs": [
+            "0A001 Nuclear reactors and specially designed or prepared equipment and components therefor"
+          ],
+          "supplement": {
+            "number": "1",
+            "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+          },
+          "structure": {
+            "identifier": "0A001.b",
+            "heading": "Nuclear reactor pressure vessels specially designed or prepared to contain the core of a nuclear reactor.",
+            "label": "0A001.b – Nuclear reactor pressure vessels specially designed or prepared to contain the core of a nuclear reactor.",
+            "isEccn": true,
+            "boundToParent": false,
+            "requireAllChildren": false
+          },
+          "parentEccn": "0A001",
+          "childEccns": []
+        },
+        {
+          "eccn": "0A002",
+          "heading": "0A002 Systems, equipment and components, and specially designed parts and components therefor",
+          "title": "Systems, equipment and components, and specially designed parts and components therefor",
+          "category": "0",
+          "group": "0A",
+          "breadcrumbs": [],
+          "supplement": {
+            "number": "1",
+            "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+          },
+          "structure": {
+            "identifier": "0A002",
+            "heading": "0A002 Systems, equipment and components, and specially designed parts and components therefor",
+            "label": "0A002 – 0A002 Systems, equipment and components, and specially designed parts and components therefor",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P ID=\"0a002\"><E T=\"03\">0A002.</E> Systems, equipment and components, and specially designed parts and components therefor, specially designed or prepared for nuclear use.</P>",
+                "text": "0A002. Systems, equipment and components, and specially designed parts and components therefor, specially designed or prepared for nuclear use.",
+                "id": "0a002"
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": false,
+            "requireAllChildren": false
+          },
+          "parentEccn": null,
+          "childEccns": []
+        }
+      ],
+      "metadata": {
+        "eccnCount": 4,
+        "categoryCounts": {
+          "0": 4
+        }
+      }
+    },
+    {
+      "number": "5",
+      "heading": "Supplement No. 5 to Part 774—Items Classified Under ECCNs and Other Reasons for Control",
+      "eccns": [
+        {
+          "eccn": "0A001",
+          "heading": "0A001 Example descriptive entry for demonstration purposes.",
+          "title": "Example descriptive entry for demonstration purposes.",
+          "category": "0",
+          "group": "0A",
+          "breadcrumbs": [],
+          "supplement": {
+            "number": "5",
+            "heading": "Supplement No. 5 to Part 774—Items Classified Under ECCNs and Other Reasons for Control"
+          },
+          "structure": {
+            "identifier": "0A001",
+            "heading": "0A001 Example descriptive entry for demonstration purposes.",
+            "label": "0A001 – 0A001 Example descriptive entry for demonstration purposes.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "TABLE",
+                "html": "<table class=\"supplement-table supplement-5-table\"><THEAD>\n          <TR>\n            <TH>ECCN</TH>\n            <TH>Description</TH>\n          </TR>\n        </THEAD><tbody><TR>\n            <TD>0A001</TD>\n            <TD>Example descriptive entry for demonstration purposes.</TD>\n          </TR></tbody></table>",
+                "text": null,
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": false,
+            "requireAllChildren": false
+          },
+          "parentEccn": null,
+          "childEccns": []
+        }
+      ],
+      "metadata": {
+        "eccnCount": 1,
+        "categoryCounts": {
+          "0": 1
+        }
+      }
+    }
+  ],
+  "date": "2024-01-01",
+  "fetchedAt": "2025-10-01T21:11:09.731Z"
+}
