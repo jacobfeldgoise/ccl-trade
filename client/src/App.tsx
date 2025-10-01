@@ -20,6 +20,7 @@ import { formatDateTime, formatNumber } from './utils/format';
 const ECCN_BASE_PATTERN = /^[0-9][A-Z][0-9]{3}$/;
 const ECCN_SEGMENT_PATTERN = /^[A-Z0-9]+(?:-[A-Z0-9]+)*$/;
 const ECCN_ALLOWED_CHARS_PATTERN = /^[0-9A-Z.\-\s]+$/;
+const SCROLL_TOP_THRESHOLD = 480;
 
 type EccnSegment = {
   raw: string;
@@ -944,6 +945,7 @@ function App() {
   const [error, setError] = useState<string | null>(null);
   const [eccnPreview, setEccnPreview] = useState<EccnPreviewState | null>(null);
   const [activeTab, setActiveTab] = useState<'explorer' | 'history' | 'trade'>('explorer');
+  const [showScrollTop, setShowScrollTop] = useState(false);
   const skipNextLoad = useRef(false);
   const previewCardRef = useRef<HTMLDivElement | null>(null);
 
@@ -982,6 +984,23 @@ function App() {
       isMounted = false;
     };
   }, [loadVersions]);
+
+  useEffect(() => {
+    if (typeof window === 'undefined') {
+      return;
+    }
+
+    const updateVisibility = () => {
+      setShowScrollTop(window.scrollY > SCROLL_TOP_THRESHOLD);
+    };
+
+    window.addEventListener('scroll', updateVisibility, { passive: true });
+    updateVisibility();
+
+    return () => {
+      window.removeEventListener('scroll', updateVisibility);
+    };
+  }, []);
 
   useEffect(() => {
     if (!selectedDate) {
@@ -1056,6 +1075,14 @@ function App() {
   const handleLoadNewVersion = async (date: string) => {
     await handleRefreshVersion(date);
   };
+
+  const handleScrollToTop = useCallback(() => {
+    if (typeof window === 'undefined') {
+      return;
+    }
+
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, []);
 
   const ensureDataset = useCallback(
     async (date: string): Promise<CclDataset> => {
@@ -1908,6 +1935,17 @@ function App() {
         </p>
         <p className="fine-print">The data is cached locally for offline analysis.</p>
       </footer>
+      {showScrollTop ? (
+        <button
+          type="button"
+          className="scroll-to-top"
+          onClick={handleScrollToTop}
+          aria-label="Back to top"
+        >
+          <span aria-hidden="true">↑</span>
+          <span>Back to top</span>
+        </button>
+      ) : null}
       {activeTab === 'explorer' && eccnPreview && previewPosition ? (
         <div className="eccn-preview-overlay">
           <div
