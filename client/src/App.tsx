@@ -1468,13 +1468,44 @@ function App() {
                             </div>
                             <div>
                               <dt>Parent ECCN</dt>
-                              <dd>{activeEccn.parentEccn ?? '–'}</dd>
+                              <dd>
+                                {activeEccn.parentEccn ? (
+                                  <div className="eccn-meta-eccn-list">
+                                    <button
+                                      type="button"
+                                      className="eccn-reference-button"
+                                      onClick={() => handleSelectEccn(activeEccn.parentEccn!)}
+                                      aria-label={`View ECCN ${activeEccn.parentEccn}`}
+                                      title={`View ECCN ${activeEccn.parentEccn}`}
+                                    >
+                                      {activeEccn.parentEccn}
+                                    </button>
+                                  </div>
+                                ) : (
+                                  '–'
+                                )}
+                              </dd>
                             </div>
                             <div>
                               <dt>Child ECCNs</dt>
                               <dd>
                                 {activeEccn.childEccns && activeEccn.childEccns.length > 0
-                                  ? activeEccn.childEccns.join(', ')
+                                  ? (
+                                      <div className="eccn-meta-eccn-list">
+                                        {activeEccn.childEccns.map((childEccn) => (
+                                          <button
+                                            type="button"
+                                            className="eccn-reference-button"
+                                            onClick={() => handleSelectEccn(childEccn)}
+                                            aria-label={`View ECCN ${childEccn}`}
+                                            title={`View ECCN ${childEccn}`}
+                                            key={childEccn}
+                                          >
+                                            {childEccn}
+                                          </button>
+                                        ))}
+                                      </div>
+                                    )
                                   : '–'}
                               </dd>
                             </div>
