@@ -56,8 +56,13 @@ export function VersionSettings({
     }
     return `Raw XML last downloaded ${formatDateTime(
       manualTarget.rawDownloadedAt
-    )}. Fetching will reuse the cached XML until it is at least 30 days old.`;
+    )}. It is still within the 30 day cache window, so fetching is temporarily disabled.`;
   })();
+
+  const isManualFetchDisabled =
+    !manualDate ||
+    refreshing ||
+    (!!manualTarget?.rawDownloadedAt && manualTarget?.canRedownloadXml === false);
 
   const selectedVersionRawText = (() => {
     if (!selectedVersion) {
@@ -119,7 +124,7 @@ export function VersionSettings({
             onChange={(event) => setManualDate(event.target.value)}
             max={defaultDate}
           />
-          <button type="submit" className="button primary" disabled={!manualDate || refreshing}>
+          <button type="submit" className="button primary" disabled={isManualFetchDisabled}>
             {refreshing ? 'Loading…' : 'Fetch & store'}
           </button>
         </div>
