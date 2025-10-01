@@ -518,14 +518,68 @@ body {
   color: #1f2937;
 }
 
-.eccn-node .node-label {
+.eccn-node.accordion summary {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  padding-left: 0;
+}
+
+.eccn-node.accordion summary::marker,
+.eccn-node.accordion summary::-webkit-details-marker {
+  display: none;
+}
+
+.eccn-node.accordion .node-toggle-icon {
+  flex: 0 0 auto;
   display: inline-flex;
   align-items: center;
+  justify-content: center;
+  margin-top: 0.15em;
+  color: #2563eb;
+  transition: transform 0.2s ease;
+  font-size: 1.35rem;
+  line-height: 1;
+  transform: rotate(0deg);
+  transform-origin: center;
+}
+
+.eccn-node.accordion.has-details.is-open .node-toggle-icon,
+.eccn-node.accordion.has-details[open] .node-toggle-icon {
+  transform: rotate(90deg);
+}
+
+.eccn-node .node-label {
+  display: inline-flex;
+  align-items: flex-start;
   gap: 0.4rem;
   flex-wrap: wrap;
   font-weight: 600;
   color: #1f2937;
+  width: 100%;
 }
+
+.eccn-node.accordion.no-details .node-label {
+  color: #6b7280;
+  gap: 0.5rem;
+}
+
+.eccn-node.accordion.no-details .node-label::before {
+  content: '–';
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.15em;
+  color: #9ca3af;
+  font-weight: 600;
+}
+
+.eccn-node.accordion.no-details .node-label[aria-disabled='true'] {
+  cursor: default;
+}
+
 
 .eccn-node.active .node-label {
   background: rgba(37, 99, 235, 0.12);
@@ -534,9 +588,16 @@ body {
 }
 
 .eccn-node .node-heading {
-  display: inline-flex;
-  align-items: center;
-  line-height: 1.3;
+  display: inline-block;
+  flex: 1 1 0%;
+  min-width: 0;
+  line-height: 1.35;
+  padding-top: 0.2em;
+  white-space: normal;
+}
+
+.eccn-node .node-identifier {
+  margin-top: 0.1em;
 }
 
 .eccn-node.static .node-label {
@@ -608,6 +669,24 @@ body {
 
 .eccn-node .node-identifier {
   cursor: default;
+  flex-shrink: 0;
+}
+
+.eccn-node .node-identifier.is-clickable {
+  cursor: pointer;
+  font: inherit;
+}
+
+.eccn-node .node-identifier.is-clickable:hover,
+.eccn-node .node-identifier.is-clickable:focus-visible {
+  background: rgba(37, 99, 235, 0.18);
+  border-color: #2563eb;
+  text-decoration: none;
+}
+
+.eccn-node .node-identifier.is-clickable:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.35);
 }
 
 .eccn-meta .eccn-meta-eccn-list {

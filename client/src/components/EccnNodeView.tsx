@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { type MouseEvent as ReactMouseEvent, useEffect, useMemo, useState } from 'react';
 import { EccnNode } from '../types';
 import { EccnContentBlockView } from './EccnContentBlock';
 
@@ -19,9 +19,11 @@ export function EccnNodeView({
 }: EccnNodeViewProps) {
   const isRootEccn = Boolean(node.isEccn && level === 0);
   const isAccordion = Boolean(node.isEccn && !node.boundToParent && !isRootEccn);
+  const hasDetails = Boolean((node.content?.length ?? 0) > 0 || (node.children?.length ?? 0) > 0);
+  const isCollapsible = isAccordion && hasDetails;
   const isActive = activeNode === node;
   const isInActivePath = activePath?.has(node) ?? false;
-  const shouldForceOpen = isAccordion ? level < 2 || isInActivePath : true;
+  const shouldForceOpen = isCollapsible ? level < 2 || isInActivePath : true;
   const [open, setOpen] = useState(() => shouldForceOpen);
 
   useEffect(() => {
@@ -66,7 +68,17 @@ export function EccnNodeView({
   const showLabel = !node.boundToParent;
 
   const containerClasses = useMemo(() => {
-    const classes = ['eccn-node', `level-${level}`, !isAccordion ? 'static' : ''];
+    const classes = ['eccn-node', `level-${level}`];
+    if (isCollapsible) {
+      classes.push('accordion', 'has-details');
+      if (open) {
+        classes.push('is-open');
+      }
+    } else if (isAccordion) {
+      classes.push('accordion', 'no-details');
+    } else {
+      classes.push('static');
+    }
     if (isActive) {
       classes.push('active');
     }
@@ -74,14 +86,44 @@ export function EccnNodeView({
       classes.push('active-path');
     }
     return classes.filter(Boolean).join(' ');
-  }, [isAccordion, isActive, isInActivePath, level]);
+  }, [isAccordion, isActive, isInActivePath, isCollapsible, level, open]);
 
-  if (!isAccordion) {
+  const handleIdentifierPreview = onPreviewEccn && node.identifier
+    ? (event: ReactMouseEvent<HTMLElement>) => {
+        event.preventDefault();
+        event.stopPropagation();
+        onPreviewEccn(node.identifier!, event.currentTarget as HTMLElement);
+      }
+    : undefined;
+
+  const identifierElement = labelIdentifier
+    ? handleIdentifierPreview
+      ? (
+          <button
+            type="button"
+            className="node-identifier is-clickable"
+            onClick={handleIdentifierPreview}
+            aria-haspopup="dialog"
+          >
+            {labelIdentifier}
+          </button>
+        )
+      : (
+          <span className="node-identifier">{labelIdentifier}</span>
+        )
+    : null;
+
+  if (!isCollapsible) {
     return (
       <div className={containerClasses} id={anchorId}>
         {showLabel ? (
-          <div className="node-label" aria-label={labelText} title={labelText}>
-            {labelIdentifier ? <span className="node-identifier">{labelIdentifier}</span> : null}
+          <div
+            className="node-label"
+            aria-label={labelText}
+            title={labelText}
+            aria-disabled={isAccordion && !hasDetails ? true : undefined}
+          >
+            {identifierElement}
             {labelHeading ? <span className="node-heading">{labelHeading}</span> : null}
             {!labelIdentifier && !labelHeading ? (
               <span className="node-heading">{labelFallback}</span>
@@ -119,8 +161,11 @@ export function EccnNodeView({
       id={anchorId}
     >
       <summary>
+        <span className="node-toggle-icon" aria-hidden="true">
+          ▸
+        </span>
         <span className="node-label" aria-label={labelText} title={labelText}>
-          {labelIdentifier ? <span className="node-identifier">{labelIdentifier}</span> : null}
+          {identifierElement}
           {labelHeading ? <span className="node-heading">{labelHeading}</span> : null}
           {!labelIdentifier && !labelHeading ? (
             <span className="node-heading">{labelFallback}</span>
