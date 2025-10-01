@@ -520,7 +520,10 @@ body {
 
 .eccn-node.accordion summary {
   position: relative;
-  padding-left: 1.75rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  padding-left: 0;
 }
 
 .eccn-node.accordion summary::marker,
@@ -530,18 +533,20 @@ body {
 
 .eccn-node.accordion summary::before {
   content: '▸';
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.2em;
   color: #2563eb;
   transition: transform 0.2s ease;
   font-size: 1.25rem;
   line-height: 1;
+  transform-origin: center;
 }
 
 .eccn-node.accordion.has-details[open] summary::before {
-  transform: translateY(-50%) rotate(90deg);
+  transform: rotate(90deg);
 }
 
 .eccn-node .node-label {
@@ -555,17 +560,17 @@ body {
 }
 
 .eccn-node.accordion.no-details .node-label {
-  position: relative;
-  padding-left: 1.75rem;
   color: #6b7280;
+  gap: 0.5rem;
 }
 
 .eccn-node.accordion.no-details .node-label::before {
   content: '–';
-  position: absolute;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.15em;
   color: #9ca3af;
   font-weight: 600;
 }
@@ -587,6 +592,10 @@ body {
   min-width: 0;
   line-height: 1.35;
   white-space: normal;
+}
+
+.eccn-node .node-identifier {
+  margin-top: 0.1em;
 }
 
 .eccn-node.static .node-label {
