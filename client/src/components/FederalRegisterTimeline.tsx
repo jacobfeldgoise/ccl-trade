@@ -72,8 +72,8 @@ export function FederalRegisterTimeline({
         <div className="fr-empty">
           <h3>No Federal Register documents captured yet</h3>
           <p>
-            Run <code>npm run update-fr-docs</code> to query the Federal Register API and populate the data
-            set used by this view.
+            Use the Settings tab to refresh the Federal Register metadata. Documents will appear here after
+            they are downloaded from the API.
           </p>
         </div>
       )}

@@ -97,6 +97,12 @@ export interface FederalRegisterDocumentsResponse {
   documents: FederalRegisterDocument[];
 }
 
+export interface FederalRegisterRefreshResponse {
+  message?: string;
+  generatedAt: string | null;
+  documentCount: number;
+}
+
 export interface TradeDestinationBreakdown {
   country: string;
   exportValueUsd: number;

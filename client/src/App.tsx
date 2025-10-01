@@ -1,6 +1,13 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import './App.css';
-import { downloadCcl, getCcl, getFederalRegisterDocuments, getVersions, reparseStoredCcls } from './api';
+import {
+  downloadCcl,
+  getCcl,
+  getFederalRegisterDocuments,
+  getVersions,
+  refreshFederalRegisterDocuments,
+  reparseStoredCcls,
+} from './api';
 import {
   CclDataset,
   CclSupplement,
@@ -957,6 +964,8 @@ function App() {
   const [federalDocumentsGeneratedAt, setFederalDocumentsGeneratedAt] = useState<string | null>(null);
   const [loadingFederalDocuments, setLoadingFederalDocuments] = useState(false);
   const [federalDocumentsError, setFederalDocumentsError] = useState<string | null>(null);
+  const [refreshingFederalDocuments, setRefreshingFederalDocuments] = useState(false);
+  const [federalDocumentsStatus, setFederalDocumentsStatus] = useState<string | null>(null);
 
   const loadVersions = useCallback(async (): Promise<VersionsResponse | null> => {
     setLoadingVersions(true);
@@ -990,6 +999,29 @@ function App() {
       setLoadingFederalDocuments(false);
     }
   }, []);
+
+  const refreshFederalDocuments = useCallback(async () => {
+    setRefreshingFederalDocuments(true);
+    setFederalDocumentsError(null);
+    setFederalDocumentsStatus(null);
+    try {
+      const response = await refreshFederalRegisterDocuments();
+      const message =
+        response.message ??
+        `Fetched ${response.documentCount} Federal Register document${
+          response.documentCount === 1 ? '' : 's'
+        }.`;
+      setFederalDocumentsStatus(message);
+      setFederalDocumentsGeneratedAt(response.generatedAt);
+      await loadFederalDocuments();
+    } catch (err) {
+      const message = getErrorMessage(err);
+      const errorMessage = `Unable to refresh Federal Register documents: ${message}`;
+      setFederalDocumentsError(errorMessage);
+    } finally {
+      setRefreshingFederalDocuments(false);
+    }
+  }, [loadFederalDocuments, refreshFederalRegisterDocuments]);
 
   useEffect(() => {
     let isMounted = true;
@@ -2009,6 +2041,11 @@ function App() {
               onLoad={handleLoadNewVersion}
               refreshing={refreshing}
               error={error}
+              federalDocumentsGeneratedAt={federalDocumentsGeneratedAt}
+              federalDocumentsRefreshing={refreshingFederalDocuments}
+              onRefreshFederalDocuments={refreshFederalDocuments}
+              federalDocumentsStatus={federalDocumentsStatus}
+              federalDocumentsError={federalDocumentsError}
             />
             <section className="panel settings-info">
               <header className="panel-header">

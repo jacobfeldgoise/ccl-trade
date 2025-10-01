@@ -3,6 +3,11 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { promises as fs } from 'fs';
 import { load } from 'cheerio';
+import {
+  ensureFederalRegisterStorage,
+  readFederalRegisterDocuments,
+  updateFederalRegisterDocuments,
+} from './federal-register.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -11,7 +16,6 @@ const PORT = process.env.PORT || 4000;
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const RAW_XML_DIR = path.join(DATA_DIR, 'raw');
 const PARSED_JSON_DIR = path.join(DATA_DIR, 'parsed');
-const FEDERAL_REGISTER_JSON = path.join(DATA_DIR, 'federal-register-documents.json');
 const TITLE_NUMBER = 15;
 const PART_NUMBER = '774';
 const ECFR_BASE = 'https://www.ecfr.gov/api/versioner/v1';
@@ -160,6 +164,24 @@ app.get('/api/federal-register/documents', async (_req, res) => {
   }
 });
 
+app.post('/api/federal-register/refresh', async (_req, res) => {
+  try {
+    const data = await updateFederalRegisterDocuments();
+    const plural = data.documentCount === 1 ? '' : 's';
+    res.json({
+      message: `Fetched ${data.documentCount} Federal Register document${plural}.`,
+      generatedAt: data.generatedAt,
+      documentCount: data.documentCount,
+    });
+  } catch (error) {
+    console.error('Error refreshing Federal Register documents', error);
+    res.status(500).json({
+      message: 'Failed to refresh Federal Register documents',
+      error: error.message,
+    });
+  }
+});
+
 // Serve built client assets if they exist
 const clientDist = path.join(__dirname, '..', 'client', 'dist');
 app.use(express.static(clientDist));
@@ -200,31 +222,9 @@ async function ensureDataDir() {
     await fs.mkdir(DATA_DIR, { recursive: true });
     await fs.mkdir(RAW_XML_DIR, { recursive: true });
     await fs.mkdir(PARSED_JSON_DIR, { recursive: true });
+    await ensureFederalRegisterStorage();
   } catch (error) {
     console.error('Failed to ensure data directory', error);
-    throw error;
-  }
-}
-
-async function readFederalRegisterDocuments() {
-  await ensureDataDir();
-  try {
-    const raw = await fs.readFile(FEDERAL_REGISTER_JSON, 'utf-8');
-    const parsed = JSON.parse(raw);
-    const documents = Array.isArray(parsed?.documents) ? parsed.documents : [];
-    return {
-      generatedAt: parsed?.generatedAt ?? null,
-      supplements: Array.isArray(parsed?.supplements) ? parsed.supplements : [],
-      documentCount: typeof parsed?.documentCount === 'number' ? parsed.documentCount : documents.length,
-      documents,
-    };
-  } catch (error) {
-    if (error.code === 'ENOENT') {
-      return { generatedAt: null, supplements: [], documentCount: 0, documents: [] };
-    }
-    if (error instanceof SyntaxError) {
-      console.error('Invalid Federal Register JSON payload', error.message);
-    }
     throw error;
   }
 }
