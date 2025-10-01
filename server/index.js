@@ -2191,46 +2191,109 @@ function extractEccnCodesFromNode($, element) {
 const ECCN_BASE_PATTERN = /[0-9][A-Z][0-9]{3}(?:\.[A-Za-z0-9]+)*/g;
 
 function extractEccnCodesFromText(text) {
+  return collectEccnReferenceSegments(text).codes;
+}
+
+function expandEccnReferencesInText(text) {
+  if (!text) {
+    return text;
+  }
+
+  const { segments } = collectEccnReferenceSegments(text);
+  if (segments.length === 0) {
+    return text;
+  }
+
+  let result = '';
+  let cursor = 0;
+  let changed = false;
+
+  for (const segment of segments) {
+    const { start, end, codes } = segment;
+    if (start < cursor) {
+      continue;
+    }
+
+    result += text.slice(cursor, start);
+
+    const uniqueCodes = [];
+    const seen = new Set();
+    for (const code of codes) {
+      if (!seen.has(code)) {
+        seen.add(code);
+        uniqueCodes.push(code);
+      }
+    }
+
+    const replacement = uniqueCodes.join(', ');
+    result += replacement;
+
+    if (text.slice(start, end) !== replacement) {
+      changed = true;
+    }
+
+    cursor = end;
+  }
+
+  result += text.slice(cursor);
+
+  return changed ? result : text;
+}
+
+function collectEccnReferenceSegments(text) {
   const codes = [];
-  const seen = new Set();
+  const globalSeen = new Set();
+  const segments = [];
+
+  if (!text) {
+    return { codes, segments };
+  }
 
   ECCN_BASE_PATTERN.lastIndex = 0;
 
-  let lastCode = null;
   let match;
   while ((match = ECCN_BASE_PATTERN.exec(text))) {
+    const startIndex = match.index;
+    let tailIndex = ECCN_BASE_PATTERN.lastIndex;
+    let segmentEnd = tailIndex;
+
     const fullCode = sanitizeEccnCode(match[0]);
     if (!fullCode) {
       continue;
     }
-
-    if (!seen.has(fullCode)) {
-      seen.add(fullCode);
-      codes.push(fullCode);
-    }
-
-    lastCode = fullCode;
 
     const root = fullCode.split('.')[0];
     if (!root) {
       continue;
     }
 
-    let tailIndex = ECCN_BASE_PATTERN.lastIndex;
+    const segmentSeen = new Set();
+    const segmentCodes = [];
+
+    const addCode = (code) => {
+      if (!segmentSeen.has(code)) {
+        segmentSeen.add(code);
+        segmentCodes.push(code);
+      }
+      if (!globalSeen.has(code)) {
+        globalSeen.add(code);
+        codes.push(code);
+      }
+    };
+
+    addCode(fullCode);
+    let lastCode = fullCode;
+
     while (tailIndex < text.length) {
       const tail = text.slice(tailIndex);
-      const prefixMatch = tail.match(/^[\s,;:–—\-()\[\]]*(and|or|to|through)?\s*/i);
+      const prefixMatch = tail.match(/^[\s,;–—\-()\[\]]*(and|or|to|through)?\s*/i);
       if (!prefixMatch) {
         break;
       }
 
       const connector = prefixMatch[1] ? prefixMatch[1].toLowerCase() : null;
       const afterPrefix = tail.slice(prefixMatch[0].length);
-      if (!afterPrefix.startsWith('.') && !/^[A-Za-z]\./.test(afterPrefix)) {
-        break;
-      }
-
-      const segmentMatch = afterPrefix.match(/^(?:\.[A-Za-z0-9]+(?:\.[A-Za-z0-9]+)*)|(?:[A-Za-z](?:\.[A-Za-z0-9]+)+)/);
+      const segmentMatch = matchEccnSuffix(afterPrefix);
       if (!segmentMatch) {
         break;
       }
@@ -2239,6 +2302,7 @@ function extractEccnCodesFromText(text) {
       const normalizedSuffix = sanitizeSuffix(suffix);
       const consumed = prefixMatch[0].length + segmentMatch[0].length;
       tailIndex += consumed;
+      segmentEnd = tailIndex;
 
       if (!normalizedSuffix) {
         continue;
@@ -2249,23 +2313,22 @@ function extractEccnCodesFromText(text) {
       if ((connector === 'through' || connector === 'to') && lastCode) {
         const rangeCodes = expandEccnRange(lastCode, derived);
         for (const rangeCode of rangeCodes) {
-          if (!seen.has(rangeCode)) {
-            seen.add(rangeCode);
-            codes.push(rangeCode);
-          }
+          addCode(rangeCode);
         }
       }
 
-      if (!seen.has(derived)) {
-        seen.add(derived);
-        codes.push(derived);
-      }
-
+      addCode(derived);
       lastCode = derived;
+    }
+
+    segments.push({ start: startIndex, end: segmentEnd, codes: segmentCodes.slice() });
+
+    if (tailIndex > ECCN_BASE_PATTERN.lastIndex) {
+      ECCN_BASE_PATTERN.lastIndex = tailIndex;
     }
   }
 
-  return codes;
+  return { codes, segments };
 }
 
 function sanitizeSuffix(suffix) {
@@ -2278,7 +2341,40 @@ function sanitizeSuffix(suffix) {
   if (!trimmed) {
     return null;
   }
-  return trimmed.startsWith('.') ? trimmed : `.${trimmed}`;
+  const normalized = trimmed.startsWith('.') ? trimmed : `.${trimmed}`;
+  return normalized.replace(/[A-Z]+/g, (segment) => segment.toLowerCase());
+}
+
+function matchEccnSuffix(afterPrefix) {
+  if (!afterPrefix) {
+    return null;
+  }
+
+  const ensureValidTerminator = (match) => {
+    if (!match) {
+      return null;
+    }
+    const nextChar = afterPrefix.charAt(match[0].length);
+    if (nextChar && /[A-Za-z0-9]/.test(nextChar)) {
+      return null;
+    }
+    return match;
+  };
+
+  if (afterPrefix.startsWith('.')) {
+    return ensureValidTerminator(afterPrefix.match(/^\.(?:[A-Za-z0-9]+(?:\.[A-Za-z0-9]+)*)/));
+  }
+
+  const lowerMatch = afterPrefix.match(/^[a-z0-9](?:\.[A-Za-z0-9]+)*/);
+  if (lowerMatch) {
+    return ensureValidTerminator(lowerMatch);
+  }
+
+  if (/^[A-Z]\./.test(afterPrefix)) {
+    return ensureValidTerminator(afterPrefix.match(/^[A-Z](?:\.[A-Za-z0-9]+)*/));
+  }
+
+  return null;
 }
 
 function expandEccnRange(startCode, endCode) {
@@ -2299,20 +2395,42 @@ function expandEccnRange(startCode, endCode) {
     }
   }
 
-  const startValue = Number(startParts[startParts.length - 1]);
-  const endValue = Number(endParts[endParts.length - 1]);
-  if (!Number.isInteger(startValue) || !Number.isInteger(endValue) || startValue >= endValue) {
-    return [];
-  }
-
+  const lastStart = startParts[startParts.length - 1];
+  const lastEnd = endParts[endParts.length - 1];
   const prefix = startParts.slice(0, -1).join('.');
-  const results = [];
-  for (let value = startValue + 1; value < endValue; value += 1) {
-    const next = prefix ? `${prefix}.${value}` : String(value);
-    results.push(next);
+
+  const numericStart = Number(lastStart);
+  const numericEnd = Number(lastEnd);
+  if (Number.isInteger(numericStart) && Number.isInteger(numericEnd)) {
+    if (numericStart >= numericEnd) {
+      return [];
+    }
+
+    const results = [];
+    for (let value = numericStart + 1; value < numericEnd; value += 1) {
+      const next = prefix ? `${prefix}.${value}` : String(value);
+      results.push(next);
+    }
+    return results;
   }
 
-  return results;
+  if (/^[A-Za-z]$/.test(lastStart) && /^[A-Za-z]$/.test(lastEnd)) {
+    const startChar = lastStart.toLowerCase().charCodeAt(0);
+    const endChar = lastEnd.toLowerCase().charCodeAt(0);
+    if (startChar >= endChar) {
+      return [];
+    }
+
+    const results = [];
+    for (let code = startChar + 1; code < endChar; code += 1) {
+      const letter = String.fromCharCode(code);
+      const next = prefix ? `${prefix}.${letter}` : letter;
+      results.push(next);
+    }
+    return results;
+  }
+
+  return [];
 }
 
 function sanitizeEccnCode(code) {
@@ -2390,11 +2508,13 @@ function buildContentBlock($, node) {
     if (!text) {
       return null;
     }
-    return { type: 'text', text };
+    const expanded = expandEccnReferencesInText(text);
+    return { type: 'text', text: expanded };
   }
 
-  const element = $(node);
-  const html = normalizeHtml($, node);
+  const element = $(node).clone();
+  expandEccnReferencesInElement(element);
+  const html = normalizeHtml($, element[0]);
   if (!html) {
     return null;
   }
@@ -2410,6 +2530,34 @@ function buildContentBlock($, node) {
     text,
     id,
   };
+}
+
+function expandEccnReferencesInElement(element) {
+  if (!element || element.length === 0) {
+    return;
+  }
+
+  const stack = [...element.contents().toArray()];
+
+  while (stack.length > 0) {
+    const current = stack.pop();
+    if (!current) {
+      continue;
+    }
+
+    if (current.type === 'text') {
+      const original = current.data || '';
+      const expanded = expandEccnReferencesInText(original);
+      if (expanded !== original) {
+        current.data = expanded;
+      }
+      continue;
+    }
+
+    if (current.type === 'tag' && Array.isArray(current.children)) {
+      stack.push(...current.children);
+    }
+  }
 }
 
 export { fetchAndParseCcl, parsePart, flattenEccnTree, createTreeNode, markNodeRequiresAllChildren };

@@ -171,6 +171,45 @@ test('parser handles notes, headings, and all-of-the-following blocks correctly'
   assert.equal(suppressedEntries.length, 0, 'child ECCNs should not produce standalone entries');
 });
 
+test('shorthand ECCN references expand to explicit lists', () => {
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>
+<ROOT>
+  <DIV5 TYPE="PART" N="774">
+    <DIV9 TYPE="SUPPLEMENT" N="1">
+      <HEAD>Supplement No. 1 to Part 774—The Commerce Control List</HEAD>
+      <P><B>3B001 Equipment</B></P>
+      <TABLE>
+        <TBODY>
+          <TR>
+            <TD>NS applies to 3B001.a.1 to a.3, b, e, f.2 to f.4, g to j</TD>
+            <TD>NS Column 2.</TD>
+          </TR>
+        </TBODY>
+      </TABLE>
+    </DIV9>
+  </DIV5>
+</ROOT>`;
+
+  const { supplements } = parsePart(xml);
+  const supplement = supplements.find((entry) => entry.number === '1');
+  assert(supplement, 'supplement should be parsed');
+
+  const entry = supplement.eccns.find((candidate) => candidate.eccn === '3B001');
+  assert(entry, 'expected 3B001 entry to exist');
+
+  const tableBlock = entry.structure.content?.find((block) => block.tag === 'TABLE');
+  assert(tableBlock, 'table block should be present');
+
+  const html = tableBlock.html ?? '';
+  assert(html.includes('3B001.a.2'), 'range should expand to include 3B001.a.2');
+  assert(html.includes('3B001.a.3'), 'range should expand to include 3B001.a.3');
+  assert(html.includes('3B001.b'), 'shorthand letter should expand to full ECCN');
+  assert(html.includes('3B001.f.3'), 'numeric ranges should expand to include intermediate ECCNs');
+  assert(html.includes('3B001.h'), 'letter ranges should expand across the alphabet');
+  assert(!/to\s+a\.3/.test(html), 'original shorthand range text should be replaced');
+  assert(!/g\s+to\s+j/.test(html), 'letter shorthand should be removed');
+});
+
 test('note paragraphs do not replace ECCN headings', () => {
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <ROOT>
