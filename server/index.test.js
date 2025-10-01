@@ -1,5 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
 
 process.env.CCL_SKIP_SERVER = 'true';
 
@@ -315,4 +316,27 @@ test('all-of-the-following is detected even when descriptive text is separated i
 
   const suppressedStandaloneEntries = entries.filter((entry) => entry.eccn.startsWith('3B993.f.4.'));
   assert.equal(suppressedStandaloneEntries.length, 0, 'suppressed children must not produce standalone ECCNs');
+});
+
+test('list-based license exceptions retain full LVS breakdown for 3A001', () => {
+  const xml = readFileSync(new URL('../example-title-15.xml', import.meta.url), 'utf8');
+  const { supplements } = parsePart(xml);
+  const supplement = supplements.find((entry) => entry.number === '1');
+  assert(supplement, 'supplement 1 should be present');
+
+  const eccn = supplement.eccns.find((entry) => entry.eccn === '3A001');
+  assert(eccn, 'expected ECCN 3A001 to be parsed');
+
+  const licenseLines = eccn.structure.content
+    .map((block) => (typeof block.text === 'string' ? block.text.trim() : ''))
+    .filter((text) => Boolean(text));
+
+  const yesForIndex = licenseLines.indexOf('Yes for:');
+  assert.notEqual(yesForIndex, -1, 'LVS section should include a "Yes for:" line');
+
+  const hasValueBreakdown = licenseLines.some((line) =>
+    line.includes('$5000: 3A001.a (except a.1.a and a.5.a when controlled for MT), b.4 to b.7, and b.12.')
+  );
+
+  assert(hasValueBreakdown, 'LVS section should include the $5000 value breakdown for 3A001');
 });

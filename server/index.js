@@ -1900,6 +1900,12 @@ function parseSupplementOne($, supplementEl, number, heading) {
 
     const element = $(node);
     const tagName = node.name ? node.name.toUpperCase() : '';
+    const normalizedText = element.text().replace(/\s+/g, ' ').trim();
+
+    if (current && isLicenseExceptionValueLine(tagName, normalizedText)) {
+      current.nodes.push({ type: 'text', data: normalizedText });
+      continue;
+    }
 
     const headingLevel = getHeadingLevel(tagName);
     if (headingLevel) {
@@ -1946,6 +1952,18 @@ function parseSupplementOne($, supplementEl, number, heading) {
       categoryCounts,
     },
   };
+}
+
+function isLicenseExceptionValueLine(tagName, text) {
+  if (!text || !tagName) {
+    return false;
+  }
+
+  if (tagName !== 'P') {
+    return false;
+  }
+
+  return /^\$[\d,]/.test(text);
 }
 
 function parseSupplementFive($, supplementEl, number, heading) {
