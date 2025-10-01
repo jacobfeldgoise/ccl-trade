@@ -518,6 +518,32 @@ body {
   color: #1f2937;
 }
 
+.eccn-node.accordion summary {
+  position: relative;
+  padding-left: 1.35rem;
+}
+
+.eccn-node.accordion summary::marker,
+.eccn-node.accordion summary::-webkit-details-marker {
+  display: none;
+}
+
+.eccn-node.accordion summary::before {
+  content: '▸';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #2563eb;
+  transition: transform 0.2s ease;
+  font-size: 0.85rem;
+  line-height: 1;
+}
+
+.eccn-node.accordion.has-details[open] summary::before {
+  transform: translateY(-50%) rotate(90deg);
+}
+
 .eccn-node .node-label {
   display: inline-flex;
   align-items: center;
@@ -525,6 +551,32 @@ body {
   flex-wrap: wrap;
   font-weight: 600;
   color: #1f2937;
+}
+
+.eccn-node.accordion.no-details .node-label {
+  position: relative;
+  padding-left: 1.35rem;
+  color: #6b7280;
+}
+
+.eccn-node.accordion.no-details .node-label::before {
+  content: '–';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #9ca3af;
+  font-weight: 600;
+}
+
+.eccn-node.accordion.no-details .node-label[aria-disabled='true'] {
+  cursor: default;
+}
+
+.eccn-node.accordion.no-details .node-identifier {
+  border-color: rgba(107, 114, 128, 0.45);
+  background: rgba(107, 114, 128, 0.16);
+  color: #4b5563;
 }
 
 .eccn-node.active .node-label {
