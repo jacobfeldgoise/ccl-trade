@@ -14,6 +14,7 @@ import { VersionControls } from './components/VersionControls';
 import { EccnNodeView } from './components/EccnNodeView';
 import { EccnContentBlockView } from './components/EccnContentBlock';
 import { TradeDataView } from './components/TradeDataView';
+import { EccnHistoryView } from './components/EccnHistoryView';
 import { formatDateTime, formatNumber } from './utils/format';
 
 const ECCN_BASE_PATTERN = /^[0-9][A-Z][0-9]{3}$/;
@@ -932,6 +933,7 @@ function App() {
   const [defaultDate, setDefaultDate] = useState<string | undefined>();
   const [selectedDate, setSelectedDate] = useState<string | undefined>();
   const [dataset, setDataset] = useState<CclDataset | null>(null);
+  const datasetCacheRef = useRef<Map<string, CclDataset>>(new Map());
   const [selectedEccn, setSelectedEccn] = useState<string | undefined>();
   const [focusedNodeIdentifier, setFocusedNodeIdentifier] = useState<string | undefined>();
   const [eccnFilter, setEccnFilter] = useState('');
@@ -941,7 +943,7 @@ function App() {
   const [refreshing, setRefreshing] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [eccnPreview, setEccnPreview] = useState<EccnPreviewState | null>(null);
-  const [activeTab, setActiveTab] = useState<'explorer' | 'trade'>('explorer');
+  const [activeTab, setActiveTab] = useState<'explorer' | 'history' | 'trade'>('explorer');
   const skipNextLoad = useRef(false);
   const previewCardRef = useRef<HTMLDivElement | null>(null);
 
@@ -1019,6 +1021,12 @@ function App() {
     };
   }, [selectedDate]);
 
+  useEffect(() => {
+    if (dataset) {
+      datasetCacheRef.current.set(dataset.version, dataset);
+    }
+  }, [dataset]);
+
   const handleSelectVersion = (date: string) => {
     if (date === selectedDate) {
       return;
@@ -1048,6 +1056,25 @@ function App() {
   const handleLoadNewVersion = async (date: string) => {
     await handleRefreshVersion(date);
   };
+
+  const ensureDataset = useCallback(
+    async (date: string): Promise<CclDataset> => {
+      if (dataset && dataset.version === date) {
+        return dataset;
+      }
+
+      const cached = datasetCacheRef.current.get(date);
+      if (cached) {
+        return cached;
+      }
+
+      const loaded = await getCcl(date);
+      datasetCacheRef.current.set(date, loaded);
+      datasetCacheRef.current.set(loaded.version, loaded);
+      return loaded;
+    },
+    [dataset]
+  );
 
   const supplements = useMemo(() => {
     if (!dataset || !Array.isArray(dataset.supplements)) {
@@ -1107,6 +1134,24 @@ function App() {
       ];
     });
   }, [allEccns]);
+
+  const historyOptions = useMemo(
+    () => {
+      const unique = new Map<
+        string,
+        { entry: EccnEntry; normalizedCode: string; searchText: string }
+      >();
+
+      searchableEccns.forEach(({ entry, normalizedCode, searchText }) => {
+        if (!unique.has(normalizedCode)) {
+          unique.set(normalizedCode, { entry, normalizedCode, searchText });
+        }
+      });
+
+      return Array.from(unique.values()).sort((a, b) => a.entry.eccn.localeCompare(b.entry.eccn));
+    },
+    [searchableEccns]
+  );
 
   const eccnLookup = useMemo(() => {
     const map = new Map<string, EccnEntry>();
@@ -1547,6 +1592,15 @@ function App() {
           <button
             type="button"
             className="app-tab-button"
+            data-active={activeTab === 'history'}
+            onClick={() => setActiveTab('history')}
+            aria-current={activeTab === 'history' ? 'page' : undefined}
+          >
+            ECCN History
+          </button>
+          <button
+            type="button"
+            className="app-tab-button"
             data-active={activeTab === 'trade'}
             onClick={() => setActiveTab('trade')}
             aria-current={activeTab === 'trade' ? 'page' : undefined}
@@ -1825,11 +1879,21 @@ function App() {
               )}
             </section>
           </div>
-        ) : (
+        ) : null}
+        {activeTab === 'history' ? (
+          <EccnHistoryView
+            versions={versions}
+            options={historyOptions}
+            ensureDataset={ensureDataset}
+            loadingVersions={loadingVersions}
+            onNavigateToEccn={handleNavigateToEccn}
+          />
+        ) : null}
+        {activeTab === 'trade' ? (
           <div className="trade-layout">
             <TradeDataView onNavigateToEccn={handleNavigateToEccn} />
           </div>
-        )}
+        ) : null}
       </main>
       <footer className="app-footer">
         <p>
