@@ -13,6 +13,7 @@ import {
 import { VersionControls } from './components/VersionControls';
 import { EccnNodeView } from './components/EccnNodeView';
 import { EccnContentBlockView } from './components/EccnContentBlock';
+import { TradeDataView } from './components/TradeDataView';
 import { formatDateTime, formatNumber } from './utils/format';
 
 const ECCN_BASE_PATTERN = /^[0-9][A-Z][0-9]{3}$/;
@@ -309,7 +310,7 @@ const REASON_SECTION_STOP_PATTERNS = [...COMMON_SECTION_STOP_PATTERNS, /List Bas
 
 const LICENSE_SECTION_PLACEHOLDER_PATTERN = /^\(\s*See\s+Part\s+740\b/i;
 
-const ECCN_HEADING_PATTERN_CLIENT = /^([0-9][A-Z][0-9]{3})(?=$|[\s.\-–—:;(\[])/;
+const ECCN_HEADING_PATTERN_CLIENT = /^([0-9][A-Z][0-9]{3})(?=$|[\s.\-–—:;([[])/;
 
 const LIST_BASED_LICENSE_LABEL_PATTERN = /^\s*List Based License Exceptions\b/i;
 const LICENSE_EXCEPTION_CODE_LINE_PATTERN = /^\s*([A-Z]{3}(?:\/[A-Z]{3})?)\s*[:：]\s*(.*)$/;
@@ -940,6 +941,7 @@ function App() {
   const [refreshing, setRefreshing] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [eccnPreview, setEccnPreview] = useState<EccnPreviewState | null>(null);
+  const [activeTab, setActiveTab] = useState<'explorer' | 'trade'>('explorer');
   const skipNextLoad = useRef(false);
   const previewCardRef = useRef<HTMLDivElement | null>(null);
 
@@ -1253,6 +1255,12 @@ function App() {
     }
   }, [focusedNode]);
 
+  useEffect(() => {
+    if (activeTab !== 'explorer') {
+      setEccnPreview(null);
+    }
+  }, [activeTab]);
+
   const handleToggleSupplementFilter = (value: string) => {
     setSelectedSupplements((previous) => {
       const nextSelection = new Set(previous);
@@ -1329,6 +1337,14 @@ function App() {
     }
     },
     [eccnLookup, supplements]
+  );
+
+  const handleNavigateToEccn = useCallback(
+    (value: string) => {
+      setActiveTab('explorer');
+      handleSelectEccn(value);
+    },
+    [handleSelectEccn]
   );
 
   const handlePreviewEccn = useCallback(
@@ -1518,274 +1534,302 @@ function App() {
           Download, store, and browse the U.S. Commerce Control List (15 CFR 774) across historical
           versions.
         </p>
+        <nav className="app-tabs" aria-label="Primary navigation">
+          <button
+            type="button"
+            className="app-tab-button"
+            data-active={activeTab === 'explorer'}
+            onClick={() => setActiveTab('explorer')}
+            aria-current={activeTab === 'explorer' ? 'page' : undefined}
+          >
+            CCL Explorer
+          </button>
+          <button
+            type="button"
+            className="app-tab-button"
+            data-active={activeTab === 'trade'}
+            onClick={() => setActiveTab('trade')}
+            aria-current={activeTab === 'trade' ? 'page' : undefined}
+          >
+            Trade Data by ECCN
+          </button>
+        </nav>
       </header>
       <main className="app-main">
-        <aside className="sidebar">
-          <VersionControls
-            versions={versions}
-            defaultDate={defaultDate}
-            selectedDate={selectedDate}
-            onSelect={handleSelectVersion}
-            onRefresh={handleRefreshVersion}
-            onLoad={handleLoadNewVersion}
-            loadingVersions={loadingVersions}
-            refreshing={refreshing}
-          />
-          {error && <div className="alert error">{error}</div>}
-        </aside>
-        <section className="content-area">
-          {selectedDate && (
-            <header className="dataset-header">
-              <h2>Version {selectedDate}</h2>
-              {dataset && (
-                <p>
-                  Retrieved {formatDateTime(dataset.fetchedAt)} from{' '}
-                  <a href={dataset.sourceUrl} target="_blank" rel="noreferrer">
-                    eCFR API
-                  </a>
-                  .
-                </p>
+        {activeTab === 'explorer' ? (
+          <div className="explorer-layout">
+            <aside className="sidebar">
+              <VersionControls
+                versions={versions}
+                defaultDate={defaultDate}
+                selectedDate={selectedDate}
+                onSelect={handleSelectVersion}
+                onRefresh={handleRefreshVersion}
+                onLoad={handleLoadNewVersion}
+                loadingVersions={loadingVersions}
+                refreshing={refreshing}
+              />
+              {error && <div className="alert error">{error}</div>}
+            </aside>
+            <section className="content-area">
+              {selectedDate && (
+                <header className="dataset-header">
+                  <h2>Version {selectedDate}</h2>
+                  {dataset && (
+                    <p>
+                      Retrieved {formatDateTime(dataset.fetchedAt)} from{' '}
+                      <a href={dataset.sourceUrl} target="_blank" rel="noreferrer">
+                        eCFR API
+                      </a>
+                      .
+                    </p>
+                  )}
+                </header>
               )}
-            </header>
-          )}
-
-          {loadingDataset && <div className="alert info">Loading CCL content…</div>}
-
-          {dataset && !loadingDataset ? (
-            <>
-              <section className="dataset-summary">
-                <div>
-                  <h3>Total ECCNs captured</h3>
-                  <p>{formatNumber(dataset.counts?.eccns ?? 0)}</p>
-                </div>
-                <div>
-                  <h3>Stored locally</h3>
-                  <p>{formatDateTime(dataset.fetchedAt)}</p>
-                </div>
-              </section>
-
-              {supplements.length > 0 ? (
-                <div className="eccn-browser">
-                  <aside className="eccn-sidebar">
-                    <div className="control-group">
-                      <span className="control-label">Supplements</span>
-                      <div className="checkbox-list">
-                        {supplements.map((supplement) => {
-                          const checkboxId = `supplement-${supplement.number}`;
-                          return (
-                            <label key={supplement.number} className="checkbox-option" htmlFor={checkboxId}>
-                              <input
-                                id={checkboxId}
-                                type="checkbox"
-                                checked={selectedSupplements.includes(supplement.number)}
-                                onChange={() => handleToggleSupplementFilter(supplement.number)}
-                              />
-                              <span>{`Supplement No. ${supplement.number}`}</span>
-                            </label>
-                          );
-                        })}
-                      </div>
-                      {singleSelectedSupplement?.heading && (
-                        <p className="help-text">{singleSelectedSupplement.heading}</p>
-                      )}
+    
+              {loadingDataset && <div className="alert info">Loading CCL content…</div>}
+    
+              {dataset && !loadingDataset ? (
+                <>
+                  <section className="dataset-summary">
+                    <div>
+                      <h3>Total ECCNs captured</h3>
+                      <p>{formatNumber(dataset.counts?.eccns ?? 0)}</p>
                     </div>
-
-                    <div className="control-group">
-                      <label htmlFor="eccn-filter">Filter ECCNs</label>
-                      <input
-                        id="eccn-filter"
-                        className="control"
-                        type="search"
-                        value={eccnFilter}
-                        onChange={(event) => setEccnFilter(event.target.value)}
-                        placeholder="Search by code or title"
-                      />
-                      <p className="help-text">
-                        Showing {formatNumber(filteredEccns.length)} of{' '}
-                        {formatNumber(supplementScopeCount)} ECCNs
-                        {selectedSupplements.length === 0
-                          ? ' with no supplements selected.'
-                          : allSupplementsSelected
-                          ? ' across all supplements.'
-                          : selectedSupplements.length === 1
-                          ? ` from Supplement No. ${selectedSupplements[0]}${
-                              singleSelectedSupplement?.heading
-                                ? ` – ${singleSelectedSupplement.heading}`
-                                : ''
-                            }.`
-                          : ` across ${selectedSupplements.length} supplements.`}
-                      </p>
+                    <div>
+                      <h3>Stored locally</h3>
+                      <p>{formatDateTime(dataset.fetchedAt)}</p>
                     </div>
-
-                    <ul className="eccn-list">
-                      {filteredEccns.map((entry) => (
-                        <li
-                          key={`${entry.supplement.number}-${entry.eccn}`}
-                          className={entry.eccn === activeEccn?.eccn ? 'active' : ''}
-                        >
-                          <button type="button" onClick={() => handleSelectEccn(entry.eccn)}>
-                            <div className="eccn-list-header">
-                              <span className="eccn-code">{entry.eccn}</span>
-                              <span
-                                className="eccn-tag"
-                                title={
-                                  entry.supplement.heading
-                                    ? `Supplement No. ${entry.supplement.number} – ${entry.supplement.heading}`
-                                    : `Supplement No. ${entry.supplement.number}`
-                                }
-                              >
-                                {`Supp. No. ${entry.supplement.number}`}
-                              </span>
-                            </div>
-                            {entry.title && <span className="eccn-title">{entry.title}</span>}
-                          </button>
-                        </li>
-                      ))}
-                    </ul>
-                  </aside>
-
-                  <div className="eccn-detail">
-                    {activeEccn ? (
-                      <article>
-                        <header className="eccn-header">
-                          <h3>
-                            <span className="eccn-code">{activeEccn.eccn}</span>
-                            {activeEccn.title && <span className="eccn-title">{activeEccn.title}</span>}
-                          </h3>
-                          <dl className="eccn-meta">
-                            <div>
-                              <dt>Supplement</dt>
-                              <dd>
-                                {activeEccn.supplement
-                                  ? `Supplement No. ${activeEccn.supplement.number}` +
-                                    (activeEccn.supplement.heading
-                                      ? ` – ${activeEccn.supplement.heading}`
-                                      : '')
-                                  : '–'}
-                              </dd>
-                            </div>
-                            <div>
-                              <dt>Category</dt>
-                              <dd>{activeEccn.category ?? '–'}</dd>
-                            </div>
-                            <div>
-                              <dt>Group</dt>
-                              <dd>{activeEccn.group ?? '–'}</dd>
-                            </div>
-                            <div>
-                              <dt>Breadcrumbs</dt>
-                              <dd>
-                                {activeEccn.breadcrumbs.length > 0
-                                  ? activeEccn.breadcrumbs.join(' › ')
-                                  : '–'}
-                              </dd>
-                            </div>
-                            <div>
-                              <dt>Parent ECCN</dt>
-                              <dd>
-                                {activeEccn.parentEccn ? (
-                                  <div className="eccn-meta-eccn-list">
-                                    <button
-                                      type="button"
-                                      className="eccn-reference-button"
-                                      onClick={(event) =>
-                                        handlePreviewEccn(activeEccn.parentEccn!, event.currentTarget)
-                                      }
-                                      aria-label={`View ECCN ${activeEccn.parentEccn}`}
-                                      title={`View ECCN ${activeEccn.parentEccn}`}
-                                    >
-                                      {activeEccn.parentEccn}
-                                    </button>
-                                  </div>
-                                ) : (
-                                  '–'
-                                )}
-                              </dd>
-                            </div>
-                            <div>
-                              <dt>Child ECCNs</dt>
-                              <dd>
-                                {activeEccn.childEccns && activeEccn.childEccns.length > 0
-                                  ? (
-                                      <div className="eccn-meta-eccn-list">
-                                        {activeEccn.childEccns.map((childEccn) => (
-                                          <button
-                                            type="button"
-                                            className="eccn-reference-button"
-                                            onClick={(event) => handlePreviewEccn(childEccn, event.currentTarget)}
-                                            aria-label={`View ECCN ${childEccn}`}
-                                            title={`View ECCN ${childEccn}`}
-                                            key={childEccn}
-                                          >
-                                            {childEccn}
-                                          </button>
-                                        ))}
-                                      </div>
-                                    )
-                                  : '–'}
-                              </dd>
-                            </div>
-                          </dl>
-                        </header>
-                        {highLevelFields.length > 0 && (
-                          <dl className="eccn-high-level">
-                            {highLevelFields.map((field) => (
-                              <div className="eccn-high-level-row" key={field.id}>
-                                <dt>{field.label}</dt>
-                                <dd>
-                                  {field.blocks.map((block, index) => (
-                                    <EccnContentBlockView
-                                      entry={block}
-                                      key={`${field.id}-${index}`}
-                                      onPreviewEccn={handlePreviewEccn}
-                                      className="high-level-content"
-                                    />
-                                  ))}
-                                </dd>
-                              </div>
-                            ))}
-                          </dl>
-                        )}
-                        <section className="eccn-children">
-                          <h4>ECCN Children</h4>
-                          {eccnChildren.length > 0 ? (
-                            <div className="eccn-children-tree">
-                              {eccnChildren.map((child, index) => {
-                                const key = getNodeAnchorId(child) ?? `eccn-child-${index}`;
-                                return (
-                                  <EccnNodeView
-                                    node={child}
-                                    level={1}
-                                    key={key}
-                                    onPreviewEccn={handlePreviewEccn}
-                                    activeNode={focusedNode}
-                                    activePath={focusedPath}
+                  </section>
+    
+                  {supplements.length > 0 ? (
+                    <div className="eccn-browser">
+                      <aside className="eccn-sidebar">
+                        <div className="control-group">
+                          <span className="control-label">Supplements</span>
+                          <div className="checkbox-list">
+                            {supplements.map((supplement) => {
+                              const checkboxId = `supplement-${supplement.number}`;
+                              return (
+                                <label key={supplement.number} className="checkbox-option" htmlFor={checkboxId}>
+                                  <input
+                                    id={checkboxId}
+                                    type="checkbox"
+                                    checked={selectedSupplements.includes(supplement.number)}
+                                    onChange={() => handleToggleSupplementFilter(supplement.number)}
                                   />
-                                );
-                              })}
-                            </div>
-                          ) : (
-                            <p className="help-text">This ECCN does not have any child entries.</p>
+                                  <span>{`Supplement No. ${supplement.number}`}</span>
+                                </label>
+                              );
+                            })}
+                          </div>
+                          {singleSelectedSupplement?.heading && (
+                            <p className="help-text">{singleSelectedSupplement.heading}</p>
                           )}
-                        </section>
-                      </article>
-                    ) : (
-                      <div className="placeholder">No ECCNs match the current filter.</div>
-                    )}
-                  </div>
-                </div>
-              ) : (
-                <div className="placeholder">
-                  No ECCNs were parsed from the selected version. Try refreshing the dataset.
-                </div>
+                        </div>
+    
+                        <div className="control-group">
+                          <label htmlFor="eccn-filter">Filter ECCNs</label>
+                          <input
+                            id="eccn-filter"
+                            className="control"
+                            type="search"
+                            value={eccnFilter}
+                            onChange={(event) => setEccnFilter(event.target.value)}
+                            placeholder="Search by code or title"
+                          />
+                          <p className="help-text">
+                            Showing {formatNumber(filteredEccns.length)} of{' '}
+                            {formatNumber(supplementScopeCount)} ECCNs
+                            {selectedSupplements.length === 0
+                              ? ' with no supplements selected.'
+                              : allSupplementsSelected
+                              ? ' across all supplements.'
+                              : selectedSupplements.length === 1
+                              ? ` from Supplement No. ${selectedSupplements[0]}${
+                                  singleSelectedSupplement?.heading
+                                    ? ` – ${singleSelectedSupplement.heading}`
+                                    : ''
+                                }.`
+                              : ` across ${selectedSupplements.length} supplements.`}
+                          </p>
+                        </div>
+    
+                        <ul className="eccn-list">
+                          {filteredEccns.map((entry) => (
+                            <li
+                              key={`${entry.supplement.number}-${entry.eccn}`}
+                              className={entry.eccn === activeEccn?.eccn ? 'active' : ''}
+                            >
+                              <button type="button" onClick={() => handleSelectEccn(entry.eccn)}>
+                                <div className="eccn-list-header">
+                                  <span className="eccn-code">{entry.eccn}</span>
+                                  <span
+                                    className="eccn-tag"
+                                    title={
+                                      entry.supplement.heading
+                                        ? `Supplement No. ${entry.supplement.number} – ${entry.supplement.heading}`
+                                        : `Supplement No. ${entry.supplement.number}`
+                                    }
+                                  >
+                                    {`Supp. No. ${entry.supplement.number}`}
+                                  </span>
+                                </div>
+                                {entry.title && <span className="eccn-title">{entry.title}</span>}
+                              </button>
+                            </li>
+                          ))}
+                        </ul>
+                      </aside>
+    
+                      <div className="eccn-detail">
+                        {activeEccn ? (
+                          <article>
+                            <header className="eccn-header">
+                              <h3>
+                                <span className="eccn-code">{activeEccn.eccn}</span>
+                                {activeEccn.title && <span className="eccn-title">{activeEccn.title}</span>}
+                              </h3>
+                              <dl className="eccn-meta">
+                                <div>
+                                  <dt>Supplement</dt>
+                                  <dd>
+                                    {activeEccn.supplement
+                                      ? `Supplement No. ${activeEccn.supplement.number}` +
+                                        (activeEccn.supplement.heading
+                                          ? ` – ${activeEccn.supplement.heading}`
+                                          : '')
+                                      : '–'}
+                                  </dd>
+                                </div>
+                                <div>
+                                  <dt>Category</dt>
+                                  <dd>{activeEccn.category ?? '–'}</dd>
+                                </div>
+                                <div>
+                                  <dt>Group</dt>
+                                  <dd>{activeEccn.group ?? '–'}</dd>
+                                </div>
+                                <div>
+                                  <dt>Breadcrumbs</dt>
+                                  <dd>
+                                    {activeEccn.breadcrumbs.length > 0
+                                      ? activeEccn.breadcrumbs.join(' › ')
+                                      : '–'}
+                                  </dd>
+                                </div>
+                                <div>
+                                  <dt>Parent ECCN</dt>
+                                  <dd>
+                                    {activeEccn.parentEccn ? (
+                                      <div className="eccn-meta-eccn-list">
+                                        <button
+                                          type="button"
+                                          className="eccn-reference-button"
+                                          onClick={(event) =>
+                                            handlePreviewEccn(activeEccn.parentEccn!, event.currentTarget)
+                                          }
+                                          aria-label={`View ECCN ${activeEccn.parentEccn}`}
+                                          title={`View ECCN ${activeEccn.parentEccn}`}
+                                        >
+                                          {activeEccn.parentEccn}
+                                        </button>
+                                      </div>
+                                    ) : (
+                                      '–'
+                                    )}
+                                  </dd>
+                                </div>
+                                <div>
+                                  <dt>Child ECCNs</dt>
+                                  <dd>
+                                    {activeEccn.childEccns && activeEccn.childEccns.length > 0
+                                      ? (
+                                          <div className="eccn-meta-eccn-list">
+                                            {activeEccn.childEccns.map((childEccn) => (
+                                              <button
+                                                type="button"
+                                                className="eccn-reference-button"
+                                                onClick={(event) => handlePreviewEccn(childEccn, event.currentTarget)}
+                                                aria-label={`View ECCN ${childEccn}`}
+                                                title={`View ECCN ${childEccn}`}
+                                                key={childEccn}
+                                              >
+                                                {childEccn}
+                                              </button>
+                                            ))}
+                                          </div>
+                                        )
+                                      : '–'}
+                                  </dd>
+                                </div>
+                              </dl>
+                            </header>
+                            {highLevelFields.length > 0 && (
+                              <dl className="eccn-high-level">
+                                {highLevelFields.map((field) => (
+                                  <div className="eccn-high-level-row" key={field.id}>
+                                    <dt>{field.label}</dt>
+                                    <dd>
+                                      {field.blocks.map((block, index) => (
+                                        <EccnContentBlockView
+                                          entry={block}
+                                          key={`${field.id}-${index}`}
+                                          onPreviewEccn={handlePreviewEccn}
+                                          className="high-level-content"
+                                        />
+                                      ))}
+                                    </dd>
+                                  </div>
+                                ))}
+                              </dl>
+                            )}
+                            <section className="eccn-children">
+                              <h4>ECCN Children</h4>
+                              {eccnChildren.length > 0 ? (
+                                <div className="eccn-children-tree">
+                                  {eccnChildren.map((child, index) => {
+                                    const key = getNodeAnchorId(child) ?? `eccn-child-${index}`;
+                                    return (
+                                      <EccnNodeView
+                                        node={child}
+                                        level={1}
+                                        key={key}
+                                        onPreviewEccn={handlePreviewEccn}
+                                        activeNode={focusedNode}
+                                        activePath={focusedPath}
+                                      />
+                                    );
+                                  })}
+                                </div>
+                              ) : (
+                                <p className="help-text">This ECCN does not have any child entries.</p>
+                              )}
+                            </section>
+                          </article>
+                        ) : (
+                          <div className="placeholder">No ECCNs match the current filter.</div>
+                        )}
+                      </div>
+                    </div>
+                  ) : (
+                    <div className="placeholder">
+                      No ECCNs were parsed from the selected version. Try refreshing the dataset.
+                    </div>
+                  )}
+                </>
+              ) : null}
+    
+              {!dataset && !loadingDataset && (
+                <div className="placeholder">Select or fetch a version to explore the CCL.</div>
               )}
-            </>
-          ) : null}
-
-          {!dataset && !loadingDataset && (
-            <div className="placeholder">Select or fetch a version to explore the CCL.</div>
-          )}
-        </section>
+            </section>
+          </div>
+        ) : (
+          <div className="trade-layout">
+            <TradeDataView onNavigateToEccn={handleNavigateToEccn} />
+          </div>
+        )}
       </main>
       <footer className="app-footer">
         <p>
@@ -1800,7 +1844,7 @@ function App() {
         </p>
         <p className="fine-print">The data is cached locally for offline analysis.</p>
       </footer>
-      {eccnPreview && previewPosition ? (
+      {activeTab === 'explorer' && eccnPreview && previewPosition ? (
         <div className="eccn-preview-overlay">
           <div
             className="eccn-preview-card"

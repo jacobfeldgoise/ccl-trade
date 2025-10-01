@@ -1,14 +1,15 @@
 import { useCallback } from 'react';
+import type { MouseEvent, ReactNode } from 'react';
 import DOMPurify from 'dompurify';
 import { EccnContentBlock } from '../types';
 
-export const ECCN_REFERENCE_PATTERN = /\b([0-9][A-Z][0-9]{3}(?:\.[A-Za-z0-9-]+)*)\b/g;
+const ECCN_REFERENCE_PATTERN = /\b([0-9][A-Z][0-9]{3}(?:\.[A-Za-z0-9-]+)*)\b/g;
 
-export function createEccnReferencePattern(): RegExp {
+function createEccnReferencePattern(): RegExp {
   return new RegExp(ECCN_REFERENCE_PATTERN.source, 'g');
 }
 
-export function linkHtmlEccnReferences(html: string): string {
+function linkHtmlEccnReferences(html: string): string {
   if (!html) {
     return html;
   }
@@ -91,9 +92,32 @@ interface EccnContentBlockViewProps {
 }
 
 export function EccnContentBlockView({ entry, onPreviewEccn, className }: EccnContentBlockViewProps) {
+  const handleClick = useCallback(
+    (event: MouseEvent<HTMLDivElement>) => {
+      if (!onPreviewEccn) {
+        return;
+      }
+
+      const target = event.target as HTMLElement | null;
+      const anchor = target?.closest('[data-eccn-reference]') as HTMLElement | null;
+      if (!anchor) {
+        return;
+      }
+
+      const eccn = anchor.getAttribute('data-eccn-reference');
+      if (!eccn) {
+        return;
+      }
+
+      event.preventDefault();
+      onPreviewEccn(eccn, anchor);
+    },
+    [onPreviewEccn]
+  );
+
   if (entry.type === 'text') {
     const text = entry.text ?? '';
-    const fragments: Array<string | JSX.Element> = [];
+    const fragments: Array<string | ReactNode> = [];
     let lastIndex = 0;
     const matches = [...text.matchAll(createEccnReferencePattern())];
 
@@ -144,29 +168,6 @@ export function EccnContentBlockView({ entry, onPreviewEccn, className }: EccnCo
   const entryClass = `content content-${(entry.tag || 'html').toLowerCase()}`;
   const mergedClassName = [entryClass, className].filter(Boolean).join(' ');
   const linkedHtml = linkHtmlEccnReferences(sanitizedHtml);
-
-  const handleClick = useCallback(
-    (event: React.MouseEvent<HTMLDivElement>) => {
-      if (!onPreviewEccn) {
-        return;
-      }
-
-      const target = event.target as HTMLElement | null;
-      const anchor = target?.closest('[data-eccn-reference]') as HTMLElement | null;
-      if (!anchor) {
-        return;
-      }
-
-      const eccn = anchor.getAttribute('data-eccn-reference');
-      if (!eccn) {
-        return;
-      }
-
-      event.preventDefault();
-      onPreviewEccn(eccn, anchor);
-    },
-    [onPreviewEccn]
-  );
 
   return (
     <div

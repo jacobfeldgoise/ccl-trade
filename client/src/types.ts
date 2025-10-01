@@ -71,3 +71,19 @@ export interface VersionsResponse {
   defaultDate?: string;
   versions: VersionSummary[];
 }
+
+export interface TradeDestinationBreakdown {
+  country: string;
+  exportValueUsd: number;
+  share: number;
+}
+
+export interface EccnTradeRecord {
+  eccn: string;
+  description: string;
+  latestYear: number;
+  exportValueUsd: number;
+  importValueUsd?: number;
+  notes?: string;
+  topDestinations: TradeDestinationBreakdown[];
+}
