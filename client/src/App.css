@@ -944,8 +944,6 @@ body {
   border-radius: 0.85rem;
   border: 1px solid #e5e7eb;
   padding: 1.25rem;
-  overflow: auto;
-  max-height: 70vh;
 }
 
 .eccn-header {
@@ -1404,6 +1402,7 @@ body {
   color: #4b5563;
 }
 
+
 .eccn-preview-actions {
   display: flex;
   justify-content: flex-end;
@@ -1412,6 +1411,38 @@ body {
 .eccn-preview-actions .button {
   font-size: 0.95rem;
   padding: 0.5rem 1.1rem;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 1.75rem;
+  right: 1.75rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.7rem 1rem;
+  border: none;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #1f4b99, #2f9cc5);
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  box-shadow: 0 12px 24px rgba(31, 75, 153, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+  opacity: 0.95;
+  z-index: 40;
+}
+
+.scroll-to-top:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 28px rgba(31, 75, 153, 0.35);
+  opacity: 1;
+}
+
+.scroll-to-top:focus-visible {
+  outline: 3px solid rgba(37, 99, 235, 0.6);
+  outline-offset: 3px;
 }
 
 .content-note,
@@ -1512,5 +1543,14 @@ body {
 
   .history-actions {
     justify-content: flex-start;
+  }
+}
+
+@media (max-width: 640px) {
+  .scroll-to-top {
+    bottom: 1.25rem;
+    right: 1.25rem;
+    padding: 0.6rem 0.85rem;
+    font-size: 0.85rem;
   }
 }
