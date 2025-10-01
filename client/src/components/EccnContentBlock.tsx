@@ -2,7 +2,7 @@ import { useCallback } from 'react';
 import DOMPurify from 'dompurify';
 import { EccnContentBlock } from '../types';
 
-export const ECCN_REFERENCE_PATTERN = /\b([0-9][A-Z][0-9]{3}(?:\.[A-Z0-9-]+)*)\b/g;
+export const ECCN_REFERENCE_PATTERN = /\b([0-9][A-Z][0-9]{3}(?:\.[A-Za-z0-9-]+)*)\b/g;
 
 export function createEccnReferencePattern(): RegExp {
   return new RegExp(ECCN_REFERENCE_PATTERN.source, 'g');
@@ -15,7 +15,7 @@ export function linkHtmlEccnReferences(html: string): string {
 
   if (typeof document === 'undefined') {
     return html.replace(createEccnReferencePattern(), (_match, eccn: string) =>
-      `<a href="#" class="eccn-reference-link" data-eccn-reference="${eccn}">${eccn}</a>`
+      `<a href="#" class="eccn-reference-link" data-eccn-reference="${eccn}" aria-label="View ECCN ${eccn}" title="View ECCN ${eccn}">${eccn}</a>`
     );
   }
 
@@ -54,6 +54,8 @@ export function linkHtmlEccnReferences(html: string): string {
       anchor.setAttribute('href', '#');
       anchor.classList.add('eccn-reference-link');
       anchor.setAttribute('data-eccn-reference', eccn);
+      anchor.setAttribute('aria-label', `View ECCN ${eccn}`);
+      anchor.setAttribute('title', `View ECCN ${eccn}`);
       fragments.push(anchor);
 
       lastIndex = startIndex + fullMatch.length;
@@ -84,11 +86,11 @@ export function linkHtmlEccnReferences(html: string): string {
 
 interface EccnContentBlockViewProps {
   entry: EccnContentBlock;
-  onSelectEccn?: (eccn: string) => void;
+  onPreviewEccn?: (eccn: string, anchor: HTMLElement) => void;
   className?: string;
 }
 
-export function EccnContentBlockView({ entry, onSelectEccn, className }: EccnContentBlockViewProps) {
+export function EccnContentBlockView({ entry, onPreviewEccn, className }: EccnContentBlockViewProps) {
   if (entry.type === 'text') {
     const text = entry.text ?? '';
     const fragments: Array<string | JSX.Element> = [];
@@ -106,7 +108,9 @@ export function EccnContentBlockView({ entry, onSelectEccn, className }: EccnCon
         <button
           type="button"
           className="eccn-reference-button"
-          onClick={() => onSelectEccn?.(eccn)}
+          onClick={(event) => onPreviewEccn?.(eccn, event.currentTarget)}
+          aria-label={`View ECCN ${eccn}`}
+          title={`View ECCN ${eccn}`}
           key={`text-ref-${eccn}-${index}`}
         >
           {fullMatch}
@@ -143,7 +147,7 @@ export function EccnContentBlockView({ entry, onSelectEccn, className }: EccnCon
 
   const handleClick = useCallback(
     (event: React.MouseEvent<HTMLDivElement>) => {
-      if (!onSelectEccn) {
+      if (!onPreviewEccn) {
         return;
       }
 
@@ -159,9 +163,9 @@ export function EccnContentBlockView({ entry, onSelectEccn, className }: EccnCon
       }
 
       event.preventDefault();
-      onSelectEccn(eccn);
+      onPreviewEccn(eccn, anchor);
     },
-    [onSelectEccn]
+    [onPreviewEccn]
   );
 
   return (

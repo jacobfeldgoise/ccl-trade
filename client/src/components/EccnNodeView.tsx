@@ -5,7 +5,7 @@ import { EccnContentBlockView } from './EccnContentBlock';
 interface EccnNodeViewProps {
   node: EccnNode;
   level?: number;
-  onSelectEccn?: (eccn: string) => void;
+  onPreviewEccn?: (eccn: string, anchor: HTMLElement) => void;
   activeNode?: EccnNode;
   activePath?: Set<EccnNode>;
 }
@@ -13,7 +13,7 @@ interface EccnNodeViewProps {
 export function EccnNodeView({
   node,
   level = 0,
-  onSelectEccn,
+  onPreviewEccn,
   activeNode,
   activePath,
 }: EccnNodeViewProps) {
@@ -93,7 +93,7 @@ export function EccnNodeView({
             <EccnContentBlockView
               entry={entry}
               key={`${anchorId || labelText}-content-${index}`}
-              onSelectEccn={onSelectEccn}
+              onPreviewEccn={onPreviewEccn}
             />
           ))}
           {node.children?.map((child, index) => (
@@ -101,7 +101,7 @@ export function EccnNodeView({
               node={child}
               level={level + 1}
               key={`${anchorId || labelText}-child-${index}`}
-              onSelectEccn={onSelectEccn}
+              onPreviewEccn={onPreviewEccn}
               activeNode={activeNode}
               activePath={activePath}
             />
@@ -132,7 +132,7 @@ export function EccnNodeView({
           <EccnContentBlockView
             entry={entry}
             key={`${anchorId || labelText}-content-${index}`}
-            onSelectEccn={onSelectEccn}
+            onPreviewEccn={onPreviewEccn}
           />
         ))}
         {node.children?.map((child, index) => (
@@ -140,7 +140,7 @@ export function EccnNodeView({
             node={child}
             level={level + 1}
             key={`${anchorId || labelText}-child-${index}`}
-            onSelectEccn={onSelectEccn}
+            onPreviewEccn={onPreviewEccn}
             activeNode={activeNode}
             activePath={activePath}
           />
