@@ -22,14 +22,34 @@ export async function getCcl(date?: string): Promise<CclDataset> {
   return handleResponse<CclDataset>(res);
 }
 
-export async function refreshCcl(date?: string): Promise<CclDataset> {
-  const res = await fetch('/api/ccl/refresh', {
+export async function downloadCcl(date: string): Promise<CclDataset> {
+  const res = await fetch('/api/ccl/download', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
     },
-    body: JSON.stringify({ date, force: true }),
+    body: JSON.stringify({ date }),
   });
-  const payload = await handleResponse<{ message: string; data: CclDataset }>(res);
+  const payload = await handleResponse<{
+    message: string;
+    data: CclDataset;
+    rawDownloadedAt: string | null;
+    reDownloadedRaw: boolean;
+  }>(res);
   return payload.data;
 }
+
+export async function reparseStoredCcls(): Promise<{
+  message: string;
+  processedDates: { date: string; fetchedAt: string }[];
+}> {
+  const res = await fetch('/api/ccl/reparse', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({}),
+  });
+  return handleResponse<{ message: string; processedDates: { date: string; fetchedAt: string }[] }>(res);
+}
+

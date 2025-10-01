@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT>
+  <DIV5 TYPE="PART" N="774">
+    <DIV9 TYPE="SUPPLEMENT" N="1">
+      <HEAD>Supplement No. 1 to Part 774—The Commerce Control List</HEAD>
+      <HD SOURCE="HED">Category 0—Nuclear Materials, Facilities and Equipment (and Miscellaneous Items)</HD>
+      <P><B>0A001 Nuclear reactors and specially designed or prepared equipment and components therefor</B></P>
+      <P ID="0a001"><E T="03">0A001.</E> Nuclear reactors and specially designed or prepared equipment and components therefor.</P>
+      <P ID="0a001a"><E T="03">(a)</E> Complete nuclear reactors capable of operation so as to maintain a controlled self-sustaining fission chain reaction.</P>
+      <P ID="0a001b"><E T="03">(b)</E> Nuclear reactor pressure vessels specially designed or prepared to contain the core of a nuclear reactor.</P>
+      <P><B>0A002 Systems, equipment and components, and specially designed parts and components therefor</B></P>
+      <P ID="0a002"><E T="03">0A002.</E> Systems, equipment and components, and specially designed parts and components therefor, specially designed or prepared for nuclear use.</P>
+    </DIV9>
+    <DIV9 TYPE="SUPPLEMENT" N="5">
+      <HEAD>Supplement No. 5 to Part 774—Items Classified Under ECCNs and Other Reasons for Control</HEAD>
+      <TABLE>
+        <THEAD>
+          <TR>
+            <TH>ECCN</TH>
+            <TH>Description</TH>
+          </TR>
+        </THEAD>
+        <TBODY>
+          <TR>
+            <TD>0A001</TD>
+            <TD>Example descriptive entry for demonstration purposes.</TD>
+          </TR>
+        </TBODY>
+      </TABLE>
+    </DIV9>
+  </DIV5>
+</ROOT>

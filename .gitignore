@@ -7,11 +7,6 @@ server/.cache/
 npm-debug.log*
 .DS_Store
 
-# Local data cache generated at runtime
-/data/*.json
-/data/*.xml
-/data/*.txt
-
 # Temporary artifacts
 *.tmp
 *.temp

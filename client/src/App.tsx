@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import './App.css';
-import { getCcl, getVersions, refreshCcl } from './api';
+import { downloadCcl, getCcl, getVersions, reparseStoredCcls } from './api';
 import {
   CclDataset,
   CclSupplement,
@@ -1054,27 +1054,52 @@ function App() {
     setSelectedDate(date);
   };
 
-  const handleRefreshVersion = async (date: string) => {
-    setRefreshing(true);
-    setError(null);
-    try {
-      const data = await refreshCcl(date);
+  const applyDataset = useCallback(
+    (data: CclDataset) => {
       skipNextLoad.current = true;
       setDataset(data);
-      setSelectedDate(date);
+      setSelectedDate(data.version);
       setEccnFilter('');
       setSelectedEccn(undefined);
       setFocusedNodeIdentifier(undefined);
+    },
+    [skipNextLoad]
+  );
+
+  const handleDownloadVersion = async (date: string) => {
+    setRefreshing(true);
+    setError(null);
+    try {
+      const data = await downloadCcl(date);
+      applyDataset(data);
       await loadVersions();
     } catch (err) {
-      setError(`Unable to refresh version ${date}: ${getErrorMessage(err)}`);
+      setError(`Unable to download version ${date}: ${getErrorMessage(err)}`);
+    } finally {
+      setRefreshing(false);
+    }
+  };
+
+  const handleReparseAll = async () => {
+    setRefreshing(true);
+    setError(null);
+    try {
+      await reparseStoredCcls();
+      datasetCacheRef.current.clear();
+      await loadVersions();
+      if (selectedDate) {
+        const data = await getCcl(selectedDate);
+        applyDataset(data);
+      }
+    } catch (err) {
+      setError(`Unable to re-parse stored XML files: ${getErrorMessage(err)}`);
     } finally {
       setRefreshing(false);
     }
   };
 
   const handleLoadNewVersion = async (date: string) => {
-    await handleRefreshVersion(date);
+    await handleDownloadVersion(date);
   };
 
   const handleScrollToTop = useCallback(() => {
@@ -1933,7 +1958,8 @@ function App() {
             <VersionSettings
               defaultDate={defaultDate}
               selectedDate={selectedDate}
-              onRefresh={handleRefreshVersion}
+              versions={versions}
+              onReparseAll={handleReparseAll}
               onLoad={handleLoadNewVersion}
               refreshing={refreshing}
               error={error}
@@ -1943,13 +1969,14 @@ function App() {
                 <h2>How data caching works</h2>
               </header>
               <p>
-                The Explorer stores downloaded Commerce Control List data in your local browser so you can
-                revisit previously fetched versions without downloading them again. Refreshing replaces the
-                cached copy for the selected date, while "Fetch &amp; store" adds a new version by date.
+                The Explorer stores downloaded Commerce Control List data on the server, including the raw
+                XML source and parsed JSON that powers the interface. Re-parsing rebuilds every stored
+                version from the XML files, while "Download &amp; parse" fetches a specific edition on demand
+                and keeps the XML up to date when it is older than a month.
               </p>
               <p className="help-text">
-                Data is loaded from the official eCFR XML source and parsed locally for fast, offline
-                browsing.
+                Raw XML files are cached locally on the server and automatically refreshed the next time you
+                fetch a version after 30 days, keeping data fresh without repeatedly downloading large files.
               </p>
             </section>
           </div>

@@ -1,11 +1,13 @@
-import { FormEvent, useEffect, useState } from 'react';
-import { formatDate } from '../utils/format';
+import { FormEvent, useEffect, useMemo, useState } from 'react';
+import { VersionSummary } from '../types';
+import { formatDate, formatDateTime } from '../utils/format';
 
 interface VersionSettingsProps {
   defaultDate?: string;
   selectedDate?: string;
+  versions: VersionSummary[];
   refreshing: boolean;
-  onRefresh: (date: string) => Promise<void> | void;
+  onReparseAll: () => Promise<void> | void;
   onLoad: (date: string) => Promise<void> | void;
   error?: string | null;
 }
@@ -13,8 +15,9 @@ interface VersionSettingsProps {
 export function VersionSettings({
   defaultDate,
   selectedDate,
+  versions,
   refreshing,
-  onRefresh,
+  onReparseAll,
   onLoad,
   error,
 }: VersionSettingsProps) {
@@ -26,10 +29,60 @@ export function VersionSettings({
     }
   }, [selectedDate, manualDate]);
 
-  const handleRefreshClick = () => {
-    if (selectedDate) {
-      onRefresh(selectedDate);
+  const selectedVersion = useMemo(
+    () => versions.find((version) => version.date === selectedDate),
+    [versions, selectedDate]
+  );
+
+  const manualTarget = useMemo(
+    () => versions.find((version) => version.date === manualDate),
+    [versions, manualDate]
+  );
+
+  const manualHelpText = (() => {
+    if (!manualDate) {
+      return 'Downloads the selected CCL version, stores the raw XML, and parses it for offline use.';
     }
+    if (!manualTarget) {
+      return 'The selected date is not cached yet; fetching will download and parse the dataset.';
+    }
+    if (!manualTarget.rawDownloadedAt) {
+      return 'Raw XML for this version has not been downloaded yet; fetching will download and parse it now.';
+    }
+    if (manualTarget.canRedownloadXml) {
+      return `Raw XML last downloaded ${formatDateTime(
+        manualTarget.rawDownloadedAt
+      )}. Fetching will refresh the XML before parsing because it is older than 30 days.`;
+    }
+    return `Raw XML last downloaded ${formatDateTime(
+      manualTarget.rawDownloadedAt
+    )}. It is still within the 30 day cache window, so fetching is temporarily disabled.`;
+  })();
+
+  const isManualFetchDisabled =
+    !manualDate ||
+    refreshing ||
+    (!!manualTarget?.rawDownloadedAt && manualTarget?.canRedownloadXml === false);
+
+  const selectedVersionRawText = (() => {
+    if (!selectedVersion) {
+      return null;
+    }
+    if (!selectedVersion.rawDownloadedAt) {
+      return 'Selected version raw XML has not been downloaded yet.';
+    }
+    if (selectedVersion.canRedownloadXml) {
+      return `Selected version raw XML downloaded ${formatDateTime(
+        selectedVersion.rawDownloadedAt
+      )}. Fetching this version will refresh the XML before parsing.`;
+    }
+    return `Selected version raw XML downloaded ${formatDateTime(
+      selectedVersion.rawDownloadedAt
+    )}. Refresh will be available after 30 days.`;
+  })();
+
+  const handleReparseClick = () => {
+    onReparseAll();
   };
 
   const handleManualSubmit = (event: FormEvent) => {
@@ -40,7 +93,6 @@ export function VersionSettings({
   };
 
   const latestDateLabel = defaultDate ? formatDate(defaultDate) : null;
-  const selectedDateLabel = selectedDate ? formatDate(selectedDate) : null;
 
   return (
     <section className="panel settings-panel">
@@ -50,24 +102,19 @@ export function VersionSettings({
       </header>
 
       <div className="control-group">
-        <h3>Refresh stored version</h3>
+        <h3>Re-parse stored data</h3>
         <p className="help-text">
-          {selectedDateLabel
-            ? `Refresh the cached data for the currently selected version (${selectedDateLabel}).`
-            : 'Select a stored version from the explorer to enable refreshing.'}
+          Re-generates all stored JSON data from the downloaded raw XML files. Use this after
+          updating parsing logic or redownloading XML files.
         </p>
-        <button
-          type="button"
-          className="button"
-          onClick={handleRefreshClick}
-          disabled={!selectedDate || refreshing}
-        >
-          {refreshing ? 'Refreshing…' : 'Refresh selected version'}
+        <button type="button" className="button" onClick={handleReparseClick} disabled={refreshing}>
+          {refreshing ? 'Re-parsing…' : 'Re-parse all stored XML'}
         </button>
+        {selectedVersionRawText ? <p className="help-text subtle">{selectedVersionRawText}</p> : null}
       </div>
 
       <form className="control-group" onSubmit={handleManualSubmit}>
-        <h3>Fetch a specific version</h3>
+        <h3>Download &amp; parse a specific version</h3>
         <div className="inline-controls">
           <input
             id="settings-manual-date"
@@ -77,13 +124,11 @@ export function VersionSettings({
             onChange={(event) => setManualDate(event.target.value)}
             max={defaultDate}
           />
-          <button type="submit" className="button primary" disabled={!manualDate || refreshing}>
+          <button type="submit" className="button primary" disabled={isManualFetchDisabled}>
             {refreshing ? 'Loading…' : 'Fetch & store'}
           </button>
         </div>
-        <p className="help-text">
-          Downloads and parses the selected CCL version, storing it locally for offline use.
-        </p>
+        <p className="help-text">{manualHelpText}</p>
       </form>
 
       {error ? <div className="alert error">{error}</div> : null}

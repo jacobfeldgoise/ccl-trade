@@ -14,7 +14,8 @@ so that multiple historical versions can be browsed offline.
   notes, and supporting metadata.
 - Summaries showing when each version was stored, which supplements were parsed, and how many
   ECCNs were captured.
-- Front-end controls to reload cached versions, refresh the latest version, or download new ones on demand.
+- Front-end controls to re-parse all stored XML, download & parse specific versions, and redownload stale
+  raw XML snapshots when they are more than a month old.
 
 ## ECCN data model
 
@@ -30,7 +31,9 @@ structure.
 .
 ├── client/   # Vite + React front end
 ├── server/   # Express service responsible for fetching and parsing CCL data
-├── data/     # Local cache directory for parsed CCL JSON files (ignored by git)
+├── data/
+│   ├── raw/     # Raw XML snapshots downloaded from the eCFR
+│   └── parsed/  # Parsed JSON datasets generated from the XML snapshots
 └── README.md
 ```
 
@@ -60,8 +63,19 @@ structure.
 
 ## Data caching
 
-The backend stores parsed versions in `data/ccl-<DATE>.json`. The directory is created automatically
-and ignored by git, but a `.gitkeep` file is committed so the folder exists in the repository.
+The backend persists two artifacts for each stored date:
+
+- `data/raw/ccl-<DATE>.xml`: the unmodified XML snapshot returned by the eCFR API.
+- `data/parsed/ccl-<DATE>.json`: the parsed dataset consumed by the client application.
+
+Both directories are committed to the repository so that deployments start with a known dataset and do
+not require the client to download large XML payloads. The settings page in the UI can re-parse the stored
+XML, download additional versions, and redownload XML snapshots that are more than 30 days old.
+
+> **Note:** The repository includes a sample dataset for `2024-01-01` generated from a minimal XML snapshot
+> so the application can demonstrate the new storage flow without requiring immediate network access. Run
+> the settings page actions or call `loadVersion` on the server to populate additional dates from the live
+> eCFR service.
 
 ## Environment variables
 

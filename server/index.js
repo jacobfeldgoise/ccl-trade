@@ -9,10 +9,13 @@ const __dirname = path.dirname(__filename);
 
 const PORT = process.env.PORT || 4000;
 const DATA_DIR = path.join(__dirname, '..', 'data');
+const RAW_XML_DIR = path.join(DATA_DIR, 'raw');
+const PARSED_JSON_DIR = path.join(DATA_DIR, 'parsed');
 const TITLE_NUMBER = 15;
 const PART_NUMBER = '774';
 const ECFR_BASE = 'https://www.ecfr.gov/api/versioner/v1';
 const USER_AGENT = 'ccl-trade-app/1.0 (+https://github.com)';
+const REDOWNLOAD_THRESHOLD_MS = 30 * 24 * 60 * 60 * 1000;
 
 const app = express();
 app.use(express.json({ limit: '2mb' }));
@@ -22,18 +25,27 @@ let defaultVersionPromise = null;
 
 app.get('/api/versions', async (req, res) => {
   try {
-    const files = await ensureDataDirAndList();
+    const files = await listParsedFiles();
     const versions = await Promise.all(
       files.map(async (file) => {
-        const fullPath = path.join(DATA_DIR, file);
+        const fullPath = path.join(PARSED_JSON_DIR, file);
         try {
           const raw = await fs.readFile(fullPath, 'utf-8');
           const json = JSON.parse(raw);
+          const date = json.date || json.version;
+          if (!date) {
+            throw new Error('Missing version date in stored JSON');
+          }
+          const rawInfo = await getRawXmlInfo(date);
+          const rawDownloadedAt = rawInfo?.downloadedAt ?? null;
+          const canRedownloadXml = rawDownloadedAt ? shouldAllowXmlRedownload(rawDownloadedAt) : false;
           return {
-            date: json.date,
+            date,
             fetchedAt: json.fetchedAt,
             sourceUrl: json.sourceUrl,
             counts: json.counts,
+            rawDownloadedAt,
+            canRedownloadXml,
           };
         } catch (err) {
           console.error('Failed to read stored version', file, err.message);
@@ -68,22 +80,69 @@ app.get('/api/ccl', async (req, res) => {
   }
 });
 
-app.post('/api/ccl/refresh', async (req, res) => {
-  const { date, force } = req.body || {};
-  const targetDate = date || (await getDefaultDateSafe(res));
-  if (!targetDate) {
+app.post('/api/ccl/download', async (req, res) => {
+  const { date } = req.body || {};
+  if (!date) {
+    res.status(400).json({ message: 'A version date (YYYY-MM-DD) is required' });
     return;
   }
 
   try {
-    const data = await loadVersion(targetDate, { force: force !== false });
+    const rawInfo = await getRawXmlInfo(date);
+    const canRefreshRaw = rawInfo ? shouldAllowXmlRedownload(rawInfo.downloadedAt) : true;
+    const shouldForceDownload = !rawInfo || canRefreshRaw;
+    const data = await loadVersion(date, {
+      forceParse: true,
+      forceDownloadRaw: shouldForceDownload,
+    });
+    const updatedRawInfo = await getRawXmlInfo(date);
+    const reDownloadedRaw = Boolean(rawInfo) && canRefreshRaw;
+    const messageParts = [];
+    if (!rawInfo) {
+      messageParts.push(`Downloaded raw XML for ${date}`);
+    } else if (reDownloadedRaw) {
+      messageParts.push(`Refreshed raw XML for ${date}`);
+    } else {
+      messageParts.push(`Used cached raw XML for ${date}`);
+    }
+    messageParts.push('parsed data stored');
     res.json({
-      message: `Refreshed CCL data for ${targetDate}`,
+      message: messageParts.join('; '),
+      rawDownloadedAt: updatedRawInfo?.downloadedAt ?? null,
+      reDownloadedRaw,
       data,
     });
   } catch (error) {
-    console.error('Error refreshing version', targetDate, error);
-    res.status(500).json({ message: `Failed to refresh CCL for ${targetDate}`, error: error.message });
+    console.error('Error downloading version', date, error);
+    res.status(500).json({ message: `Failed to download CCL for ${date}`, error: error.message });
+  }
+});
+
+app.post('/api/ccl/reparse', async (_req, res) => {
+  try {
+    const rawFiles = await listRawXmlDates();
+    if (rawFiles.length === 0) {
+      res.json({ message: 'No raw XML files available to parse', processedDates: [] });
+      return;
+    }
+
+    const processedDates = [];
+    for (const date of rawFiles) {
+      try {
+        const data = await loadVersion(date, { forceParse: true });
+        processedDates.push({ date, fetchedAt: data.fetchedAt });
+      } catch (error) {
+        console.error('Failed to re-parse stored XML', date, error.message);
+      }
+    }
+
+    res.json({
+      message: `Re-parsed ${processedDates.length} stored XML file(s)`,
+      processedDates,
+    });
+  } catch (error) {
+    console.error('Error re-parsing stored XML files', error);
+    res.status(500).json({ message: 'Failed to re-parse stored XML files', error: error.message });
   }
 });
 
@@ -125,16 +184,25 @@ async function startServer() {
 async function ensureDataDir() {
   try {
     await fs.mkdir(DATA_DIR, { recursive: true });
+    await fs.mkdir(RAW_XML_DIR, { recursive: true });
+    await fs.mkdir(PARSED_JSON_DIR, { recursive: true });
   } catch (error) {
     console.error('Failed to ensure data directory', error);
     throw error;
   }
 }
 
-async function ensureDataDirAndList() {
+async function listParsedFiles() {
   await ensureDataDir();
-  const files = await fs.readdir(DATA_DIR);
-  return files.filter((file) => file.startsWith('ccl-') && file.endsWith('.json'));
+  try {
+    const files = await fs.readdir(PARSED_JSON_DIR);
+    return files.filter((file) => file.startsWith('ccl-') && file.endsWith('.json'));
+  } catch (error) {
+    if (error.code === 'ENOENT') {
+      return [];
+    }
+    throw error;
+  }
 }
 
 async function getDefaultDate() {
@@ -175,13 +243,15 @@ async function getDefaultDateSafe(res) {
   }
 }
 
-async function loadVersion(date, { force = false } = {}) {
+async function loadVersion(date, { forceParse = false, forceDownloadRaw = false } = {}) {
   if (!date) {
     throw new Error('A version date (YYYY-MM-DD) is required');
   }
 
-  if (!force) {
-    const cached = await readVersionFromDisk(date);
+  await ensureDataDir();
+
+  if (!forceParse) {
+    const cached = await readParsedVersion(date);
     if (cached) {
       return cached;
     }
@@ -193,8 +263,7 @@ async function loadVersion(date, { force = false } = {}) {
 
   const promise = (async () => {
     try {
-      const parsed = await fetchAndParseCcl(date);
-      const stored = await persistVersion(date, parsed);
+      const stored = await parseAndPersistVersion(date, { forceDownloadRaw });
       return stored;
     } finally {
       loadingVersions.delete(date);
@@ -205,8 +274,8 @@ async function loadVersion(date, { force = false } = {}) {
   return promise;
 }
 
-async function readVersionFromDisk(date) {
-  const filePath = path.join(DATA_DIR, buildFileName(date));
+async function readParsedVersion(date) {
+  const filePath = path.join(PARSED_JSON_DIR, buildJsonFileName(date));
   try {
     const raw = await fs.readFile(filePath, 'utf-8');
     return JSON.parse(raw);
@@ -218,8 +287,21 @@ async function readVersionFromDisk(date) {
   }
 }
 
-async function persistVersion(date, data) {
-  const filePath = path.join(DATA_DIR, buildFileName(date));
+async function parseAndPersistVersion(date, { forceDownloadRaw = false } = {}) {
+  const { xml } = await getRawXml(date, { forceDownload: forceDownloadRaw });
+  const parsed = parsePart(xml);
+  const dataset = {
+    version: date,
+    sourceUrl: buildXmlUrl(date),
+    counts: parsed.counts,
+    supplements: parsed.supplements,
+    date,
+  };
+  return persistParsedVersion(date, dataset);
+}
+
+async function persistParsedVersion(date, data) {
+  const filePath = path.join(PARSED_JSON_DIR, buildJsonFileName(date));
   const enriched = {
     ...data,
     date,
@@ -229,12 +311,38 @@ async function persistVersion(date, data) {
   return enriched;
 }
 
-function buildFileName(date) {
+function buildJsonFileName(date) {
   return `ccl-${date}.json`;
 }
 
-async function fetchAndParseCcl(date) {
-  const url = `${ECFR_BASE}/full/${date}/title-${TITLE_NUMBER}?format=xml`;
+function buildXmlFileName(date) {
+  return `ccl-${date}.xml`;
+}
+
+function buildXmlUrl(date) {
+  return `${ECFR_BASE}/full/${date}/title-${TITLE_NUMBER}?format=xml`;
+}
+
+async function getRawXml(date, { forceDownload = false } = {}) {
+  const filePath = path.join(RAW_XML_DIR, buildXmlFileName(date));
+  if (!forceDownload) {
+    try {
+      const xml = await fs.readFile(filePath, 'utf-8');
+      return { xml, filePath };
+    } catch (error) {
+      if (error.code !== 'ENOENT') {
+        console.warn(`Failed to read cached raw XML for ${date}:`, error.message);
+      }
+    }
+  }
+
+  const xml = await downloadRawXml(date);
+  await persistRawXml(filePath, xml);
+  return { xml, filePath };
+}
+
+async function downloadRawXml(date) {
+  const url = buildXmlUrl(date);
   const response = await fetch(url, {
     headers: buildHeaders('application/xml'),
   });
@@ -242,15 +350,61 @@ async function fetchAndParseCcl(date) {
     const body = await safeReadBody(response);
     throw new Error(`Failed to download CCL data (${response.status} ${response.statusText}): ${body}`);
   }
-
   const xml = await response.text();
-  const parsed = parsePart(xml);
-  return {
-    version: date,
-    sourceUrl: url,
-    counts: parsed.counts,
-    supplements: parsed.supplements,
-  };
+  return xml;
+}
+
+async function persistRawXml(filePath, xml) {
+  await fs.writeFile(filePath, xml, 'utf-8');
+}
+
+async function getRawXmlInfo(date) {
+  const filePath = path.join(RAW_XML_DIR, buildXmlFileName(date));
+  try {
+    const stats = await fs.stat(filePath);
+    return {
+      filePath,
+      downloadedAt: stats.mtime.toISOString(),
+    };
+  } catch (error) {
+    if (error.code === 'ENOENT') {
+      return null;
+    }
+    throw error;
+  }
+}
+
+async function listRawXmlDates() {
+  await ensureDataDir();
+  try {
+    const files = await fs.readdir(RAW_XML_DIR);
+    return files
+      .filter((file) => file.startsWith('ccl-') && file.endsWith('.xml'))
+      .map(extractDateFromFileName)
+      .filter(Boolean)
+      .sort((a, b) => (a < b ? -1 : a > b ? 1 : 0));
+  } catch (error) {
+    if (error.code === 'ENOENT') {
+      return [];
+    }
+    throw error;
+  }
+}
+
+function extractDateFromFileName(fileName) {
+  const match = fileName.match(/^ccl-(\d{4}-\d{2}-\d{2})\.\w+$/);
+  return match ? match[1] : null;
+}
+
+function shouldAllowXmlRedownload(downloadedAtIso) {
+  if (!downloadedAtIso) {
+    return true;
+  }
+  const downloadedAt = new Date(downloadedAtIso);
+  if (Number.isNaN(downloadedAt.getTime())) {
+    return true;
+  }
+  return Date.now() - downloadedAt.getTime() >= REDOWNLOAD_THRESHOLD_MS;
 }
 
 async function safeReadBody(response) {
@@ -2611,5 +2765,5 @@ function expandEccnReferencesInElement(element) {
   }
 }
 
-export { fetchAndParseCcl, parsePart, flattenEccnTree, createTreeNode, markNodeRequiresAllChildren };
+export { loadVersion, parsePart, flattenEccnTree, createTreeNode, markNodeRequiresAllChildren };
 
