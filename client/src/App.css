@@ -536,7 +536,7 @@ body {
   transform: translateY(-50%);
   color: #2563eb;
   transition: transform 0.2s ease;
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   line-height: 1;
 }
 
@@ -573,11 +573,6 @@ body {
   cursor: default;
 }
 
-.eccn-node.accordion.no-details .node-identifier {
-  border-color: rgba(107, 114, 128, 0.45);
-  background: rgba(107, 114, 128, 0.16);
-  color: #4b5563;
-}
 
 .eccn-node.active .node-label {
   background: rgba(37, 99, 235, 0.12);
