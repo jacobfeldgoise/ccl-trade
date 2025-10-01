@@ -1,9 +1,10 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import './App.css';
-import { downloadCcl, getCcl, getVersions, reparseStoredCcls } from './api';
+import { downloadCcl, getCcl, getFederalRegisterDocuments, getVersions, reparseStoredCcls } from './api';
 import {
   CclDataset,
   CclSupplement,
+  FederalRegisterDocument,
   EccnContentBlock,
   EccnEntry,
   EccnNode,
@@ -15,6 +16,7 @@ import { VersionSettings } from './components/VersionSettings';
 import { EccnNodeView } from './components/EccnNodeView';
 import { EccnContentBlockView } from './components/EccnContentBlock';
 import { TradeDataView } from './components/TradeDataView';
+import { FederalRegisterTimeline } from './components/FederalRegisterTimeline';
 import { EccnHistoryView } from './components/EccnHistoryView';
 import { formatDateTime, formatNumber } from './utils/format';
 
@@ -945,10 +947,16 @@ function App() {
   const [refreshing, setRefreshing] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [eccnPreview, setEccnPreview] = useState<EccnPreviewState | null>(null);
-  const [activeTab, setActiveTab] = useState<'explorer' | 'history' | 'trade' | 'settings'>('explorer');
+  const [activeTab, setActiveTab] = useState<
+    'explorer' | 'history' | 'trade' | 'federal-register' | 'settings'
+  >('explorer');
   const [showScrollTop, setShowScrollTop] = useState(false);
   const skipNextLoad = useRef(false);
   const previewCardRef = useRef<HTMLDivElement | null>(null);
+  const [federalDocuments, setFederalDocuments] = useState<FederalRegisterDocument[]>([]);
+  const [federalDocumentsGeneratedAt, setFederalDocumentsGeneratedAt] = useState<string | null>(null);
+  const [loadingFederalDocuments, setLoadingFederalDocuments] = useState(false);
+  const [federalDocumentsError, setFederalDocumentsError] = useState<string | null>(null);
 
   const loadVersions = useCallback(async (): Promise<VersionsResponse | null> => {
     setLoadingVersions(true);
@@ -964,6 +972,22 @@ function App() {
       return null;
     } finally {
       setLoadingVersions(false);
+    }
+  }, []);
+
+  const loadFederalDocuments = useCallback(async () => {
+    setLoadingFederalDocuments(true);
+    setFederalDocumentsError(null);
+    try {
+      const response = await getFederalRegisterDocuments();
+      setFederalDocuments(response.documents);
+      setFederalDocumentsGeneratedAt(response.generatedAt);
+    } catch (err) {
+      setFederalDocumentsError(
+        `Unable to load Federal Register documents: ${getErrorMessage(err)}`,
+      );
+    } finally {
+      setLoadingFederalDocuments(false);
     }
   }, []);
 
@@ -985,6 +1009,10 @@ function App() {
       isMounted = false;
     };
   }, [loadVersions]);
+
+  useEffect(() => {
+    loadFederalDocuments();
+  }, [loadFederalDocuments]);
 
   useEffect(() => {
     if (typeof window === 'undefined') {
@@ -1663,6 +1691,15 @@ function App() {
           <button
             type="button"
             className="app-tab-button"
+            data-active={activeTab === 'federal-register'}
+            onClick={() => setActiveTab('federal-register')}
+            aria-current={activeTab === 'federal-register' ? 'page' : undefined}
+          >
+            Federal Register Timeline
+          </button>
+          <button
+            type="button"
+            className="app-tab-button"
             data-active={activeTab === 'settings'}
             onClick={() => setActiveTab('settings')}
             aria-current={activeTab === 'settings' ? 'page' : undefined}
@@ -1952,6 +1989,15 @@ function App() {
           <div className="trade-layout">
             <TradeDataView onNavigateToEccn={handleNavigateToEccn} />
           </div>
+        ) : null}
+        {activeTab === 'federal-register' ? (
+          <FederalRegisterTimeline
+            documents={federalDocuments}
+            versions={versions}
+            loading={loadingFederalDocuments}
+            error={federalDocumentsError}
+            generatedAt={federalDocumentsGeneratedAt}
+          />
         ) : null}
         {activeTab === 'settings' ? (
           <div className="settings-layout">

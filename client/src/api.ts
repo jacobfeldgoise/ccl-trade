@@ -1,4 +1,4 @@
-import { CclDataset, VersionsResponse } from './types';
+import { CclDataset, FederalRegisterDocumentsResponse, VersionsResponse } from './types';
 
 async function handleResponse<T>(response: Response): Promise<T> {
   if (!response.ok) {
@@ -51,5 +51,10 @@ export async function reparseStoredCcls(): Promise<{
     body: JSON.stringify({}),
   });
   return handleResponse<{ message: string; processedDates: { date: string; fetchedAt: string }[] }>(res);
+}
+
+export async function getFederalRegisterDocuments(): Promise<FederalRegisterDocumentsResponse> {
+  const res = await fetch('/api/federal-register/documents');
+  return handleResponse<FederalRegisterDocumentsResponse>(res);
 }
 

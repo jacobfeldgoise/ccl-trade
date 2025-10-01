@@ -74,6 +74,29 @@ export interface VersionsResponse {
   versions: VersionSummary[];
 }
 
+export interface FederalRegisterDocument {
+  documentNumber: string | null;
+  title: string | null;
+  htmlUrl: string | null;
+  publicationDate: string | null;
+  effectiveOn: string | null;
+  type: string | null;
+  action: string | null;
+  signingDate: string | null;
+  supplements: string[];
+  agencies: string[];
+  citation: string | null;
+  docketIds: string[];
+  cfrReferences?: unknown;
+}
+
+export interface FederalRegisterDocumentsResponse {
+  generatedAt: string | null;
+  supplements: string[];
+  documentCount: number;
+  documents: FederalRegisterDocument[];
+}
+
 export interface TradeDestinationBreakdown {
   country: string;
   exportValueUsd: number;
