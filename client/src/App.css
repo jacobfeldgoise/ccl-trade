@@ -546,11 +546,12 @@ body {
 
 .eccn-node .node-label {
   display: inline-flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 0.4rem;
   flex-wrap: wrap;
   font-weight: 600;
   color: #1f2937;
+  width: 100%;
 }
 
 .eccn-node.accordion.no-details .node-label {
@@ -581,9 +582,11 @@ body {
 }
 
 .eccn-node .node-heading {
-  display: inline-flex;
-  align-items: center;
-  line-height: 1.3;
+  display: inline-block;
+  flex: 1 1 0%;
+  min-width: 0;
+  line-height: 1.35;
+  white-space: normal;
 }
 
 .eccn-node.static .node-label {
@@ -655,6 +658,7 @@ body {
 
 .eccn-node .node-identifier {
   cursor: default;
+  flex-shrink: 0;
 }
 
 .eccn-node .node-identifier.is-clickable {
