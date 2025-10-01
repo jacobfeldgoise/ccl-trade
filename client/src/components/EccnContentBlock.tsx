@@ -2,7 +2,7 @@ import { useCallback } from 'react';
 import DOMPurify from 'dompurify';
 import { EccnContentBlock } from '../types';
 
-export const ECCN_REFERENCE_PATTERN = /\b([0-9][A-Z][0-9]{3}(?:\.[A-Z0-9-]+)*)\b/g;
+export const ECCN_REFERENCE_PATTERN = /\b([0-9][A-Z][0-9]{3}(?:\.[A-Za-z0-9-]+)*)\b/g;
 
 export function createEccnReferencePattern(): RegExp {
   return new RegExp(ECCN_REFERENCE_PATTERN.source, 'g');
