@@ -15,7 +15,7 @@ export function linkHtmlEccnReferences(html: string): string {
 
   if (typeof document === 'undefined') {
     return html.replace(createEccnReferencePattern(), (_match, eccn: string) =>
-      `<a href="#" class="eccn-reference-link" data-eccn-reference="${eccn}">${eccn}</a>`
+      `<a href="#" class="eccn-reference-link" data-eccn-reference="${eccn}" aria-label="View ECCN ${eccn}" title="View ECCN ${eccn}">${eccn}</a>`
     );
   }
 
@@ -54,6 +54,8 @@ export function linkHtmlEccnReferences(html: string): string {
       anchor.setAttribute('href', '#');
       anchor.classList.add('eccn-reference-link');
       anchor.setAttribute('data-eccn-reference', eccn);
+      anchor.setAttribute('aria-label', `View ECCN ${eccn}`);
+      anchor.setAttribute('title', `View ECCN ${eccn}`);
       fragments.push(anchor);
 
       lastIndex = startIndex + fullMatch.length;
@@ -107,6 +109,8 @@ export function EccnContentBlockView({ entry, onSelectEccn, className }: EccnCon
           type="button"
           className="eccn-reference-button"
           onClick={() => onSelectEccn?.(eccn)}
+          aria-label={`View ECCN ${eccn}`}
+          title={`View ECCN ${eccn}`}
           key={`text-ref-${eccn}-${index}`}
         >
           {fullMatch}

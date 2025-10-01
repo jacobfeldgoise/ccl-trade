@@ -12,7 +12,7 @@ import {
 } from './types';
 import { VersionControls } from './components/VersionControls';
 import { EccnNodeView } from './components/EccnNodeView';
-import { EccnContentBlockView, createEccnReferencePattern } from './components/EccnContentBlock';
+import { EccnContentBlockView } from './components/EccnContentBlock';
 import { formatDateTime, formatNumber } from './utils/format';
 
 const ECCN_BASE_PATTERN = /^[0-9][A-Z][0-9]{3}$/;
@@ -209,14 +209,6 @@ interface HighLevelField {
   blocks: EccnContentBlock[];
 }
 
-interface LinkedEccnSummary {
-  code: string;
-  baseCode: string;
-  count: number;
-  exists: boolean;
-  label?: string | null;
-}
-
 const SANITIZE_ANCHOR_PATTERN = /[^\w.-]+/g;
 const CONTROL_HEADING_PATTERN = /control(?:s)?\s+(?:country\s+chart|table)/i;
 
@@ -246,50 +238,6 @@ function getBlockPlainText(block: EccnContentBlock): string {
     return stripHtmlTags(block.html);
   }
   return '';
-}
-
-function accumulateEccnReferencesFromText(
-  value: string | null | undefined,
-  accumulator: Map<string, number>
-) {
-  if (!value) {
-    return;
-  }
-
-  const regex = createEccnReferencePattern();
-  let match: RegExpExecArray | null = regex.exec(value);
-
-  while (match) {
-    const eccn = match[1];
-    if (eccn) {
-      const normalized = eccn.toUpperCase();
-      const current = accumulator.get(normalized) ?? 0;
-      accumulator.set(normalized, current + 1);
-    }
-    match = regex.exec(value);
-  }
-}
-
-function collectLinkedEccnReferences(
-  node: EccnNode | undefined,
-  accumulator: Map<string, number>
-): Map<string, number> {
-  if (!node) {
-    return accumulator;
-  }
-
-  if (node.content) {
-    node.content.forEach((block) => {
-      accumulateEccnReferencesFromText(block.text ?? null, accumulator);
-      accumulateEccnReferencesFromText(block.html ?? null, accumulator);
-    });
-  }
-
-  if (node.children) {
-    node.children.forEach((child) => collectLinkedEccnReferences(child, accumulator));
-  }
-
-  return accumulator;
 }
 
 function collectPrimaryBlocks(node: EccnNode): EccnContentBlock[] {
@@ -1228,54 +1176,6 @@ function App() {
 
   const eccnChildren = activeEccn?.structure.children ?? [];
 
-  const linkedEccns = useMemo<LinkedEccnSummary[]>(() => {
-    if (!activeEccn) {
-      return [];
-    }
-
-    const counts = collectLinkedEccnReferences(activeEccn.structure, new Map<string, number>());
-    if (counts.size === 0) {
-      return [];
-    }
-
-    const normalizedActive = activeEccn.eccn.trim().toUpperCase();
-    const summaries: LinkedEccnSummary[] = [];
-
-    counts.forEach((count, code) => {
-      const parsed = parseNormalizedEccn(code);
-      const baseCode = parsed?.segments?.[0]?.raw?.toUpperCase() ?? code;
-      if (baseCode === normalizedActive) {
-        return;
-      }
-
-      const baseEntry = eccnLookup.get(baseCode);
-      const exactEntry = eccnLookup.get(code) ?? baseEntry;
-
-      summaries.push({
-        code,
-        baseCode,
-        count,
-        exists: Boolean(baseEntry),
-        label: exactEntry?.title ?? exactEntry?.heading ?? null,
-      });
-    });
-
-    summaries.sort((a, b) => {
-      if (b.count !== a.count) {
-        return b.count - a.count;
-      }
-      if (a.exists !== b.exists) {
-        return Number(b.exists) - Number(a.exists);
-      }
-      if (a.baseCode !== b.baseCode) {
-        return a.baseCode.localeCompare(b.baseCode);
-      }
-      return a.code.localeCompare(b.code);
-    });
-
-    return summaries;
-  }, [activeEccn, eccnLookup]);
-
   const normalizedFocusedIdentifier = useMemo(() => normalizeNodeIdentifier(focusedNodeIdentifier), [focusedNodeIdentifier]);
 
   const { focusedNode, focusedPath } = useMemo<{
@@ -1576,64 +1476,6 @@ function App() {
                                 {activeEccn.childEccns && activeEccn.childEccns.length > 0
                                   ? activeEccn.childEccns.join(', ')
                                   : '–'}
-                              </dd>
-                            </div>
-                            <div>
-                              <dt>Linked ECCNs</dt>
-                              <dd>
-                                {linkedEccns.length > 0 ? (
-                                  <ul className="linked-eccn-list">
-                                    {linkedEccns.map((linked) => {
-                                      const ariaDescriptionParts: string[] = [`View ECCN ${linked.code}`];
-                                      if (linked.label) {
-                                        ariaDescriptionParts.push(linked.label);
-                                      }
-                                      if (!linked.exists) {
-                                        ariaDescriptionParts.push('Not present in selected dataset');
-                                      }
-                                      if (linked.count > 1) {
-                                        ariaDescriptionParts.push(`Referenced ${linked.count} times`);
-                                      }
-                                      const ariaLabel = ariaDescriptionParts.join(' – ');
-                                      const tooltipParts: string[] = [];
-                                      if (linked.label) {
-                                        tooltipParts.push(linked.label);
-                                      }
-                                      if (linked.count > 1) {
-                                        tooltipParts.push(`Referenced ${linked.count} times`);
-                                      }
-                                      const title = tooltipParts.length > 0 ? tooltipParts.join(' • ') : undefined;
-
-                                      const buttonClassName = ['linked-eccn-link', linked.exists ? '' : 'missing']
-                                        .filter(Boolean)
-                                        .join(' ');
-
-                                      return (
-                                        <li key={linked.code}>
-                                          <button
-                                            type="button"
-                                            className={buttonClassName}
-                                            onClick={() => handleSelectEccn(linked.code)}
-                                            aria-label={ariaLabel}
-                                            title={title}
-                                          >
-                                            <span className="linked-eccn-code">{linked.code}</span>
-                                            {linked.label ? (
-                                              <span className="linked-eccn-label">{linked.label}</span>
-                                            ) : null}
-                                            {linked.count > 1 ? (
-                                              <span className="linked-eccn-count" aria-hidden="true">
-                                                ×{linked.count}
-                                              </span>
-                                            ) : null}
-                                          </button>
-                                        </li>
-                                      );
-                                    })}
-                                  </ul>
-                                ) : (
-                                  '–'
-                                )}
                               </dd>
                             </div>
                           </dl>
