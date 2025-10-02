@@ -534,6 +534,13 @@ async function runFederalRegisterRefresh() {
     const rawDownloads = Array.from(rawDownloadsByDate.values());
     const summaryParts = [
       'Refreshed Federal Register metadata',
+      data?.documentCount != null
+        ? `identified ${buildPlural(
+            data.documentCount,
+            'Federal Register document',
+            'Federal Register documents'
+          )}`
+        : null,
       `cached ${buildPlural(
         rawDownloads.length,
         'new raw XML download',
