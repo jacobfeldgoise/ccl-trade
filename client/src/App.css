@@ -1577,6 +1577,10 @@ body {
   text-align: left;
   width: 100%;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
   transition: color 0.2s ease, background 0.2s ease, transform 0.2s ease;
 }
 
@@ -1593,6 +1597,27 @@ body {
 .fr-nav-button.active {
   color: #1d4ed8;
   background: rgba(59, 130, 246, 0.18);
+}
+
+.fr-nav-label {
+  flex: 1;
+}
+
+.fr-nav-count {
+  background: rgba(148, 163, 184, 0.2);
+  color: #0f172a;
+  border-radius: 999px;
+  padding: 0.1rem 0.55rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.fr-nav-button:hover .fr-nav-count,
+.fr-nav-button:focus-visible .fr-nav-count,
+.fr-nav-button.active .fr-nav-count {
+  background: rgba(59, 130, 246, 0.25);
+  color: #1d4ed8;
 }
 
 .fr-empty {

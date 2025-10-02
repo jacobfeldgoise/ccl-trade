@@ -65,11 +65,27 @@ interface TimelineItem {
   anchorId: string;
   version?: VersionSummary;
   missingEffectiveDate: boolean;
+  ruleType: string | null;
 }
 
 interface TimelineNavItem {
   label: string;
   anchorId: string;
+  count: number;
+}
+
+function cleanRuleType(action: string | null | undefined): string | null {
+  if (!action) {
+    return null;
+  }
+
+  const normalized = action.replace(/\s+/g, ' ').trim();
+  if (!normalized) {
+    return null;
+  }
+
+  const cleaned = normalized.replace(/[\s.;:,]+$/u, '');
+  return cleaned || normalized;
 }
 
 export function FederalRegisterTimeline({
@@ -101,8 +117,8 @@ export function FederalRegisterTimeline({
       return dateA < dateB ? 1 : dateA > dateB ? -1 : 0;
     });
 
-    const seenLabels = new Set<string>();
     const navEntries: TimelineNavItem[] = [];
+    const navEntryMap = new Map<string, TimelineNavItem>();
     const items: TimelineItem[] = sortedDocuments.map((doc, index) => {
       const effectiveDateRaw = getEffectiveDate(doc);
       const normalizedEffectiveDate = normalizeDateValue(effectiveDateRaw);
@@ -115,12 +131,16 @@ export function FederalRegisterTimeline({
       const missingEffectiveDate = normalizedEffectiveDate
         ? missingSet.has(normalizedEffectiveDate)
         : false;
+      const ruleType = cleanRuleType(doc.action);
 
       const label = getYearLabel(effectiveDate);
-      if (!seenLabels.has(label)) {
-        seenLabels.add(label);
-        navEntries.push({ label, anchorId });
+      let navEntry = navEntryMap.get(label);
+      if (!navEntry) {
+        navEntry = { label, anchorId, count: 0 };
+        navEntryMap.set(label, navEntry);
+        navEntries.push(navEntry);
       }
+      navEntry.count += 1;
 
       return {
         doc,
@@ -129,6 +149,7 @@ export function FederalRegisterTimeline({
         anchorId,
         version,
         missingEffectiveDate,
+        ruleType,
       };
     });
 
@@ -247,7 +268,8 @@ export function FederalRegisterTimeline({
                   onClick={() => handleNavigate(item.anchorId)}
                   aria-current={isActive ? 'true' : undefined}
                 >
-                  {item.label}
+                  <span className="fr-nav-label">{item.label}</span>
+                  <span className="fr-nav-count">{formatNumber(item.count)}</span>
                 </button>
               );
             })}
@@ -271,7 +293,18 @@ export function FederalRegisterTimeline({
           {timelineItems.length > 0 && (
             <ol className="fr-timeline">
               {timelineItems.map(
-                ({ doc, effectiveDate, supplementsLabel, anchorId, version, missingEffectiveDate }, index) => {
+                ({
+                  doc,
+                  effectiveDate,
+                  supplementsLabel,
+                  anchorId,
+                  version,
+                  missingEffectiveDate,
+                  ruleType,
+                }, index) => {
+                  const documentTypeTag = doc.type?.trim() ?? null;
+                  const showDocumentTypeTag =
+                    documentTypeTag && documentTypeTag.toLowerCase() !== 'rule';
                   return (
                     <li
                       key={doc.documentNumber ?? `${doc.title}-${effectiveDate ?? 'unknown'}`}
@@ -283,10 +316,6 @@ export function FederalRegisterTimeline({
                       <div className="fr-date-primary">
                         <span className="fr-date-label">Effective</span>
                         <time dateTime={doc.effectiveOn ?? undefined}>{formatDate(doc.effectiveOn ?? undefined)}</time>
-                      </div>
-                      <div className="fr-date-secondary">
-                        <span className="fr-date-label">Published</span>
-                        <time dateTime={doc.publicationDate ?? undefined}>{formatDate(doc.publicationDate ?? undefined)}</time>
                       </div>
                     </div>
                     <div className="fr-card" data-cached={version ? 'true' : 'false'}>
@@ -303,18 +332,26 @@ export function FederalRegisterTimeline({
                         <div className="fr-card-tags">
                           {doc.documentNumber && <span className="fr-tag">FR Doc. {doc.documentNumber}</span>}
                           {doc.citation && <span className="fr-tag">{doc.citation}</span>}
-                          {doc.type && <span className="fr-tag">{doc.type}</span>}
+                          {showDocumentTypeTag && <span className="fr-tag">{documentTypeTag}</span>}
                         </div>
                       </header>
-                      {doc.action && <p className="fr-card-action">{doc.action}</p>}
+                      {(ruleType || doc.action) && <p className="fr-card-action">{ruleType ?? doc.action}</p>}
                       <dl className="fr-card-details">
+                        <div>
+                          <dt>Published</dt>
+                          <dd>
+                            <time dateTime={doc.publicationDate ?? undefined}>
+                              {formatDate(doc.publicationDate ?? undefined)}
+                            </time>
+                          </dd>
+                        </div>
                         <div>
                           <dt>Supplements affected</dt>
                           <dd>{supplementsLabel}</dd>
                         </div>
                         <div>
-                          <dt>Agencies</dt>
-                          <dd>{doc.agencies.length ? doc.agencies.join(', ') : '—'}</dd>
+                          <dt>Rule Type</dt>
+                          <dd>{ruleType ?? '—'}</dd>
                         </div>
                         <div>
                           <dt>CCL cache status</dt>
