@@ -1,13 +1,28 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { tradeDataByEccn } from '../data/tradeData';
 import { formatNumber, formatPercent, formatUsd } from '../utils/format';
 
 interface TradeDataViewProps {
+  query?: string;
+  onQueryChange?: (value: string) => void;
   onNavigateToEccn?: (eccn: string) => void;
 }
 
-export function TradeDataView({ onNavigateToEccn }: TradeDataViewProps) {
-  const [query, setQuery] = useState('');
+export function TradeDataView({
+  onNavigateToEccn,
+  query: initialQuery = '',
+  onQueryChange,
+}: TradeDataViewProps) {
+  const [query, setQuery] = useState(initialQuery);
+
+  useEffect(() => {
+    setQuery(initialQuery);
+  }, [initialQuery]);
+
+  const handleQueryChange = (value: string) => {
+    setQuery(value);
+    onQueryChange?.(value);
+  };
   const normalizedQuery = query.trim().toLowerCase();
 
   const filteredRecords = useMemo(() => {
@@ -108,7 +123,7 @@ export function TradeDataView({ onNavigateToEccn }: TradeDataViewProps) {
             className="control"
             type="search"
             value={query}
-            onChange={(event) => setQuery(event.target.value)}
+            onChange={(event) => handleQueryChange(event.target.value)}
             placeholder="Search by ECCN, keyword, or notes"
           />
           <p className="help-text">

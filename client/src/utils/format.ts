@@ -8,7 +8,7 @@ export function formatDate(dateString?: string): string {
     // Interpret API-provided YYYY-MM-DD dates as calendar dates without a
     // timezone component so they display consistently regardless of the
     // viewer's locale.
-    const [_, year, month, day] = isoDateOnlyMatch;
+    const [, year, month, day] = isoDateOnlyMatch;
     const date = new Date(`${year}-${month}-${day}T00:00:00Z`);
     if (Number.isNaN(date.getTime())) {
       return dateString;

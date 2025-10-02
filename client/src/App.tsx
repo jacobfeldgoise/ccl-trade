@@ -34,6 +34,56 @@ const ECCN_SEGMENT_PATTERN = /^[A-Z0-9]+(?:-[A-Z0-9]+)*$/;
 const ECCN_ALLOWED_CHARS_PATTERN = /^[0-9A-Z.\-\s]+$/;
 const SCROLL_TOP_THRESHOLD = 480;
 
+type AppTab = 'explorer' | 'history' | 'trade' | 'federal-register' | 'settings';
+
+type UrlState = {
+  tab: AppTab;
+  explorerQuery: string;
+  historyQuery: string;
+  tradeQuery: string;
+};
+
+const DEFAULT_APP_TAB: AppTab = 'explorer';
+const TAB_QUERY_PARAM = 'tab';
+const EXPLORER_QUERY_PARAM = 'explorer';
+const HISTORY_QUERY_PARAM = 'history';
+const TRADE_QUERY_PARAM = 'trade';
+
+function parseAppTab(value: string | null): AppTab {
+  switch (value) {
+    case 'explorer':
+    case 'history':
+    case 'trade':
+    case 'federal-register':
+    case 'settings':
+      return value;
+    default:
+      return DEFAULT_APP_TAB;
+  }
+}
+
+function getUrlStateFromSearch(search: string): UrlState {
+  const params = new URLSearchParams(search);
+  return {
+    tab: parseAppTab(params.get(TAB_QUERY_PARAM)),
+    explorerQuery: params.get(EXPLORER_QUERY_PARAM) ?? '',
+    historyQuery: params.get(HISTORY_QUERY_PARAM) ?? '',
+    tradeQuery: params.get(TRADE_QUERY_PARAM) ?? '',
+  };
+}
+
+function readInitialUrlState(): UrlState {
+  if (typeof window === 'undefined') {
+    return {
+      tab: DEFAULT_APP_TAB,
+      explorerQuery: '',
+      historyQuery: '',
+      tradeQuery: '',
+    };
+  }
+  return getUrlStateFromSearch(window.location.search);
+}
+
 type EccnSegment = {
   raw: string;
   parts: string[];
@@ -942,6 +992,9 @@ function getErrorMessage(error: unknown): string {
 }
 
 function App() {
+  const initialUrlStateRef = useRef<UrlState>(readInitialUrlState());
+  const initialUrlState = initialUrlStateRef.current;
+
   const [versions, setVersions] = useState<VersionSummary[]>([]);
   const [defaultDate, setDefaultDate] = useState<string | undefined>();
   const [selectedDate, setSelectedDate] = useState<string | undefined>();
@@ -949,16 +1002,16 @@ function App() {
   const datasetCacheRef = useRef<Map<string, CclDataset>>(new Map());
   const [selectedEccn, setSelectedEccn] = useState<string | undefined>();
   const [focusedNodeIdentifier, setFocusedNodeIdentifier] = useState<string | undefined>();
-  const [eccnFilter, setEccnFilter] = useState('');
+  const [eccnFilter, setEccnFilter] = useState(initialUrlState.explorerQuery);
+  const [historyQuery, setHistoryQuery] = useState(initialUrlState.historyQuery);
+  const [tradeQuery, setTradeQuery] = useState(initialUrlState.tradeQuery);
   const [selectedSupplements, setSelectedSupplements] = useState<string[]>([]);
   const [loadingVersions, setLoadingVersions] = useState(false);
   const [loadingDataset, setLoadingDataset] = useState(false);
   const [refreshing, setRefreshing] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [eccnPreview, setEccnPreview] = useState<EccnPreviewState | null>(null);
-  const [activeTab, setActiveTab] = useState<
-    'explorer' | 'history' | 'trade' | 'federal-register' | 'settings'
-  >('explorer');
+  const [activeTab, setActiveTab] = useState<AppTab>(initialUrlState.tab);
   const [showScrollTop, setShowScrollTop] = useState(false);
   const skipNextLoad = useRef(false);
   const previewCardRef = useRef<HTMLDivElement | null>(null);
@@ -972,6 +1025,60 @@ function App() {
   const [federalDocumentsMissingDates, setFederalDocumentsMissingDates] = useState<string[]>([]);
   const [federalDocumentsNotYetAvailableDates, setFederalDocumentsNotYetAvailableDates] =
     useState<string[]>([]);
+
+  useEffect(() => {
+    if (typeof window === 'undefined') {
+      return;
+    }
+
+    const handlePopState = () => {
+      const nextState = getUrlStateFromSearch(window.location.search);
+      setActiveTab(nextState.tab);
+      setEccnFilter(nextState.explorerQuery);
+      setHistoryQuery(nextState.historyQuery);
+      setTradeQuery(nextState.tradeQuery);
+    };
+
+    window.addEventListener('popstate', handlePopState);
+
+    return () => {
+      window.removeEventListener('popstate', handlePopState);
+    };
+  }, []);
+
+  useEffect(() => {
+    if (typeof window === 'undefined') {
+      return;
+    }
+
+    const url = new URL(window.location.href);
+    const params = new URLSearchParams(url.search);
+
+    if (activeTab === DEFAULT_APP_TAB) {
+      params.delete(TAB_QUERY_PARAM);
+    } else {
+      params.set(TAB_QUERY_PARAM, activeTab);
+    }
+
+    const syncQueryParam = (key: string, value: string) => {
+      if (value.trim()) {
+        params.set(key, value);
+      } else {
+        params.delete(key);
+      }
+    };
+
+    syncQueryParam(EXPLORER_QUERY_PARAM, eccnFilter);
+    syncQueryParam(HISTORY_QUERY_PARAM, historyQuery);
+    syncQueryParam(TRADE_QUERY_PARAM, tradeQuery);
+
+    const nextSearch = params.toString();
+    const currentSearch = url.search.length > 0 ? url.search.slice(1) : '';
+    if (nextSearch !== currentSearch) {
+      const nextUrl = `${url.pathname}${nextSearch ? `?${nextSearch}` : ''}${url.hash}`;
+      window.history.replaceState(null, '', nextUrl);
+    }
+  }, [activeTab, eccnFilter, historyQuery, tradeQuery]);
 
   const syncFederalRegisterStatus = useCallback(
     (status: FederalRegisterRefreshStatus | null | undefined) => {
@@ -1045,7 +1152,7 @@ function App() {
       const errorMessage = `Unable to refresh Federal Register documents: ${message}`;
       setFederalDocumentsError(errorMessage);
     }
-  }, [refreshFederalRegisterDocuments, syncFederalRegisterStatus]);
+  }, [syncFederalRegisterStatus]);
 
   const handleFederalRegisterRefreshEvent = useCallback(
     (event: FederalRegisterRefreshEvent) => {
@@ -2116,11 +2223,17 @@ function App() {
             ensureDataset={ensureDataset}
             loadingVersions={loadingVersions}
             onNavigateToEccn={handleNavigateToEccn}
+            query={historyQuery}
+            onQueryChange={setHistoryQuery}
           />
         ) : null}
         {activeTab === 'trade' ? (
           <div className="trade-layout">
-            <TradeDataView onNavigateToEccn={handleNavigateToEccn} />
+            <TradeDataView
+              onNavigateToEccn={handleNavigateToEccn}
+              query={tradeQuery}
+              onQueryChange={setTradeQuery}
+            />
           </div>
         ) : null}
         {activeTab === 'federal-register' ? (

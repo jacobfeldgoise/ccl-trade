@@ -22,6 +22,8 @@ interface EccnHistoryViewProps {
   ensureDataset: (date: string) => Promise<CclDataset>;
   loadingVersions: boolean;
   onNavigateToEccn: (eccn: string) => void;
+  query?: string;
+  onQueryChange?: (value: string) => void;
 }
 
 type HistoryChildDetail = {
@@ -251,12 +253,23 @@ export function EccnHistoryView({
   ensureDataset,
   loadingVersions,
   onNavigateToEccn,
+  query: initialQuery = '',
+  onQueryChange,
 }: EccnHistoryViewProps) {
-  const [query, setQuery] = useState('');
+  const [query, setQuery] = useState(initialQuery);
   const [selectedCode, setSelectedCode] = useState('');
   const [historyEntries, setHistoryEntries] = useState<HistoryVersionEntry[]>([]);
   const [loadingHistory, setLoadingHistory] = useState(false);
   const [historyError, setHistoryError] = useState<string | null>(null);
+
+  useEffect(() => {
+    setQuery(initialQuery);
+  }, [initialQuery]);
+
+  const updateQuery = (value: string) => {
+    setQuery(value);
+    onQueryChange?.(value);
+  };
 
   const normalizedQuery = useMemo(() => normalizeSearchValue(query), [query]);
   const normalizedSelected = useMemo(() => normalizeCode(selectedCode), [selectedCode]);
@@ -373,16 +386,16 @@ export function EccnHistoryView({
     const match = options.find((option) => option.normalizedCode === normalized);
     if (match) {
       setSelectedCode(match.entry.eccn);
-      setQuery(match.entry.eccn);
+      updateQuery(match.entry.eccn);
     } else {
       setSelectedCode(normalized);
-      setQuery(normalized);
+      updateQuery(normalized);
     }
   };
 
   const handleSelectOption = (option: HistorySearchOption) => {
     setSelectedCode(option.entry.eccn);
-    setQuery(option.entry.eccn);
+    updateQuery(option.entry.eccn);
   };
 
   const childOrder = useMemo(() => {
@@ -432,7 +445,7 @@ export function EccnHistoryView({
               className="control"
               type="search"
               value={query}
-              onChange={(event) => setQuery(event.target.value)}
+              onChange={(event) => updateQuery(event.target.value)}
               placeholder="Search by code or keyword"
               autoComplete="off"
             />
