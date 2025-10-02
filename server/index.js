@@ -404,6 +404,13 @@ async function runFederalRegisterRefresh() {
 
     const rawDownloads = [];
     const missingEffectiveDateSet = new Set(previousMissingDates);
+    let missingEffectiveDates = Array.from(missingEffectiveDateSet);
+    const persistMissingEffectiveDates = async () => {
+      missingEffectiveDates = await setFederalRegisterMissingEffectiveDates(
+        Array.from(missingEffectiveDateSet)
+      );
+      return missingEffectiveDates;
+    };
     for (const date of sortedEffectiveDates) {
       recordFederalRegisterProgress(`Checking raw XML cache for ${date}…`);
       const info = await getRawXmlInfo(date);
@@ -431,6 +438,7 @@ async function runFederalRegisterRefresh() {
           const suffix = detail ? ` (${detail})` : '';
           recordFederalRegisterProgress(`No XML available from eCFR for ${date}${suffix}.`);
           missingEffectiveDateSet.add(date);
+          await persistMissingEffectiveDates();
           continue;
         }
         throw error;
@@ -455,7 +463,7 @@ async function runFederalRegisterRefresh() {
       }
     }
 
-    const missingEffectiveDates = await setFederalRegisterMissingEffectiveDates(
+    missingEffectiveDates = await setFederalRegisterMissingEffectiveDates(
       Array.from(missingEffectiveDateSet)
     );
 
