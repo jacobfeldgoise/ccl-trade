@@ -785,7 +785,10 @@ function isMissingEcfrContentError(error) {
   if (typeof error.message === 'string') {
     sources.push(error.message);
   }
-  return sources.some((value) => /No matching content found/i.test(value));
+  return sources.some((value) =>
+    /No matching content found/i.test(value) ||
+    /past the title's most recent issue date/i.test(value)
+  );
 }
 
 function extractMissingEcfrDetail(error) {
