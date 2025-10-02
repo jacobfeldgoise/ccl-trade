@@ -1,8 +1,7 @@
 import {
   CclDataset,
   FederalRegisterDocumentsResponse,
-  FederalRegisterRefreshEvent,
-  FederalRegisterRefreshResponse,
+  FederalRegisterRefreshStatus,
   VersionsResponse,
 } from './types';
 
@@ -64,9 +63,11 @@ export async function getFederalRegisterDocuments(): Promise<FederalRegisterDocu
   return handleResponse<FederalRegisterDocumentsResponse>(res);
 }
 
-export async function refreshFederalRegisterDocuments(
-  onEvent?: (event: FederalRegisterRefreshEvent) => void
-): Promise<FederalRegisterRefreshResponse> {
+export async function refreshFederalRegisterDocuments(): Promise<{
+  started: boolean;
+  alreadyRunning: boolean;
+  status: FederalRegisterRefreshStatus;
+}> {
   const res = await fetch('/api/federal-register/refresh', {
     method: 'POST',
     headers: {
@@ -80,67 +81,15 @@ export async function refreshFederalRegisterDocuments(
     throw new Error(text || res.statusText);
   }
 
-  if (!res.body) {
-    throw new Error('No response body received from refresh request.');
-  }
+  return (await res.json()) as {
+    started: boolean;
+    alreadyRunning: boolean;
+    status: FederalRegisterRefreshStatus;
+  };
+}
 
-  const reader = res.body.getReader();
-  const decoder = new TextDecoder();
-  let buffer = '';
-  let finalResult: FederalRegisterRefreshResponse | null = null;
-
-  while (true) {
-    const { done, value } = await reader.read();
-    buffer += decoder.decode(value ?? new Uint8Array(), { stream: !done });
-
-    let newlineIndex;
-    while ((newlineIndex = buffer.indexOf('\n')) !== -1) {
-      const line = buffer.slice(0, newlineIndex).trim();
-      buffer = buffer.slice(newlineIndex + 1);
-      if (!line) {
-        continue;
-      }
-
-      let event: FederalRegisterRefreshEvent | null = null;
-      try {
-        event = JSON.parse(line) as FederalRegisterRefreshEvent;
-      } catch (parseError) {
-        console.warn('Unable to parse refresh progress event', parseError);
-        continue;
-      }
-
-      onEvent?.(event);
-
-      if (event.type === 'complete') {
-        finalResult = event.result ?? null;
-      } else if (event.type === 'error') {
-        throw new Error(event.message || 'Refresh failed.');
-      }
-    }
-
-    if (done) {
-      break;
-    }
-  }
-
-  if (buffer.trim()) {
-    try {
-      const event = JSON.parse(buffer) as FederalRegisterRefreshEvent;
-      onEvent?.(event);
-      if (event.type === 'complete') {
-        finalResult = event.result ?? null;
-      } else if (event.type === 'error') {
-        throw new Error(event.message || 'Refresh failed.');
-      }
-    } catch (parseError) {
-      console.warn('Unable to parse trailing refresh progress event', parseError);
-    }
-  }
-
-  if (!finalResult) {
-    throw new Error('Refresh did not complete successfully.');
-  }
-
-  return finalResult;
+export async function getFederalRegisterRefreshStatus(): Promise<FederalRegisterRefreshStatus> {
+  const res = await fetch('/api/federal-register/refresh/status');
+  return handleResponse<FederalRegisterRefreshStatus>(res);
 }
 

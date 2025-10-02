@@ -12,6 +12,8 @@ import {
   CclDataset,
   CclSupplement,
   FederalRegisterDocument,
+  FederalRegisterRefreshEvent,
+  FederalRegisterRefreshStatus,
   EccnContentBlock,
   EccnEntry,
   EccnNode,
@@ -969,6 +971,23 @@ function App() {
   const [federalDocumentsProgress, setFederalDocumentsProgress] = useState<string | null>(null);
   const [federalDocumentsMissingDates, setFederalDocumentsMissingDates] = useState<string[]>([]);
 
+  const syncFederalRegisterStatus = useCallback(
+    (status: FederalRegisterRefreshStatus | null | undefined) => {
+      if (!status) {
+        return;
+      }
+      setRefreshingFederalDocuments(Boolean(status.running));
+      setFederalDocumentsProgress(status.progressMessage ?? null);
+      setFederalDocumentsStatus(status.statusMessage ?? null);
+      setFederalDocumentsError(status.errorMessage ?? null);
+      if (status.result) {
+        setFederalDocumentsGeneratedAt(status.result.generatedAt);
+        setFederalDocumentsMissingDates(status.result.missingEffectiveDates ?? []);
+      }
+    },
+    []
+  );
+
   const loadVersions = useCallback(async (): Promise<VersionsResponse | null> => {
     setLoadingVersions(true);
     setError(null);
@@ -1004,36 +1023,67 @@ function App() {
   }, []);
 
   const refreshFederalDocuments = useCallback(async () => {
-    setRefreshingFederalDocuments(true);
     setFederalDocumentsError(null);
     setFederalDocumentsStatus(null);
     setFederalDocumentsProgress(null);
     try {
-      const response = await refreshFederalRegisterDocuments((event) => {
-        if (event.type === 'progress' && event.message) {
-          setFederalDocumentsProgress(event.message);
-        }
-        if (event.type === 'complete' && event.message) {
-          setFederalDocumentsProgress(event.message);
-        }
-        if (event.type === 'error' && event.message) {
-          setFederalDocumentsProgress(event.message);
-        }
-      });
-
-      setFederalDocumentsStatus(response.message);
-      setFederalDocumentsGeneratedAt(response.generatedAt);
-      setFederalDocumentsMissingDates(response.missingEffectiveDates ?? []);
-      await loadFederalDocuments();
-      setFederalDocumentsProgress(null);
+      const response = await refreshFederalRegisterDocuments();
+      syncFederalRegisterStatus(response.status);
+      if (response.started && !response.status.progressMessage) {
+        setFederalDocumentsProgress('Starting Federal Register refresh…');
+      } else if (response.alreadyRunning && !response.status.progressMessage) {
+        setFederalDocumentsProgress('Federal Register refresh already in progress…');
+      }
     } catch (err) {
       const message = getErrorMessage(err);
       const errorMessage = `Unable to refresh Federal Register documents: ${message}`;
       setFederalDocumentsError(errorMessage);
-    } finally {
-      setRefreshingFederalDocuments(false);
     }
-  }, [loadFederalDocuments, refreshFederalRegisterDocuments]);
+  }, [refreshFederalRegisterDocuments, syncFederalRegisterStatus]);
+
+  const handleFederalRegisterRefreshEvent = useCallback(
+    (event: FederalRegisterRefreshEvent) => {
+      if (event.type === 'status') {
+        syncFederalRegisterStatus(event.status);
+        return;
+      }
+
+      if (event.type === 'progress') {
+        if (event.message) {
+          setFederalDocumentsProgress(event.message);
+        }
+        setRefreshingFederalDocuments(true);
+        return;
+      }
+
+      if (event.type === 'complete') {
+        if (event.message) {
+          setFederalDocumentsStatus(event.message);
+        }
+        if (event.result) {
+          setFederalDocumentsGeneratedAt(event.result.generatedAt);
+          setFederalDocumentsMissingDates(event.result.missingEffectiveDates ?? []);
+        }
+        setFederalDocumentsProgress(null);
+        setRefreshingFederalDocuments(false);
+        loadFederalDocuments().catch((loadError) => {
+          console.error('Unable to reload Federal Register documents after refresh', loadError);
+          setFederalDocumentsError(
+            'Unable to reload Federal Register documents after refresh completion.'
+          );
+        });
+        return;
+      }
+
+      if (event.type === 'error') {
+        const message = event.message || 'Failed to refresh Federal Register documents.';
+        setFederalDocumentsError(message);
+        setFederalDocumentsProgress(null);
+        setRefreshingFederalDocuments(false);
+      }
+    },
+    [loadFederalDocuments, syncFederalRegisterStatus]
+  );
 
   useEffect(() => {
     let isMounted = true;
@@ -1057,6 +1107,36 @@ function App() {
   useEffect(() => {
     loadFederalDocuments();
   }, [loadFederalDocuments]);
+
+  useEffect(() => {
+    if (typeof window === 'undefined' || typeof EventSource === 'undefined') {
+      return;
+    }
+
+    const source = new EventSource('/api/federal-register/refresh/events');
+
+    source.onmessage = (event) => {
+      if (!event.data) {
+        return;
+      }
+      try {
+        const parsed = JSON.parse(event.data) as FederalRegisterRefreshEvent;
+        handleFederalRegisterRefreshEvent(parsed);
+      } catch (error) {
+        console.warn('Unable to parse Federal Register refresh event payload', error);
+      }
+    };
+
+    source.onerror = (event) => {
+      console.error('Federal Register refresh event stream error', event);
+    };
+
+    return () => {
+      source.onmessage = null;
+      source.onerror = null;
+      source.close();
+    };
+  }, [handleFederalRegisterRefreshEvent]);
 
   useEffect(() => {
     if (typeof window === 'undefined') {

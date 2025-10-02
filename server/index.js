@@ -29,6 +29,114 @@ app.use(express.json({ limit: '2mb' }));
 const loadingVersions = new Map();
 let defaultVersionPromise = null;
 
+function getFederalRegisterRefreshStatus() {
+  return {
+    running: federalRegisterRefreshState.running,
+    startedAt: federalRegisterRefreshState.startedAt,
+    finishedAt: federalRegisterRefreshState.finishedAt,
+    progressMessage: federalRegisterRefreshState.progressMessage,
+    statusMessage: federalRegisterRefreshState.statusMessage,
+    errorMessage: federalRegisterRefreshState.errorMessage,
+    result: federalRegisterRefreshState.result,
+  };
+}
+
+function broadcastFederalRegisterEvent(event) {
+  const payload = JSON.stringify(event);
+  for (const listener of federalRegisterRefreshState.listeners) {
+    try {
+      listener(`data: ${payload}\n\n`);
+    } catch (error) {
+      console.warn('Failed to notify Federal Register refresh listener', error.message);
+    }
+  }
+}
+
+function broadcastFederalRegisterStatus() {
+  broadcastFederalRegisterEvent({ type: 'status', status: getFederalRegisterRefreshStatus() });
+}
+
+function addFederalRegisterRefreshListener(listener) {
+  federalRegisterRefreshState.listeners.add(listener);
+  return () => {
+    federalRegisterRefreshState.listeners.delete(listener);
+  };
+}
+
+function resetFederalRegisterRefreshState() {
+  federalRegisterRefreshState.running = true;
+  federalRegisterRefreshState.startedAt = new Date().toISOString();
+  federalRegisterRefreshState.finishedAt = null;
+  federalRegisterRefreshState.progressMessage = null;
+  federalRegisterRefreshState.statusMessage = null;
+  federalRegisterRefreshState.errorMessage = null;
+  federalRegisterRefreshState.result = null;
+  broadcastFederalRegisterStatus();
+}
+
+function recordFederalRegisterProgress(message) {
+  federalRegisterRefreshState.progressMessage = message;
+  broadcastFederalRegisterStatus();
+  broadcastFederalRegisterEvent({ type: 'progress', message });
+}
+
+function completeFederalRegisterRefresh(result, message) {
+  federalRegisterRefreshState.running = false;
+  federalRegisterRefreshState.finishedAt = new Date().toISOString();
+  federalRegisterRefreshState.progressMessage = null;
+  federalRegisterRefreshState.statusMessage = message;
+  federalRegisterRefreshState.errorMessage = null;
+  federalRegisterRefreshState.result = result;
+  broadcastFederalRegisterStatus();
+  broadcastFederalRegisterEvent({ type: 'complete', message, result });
+}
+
+function failFederalRegisterRefresh(message) {
+  federalRegisterRefreshState.running = false;
+  federalRegisterRefreshState.finishedAt = new Date().toISOString();
+  federalRegisterRefreshState.progressMessage = null;
+  federalRegisterRefreshState.statusMessage = null;
+  federalRegisterRefreshState.errorMessage = message;
+  federalRegisterRefreshState.result = null;
+  broadcastFederalRegisterStatus();
+  broadcastFederalRegisterEvent({ type: 'error', message });
+}
+
+function startFederalRegisterRefresh() {
+  if (federalRegisterRefreshState.running) {
+    return { started: false, alreadyRunning: true, status: getFederalRegisterRefreshStatus() };
+  }
+
+  resetFederalRegisterRefreshState();
+
+  const promise = runFederalRegisterRefresh()
+    .catch((error) => {
+      if (!federalRegisterRefreshState.errorMessage) {
+        failFederalRegisterRefresh(error?.message || 'Failed to refresh Federal Register documents.');
+      }
+      console.error('Error refreshing Federal Register documents', error);
+    })
+    .finally(() => {
+      federalRegisterRefreshState.promise = null;
+    });
+
+  federalRegisterRefreshState.promise = promise;
+
+  return { started: true, alreadyRunning: false, status: getFederalRegisterRefreshStatus() };
+}
+
+const federalRegisterRefreshState = {
+  running: false,
+  startedAt: null,
+  finishedAt: null,
+  progressMessage: null,
+  statusMessage: null,
+  errorMessage: null,
+  result: null,
+  listeners: new Set(),
+  promise: null,
+};
+
 app.get('/api/versions', async (req, res) => {
   try {
     const files = await listParsedFiles();
@@ -165,156 +273,43 @@ app.get('/api/federal-register/documents', async (_req, res) => {
   }
 });
 
-app.post('/api/federal-register/refresh', async (_req, res) => {
-  res.setHeader('Content-Type', 'application/x-ndjson');
-  res.setHeader('Cache-Control', 'no-cache, no-transform');
+app.get('/api/federal-register/refresh/status', (_req, res) => {
+  res.json(getFederalRegisterRefreshStatus());
+});
+
+app.get('/api/federal-register/refresh/events', (req, res) => {
+  res.setHeader('Content-Type', 'text/event-stream');
+  res.setHeader('Cache-Control', 'no-cache');
   res.setHeader('Connection', 'keep-alive');
   res.flushHeaders?.();
 
-  const writeEvent = (event) => {
-    res.write(`${JSON.stringify(event)}\n`);
+  const send = (chunk) => {
+    res.write(chunk);
   };
 
-  const sendProgress = (message) => {
-    writeEvent({ type: 'progress', message });
-  };
+  send(`data: ${JSON.stringify({ type: 'status', status: getFederalRegisterRefreshStatus() })}\n\n`);
 
-  const buildPlural = (count, singular, plural) => {
-    return `${count} ${count === 1 ? singular : plural}`;
-  };
+  const dispose = addFederalRegisterRefreshListener(send);
+  const heartbeat = setInterval(() => {
+    res.write(': ping\n\n');
+  }, 30000);
 
+  req.on('close', () => {
+    clearInterval(heartbeat);
+    dispose();
+  });
+});
+
+app.post('/api/federal-register/refresh', (_req, res) => {
   try {
-    const previousRegister = await readFederalRegisterDocuments();
-    const previousMissingDates = new Set(
-      Array.isArray(previousRegister?.missingEffectiveDates)
-        ? previousRegister.missingEffectiveDates
-        : []
-    );
-
-    const data = await updateFederalRegisterDocuments({ onProgress: sendProgress });
-    sendProgress(
-      `Fetched ${buildPlural(data.documentCount, 'Federal Register document', 'Federal Register documents')}.`
-    );
-
-    const effectiveDates = new Set(
-      Array.isArray(data?.documents)
-        ? data.documents
-            .map((doc) => (typeof doc?.effectiveOn === 'string' ? doc.effectiveOn : null))
-            .filter((date) => typeof date === 'string' && /\d{4}-\d{2}-\d{2}/.test(date))
-        : []
-    );
-
-    const sortedEffectiveDates = Array.from(effectiveDates).sort();
-    if (sortedEffectiveDates.length > 0) {
-      sendProgress(
-        `Ensuring raw XML cached for ${buildPlural(
-          sortedEffectiveDates.length,
-          'effective date',
-          'effective dates'
-        )}.`
-      );
-    } else {
-      sendProgress('No effective dates found in the refreshed Federal Register metadata.');
-    }
-
-    const rawDownloads = [];
-    const missingEffectiveDateSet = new Set(previousMissingDates);
-    for (const date of sortedEffectiveDates) {
-      sendProgress(`Checking raw XML cache for ${date}…`);
-      const info = await getRawXmlInfo(date);
-      if (info) {
-        sendProgress(`Raw XML already cached for ${date}.`);
-        missingEffectiveDateSet.delete(date);
-        continue;
-      }
-
-      if (missingEffectiveDateSet.has(date)) {
-        sendProgress(`Skipping raw XML download for ${date}; previously marked unavailable.`);
-        continue;
-      }
-
-      sendProgress(`Downloading raw XML for ${date}…`);
-      try {
-        const { filePath } = await getRawXml(date, { forceDownload: true });
-        rawDownloads.push({ date, filePath });
-        sendProgress(`Stored raw XML for ${date} at ${filePath}.`);
-      } catch (error) {
-        if (isMissingEcfrContentError(error)) {
-          const detail = extractMissingEcfrDetail(error);
-          const suffix = detail ? ` (${detail})` : '';
-          sendProgress(`No XML available from eCFR for ${date}${suffix}.`);
-          missingEffectiveDateSet.add(date);
-          continue;
-        }
-        throw error;
-      }
-    }
-
-    sendProgress('Re-parsing stored XML files…');
-    const processedDates = [];
-    const rawDates = await listRawXmlDates();
-    if (rawDates.length === 0) {
-      sendProgress('No stored raw XML files available to parse.');
-    }
-    for (const date of rawDates) {
-      sendProgress(`Re-parsing ${date}…`);
-      try {
-        const dataset = await loadVersion(date, { forceParse: true });
-        processedDates.push({ date, fetchedAt: dataset.fetchedAt });
-        sendProgress(`Finished parsing ${date}.`);
-      } catch (error) {
-        console.error('Failed to re-parse stored XML', date, error.message);
-        sendProgress(`Failed to parse ${date}: ${error.message}`);
-      }
-    }
-
-    const missingEffectiveDates = await setFederalRegisterMissingEffectiveDates(
-      Array.from(missingEffectiveDateSet)
-    );
-
-    const summaryParts = [
-      'Refreshed Federal Register metadata',
-      `cached ${buildPlural(
-        rawDownloads.length,
-        'new raw XML download',
-        'new raw XML downloads'
-      )}`,
-      missingEffectiveDates.length
-        ? `noted ${buildPlural(
-            missingEffectiveDates.length,
-            'effective date with no eCFR data',
-            'effective dates with no eCFR data'
-          )}`
-        : null,
-      `re-parsed ${buildPlural(
-        processedDates.length,
-        'stored XML file',
-        'stored XML files'
-      )}`,
-    ].filter(Boolean);
-
-    const finalMessage = `${summaryParts.join(', ')}.`;
-
-    writeEvent({
-      type: 'complete',
-      message: finalMessage,
-      result: {
-        message: finalMessage,
-        generatedAt: data.generatedAt,
-        documentCount: data.documentCount,
-        processedDates,
-        rawXmlDownloads: rawDownloads,
-        missingEffectiveDates,
-      },
-    });
-    res.end();
+    const payload = startFederalRegisterRefresh();
+    res.json(payload);
   } catch (error) {
-    console.error('Error refreshing Federal Register documents', error);
-    writeEvent({
-      type: 'error',
-      message: error?.message || 'Failed to refresh Federal Register documents.',
+    console.error('Error starting Federal Register refresh', error);
+    res.status(500).json({
+      message: 'Failed to start Federal Register refresh.',
+      error: error?.message || 'Unknown error',
     });
-    res.end();
   }
 });
 
@@ -361,6 +356,147 @@ async function ensureDataDir() {
     await ensureFederalRegisterStorage();
   } catch (error) {
     console.error('Failed to ensure data directory', error);
+    throw error;
+  }
+}
+
+async function runFederalRegisterRefresh() {
+  const buildPlural = (count, singular, plural) => {
+    return `${count} ${count === 1 ? singular : plural}`;
+  };
+
+  try {
+    const previousRegister = await readFederalRegisterDocuments();
+    const previousMissingDates = new Set(
+      Array.isArray(previousRegister?.missingEffectiveDates)
+        ? previousRegister.missingEffectiveDates
+        : []
+    );
+
+    const data = await updateFederalRegisterDocuments({
+      onProgress: (message) => recordFederalRegisterProgress(message),
+    });
+
+    recordFederalRegisterProgress(
+      `Fetched ${buildPlural(data.documentCount, 'Federal Register document', 'Federal Register documents')}.`
+    );
+
+    const effectiveDates = new Set(
+      Array.isArray(data?.documents)
+        ? data.documents
+            .map((doc) => (typeof doc?.effectiveOn === 'string' ? doc.effectiveOn : null))
+            .filter((date) => typeof date === 'string' && /\d{4}-\d{2}-\d{2}/.test(date))
+        : []
+    );
+
+    const sortedEffectiveDates = Array.from(effectiveDates).sort();
+    if (sortedEffectiveDates.length > 0) {
+      recordFederalRegisterProgress(
+        `Ensuring raw XML cached for ${buildPlural(
+          sortedEffectiveDates.length,
+          'effective date',
+          'effective dates'
+        )}.`
+      );
+    } else {
+      recordFederalRegisterProgress('No effective dates found in the refreshed Federal Register metadata.');
+    }
+
+    const rawDownloads = [];
+    const missingEffectiveDateSet = new Set(previousMissingDates);
+    for (const date of sortedEffectiveDates) {
+      recordFederalRegisterProgress(`Checking raw XML cache for ${date}…`);
+      const info = await getRawXmlInfo(date);
+      if (info) {
+        recordFederalRegisterProgress(`Raw XML already cached for ${date}.`);
+        missingEffectiveDateSet.delete(date);
+        continue;
+      }
+
+      if (missingEffectiveDateSet.has(date)) {
+        recordFederalRegisterProgress(
+          `Skipping raw XML download for ${date}; previously marked unavailable.`
+        );
+        continue;
+      }
+
+      recordFederalRegisterProgress(`Downloading raw XML for ${date}…`);
+      try {
+        const { filePath } = await getRawXml(date, { forceDownload: true });
+        rawDownloads.push({ date, filePath });
+        recordFederalRegisterProgress(`Stored raw XML for ${date} at ${filePath}.`);
+      } catch (error) {
+        if (isMissingEcfrContentError(error)) {
+          const detail = extractMissingEcfrDetail(error);
+          const suffix = detail ? ` (${detail})` : '';
+          recordFederalRegisterProgress(`No XML available from eCFR for ${date}${suffix}.`);
+          missingEffectiveDateSet.add(date);
+          continue;
+        }
+        throw error;
+      }
+    }
+
+    recordFederalRegisterProgress('Re-parsing stored XML files…');
+    const processedDates = [];
+    const rawDates = await listRawXmlDates();
+    if (rawDates.length === 0) {
+      recordFederalRegisterProgress('No stored raw XML files available to parse.');
+    }
+    for (const date of rawDates) {
+      recordFederalRegisterProgress(`Re-parsing ${date}…`);
+      try {
+        const dataset = await loadVersion(date, { forceParse: true });
+        processedDates.push({ date, fetchedAt: dataset.fetchedAt });
+        recordFederalRegisterProgress(`Finished parsing ${date}.`);
+      } catch (error) {
+        console.error('Failed to re-parse stored XML', date, error.message);
+        recordFederalRegisterProgress(`Failed to parse ${date}: ${error.message}`);
+      }
+    }
+
+    const missingEffectiveDates = await setFederalRegisterMissingEffectiveDates(
+      Array.from(missingEffectiveDateSet)
+    );
+
+    const summaryParts = [
+      'Refreshed Federal Register metadata',
+      `cached ${buildPlural(
+        rawDownloads.length,
+        'new raw XML download',
+        'new raw XML downloads'
+      )}`,
+      missingEffectiveDates.length
+        ? `noted ${buildPlural(
+            missingEffectiveDates.length,
+            'effective date with no eCFR data',
+            'effective dates with no eCFR data'
+          )}`
+        : null,
+      `re-parsed ${buildPlural(
+        processedDates.length,
+        'stored XML file',
+        'stored XML files'
+      )}`,
+    ].filter(Boolean);
+
+    const finalMessage = `${summaryParts.join(', ')}.`;
+
+    const result = {
+      message: finalMessage,
+      generatedAt: data.generatedAt,
+      documentCount: data.documentCount,
+      processedDates,
+      rawXmlDownloads: rawDownloads,
+      missingEffectiveDates,
+    };
+
+    completeFederalRegisterRefresh(result, finalMessage);
+
+    return result;
+  } catch (error) {
+    const message = error?.message || 'Failed to refresh Federal Register documents.';
+    failFederalRegisterRefresh(message);
     throw error;
   }
 }

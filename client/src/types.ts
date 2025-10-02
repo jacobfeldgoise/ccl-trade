@@ -112,10 +112,21 @@ export interface FederalRegisterRefreshResponse {
   missingEffectiveDates: string[];
 }
 
+export interface FederalRegisterRefreshStatus {
+  running: boolean;
+  startedAt: string | null;
+  finishedAt: string | null;
+  progressMessage: string | null;
+  statusMessage: string | null;
+  errorMessage: string | null;
+  result: FederalRegisterRefreshResponse | null;
+}
+
 export interface FederalRegisterRefreshEvent {
-  type: 'progress' | 'complete' | 'error';
+  type: 'status' | 'progress' | 'complete' | 'error';
   message?: string;
   result?: FederalRegisterRefreshResponse;
+  status?: FederalRegisterRefreshStatus;
 }
 
 export interface TradeDestinationBreakdown {
