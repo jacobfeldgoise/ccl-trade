@@ -1613,7 +1613,8 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 0.5rem;
-  transition: color 0.2s ease, background 0.2s ease, transform 0.2s ease;
+  transition: color 0.2s ease, background 0.2s ease, transform 0.2s ease,
+    font-size 0.2s ease, padding 0.2s ease, margin 0.2s ease;
 }
 
 .fr-nav-button:hover,
@@ -1643,6 +1644,8 @@ body {
   font-size: 0.75rem;
   font-weight: 600;
   line-height: 1.2;
+  transition: background 0.2s ease, color 0.2s ease, font-size 0.2s ease,
+    padding 0.2s ease;
 }
 
 .fr-nav-button:hover .fr-nav-count,
@@ -1650,6 +1653,60 @@ body {
 .fr-nav-button.active .fr-nav-count {
   background: rgba(59, 130, 246, 0.25);
   color: #1d4ed8;
+}
+
+.fr-timeline-nav.condensed {
+  gap: 0.2rem;
+}
+
+.fr-timeline-nav.condensed .fr-nav-button {
+  font-size: 0.75rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.65rem;
+  letter-spacing: 0.04em;
+}
+
+.fr-timeline-nav.condensed .fr-nav-count {
+  font-size: 0.65rem;
+  padding: 0.08rem 0.5rem;
+}
+
+.fr-timeline-nav.condensed .fr-nav-button:hover,
+.fr-timeline-nav.condensed .fr-nav-button:focus-visible,
+.fr-timeline-nav.condensed .fr-nav-button.active {
+  font-size: 1.05rem;
+  padding: 0.45rem 0.7rem;
+}
+
+.fr-timeline-nav.condensed .fr-nav-button:hover .fr-nav-count,
+.fr-timeline-nav.condensed .fr-nav-button:focus-visible .fr-nav-count,
+.fr-timeline-nav.condensed .fr-nav-button.active .fr-nav-count {
+  font-size: 0.75rem;
+  padding: 0.1rem 0.55rem;
+}
+
+.fr-timeline-nav.condensed.overflowing .fr-nav-button {
+  font-size: 0.68rem;
+  padding: 0.15rem 0.45rem;
+}
+
+.fr-timeline-nav.condensed.overflowing .fr-nav-button:hover,
+.fr-timeline-nav.condensed.overflowing .fr-nav-button:focus-visible,
+.fr-timeline-nav.condensed.overflowing .fr-nav-button.active {
+  font-size: 0.95rem;
+  padding: 0.35rem 0.6rem;
+}
+
+.fr-timeline-nav.condensed.overflowing .fr-nav-count {
+  font-size: 0.6rem;
+  padding: 0.06rem 0.45rem;
+}
+
+.fr-timeline-nav.condensed.overflowing .fr-nav-button:hover .fr-nav-count,
+.fr-timeline-nav.condensed.overflowing .fr-nav-button:focus-visible .fr-nav-count,
+.fr-timeline-nav.condensed.overflowing .fr-nav-button.active .fr-nav-count {
+  font-size: 0.7rem;
+  padding: 0.08rem 0.5rem;
 }
 
 .fr-empty {
