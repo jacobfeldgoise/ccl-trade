@@ -1558,12 +1558,15 @@ body {
 
 .fr-timeline-nav {
   position: sticky;
-  top: 6.5rem;
+  top: max(1rem, env(safe-area-inset-top, 0px));
   align-self: start;
   display: flex;
   flex-direction: column;
   gap: 0.35rem;
   padding: 0.5rem 0;
+  max-height: calc(100vh - max(1rem, env(safe-area-inset-top, 0px)) - max(1rem, env(safe-area-inset-bottom, 0px)));
+  overflow-y: auto;
+  overscroll-behavior: contain;
 }
 
 .fr-nav-button {
@@ -1842,6 +1845,8 @@ body {
   .fr-timeline-nav {
     position: static;
     padding: 0;
+    max-height: none;
+    overflow: visible;
   }
 
   .fr-timeline-item {
