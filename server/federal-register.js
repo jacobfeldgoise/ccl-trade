@@ -1,6 +1,9 @@
+import { execFile } from 'child_process';
 import { promises as fs } from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { promisify } from 'util';
+import { Agent as UndiciAgent, setGlobalDispatcher } from 'undici';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -100,6 +103,8 @@ export async function updateFederalRegisterDocuments(options = {}) {
   return output;
 }
 
+const execFileAsync = promisify(execFile);
+
 async function fetchDocumentsForSupplement(supplementNumber, searchTerms, log) {
   const collected = new Map();
 
@@ -122,7 +127,7 @@ async function fetchDocumentsForSupplement(supplementNumber, searchTerms, log) {
           'html_url',
           'publication_date',
           'effective_on',
-          'effective_date',
+          'dates',
           'type',
           'action',
           'signing_date',
@@ -176,11 +181,7 @@ function normalizeDocument(rawDoc, supplements) {
     title: rawDoc.title || null,
     htmlUrl: rawDoc.html_url || null,
     publicationDate: rawDoc.publication_date || null,
-    effectiveOn:
-      rawDoc.effective_on ||
-      rawDoc.publication_date ||
-      rawDoc.effective_date ||
-      null,
+    effectiveOn: resolveEffectiveOn(rawDoc),
     type: rawDoc.type || null,
     action: rawDoc.action || null,
     signingDate: rawDoc.signing_date || null,
@@ -196,20 +197,253 @@ function normalizeDocument(rawDoc, supplements) {
   };
 }
 
-async function fetchJson(url) {
-  const response = await fetch(url, {
-    headers: {
-      'User-Agent': USER_AGENT,
-      Accept: 'application/json',
-    },
-  });
-
-  if (!response.ok) {
-    const body = await safeReadBody(response);
-    throw new Error(`Request failed (${response.status} ${response.statusText}): ${body}`);
+function resolveEffectiveOn(rawDoc) {
+  const direct = normalizeIsoDate(rawDoc?.effective_on);
+  if (direct) {
+    return direct;
   }
 
-  return response.json();
+  const textualSources = [rawDoc?.effective_date, rawDoc?.dates];
+  for (const source of textualSources) {
+    const parsed = parseEffectiveDateText(source);
+    if (parsed) {
+      return parsed;
+    }
+  }
+
+  return normalizeIsoDate(rawDoc?.publication_date);
+}
+
+const MONTH_NAME_MAP = new Map(
+  [
+    ['january', 1],
+    ['jan', 1],
+    ['jan.', 1],
+    ['february', 2],
+    ['feb', 2],
+    ['feb.', 2],
+    ['march', 3],
+    ['mar', 3],
+    ['mar.', 3],
+    ['april', 4],
+    ['apr', 4],
+    ['apr.', 4],
+    ['may', 5],
+    ['june', 6],
+    ['jun', 6],
+    ['jun.', 6],
+    ['july', 7],
+    ['jul', 7],
+    ['jul.', 7],
+    ['august', 8],
+    ['aug', 8],
+    ['aug.', 8],
+    ['september', 9],
+    ['sept', 9],
+    ['sept.', 9],
+    ['sep', 9],
+    ['sep.', 9],
+    ['october', 10],
+    ['oct', 10],
+    ['oct.', 10],
+    ['november', 11],
+    ['nov', 11],
+    ['nov.', 11],
+    ['december', 12],
+    ['dec', 12],
+    ['dec.', 12],
+  ].map(([name, month]) => [name, month])
+);
+
+const MONTH_PATTERN = Array.from(MONTH_NAME_MAP.keys())
+  .sort((a, b) => b.length - a.length)
+  .map((value) => value.replace('.', '\\.'))
+  .join('|');
+
+const ISO_DATE_REGEX = /\b(\d{4}-\d{2}-\d{2})\b/g;
+const SPELLED_OUT_REGEX = new RegExp(
+  `\\b(${MONTH_PATTERN})\\s+([0-3]?\\d)(?:st|nd|rd|th)?(?:,)?\\s*(\\d{4})`,
+  'gi'
+);
+const NUMERIC_DATE_REGEX = /\b(0?[1-9]|1[0-2])[\/-](0?[1-9]|[12]\d|3[01])[\/-](\d{4})\b/g;
+
+function parseEffectiveDateText(value) {
+  if (typeof value !== 'string') {
+    return null;
+  }
+
+  const cleaned = value
+    .replace(/<[^>]*>/g, ' ')
+    .replace(/&nbsp;/gi, ' ')
+    .replace(/[\u2013\u2014]/g, '-')
+    .replace(/\s+/g, ' ')
+    .trim();
+
+  if (!cleaned) {
+    return null;
+  }
+
+  const candidates = new Set();
+
+  for (const match of cleaned.matchAll(ISO_DATE_REGEX)) {
+    const iso = normalizeIsoDate(match[1]);
+    if (iso) {
+      candidates.add(iso);
+    }
+  }
+
+  for (const match of cleaned.matchAll(SPELLED_OUT_REGEX)) {
+    const monthToken = match[1]?.toLowerCase().replace(/\.$/, '');
+    const month = MONTH_NAME_MAP.get(monthToken);
+    if (!month) {
+      continue;
+    }
+    const day = Number.parseInt(match[2], 10);
+    const year = Number.parseInt(match[3], 10);
+    const iso = toIsoDate(year, month, day);
+    if (iso) {
+      candidates.add(iso);
+    }
+  }
+
+  for (const match of cleaned.matchAll(NUMERIC_DATE_REGEX)) {
+    const month = Number.parseInt(match[1], 10);
+    const day = Number.parseInt(match[2], 10);
+    const year = Number.parseInt(match[3], 10);
+    const iso = toIsoDate(year, month, day);
+    if (iso) {
+      candidates.add(iso);
+    }
+  }
+
+  if (candidates.size === 0) {
+    return null;
+  }
+
+  return Array.from(candidates).sort()[0];
+}
+
+function normalizeIsoDate(value) {
+  if (typeof value !== 'string') {
+    return null;
+  }
+  const trimmed = value.trim();
+  if (!ISO_DATE_ONLY_REGEX.test(trimmed)) {
+    return null;
+  }
+  return trimmed;
+}
+
+const ISO_DATE_ONLY_REGEX = /^\d{4}-\d{2}-\d{2}$/;
+
+function toIsoDate(year, month, day) {
+  if (!Number.isInteger(year) || !Number.isInteger(month) || !Number.isInteger(day)) {
+    return null;
+  }
+
+  if (month < 1 || month > 12) {
+    return null;
+  }
+
+  if (day < 1 || day > 31) {
+    return null;
+  }
+
+  const date = new Date(Date.UTC(year, month - 1, day));
+  if (
+    date.getUTCFullYear() !== year ||
+    date.getUTCMonth() !== month - 1 ||
+    date.getUTCDate() !== day
+  ) {
+    return null;
+  }
+
+  return date.toISOString().slice(0, 10);
+}
+
+async function fetchJson(url) {
+  ensureFetchDispatcher();
+  try {
+    const response = await fetch(url, {
+      headers: {
+        'User-Agent': USER_AGENT,
+        Accept: 'application/json',
+      },
+    });
+
+    if (!response.ok) {
+      const body = await safeReadBody(response);
+      throw new Error(`Request failed (${response.status} ${response.statusText}): ${body}`);
+    }
+
+    return await response.json();
+  } catch (error) {
+    return fetchJsonWithCurl(url, error);
+  }
+}
+
+let curlFallbackWarned = false;
+
+async function fetchJsonWithCurl(url, originalError) {
+  if (process.env.FEDERAL_REGISTER_DISABLE_CURL_FALLBACK === '1') {
+    throw originalError;
+  }
+
+  if (!curlFallbackWarned) {
+    console.warn(
+      'fetch failed for Federal Register API, falling back to curl:',
+      originalError
+    );
+    curlFallbackWarned = true;
+  }
+
+  try {
+    const { stdout } = await execFileAsync('curl', [
+      '--silent',
+      '--show-error',
+      '--fail',
+      '--location',
+      '--header',
+      `User-Agent: ${USER_AGENT}`,
+      '--header',
+      'Accept: application/json',
+      url,
+    ]);
+    return JSON.parse(stdout);
+  } catch (curlError) {
+    if (originalError) {
+      curlError.message = `${curlError.message}\nOriginal fetch error: ${originalError.message}`;
+    }
+    throw curlError;
+  }
+}
+
+let dispatcherConfigured = false;
+
+function ensureFetchDispatcher() {
+  if (dispatcherConfigured) {
+    return;
+  }
+
+  try {
+    setGlobalDispatcher(
+      new UndiciAgent({
+        connect: {
+          // Prefer IPv4 to avoid environments where IPv6 routing is blocked.
+          family: 4,
+        },
+      })
+    );
+    dispatcherConfigured = true;
+  } catch (error) {
+    // If the dispatcher cannot be configured (e.g. older Node/undici), log once
+    // and continue with the default behaviour so the request still has a chance
+    // to succeed.
+    if (!ensureFetchDispatcher._warned) {
+      console.warn('Failed to configure fetch dispatcher:', error);
+      ensureFetchDispatcher._warned = true;
+    }
+  }
 }
 
 async function safeReadBody(response) {
