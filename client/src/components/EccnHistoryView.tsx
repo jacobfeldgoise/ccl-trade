@@ -9,11 +9,18 @@ import {
 } from '../types';
 import { formatDateTime, formatNumber } from '../utils/format';
 import { EccnNodeView } from './EccnNodeView';
+import {
+  eccnSegmentsMatchQuery,
+  extractEccnQuery,
+  normalizeSearchText,
+  type EccnSegment,
+} from '../utils/eccnSearch';
 
 interface HistorySearchOption {
   entry: EccnEntry;
   normalizedCode: string;
   searchText: string;
+  segments: EccnSegment[] | null;
 }
 
 interface EccnHistoryViewProps {
@@ -69,15 +76,6 @@ type PreparedLeaf = {
 
 function normalizeCode(value: string): string {
   return value.trim().toUpperCase().replace(/\s+/g, '');
-}
-
-function normalizeSearchValue(value: string): string {
-  return value
-    .normalize('NFKD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, ' ')
-    .trim();
 }
 
 function determineChangeStatus(
@@ -203,27 +201,33 @@ export function EccnHistoryView({
     onQueryChange?.(value);
   };
 
-  const normalizedQuery = useMemo(() => normalizeSearchValue(query), [query]);
+  const normalizedQuery = useMemo(() => normalizeSearchText(query), [query]);
   const normalizedSelected = useMemo(() => normalizeCode(selectedCode), [selectedCode]);
 
+  const queryTokens = useMemo(
+    () => (normalizedQuery ? normalizedQuery.split(/\s+/).filter(Boolean) : []),
+    [normalizedQuery]
+  );
+  const eccnQuery = useMemo(() => extractEccnQuery(query), [query]);
+
   const filteredOptions = useMemo(() => {
-    if (!normalizedQuery && !query.trim()) {
+    const trimmed = query.trim();
+    if (!trimmed) {
       return options;
     }
 
-    const codeQuery = normalizeCode(query);
-    const tokens = normalizedQuery ? normalizedQuery.split(/\s+/).filter(Boolean) : [];
-
     return options.filter((option) => {
-      if (codeQuery && option.normalizedCode.includes(codeQuery)) {
-        return true;
+      if (eccnQuery?.segments && option.segments) {
+        if (eccnSegmentsMatchQuery(eccnQuery.segments, option.segments)) {
+          return true;
+        }
       }
-      if (tokens.length === 0) {
+      if (queryTokens.length === 0) {
         return false;
       }
-      return tokens.every((token) => option.searchText.includes(token));
+      return queryTokens.every((token) => option.searchText.includes(token));
     });
-  }, [options, normalizedQuery, query]);
+  }, [options, query, eccnQuery, queryTokens]);
 
   const limitedOptions = useMemo(() => filteredOptions.slice(0, 200), [filteredOptions]);
 
