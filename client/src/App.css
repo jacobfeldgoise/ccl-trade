@@ -1829,6 +1829,11 @@ body {
   color: #b91c1c;
 }
 
+.fr-status.pending {
+  background: rgba(96, 165, 250, 0.2);
+  color: #1d4ed8;
+}
+
 .fr-status.unavailable {
   background: rgba(251, 191, 36, 0.25);
   color: #92400e;

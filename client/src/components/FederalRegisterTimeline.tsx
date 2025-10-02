@@ -10,6 +10,7 @@ interface FederalRegisterTimelineProps {
   error: string | null;
   generatedAt: string | null;
   missingEffectiveDates: string[];
+  notYetAvailableEffectiveDates: string[];
 }
 
 function getEffectiveDate(doc: FederalRegisterDocument): string | null {
@@ -65,6 +66,7 @@ interface TimelineItem {
   anchorId: string;
   version?: VersionSummary;
   missingEffectiveDate: boolean;
+  notYetAvailableEffectiveDate: boolean;
   ruleType: string | null;
 }
 
@@ -95,6 +97,7 @@ export function FederalRegisterTimeline({
   error,
   generatedAt,
   missingEffectiveDates,
+  notYetAvailableEffectiveDates,
 }: FederalRegisterTimelineProps) {
   const { timelineItems, navItems, totalDocuments, cachedDocumentCount, anchorYearMap } = useMemo(() => {
     const versionMap = new Map<string, VersionSummary>();
@@ -104,6 +107,12 @@ export function FederalRegisterTimeline({
 
     const missingSet = new Set(
       (missingEffectiveDates ?? [])
+        .map((date) => (typeof date === 'string' ? date.trim() : ''))
+        .filter((date) => ISO_DATE_ONLY_REGEX.test(date))
+    );
+
+    const notYetAvailableSet = new Set(
+      (notYetAvailableEffectiveDates ?? [])
         .map((date) => (typeof date === 'string' ? date.trim() : ''))
         .filter((date) => ISO_DATE_ONLY_REGEX.test(date))
     );
@@ -132,6 +141,9 @@ export function FederalRegisterTimeline({
       const missingEffectiveDate = normalizedEffectiveDate
         ? missingSet.has(normalizedEffectiveDate)
         : false;
+      const notYetAvailableEffectiveDate = normalizedEffectiveDate
+        ? notYetAvailableSet.has(normalizedEffectiveDate)
+        : false;
       const ruleType = cleanRuleType(doc.action);
 
       const label = getYearLabel(effectiveDate);
@@ -151,6 +163,7 @@ export function FederalRegisterTimeline({
         anchorId,
         version,
         missingEffectiveDate,
+        notYetAvailableEffectiveDate,
         ruleType,
       };
     });
@@ -164,7 +177,7 @@ export function FederalRegisterTimeline({
       cachedDocumentCount: cachedCount,
       anchorYearMap: anchorYearLookup,
     };
-  }, [documents, versions, missingEffectiveDates]);
+  }, [documents, versions, missingEffectiveDates, notYetAvailableEffectiveDates]);
 
   const [activeAnchor, setActiveAnchor] = useState<string | null>(null);
   const activeYearLabel = useMemo(() => {
@@ -316,6 +329,7 @@ export function FederalRegisterTimeline({
                       anchorId,
                       version,
                       missingEffectiveDate,
+                      notYetAvailableEffectiveDate,
                       ruleType,
                     },
                     index
@@ -384,6 +398,8 @@ export function FederalRegisterTimeline({
                                   <span className="fr-status cached">
                                     Stored {formatDateTime(version.fetchedAt)}
                                   </span>
+                                ) : notYetAvailableEffectiveDate ? (
+                                  <span className="fr-status pending">Not yet available</span>
                                 ) : missingEffectiveDate ? (
                                   <span className="fr-status unavailable">Unavailable</span>
                                 ) : effectiveDate ? (

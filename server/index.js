@@ -11,10 +11,13 @@ import {
 import {
   addDownloadedEffectiveDate,
   addMissingEffectiveDate,
+  addNotYetAvailableEffectiveDate,
   getDownloadedEffectiveDates,
   getMissingEffectiveDates,
+  getNotYetAvailableEffectiveDates,
   setDownloadedEffectiveDates,
   setMissingEffectiveDates,
+  setNotYetAvailableEffectiveDates,
 } from './ccl-date-metadata.js';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -29,35 +32,6 @@ const PART_NUMBER = '774';
 const ECFR_BASE = 'https://www.ecfr.gov/api/versioner/v1';
 const USER_AGENT = 'ccl-trade-app/1.0 (+https://github.com)';
 const REDOWNLOAD_THRESHOLD_MS = 30 * 24 * 60 * 60 * 1000;
-const ONE_DAY_IN_MS = 24 * 60 * 60 * 1000;
-const RECENT_MISSING_WINDOW_DAYS = 7;
-
-function isWithinPastDays(date, days) {
-  if (typeof date !== 'string') {
-    return false;
-  }
-
-  const trimmed = date.trim();
-  if (!/^\d{4}-\d{2}-\d{2}$/.test(trimmed)) {
-    return false;
-  }
-
-  const parsed = new Date(`${trimmed}T00:00:00Z`);
-  if (Number.isNaN(parsed.getTime())) {
-    return false;
-  }
-
-  const now = new Date();
-  const parsedUtc = Date.UTC(parsed.getUTCFullYear(), parsed.getUTCMonth(), parsed.getUTCDate());
-  const todayUtc = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate());
-  const diff = todayUtc - parsedUtc;
-
-  if (diff < 0) {
-    return false;
-  }
-
-  return diff <= days * ONE_DAY_IN_MS;
-}
 
 const app = express();
 app.use(express.json({ limit: '2mb' }));
@@ -410,6 +384,7 @@ async function runFederalRegisterRefresh() {
 
   try {
     const previousMissingDates = new Set(await getMissingEffectiveDates());
+    const previousNotYetAvailableDates = new Set(await getNotYetAvailableEffectiveDates());
     const downloadedEffectiveDateSet = new Set(await getDownloadedEffectiveDates());
 
     const data = await updateFederalRegisterDocuments({
@@ -443,35 +418,36 @@ async function runFederalRegisterRefresh() {
 
     const rawDownloadsByDate = new Map();
     const missingEffectiveDateSet = new Set(previousMissingDates);
+    const notYetAvailableEffectiveDateSet = new Set(previousNotYetAvailableDates);
     let missingEffectiveDates = Array.from(missingEffectiveDateSet);
+    let notYetAvailableEffectiveDates = Array.from(notYetAvailableEffectiveDateSet);
     const totalEffectiveDates = sortedEffectiveDates.length;
     for (let index = 0; index < totalEffectiveDates; index += 1) {
       const date = sortedEffectiveDates[index];
-      const isRecentDate = isWithinPastDays(date, RECENT_MISSING_WINDOW_DAYS);
       const prefix = formatProgressPrefix(index, totalEffectiveDates);
       recordFederalRegisterProgress(`${prefix}Checking raw XML cache for ${date}…`);
       const info = await getRawXmlInfo(date);
       if (info) {
         recordFederalRegisterProgress(`${prefix}Raw XML already cached for ${date}.`);
         missingEffectiveDateSet.delete(date);
+        notYetAvailableEffectiveDateSet.delete(date);
         downloadedEffectiveDateSet.add(date);
         await addDownloadedEffectiveDate(date);
         continue;
       }
 
       if (missingEffectiveDateSet.has(date)) {
-        if (isRecentDate) {
-          recordFederalRegisterProgress(
-            `${prefix}Retrying raw XML download for ${date}; removing recent missing flag.`
-          );
-          missingEffectiveDateSet.delete(date);
-        } else {
-          recordFederalRegisterProgress(
-            `${prefix}Skipping raw XML download for ${date}; previously marked unavailable.`
-          );
-          downloadedEffectiveDateSet.delete(date);
-          continue;
-        }
+        recordFederalRegisterProgress(
+          `${prefix}Skipping raw XML download for ${date}; previously marked unavailable.`
+        );
+        downloadedEffectiveDateSet.delete(date);
+        continue;
+      }
+
+      if (notYetAvailableEffectiveDateSet.has(date)) {
+        recordFederalRegisterProgress(
+          `${prefix}Retrying raw XML download for ${date}; previously not yet available.`
+        );
       }
 
       recordFederalRegisterProgress(`${prefix}Downloading raw XML for ${date}…`);
@@ -480,22 +456,28 @@ async function runFederalRegisterRefresh() {
         rawDownloadsByDate.set(date, { date, filePath });
         recordFederalRegisterProgress(`${prefix}Stored raw XML for ${date} at ${filePath}.`);
         missingEffectiveDateSet.delete(date);
+        notYetAvailableEffectiveDateSet.delete(date);
         downloadedEffectiveDateSet.add(date);
         await addDownloadedEffectiveDate(date);
       } catch (error) {
         if (isMissingEcfrContentError(error)) {
           const detail = extractMissingEcfrDetail(error);
           const suffix = detail ? ` (${detail})` : '';
-          recordFederalRegisterProgress(
-            `${prefix}No XML available from eCFR for ${date}${suffix}.`
-          );
+          const notYetAvailable = isEcfrNotYetAvailableError(error);
+          const baseMessage = notYetAvailable
+            ? `${prefix}CCL XML not yet available from eCFR for ${date}${suffix}.`
+            : `${prefix}No XML available from eCFR for ${date}${suffix}.`;
+          recordFederalRegisterProgress(baseMessage);
           downloadedEffectiveDateSet.delete(date);
-          if (isRecentDate) {
+          if (notYetAvailable) {
             recordFederalRegisterProgress(
-              `${prefix}Will retry ${date} on the next refresh because it is within the past week.`
+              `${prefix}Will retry ${date} on the next refresh because the issue is not yet published.`
             );
             missingEffectiveDateSet.delete(date);
+            notYetAvailableEffectiveDateSet.add(date);
+            notYetAvailableEffectiveDates = await addNotYetAvailableEffectiveDate(date);
           } else {
+            notYetAvailableEffectiveDateSet.delete(date);
             missingEffectiveDateSet.add(date);
             missingEffectiveDates = await addMissingEffectiveDate(date);
           }
@@ -527,6 +509,9 @@ async function runFederalRegisterRefresh() {
     }
 
     missingEffectiveDates = await setMissingEffectiveDates(Array.from(missingEffectiveDateSet));
+    notYetAvailableEffectiveDates = await setNotYetAvailableEffectiveDates(
+      Array.from(notYetAvailableEffectiveDateSet)
+    );
     const downloadedEffectiveDates = await setDownloadedEffectiveDates(
       Array.from(downloadedEffectiveDateSet)
     );
@@ -546,6 +531,13 @@ async function runFederalRegisterRefresh() {
         'new raw XML download',
         'new raw XML downloads'
       )}`,
+      notYetAvailableEffectiveDates.length
+        ? `tracking ${buildPlural(
+            notYetAvailableEffectiveDates.length,
+            'effective date not yet available',
+            'effective dates not yet available'
+          )}`
+        : null,
       missingEffectiveDates.length
         ? `noted ${buildPlural(
             missingEffectiveDates.length,
@@ -569,6 +561,7 @@ async function runFederalRegisterRefresh() {
       processedDates,
       rawXmlDownloads: rawDownloads,
       missingEffectiveDates,
+      notYetAvailableEffectiveDates,
       downloadedEffectiveDates,
     };
 
@@ -840,6 +833,24 @@ function isMissingEcfrContentError(error) {
   return sources.some((value) =>
     /No matching content found/i.test(value) ||
     /past the title's most recent issue date/i.test(value)
+  );
+}
+
+function isEcfrNotYetAvailableError(error) {
+  if (!error) {
+    return false;
+  }
+
+  const sources = [];
+  if (typeof error.body === 'string') {
+    sources.push(error.body);
+  }
+  if (typeof error.message === 'string') {
+    sources.push(error.message);
+  }
+
+  return sources.some((value) =>
+    /requested date\s+\d{4}-\d{2}-\d{2}.*past the title's most recent issue date/i.test(value)
   );
 }
 

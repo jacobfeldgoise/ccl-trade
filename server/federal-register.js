@@ -5,7 +5,10 @@ import { fileURLToPath } from 'url';
 import { promisify } from 'util';
 import { Agent as UndiciAgent, setGlobalDispatcher } from 'undici';
 
-import { getMissingEffectiveDates } from './ccl-date-metadata.js';
+import {
+  getMissingEffectiveDates,
+  getNotYetAvailableEffectiveDates,
+} from './ccl-date-metadata.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -33,6 +36,7 @@ export async function ensureFederalRegisterStorage() {
 export async function readFederalRegisterDocuments() {
   await ensureFederalRegisterStorage();
   const missingEffectiveDates = await getMissingEffectiveDates();
+  const notYetAvailableEffectiveDates = await getNotYetAvailableEffectiveDates();
   try {
     const raw = await fs.readFile(FEDERAL_REGISTER_JSON, 'utf-8');
     const parsed = JSON.parse(raw);
@@ -43,6 +47,7 @@ export async function readFederalRegisterDocuments() {
       documentCount:
         typeof parsed?.documentCount === 'number' ? parsed.documentCount : documents.length,
       missingEffectiveDates,
+      notYetAvailableEffectiveDates,
       documents,
     };
   } catch (error) {
@@ -52,6 +57,7 @@ export async function readFederalRegisterDocuments() {
         supplements: [],
         documentCount: 0,
         missingEffectiveDates,
+        notYetAvailableEffectiveDates,
         documents: [],
       };
     }
@@ -115,10 +121,12 @@ export async function updateFederalRegisterDocuments(options = {}) {
   log?.(`Stored ${documents.length} document(s) at ${FEDERAL_REGISTER_JSON}`);
 
   const missingEffectiveDates = await getMissingEffectiveDates();
+  const notYetAvailableEffectiveDates = await getNotYetAvailableEffectiveDates();
 
   return {
     ...storagePayload,
     missingEffectiveDates,
+    notYetAvailableEffectiveDates,
   };
 }
 
