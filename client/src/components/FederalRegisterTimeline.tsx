@@ -99,7 +99,7 @@ export function FederalRegisterTimeline({
   missingEffectiveDates,
   notYetAvailableEffectiveDates,
 }: FederalRegisterTimelineProps) {
-  const { timelineItems, navItems, totalDocuments, cachedDocumentCount, anchorYearMap } = useMemo(() => {
+  const { timelineItems, navItems, totalDocuments, cachedDocumentCount, anchorYearMap, yearAnchorMap } = useMemo(() => {
     const versionMap = new Map<string, VersionSummary>();
     versions.forEach((version) => {
       versionMap.set(version.date, version);
@@ -128,6 +128,7 @@ export function FederalRegisterTimeline({
 
     const navEntries: TimelineNavItem[] = [];
     const navEntryMap = new Map<string, TimelineNavItem>();
+    const yearAnchorLookup = new Map<string, string>();
     const anchorYearLookup = new Map<string, string>();
     const items: TimelineItem[] = sortedDocuments.map((doc, index) => {
       const effectiveDateRaw = getEffectiveDate(doc);
@@ -152,6 +153,10 @@ export function FederalRegisterTimeline({
         navEntry = { label, anchorId, count: 0 };
         navEntryMap.set(label, navEntry);
         navEntries.push(navEntry);
+        yearAnchorLookup.set(label, anchorId);
+      }
+      if (!yearAnchorLookup.has(label)) {
+        yearAnchorLookup.set(label, navEntry.anchorId);
       }
       navEntry.count += 1;
       anchorYearLookup.set(anchorId, label);
@@ -176,6 +181,7 @@ export function FederalRegisterTimeline({
       totalDocuments: sortedDocuments.length,
       cachedDocumentCount: cachedCount,
       anchorYearMap: anchorYearLookup,
+      yearAnchorMap: yearAnchorLookup,
     };
   }, [documents, versions, missingEffectiveDates, notYetAvailableEffectiveDates]);
 
@@ -258,30 +264,33 @@ export function FederalRegisterTimeline({
       const offset = 160;
       const viewportTop = offset;
       const viewportBottom = Math.max(viewportTop + 1, window.innerHeight - offset);
-      let current: string | null = navItems[0]?.anchorId ?? null;
-      const visibleAnchors: string[] = [];
+      const visibleAnchors = new Set<string>();
+      let fallbackAnchor: string | null = navItems[0]?.anchorId ?? null;
 
-      for (const item of navItems) {
+      for (const item of timelineItems) {
         const element = document.getElementById(item.anchorId);
         if (!element) {
           continue;
         }
 
         const rect = element.getBoundingClientRect();
-        if (rect.top - offset <= 0) {
-          current = item.anchorId;
+        const yearLabel = anchorYearMap.get(item.anchorId) ?? null;
+        const navAnchorForYear = yearLabel ? yearAnchorMap.get(yearLabel) ?? null : null;
+
+        if (rect.top - offset <= 0 && navAnchorForYear) {
+          fallbackAnchor = navAnchorForYear;
         }
 
-        if (rect.bottom >= viewportTop && rect.top <= viewportBottom) {
-          visibleAnchors.push(item.anchorId);
+        if (rect.bottom >= viewportTop && rect.top <= viewportBottom && navAnchorForYear) {
+          visibleAnchors.add(navAnchorForYear);
         }
       }
 
-      const uniqueVisible = sortAnchors(Array.from(new Set(visibleAnchors)));
-      const anchorsToApply = uniqueVisible.length
-        ? uniqueVisible
-        : current
-        ? [current]
+      const sortedVisibleAnchors = sortAnchors(Array.from(visibleAnchors));
+      const anchorsToApply = sortedVisibleAnchors.length
+        ? sortedVisibleAnchors
+        : fallbackAnchor
+        ? [fallbackAnchor]
         : [];
 
       setActiveAnchors((previous) => {
@@ -291,11 +300,12 @@ export function FederalRegisterTimeline({
         return anchorsToApply;
       });
 
+      const nextPrimary = anchorsToApply[0] ?? fallbackAnchor ?? null;
       setPrimaryAnchor((previous) => {
-        if (previous === current) {
+        if (previous === nextPrimary) {
           return previous;
         }
-        return current;
+        return nextPrimary;
       });
     };
 
@@ -305,7 +315,7 @@ export function FederalRegisterTimeline({
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, [navItems, sortAnchors]);
+  }, [navItems, sortAnchors, timelineItems, anchorYearMap, yearAnchorMap]);
 
   useEffect(() => {
     if (!navItems.length) {
