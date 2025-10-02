@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 
 import { FederalRegisterDocument, VersionSummary } from '../types';
 import { formatDate, formatDateTime, formatNumber } from '../utils/format';
@@ -179,28 +179,71 @@ export function FederalRegisterTimeline({
     };
   }, [documents, versions, missingEffectiveDates, notYetAvailableEffectiveDates]);
 
-  const [activeAnchor, setActiveAnchor] = useState<string | null>(null);
+  const navRef = useRef<HTMLDivElement | null>(null);
+  const [primaryAnchor, setPrimaryAnchor] = useState<string | null>(null);
+  const [activeAnchors, setActiveAnchors] = useState<string[]>([]);
+  const [navOverflowing, setNavOverflowing] = useState(false);
   const activeYearLabel = useMemo(() => {
-    if (!activeAnchor) {
+    if (!primaryAnchor) {
       return null;
     }
 
-    return anchorYearMap.get(activeAnchor) ?? null;
-  }, [activeAnchor, anchorYearMap]);
+    return anchorYearMap.get(primaryAnchor) ?? null;
+  }, [primaryAnchor, anchorYearMap]);
 
-  useEffect(() => {
-    if (!navItems.length) {
-      setActiveAnchor(null);
+  const anchorOrder = useMemo(() => {
+    const orderMap = new Map<string, number>();
+    navItems.forEach((item, index) => {
+      orderMap.set(item.anchorId, index);
+    });
+    return orderMap;
+  }, [navItems]);
+
+  const sortAnchors = useCallback(
+    (anchors: string[]) =>
+      [...anchors]
+        .filter((anchor) => anchorOrder.has(anchor))
+        .sort((a, b) => (anchorOrder.get(a)! - anchorOrder.get(b)!)),
+    [anchorOrder]
+  );
+
+  const recomputeNavOverflow = useCallback(() => {
+    const element = navRef.current;
+    if (!element) {
+      setNavOverflowing(false);
       return;
     }
 
-    setActiveAnchor((previous) => {
+    const hasOverflow = element.scrollHeight - element.clientHeight > 1;
+    setNavOverflowing(hasOverflow);
+  }, []);
+
+  useEffect(() => {
+    if (!navItems.length) {
+      setPrimaryAnchor(null);
+      setActiveAnchors([]);
+      return;
+    }
+
+    setPrimaryAnchor((previous) => {
       if (previous && navItems.some((item) => item.anchorId === previous)) {
         return previous;
       }
       return navItems[0].anchorId;
     });
-  }, [navItems]);
+
+    setActiveAnchors((previous) => {
+      const filtered = previous.filter((anchor) => navItems.some((item) => item.anchorId === anchor));
+      if (filtered.length === 0) {
+        return [navItems[0].anchorId];
+      }
+      const sorted = sortAnchors(filtered);
+      if (sorted.length === previous.length && sorted.every((anchor, index) => anchor === previous[index])) {
+        return previous;
+      }
+      return sorted;
+    });
+  }, [navItems, sortAnchors]);
 
   useEffect(() => {
     if (typeof window === 'undefined') {
@@ -213,7 +256,10 @@ export function FederalRegisterTimeline({
 
     const handleScroll = () => {
       const offset = 160;
+      const viewportTop = offset;
+      const viewportBottom = Math.max(viewportTop + 1, window.innerHeight - offset);
       let current: string | null = navItems[0]?.anchorId ?? null;
+      const visibleAnchors: string[] = [];
 
       for (const item of navItems) {
         const element = document.getElementById(item.anchorId);
@@ -224,12 +270,33 @@ export function FederalRegisterTimeline({
         const rect = element.getBoundingClientRect();
         if (rect.top - offset <= 0) {
           current = item.anchorId;
-        } else {
-          break;
+        }
+
+        if (rect.bottom >= viewportTop && rect.top <= viewportBottom) {
+          visibleAnchors.push(item.anchorId);
         }
       }
 
-      setActiveAnchor(current);
+      const uniqueVisible = sortAnchors(Array.from(new Set(visibleAnchors)));
+      const anchorsToApply = uniqueVisible.length
+        ? uniqueVisible
+        : current
+        ? [current]
+        : [];
+
+      setActiveAnchors((previous) => {
+        if (previous.length === anchorsToApply.length && previous.every((anchor, index) => anchor === anchorsToApply[index])) {
+          return previous;
+        }
+        return anchorsToApply;
+      });
+
+      setPrimaryAnchor((previous) => {
+        if (previous === current) {
+          return previous;
+        }
+        return current;
+      });
     };
 
     handleScroll();
@@ -238,7 +305,37 @@ export function FederalRegisterTimeline({
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, [navItems]);
+  }, [navItems, sortAnchors]);
+
+  useEffect(() => {
+    if (!navItems.length) {
+      setNavOverflowing(false);
+      return;
+    }
+
+    const frame = window.requestAnimationFrame(() => {
+      recomputeNavOverflow();
+    });
+
+    return () => {
+      window.cancelAnimationFrame(frame);
+    };
+  }, [navItems, recomputeNavOverflow]);
+
+  useEffect(() => {
+    if (typeof window === 'undefined') {
+      return;
+    }
+
+    const handleResize = () => {
+      recomputeNavOverflow();
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, [recomputeNavOverflow]);
 
   const handleNavigate = useCallback((anchorId: string) => {
     if (typeof document === 'undefined') {
@@ -249,7 +346,13 @@ export function FederalRegisterTimeline({
     if (element) {
       element.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
-    setActiveAnchor(anchorId);
+    setPrimaryAnchor(anchorId);
+    setActiveAnchors((previous) => {
+      if (previous.length === 1 && previous[0] === anchorId) {
+        return previous;
+      }
+      return [anchorId];
+    });
   }, []);
 
   return (
@@ -280,16 +383,20 @@ export function FederalRegisterTimeline({
 
       <div className="fr-content">
         {navItems.length > 0 && (
-          <nav className="fr-timeline-nav" aria-label="Federal Register timeline years">
+          <nav
+            ref={navRef}
+            className={`fr-timeline-nav condensed${navOverflowing ? ' overflowing' : ''}`}
+            aria-label="Federal Register timeline years"
+          >
             {navItems.map((item) => {
-              const isActive = activeAnchor === item.anchorId;
+              const isActive = activeAnchors.includes(item.anchorId);
               return (
                 <button
                   key={item.anchorId}
                   type="button"
                   className={`fr-nav-button${isActive ? ' active' : ''}`}
                   onClick={() => handleNavigate(item.anchorId)}
-                  aria-current={isActive ? 'true' : undefined}
+                  aria-current={primaryAnchor === item.anchorId ? 'true' : undefined}
                 >
                   <span className="fr-nav-label">{item.label}</span>
                   <span className="fr-nav-count">{formatNumber(item.count)}</span>
