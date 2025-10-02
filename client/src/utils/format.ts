@@ -1,5 +1,26 @@
+const ISO_DATE_ONLY = /^(\d{4})-(\d{2})-(\d{2})$/;
+
 export function formatDate(dateString?: string): string {
   if (!dateString) return 'Unknown';
+
+  const isoDateOnlyMatch = ISO_DATE_ONLY.exec(dateString.trim());
+  if (isoDateOnlyMatch) {
+    // Interpret API-provided YYYY-MM-DD dates as calendar dates without a
+    // timezone component so they display consistently regardless of the
+    // viewer's locale.
+    const [_, year, month, day] = isoDateOnlyMatch;
+    const date = new Date(`${year}-${month}-${day}T00:00:00Z`);
+    if (Number.isNaN(date.getTime())) {
+      return dateString;
+    }
+    return new Intl.DateTimeFormat(undefined, {
+      year: 'numeric',
+      month: 'short',
+      day: '2-digit',
+      timeZone: 'UTC',
+    }).format(date);
+  }
+
   const date = new Date(dateString);
   if (Number.isNaN(date.getTime())) {
     return dateString;

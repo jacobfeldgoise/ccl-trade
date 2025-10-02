@@ -1,11 +1,14 @@
+import { execFile } from 'child_process';
 import { promises as fs } from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { promisify } from 'util';
+import { Agent as UndiciAgent, setGlobalDispatcher } from 'undici';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const FEDERAL_REGISTER_DATA_DIR = path.join(__dirname, 'data');
+const FEDERAL_REGISTER_DATA_DIR = path.join(__dirname, '..', 'data');
 const FEDERAL_REGISTER_JSON = path.join(
   FEDERAL_REGISTER_DATA_DIR,
   'federal-register-documents.json'
@@ -100,6 +103,8 @@ export async function updateFederalRegisterDocuments(options = {}) {
   return output;
 }
 
+const execFileAsync = promisify(execFile);
+
 async function fetchDocumentsForSupplement(supplementNumber, searchTerms, log) {
   const collected = new Map();
 
@@ -122,7 +127,6 @@ async function fetchDocumentsForSupplement(supplementNumber, searchTerms, log) {
           'html_url',
           'publication_date',
           'effective_on',
-          'effective_date',
           'type',
           'action',
           'signing_date',
@@ -171,16 +175,15 @@ function normalizeDocument(rawDoc, supplements) {
     ? rawDoc.cfr_references.filter((entry) => entry && entry.part === '774')
     : [];
 
+  const publicationDate = normalizeApiDate(rawDoc?.publication_date);
+  const effectiveOn = normalizeApiDate(rawDoc?.effective_on) ?? publicationDate;
+
   return {
     documentNumber: rawDoc.document_number || null,
     title: rawDoc.title || null,
     htmlUrl: rawDoc.html_url || null,
-    publicationDate: rawDoc.publication_date || null,
-    effectiveOn:
-      rawDoc.effective_on ||
-      rawDoc.publication_date ||
-      rawDoc.effective_date ||
-      null,
+    publicationDate,
+    effectiveOn,
     type: rawDoc.type || null,
     action: rawDoc.action || null,
     signingDate: rawDoc.signing_date || null,
@@ -196,20 +199,104 @@ function normalizeDocument(rawDoc, supplements) {
   };
 }
 
-async function fetchJson(url) {
-  const response = await fetch(url, {
-    headers: {
-      'User-Agent': USER_AGENT,
-      Accept: 'application/json',
-    },
-  });
+const ISO_DATE_ONLY_REGEX = /^\d{4}-\d{2}-\d{2}$/;
 
-  if (!response.ok) {
-    const body = await safeReadBody(response);
-    throw new Error(`Request failed (${response.status} ${response.statusText}): ${body}`);
+function normalizeApiDate(value) {
+  if (typeof value !== 'string') {
+    return null;
   }
 
-  return response.json();
+  const trimmed = value.trim();
+  if (!ISO_DATE_ONLY_REGEX.test(trimmed)) {
+    return null;
+  }
+
+  return trimmed;
+}
+
+async function fetchJson(url) {
+  ensureFetchDispatcher();
+  try {
+    const response = await fetch(url, {
+      headers: {
+        'User-Agent': USER_AGENT,
+        Accept: 'application/json',
+      },
+    });
+
+    if (!response.ok) {
+      const body = await safeReadBody(response);
+      throw new Error(`Request failed (${response.status} ${response.statusText}): ${body}`);
+    }
+
+    return await response.json();
+  } catch (error) {
+    return fetchJsonWithCurl(url, error);
+  }
+}
+
+let curlFallbackWarned = false;
+
+async function fetchJsonWithCurl(url, originalError) {
+  if (process.env.FEDERAL_REGISTER_DISABLE_CURL_FALLBACK === '1') {
+    throw originalError;
+  }
+
+  if (!curlFallbackWarned) {
+    console.warn(
+      'fetch failed for Federal Register API, falling back to curl:',
+      originalError
+    );
+    curlFallbackWarned = true;
+  }
+
+  try {
+    const { stdout } = await execFileAsync('curl', [
+      '--silent',
+      '--show-error',
+      '--fail',
+      '--location',
+      '--header',
+      `User-Agent: ${USER_AGENT}`,
+      '--header',
+      'Accept: application/json',
+      url,
+    ]);
+    return JSON.parse(stdout);
+  } catch (curlError) {
+    if (originalError) {
+      curlError.message = `${curlError.message}\nOriginal fetch error: ${originalError.message}`;
+    }
+    throw curlError;
+  }
+}
+
+let dispatcherConfigured = false;
+
+function ensureFetchDispatcher() {
+  if (dispatcherConfigured) {
+    return;
+  }
+
+  try {
+    setGlobalDispatcher(
+      new UndiciAgent({
+        connect: {
+          // Prefer IPv4 to avoid environments where IPv6 routing is blocked.
+          family: 4,
+        },
+      })
+    );
+    dispatcherConfigured = true;
+  } catch (error) {
+    // If the dispatcher cannot be configured (e.g. older Node/undici), log once
+    // and continue with the default behaviour so the request still has a chance
+    // to succeed.
+    if (!ensureFetchDispatcher._warned) {
+      console.warn('Failed to configure fetch dispatcher:', error);
+      ensureFetchDispatcher._warned = true;
+    }
+  }
 }
 
 async function safeReadBody(response) {
