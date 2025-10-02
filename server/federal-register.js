@@ -116,6 +116,21 @@ async function fetchDocumentsForSupplement(supplementNumber, searchTerms, log) {
         'conditions[cfr][part]': 774,
         'conditions[type][]': 'RULE',
         'conditions[term]': `${term} "part 774"`,
+        'fields[]': [
+          'document_number',
+          'title',
+          'html_url',
+          'publication_date',
+          'effective_on',
+          'effective_date',
+          'type',
+          'action',
+          'signing_date',
+          'agencies',
+          'citation',
+          'docket_ids',
+          'cfr_references',
+        ],
       });
 
       const json = await fetchJson(url);
@@ -161,7 +176,11 @@ function normalizeDocument(rawDoc, supplements) {
     title: rawDoc.title || null,
     htmlUrl: rawDoc.html_url || null,
     publicationDate: rawDoc.publication_date || null,
-    effectiveOn: rawDoc.effective_on || rawDoc.effective_date || null,
+    effectiveOn:
+      rawDoc.effective_on ||
+      rawDoc.publication_date ||
+      rawDoc.effective_date ||
+      null,
     type: rawDoc.type || null,
     action: rawDoc.action || null,
     signingDate: rawDoc.signing_date || null,
