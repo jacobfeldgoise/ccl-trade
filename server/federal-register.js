@@ -28,22 +28,54 @@ export async function ensureFederalRegisterStorage() {
   await fs.mkdir(FEDERAL_REGISTER_DATA_DIR, { recursive: true });
 }
 
+function normalizeMissingDates(value) {
+  if (!Array.isArray(value)) {
+    return [];
+  }
+  const seen = new Set();
+  const sanitized = [];
+  for (const entry of value) {
+    if (typeof entry !== 'string') {
+      continue;
+    }
+    const trimmed = entry.trim();
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(trimmed)) {
+      continue;
+    }
+    if (seen.has(trimmed)) {
+      continue;
+    }
+    seen.add(trimmed);
+    sanitized.push(trimmed);
+  }
+  sanitized.sort();
+  return sanitized;
+}
+
 export async function readFederalRegisterDocuments() {
   await ensureFederalRegisterStorage();
   try {
     const raw = await fs.readFile(FEDERAL_REGISTER_JSON, 'utf-8');
     const parsed = JSON.parse(raw);
     const documents = Array.isArray(parsed?.documents) ? parsed.documents : [];
+    const missingEffectiveDates = normalizeMissingDates(parsed?.missingEffectiveDates);
     return {
       generatedAt: parsed?.generatedAt ?? null,
       supplements: Array.isArray(parsed?.supplements) ? parsed.supplements : [],
       documentCount:
         typeof parsed?.documentCount === 'number' ? parsed.documentCount : documents.length,
+      missingEffectiveDates,
       documents,
     };
   } catch (error) {
     if (error.code === 'ENOENT') {
-      return { generatedAt: null, supplements: [], documentCount: 0, documents: [] };
+      return {
+        generatedAt: null,
+        supplements: [],
+        documentCount: 0,
+        missingEffectiveDates: [],
+        documents: [],
+      };
     }
     if (error instanceof SyntaxError) {
       console.error('Invalid Federal Register JSON payload', error.message);
@@ -93,6 +125,7 @@ export async function updateFederalRegisterDocuments(options = {}) {
     generatedAt: new Date().toISOString(),
     supplements: SUPPLEMENTS.map((entry) => entry.number),
     documentCount: documents.length,
+    missingEffectiveDates: [],
     documents,
   };
 
@@ -101,6 +134,45 @@ export async function updateFederalRegisterDocuments(options = {}) {
   log?.(`Stored ${documents.length} document(s) at ${FEDERAL_REGISTER_JSON}`);
 
   return output;
+}
+
+export async function setFederalRegisterMissingEffectiveDates(dates) {
+  const missingEffectiveDates = normalizeMissingDates(dates);
+
+  await ensureFederalRegisterStorage();
+
+  let base = {
+    generatedAt: null,
+    supplements: [],
+    documentCount: 0,
+    documents: [],
+  };
+
+  try {
+    const raw = await fs.readFile(FEDERAL_REGISTER_JSON, 'utf-8');
+    const parsed = JSON.parse(raw);
+    const documents = Array.isArray(parsed?.documents) ? parsed.documents : [];
+    base = {
+      generatedAt: parsed?.generatedAt ?? null,
+      supplements: Array.isArray(parsed?.supplements) ? parsed.supplements : [],
+      documentCount:
+        typeof parsed?.documentCount === 'number' ? parsed.documentCount : documents.length,
+      documents,
+    };
+  } catch (error) {
+    if (error.code !== 'ENOENT') {
+      throw error;
+    }
+  }
+
+  const payload = {
+    ...base,
+    missingEffectiveDates,
+  };
+
+  await fs.writeFile(FEDERAL_REGISTER_JSON, `${JSON.stringify(payload, null, 2)}\n`, 'utf-8');
+
+  return missingEffectiveDates;
 }
 
 const execFileAsync = promisify(execFile);

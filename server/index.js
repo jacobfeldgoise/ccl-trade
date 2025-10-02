@@ -6,6 +6,7 @@ import { load } from 'cheerio';
 import {
   ensureFederalRegisterStorage,
   readFederalRegisterDocuments,
+  setFederalRegisterMissingEffectiveDates,
   updateFederalRegisterDocuments,
 } from './federal-register.js';
 
@@ -210,6 +211,7 @@ app.post('/api/federal-register/refresh', async (_req, res) => {
     }
 
     const rawDownloads = [];
+    const missingEffectiveDateSet = new Set();
     for (const date of sortedEffectiveDates) {
       sendProgress(`Checking raw XML cache for ${date}…`);
       const info = await getRawXmlInfo(date);
@@ -219,9 +221,20 @@ app.post('/api/federal-register/refresh', async (_req, res) => {
       }
 
       sendProgress(`Downloading raw XML for ${date}…`);
-      const { filePath } = await getRawXml(date, { forceDownload: true });
-      rawDownloads.push({ date, filePath });
-      sendProgress(`Stored raw XML for ${date} at ${filePath}.`);
+      try {
+        const { filePath } = await getRawXml(date, { forceDownload: true });
+        rawDownloads.push({ date, filePath });
+        sendProgress(`Stored raw XML for ${date} at ${filePath}.`);
+      } catch (error) {
+        if (isMissingEcfrContentError(error)) {
+          const detail = extractMissingEcfrDetail(error);
+          const suffix = detail ? ` (${detail})` : '';
+          sendProgress(`No XML available from eCFR for ${date}${suffix}.`);
+          missingEffectiveDateSet.add(date);
+          continue;
+        }
+        throw error;
+      }
     }
 
     sendProgress('Re-parsing stored XML files…');
@@ -242,11 +255,32 @@ app.post('/api/federal-register/refresh', async (_req, res) => {
       }
     }
 
-    const finalMessage = `Refreshed Federal Register metadata, cached ${buildPlural(
-      rawDownloads.length,
-      'new raw XML download',
-      'new raw XML downloads'
-    )}, and re-parsed ${buildPlural(processedDates.length, 'stored XML file', 'stored XML files')}.`;
+    const missingEffectiveDates = await setFederalRegisterMissingEffectiveDates(
+      Array.from(missingEffectiveDateSet)
+    );
+
+    const summaryParts = [
+      'Refreshed Federal Register metadata',
+      `cached ${buildPlural(
+        rawDownloads.length,
+        'new raw XML download',
+        'new raw XML downloads'
+      )}`,
+      missingEffectiveDates.length
+        ? `noted ${buildPlural(
+            missingEffectiveDates.length,
+            'effective date with no eCFR data',
+            'effective dates with no eCFR data'
+          )}`
+        : null,
+      `re-parsed ${buildPlural(
+        processedDates.length,
+        'stored XML file',
+        'stored XML files'
+      )}`,
+    ].filter(Boolean);
+
+    const finalMessage = `${summaryParts.join(', ')}.`;
 
     writeEvent({
       type: 'complete',
@@ -257,6 +291,7 @@ app.post('/api/federal-register/refresh', async (_req, res) => {
         documentCount: data.documentCount,
         processedDates,
         rawXmlDownloads: rawDownloads,
+        missingEffectiveDates,
       },
     });
     res.end();
@@ -473,7 +508,16 @@ async function downloadRawXml(date) {
   });
   if (!response.ok) {
     const body = await safeReadBody(response);
-    throw new Error(`Failed to download CCL data (${response.status} ${response.statusText}): ${body}`);
+    const error = new Error(
+      `Failed to download CCL data (${response.status} ${response.statusText}): ${body}`
+    );
+    error.status = response.status;
+    error.statusText = response.statusText;
+    error.body = body;
+    if (response.status === 404 && /No matching content found/i.test(body)) {
+      error.code = 'ECFR_NO_MATCHING_CONTENT';
+    }
+    throw error;
   }
   const xml = await response.text();
   return xml;
@@ -545,6 +589,81 @@ function buildHeaders(accept) {
     Accept: accept,
     'User-Agent': USER_AGENT,
   };
+}
+
+function isMissingEcfrContentError(error) {
+  if (!error) {
+    return false;
+  }
+  if (error.code === 'ECFR_NO_MATCHING_CONTENT') {
+    return true;
+  }
+  const sources = [];
+  if (typeof error.body === 'string') {
+    sources.push(error.body);
+  }
+  if (typeof error.message === 'string') {
+    sources.push(error.message);
+  }
+  return sources.some((value) => /No matching content found/i.test(value));
+}
+
+function extractMissingEcfrDetail(error) {
+  if (!error) {
+    return null;
+  }
+  const sources = [];
+  if (typeof error.body === 'string') {
+    sources.push(error.body);
+  }
+  if (typeof error.message === 'string') {
+    sources.push(error.message);
+  }
+  for (const source of sources) {
+    const detail = parseEcfrErrorDetail(source);
+    if (detail) {
+      return detail;
+    }
+  }
+  return null;
+}
+
+function parseEcfrErrorDetail(value) {
+  if (!value || typeof value !== 'string') {
+    return null;
+  }
+
+  try {
+    const parsed = JSON.parse(value);
+    const candidates = [
+      parsed?.errors?.detail,
+      parsed?.error,
+      parsed?.message,
+      parsed?.detail,
+    ];
+    for (const candidate of candidates) {
+      if (typeof candidate === 'string' && candidate.trim()) {
+        return ensureTerminalPeriod(candidate.trim());
+      }
+    }
+  } catch (error) {
+    // ignore JSON parse issues and fall back to string matching
+  }
+
+  const match = value.match(/No matching content found\.?/i);
+  if (match) {
+    return ensureTerminalPeriod(match[0].trim());
+  }
+
+  return null;
+}
+
+function ensureTerminalPeriod(text) {
+  if (!text) {
+    return text;
+  }
+  const trimmed = text.trim();
+  return trimmed.endsWith('.') ? trimmed : `${trimmed}.`;
 }
 
 const TARGET_SUPPLEMENTS = new Set(['1', '5', '6', '7']);

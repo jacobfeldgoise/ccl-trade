@@ -15,7 +15,7 @@ interface VersionSettingsProps {
   onRefreshFederalDocuments: () => Promise<void> | void;
   federalDocumentsStatus?: string | null;
   federalDocumentsError?: string | null;
-  federalDocumentsProgress?: string[];
+  federalDocumentsProgress?: string | null;
 }
 
 export function VersionSettings({
@@ -165,12 +165,8 @@ export function VersionSettings({
           {federalDocumentsRefreshing ? 'Refreshing…' : 'Refresh Federal Register data'}
         </button>
         <p className="help-text subtle">{federalRegisterLastRefreshed}</p>
-        {federalDocumentsProgress && federalDocumentsProgress.length > 0 ? (
-          <div className="help-text subtle status-log">
-            {federalDocumentsProgress.map((entry, index) => (
-              <div key={`${entry}-${index}`}>{entry}</div>
-            ))}
-          </div>
+        {federalDocumentsProgress ? (
+          <div className="help-text subtle status-log">{federalDocumentsProgress}</div>
         ) : null}
         {federalDocumentsStatus ? <div className="alert info">{federalDocumentsStatus}</div> : null}
         {federalDocumentsError ? <div className="alert error">{federalDocumentsError}</div> : null}

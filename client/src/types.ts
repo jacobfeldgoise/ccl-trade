@@ -94,6 +94,7 @@ export interface FederalRegisterDocumentsResponse {
   generatedAt: string | null;
   supplements: string[];
   documentCount: number;
+  missingEffectiveDates: string[];
   documents: FederalRegisterDocument[];
 }
 
@@ -108,6 +109,7 @@ export interface FederalRegisterRefreshResponse {
   documentCount: number;
   processedDates: { date: string; fetchedAt: string }[];
   rawXmlDownloads: FederalRegisterRawXmlDownload[];
+  missingEffectiveDates: string[];
 }
 
 export interface FederalRegisterRefreshEvent {

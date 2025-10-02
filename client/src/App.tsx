@@ -966,7 +966,8 @@ function App() {
   const [federalDocumentsError, setFederalDocumentsError] = useState<string | null>(null);
   const [refreshingFederalDocuments, setRefreshingFederalDocuments] = useState(false);
   const [federalDocumentsStatus, setFederalDocumentsStatus] = useState<string | null>(null);
-  const [federalDocumentsProgress, setFederalDocumentsProgress] = useState<string[]>([]);
+  const [federalDocumentsProgress, setFederalDocumentsProgress] = useState<string | null>(null);
+  const [federalDocumentsMissingDates, setFederalDocumentsMissingDates] = useState<string[]>([]);
 
   const loadVersions = useCallback(async (): Promise<VersionsResponse | null> => {
     setLoadingVersions(true);
@@ -992,6 +993,7 @@ function App() {
       const response = await getFederalRegisterDocuments();
       setFederalDocuments(response.documents);
       setFederalDocumentsGeneratedAt(response.generatedAt);
+      setFederalDocumentsMissingDates(response.missingEffectiveDates ?? []);
     } catch (err) {
       setFederalDocumentsError(
         `Unable to load Federal Register documents: ${getErrorMessage(err)}`,
@@ -1005,26 +1007,25 @@ function App() {
     setRefreshingFederalDocuments(true);
     setFederalDocumentsError(null);
     setFederalDocumentsStatus(null);
-    setFederalDocumentsProgress([]);
+    setFederalDocumentsProgress(null);
     try {
       const response = await refreshFederalRegisterDocuments((event) => {
         if (event.type === 'progress' && event.message) {
-          const message = event.message;
-          setFederalDocumentsProgress((prev) => [...prev, message]);
+          setFederalDocumentsProgress(event.message);
         }
         if (event.type === 'complete' && event.message) {
-          const message = event.message;
-          setFederalDocumentsProgress((prev) => [...prev, message]);
+          setFederalDocumentsProgress(event.message);
         }
         if (event.type === 'error' && event.message) {
-          const message = event.message;
-          setFederalDocumentsProgress((prev) => [...prev, message]);
+          setFederalDocumentsProgress(event.message);
         }
       });
 
       setFederalDocumentsStatus(response.message);
       setFederalDocumentsGeneratedAt(response.generatedAt);
+      setFederalDocumentsMissingDates(response.missingEffectiveDates ?? []);
       await loadFederalDocuments();
+      setFederalDocumentsProgress(null);
     } catch (err) {
       const message = getErrorMessage(err);
       const errorMessage = `Unable to refresh Federal Register documents: ${message}`;
@@ -2040,6 +2041,7 @@ function App() {
             loading={loadingFederalDocuments}
             error={federalDocumentsError}
             generatedAt={federalDocumentsGeneratedAt}
+            missingEffectiveDates={federalDocumentsMissingDates}
           />
         ) : null}
         {activeTab === 'settings' ? (
