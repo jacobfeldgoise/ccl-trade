@@ -41,6 +41,8 @@ type UrlState = {
   explorerQuery: string;
   historyQuery: string;
   tradeQuery: string;
+  explorerEccn: string;
+  historyEccn: string;
 };
 
 const DEFAULT_APP_TAB: AppTab = 'explorer';
@@ -48,6 +50,32 @@ const TAB_QUERY_PARAM = 'tab';
 const EXPLORER_QUERY_PARAM = 'explorer';
 const HISTORY_QUERY_PARAM = 'history';
 const TRADE_QUERY_PARAM = 'trade';
+const EXPLORER_ECCN_PARAM = 'explorerEccn';
+const HISTORY_ECCN_PARAM = 'historyEccn';
+
+function sanitizeEccnParam(value: string | null): string {
+  if (!value) {
+    return '';
+  }
+
+  const parsed = extractEccnQuery(value);
+  if (parsed) {
+    return parsed.code;
+  }
+
+  const trimmed = value.trim();
+  if (!trimmed) {
+    return '';
+  }
+
+  const upper = trimmed.toUpperCase();
+  if (!ECCN_ALLOWED_CHARS_PATTERN.test(upper)) {
+    return '';
+  }
+
+  const compressed = upper.replace(/\s+/g, '');
+  return compressed;
+}
 
 function parseAppTab(value: string | null): AppTab {
   switch (value) {
@@ -69,6 +97,8 @@ function getUrlStateFromSearch(search: string): UrlState {
     explorerQuery: params.get(EXPLORER_QUERY_PARAM) ?? '',
     historyQuery: params.get(HISTORY_QUERY_PARAM) ?? '',
     tradeQuery: params.get(TRADE_QUERY_PARAM) ?? '',
+    explorerEccn: sanitizeEccnParam(params.get(EXPLORER_ECCN_PARAM)),
+    historyEccn: sanitizeEccnParam(params.get(HISTORY_ECCN_PARAM)),
   };
 }
 
@@ -79,6 +109,8 @@ function readInitialUrlState(): UrlState {
       explorerQuery: '',
       historyQuery: '',
       tradeQuery: '',
+      explorerEccn: '',
+      historyEccn: '',
     };
   }
   return getUrlStateFromSearch(window.location.search);
@@ -1000,11 +1032,14 @@ function App() {
   const [selectedDate, setSelectedDate] = useState<string | undefined>();
   const [dataset, setDataset] = useState<CclDataset | null>(null);
   const datasetCacheRef = useRef<Map<string, CclDataset>>(new Map());
-  const [selectedEccn, setSelectedEccn] = useState<string | undefined>();
+  const [selectedEccn, setSelectedEccn] = useState<string | undefined>(() =>
+    initialUrlState.explorerEccn ? initialUrlState.explorerEccn : undefined
+  );
   const [focusedNodeIdentifier, setFocusedNodeIdentifier] = useState<string | undefined>();
   const [eccnFilter, setEccnFilter] = useState(initialUrlState.explorerQuery);
   const [historyQuery, setHistoryQuery] = useState(initialUrlState.historyQuery);
   const [tradeQuery, setTradeQuery] = useState(initialUrlState.tradeQuery);
+  const [historySelectedEccn, setHistorySelectedEccn] = useState(initialUrlState.historyEccn);
   const [selectedSupplements, setSelectedSupplements] = useState<string[]>([]);
   const [loadingVersions, setLoadingVersions] = useState(false);
   const [loadingDataset, setLoadingDataset] = useState(false);
@@ -1037,6 +1072,8 @@ function App() {
       setEccnFilter(nextState.explorerQuery);
       setHistoryQuery(nextState.historyQuery);
       setTradeQuery(nextState.tradeQuery);
+      setSelectedEccn(nextState.explorerEccn || undefined);
+      setHistorySelectedEccn(nextState.historyEccn);
     };
 
     window.addEventListener('popstate', handlePopState);
@@ -1071,6 +1108,8 @@ function App() {
     syncQueryParam(EXPLORER_QUERY_PARAM, eccnFilter);
     syncQueryParam(HISTORY_QUERY_PARAM, historyQuery);
     syncQueryParam(TRADE_QUERY_PARAM, tradeQuery);
+    syncQueryParam(EXPLORER_ECCN_PARAM, selectedEccn ?? '');
+    syncQueryParam(HISTORY_ECCN_PARAM, historySelectedEccn);
 
     const nextSearch = params.toString();
     const currentSearch = url.search.length > 0 ? url.search.slice(1) : '';
@@ -1078,7 +1117,7 @@ function App() {
       const nextUrl = `${url.pathname}${nextSearch ? `?${nextSearch}` : ''}${url.hash}`;
       window.history.replaceState(null, '', nextUrl);
     }
-  }, [activeTab, eccnFilter, historyQuery, tradeQuery]);
+  }, [activeTab, eccnFilter, historyQuery, tradeQuery, selectedEccn, historySelectedEccn]);
 
   const syncFederalRegisterStatus = useCallback(
     (status: FederalRegisterRefreshStatus | null | undefined) => {
@@ -1544,11 +1583,10 @@ function App() {
 
   useEffect(() => {
     setFocusedNodeIdentifier(undefined);
-    if (!filteredEccns.length) {
-      setSelectedEccn(undefined);
-      return;
-    }
     setSelectedEccn((previous) => {
+      if (filteredEccns.length === 0) {
+        return previous;
+      }
       if (previous && filteredEccns.some((entry) => entry.eccn === previous)) {
         return previous;
       }
@@ -2225,6 +2263,8 @@ function App() {
             onNavigateToEccn={handleNavigateToEccn}
             query={historyQuery}
             onQueryChange={setHistoryQuery}
+            selectedCode={historySelectedEccn}
+            onSelectedCodeChange={setHistorySelectedEccn}
           />
         ) : null}
         {activeTab === 'trade' ? (
