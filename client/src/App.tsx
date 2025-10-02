@@ -3,6 +3,7 @@ import './App.css';
 import {
   downloadCcl,
   getCcl,
+  getEccnHistory,
   getFederalRegisterDocuments,
   getVersions,
   refreshFederalRegisterDocuments,
@@ -11,6 +12,7 @@ import {
 import {
   CclDataset,
   CclSupplement,
+  EccnHistoryResponse,
   FederalRegisterDocument,
   FederalRegisterRefreshEvent,
   FederalRegisterRefreshStatus,
@@ -1032,6 +1034,7 @@ function App() {
   const [selectedDate, setSelectedDate] = useState<string | undefined>();
   const [dataset, setDataset] = useState<CclDataset | null>(null);
   const datasetCacheRef = useRef<Map<string, CclDataset>>(new Map());
+  const historyCacheRef = useRef<Map<string, EccnHistoryResponse>>(new Map());
   const [selectedEccn, setSelectedEccn] = useState<string | undefined>(() =>
     initialUrlState.explorerEccn ? initialUrlState.explorerEccn : undefined
   );
@@ -1379,6 +1382,7 @@ function App() {
     try {
       const data = await downloadCcl(date);
       applyDataset(data);
+      historyCacheRef.current.clear();
       await loadVersions();
     } catch (err) {
       setError(`Unable to download version ${date}: ${getErrorMessage(err)}`);
@@ -1393,6 +1397,7 @@ function App() {
     try {
       await reparseStoredCcls();
       datasetCacheRef.current.clear();
+      historyCacheRef.current.clear();
       await loadVersions();
       if (selectedDate) {
         const data = await getCcl(selectedDate);
@@ -1417,23 +1422,24 @@ function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, []);
 
-  const ensureDataset = useCallback(
-    async (date: string): Promise<CclDataset> => {
-      if (dataset && dataset.version === date) {
-        return dataset;
+  const ensureHistory = useCallback(
+    async (code: string): Promise<EccnHistoryResponse> => {
+      const normalized = code.trim().toUpperCase().replace(/\s+/g, '');
+      if (!normalized) {
+        throw new Error('An ECCN code is required to load history.');
       }
 
-      const cached = datasetCacheRef.current.get(date);
+      const cached = historyCacheRef.current.get(normalized);
       if (cached) {
         return cached;
       }
 
-      const loaded = await getCcl(date);
-      datasetCacheRef.current.set(date, loaded);
-      datasetCacheRef.current.set(loaded.version, loaded);
+      const loaded = await getEccnHistory(normalized);
+      historyCacheRef.current.set(normalized, loaded);
+      historyCacheRef.current.set(loaded.eccn.trim().toUpperCase().replace(/\s+/g, ''), loaded);
       return loaded;
     },
-    [dataset]
+    []
   );
 
   const supplements = useMemo(() => {
@@ -2258,7 +2264,7 @@ function App() {
           <EccnHistoryView
             versions={versions}
             options={historyOptions}
-            ensureDataset={ensureDataset}
+            loadHistory={ensureHistory}
             loadingVersions={loadingVersions}
             onNavigateToEccn={handleNavigateToEccn}
             query={historyQuery}

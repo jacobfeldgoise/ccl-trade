@@ -1,5 +1,6 @@
 import {
   CclDataset,
+  EccnHistoryResponse,
   FederalRegisterDocumentsResponse,
   FederalRegisterRefreshStatus,
   VersionsResponse,
@@ -56,6 +57,12 @@ export async function reparseStoredCcls(): Promise<{
     body: JSON.stringify({}),
   });
   return handleResponse<{ message: string; processedDates: { date: string; fetchedAt: string }[] }>(res);
+}
+
+export async function getEccnHistory(eccn: string): Promise<EccnHistoryResponse> {
+  const normalized = eccn.trim().toUpperCase().replace(/\s+/g, '');
+  const res = await fetch(`/api/ccl/history/${encodeURIComponent(normalized)}`);
+  return handleResponse<EccnHistoryResponse>(res);
 }
 
 export async function getFederalRegisterDocuments(): Promise<FederalRegisterDocumentsResponse> {

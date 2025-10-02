@@ -27,6 +27,8 @@ const PORT = process.env.PORT || 4000;
 const DATA_DIR = path.join(__dirname, '..', 'data');
 const RAW_XML_DIR = path.join(DATA_DIR, 'raw');
 const PARSED_JSON_DIR = path.join(DATA_DIR, 'parsed');
+const ECCN_HISTORY_DIR = path.join(DATA_DIR, 'history');
+const ECCN_HISTORY_INDEX_FILE = path.join(ECCN_HISTORY_DIR, 'index.json');
 const TITLE_NUMBER = 15;
 const PART_NUMBER = '774';
 const ECFR_BASE = 'https://www.ecfr.gov/api/versioner/v1';
@@ -253,11 +255,17 @@ app.post('/api/ccl/reparse', async (_req, res) => {
     const processedDates = [];
     for (const date of rawFiles) {
       try {
-        const data = await loadVersion(date, { forceParse: true });
+        const data = await loadVersion(date, { forceParse: true, skipHistoryUpdate: true });
         processedDates.push({ date, fetchedAt: data.fetchedAt });
       } catch (error) {
         console.error('Failed to re-parse stored XML', date, error.message);
       }
+    }
+
+    try {
+      await rebuildEccnHistories();
+    } catch (error) {
+      console.error('Failed to rebuild ECCN histories after re-parse', error);
     }
 
     res.json({
@@ -267,6 +275,50 @@ app.post('/api/ccl/reparse', async (_req, res) => {
   } catch (error) {
     console.error('Error re-parsing stored XML files', error);
     res.status(500).json({ message: 'Failed to re-parse stored XML files', error: error.message });
+  }
+});
+
+app.get('/api/ccl/history/:eccn', async (req, res) => {
+  const eccnParam = req.params.eccn ?? '';
+  const normalized = normalizeEccnCode(eccnParam);
+
+  if (!normalized) {
+    res.status(400).json({ message: 'A valid ECCN code is required.' });
+    return;
+  }
+
+  try {
+    const index = await readEccnHistoryIndex();
+    const mappedLeaves = index.entries?.[normalized];
+    const leafCodes = new Set(Array.isArray(mappedLeaves) ? mappedLeaves : []);
+
+    if (leafCodes.size === 0) {
+      leafCodes.add(normalized);
+    }
+
+    const leaves = [];
+    for (const code of leafCodes) {
+      const leaf = await readEccnHistoryLeaf(code);
+      if (leaf) {
+        leaves.push(leaf);
+      }
+    }
+
+    if (leaves.length === 0) {
+      res.status(404).json({ message: `No ECCN history found for ${normalized}.` });
+      return;
+    }
+
+    leaves.sort((a, b) => {
+      const left = typeof a?.eccn === 'string' ? a.eccn : '';
+      const right = typeof b?.eccn === 'string' ? b.eccn : '';
+      return left.localeCompare(right);
+    });
+
+    res.json({ eccn: normalized, leaves });
+  } catch (error) {
+    console.error('Error loading ECCN history', normalized, error);
+    res.status(500).json({ message: 'Failed to load ECCN history data.', error: error.message });
   }
 });
 
@@ -363,6 +415,7 @@ async function ensureDataDir() {
     await fs.mkdir(DATA_DIR, { recursive: true });
     await fs.mkdir(RAW_XML_DIR, { recursive: true });
     await fs.mkdir(PARSED_JSON_DIR, { recursive: true });
+    await fs.mkdir(ECCN_HISTORY_DIR, { recursive: true });
     await ensureFederalRegisterStorage();
   } catch (error) {
     console.error('Failed to ensure data directory', error);
@@ -499,13 +552,20 @@ async function runFederalRegisterRefresh() {
       const prefix = formatProgressPrefix(index, totalRawDates);
       recordFederalRegisterProgress(`${prefix}Re-parsing ${date}…`);
       try {
-        const dataset = await loadVersion(date, { forceParse: true });
+        const dataset = await loadVersion(date, { forceParse: true, skipHistoryUpdate: true });
         processedDates.push({ date, fetchedAt: dataset.fetchedAt });
         recordFederalRegisterProgress(`${prefix}Finished parsing ${date}.`);
       } catch (error) {
         console.error('Failed to re-parse stored XML', date, error.message);
         recordFederalRegisterProgress(`${prefix}Failed to parse ${date}: ${error.message}`);
       }
+    }
+
+    try {
+      await rebuildEccnHistories();
+    } catch (error) {
+      console.error('Failed to rebuild ECCN histories after refresh', error);
+      recordFederalRegisterProgress('Encountered an error rebuilding ECCN histories.');
     }
 
     missingEffectiveDates = await setMissingEffectiveDates(Array.from(missingEffectiveDateSet));
@@ -626,7 +686,10 @@ async function getDefaultDateSafe(res) {
   }
 }
 
-async function loadVersion(date, { forceParse = false, forceDownloadRaw = false } = {}) {
+async function loadVersion(
+  date,
+  { forceParse = false, forceDownloadRaw = false, skipHistoryUpdate = false } = {}
+) {
   if (!date) {
     throw new Error('A version date (YYYY-MM-DD) is required');
   }
@@ -646,7 +709,7 @@ async function loadVersion(date, { forceParse = false, forceDownloadRaw = false 
 
   const promise = (async () => {
     try {
-      const stored = await parseAndPersistVersion(date, { forceDownloadRaw });
+      const stored = await parseAndPersistVersion(date, { forceDownloadRaw, skipHistoryUpdate });
       return stored;
     } finally {
       loadingVersions.delete(date);
@@ -670,7 +733,10 @@ async function readParsedVersion(date) {
   }
 }
 
-async function parseAndPersistVersion(date, { forceDownloadRaw = false } = {}) {
+async function parseAndPersistVersion(
+  date,
+  { forceDownloadRaw = false, skipHistoryUpdate = false } = {}
+) {
   const { xml } = await getRawXml(date, { forceDownload: forceDownloadRaw });
   const parsed = parsePart(xml);
   const dataset = {
@@ -680,10 +746,10 @@ async function parseAndPersistVersion(date, { forceDownloadRaw = false } = {}) {
     supplements: parsed.supplements,
     date,
   };
-  return persistParsedVersion(date, dataset);
+  return persistParsedVersion(date, dataset, { skipHistoryUpdate });
 }
 
-async function persistParsedVersion(date, data) {
+async function persistParsedVersion(date, data, { skipHistoryUpdate = false } = {}) {
   const filePath = path.join(PARSED_JSON_DIR, buildJsonFileName(date));
   const enriched = {
     ...data,
@@ -691,6 +757,13 @@ async function persistParsedVersion(date, data) {
     fetchedAt: new Date().toISOString(),
   };
   await fs.writeFile(filePath, JSON.stringify(enriched, null, 2), 'utf-8');
+  if (!skipHistoryUpdate) {
+    try {
+      await updateEccnHistoriesForDataset(enriched);
+    } catch (error) {
+      console.error('Failed to update ECCN histories', error);
+    }
+  }
   return enriched;
 }
 
@@ -3253,6 +3326,400 @@ function expandEccnReferencesInElement(element) {
       stack.push(...current.children);
     }
   }
+}
+
+function normalizeEccnCode(value) {
+  if (typeof value !== 'string') {
+    return '';
+  }
+  return value.trim().toUpperCase().replace(/\s+/g, '');
+}
+
+function sanitizeHistoryFileName(code) {
+  return code.replace(/[^A-Z0-9.]/gi, '_');
+}
+
+function buildEccnHistoryFileName(code) {
+  const normalized = normalizeEccnCode(code);
+  if (!normalized) {
+    throw new Error('Invalid ECCN code');
+  }
+  return `${sanitizeHistoryFileName(normalized)}.json`;
+}
+
+function stripHtmlTags(value) {
+  return value.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
+}
+
+function getBlockPlainText(block) {
+  if (!block || typeof block !== 'object') {
+    return '';
+  }
+  if (typeof block.text === 'string' && block.text) {
+    return block.text;
+  }
+  if (typeof block.html === 'string' && block.html) {
+    return stripHtmlTags(block.html);
+  }
+  return '';
+}
+
+function extractNodePlainText(node) {
+  if (!node || typeof node !== 'object') {
+    return '';
+  }
+
+  const parts = [];
+
+  if (node.heading && node.heading !== node.identifier) {
+    parts.push(String(node.heading).trim());
+  } else if (!node.heading && node.label) {
+    parts.push(String(node.label).trim());
+  }
+
+  if (Array.isArray(node.content)) {
+    for (const block of node.content) {
+      const text = getBlockPlainText(block).trim();
+      if (text) {
+        parts.push(text);
+      }
+    }
+  }
+
+  if (Array.isArray(node.children)) {
+    for (const child of node.children) {
+      if (child && child.isEccn && !child.boundToParent) {
+        continue;
+      }
+      const childText = extractNodePlainText(child);
+      if (childText) {
+        parts.push(childText);
+      }
+    }
+  }
+
+  return parts.join('\n').replace(/\s+\n/g, '\n').trim();
+}
+
+function collectBottomLevelEntries(dataset) {
+  if (!dataset || !Array.isArray(dataset.supplements)) {
+    return [];
+  }
+
+  const entryMap = new Map();
+
+  for (const supplement of dataset.supplements) {
+    const eccns = Array.isArray(supplement?.eccns) ? supplement.eccns : [];
+    for (const entry of eccns) {
+      if (!entry || typeof entry.eccn !== 'string') {
+        continue;
+      }
+      const normalized = normalizeEccnCode(entry.eccn);
+      if (!normalized) {
+        continue;
+      }
+      entryMap.set(normalized, { entry, supplement });
+    }
+  }
+
+  const bottomEntries = [];
+
+  for (const supplement of dataset.supplements) {
+    const eccns = Array.isArray(supplement?.eccns) ? supplement.eccns : [];
+    for (const entry of eccns) {
+      if (!entry || typeof entry.eccn !== 'string') {
+        continue;
+      }
+
+      const normalized = normalizeEccnCode(entry.eccn);
+      if (!normalized) {
+        continue;
+      }
+
+      const childCodes = Array.isArray(entry.childEccns) ? entry.childEccns : [];
+      if (childCodes.length > 0) {
+        continue;
+      }
+
+      const structure = entry.structure || null;
+      if (
+        structure &&
+        Array.isArray(structure.children) &&
+        structure.children.some((child) => child && child.isEccn && !child.boundToParent)
+      ) {
+        continue;
+      }
+
+      const ancestors = [];
+      const visited = new Set();
+      let parentCode = typeof entry.parentEccn === 'string' ? entry.parentEccn : null;
+
+      while (parentCode) {
+        const normalizedParent = normalizeEccnCode(parentCode);
+        if (!normalizedParent || visited.has(normalizedParent)) {
+          break;
+        }
+        visited.add(normalizedParent);
+        const parentEntry = entryMap.get(normalizedParent);
+        if (parentEntry?.entry?.eccn) {
+          ancestors.unshift(parentEntry.entry.eccn);
+          parentCode = parentEntry.entry.parentEccn ?? null;
+        } else {
+          ancestors.unshift(parentCode.trim().toUpperCase());
+          break;
+        }
+      }
+
+      const text = extractNodePlainText(structure);
+      const supplementInfo = entry.supplement
+        ? entry.supplement
+        : supplement
+        ? { number: supplement.number, heading: supplement.heading ?? null }
+        : null;
+
+      bottomEntries.push({
+        eccn: entry.eccn,
+        normalized,
+        heading: entry.heading ?? null,
+        title: entry.title ?? null,
+        category: entry.category ?? null,
+        group: entry.group ?? null,
+        breadcrumbs: Array.isArray(entry.breadcrumbs) ? entry.breadcrumbs : [],
+        supplement: supplementInfo,
+        structure: structure || null,
+        text,
+        ancestors,
+      });
+    }
+  }
+
+  return bottomEntries;
+}
+
+async function updateEccnHistoriesForDataset(dataset) {
+  if (!dataset || !dataset.version) {
+    return;
+  }
+
+  await fs.mkdir(ECCN_HISTORY_DIR, { recursive: true });
+
+  const entries = collectBottomLevelEntries(dataset);
+  const version = dataset.version;
+  const fetchedAt = dataset.fetchedAt ?? null;
+  const sourceUrl = dataset.sourceUrl ?? null;
+
+  for (const entry of entries) {
+    const filePath = path.join(ECCN_HISTORY_DIR, buildEccnHistoryFileName(entry.normalized));
+    let record;
+
+    try {
+      const raw = await fs.readFile(filePath, 'utf-8');
+      record = JSON.parse(raw);
+    } catch (error) {
+      if (error.code === 'ENOENT') {
+        record = { eccn: entry.eccn, normalized: entry.normalized, history: [] };
+      } else {
+        throw error;
+      }
+    }
+
+    if (!record || typeof record !== 'object') {
+      record = { eccn: entry.eccn, normalized: entry.normalized, history: [] };
+    }
+
+    record.eccn = entry.eccn;
+    record.normalized = entry.normalized;
+    const history = Array.isArray(record.history) ? record.history : [];
+
+    const filtered = history.filter((item) => item && item.version !== version);
+    filtered.push({
+      version,
+      fetchedAt,
+      sourceUrl,
+      heading: entry.heading ?? null,
+      title: entry.title ?? null,
+      category: entry.category ?? null,
+      group: entry.group ?? null,
+      supplement: entry.supplement ?? null,
+      breadcrumbs: entry.breadcrumbs ?? [],
+      ancestors: entry.ancestors,
+      text: entry.text,
+      structure: entry.structure ?? null,
+    });
+
+    filtered.sort((a, b) => a.version.localeCompare(b.version));
+    record.history = filtered;
+
+    await fs.writeFile(filePath, JSON.stringify(record, null, 2), 'utf-8');
+  }
+
+  await rebuildHistoryIndexFromFiles();
+}
+
+async function rebuildEccnHistories() {
+  await ensureDataDir();
+  await fs.rm(ECCN_HISTORY_DIR, { recursive: true, force: true }).catch(() => {});
+  await fs.mkdir(ECCN_HISTORY_DIR, { recursive: true });
+
+  const files = await listParsedFiles();
+  files.sort();
+
+  const historyMap = new Map();
+
+  for (const file of files) {
+    const filePath = path.join(PARSED_JSON_DIR, file);
+    try {
+      const raw = await fs.readFile(filePath, 'utf-8');
+      const dataset = JSON.parse(raw);
+      const entries = collectBottomLevelEntries(dataset);
+      const version = dataset?.version || dataset?.date;
+      const fetchedAt = dataset?.fetchedAt ?? null;
+      const sourceUrl = dataset?.sourceUrl ?? null;
+
+      for (const entry of entries) {
+        if (!entry.normalized) {
+          continue;
+        }
+        let record = historyMap.get(entry.normalized);
+        if (!record) {
+          record = { eccn: entry.eccn, normalized: entry.normalized, history: [] };
+          historyMap.set(entry.normalized, record);
+        }
+        record.eccn = entry.eccn;
+        record.history.push({
+          version,
+          fetchedAt,
+          sourceUrl,
+          heading: entry.heading ?? null,
+          title: entry.title ?? null,
+          category: entry.category ?? null,
+          group: entry.group ?? null,
+          supplement: entry.supplement ?? null,
+          breadcrumbs: entry.breadcrumbs ?? [],
+          ancestors: entry.ancestors,
+          text: entry.text,
+          structure: entry.structure ?? null,
+        });
+      }
+    } catch (error) {
+      console.error('Failed to rebuild ECCN history from', file, error.message);
+    }
+  }
+
+  for (const [normalized, record] of historyMap.entries()) {
+    record.history.sort((a, b) => a.version.localeCompare(b.version));
+    const filePath = path.join(ECCN_HISTORY_DIR, buildEccnHistoryFileName(normalized));
+    await fs.writeFile(filePath, JSON.stringify(record, null, 2), 'utf-8');
+  }
+
+  await rebuildHistoryIndexFromRecords(historyMap);
+}
+
+async function readEccnHistoryLeaf(code) {
+  const filePath = path.join(ECCN_HISTORY_DIR, buildEccnHistoryFileName(code));
+  try {
+    const raw = await fs.readFile(filePath, 'utf-8');
+    return JSON.parse(raw);
+  } catch (error) {
+    if (error.code === 'ENOENT') {
+      return null;
+    }
+    throw error;
+  }
+}
+
+async function readEccnHistoryIndex() {
+  try {
+    const raw = await fs.readFile(ECCN_HISTORY_INDEX_FILE, 'utf-8');
+    const parsed = JSON.parse(raw);
+    return {
+      generatedAt: typeof parsed?.generatedAt === 'string' ? parsed.generatedAt : null,
+      versions: Array.isArray(parsed?.versions) ? parsed.versions : [],
+      entries: parsed && typeof parsed.entries === 'object' && parsed.entries !== null ? parsed.entries : {},
+    };
+  } catch (error) {
+    if (error.code === 'ENOENT') {
+      return { generatedAt: null, versions: [], entries: {} };
+    }
+    throw error;
+  }
+}
+
+async function rebuildHistoryIndexFromFiles() {
+  await fs.mkdir(ECCN_HISTORY_DIR, { recursive: true });
+  const files = await fs.readdir(ECCN_HISTORY_DIR);
+  const historyMap = new Map();
+  const indexFile = path.basename(ECCN_HISTORY_INDEX_FILE);
+
+  for (const file of files) {
+    if (!file.endsWith('.json') || file === indexFile) {
+      continue;
+    }
+    const filePath = path.join(ECCN_HISTORY_DIR, file);
+    try {
+      const raw = await fs.readFile(filePath, 'utf-8');
+      const parsed = JSON.parse(raw);
+      const normalized = normalizeEccnCode(parsed?.normalized || parsed?.eccn);
+      if (!normalized) {
+        continue;
+      }
+      const history = Array.isArray(parsed?.history) ? parsed.history : [];
+      historyMap.set(normalized, {
+        eccn: parsed?.eccn || normalized,
+        normalized,
+        history,
+      });
+    } catch (error) {
+      console.warn('Failed to read ECCN history file', file, error.message);
+    }
+  }
+
+  await rebuildHistoryIndexFromRecords(historyMap);
+}
+
+async function rebuildHistoryIndexFromRecords(historyMap) {
+  const payload = buildHistoryIndexPayload(historyMap);
+  await fs.writeFile(ECCN_HISTORY_INDEX_FILE, JSON.stringify(payload, null, 2), 'utf-8');
+}
+
+function buildHistoryIndexPayload(historyMap) {
+  const mapping = new Map();
+  const versions = new Set();
+
+  for (const [normalized, record] of historyMap.entries()) {
+    const codes = new Set([normalized]);
+    const history = Array.isArray(record.history) ? record.history : [];
+
+    for (const item of history) {
+      if (item?.version) {
+        versions.add(item.version);
+      }
+      const ancestors = Array.isArray(item?.ancestors) ? item.ancestors : [];
+      for (const ancestor of ancestors) {
+        const normalizedAncestor = normalizeEccnCode(ancestor);
+        if (normalizedAncestor) {
+          codes.add(normalizedAncestor);
+        }
+      }
+    }
+
+    for (const code of codes) {
+      const set = mapping.get(code) || new Set();
+      set.add(normalized);
+      mapping.set(code, set);
+    }
+  }
+
+  const entries = {};
+  for (const [code, set] of mapping.entries()) {
+    entries[code] = Array.from(set).sort();
+  }
+
+  return {
+    generatedAt: new Date().toISOString(),
+    versions: Array.from(versions).sort(),
+    entries,
+  };
 }
 
 export { loadVersion, parsePart, flattenEccnTree, createTreeNode, markNodeRequiresAllChildren };
