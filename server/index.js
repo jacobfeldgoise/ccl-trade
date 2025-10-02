@@ -441,7 +441,7 @@ async function runFederalRegisterRefresh() {
       recordFederalRegisterProgress('No effective dates found in the refreshed Federal Register metadata.');
     }
 
-    const rawDownloads = [];
+    const rawDownloadsByDate = new Map();
     const missingEffectiveDateSet = new Set(previousMissingDates);
     let missingEffectiveDates = Array.from(missingEffectiveDateSet);
     const totalEffectiveDates = sortedEffectiveDates.length;
@@ -477,7 +477,7 @@ async function runFederalRegisterRefresh() {
       recordFederalRegisterProgress(`${prefix}Downloading raw XML for ${date}…`);
       try {
         const { filePath } = await getRawXml(date, { forceDownload: true });
-        rawDownloads.push({ date, filePath });
+        rawDownloadsByDate.set(date, { date, filePath });
         recordFederalRegisterProgress(`${prefix}Stored raw XML for ${date} at ${filePath}.`);
         missingEffectiveDateSet.delete(date);
         downloadedEffectiveDateSet.add(date);
@@ -531,6 +531,7 @@ async function runFederalRegisterRefresh() {
       Array.from(downloadedEffectiveDateSet)
     );
 
+    const rawDownloads = Array.from(rawDownloadsByDate.values());
     const summaryParts = [
       'Refreshed Federal Register metadata',
       `cached ${buildPlural(
