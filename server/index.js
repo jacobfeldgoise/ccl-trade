@@ -3,6 +3,11 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import { promises as fs } from 'fs';
 import { load } from 'cheerio';
+import {
+  ensureFederalRegisterStorage,
+  readFederalRegisterDocuments,
+  updateFederalRegisterDocuments,
+} from './federal-register.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -146,6 +151,37 @@ app.post('/api/ccl/reparse', async (_req, res) => {
   }
 });
 
+app.get('/api/federal-register/documents', async (_req, res) => {
+  try {
+    const data = await readFederalRegisterDocuments();
+    res.json(data);
+  } catch (error) {
+    console.error('Error reading Federal Register documents', error);
+    res.status(500).json({
+      message: 'Failed to load Federal Register documents',
+      error: error.message,
+    });
+  }
+});
+
+app.post('/api/federal-register/refresh', async (_req, res) => {
+  try {
+    const data = await updateFederalRegisterDocuments();
+    const plural = data.documentCount === 1 ? '' : 's';
+    res.json({
+      message: `Fetched ${data.documentCount} Federal Register document${plural}.`,
+      generatedAt: data.generatedAt,
+      documentCount: data.documentCount,
+    });
+  } catch (error) {
+    console.error('Error refreshing Federal Register documents', error);
+    res.status(500).json({
+      message: 'Failed to refresh Federal Register documents',
+      error: error.message,
+    });
+  }
+});
+
 // Serve built client assets if they exist
 const clientDist = path.join(__dirname, '..', 'client', 'dist');
 app.use(express.static(clientDist));
@@ -186,6 +222,7 @@ async function ensureDataDir() {
     await fs.mkdir(DATA_DIR, { recursive: true });
     await fs.mkdir(RAW_XML_DIR, { recursive: true });
     await fs.mkdir(PARSED_JSON_DIR, { recursive: true });
+    await ensureFederalRegisterStorage();
   } catch (error) {
     console.error('Failed to ensure data directory', error);
     throw error;

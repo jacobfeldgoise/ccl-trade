@@ -8,7 +8,8 @@
     "client": "npm run dev --prefix client",
     "server": "npm run dev --prefix server",
     "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
-    "build": "npm run build --prefix client"
+    "build": "npm run build --prefix client",
+    "update-fr-docs": "node scripts/update-federal-register-docs.mjs"
   },
   "devDependencies": {
     "concurrently": "^8.2.2"

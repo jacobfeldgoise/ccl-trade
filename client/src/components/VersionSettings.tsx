@@ -10,6 +10,11 @@ interface VersionSettingsProps {
   onReparseAll: () => Promise<void> | void;
   onLoad: (date: string) => Promise<void> | void;
   error?: string | null;
+  federalDocumentsGeneratedAt: string | null;
+  federalDocumentsRefreshing: boolean;
+  onRefreshFederalDocuments: () => Promise<void> | void;
+  federalDocumentsStatus?: string | null;
+  federalDocumentsError?: string | null;
 }
 
 export function VersionSettings({
@@ -20,6 +25,11 @@ export function VersionSettings({
   onReparseAll,
   onLoad,
   error,
+  federalDocumentsGeneratedAt,
+  federalDocumentsRefreshing,
+  onRefreshFederalDocuments,
+  federalDocumentsStatus,
+  federalDocumentsError,
 }: VersionSettingsProps) {
   const [manualDate, setManualDate] = useState('');
 
@@ -92,7 +102,14 @@ export function VersionSettings({
     }
   };
 
+  const handleFederalRefreshClick = () => {
+    onRefreshFederalDocuments();
+  };
+
   const latestDateLabel = defaultDate ? formatDate(defaultDate) : null;
+  const federalRegisterLastRefreshed = federalDocumentsGeneratedAt
+    ? `Last refreshed ${formatDateTime(federalDocumentsGeneratedAt)}.`
+    : 'No Federal Register metadata has been cached yet.';
 
   return (
     <section className="panel settings-panel">
@@ -130,6 +147,25 @@ export function VersionSettings({
         </div>
         <p className="help-text">{manualHelpText}</p>
       </form>
+
+      <div className="control-group">
+        <h3>Federal Register timeline</h3>
+        <p className="help-text">
+          Downloads the latest Federal Register metadata for Supplements 1, 5, 6, and 7 to 15 CFR 774 and
+          stores it on the server for the timeline view.
+        </p>
+        <button
+          type="button"
+          className="button"
+          onClick={handleFederalRefreshClick}
+          disabled={federalDocumentsRefreshing}
+        >
+          {federalDocumentsRefreshing ? 'Refreshing…' : 'Refresh Federal Register data'}
+        </button>
+        <p className="help-text subtle">{federalRegisterLastRefreshed}</p>
+        {federalDocumentsStatus ? <div className="alert info">{federalDocumentsStatus}</div> : null}
+        {federalDocumentsError ? <div className="alert error">{federalDocumentsError}</div> : null}
+      </div>
 
       {error ? <div className="alert error">{error}</div> : null}
     </section>
