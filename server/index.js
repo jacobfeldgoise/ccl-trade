@@ -48,8 +48,15 @@ function isWithinPastDays(date, days) {
   }
 
   const now = new Date();
-  const diff = now.getTime() - parsed.getTime();
-  return diff >= 0 && diff <= days * ONE_DAY_IN_MS;
+  const parsedUtc = Date.UTC(parsed.getUTCFullYear(), parsed.getUTCMonth(), parsed.getUTCDate());
+  const todayUtc = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate());
+  const diff = todayUtc - parsedUtc;
+
+  if (diff < 0) {
+    return false;
+  }
+
+  return diff <= days * ONE_DAY_IN_MS;
 }
 
 const app = express();
