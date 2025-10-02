@@ -966,6 +966,7 @@ function App() {
   const [federalDocumentsError, setFederalDocumentsError] = useState<string | null>(null);
   const [refreshingFederalDocuments, setRefreshingFederalDocuments] = useState(false);
   const [federalDocumentsStatus, setFederalDocumentsStatus] = useState<string | null>(null);
+  const [federalDocumentsProgress, setFederalDocumentsProgress] = useState<string[]>([]);
 
   const loadVersions = useCallback(async (): Promise<VersionsResponse | null> => {
     setLoadingVersions(true);
@@ -1004,14 +1005,24 @@ function App() {
     setRefreshingFederalDocuments(true);
     setFederalDocumentsError(null);
     setFederalDocumentsStatus(null);
+    setFederalDocumentsProgress([]);
     try {
-      const response = await refreshFederalRegisterDocuments();
-      const message =
-        response.message ??
-        `Fetched ${response.documentCount} Federal Register document${
-          response.documentCount === 1 ? '' : 's'
-        }.`;
-      setFederalDocumentsStatus(message);
+      const response = await refreshFederalRegisterDocuments((event) => {
+        if (event.type === 'progress' && event.message) {
+          const message = event.message;
+          setFederalDocumentsProgress((prev) => [...prev, message]);
+        }
+        if (event.type === 'complete' && event.message) {
+          const message = event.message;
+          setFederalDocumentsProgress((prev) => [...prev, message]);
+        }
+        if (event.type === 'error' && event.message) {
+          const message = event.message;
+          setFederalDocumentsProgress((prev) => [...prev, message]);
+        }
+      });
+
+      setFederalDocumentsStatus(response.message);
       setFederalDocumentsGeneratedAt(response.generatedAt);
       await loadFederalDocuments();
     } catch (err) {
@@ -2046,6 +2057,7 @@ function App() {
               onRefreshFederalDocuments={refreshFederalDocuments}
               federalDocumentsStatus={federalDocumentsStatus}
               federalDocumentsError={federalDocumentsError}
+              federalDocumentsProgress={federalDocumentsProgress}
             />
             <section className="panel settings-info">
               <header className="panel-header">

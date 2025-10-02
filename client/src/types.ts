@@ -97,10 +97,23 @@ export interface FederalRegisterDocumentsResponse {
   documents: FederalRegisterDocument[];
 }
 
+export interface FederalRegisterRawXmlDownload {
+  date: string;
+  filePath: string;
+}
+
 export interface FederalRegisterRefreshResponse {
-  message?: string;
+  message: string;
   generatedAt: string | null;
   documentCount: number;
+  processedDates: { date: string; fetchedAt: string }[];
+  rawXmlDownloads: FederalRegisterRawXmlDownload[];
+}
+
+export interface FederalRegisterRefreshEvent {
+  type: 'progress' | 'complete' | 'error';
+  message?: string;
+  result?: FederalRegisterRefreshResponse;
 }
 
 export interface TradeDestinationBreakdown {

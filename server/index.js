@@ -165,20 +165,108 @@ app.get('/api/federal-register/documents', async (_req, res) => {
 });
 
 app.post('/api/federal-register/refresh', async (_req, res) => {
+  res.setHeader('Content-Type', 'application/x-ndjson');
+  res.setHeader('Cache-Control', 'no-cache, no-transform');
+  res.setHeader('Connection', 'keep-alive');
+  res.flushHeaders?.();
+
+  const writeEvent = (event) => {
+    res.write(`${JSON.stringify(event)}\n`);
+  };
+
+  const sendProgress = (message) => {
+    writeEvent({ type: 'progress', message });
+  };
+
+  const buildPlural = (count, singular, plural) => {
+    return `${count} ${count === 1 ? singular : plural}`;
+  };
+
   try {
-    const data = await updateFederalRegisterDocuments();
-    const plural = data.documentCount === 1 ? '' : 's';
-    res.json({
-      message: `Fetched ${data.documentCount} Federal Register document${plural}.`,
-      generatedAt: data.generatedAt,
-      documentCount: data.documentCount,
+    const data = await updateFederalRegisterDocuments({ onProgress: sendProgress });
+    sendProgress(
+      `Fetched ${buildPlural(data.documentCount, 'Federal Register document', 'Federal Register documents')}.`
+    );
+
+    const effectiveDates = new Set(
+      Array.isArray(data?.documents)
+        ? data.documents
+            .map((doc) => (typeof doc?.effectiveOn === 'string' ? doc.effectiveOn : null))
+            .filter((date) => typeof date === 'string' && /\d{4}-\d{2}-\d{2}/.test(date))
+        : []
+    );
+
+    const sortedEffectiveDates = Array.from(effectiveDates).sort();
+    if (sortedEffectiveDates.length > 0) {
+      sendProgress(
+        `Ensuring raw XML cached for ${buildPlural(
+          sortedEffectiveDates.length,
+          'effective date',
+          'effective dates'
+        )}.`
+      );
+    } else {
+      sendProgress('No effective dates found in the refreshed Federal Register metadata.');
+    }
+
+    const rawDownloads = [];
+    for (const date of sortedEffectiveDates) {
+      sendProgress(`Checking raw XML cache for ${date}…`);
+      const info = await getRawXmlInfo(date);
+      if (info) {
+        sendProgress(`Raw XML already cached for ${date}.`);
+        continue;
+      }
+
+      sendProgress(`Downloading raw XML for ${date}…`);
+      const { filePath } = await getRawXml(date, { forceDownload: true });
+      rawDownloads.push({ date, filePath });
+      sendProgress(`Stored raw XML for ${date} at ${filePath}.`);
+    }
+
+    sendProgress('Re-parsing stored XML files…');
+    const processedDates = [];
+    const rawDates = await listRawXmlDates();
+    if (rawDates.length === 0) {
+      sendProgress('No stored raw XML files available to parse.');
+    }
+    for (const date of rawDates) {
+      sendProgress(`Re-parsing ${date}…`);
+      try {
+        const dataset = await loadVersion(date, { forceParse: true });
+        processedDates.push({ date, fetchedAt: dataset.fetchedAt });
+        sendProgress(`Finished parsing ${date}.`);
+      } catch (error) {
+        console.error('Failed to re-parse stored XML', date, error.message);
+        sendProgress(`Failed to parse ${date}: ${error.message}`);
+      }
+    }
+
+    const finalMessage = `Refreshed Federal Register metadata, cached ${buildPlural(
+      rawDownloads.length,
+      'new raw XML download',
+      'new raw XML downloads'
+    )}, and re-parsed ${buildPlural(processedDates.length, 'stored XML file', 'stored XML files')}.`;
+
+    writeEvent({
+      type: 'complete',
+      message: finalMessage,
+      result: {
+        message: finalMessage,
+        generatedAt: data.generatedAt,
+        documentCount: data.documentCount,
+        processedDates,
+        rawXmlDownloads: rawDownloads,
+      },
     });
+    res.end();
   } catch (error) {
     console.error('Error refreshing Federal Register documents', error);
-    res.status(500).json({
-      message: 'Failed to refresh Federal Register documents',
-      error: error.message,
+    writeEvent({
+      type: 'error',
+      message: error?.message || 'Failed to refresh Federal Register documents.',
     });
+    res.end();
   }
 });
 
