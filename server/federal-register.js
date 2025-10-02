@@ -8,7 +8,7 @@ import { Agent as UndiciAgent, setGlobalDispatcher } from 'undici';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const FEDERAL_REGISTER_DATA_DIR = path.join(__dirname, 'data');
+const FEDERAL_REGISTER_DATA_DIR = path.join(__dirname, '..', 'data');
 const FEDERAL_REGISTER_JSON = path.join(
   FEDERAL_REGISTER_DATA_DIR,
   'federal-register-documents.json'

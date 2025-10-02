@@ -1,3 +1,5 @@
+import { useCallback, useMemo } from 'react';
+
 import { FederalRegisterDocument, VersionSummary } from '../types';
 import { formatDate, formatDateTime, formatNumber } from '../utils/format';
 
@@ -13,6 +15,39 @@ function getEffectiveDate(doc: FederalRegisterDocument): string | null {
   return doc.effectiveOn || doc.publicationDate || null;
 }
 
+const ISO_DATE_ONLY_REGEX = /^(\d{4})-(\d{2})-(\d{2})$/;
+
+function getYearLabel(value: string | null): string {
+  if (!value) {
+    return 'Unknown';
+  }
+
+  const match = ISO_DATE_ONLY_REGEX.exec(value.trim());
+  if (match) {
+    return match[1];
+  }
+
+  const parsed = new Date(value);
+  if (Number.isNaN(parsed.getTime())) {
+    return 'Unknown';
+  }
+
+  return String(parsed.getUTCFullYear());
+}
+
+interface TimelineItem {
+  doc: FederalRegisterDocument;
+  effectiveDate: string | null;
+  supplementsLabel: string;
+  anchorId: string;
+  version?: VersionSummary;
+}
+
+interface TimelineNavItem {
+  label: string;
+  anchorId: string;
+}
+
 export function FederalRegisterTimeline({
   documents,
   versions,
@@ -20,24 +55,66 @@ export function FederalRegisterTimeline({
   error,
   generatedAt,
 }: FederalRegisterTimelineProps) {
-  const versionMap = new Map<string, VersionSummary>();
-  versions.forEach((version) => {
-    versionMap.set(version.date, version);
-  });
+  const { timelineItems, navItems, totalDocuments, cachedDocumentCount } = useMemo(() => {
+    const versionMap = new Map<string, VersionSummary>();
+    versions.forEach((version) => {
+      versionMap.set(version.date, version);
+    });
 
-  const sortedDocuments = [...documents].sort((a, b) => {
-    const dateA = getEffectiveDate(a) ?? '';
-    const dateB = getEffectiveDate(b) ?? '';
-    if (!dateA && !dateB) return 0;
-    if (!dateA) return 1;
-    if (!dateB) return -1;
-    return dateA < dateB ? 1 : dateA > dateB ? -1 : 0;
-  });
+    const sortedDocuments = [...documents].sort((a, b) => {
+      const dateA = getEffectiveDate(a) ?? '';
+      const dateB = getEffectiveDate(b) ?? '';
+      if (!dateA && !dateB) return 0;
+      if (!dateA) return 1;
+      if (!dateB) return -1;
+      return dateA < dateB ? 1 : dateA > dateB ? -1 : 0;
+    });
 
-  const cachedDocuments = sortedDocuments.filter((doc) => {
-    const effectiveDate = doc.effectiveOn;
-    return effectiveDate ? versionMap.has(effectiveDate) : false;
-  });
+    const seenLabels = new Set<string>();
+    const navEntries: TimelineNavItem[] = [];
+    const items: TimelineItem[] = sortedDocuments.map((doc, index) => {
+      const effectiveDate = getEffectiveDate(doc);
+      const anchorId = `fr-doc-${index}`;
+      const version = doc.effectiveOn ? versionMap.get(doc.effectiveOn) : undefined;
+      const supplementsLabel = doc.supplements.length
+        ? doc.supplements.map((number) => `Supplement No. ${number}`).join(', ')
+        : '—';
+
+      const label = getYearLabel(effectiveDate);
+      if (!seenLabels.has(label)) {
+        seenLabels.add(label);
+        navEntries.push({ label, anchorId });
+      }
+
+      return {
+        doc,
+        effectiveDate,
+        supplementsLabel,
+        anchorId,
+        version,
+      };
+    });
+
+    const cachedCount = items.reduce((total, item) => (item.version ? total + 1 : total), 0);
+
+    return {
+      timelineItems: items,
+      navItems: navEntries,
+      totalDocuments: sortedDocuments.length,
+      cachedDocumentCount: cachedCount,
+    };
+  }, [documents, versions]);
+
+  const handleNavigate = useCallback((anchorId: string) => {
+    if (typeof document === 'undefined') {
+      return;
+    }
+
+    const element = document.getElementById(anchorId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }, []);
 
   return (
     <section className="fr-layout">
@@ -52,11 +129,11 @@ export function FederalRegisterTimeline({
         <div className="fr-meta">
           <div className="fr-meta-item">
             <span className="fr-meta-label">Documents tracked</span>
-            <span className="fr-meta-value">{formatNumber(sortedDocuments.length)}</span>
+            <span className="fr-meta-value">{formatNumber(totalDocuments)}</span>
           </div>
           <div className="fr-meta-item">
             <span className="fr-meta-label">Effective dates cached</span>
-            <span className="fr-meta-value">{formatNumber(cachedDocuments.length)}</span>
+            <span className="fr-meta-value">{formatNumber(cachedDocumentCount)}</span>
           </div>
           <div className="fr-meta-item">
             <span className="fr-meta-label">Data refreshed</span>
@@ -65,10 +142,28 @@ export function FederalRegisterTimeline({
         </div>
       </header>
 
+      {navItems.length > 1 && (
+        <nav className="fr-timeline-nav" aria-label="Federal Register timeline navigation">
+          <span className="fr-nav-label">Jump to</span>
+          <div className="fr-nav-list">
+            {navItems.map((item) => (
+              <button
+                key={item.anchorId}
+                type="button"
+                className="fr-nav-button"
+                onClick={() => handleNavigate(item.anchorId)}
+              >
+                {item.label}
+              </button>
+            ))}
+          </div>
+        </nav>
+      )}
+
       {error && <div className="alert error">{error}</div>}
       {loading && <div className="alert info">Loading Federal Register documents…</div>}
 
-      {!loading && sortedDocuments.length === 0 && !error && (
+      {!loading && totalDocuments === 0 && !error && (
         <div className="fr-empty">
           <h3>No Federal Register documents captured yet</h3>
           <p>
@@ -78,16 +173,16 @@ export function FederalRegisterTimeline({
         </div>
       )}
 
-      {sortedDocuments.length > 0 && (
+      {timelineItems.length > 0 && (
         <ol className="fr-timeline">
-          {sortedDocuments.map((doc) => {
-            const effectiveDate = getEffectiveDate(doc);
-            const version = doc.effectiveOn ? versionMap.get(doc.effectiveOn) : undefined;
-            const supplementsLabel = doc.supplements.length
-              ? doc.supplements.map((number) => `Supplement No. ${number}`).join(', ')
-              : '—';
+          {timelineItems.map(({ doc, effectiveDate, supplementsLabel, anchorId, version }, index) => {
             return (
-              <li key={doc.documentNumber ?? `${doc.title}-${effectiveDate ?? 'unknown'}`} className="fr-timeline-item">
+              <li
+                key={doc.documentNumber ?? `${doc.title}-${effectiveDate ?? 'unknown'}`}
+                id={anchorId}
+                className="fr-timeline-item"
+                aria-label={`Federal Register document ${index + 1}`}
+              >
                 <div className="fr-timeline-date">
                   <div className="fr-date-primary">
                     <span className="fr-date-label">Effective</span>
