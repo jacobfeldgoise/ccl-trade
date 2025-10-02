@@ -1,7 +1,7 @@
 import {
   CclDataset,
   FederalRegisterDocumentsResponse,
-  FederalRegisterRefreshResponse,
+  FederalRegisterRefreshStatus,
   VersionsResponse,
 } from './types';
 
@@ -63,7 +63,11 @@ export async function getFederalRegisterDocuments(): Promise<FederalRegisterDocu
   return handleResponse<FederalRegisterDocumentsResponse>(res);
 }
 
-export async function refreshFederalRegisterDocuments(): Promise<FederalRegisterRefreshResponse> {
+export async function refreshFederalRegisterDocuments(): Promise<{
+  started: boolean;
+  alreadyRunning: boolean;
+  status: FederalRegisterRefreshStatus;
+}> {
   const res = await fetch('/api/federal-register/refresh', {
     method: 'POST',
     headers: {
@@ -71,6 +75,21 @@ export async function refreshFederalRegisterDocuments(): Promise<FederalRegister
     },
     body: JSON.stringify({}),
   });
-  return handleResponse<FederalRegisterRefreshResponse>(res);
+
+  if (!res.ok) {
+    const text = await res.text();
+    throw new Error(text || res.statusText);
+  }
+
+  return (await res.json()) as {
+    started: boolean;
+    alreadyRunning: boolean;
+    status: FederalRegisterRefreshStatus;
+  };
+}
+
+export async function getFederalRegisterRefreshStatus(): Promise<FederalRegisterRefreshStatus> {
+  const res = await fetch('/api/federal-register/refresh/status');
+  return handleResponse<FederalRegisterRefreshStatus>(res);
 }
 

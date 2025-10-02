@@ -94,13 +94,39 @@ export interface FederalRegisterDocumentsResponse {
   generatedAt: string | null;
   supplements: string[];
   documentCount: number;
+  missingEffectiveDates: string[];
   documents: FederalRegisterDocument[];
 }
 
+export interface FederalRegisterRawXmlDownload {
+  date: string;
+  filePath: string;
+}
+
 export interface FederalRegisterRefreshResponse {
-  message?: string;
+  message: string;
   generatedAt: string | null;
   documentCount: number;
+  processedDates: { date: string; fetchedAt: string }[];
+  rawXmlDownloads: FederalRegisterRawXmlDownload[];
+  missingEffectiveDates: string[];
+}
+
+export interface FederalRegisterRefreshStatus {
+  running: boolean;
+  startedAt: string | null;
+  finishedAt: string | null;
+  progressMessage: string | null;
+  statusMessage: string | null;
+  errorMessage: string | null;
+  result: FederalRegisterRefreshResponse | null;
+}
+
+export interface FederalRegisterRefreshEvent {
+  type: 'status' | 'progress' | 'complete' | 'error';
+  message?: string;
+  result?: FederalRegisterRefreshResponse;
+  status?: FederalRegisterRefreshStatus;
 }
 
 export interface TradeDestinationBreakdown {

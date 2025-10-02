@@ -8,6 +8,14 @@ import {
   readFederalRegisterDocuments,
   updateFederalRegisterDocuments,
 } from './federal-register.js';
+import {
+  addDownloadedEffectiveDate,
+  addMissingEffectiveDate,
+  getDownloadedEffectiveDates,
+  getMissingEffectiveDates,
+  setDownloadedEffectiveDates,
+  setMissingEffectiveDates,
+} from './ccl-date-metadata.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -27,6 +35,114 @@ app.use(express.json({ limit: '2mb' }));
 
 const loadingVersions = new Map();
 let defaultVersionPromise = null;
+
+function getFederalRegisterRefreshStatus() {
+  return {
+    running: federalRegisterRefreshState.running,
+    startedAt: federalRegisterRefreshState.startedAt,
+    finishedAt: federalRegisterRefreshState.finishedAt,
+    progressMessage: federalRegisterRefreshState.progressMessage,
+    statusMessage: federalRegisterRefreshState.statusMessage,
+    errorMessage: federalRegisterRefreshState.errorMessage,
+    result: federalRegisterRefreshState.result,
+  };
+}
+
+function broadcastFederalRegisterEvent(event) {
+  const payload = JSON.stringify(event);
+  for (const listener of federalRegisterRefreshState.listeners) {
+    try {
+      listener(`data: ${payload}\n\n`);
+    } catch (error) {
+      console.warn('Failed to notify Federal Register refresh listener', error.message);
+    }
+  }
+}
+
+function broadcastFederalRegisterStatus() {
+  broadcastFederalRegisterEvent({ type: 'status', status: getFederalRegisterRefreshStatus() });
+}
+
+function addFederalRegisterRefreshListener(listener) {
+  federalRegisterRefreshState.listeners.add(listener);
+  return () => {
+    federalRegisterRefreshState.listeners.delete(listener);
+  };
+}
+
+function resetFederalRegisterRefreshState() {
+  federalRegisterRefreshState.running = true;
+  federalRegisterRefreshState.startedAt = new Date().toISOString();
+  federalRegisterRefreshState.finishedAt = null;
+  federalRegisterRefreshState.progressMessage = null;
+  federalRegisterRefreshState.statusMessage = null;
+  federalRegisterRefreshState.errorMessage = null;
+  federalRegisterRefreshState.result = null;
+  broadcastFederalRegisterStatus();
+}
+
+function recordFederalRegisterProgress(message) {
+  federalRegisterRefreshState.progressMessage = message;
+  broadcastFederalRegisterStatus();
+  broadcastFederalRegisterEvent({ type: 'progress', message });
+}
+
+function completeFederalRegisterRefresh(result, message) {
+  federalRegisterRefreshState.running = false;
+  federalRegisterRefreshState.finishedAt = new Date().toISOString();
+  federalRegisterRefreshState.progressMessage = null;
+  federalRegisterRefreshState.statusMessage = message;
+  federalRegisterRefreshState.errorMessage = null;
+  federalRegisterRefreshState.result = result;
+  broadcastFederalRegisterStatus();
+  broadcastFederalRegisterEvent({ type: 'complete', message, result });
+}
+
+function failFederalRegisterRefresh(message) {
+  federalRegisterRefreshState.running = false;
+  federalRegisterRefreshState.finishedAt = new Date().toISOString();
+  federalRegisterRefreshState.progressMessage = null;
+  federalRegisterRefreshState.statusMessage = null;
+  federalRegisterRefreshState.errorMessage = message;
+  federalRegisterRefreshState.result = null;
+  broadcastFederalRegisterStatus();
+  broadcastFederalRegisterEvent({ type: 'error', message });
+}
+
+function startFederalRegisterRefresh() {
+  if (federalRegisterRefreshState.running) {
+    return { started: false, alreadyRunning: true, status: getFederalRegisterRefreshStatus() };
+  }
+
+  resetFederalRegisterRefreshState();
+
+  const promise = runFederalRegisterRefresh()
+    .catch((error) => {
+      if (!federalRegisterRefreshState.errorMessage) {
+        failFederalRegisterRefresh(error?.message || 'Failed to refresh Federal Register documents.');
+      }
+      console.error('Error refreshing Federal Register documents', error);
+    })
+    .finally(() => {
+      federalRegisterRefreshState.promise = null;
+    });
+
+  federalRegisterRefreshState.promise = promise;
+
+  return { started: true, alreadyRunning: false, status: getFederalRegisterRefreshStatus() };
+}
+
+const federalRegisterRefreshState = {
+  running: false,
+  startedAt: null,
+  finishedAt: null,
+  progressMessage: null,
+  statusMessage: null,
+  errorMessage: null,
+  result: null,
+  listeners: new Set(),
+  promise: null,
+};
 
 app.get('/api/versions', async (req, res) => {
   try {
@@ -164,20 +280,42 @@ app.get('/api/federal-register/documents', async (_req, res) => {
   }
 });
 
-app.post('/api/federal-register/refresh', async (_req, res) => {
+app.get('/api/federal-register/refresh/status', (_req, res) => {
+  res.json(getFederalRegisterRefreshStatus());
+});
+
+app.get('/api/federal-register/refresh/events', (req, res) => {
+  res.setHeader('Content-Type', 'text/event-stream');
+  res.setHeader('Cache-Control', 'no-cache');
+  res.setHeader('Connection', 'keep-alive');
+  res.flushHeaders?.();
+
+  const send = (chunk) => {
+    res.write(chunk);
+  };
+
+  send(`data: ${JSON.stringify({ type: 'status', status: getFederalRegisterRefreshStatus() })}\n\n`);
+
+  const dispose = addFederalRegisterRefreshListener(send);
+  const heartbeat = setInterval(() => {
+    res.write(': ping\n\n');
+  }, 30000);
+
+  req.on('close', () => {
+    clearInterval(heartbeat);
+    dispose();
+  });
+});
+
+app.post('/api/federal-register/refresh', (_req, res) => {
   try {
-    const data = await updateFederalRegisterDocuments();
-    const plural = data.documentCount === 1 ? '' : 's';
-    res.json({
-      message: `Fetched ${data.documentCount} Federal Register document${plural}.`,
-      generatedAt: data.generatedAt,
-      documentCount: data.documentCount,
-    });
+    const payload = startFederalRegisterRefresh();
+    res.json(payload);
   } catch (error) {
-    console.error('Error refreshing Federal Register documents', error);
+    console.error('Error starting Federal Register refresh', error);
     res.status(500).json({
-      message: 'Failed to refresh Federal Register documents',
-      error: error.message,
+      message: 'Failed to start Federal Register refresh.',
+      error: error?.message || 'Unknown error',
     });
   }
 });
@@ -225,6 +363,169 @@ async function ensureDataDir() {
     await ensureFederalRegisterStorage();
   } catch (error) {
     console.error('Failed to ensure data directory', error);
+    throw error;
+  }
+}
+
+async function runFederalRegisterRefresh() {
+  const buildPlural = (count, singular, plural) => {
+    return `${count} ${count === 1 ? singular : plural}`;
+  };
+
+  const formatProgressPrefix = (index, total) => {
+    if (!total || total <= 0) {
+      return '';
+    }
+    return `[${index + 1}/${total}] `;
+  };
+
+  try {
+    const previousMissingDates = new Set(await getMissingEffectiveDates());
+    const downloadedEffectiveDateSet = new Set(await getDownloadedEffectiveDates());
+
+    const data = await updateFederalRegisterDocuments({
+      onProgress: (message) => recordFederalRegisterProgress(message),
+    });
+
+    recordFederalRegisterProgress(
+      `Fetched ${buildPlural(data.documentCount, 'Federal Register document', 'Federal Register documents')}.`
+    );
+
+    const effectiveDates = new Set(
+      Array.isArray(data?.documents)
+        ? data.documents
+            .map((doc) => (typeof doc?.effectiveOn === 'string' ? doc.effectiveOn : null))
+            .filter((date) => typeof date === 'string' && /\d{4}-\d{2}-\d{2}/.test(date))
+        : []
+    );
+
+    const sortedEffectiveDates = Array.from(effectiveDates).sort();
+    if (sortedEffectiveDates.length > 0) {
+      recordFederalRegisterProgress(
+        `Ensuring raw XML cached for ${buildPlural(
+          sortedEffectiveDates.length,
+          'effective date',
+          'effective dates'
+        )}.`
+      );
+    } else {
+      recordFederalRegisterProgress('No effective dates found in the refreshed Federal Register metadata.');
+    }
+
+    const rawDownloads = [];
+    const missingEffectiveDateSet = new Set(previousMissingDates);
+    let missingEffectiveDates = Array.from(missingEffectiveDateSet);
+    const totalEffectiveDates = sortedEffectiveDates.length;
+    for (let index = 0; index < totalEffectiveDates; index += 1) {
+      const date = sortedEffectiveDates[index];
+      const prefix = formatProgressPrefix(index, totalEffectiveDates);
+      recordFederalRegisterProgress(`${prefix}Checking raw XML cache for ${date}…`);
+      const info = await getRawXmlInfo(date);
+      if (info) {
+        recordFederalRegisterProgress(`${prefix}Raw XML already cached for ${date}.`);
+        missingEffectiveDateSet.delete(date);
+        downloadedEffectiveDateSet.add(date);
+        await addDownloadedEffectiveDate(date);
+        continue;
+      }
+
+      if (missingEffectiveDateSet.has(date)) {
+        recordFederalRegisterProgress(
+          `${prefix}Skipping raw XML download for ${date}; previously marked unavailable.`
+        );
+        downloadedEffectiveDateSet.delete(date);
+        continue;
+      }
+
+      recordFederalRegisterProgress(`${prefix}Downloading raw XML for ${date}…`);
+      try {
+        const { filePath } = await getRawXml(date, { forceDownload: true });
+        rawDownloads.push({ date, filePath });
+        recordFederalRegisterProgress(`${prefix}Stored raw XML for ${date} at ${filePath}.`);
+        missingEffectiveDateSet.delete(date);
+        downloadedEffectiveDateSet.add(date);
+        await addDownloadedEffectiveDate(date);
+      } catch (error) {
+        if (isMissingEcfrContentError(error)) {
+          const detail = extractMissingEcfrDetail(error);
+          const suffix = detail ? ` (${detail})` : '';
+          recordFederalRegisterProgress(
+            `${prefix}No XML available from eCFR for ${date}${suffix}.`
+          );
+          missingEffectiveDateSet.add(date);
+          downloadedEffectiveDateSet.delete(date);
+          missingEffectiveDates = await addMissingEffectiveDate(date);
+          continue;
+        }
+        throw error;
+      }
+    }
+
+    recordFederalRegisterProgress('Re-parsing stored XML files…');
+    const processedDates = [];
+    const rawDates = await listRawXmlDates();
+    if (rawDates.length === 0) {
+      recordFederalRegisterProgress('No stored raw XML files available to parse.');
+    }
+    const totalRawDates = rawDates.length;
+    for (let index = 0; index < totalRawDates; index += 1) {
+      const date = rawDates[index];
+      const prefix = formatProgressPrefix(index, totalRawDates);
+      recordFederalRegisterProgress(`${prefix}Re-parsing ${date}…`);
+      try {
+        const dataset = await loadVersion(date, { forceParse: true });
+        processedDates.push({ date, fetchedAt: dataset.fetchedAt });
+        recordFederalRegisterProgress(`${prefix}Finished parsing ${date}.`);
+      } catch (error) {
+        console.error('Failed to re-parse stored XML', date, error.message);
+        recordFederalRegisterProgress(`${prefix}Failed to parse ${date}: ${error.message}`);
+      }
+    }
+
+    missingEffectiveDates = await setMissingEffectiveDates(Array.from(missingEffectiveDateSet));
+    const downloadedEffectiveDates = await setDownloadedEffectiveDates(
+      Array.from(downloadedEffectiveDateSet)
+    );
+
+    const summaryParts = [
+      'Refreshed Federal Register metadata',
+      `cached ${buildPlural(
+        rawDownloads.length,
+        'new raw XML download',
+        'new raw XML downloads'
+      )}`,
+      missingEffectiveDates.length
+        ? `noted ${buildPlural(
+            missingEffectiveDates.length,
+            'effective date with no eCFR data',
+            'effective dates with no eCFR data'
+          )}`
+        : null,
+      `re-parsed ${buildPlural(
+        processedDates.length,
+        'stored XML file',
+        'stored XML files'
+      )}`,
+    ].filter(Boolean);
+
+    const finalMessage = `${summaryParts.join(', ')}.`;
+
+    const result = {
+      message: finalMessage,
+      generatedAt: data.generatedAt,
+      documentCount: data.documentCount,
+      processedDates,
+      rawXmlDownloads: rawDownloads,
+      missingEffectiveDates,
+      downloadedEffectiveDates,
+    };
+
+    completeFederalRegisterRefresh(result, finalMessage);
+
+    return result;
+  } catch (error) {
+    const message = error?.message || 'Failed to refresh Federal Register documents.';
+    failFederalRegisterRefresh(message);
     throw error;
   }
 }
@@ -365,6 +666,7 @@ async function getRawXml(date, { forceDownload = false } = {}) {
   if (!forceDownload) {
     try {
       const xml = await fs.readFile(filePath, 'utf-8');
+      await addDownloadedEffectiveDate(date);
       return { xml, filePath };
     } catch (error) {
       if (error.code !== 'ENOENT') {
@@ -374,7 +676,7 @@ async function getRawXml(date, { forceDownload = false } = {}) {
   }
 
   const xml = await downloadRawXml(date);
-  await persistRawXml(filePath, xml);
+  await persistRawXml(date, filePath, xml);
   return { xml, filePath };
 }
 
@@ -385,14 +687,24 @@ async function downloadRawXml(date) {
   });
   if (!response.ok) {
     const body = await safeReadBody(response);
-    throw new Error(`Failed to download CCL data (${response.status} ${response.statusText}): ${body}`);
+    const error = new Error(
+      `Failed to download CCL data (${response.status} ${response.statusText}): ${body}`
+    );
+    error.status = response.status;
+    error.statusText = response.statusText;
+    error.body = body;
+    if (response.status === 404 && /No matching content found/i.test(body)) {
+      error.code = 'ECFR_NO_MATCHING_CONTENT';
+    }
+    throw error;
   }
   const xml = await response.text();
   return xml;
 }
 
-async function persistRawXml(filePath, xml) {
+async function persistRawXml(date, filePath, xml) {
   await fs.writeFile(filePath, xml, 'utf-8');
+  await addDownloadedEffectiveDate(date);
 }
 
 async function getRawXmlInfo(date) {
@@ -457,6 +769,81 @@ function buildHeaders(accept) {
     Accept: accept,
     'User-Agent': USER_AGENT,
   };
+}
+
+function isMissingEcfrContentError(error) {
+  if (!error) {
+    return false;
+  }
+  if (error.code === 'ECFR_NO_MATCHING_CONTENT') {
+    return true;
+  }
+  const sources = [];
+  if (typeof error.body === 'string') {
+    sources.push(error.body);
+  }
+  if (typeof error.message === 'string') {
+    sources.push(error.message);
+  }
+  return sources.some((value) => /No matching content found/i.test(value));
+}
+
+function extractMissingEcfrDetail(error) {
+  if (!error) {
+    return null;
+  }
+  const sources = [];
+  if (typeof error.body === 'string') {
+    sources.push(error.body);
+  }
+  if (typeof error.message === 'string') {
+    sources.push(error.message);
+  }
+  for (const source of sources) {
+    const detail = parseEcfrErrorDetail(source);
+    if (detail) {
+      return detail;
+    }
+  }
+  return null;
+}
+
+function parseEcfrErrorDetail(value) {
+  if (!value || typeof value !== 'string') {
+    return null;
+  }
+
+  try {
+    const parsed = JSON.parse(value);
+    const candidates = [
+      parsed?.errors?.detail,
+      parsed?.error,
+      parsed?.message,
+      parsed?.detail,
+    ];
+    for (const candidate of candidates) {
+      if (typeof candidate === 'string' && candidate.trim()) {
+        return ensureTerminalPeriod(candidate.trim());
+      }
+    }
+  } catch (error) {
+    // ignore JSON parse issues and fall back to string matching
+  }
+
+  const match = value.match(/No matching content found\.?/i);
+  if (match) {
+    return ensureTerminalPeriod(match[0].trim());
+  }
+
+  return null;
+}
+
+function ensureTerminalPeriod(text) {
+  if (!text) {
+    return text;
+  }
+  const trimmed = text.trim();
+  return trimmed.endsWith('.') ? trimmed : `${trimmed}.`;
 }
 
 const TARGET_SUPPLEMENTS = new Set(['1', '5', '6', '7']);

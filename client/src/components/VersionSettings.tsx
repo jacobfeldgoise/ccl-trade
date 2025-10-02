@@ -15,6 +15,7 @@ interface VersionSettingsProps {
   onRefreshFederalDocuments: () => Promise<void> | void;
   federalDocumentsStatus?: string | null;
   federalDocumentsError?: string | null;
+  federalDocumentsProgress?: string | null;
 }
 
 export function VersionSettings({
@@ -30,6 +31,7 @@ export function VersionSettings({
   onRefreshFederalDocuments,
   federalDocumentsStatus,
   federalDocumentsError,
+  federalDocumentsProgress,
 }: VersionSettingsProps) {
   const [manualDate, setManualDate] = useState('');
 
@@ -163,6 +165,9 @@ export function VersionSettings({
           {federalDocumentsRefreshing ? 'Refreshing…' : 'Refresh Federal Register data'}
         </button>
         <p className="help-text subtle">{federalRegisterLastRefreshed}</p>
+        {federalDocumentsProgress ? (
+          <div className="help-text subtle status-log">{federalDocumentsProgress}</div>
+        ) : null}
         {federalDocumentsStatus ? <div className="alert info">{federalDocumentsStatus}</div> : null}
         {federalDocumentsError ? <div className="alert error">{federalDocumentsError}</div> : null}
       </div>
