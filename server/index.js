@@ -184,6 +184,13 @@ app.post('/api/federal-register/refresh', async (_req, res) => {
   };
 
   try {
+    const previousRegister = await readFederalRegisterDocuments();
+    const previousMissingDates = new Set(
+      Array.isArray(previousRegister?.missingEffectiveDates)
+        ? previousRegister.missingEffectiveDates
+        : []
+    );
+
     const data = await updateFederalRegisterDocuments({ onProgress: sendProgress });
     sendProgress(
       `Fetched ${buildPlural(data.documentCount, 'Federal Register document', 'Federal Register documents')}.`
@@ -211,12 +218,18 @@ app.post('/api/federal-register/refresh', async (_req, res) => {
     }
 
     const rawDownloads = [];
-    const missingEffectiveDateSet = new Set();
+    const missingEffectiveDateSet = new Set(previousMissingDates);
     for (const date of sortedEffectiveDates) {
       sendProgress(`Checking raw XML cache for ${date}…`);
       const info = await getRawXmlInfo(date);
       if (info) {
         sendProgress(`Raw XML already cached for ${date}.`);
+        missingEffectiveDateSet.delete(date);
+        continue;
+      }
+
+      if (missingEffectiveDateSet.has(date)) {
+        sendProgress(`Skipping raw XML download for ${date}; previously marked unavailable.`);
         continue;
       }
 
