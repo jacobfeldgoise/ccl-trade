@@ -1772,6 +1772,11 @@ body {
   color: #b91c1c;
 }
 
+.fr-status.unavailable {
+  background: rgba(251, 191, 36, 0.25);
+  color: #92400e;
+}
+
 .fr-status.unknown {
   background: rgba(148, 163, 184, 0.25);
   color: #475569;

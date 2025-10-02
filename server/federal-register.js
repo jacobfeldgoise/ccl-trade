@@ -5,6 +5,8 @@ import { fileURLToPath } from 'url';
 import { promisify } from 'util';
 import { Agent as UndiciAgent, setGlobalDispatcher } from 'undici';
 
+import { getMissingEffectiveDates } from './ccl-date-metadata.js';
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -30,6 +32,7 @@ export async function ensureFederalRegisterStorage() {
 
 export async function readFederalRegisterDocuments() {
   await ensureFederalRegisterStorage();
+  const missingEffectiveDates = await getMissingEffectiveDates();
   try {
     const raw = await fs.readFile(FEDERAL_REGISTER_JSON, 'utf-8');
     const parsed = JSON.parse(raw);
@@ -39,11 +42,18 @@ export async function readFederalRegisterDocuments() {
       supplements: Array.isArray(parsed?.supplements) ? parsed.supplements : [],
       documentCount:
         typeof parsed?.documentCount === 'number' ? parsed.documentCount : documents.length,
+      missingEffectiveDates,
       documents,
     };
   } catch (error) {
     if (error.code === 'ENOENT') {
-      return { generatedAt: null, supplements: [], documentCount: 0, documents: [] };
+      return {
+        generatedAt: null,
+        supplements: [],
+        documentCount: 0,
+        missingEffectiveDates,
+        documents: [],
+      };
     }
     if (error instanceof SyntaxError) {
       console.error('Invalid Federal Register JSON payload', error.message);
@@ -89,7 +99,7 @@ export async function updateFederalRegisterDocuments(options = {}) {
     return dateA < dateB ? 1 : dateA > dateB ? -1 : 0;
   });
 
-  const output = {
+  const storagePayload = {
     generatedAt: new Date().toISOString(),
     supplements: SUPPLEMENTS.map((entry) => entry.number),
     documentCount: documents.length,
@@ -97,10 +107,19 @@ export async function updateFederalRegisterDocuments(options = {}) {
   };
 
   await ensureFederalRegisterStorage();
-  await fs.writeFile(FEDERAL_REGISTER_JSON, `${JSON.stringify(output, null, 2)}\n`, 'utf-8');
+  await fs.writeFile(
+    FEDERAL_REGISTER_JSON,
+    `${JSON.stringify(storagePayload, null, 2)}\n`,
+    'utf-8'
+  );
   log?.(`Stored ${documents.length} document(s) at ${FEDERAL_REGISTER_JSON}`);
 
-  return output;
+  const missingEffectiveDates = await getMissingEffectiveDates();
+
+  return {
+    ...storagePayload,
+    missingEffectiveDates,
+  };
 }
 
 const execFileAsync = promisify(execFile);

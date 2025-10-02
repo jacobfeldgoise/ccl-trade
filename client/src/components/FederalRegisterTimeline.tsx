@@ -9,6 +9,7 @@ interface FederalRegisterTimelineProps {
   loading: boolean;
   error: string | null;
   generatedAt: string | null;
+  missingEffectiveDates: string[];
 }
 
 function getEffectiveDate(doc: FederalRegisterDocument): string | null {
@@ -41,6 +42,7 @@ interface TimelineItem {
   supplementsLabel: string;
   anchorId: string;
   version?: VersionSummary;
+  missingEffectiveDate: boolean;
 }
 
 interface TimelineNavItem {
@@ -54,12 +56,19 @@ export function FederalRegisterTimeline({
   loading,
   error,
   generatedAt,
+  missingEffectiveDates,
 }: FederalRegisterTimelineProps) {
   const { timelineItems, navItems, totalDocuments, cachedDocumentCount } = useMemo(() => {
     const versionMap = new Map<string, VersionSummary>();
     versions.forEach((version) => {
       versionMap.set(version.date, version);
     });
+
+    const missingSet = new Set(
+      (missingEffectiveDates ?? [])
+        .map((date) => (typeof date === 'string' ? date.trim() : ''))
+        .filter((date) => ISO_DATE_ONLY_REGEX.test(date))
+    );
 
     const sortedDocuments = [...documents].sort((a, b) => {
       const dateA = getEffectiveDate(a) ?? '';
@@ -79,6 +88,7 @@ export function FederalRegisterTimeline({
       const supplementsLabel = doc.supplements.length
         ? doc.supplements.map((number) => `Supplement No. ${number}`).join(', ')
         : '—';
+      const missingEffectiveDate = effectiveDate ? missingSet.has(effectiveDate) : false;
 
       const label = getYearLabel(effectiveDate);
       if (!seenLabels.has(label)) {
@@ -92,6 +102,7 @@ export function FederalRegisterTimeline({
         supplementsLabel,
         anchorId,
         version,
+        missingEffectiveDate,
       };
     });
 
@@ -103,7 +114,7 @@ export function FederalRegisterTimeline({
       totalDocuments: sortedDocuments.length,
       cachedDocumentCount: cachedCount,
     };
-  }, [documents, versions]);
+  }, [documents, versions, missingEffectiveDates]);
 
   const [activeAnchor, setActiveAnchor] = useState<string | null>(null);
 
@@ -233,12 +244,13 @@ export function FederalRegisterTimeline({
 
           {timelineItems.length > 0 && (
             <ol className="fr-timeline">
-              {timelineItems.map(({ doc, effectiveDate, supplementsLabel, anchorId, version }, index) => {
-                return (
-                  <li
-                    key={doc.documentNumber ?? `${doc.title}-${effectiveDate ?? 'unknown'}`}
-                    id={anchorId}
-                    className="fr-timeline-item"
+              {timelineItems.map(
+                ({ doc, effectiveDate, supplementsLabel, anchorId, version, missingEffectiveDate }, index) => {
+                  return (
+                    <li
+                      key={doc.documentNumber ?? `${doc.title}-${effectiveDate ?? 'unknown'}`}
+                      id={anchorId}
+                      className="fr-timeline-item"
                     aria-label={`Federal Register document ${index + 1}`}
                   >
                     <div className="fr-timeline-date">
@@ -283,6 +295,8 @@ export function FederalRegisterTimeline({
                           <dd>
                             {version ? (
                               <span className="fr-status cached">Stored {formatDateTime(version.fetchedAt)}</span>
+                            ) : missingEffectiveDate ? (
+                              <span className="fr-status unavailable">No eCFR XML available</span>
                             ) : effectiveDate ? (
                               <span className="fr-status missing">Not yet cached</span>
                             ) : (
@@ -294,7 +308,8 @@ export function FederalRegisterTimeline({
                     </div>
                   </li>
                 );
-              })}
+                }
+              )}
             </ol>
           )}
         </div>
