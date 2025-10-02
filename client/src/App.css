@@ -1556,6 +1556,35 @@ body {
   gap: 1.5rem;
 }
 
+.fr-year-indicator {
+  position: sticky;
+  top: max(1rem, env(safe-area-inset-top, 0px));
+  align-self: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding: 0.65rem 0.9rem 0.75rem;
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.92), rgba(14, 165, 233, 0.92));
+  color: #f8fafc;
+  border-radius: 0.9rem;
+  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.22);
+  min-width: 160px;
+  z-index: 2;
+}
+
+.fr-year-label {
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  opacity: 0.85;
+}
+
+.fr-year-value {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
 .fr-timeline-nav {
   position: sticky;
   top: max(1rem, env(safe-area-inset-top, 0px));
@@ -1847,6 +1876,12 @@ body {
     padding: 0;
     max-height: none;
     overflow: visible;
+  }
+
+  .fr-year-indicator {
+    position: static;
+    width: fit-content;
+    box-shadow: 0 8px 20px rgba(15, 23, 42, 0.16);
   }
 
   .fr-timeline-item {
