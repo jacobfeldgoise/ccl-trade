@@ -10,9 +10,8 @@ import {
 import { formatDateTime, formatNumber } from '../utils/format';
 import { EccnNodeView } from './EccnNodeView';
 import {
-  eccnSegmentsMatchQuery,
-  extractEccnQuery,
-  normalizeSearchText,
+  matchesEccnSearchTarget,
+  prepareEccnSearchQuery,
   type EccnSegment,
 } from '../utils/eccnSearch';
 
@@ -201,33 +200,17 @@ export function EccnHistoryView({
     onQueryChange?.(value);
   };
 
-  const normalizedQuery = useMemo(() => normalizeSearchText(query), [query]);
   const normalizedSelected = useMemo(() => normalizeCode(selectedCode), [selectedCode]);
 
-  const queryTokens = useMemo(
-    () => (normalizedQuery ? normalizedQuery.split(/\s+/).filter(Boolean) : []),
-    [normalizedQuery]
-  );
-  const eccnQuery = useMemo(() => extractEccnQuery(query), [query]);
+  const preparedQuery = useMemo(() => prepareEccnSearchQuery(query), [query]);
 
   const filteredOptions = useMemo(() => {
-    const trimmed = query.trim();
-    if (!trimmed) {
+    if (!preparedQuery.trimmed) {
       return options;
     }
 
-    return options.filter((option) => {
-      if (eccnQuery?.segments && option.segments) {
-        if (eccnSegmentsMatchQuery(eccnQuery.segments, option.segments)) {
-          return true;
-        }
-      }
-      if (queryTokens.length === 0) {
-        return false;
-      }
-      return queryTokens.every((token) => option.searchText.includes(token));
-    });
-  }, [options, query, eccnQuery, queryTokens]);
+    return options.filter((option) => matchesEccnSearchTarget(preparedQuery, option));
+  }, [options, preparedQuery]);
 
   const limitedOptions = useMemo(() => filteredOptions.slice(0, 200), [filteredOptions]);
 

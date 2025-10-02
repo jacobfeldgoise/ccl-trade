@@ -14,6 +14,14 @@ export type ParsedEccnCode = {
   segments: EccnSegment[];
 };
 
+export type PreparedEccnSearchQuery = {
+  raw: string;
+  trimmed: string;
+  normalized: string;
+  tokens: string[];
+  eccn: ParsedEccnCode | null;
+};
+
 function stripWrappingPunctuation(value: string): string {
   let working = value.trim();
 
@@ -182,4 +190,46 @@ export function extractEccnQuery(value: string | null | undefined): ParsedEccnCo
   }
 
   return parseNormalizedEccn(upper);
+}
+
+export function prepareEccnSearchQuery(value: string | null | undefined): PreparedEccnSearchQuery {
+  const raw = value ?? '';
+  const trimmed = raw.trim();
+  const normalized = normalizeSearchText(trimmed);
+  const tokens = normalized ? normalized.split(/\s+/).filter(Boolean) : [];
+
+  return {
+    raw,
+    trimmed,
+    normalized,
+    tokens,
+    eccn: extractEccnQuery(trimmed),
+  };
+}
+
+interface EccnSearchTarget {
+  searchText: string;
+  segments: EccnSegment[] | null;
+}
+
+export function matchesEccnSearchTarget(
+  query: PreparedEccnSearchQuery,
+  target: EccnSearchTarget
+): boolean {
+  if (!query.trimmed) {
+    return true;
+  }
+
+  const querySegments = query.eccn?.segments ?? null;
+  if (querySegments && target.segments) {
+    if (eccnSegmentsMatchQuery(querySegments, target.segments)) {
+      return true;
+    }
+  }
+
+  if (query.tokens.length === 0) {
+    return false;
+  }
+
+  return query.tokens.every((token) => target.searchText.includes(token));
 }
