@@ -57,6 +57,32 @@ export interface CclDataset {
   supplements: CclSupplement[];
 }
 
+export interface EccnHistoryVersionEntry {
+  version: string;
+  fetchedAt: string | null;
+  sourceUrl: string | null;
+  heading?: string | null;
+  title?: string | null;
+  category?: string | null;
+  group?: string | null;
+  supplement?: { number: string; heading?: string | null } | null;
+  breadcrumbs?: string[];
+  ancestors: string[];
+  text: string;
+  structure?: EccnNode | null;
+}
+
+export interface EccnHistoryLeaf {
+  eccn: string;
+  normalized?: string;
+  history: EccnHistoryVersionEntry[];
+}
+
+export interface EccnHistoryResponse {
+  eccn: string;
+  leaves: EccnHistoryLeaf[];
+}
+
 export interface VersionSummary {
   date: string;
   fetchedAt: string;

@@ -1,9 +1,9 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import type { FormEvent, JSX } from 'react';
 import {
-  CclDataset,
-  EccnContentBlock,
   EccnEntry,
+  EccnHistoryLeaf,
+  EccnHistoryResponse,
   EccnNode,
   VersionSummary,
 } from '../types';
@@ -19,7 +19,7 @@ interface HistorySearchOption {
 interface EccnHistoryViewProps {
   versions: VersionSummary[];
   options: HistorySearchOption[];
-  ensureDataset: (date: string) => Promise<CclDataset>;
+  loadHistory: (eccn: string) => Promise<EccnHistoryResponse>;
   loadingVersions: boolean;
   onNavigateToEccn: (eccn: string) => void;
   query?: string;
@@ -39,7 +39,7 @@ type HistoryVersionEntry = {
   version: string;
   fetchedAt: string;
   sourceUrl: string;
-  entry: EccnEntry | null;
+  published: boolean;
   childDetails: HistoryChildDetail[];
   childMap: Map<string, HistoryChildDetail>;
 };
@@ -50,6 +50,21 @@ type ChangeSummary = {
   added: number;
   removed: number;
   changed: number;
+};
+
+type PreparedLeafVersion = {
+  version: string;
+  fetchedAt: string | null;
+  sourceUrl: string | null;
+  text: string;
+  structure: EccnNode | null;
+  ancestors: string[];
+};
+
+type PreparedLeaf = {
+  code: string;
+  normalized: string;
+  versionMap: Map<string, PreparedLeafVersion>;
 };
 
 function normalizeCode(value: string): string {
@@ -63,137 +78,6 @@ function normalizeSearchValue(value: string): string {
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, ' ')
     .trim();
-}
-
-function stripHtmlTags(value: string): string {
-  return value.replace(/<[^>]*>/g, ' ').replace(/\s+/g, ' ').trim();
-}
-
-function getBlockPlainText(block: EccnContentBlock): string {
-  if (block.text) {
-    return block.text;
-  }
-  if (block.html) {
-    return stripHtmlTags(block.html);
-  }
-  return '';
-}
-
-function findNodeByIdentifier(node: EccnNode | undefined, target: string): EccnNode | null {
-  if (!node || !target) {
-    return null;
-  }
-  const normalizedTarget = normalizeCode(target);
-  const stack: EccnNode[] = [node];
-
-  while (stack.length > 0) {
-    const current = stack.pop()!;
-    const identifier = current.identifier ? normalizeCode(current.identifier) : null;
-    const heading = !identifier && current.heading ? normalizeCode(current.heading) : null;
-
-    if (identifier === normalizedTarget || heading === normalizedTarget) {
-      return current;
-    }
-
-    if (current.children && current.children.length > 0) {
-      stack.push(...current.children);
-    }
-  }
-
-  return null;
-}
-
-function extractNodePlainText(node: EccnNode | null): string {
-  if (!node) {
-    return '';
-  }
-
-  const parts: string[] = [];
-
-  if (node.heading && node.heading !== node.identifier) {
-    parts.push(node.heading.trim());
-  } else if (!node.heading && node.label) {
-    parts.push(node.label.trim());
-  }
-
-  if (node.content && node.content.length > 0) {
-    node.content.forEach((block) => {
-      const text = getBlockPlainText(block).trim();
-      if (text) {
-        parts.push(text);
-      }
-    });
-  }
-
-  if (node.children && node.children.length > 0) {
-    node.children.forEach((child) => {
-      if (child.isEccn && !child.boundToParent) {
-        return;
-      }
-      const childText = extractNodePlainText(child);
-      if (childText) {
-        parts.push(childText);
-      }
-    });
-  }
-
-  return parts.join('\n').replace(/\s+\n/g, '\n').trim();
-}
-
-function buildChildDetails(entry: EccnEntry): HistoryChildDetail[] {
-  const root = entry.structure;
-  if (!root) {
-    return [];
-  }
-
-  const details: HistoryChildDetail[] = [];
-  const seen = new Set<string>();
-
-  const addDetail = (code: string, node: EccnNode | null) => {
-    const normalized = normalizeCode(code);
-    if (!normalized || seen.has(normalized)) {
-      return;
-    }
-    seen.add(normalized);
-    details.push({
-      code: node?.identifier ?? code,
-      normalized,
-      node,
-      text: extractNodePlainText(node),
-    });
-  };
-
-  (entry.childEccns ?? []).forEach((code) => {
-    const node = findNodeByIdentifier(root, code);
-    addDetail(code, node);
-  });
-
-  root.children?.forEach((child) => {
-    if (!child.isEccn || !child.identifier) {
-      return;
-    }
-    addDetail(child.identifier, child);
-  });
-
-  return details;
-}
-
-function findEntryInDataset(dataset: CclDataset, normalizedCode: string): EccnEntry | null {
-  if (!dataset.supplements) {
-    return null;
-  }
-
-  for (const supplement of dataset.supplements) {
-    if (!supplement.eccns) {
-      continue;
-    }
-    for (const entry of supplement.eccns) {
-      if (normalizeCode(entry.eccn) === normalizedCode) {
-        return entry;
-      }
-    }
-  }
-  return null;
 }
 
 function determineChangeStatus(
@@ -235,6 +119,38 @@ function summarizeChanges(
   );
 }
 
+function prepareLeaf(leaf: EccnHistoryLeaf): PreparedLeaf {
+  const normalized = normalizeCode(leaf.eccn);
+  const versionMap = new Map<string, PreparedLeafVersion>();
+
+  const historyEntries = Array.isArray(leaf.history) ? leaf.history : [];
+
+  historyEntries.forEach((entry) => {
+    if (!entry || typeof entry.version !== 'string') {
+      return;
+    }
+
+    const ancestors = Array.isArray(entry.ancestors)
+      ? entry.ancestors.map((ancestor) => normalizeCode(ancestor)).filter(Boolean)
+      : [];
+
+    versionMap.set(entry.version, {
+      version: entry.version,
+      fetchedAt: entry.fetchedAt ?? null,
+      sourceUrl: entry.sourceUrl ?? null,
+      text: entry.text ?? '',
+      structure: entry.structure ?? null,
+      ancestors,
+    });
+  });
+
+  return {
+    code: leaf.eccn,
+    normalized,
+    versionMap,
+  };
+}
+
 function renderTextParagraphs(text: string): JSX.Element {
   const lines = text.split(/\n+/).map((line) => line.trim()).filter(Boolean);
   if (lines.length === 0) {
@@ -252,7 +168,7 @@ function renderTextParagraphs(text: string): JSX.Element {
 export function EccnHistoryView({
   versions,
   options,
-  ensureDataset,
+  loadHistory,
   loadingVersions,
   onNavigateToEccn,
   query: initialQuery = '',
@@ -262,7 +178,7 @@ export function EccnHistoryView({
 }: EccnHistoryViewProps) {
   const [query, setQuery] = useState(initialQuery);
   const [selectedCode, setSelectedCode] = useState(externalSelectedCode);
-  const [historyEntries, setHistoryEntries] = useState<HistoryVersionEntry[]>([]);
+  const [historyData, setHistoryData] = useState<EccnHistoryResponse | null>(null);
   const [loadingHistory, setLoadingHistory] = useState(false);
   const [historyError, setHistoryError] = useState<string | null>(null);
 
@@ -331,7 +247,7 @@ export function EccnHistoryView({
 
   useEffect(() => {
     if (!normalizedSelected || versions.length === 0) {
-      setHistoryEntries([]);
+      setHistoryData(null);
       setHistoryError(null);
       setLoadingHistory(false);
       return;
@@ -339,61 +255,36 @@ export function EccnHistoryView({
 
     let cancelled = false;
 
-    const loadHistory = async () => {
-      setLoadingHistory(true);
-      setHistoryError(null);
-      try {
-        const sortedVersions = [...versions].sort((a, b) => a.date.localeCompare(b.date));
-        const entries: HistoryVersionEntry[] = [];
+    setLoadingHistory(true);
+    setHistoryError(null);
 
-        for (const version of sortedVersions) {
-          if (cancelled) {
-            return;
-          }
-          const dataset = await ensureDataset(version.date);
-          if (cancelled) {
-            return;
-          }
-          const entry = findEntryInDataset(dataset, normalizedSelected);
-          const childDetails = entry ? buildChildDetails(entry) : [];
-          entries.push({
-            version: version.date,
-            fetchedAt: dataset.fetchedAt,
-            sourceUrl: dataset.sourceUrl,
-            entry: entry ?? null,
-            childDetails,
-            childMap: new Map(childDetails.map((detail) => [detail.normalized, detail])),
-          });
+    loadHistory(normalizedSelected)
+      .then((data) => {
+        if (!cancelled) {
+          setHistoryData(data);
         }
-
+      })
+      .catch((error) => {
         if (cancelled) {
           return;
         }
-
-        const firstIndex = entries.findIndex((entry) => entry.entry);
-        const trimmed = firstIndex >= 0 ? entries.slice(firstIndex) : [];
-        setHistoryEntries(trimmed);
-      } catch (error) {
-        if (cancelled) {
-          return;
-        }
+        setHistoryData(null);
         setHistoryError(
-          error instanceof Error ? error.message : 'Failed to load ECCN history for the selected code.'
+          error instanceof Error
+            ? error.message
+            : 'Failed to load ECCN history for the selected code.'
         );
-        setHistoryEntries([]);
-      } finally {
+      })
+      .finally(() => {
         if (!cancelled) {
           setLoadingHistory(false);
         }
-      }
-    };
-
-    loadHistory();
+      });
 
     return () => {
       cancelled = true;
     };
-  }, [normalizedSelected, ensureDataset, versions]);
+  }, [normalizedSelected, loadHistory, versions]);
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -417,19 +308,74 @@ export function EccnHistoryView({
     updateQuery(option.entry.eccn);
   };
 
-  const childOrder = useMemo(() => {
-    const seen = new Set<string>();
-    const order: Array<{ normalized: string; display: string }> = [];
-    historyEntries.forEach((entry) => {
-      entry.childDetails.forEach((detail) => {
-        if (!seen.has(detail.normalized)) {
-          seen.add(detail.normalized);
-          order.push({ normalized: detail.normalized, display: detail.code });
+  const preparedLeaves = useMemo<PreparedLeaf[]>(() => {
+    if (!historyData || !Array.isArray(historyData.leaves)) {
+      return [];
+    }
+    return historyData.leaves
+      .map((leaf) => prepareLeaf(leaf))
+      .sort((a, b) => a.code.localeCompare(b.code));
+  }, [historyData]);
+
+  const historyEntries = useMemo<HistoryVersionEntry[]>(() => {
+    if (versions.length === 0) {
+      return [];
+    }
+
+    const sortedVersions = [...versions].sort((a, b) => a.date.localeCompare(b.date));
+
+    const entries = sortedVersions.map<HistoryVersionEntry>((summary) => {
+      const childDetails: HistoryChildDetail[] = [];
+      const childMap = new Map<string, HistoryChildDetail>();
+      let published = false;
+      let fetchedAt: string | null = summary.fetchedAt ?? null;
+      let sourceUrl: string | null = summary.sourceUrl ?? null;
+
+      preparedLeaves.forEach((leaf) => {
+        const record = leaf.versionMap.get(summary.date);
+        if (!record) {
+          return;
+        }
+
+        const detail: HistoryChildDetail = {
+          code: leaf.code,
+          normalized: leaf.normalized,
+          node: record.structure ?? null,
+          text: record.text ?? '',
+        };
+
+        childDetails.push(detail);
+        childMap.set(leaf.normalized, detail);
+
+        if (leaf.normalized === normalizedSelected || record.ancestors.includes(normalizedSelected)) {
+          published = true;
+        }
+
+        if (!fetchedAt && record.fetchedAt) {
+          fetchedAt = record.fetchedAt;
+        }
+        if (!sourceUrl && record.sourceUrl) {
+          sourceUrl = record.sourceUrl;
         }
       });
+
+      return {
+        version: summary.date,
+        fetchedAt: fetchedAt ?? '',
+        sourceUrl: sourceUrl ?? '',
+        published,
+        childDetails,
+        childMap,
+      } satisfies HistoryVersionEntry;
     });
-    return order;
-  }, [historyEntries]);
+
+    const firstIndex = entries.findIndex((entry) => entry.published);
+    return firstIndex >= 0 ? entries.slice(firstIndex) : [];
+  }, [preparedLeaves, versions, normalizedSelected]);
+
+  const childOrder = useMemo(() => {
+    return preparedLeaves.map((leaf) => ({ normalized: leaf.normalized, display: leaf.code }));
+  }, [preparedLeaves]);
 
   const versionsTracked = historyEntries.length;
   const uniqueChildCount = childOrder.length;
@@ -595,7 +541,7 @@ export function EccnHistoryView({
                             </span>
                           </div>
                         </header>
-                        {entry.entry ? (
+                        {entry.published ? (
                           childOrder.length > 0 ? (
                             <ul className="history-child-list" role="list">
                               {childOrder.map((child) => {
