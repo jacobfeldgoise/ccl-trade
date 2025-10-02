@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import type { FormEvent, JSX } from 'react';
 import {
   CclDataset,
@@ -22,6 +22,10 @@ interface EccnHistoryViewProps {
   ensureDataset: (date: string) => Promise<CclDataset>;
   loadingVersions: boolean;
   onNavigateToEccn: (eccn: string) => void;
+  query?: string;
+  onQueryChange?: (value: string) => void;
+  selectedCode?: string;
+  onSelectedCodeChange?: (value: string) => void;
 }
 
 type HistoryChildDetail = {
@@ -251,12 +255,37 @@ export function EccnHistoryView({
   ensureDataset,
   loadingVersions,
   onNavigateToEccn,
+  query: initialQuery = '',
+  onQueryChange,
+  selectedCode: externalSelectedCode = '',
+  onSelectedCodeChange,
 }: EccnHistoryViewProps) {
-  const [query, setQuery] = useState('');
-  const [selectedCode, setSelectedCode] = useState('');
+  const [query, setQuery] = useState(initialQuery);
+  const [selectedCode, setSelectedCode] = useState(externalSelectedCode);
   const [historyEntries, setHistoryEntries] = useState<HistoryVersionEntry[]>([]);
   const [loadingHistory, setLoadingHistory] = useState(false);
   const [historyError, setHistoryError] = useState<string | null>(null);
+
+  useEffect(() => {
+    setQuery(initialQuery);
+  }, [initialQuery]);
+
+  useEffect(() => {
+    setSelectedCode(externalSelectedCode);
+  }, [externalSelectedCode]);
+
+  const updateSelectedCode = useCallback(
+    (value: string) => {
+      setSelectedCode(value);
+      onSelectedCodeChange?.(value);
+    },
+    [onSelectedCodeChange]
+  );
+
+  const updateQuery = (value: string) => {
+    setQuery(value);
+    onQueryChange?.(value);
+  };
 
   const normalizedQuery = useMemo(() => normalizeSearchValue(query), [query]);
   const normalizedSelected = useMemo(() => normalizeCode(selectedCode), [selectedCode]);
@@ -291,11 +320,14 @@ export function EccnHistoryView({
     if (!selectedCode) {
       return;
     }
+    if (options.length === 0) {
+      return;
+    }
     const normalized = normalizeCode(selectedCode);
     if (!options.some((option) => option.normalizedCode === normalized)) {
-      setSelectedCode('');
+      updateSelectedCode('');
     }
-  }, [options, selectedCode]);
+  }, [options, selectedCode, updateSelectedCode]);
 
   useEffect(() => {
     if (!normalizedSelected || versions.length === 0) {
@@ -372,17 +404,17 @@ export function EccnHistoryView({
     const normalized = normalizeCode(trimmed);
     const match = options.find((option) => option.normalizedCode === normalized);
     if (match) {
-      setSelectedCode(match.entry.eccn);
-      setQuery(match.entry.eccn);
+      updateSelectedCode(match.entry.eccn);
+      updateQuery(match.entry.eccn);
     } else {
-      setSelectedCode(normalized);
-      setQuery(normalized);
+      updateSelectedCode(normalized);
+      updateQuery(normalized);
     }
   };
 
   const handleSelectOption = (option: HistorySearchOption) => {
-    setSelectedCode(option.entry.eccn);
-    setQuery(option.entry.eccn);
+    updateSelectedCode(option.entry.eccn);
+    updateQuery(option.entry.eccn);
   };
 
   const childOrder = useMemo(() => {
@@ -432,7 +464,7 @@ export function EccnHistoryView({
               className="control"
               type="search"
               value={query}
-              onChange={(event) => setQuery(event.target.value)}
+              onChange={(event) => updateQuery(event.target.value)}
               placeholder="Search by code or keyword"
               autoComplete="off"
             />
