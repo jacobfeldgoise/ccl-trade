@@ -164,11 +164,18 @@ export function VersionSettings({
         >
           {federalDocumentsRefreshing ? 'Refreshing…' : 'Refresh Federal Register data'}
         </button>
-        <p className="help-text subtle">{federalRegisterLastRefreshed}</p>
+        <p className="help-text subtle">
+          {federalRegisterLastRefreshed}
+          {federalDocumentsStatus ? (
+            <>
+              {' '}
+              {federalDocumentsStatus}
+            </>
+          ) : null}
+        </p>
         {federalDocumentsProgress ? (
           <div className="help-text subtle status-log">{federalDocumentsProgress}</div>
         ) : null}
-        {federalDocumentsStatus ? <div className="alert info">{federalDocumentsStatus}</div> : null}
         {federalDocumentsError ? <div className="alert error">{federalDocumentsError}</div> : null}
       </div>
 

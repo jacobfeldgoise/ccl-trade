@@ -11,6 +11,7 @@ const METADATA_FILE = path.join(DATA_DIR, 'ccl-date-metadata.json');
 const DEFAULT_METADATA = {
   missingEffectiveDates: [],
   downloadedEffectiveDates: [],
+  notYetAvailableEffectiveDates: [],
 };
 
 function normalizeDate(value) {
@@ -51,6 +52,7 @@ async function readMetadataFile() {
     return {
       missingEffectiveDates: normalizeDateList(parsed?.missingEffectiveDates),
       downloadedEffectiveDates: normalizeDateList(parsed?.downloadedEffectiveDates),
+      notYetAvailableEffectiveDates: normalizeDateList(parsed?.notYetAvailableEffectiveDates),
     };
   } catch (error) {
     if (error.code === 'ENOENT') {
@@ -68,6 +70,7 @@ async function writeMetadataFile(metadata) {
   const payload = {
     missingEffectiveDates: normalizeDateList(metadata?.missingEffectiveDates),
     downloadedEffectiveDates: normalizeDateList(metadata?.downloadedEffectiveDates),
+    notYetAvailableEffectiveDates: normalizeDateList(metadata?.notYetAvailableEffectiveDates),
   };
   await ensureStorage();
   await fs.writeFile(METADATA_FILE, `${JSON.stringify(payload, null, 2)}\n`, 'utf-8');
@@ -94,6 +97,9 @@ export async function setMissingEffectiveDates(dates) {
   metadata.downloadedEffectiveDates = metadata.downloadedEffectiveDates.filter(
     (date) => !metadata.missingEffectiveDates.includes(date)
   );
+  metadata.notYetAvailableEffectiveDates = metadata.notYetAvailableEffectiveDates.filter(
+    (date) => !metadata.missingEffectiveDates.includes(date)
+  );
   const updated = await writeMetadataFile(metadata);
   return updated.missingEffectiveDates;
 }
@@ -102,6 +108,9 @@ export async function setDownloadedEffectiveDates(dates) {
   const metadata = await readMetadataFile();
   metadata.downloadedEffectiveDates = normalizeDateList(dates);
   metadata.missingEffectiveDates = metadata.missingEffectiveDates.filter(
+    (date) => !metadata.downloadedEffectiveDates.includes(date)
+  );
+  metadata.notYetAvailableEffectiveDates = metadata.notYetAvailableEffectiveDates.filter(
     (date) => !metadata.downloadedEffectiveDates.includes(date)
   );
   const updated = await writeMetadataFile(metadata);
@@ -120,6 +129,9 @@ export async function addMissingEffectiveDate(date) {
   metadata.downloadedEffectiveDates = metadata.downloadedEffectiveDates.filter(
     (entry) => entry !== normalized
   );
+  metadata.notYetAvailableEffectiveDates = metadata.notYetAvailableEffectiveDates.filter(
+    (entry) => entry !== normalized
+  );
   const updated = await writeMetadataFile(metadata);
   return updated.missingEffectiveDates;
 }
@@ -136,6 +148,49 @@ export async function addDownloadedEffectiveDate(date) {
   metadata.missingEffectiveDates = metadata.missingEffectiveDates.filter(
     (entry) => entry !== normalized
   );
+  metadata.notYetAvailableEffectiveDates = metadata.notYetAvailableEffectiveDates.filter(
+    (entry) => entry !== normalized
+  );
   const updated = await writeMetadataFile(metadata);
   return updated.downloadedEffectiveDates;
+}
+
+export async function getNotYetAvailableEffectiveDates() {
+  const metadata = await readMetadataFile();
+  return metadata.notYetAvailableEffectiveDates;
+}
+
+export async function setNotYetAvailableEffectiveDates(dates) {
+  const metadata = await readMetadataFile();
+  metadata.notYetAvailableEffectiveDates = normalizeDateList(dates);
+  metadata.missingEffectiveDates = metadata.missingEffectiveDates.filter(
+    (date) => !metadata.notYetAvailableEffectiveDates.includes(date)
+  );
+  metadata.downloadedEffectiveDates = metadata.downloadedEffectiveDates.filter(
+    (date) => !metadata.notYetAvailableEffectiveDates.includes(date)
+  );
+  const updated = await writeMetadataFile(metadata);
+  return updated.notYetAvailableEffectiveDates;
+}
+
+export async function addNotYetAvailableEffectiveDate(date) {
+  const normalized = normalizeDate(date);
+  const metadata = await readMetadataFile();
+  if (!normalized) {
+    return metadata.notYetAvailableEffectiveDates;
+  }
+  if (!metadata.notYetAvailableEffectiveDates.includes(normalized)) {
+    metadata.notYetAvailableEffectiveDates = [
+      ...metadata.notYetAvailableEffectiveDates,
+      normalized,
+    ].sort();
+  }
+  metadata.missingEffectiveDates = metadata.missingEffectiveDates.filter(
+    (entry) => entry !== normalized
+  );
+  metadata.downloadedEffectiveDates = metadata.downloadedEffectiveDates.filter(
+    (entry) => entry !== normalized
+  );
+  const updated = await writeMetadataFile(metadata);
+  return updated.notYetAvailableEffectiveDates;
 }

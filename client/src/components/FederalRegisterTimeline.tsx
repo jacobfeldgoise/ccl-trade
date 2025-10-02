@@ -10,6 +10,7 @@ interface FederalRegisterTimelineProps {
   error: string | null;
   generatedAt: string | null;
   missingEffectiveDates: string[];
+  notYetAvailableEffectiveDates: string[];
 }
 
 function getEffectiveDate(doc: FederalRegisterDocument): string | null {
@@ -17,6 +18,28 @@ function getEffectiveDate(doc: FederalRegisterDocument): string | null {
 }
 
 const ISO_DATE_ONLY_REGEX = /^(\d{4})-(\d{2})-(\d{2})$/;
+
+function normalizeDateValue(value: string | null): string | null {
+  if (!value) {
+    return null;
+  }
+
+  const trimmed = value.trim();
+  if (!trimmed) {
+    return null;
+  }
+
+  if (ISO_DATE_ONLY_REGEX.test(trimmed)) {
+    return trimmed;
+  }
+
+  const parsed = new Date(trimmed);
+  if (Number.isNaN(parsed.getTime())) {
+    return trimmed;
+  }
+
+  return parsed.toISOString().slice(0, 10);
+}
 
 function getYearLabel(value: string | null): string {
   if (!value) {
@@ -43,11 +66,28 @@ interface TimelineItem {
   anchorId: string;
   version?: VersionSummary;
   missingEffectiveDate: boolean;
+  notYetAvailableEffectiveDate: boolean;
+  ruleType: string | null;
 }
 
 interface TimelineNavItem {
   label: string;
   anchorId: string;
+  count: number;
+}
+
+function cleanRuleType(action: string | null | undefined): string | null {
+  if (!action) {
+    return null;
+  }
+
+  const normalized = action.replace(/\s+/g, ' ').trim();
+  if (!normalized) {
+    return null;
+  }
+
+  const cleaned = normalized.replace(/[\s.;:,]+$/u, '');
+  return cleaned || normalized;
 }
 
 export function FederalRegisterTimeline({
@@ -57,8 +97,9 @@ export function FederalRegisterTimeline({
   error,
   generatedAt,
   missingEffectiveDates,
+  notYetAvailableEffectiveDates,
 }: FederalRegisterTimelineProps) {
-  const { timelineItems, navItems, totalDocuments, cachedDocumentCount } = useMemo(() => {
+  const { timelineItems, navItems, totalDocuments, cachedDocumentCount, anchorYearMap } = useMemo(() => {
     const versionMap = new Map<string, VersionSummary>();
     versions.forEach((version) => {
       versionMap.set(version.date, version);
@@ -66,6 +107,12 @@ export function FederalRegisterTimeline({
 
     const missingSet = new Set(
       (missingEffectiveDates ?? [])
+        .map((date) => (typeof date === 'string' ? date.trim() : ''))
+        .filter((date) => ISO_DATE_ONLY_REGEX.test(date))
+    );
+
+    const notYetAvailableSet = new Set(
+      (notYetAvailableEffectiveDates ?? [])
         .map((date) => (typeof date === 'string' ? date.trim() : ''))
         .filter((date) => ISO_DATE_ONLY_REGEX.test(date))
     );
@@ -79,22 +126,35 @@ export function FederalRegisterTimeline({
       return dateA < dateB ? 1 : dateA > dateB ? -1 : 0;
     });
 
-    const seenLabels = new Set<string>();
     const navEntries: TimelineNavItem[] = [];
+    const navEntryMap = new Map<string, TimelineNavItem>();
+    const anchorYearLookup = new Map<string, string>();
     const items: TimelineItem[] = sortedDocuments.map((doc, index) => {
-      const effectiveDate = getEffectiveDate(doc);
+      const effectiveDateRaw = getEffectiveDate(doc);
+      const normalizedEffectiveDate = normalizeDateValue(effectiveDateRaw);
+      const effectiveDate = normalizedEffectiveDate ?? effectiveDateRaw?.trim() ?? null;
       const anchorId = `fr-doc-${index}`;
-      const version = doc.effectiveOn ? versionMap.get(doc.effectiveOn) : undefined;
+      const version = normalizedEffectiveDate ? versionMap.get(normalizedEffectiveDate) : undefined;
       const supplementsLabel = doc.supplements.length
         ? doc.supplements.map((number) => `Supplement No. ${number}`).join(', ')
         : '—';
-      const missingEffectiveDate = effectiveDate ? missingSet.has(effectiveDate) : false;
+      const missingEffectiveDate = normalizedEffectiveDate
+        ? missingSet.has(normalizedEffectiveDate)
+        : false;
+      const notYetAvailableEffectiveDate = normalizedEffectiveDate
+        ? notYetAvailableSet.has(normalizedEffectiveDate)
+        : false;
+      const ruleType = cleanRuleType(doc.action);
 
       const label = getYearLabel(effectiveDate);
-      if (!seenLabels.has(label)) {
-        seenLabels.add(label);
-        navEntries.push({ label, anchorId });
+      let navEntry = navEntryMap.get(label);
+      if (!navEntry) {
+        navEntry = { label, anchorId, count: 0 };
+        navEntryMap.set(label, navEntry);
+        navEntries.push(navEntry);
       }
+      navEntry.count += 1;
+      anchorYearLookup.set(anchorId, label);
 
       return {
         doc,
@@ -103,6 +163,8 @@ export function FederalRegisterTimeline({
         anchorId,
         version,
         missingEffectiveDate,
+        notYetAvailableEffectiveDate,
+        ruleType,
       };
     });
 
@@ -113,10 +175,18 @@ export function FederalRegisterTimeline({
       navItems: navEntries,
       totalDocuments: sortedDocuments.length,
       cachedDocumentCount: cachedCount,
+      anchorYearMap: anchorYearLookup,
     };
-  }, [documents, versions, missingEffectiveDates]);
+  }, [documents, versions, missingEffectiveDates, notYetAvailableEffectiveDates]);
 
   const [activeAnchor, setActiveAnchor] = useState<string | null>(null);
+  const activeYearLabel = useMemo(() => {
+    if (!activeAnchor) {
+      return null;
+    }
+
+    return anchorYearMap.get(activeAnchor) ?? null;
+  }, [activeAnchor, anchorYearMap]);
 
   useEffect(() => {
     if (!navItems.length) {
@@ -221,7 +291,8 @@ export function FederalRegisterTimeline({
                   onClick={() => handleNavigate(item.anchorId)}
                   aria-current={isActive ? 'true' : undefined}
                 >
-                  {item.label}
+                  <span className="fr-nav-label">{item.label}</span>
+                  <span className="fr-nav-count">{formatNumber(item.count)}</span>
                 </button>
               );
             })}
@@ -243,74 +314,109 @@ export function FederalRegisterTimeline({
           )}
 
           {timelineItems.length > 0 && (
-            <ol className="fr-timeline">
-              {timelineItems.map(
-                ({ doc, effectiveDate, supplementsLabel, anchorId, version, missingEffectiveDate }, index) => {
-                  return (
-                    <li
-                      key={doc.documentNumber ?? `${doc.title}-${effectiveDate ?? 'unknown'}`}
-                      id={anchorId}
-                      className="fr-timeline-item"
-                    aria-label={`Federal Register document ${index + 1}`}
-                  >
-                    <div className="fr-timeline-date">
-                      <div className="fr-date-primary">
-                        <span className="fr-date-label">Effective</span>
-                        <time dateTime={doc.effectiveOn ?? undefined}>{formatDate(doc.effectiveOn ?? undefined)}</time>
-                      </div>
-                      <div className="fr-date-secondary">
-                        <span className="fr-date-label">Published</span>
-                        <time dateTime={doc.publicationDate ?? undefined}>{formatDate(doc.publicationDate ?? undefined)}</time>
-                      </div>
-                    </div>
-                    <div className="fr-card" data-cached={version ? 'true' : 'false'}>
-                      <header className="fr-card-header">
-                        <h3>
-                          {doc.htmlUrl ? (
-                            <a href={doc.htmlUrl} target="_blank" rel="noreferrer">
-                              {doc.title ?? 'Untitled rule'}
-                            </a>
-                          ) : (
-                            doc.title ?? 'Untitled rule'
+            <>
+              <div className="fr-year-indicator" aria-live="polite">
+                <span className="fr-year-label">Effective Date</span>
+                <span className="fr-year-value">{activeYearLabel ?? '—'}</span>
+              </div>
+              <ol className="fr-timeline">
+                {timelineItems.map(
+                  (
+                    {
+                      doc,
+                      effectiveDate,
+                      supplementsLabel,
+                      anchorId,
+                      version,
+                      missingEffectiveDate,
+                      notYetAvailableEffectiveDate,
+                      ruleType,
+                    },
+                    index
+                  ) => {
+                    const documentTypeTag = doc.type?.trim() ?? null;
+                    const showDocumentTypeTag =
+                      documentTypeTag && documentTypeTag.toLowerCase() !== 'rule';
+                    return (
+                      <li
+                        key={doc.documentNumber ?? `${doc.title}-${effectiveDate ?? 'unknown'}`}
+                        id={anchorId}
+                        className="fr-timeline-item"
+                        aria-label={`Federal Register document ${index + 1}`}
+                      >
+                        <div className="fr-timeline-date">
+                          <div className="fr-date-primary">
+                            <span className="fr-date-label">Effective</span>
+                            <time dateTime={doc.effectiveOn ?? undefined}>
+                              {formatDate(doc.effectiveOn ?? undefined)}
+                            </time>
+                          </div>
+                        </div>
+                        <div className="fr-card" data-cached={version ? 'true' : 'false'}>
+                          <header className="fr-card-header">
+                            <h3>
+                              {doc.htmlUrl ? (
+                                <a href={doc.htmlUrl} target="_blank" rel="noreferrer">
+                                  {doc.title ?? 'Untitled rule'}
+                                </a>
+                              ) : (
+                                doc.title ?? 'Untitled rule'
+                              )}
+                            </h3>
+                            <div className="fr-card-tags">
+                              {doc.documentNumber && (
+                                <span className="fr-tag">FR Doc. {doc.documentNumber}</span>
+                              )}
+                              {doc.citation && <span className="fr-tag">{doc.citation}</span>}
+                              {showDocumentTypeTag && <span className="fr-tag">{documentTypeTag}</span>}
+                            </div>
+                          </header>
+                          {(ruleType || doc.action) && (
+                            <p className="fr-card-action">{ruleType ?? doc.action}</p>
                           )}
-                        </h3>
-                        <div className="fr-card-tags">
-                          {doc.documentNumber && <span className="fr-tag">FR Doc. {doc.documentNumber}</span>}
-                          {doc.citation && <span className="fr-tag">{doc.citation}</span>}
-                          {doc.type && <span className="fr-tag">{doc.type}</span>}
+                          <dl className="fr-card-details">
+                            <div>
+                              <dt>Published</dt>
+                              <dd>
+                                <time dateTime={doc.publicationDate ?? undefined}>
+                                  {formatDate(doc.publicationDate ?? undefined)}
+                                </time>
+                              </dd>
+                            </div>
+                            <div>
+                              <dt>Supplements affected</dt>
+                              <dd>{supplementsLabel}</dd>
+                            </div>
+                            <div>
+                              <dt>Rule Type</dt>
+                              <dd>{ruleType ?? '—'}</dd>
+                            </div>
+                            <div>
+                              <dt>CCL cache status</dt>
+                              <dd>
+                                {version ? (
+                                  <span className="fr-status cached">
+                                    Stored {formatDateTime(version.fetchedAt)}
+                                  </span>
+                                ) : notYetAvailableEffectiveDate ? (
+                                  <span className="fr-status pending">Not yet available</span>
+                                ) : missingEffectiveDate ? (
+                                  <span className="fr-status unavailable">Unavailable</span>
+                                ) : effectiveDate ? (
+                                  <span className="fr-status missing">Not yet cached</span>
+                                ) : (
+                                  <span className="fr-status unknown">Effective date unknown</span>
+                                )}
+                              </dd>
+                            </div>
+                          </dl>
                         </div>
-                      </header>
-                      {doc.action && <p className="fr-card-action">{doc.action}</p>}
-                      <dl className="fr-card-details">
-                        <div>
-                          <dt>Supplements affected</dt>
-                          <dd>{supplementsLabel}</dd>
-                        </div>
-                        <div>
-                          <dt>Agencies</dt>
-                          <dd>{doc.agencies.length ? doc.agencies.join(', ') : '—'}</dd>
-                        </div>
-                        <div>
-                          <dt>CCL cache status</dt>
-                          <dd>
-                            {version ? (
-                              <span className="fr-status cached">Stored {formatDateTime(version.fetchedAt)}</span>
-                            ) : missingEffectiveDate ? (
-                              <span className="fr-status unavailable">No eCFR XML available</span>
-                            ) : effectiveDate ? (
-                              <span className="fr-status missing">Not yet cached</span>
-                            ) : (
-                              <span className="fr-status unknown">Effective date unknown</span>
-                            )}
-                          </dd>
-                        </div>
-                      </dl>
-                    </div>
-                  </li>
-                );
-                }
-              )}
-            </ol>
+                      </li>
+                    );
+                  }
+                )}
+              </ol>
+            </>
           )}
         </div>
       </div>

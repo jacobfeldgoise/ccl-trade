@@ -970,6 +970,8 @@ function App() {
   const [federalDocumentsStatus, setFederalDocumentsStatus] = useState<string | null>(null);
   const [federalDocumentsProgress, setFederalDocumentsProgress] = useState<string | null>(null);
   const [federalDocumentsMissingDates, setFederalDocumentsMissingDates] = useState<string[]>([]);
+  const [federalDocumentsNotYetAvailableDates, setFederalDocumentsNotYetAvailableDates] =
+    useState<string[]>([]);
 
   const syncFederalRegisterStatus = useCallback(
     (status: FederalRegisterRefreshStatus | null | undefined) => {
@@ -983,6 +985,9 @@ function App() {
       if (status.result) {
         setFederalDocumentsGeneratedAt(status.result.generatedAt);
         setFederalDocumentsMissingDates(status.result.missingEffectiveDates ?? []);
+        setFederalDocumentsNotYetAvailableDates(
+          status.result.notYetAvailableEffectiveDates ?? []
+        );
       }
     },
     []
@@ -1013,6 +1018,7 @@ function App() {
       setFederalDocuments(response.documents);
       setFederalDocumentsGeneratedAt(response.generatedAt);
       setFederalDocumentsMissingDates(response.missingEffectiveDates ?? []);
+      setFederalDocumentsNotYetAvailableDates(response.notYetAvailableEffectiveDates ?? []);
     } catch (err) {
       setFederalDocumentsError(
         `Unable to load Federal Register documents: ${getErrorMessage(err)}`,
@@ -1063,6 +1069,9 @@ function App() {
         if (event.result) {
           setFederalDocumentsGeneratedAt(event.result.generatedAt);
           setFederalDocumentsMissingDates(event.result.missingEffectiveDates ?? []);
+          setFederalDocumentsNotYetAvailableDates(
+            event.result.notYetAvailableEffectiveDates ?? []
+          );
         }
         setFederalDocumentsProgress(null);
         setRefreshingFederalDocuments(false);
@@ -2122,6 +2131,7 @@ function App() {
             error={federalDocumentsError}
             generatedAt={federalDocumentsGeneratedAt}
             missingEffectiveDates={federalDocumentsMissingDates}
+            notYetAvailableEffectiveDates={federalDocumentsNotYetAvailableDates}
           />
         ) : null}
         {activeTab === 'settings' ? (

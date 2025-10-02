@@ -1556,14 +1556,46 @@ body {
   gap: 1.5rem;
 }
 
+.fr-year-indicator {
+  position: sticky;
+  top: max(1rem, env(safe-area-inset-top, 0px));
+  align-self: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding: 0.65rem 0.9rem 0.75rem;
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.92), rgba(14, 165, 233, 0.92));
+  color: #f8fafc;
+  border-radius: 0.9rem;
+  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.22);
+  min-width: 160px;
+  z-index: 2;
+}
+
+.fr-year-label {
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  opacity: 0.85;
+}
+
+.fr-year-value {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
 .fr-timeline-nav {
   position: sticky;
-  top: 6.5rem;
+  top: max(1rem, env(safe-area-inset-top, 0px));
   align-self: start;
   display: flex;
   flex-direction: column;
   gap: 0.35rem;
   padding: 0.5rem 0;
+  max-height: calc(100vh - max(1rem, env(safe-area-inset-top, 0px)) - max(1rem, env(safe-area-inset-bottom, 0px)));
+  overflow-y: auto;
+  overscroll-behavior: contain;
 }
 
 .fr-nav-button {
@@ -1577,6 +1609,10 @@ body {
   text-align: left;
   width: 100%;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
   transition: color 0.2s ease, background 0.2s ease, transform 0.2s ease;
 }
 
@@ -1593,6 +1629,27 @@ body {
 .fr-nav-button.active {
   color: #1d4ed8;
   background: rgba(59, 130, 246, 0.18);
+}
+
+.fr-nav-label {
+  flex: 1;
+}
+
+.fr-nav-count {
+  background: rgba(148, 163, 184, 0.2);
+  color: #0f172a;
+  border-radius: 999px;
+  padding: 0.1rem 0.55rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.fr-nav-button:hover .fr-nav-count,
+.fr-nav-button:focus-visible .fr-nav-count,
+.fr-nav-button.active .fr-nav-count {
+  background: rgba(59, 130, 246, 0.25);
+  color: #1d4ed8;
 }
 
 .fr-empty {
@@ -1772,6 +1829,11 @@ body {
   color: #b91c1c;
 }
 
+.fr-status.pending {
+  background: rgba(96, 165, 250, 0.2);
+  color: #1d4ed8;
+}
+
 .fr-status.unavailable {
   background: rgba(251, 191, 36, 0.25);
   color: #92400e;
@@ -1817,6 +1879,14 @@ body {
   .fr-timeline-nav {
     position: static;
     padding: 0;
+    max-height: none;
+    overflow: visible;
+  }
+
+  .fr-year-indicator {
+    position: static;
+    width: fit-content;
+    box-shadow: 0 8px 20px rgba(15, 23, 42, 0.16);
   }
 
   .fr-timeline-item {

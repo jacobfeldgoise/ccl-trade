@@ -11,10 +11,13 @@ import {
 import {
   addDownloadedEffectiveDate,
   addMissingEffectiveDate,
+  addNotYetAvailableEffectiveDate,
   getDownloadedEffectiveDates,
   getMissingEffectiveDates,
+  getNotYetAvailableEffectiveDates,
   setDownloadedEffectiveDates,
   setMissingEffectiveDates,
+  setNotYetAvailableEffectiveDates,
 } from './ccl-date-metadata.js';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -381,6 +384,7 @@ async function runFederalRegisterRefresh() {
 
   try {
     const previousMissingDates = new Set(await getMissingEffectiveDates());
+    const previousNotYetAvailableDates = new Set(await getNotYetAvailableEffectiveDates());
     const downloadedEffectiveDateSet = new Set(await getDownloadedEffectiveDates());
 
     const data = await updateFederalRegisterDocuments({
@@ -412,9 +416,11 @@ async function runFederalRegisterRefresh() {
       recordFederalRegisterProgress('No effective dates found in the refreshed Federal Register metadata.');
     }
 
-    const rawDownloads = [];
+    const rawDownloadsByDate = new Map();
     const missingEffectiveDateSet = new Set(previousMissingDates);
+    const notYetAvailableEffectiveDateSet = new Set(previousNotYetAvailableDates);
     let missingEffectiveDates = Array.from(missingEffectiveDateSet);
+    let notYetAvailableEffectiveDates = Array.from(notYetAvailableEffectiveDateSet);
     const totalEffectiveDates = sortedEffectiveDates.length;
     for (let index = 0; index < totalEffectiveDates; index += 1) {
       const date = sortedEffectiveDates[index];
@@ -424,6 +430,7 @@ async function runFederalRegisterRefresh() {
       if (info) {
         recordFederalRegisterProgress(`${prefix}Raw XML already cached for ${date}.`);
         missingEffectiveDateSet.delete(date);
+        notYetAvailableEffectiveDateSet.delete(date);
         downloadedEffectiveDateSet.add(date);
         await addDownloadedEffectiveDate(date);
         continue;
@@ -437,24 +444,43 @@ async function runFederalRegisterRefresh() {
         continue;
       }
 
+      if (notYetAvailableEffectiveDateSet.has(date)) {
+        recordFederalRegisterProgress(
+          `${prefix}Retrying raw XML download for ${date}; previously not yet available.`
+        );
+      }
+
       recordFederalRegisterProgress(`${prefix}Downloading raw XML for ${date}…`);
       try {
         const { filePath } = await getRawXml(date, { forceDownload: true });
-        rawDownloads.push({ date, filePath });
+        rawDownloadsByDate.set(date, { date, filePath });
         recordFederalRegisterProgress(`${prefix}Stored raw XML for ${date} at ${filePath}.`);
         missingEffectiveDateSet.delete(date);
+        notYetAvailableEffectiveDateSet.delete(date);
         downloadedEffectiveDateSet.add(date);
         await addDownloadedEffectiveDate(date);
       } catch (error) {
         if (isMissingEcfrContentError(error)) {
           const detail = extractMissingEcfrDetail(error);
           const suffix = detail ? ` (${detail})` : '';
-          recordFederalRegisterProgress(
-            `${prefix}No XML available from eCFR for ${date}${suffix}.`
-          );
-          missingEffectiveDateSet.add(date);
+          const notYetAvailable = isEcfrNotYetAvailableError(error);
+          const baseMessage = notYetAvailable
+            ? `${prefix}CCL XML not yet available from eCFR for ${date}${suffix}.`
+            : `${prefix}No XML available from eCFR for ${date}${suffix}.`;
+          recordFederalRegisterProgress(baseMessage);
           downloadedEffectiveDateSet.delete(date);
-          missingEffectiveDates = await addMissingEffectiveDate(date);
+          if (notYetAvailable) {
+            recordFederalRegisterProgress(
+              `${prefix}Will retry ${date} on the next refresh because the issue is not yet published.`
+            );
+            missingEffectiveDateSet.delete(date);
+            notYetAvailableEffectiveDateSet.add(date);
+            notYetAvailableEffectiveDates = await addNotYetAvailableEffectiveDate(date);
+          } else {
+            notYetAvailableEffectiveDateSet.delete(date);
+            missingEffectiveDateSet.add(date);
+            missingEffectiveDates = await addMissingEffectiveDate(date);
+          }
           continue;
         }
         throw error;
@@ -483,17 +509,35 @@ async function runFederalRegisterRefresh() {
     }
 
     missingEffectiveDates = await setMissingEffectiveDates(Array.from(missingEffectiveDateSet));
+    notYetAvailableEffectiveDates = await setNotYetAvailableEffectiveDates(
+      Array.from(notYetAvailableEffectiveDateSet)
+    );
     const downloadedEffectiveDates = await setDownloadedEffectiveDates(
       Array.from(downloadedEffectiveDateSet)
     );
 
+    const rawDownloads = Array.from(rawDownloadsByDate.values());
     const summaryParts = [
       'Refreshed Federal Register metadata',
+      data?.documentCount != null
+        ? `identified ${buildPlural(
+            data.documentCount,
+            'Federal Register document',
+            'Federal Register documents'
+          )}`
+        : null,
       `cached ${buildPlural(
         rawDownloads.length,
         'new raw XML download',
         'new raw XML downloads'
       )}`,
+      notYetAvailableEffectiveDates.length
+        ? `tracking ${buildPlural(
+            notYetAvailableEffectiveDates.length,
+            'effective date not yet available',
+            'effective dates not yet available'
+          )}`
+        : null,
       missingEffectiveDates.length
         ? `noted ${buildPlural(
             missingEffectiveDates.length,
@@ -517,6 +561,7 @@ async function runFederalRegisterRefresh() {
       processedDates,
       rawXmlDownloads: rawDownloads,
       missingEffectiveDates,
+      notYetAvailableEffectiveDates,
       downloadedEffectiveDates,
     };
 
@@ -788,6 +833,24 @@ function isMissingEcfrContentError(error) {
   return sources.some((value) =>
     /No matching content found/i.test(value) ||
     /past the title's most recent issue date/i.test(value)
+  );
+}
+
+function isEcfrNotYetAvailableError(error) {
+  if (!error) {
+    return false;
+  }
+
+  const sources = [];
+  if (typeof error.body === 'string') {
+    sources.push(error.body);
+  }
+  if (typeof error.message === 'string') {
+    sources.push(error.message);
+  }
+
+  return sources.some((value) =>
+    /requested date\s+\d{4}-\d{2}-\d{2}.*past the title's most recent issue date/i.test(value)
   );
 }
 
