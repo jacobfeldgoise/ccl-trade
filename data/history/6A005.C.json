@@ -1,0 +1,205 @@
+{
+  "eccn": "6A005.c",
+  "normalized": "6A005.C",
+  "history": [
+    {
+      "version": "2023-02-24",
+      "fetchedAt": "2025-10-02T20:33:42.390Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-02-24/title-15?format=xml",
+      "heading": "“Tunable” lasers having any of the following:",
+      "title": "“Tunable” lasers having any of the following:",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A005 “Lasers”, “components” and optical equipment, as follows (see List of Items Controlled), excluding items that are subject to the export licensing authority of the Nuclear Regulatory Commission (see 10 CFR part 110)."
+      ],
+      "ancestors": [
+        "6A005"
+      ],
+      "text": "“Tunable” lasers having any of the following:\nNote: 6A005.c.1 does not apply to dye “lasers” or other liquid “lasers,” having a multimode output and a wavelength of 150 nm or more but not exceeding 600 nm and all of the following: 1. Output energy less than 1.5 J per pulse or a “peak power” less than 20 W; and 2. Average or CW output power less than 20 W.\nOutput wavelength less than 600 nm and any of the following:\nc.1. Output wavelength less than 600 nm and any of the following:\nOutput energy exceeding 50 mJ per pulse and “peak power” exceeding 1 W; or\nc.1.a. Output energy exceeding 50 mJ per pulse and “peak power” exceeding 1 W; or\nAverage or CW output power exceeding 1W;\nc.1.b. Average or CW output power exceeding 1W;\nOutput wavelength of 600 nm or more but not exceeding 1,400 nm, and any of the following:\nc.2. Output wavelength of 600 nm or more but not exceeding 1,400 nm, and any of the following:\nOutput energy exceeding 1 J per pulse and “peak power” exceeding 20 W; or\nc.2.a. Output energy exceeding 1 J per pulse and “peak power” exceeding 20 W; or\nAverage or CW output power exceeding 20 W; or\nc.2.b. Average or CW output power exceeding 20 W; or\nOutput wavelength exceeding 1,400 nm and any of the following:\nc.3. Output wavelength exceeding 1,400 nm and any of the following:\nOutput energy exceeding 50 mJ per pulse and “peak power” exceeding 1 W; or\nc.3.a. Output energy exceeding 50 mJ per pulse and “peak power” exceeding 1 W; or\nAverage or CW output power exceeding 1 W;\nc.3.b. Average or CW output power exceeding 1 W;",
+      "structure": {
+        "identifier": "6A005.c",
+        "heading": "“Tunable” lasers having any of the following:",
+        "label": "6A005.c – “Tunable” lasers having any of the following:",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE><HED><I>Note:</I></HED><P> <I>6A005.c.1 does not apply to dye “lasers” or other liquid “lasers,” having a multimode output and a wavelength of 150 nm or more but not exceeding 600 nm and all of the following:</I></P><P><I>1. Output energy less than 1.5 J per pulse or a “peak power” less than 20 W; and</I></P><P><I>2. Average or CW output power less than 20 W.</I></P></NOTE>",
+            "text": "Note: 6A005.c.1 does not apply to dye “lasers” or other liquid “lasers,” having a multimode output and a wavelength of 150 nm or more but not exceeding 600 nm and all of the following: 1. Output energy less than 1.5 J per pulse or a “peak power” less than 20 W; and 2. Average or CW output power less than 20 W.",
+            "id": null
+          }
+        ],
+        "children": [
+          {
+            "identifier": "6A005.c.1",
+            "heading": "Output wavelength less than 600 nm and any of the following:",
+            "label": "6A005.c.1 – Output wavelength less than 600 nm and any of the following:",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.1. Output wavelength less than 600 nm and any of the following:</P>",
+                "text": "c.1. Output wavelength less than 600 nm and any of the following:",
+                "id": null
+              }
+            ],
+            "children": [
+              {
+                "identifier": "6A005.c.1.a",
+                "heading": "Output energy exceeding 50 mJ per pulse and “peak power” exceeding 1 W; or",
+                "label": "6A005.c.1.a – Output energy exceeding 50 mJ per pulse and “peak power” exceeding 1 W; or",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>c.1.a. Output energy exceeding 50 mJ per pulse and “peak power” exceeding 1 W; <I>or</I></P>",
+                    "text": "c.1.a. Output energy exceeding 50 mJ per pulse and “peak power” exceeding 1 W; or",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              },
+              {
+                "identifier": "6A005.c.1.b",
+                "heading": "Average or CW output power exceeding 1W;",
+                "label": "6A005.c.1.b – Average or CW output power exceeding 1W;",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>c.1.b. Average or CW output power exceeding 1W;</P>",
+                    "text": "c.1.b. Average or CW output power exceeding 1W;",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "6A005.c.2",
+            "heading": "Output wavelength of 600 nm or more but not exceeding 1,400 nm, and any of the following:",
+            "label": "6A005.c.2 – Output wavelength of 600 nm or more but not exceeding 1,400 nm, and any of the following:",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.2. Output wavelength of 600 nm or more but not exceeding 1,400 nm, and any of the following:</P>",
+                "text": "c.2. Output wavelength of 600 nm or more but not exceeding 1,400 nm, and any of the following:",
+                "id": null
+              }
+            ],
+            "children": [
+              {
+                "identifier": "6A005.c.2.a",
+                "heading": "Output energy exceeding 1 J per pulse and “peak power” exceeding 20 W; or",
+                "label": "6A005.c.2.a – Output energy exceeding 1 J per pulse and “peak power” exceeding 20 W; or",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>c.2.a. Output energy exceeding 1 J per pulse and “peak power” exceeding 20 W; <I>or</I></P>",
+                    "text": "c.2.a. Output energy exceeding 1 J per pulse and “peak power” exceeding 20 W; or",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              },
+              {
+                "identifier": "6A005.c.2.b",
+                "heading": "Average or CW output power exceeding 20 W; or",
+                "label": "6A005.c.2.b – Average or CW output power exceeding 20 W; or",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>c.2.b. Average or CW output power exceeding 20 W; <I>or</I></P>",
+                    "text": "c.2.b. Average or CW output power exceeding 20 W; or",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "6A005.c.3",
+            "heading": "Output wavelength exceeding 1,400 nm and any of the following:",
+            "label": "6A005.c.3 – Output wavelength exceeding 1,400 nm and any of the following:",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.3. Output wavelength exceeding 1,400 nm and any of the following:</P>",
+                "text": "c.3. Output wavelength exceeding 1,400 nm and any of the following:",
+                "id": null
+              }
+            ],
+            "children": [
+              {
+                "identifier": "6A005.c.3.a",
+                "heading": "Output energy exceeding 50 mJ per pulse and “peak power” exceeding 1 W; or",
+                "label": "6A005.c.3.a – Output energy exceeding 50 mJ per pulse and “peak power” exceeding 1 W; or",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>c.3.a. Output energy exceeding 50 mJ per pulse and “peak power” exceeding 1 W; <I>or</I></P>",
+                    "text": "c.3.a. Output energy exceeding 50 mJ per pulse and “peak power” exceeding 1 W; or",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              },
+              {
+                "identifier": "6A005.c.3.b",
+                "heading": "Average or CW output power exceeding 1 W;",
+                "label": "6A005.c.3.b – Average or CW output power exceeding 1 W;",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>c.3.b. Average or CW output power exceeding 1 W;</P>",
+                    "text": "c.3.b. Average or CW output power exceeding 1 W;",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    }
+  ]
+}

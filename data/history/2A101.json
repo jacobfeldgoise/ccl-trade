@@ -1,0 +1,3174 @@
+{
+  "eccn": "2A101",
+  "normalized": "2A101",
+  "history": [
+    {
+      "version": "2023-12-08",
+      "fetchedAt": "2025-10-02T20:33:43.980Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-12-08/title-15?format=xml",
+      "heading": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+      "title": "Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+      "category": "2",
+      "group": "2A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).\nLicense Requirements\nReason for Control:\nMT, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entryMT Column 1. AT applies to entire entryAT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nMT applies to entire entry\nMT Column 1.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\nSee ECCN 2A001.\nRelated Definitions:\nN/A\nItems:\nAn inner ring bore diameter between 12 and 50 mm;\na. An inner ring bore diameter between 12 and 50 mm;\nAn outer ring outside diameter between 25 and 100 mm; and\nb. An outer ring outside diameter between 25 and 100 mm; and\nA width between 10 and 20 mm.\nc. A width between 10 and 20 mm.",
+      "structure": {
+        "identifier": "2A101",
+        "heading": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+        "label": "2A101 – 2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "MT, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">MT applies to entire entry (2A101)</TD><TD align=\"left\" class=\"gpotbl_cell\">MT Column 1.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (2A101)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entryMT Column 1. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "MT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "MT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "See ECCN 2A001."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "2A101.a",
+            "heading": "An inner ring bore diameter between 12 and 50 mm;",
+            "label": "2A101.a – An inner ring bore diameter between 12 and 50 mm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. An inner ring bore diameter between 12 and 50 mm;</P>",
+                "text": "a. An inner ring bore diameter between 12 and 50 mm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2A101.b",
+            "heading": "An outer ring outside diameter between 25 and 100 mm; and",
+            "label": "2A101.b – An outer ring outside diameter between 25 and 100 mm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. An outer ring outside diameter between 25 and 100 mm; <I>and</I></P>",
+                "text": "b. An outer ring outside diameter between 25 and 100 mm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2A101.c",
+            "heading": "A width between 10 and 20 mm.",
+            "label": "2A101.c – A width between 10 and 20 mm.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c. A width between 10 and 20 mm.</P>",
+                "text": "c. A width between 10 and 20 mm.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-03-08",
+      "fetchedAt": "2025-10-02T20:33:44.401Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-08/title-15?format=xml",
+      "heading": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+      "title": "Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+      "category": "2",
+      "group": "2A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).\nLicense Requirements\nReason for Control:\nMT, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entryMT Column 1. AT applies to entire entryAT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nMT applies to entire entry\nMT Column 1.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\nSee ECCN 2A001.\nRelated Definitions:\nN/A\nItems:\nAn inner ring bore diameter between 12 and 50 mm;\na. An inner ring bore diameter between 12 and 50 mm;\nAn outer ring outside diameter between 25 and 100 mm; and\nb. An outer ring outside diameter between 25 and 100 mm; and\nA width between 10 and 20 mm.\nc. A width between 10 and 20 mm.",
+      "structure": {
+        "identifier": "2A101",
+        "heading": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+        "label": "2A101 – 2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "MT, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">MT applies to entire entry (2A101)</TD><TD align=\"left\" class=\"gpotbl_cell\">MT Column 1.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (2A101)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entryMT Column 1. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "MT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "MT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "See ECCN 2A001."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "2A101.a",
+            "heading": "An inner ring bore diameter between 12 and 50 mm;",
+            "label": "2A101.a – An inner ring bore diameter between 12 and 50 mm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. An inner ring bore diameter between 12 and 50 mm;</P>",
+                "text": "a. An inner ring bore diameter between 12 and 50 mm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2A101.b",
+            "heading": "An outer ring outside diameter between 25 and 100 mm; and",
+            "label": "2A101.b – An outer ring outside diameter between 25 and 100 mm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. An outer ring outside diameter between 25 and 100 mm; <I>and</I></P>",
+                "text": "b. An outer ring outside diameter between 25 and 100 mm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2A101.c",
+            "heading": "A width between 10 and 20 mm.",
+            "label": "2A101.c – A width between 10 and 20 mm.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c. A width between 10 and 20 mm.</P>",
+                "text": "c. A width between 10 and 20 mm.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-03-13",
+      "fetchedAt": "2025-10-02T20:33:44.826Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-13/title-15?format=xml",
+      "heading": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+      "title": "Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+      "category": "2",
+      "group": "2A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).\nLicense Requirements\nReason for Control:\nMT, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entryMT Column 1. AT applies to entire entryAT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nMT applies to entire entry\nMT Column 1.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\nSee ECCN 2A001.\nRelated Definitions:\nN/A\nItems:\nAn inner ring bore diameter between 12 and 50 mm;\na. An inner ring bore diameter between 12 and 50 mm;\nAn outer ring outside diameter between 25 and 100 mm; and\nb. An outer ring outside diameter between 25 and 100 mm; and\nA width between 10 and 20 mm.\nc. A width between 10 and 20 mm.",
+      "structure": {
+        "identifier": "2A101",
+        "heading": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+        "label": "2A101 – 2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "MT, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">MT applies to entire entry (2A101)</TD><TD align=\"left\" class=\"gpotbl_cell\">MT Column 1.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (2A101)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entryMT Column 1. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "MT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "MT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "See ECCN 2A001."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "2A101.a",
+            "heading": "An inner ring bore diameter between 12 and 50 mm;",
+            "label": "2A101.a – An inner ring bore diameter between 12 and 50 mm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. An inner ring bore diameter between 12 and 50 mm;</P>",
+                "text": "a. An inner ring bore diameter between 12 and 50 mm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2A101.b",
+            "heading": "An outer ring outside diameter between 25 and 100 mm; and",
+            "label": "2A101.b – An outer ring outside diameter between 25 and 100 mm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. An outer ring outside diameter between 25 and 100 mm; <I>and</I></P>",
+                "text": "b. An outer ring outside diameter between 25 and 100 mm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2A101.c",
+            "heading": "A width between 10 and 20 mm.",
+            "label": "2A101.c – A width between 10 and 20 mm.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c. A width between 10 and 20 mm.</P>",
+                "text": "c. A width between 10 and 20 mm.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-04-04",
+      "fetchedAt": "2025-10-02T20:33:45.229Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-04/title-15?format=xml",
+      "heading": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+      "title": "Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+      "category": "2",
+      "group": "2A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).\nLicense Requirements\nReason for Control:\nMT, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entryMT Column 1. AT applies to entire entryAT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nMT applies to entire entry\nMT Column 1.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\nSee ECCN 2A001.\nRelated Definitions:\nN/A\nItems:\nAn inner ring bore diameter between 12 and 50 mm;\na. An inner ring bore diameter between 12 and 50 mm;\nAn outer ring outside diameter between 25 and 100 mm; and\nb. An outer ring outside diameter between 25 and 100 mm; and\nA width between 10 and 20 mm.\nc. A width between 10 and 20 mm.",
+      "structure": {
+        "identifier": "2A101",
+        "heading": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+        "label": "2A101 – 2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "MT, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">MT applies to entire entry (2A101)</TD><TD align=\"left\" class=\"gpotbl_cell\">MT Column 1.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (2A101)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entryMT Column 1. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "MT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "MT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "See ECCN 2A001."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "2A101.a",
+            "heading": "An inner ring bore diameter between 12 and 50 mm;",
+            "label": "2A101.a – An inner ring bore diameter between 12 and 50 mm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. An inner ring bore diameter between 12 and 50 mm;</P>",
+                "text": "a. An inner ring bore diameter between 12 and 50 mm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2A101.b",
+            "heading": "An outer ring outside diameter between 25 and 100 mm; and",
+            "label": "2A101.b – An outer ring outside diameter between 25 and 100 mm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. An outer ring outside diameter between 25 and 100 mm; <I>and</I></P>",
+                "text": "b. An outer ring outside diameter between 25 and 100 mm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2A101.c",
+            "heading": "A width between 10 and 20 mm.",
+            "label": "2A101.c – A width between 10 and 20 mm.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c. A width between 10 and 20 mm.</P>",
+                "text": "c. A width between 10 and 20 mm.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-04-19",
+      "fetchedAt": "2025-10-02T20:33:45.630Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-19/title-15?format=xml",
+      "heading": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+      "title": "Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+      "category": "2",
+      "group": "2A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).\nLicense Requirements\nReason for Control:\nMT, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entryMT Column 1. AT applies to entire entryAT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nMT applies to entire entry\nMT Column 1.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\nSee ECCN 2A001.\nRelated Definitions:\nN/A\nItems:\nAn inner ring bore diameter between 12 and 50 mm;\na. An inner ring bore diameter between 12 and 50 mm;\nAn outer ring outside diameter between 25 and 100 mm; and\nb. An outer ring outside diameter between 25 and 100 mm; and\nA width between 10 and 20 mm.\nc. A width between 10 and 20 mm.",
+      "structure": {
+        "identifier": "2A101",
+        "heading": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+        "label": "2A101 – 2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "MT, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">MT applies to entire entry (2A101)</TD><TD align=\"left\" class=\"gpotbl_cell\">MT Column 1.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (2A101)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entryMT Column 1. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "MT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "MT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "See ECCN 2A001."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "2A101.a",
+            "heading": "An inner ring bore diameter between 12 and 50 mm;",
+            "label": "2A101.a – An inner ring bore diameter between 12 and 50 mm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. An inner ring bore diameter between 12 and 50 mm;</P>",
+                "text": "a. An inner ring bore diameter between 12 and 50 mm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2A101.b",
+            "heading": "An outer ring outside diameter between 25 and 100 mm; and",
+            "label": "2A101.b – An outer ring outside diameter between 25 and 100 mm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. An outer ring outside diameter between 25 and 100 mm; <I>and</I></P>",
+                "text": "b. An outer ring outside diameter between 25 and 100 mm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2A101.c",
+            "heading": "A width between 10 and 20 mm.",
+            "label": "2A101.c – A width between 10 and 20 mm.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c. A width between 10 and 20 mm.</P>",
+                "text": "c. A width between 10 and 20 mm.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-05-30",
+      "fetchedAt": "2025-10-02T20:33:46.051Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-05-30/title-15?format=xml",
+      "heading": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+      "title": "Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+      "category": "2",
+      "group": "2A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).\nLicense Requirements\nReason for Control:\nMT, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entry (2A101) MT Column 1. AT applies to entire entry (2A101) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nMT applies to entire entry\nMT Column 1.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\nSee ECCN 2A001.\nRelated Definitions:\nN/A\nItems:\nAn inner ring bore diameter between 12 and 50 mm;\na. An inner ring bore diameter between 12 and 50 mm;\nAn outer ring outside diameter between 25 and 100 mm; and\nb. An outer ring outside diameter between 25 and 100 mm; and\nA width between 10 and 20 mm.\nc. A width between 10 and 20 mm.",
+      "structure": {
+        "identifier": "2A101",
+        "heading": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+        "label": "2A101 – 2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "MT, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center border-top-single border-bottom-single border-right-single\">Control(s)</TH>\n<TH class=\"center border-top-single border-bottom-single\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left border-right-single\">MT applies to entire entry (2A101)</TD>\n<TD class=\"left\">MT Column 1.</TD>\n</TR>\n<TR>\n<TD class=\"left border-bottom-single border-right-single\">AT applies to entire entry (2A101)</TD>\n<TD class=\"left border-bottom-single\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entry (2A101) MT Column 1. AT applies to entire entry (2A101) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "MT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "MT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "See ECCN 2A001."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "2A101.a",
+            "heading": "An inner ring bore diameter between 12 and 50 mm;",
+            "label": "2A101.a – An inner ring bore diameter between 12 and 50 mm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. An inner ring bore diameter between 12 and 50 mm;</P>",
+                "text": "a. An inner ring bore diameter between 12 and 50 mm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2A101.b",
+            "heading": "An outer ring outside diameter between 25 and 100 mm; and",
+            "label": "2A101.b – An outer ring outside diameter between 25 and 100 mm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. An outer ring outside diameter between 25 and 100 mm; <I>and</I></P>",
+                "text": "b. An outer ring outside diameter between 25 and 100 mm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2A101.c",
+            "heading": "A width between 10 and 20 mm.",
+            "label": "2A101.c – A width between 10 and 20 mm.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c. A width between 10 and 20 mm.</P>",
+                "text": "c. A width between 10 and 20 mm.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-06-12",
+      "fetchedAt": "2025-10-02T20:33:46.460Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-06-12/title-15?format=xml",
+      "heading": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+      "title": "Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+      "category": "2",
+      "group": "2A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).\nLicense Requirements\nReason for Control:\nMT, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entry (2A101) MT Column 1. AT applies to entire entry (2A101) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nMT applies to entire entry\nMT Column 1.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\nSee ECCN 2A001.\nRelated Definitions:\nN/A\nItems:\nAn inner ring bore diameter between 12 and 50 mm;\na. An inner ring bore diameter between 12 and 50 mm;\nAn outer ring outside diameter between 25 and 100 mm; and\nb. An outer ring outside diameter between 25 and 100 mm; and\nA width between 10 and 20 mm.\nc. A width between 10 and 20 mm.",
+      "structure": {
+        "identifier": "2A101",
+        "heading": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+        "label": "2A101 – 2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "MT, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center border-top-single border-bottom-single border-right-single\">Control(s)</TH>\n<TH class=\"center border-top-single border-bottom-single\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left border-right-single\">MT applies to entire entry (2A101)</TD>\n<TD class=\"left\">MT Column 1.</TD>\n</TR>\n<TR>\n<TD class=\"left border-bottom-single border-right-single\">AT applies to entire entry (2A101)</TD>\n<TD class=\"left border-bottom-single\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entry (2A101) MT Column 1. AT applies to entire entry (2A101) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "MT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "MT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "See ECCN 2A001."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "2A101.a",
+            "heading": "An inner ring bore diameter between 12 and 50 mm;",
+            "label": "2A101.a – An inner ring bore diameter between 12 and 50 mm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. An inner ring bore diameter between 12 and 50 mm;</P>",
+                "text": "a. An inner ring bore diameter between 12 and 50 mm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2A101.b",
+            "heading": "An outer ring outside diameter between 25 and 100 mm; and",
+            "label": "2A101.b – An outer ring outside diameter between 25 and 100 mm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. An outer ring outside diameter between 25 and 100 mm; <I>and</I></P>",
+                "text": "b. An outer ring outside diameter between 25 and 100 mm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2A101.c",
+            "heading": "A width between 10 and 20 mm.",
+            "label": "2A101.c – A width between 10 and 20 mm.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c. A width between 10 and 20 mm.</P>",
+                "text": "c. A width between 10 and 20 mm.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-09-06",
+      "fetchedAt": "2025-10-02T20:33:46.879Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-09-06/title-15?format=xml",
+      "heading": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+      "title": "Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+      "category": "2",
+      "group": "2A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).\nLicense Requirements\nReason for Control:\nMT, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entry (2A101) MT Column 1. AT applies to entire entry (2A101) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nMT applies to entire entry\nMT Column 1.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\nSee ECCN 2A001.\nRelated Definitions:\nN/A\nItems:\nAn inner ring bore diameter between 12 and 50 mm;\na. An inner ring bore diameter between 12 and 50 mm;\nAn outer ring outside diameter between 25 and 100 mm; and\nb. An outer ring outside diameter between 25 and 100 mm; and\nA width between 10 and 20 mm.\nc. A width between 10 and 20 mm.",
+      "structure": {
+        "identifier": "2A101",
+        "heading": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+        "label": "2A101 – 2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "MT, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center border-top-single border-bottom-single border-right-single\">Control(s)</TH>\n<TH class=\"center border-top-single border-bottom-single\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left border-right-single\">MT applies to entire entry (2A101)</TD>\n<TD class=\"left\">MT Column 1.</TD>\n</TR>\n<TR>\n<TD class=\"left border-bottom-single border-right-single\">AT applies to entire entry (2A101)</TD>\n<TD class=\"left border-bottom-single\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entry (2A101) MT Column 1. AT applies to entire entry (2A101) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "MT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "MT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "See ECCN 2A001."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "2A101.a",
+            "heading": "An inner ring bore diameter between 12 and 50 mm;",
+            "label": "2A101.a – An inner ring bore diameter between 12 and 50 mm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. An inner ring bore diameter between 12 and 50 mm;</P>",
+                "text": "a. An inner ring bore diameter between 12 and 50 mm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2A101.b",
+            "heading": "An outer ring outside diameter between 25 and 100 mm; and",
+            "label": "2A101.b – An outer ring outside diameter between 25 and 100 mm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. An outer ring outside diameter between 25 and 100 mm; <I>and</I></P>",
+                "text": "b. An outer ring outside diameter between 25 and 100 mm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2A101.c",
+            "heading": "A width between 10 and 20 mm.",
+            "label": "2A101.c – A width between 10 and 20 mm.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c. A width between 10 and 20 mm.</P>",
+                "text": "c. A width between 10 and 20 mm.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-10-23",
+      "fetchedAt": "2025-10-02T20:33:47.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-10-23/title-15?format=xml",
+      "heading": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+      "title": "Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+      "category": "2",
+      "group": "2A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).\nLicense Requirements\nReason for Control:\nMT, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entry (2A101) MT Column 1. AT applies to entire entry (2A101) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nMT applies to entire entry\nMT Column 1.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\nSee ECCN 2A001.\nRelated Definitions:\nN/A\nItems:\nAn inner ring bore diameter between 12 and 50 mm;\na. An inner ring bore diameter between 12 and 50 mm;\nAn outer ring outside diameter between 25 and 100 mm; and\nb. An outer ring outside diameter between 25 and 100 mm; and\nA width between 10 and 20 mm.\nc. A width between 10 and 20 mm.",
+      "structure": {
+        "identifier": "2A101",
+        "heading": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+        "label": "2A101 – 2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "MT, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center border-top-single border-bottom-single border-right-single\">Control(s)</TH>\n<TH class=\"center border-top-single border-bottom-single\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left border-right-single\">MT applies to entire entry (2A101)</TD>\n<TD class=\"left\">MT Column 1.</TD>\n</TR>\n<TR>\n<TD class=\"left border-bottom-single border-right-single\">AT applies to entire entry (2A101)</TD>\n<TD class=\"left border-bottom-single\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entry (2A101) MT Column 1. AT applies to entire entry (2A101) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "MT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "MT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "See ECCN 2A001."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "2A101.a",
+            "heading": "An inner ring bore diameter between 12 and 50 mm;",
+            "label": "2A101.a – An inner ring bore diameter between 12 and 50 mm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. An inner ring bore diameter between 12 and 50 mm;</P>",
+                "text": "a. An inner ring bore diameter between 12 and 50 mm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2A101.b",
+            "heading": "An outer ring outside diameter between 25 and 100 mm; and",
+            "label": "2A101.b – An outer ring outside diameter between 25 and 100 mm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. An outer ring outside diameter between 25 and 100 mm; <I>and</I></P>",
+                "text": "b. An outer ring outside diameter between 25 and 100 mm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2A101.c",
+            "heading": "A width between 10 and 20 mm.",
+            "label": "2A101.c – A width between 10 and 20 mm.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c. A width between 10 and 20 mm.</P>",
+                "text": "c. A width between 10 and 20 mm.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-02",
+      "fetchedAt": "2025-10-02T20:33:47.757Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-02/title-15?format=xml",
+      "heading": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+      "title": "Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+      "category": "2",
+      "group": "2A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).\nLicense Requirements\nReason for Control:\nMT, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entry (2A101) MT Column 1. AT applies to entire entry (2A101) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nMT applies to entire entry\nMT Column 1.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\nSee ECCN 2A001.\nRelated Definitions:\nN/A\nItems:\nAn inner ring bore diameter between 12 and 50 mm;\na. An inner ring bore diameter between 12 and 50 mm;\nAn outer ring outside diameter between 25 and 100 mm; and\nb. An outer ring outside diameter between 25 and 100 mm; and\nA width between 10 and 20 mm.\nc. A width between 10 and 20 mm.",
+      "structure": {
+        "identifier": "2A101",
+        "heading": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+        "label": "2A101 – 2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "MT, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center border-top-single border-bottom-single border-right-single\">Control(s)</TH>\n<TH class=\"center border-top-single border-bottom-single\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left border-right-single\">MT applies to entire entry (2A101)</TD>\n<TD class=\"left\">MT Column 1.</TD>\n</TR>\n<TR>\n<TD class=\"left border-bottom-single border-right-single\">AT applies to entire entry (2A101)</TD>\n<TD class=\"left border-bottom-single\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entry (2A101) MT Column 1. AT applies to entire entry (2A101) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "MT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "MT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "See ECCN 2A001."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "2A101.a",
+            "heading": "An inner ring bore diameter between 12 and 50 mm;",
+            "label": "2A101.a – An inner ring bore diameter between 12 and 50 mm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. An inner ring bore diameter between 12 and 50 mm;</P>",
+                "text": "a. An inner ring bore diameter between 12 and 50 mm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2A101.b",
+            "heading": "An outer ring outside diameter between 25 and 100 mm; and",
+            "label": "2A101.b – An outer ring outside diameter between 25 and 100 mm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. An outer ring outside diameter between 25 and 100 mm; <I>and</I></P>",
+                "text": "b. An outer ring outside diameter between 25 and 100 mm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2A101.c",
+            "heading": "A width between 10 and 20 mm.",
+            "label": "2A101.c – A width between 10 and 20 mm.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c. A width between 10 and 20 mm.</P>",
+                "text": "c. A width between 10 and 20 mm.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+      "title": "Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+      "category": "2",
+      "group": "2A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).\nLicense Requirements\nReason for Control:\nMT, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entry (2A101) MT Column 1. AT applies to entire entry (2A101) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nMT applies to entire entry\nMT Column 1.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\nSee ECCN 2A001.\nRelated Definitions:\nN/A\nItems:\nAn inner ring bore diameter between 12 and 50 mm;\na. An inner ring bore diameter between 12 and 50 mm;\nAn outer ring outside diameter between 25 and 100 mm; and\nb. An outer ring outside diameter between 25 and 100 mm; and\nA width between 10 and 20 mm.\nc. A width between 10 and 20 mm.",
+      "structure": {
+        "identifier": "2A101",
+        "heading": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+        "label": "2A101 – 2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "MT, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center border-top-single border-bottom-single border-right-single\">Control(s)</TH>\n<TH class=\"center border-top-single border-bottom-single\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left border-right-single\">MT applies to entire entry (2A101)</TD>\n<TD class=\"left\">MT Column 1.</TD>\n</TR>\n<TR>\n<TD class=\"left border-bottom-single border-right-single\">AT applies to entire entry (2A101)</TD>\n<TD class=\"left border-bottom-single\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entry (2A101) MT Column 1. AT applies to entire entry (2A101) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "MT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "MT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "See ECCN 2A001."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "2A101.a",
+            "heading": "An inner ring bore diameter between 12 and 50 mm;",
+            "label": "2A101.a – An inner ring bore diameter between 12 and 50 mm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. An inner ring bore diameter between 12 and 50 mm;</P>",
+                "text": "a. An inner ring bore diameter between 12 and 50 mm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2A101.b",
+            "heading": "An outer ring outside diameter between 25 and 100 mm; and",
+            "label": "2A101.b – An outer ring outside diameter between 25 and 100 mm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. An outer ring outside diameter between 25 and 100 mm; <I>and</I></P>",
+                "text": "b. An outer ring outside diameter between 25 and 100 mm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2A101.c",
+            "heading": "A width between 10 and 20 mm.",
+            "label": "2A101.c – A width between 10 and 20 mm.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c. A width between 10 and 20 mm.</P>",
+                "text": "c. A width between 10 and 20 mm.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+      "title": "Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+      "category": "2",
+      "group": "2A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).\nLicense Requirements\nReason for Control:\nMT, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entry (2A101) MT Column 1. AT applies to entire entry (2A101) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nMT applies to entire entry\nMT Column 1.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\nSee ECCN 2A001.\nRelated Definitions:\nN/A\nItems:\nAn inner ring bore diameter between 12 and 50 mm;\na. An inner ring bore diameter between 12 and 50 mm;\nAn outer ring outside diameter between 25 and 100 mm; and\nb. An outer ring outside diameter between 25 and 100 mm; and\nA width between 10 and 20 mm.\nc. A width between 10 and 20 mm.",
+      "structure": {
+        "identifier": "2A101",
+        "heading": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+        "label": "2A101 – 2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "MT, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center border-top-single border-bottom-single border-right-single\">Control(s)</TH>\n<TH class=\"center border-top-single border-bottom-single\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left border-right-single\">MT applies to entire entry (2A101)</TD>\n<TD class=\"left\">MT Column 1.</TD>\n</TR>\n<TR>\n<TD class=\"left border-bottom-single border-right-single\">AT applies to entire entry (2A101)</TD>\n<TD class=\"left border-bottom-single\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entry (2A101) MT Column 1. AT applies to entire entry (2A101) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "MT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "MT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "See ECCN 2A001."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "2A101.a",
+            "heading": "An inner ring bore diameter between 12 and 50 mm;",
+            "label": "2A101.a – An inner ring bore diameter between 12 and 50 mm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. An inner ring bore diameter between 12 and 50 mm;</P>",
+                "text": "a. An inner ring bore diameter between 12 and 50 mm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2A101.b",
+            "heading": "An outer ring outside diameter between 25 and 100 mm; and",
+            "label": "2A101.b – An outer ring outside diameter between 25 and 100 mm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. An outer ring outside diameter between 25 and 100 mm; <I>and</I></P>",
+                "text": "b. An outer ring outside diameter between 25 and 100 mm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2A101.c",
+            "heading": "A width between 10 and 20 mm.",
+            "label": "2A101.c – A width between 10 and 20 mm.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c. A width between 10 and 20 mm.</P>",
+                "text": "c. A width between 10 and 20 mm.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+      "title": "Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+      "category": "2",
+      "group": "2A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).\nLicense Requirements\nReason for Control:\nMT, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entry (2A101) MT Column 1. AT applies to entire entry (2A101) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nMT applies to entire entry\nMT Column 1.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\nSee ECCN 2A001.\nRelated Definitions:\nN/A\nItems:\nAn inner ring bore diameter between 12 and 50 mm;\na. An inner ring bore diameter between 12 and 50 mm;\nAn outer ring outside diameter between 25 and 100 mm; and\nb. An outer ring outside diameter between 25 and 100 mm; and\nA width between 10 and 20 mm.\nc. A width between 10 and 20 mm.",
+      "structure": {
+        "identifier": "2A101",
+        "heading": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+        "label": "2A101 – 2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "MT, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center border-top-single border-bottom-single border-right-single\">Control(s)</TH>\n<TH class=\"center border-top-single border-bottom-single\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left border-right-single\">MT applies to entire entry (2A101)</TD>\n<TD class=\"left\">MT Column 1.</TD>\n</TR>\n<TR>\n<TD class=\"left border-bottom-single border-right-single\">AT applies to entire entry (2A101)</TD>\n<TD class=\"left border-bottom-single\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entry (2A101) MT Column 1. AT applies to entire entry (2A101) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "MT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "MT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "See ECCN 2A001."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "2A101.a",
+            "heading": "An inner ring bore diameter between 12 and 50 mm;",
+            "label": "2A101.a – An inner ring bore diameter between 12 and 50 mm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. An inner ring bore diameter between 12 and 50 mm;</P>",
+                "text": "a. An inner ring bore diameter between 12 and 50 mm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2A101.b",
+            "heading": "An outer ring outside diameter between 25 and 100 mm; and",
+            "label": "2A101.b – An outer ring outside diameter between 25 and 100 mm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. An outer ring outside diameter between 25 and 100 mm; <I>and</I></P>",
+                "text": "b. An outer ring outside diameter between 25 and 100 mm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2A101.c",
+            "heading": "A width between 10 and 20 mm.",
+            "label": "2A101.c – A width between 10 and 20 mm.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c. A width between 10 and 20 mm.</P>",
+                "text": "c. A width between 10 and 20 mm.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+      "title": "Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+      "category": "2",
+      "group": "2A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).\nLicense Requirements\nReason for Control:\nMT, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entry (2A101) MT Column 1. AT applies to entire entry (2A101) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nMT applies to entire entry\nMT Column 1.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\nSee ECCN 2A001.\nRelated Definitions:\nN/A\nItems:\nAn inner ring bore diameter between 12 and 50 mm;\na. An inner ring bore diameter between 12 and 50 mm;\nAn outer ring outside diameter between 25 and 100 mm; and\nb. An outer ring outside diameter between 25 and 100 mm; and\nA width between 10 and 20 mm.\nc. A width between 10 and 20 mm.",
+      "structure": {
+        "identifier": "2A101",
+        "heading": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+        "label": "2A101 – 2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "MT, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center border-top-single border-bottom-single border-right-single\">Control(s)</TH>\n<TH class=\"center border-top-single border-bottom-single\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left border-right-single\">MT applies to entire entry (2A101)</TD>\n<TD class=\"left\">MT Column 1.</TD>\n</TR>\n<TR>\n<TD class=\"left border-bottom-single border-right-single\">AT applies to entire entry (2A101)</TD>\n<TD class=\"left border-bottom-single\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entry (2A101) MT Column 1. AT applies to entire entry (2A101) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "MT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "MT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "See ECCN 2A001."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "2A101.a",
+            "heading": "An inner ring bore diameter between 12 and 50 mm;",
+            "label": "2A101.a – An inner ring bore diameter between 12 and 50 mm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. An inner ring bore diameter between 12 and 50 mm;</P>",
+                "text": "a. An inner ring bore diameter between 12 and 50 mm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2A101.b",
+            "heading": "An outer ring outside diameter between 25 and 100 mm; and",
+            "label": "2A101.b – An outer ring outside diameter between 25 and 100 mm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. An outer ring outside diameter between 25 and 100 mm; <I>and</I></P>",
+                "text": "b. An outer ring outside diameter between 25 and 100 mm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2A101.c",
+            "heading": "A width between 10 and 20 mm.",
+            "label": "2A101.c – A width between 10 and 20 mm.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c. A width between 10 and 20 mm.</P>",
+                "text": "c. A width between 10 and 20 mm.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+      "title": "Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+      "category": "2",
+      "group": "2A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).\nLicense Requirements\nReason for Control:\nMT, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entry (2A101) MT Column 1. AT applies to entire entry (2A101) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nMT applies to entire entry\nMT Column 1.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\nSee ECCN 2A001.\nRelated Definitions:\nN/A\nItems:\nAn inner ring bore diameter between 12 and 50 mm;\na. An inner ring bore diameter between 12 and 50 mm;\nAn outer ring outside diameter between 25 and 100 mm; and\nb. An outer ring outside diameter between 25 and 100 mm; and\nA width between 10 and 20 mm.\nc. A width between 10 and 20 mm.",
+      "structure": {
+        "identifier": "2A101",
+        "heading": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+        "label": "2A101 – 2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "MT, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center border-top-single border-bottom-single border-right-single\">Control(s)</TH>\n<TH class=\"center border-top-single border-bottom-single\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left border-right-single\">MT applies to entire entry (2A101)</TD>\n<TD class=\"left\">MT Column 1.</TD>\n</TR>\n<TR>\n<TD class=\"left border-bottom-single border-right-single\">AT applies to entire entry (2A101)</TD>\n<TD class=\"left border-bottom-single\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entry (2A101) MT Column 1. AT applies to entire entry (2A101) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "MT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "MT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "See ECCN 2A001."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "2A101.a",
+            "heading": "An inner ring bore diameter between 12 and 50 mm;",
+            "label": "2A101.a – An inner ring bore diameter between 12 and 50 mm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. An inner ring bore diameter between 12 and 50 mm;</P>",
+                "text": "a. An inner ring bore diameter between 12 and 50 mm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2A101.b",
+            "heading": "An outer ring outside diameter between 25 and 100 mm; and",
+            "label": "2A101.b – An outer ring outside diameter between 25 and 100 mm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. An outer ring outside diameter between 25 and 100 mm; <I>and</I></P>",
+                "text": "b. An outer ring outside diameter between 25 and 100 mm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2A101.c",
+            "heading": "A width between 10 and 20 mm.",
+            "label": "2A101.c – A width between 10 and 20 mm.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c. A width between 10 and 20 mm.</P>",
+                "text": "c. A width between 10 and 20 mm.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+      "title": "Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+      "category": "2",
+      "group": "2A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).\nLicense Requirements\nReason for Control:\nMT, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entry (2A101) MT Column 1. AT applies to entire entry (2A101) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nMT applies to entire entry\nMT Column 1.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\nSee ECCN 2A001.\nRelated Definitions:\nN/A\nItems:\nAn inner ring bore diameter between 12 and 50 mm;\na. An inner ring bore diameter between 12 and 50 mm;\nAn outer ring outside diameter between 25 and 100 mm; and\nb. An outer ring outside diameter between 25 and 100 mm; and\nA width between 10 and 20 mm.\nc. A width between 10 and 20 mm.",
+      "structure": {
+        "identifier": "2A101",
+        "heading": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+        "label": "2A101 – 2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "MT, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center border-top-single border-bottom-single border-right-single\">Control(s)</TH>\n<TH class=\"center border-top-single border-bottom-single\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left border-right-single\">MT applies to entire entry (2A101)</TD>\n<TD class=\"left\">MT Column 1.</TD>\n</TR>\n<TR>\n<TD class=\"left border-bottom-single border-right-single\">AT applies to entire entry (2A101)</TD>\n<TD class=\"left border-bottom-single\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entry (2A101) MT Column 1. AT applies to entire entry (2A101) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "MT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "MT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "See ECCN 2A001."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "2A101.a",
+            "heading": "An inner ring bore diameter between 12 and 50 mm;",
+            "label": "2A101.a – An inner ring bore diameter between 12 and 50 mm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. An inner ring bore diameter between 12 and 50 mm;</P>",
+                "text": "a. An inner ring bore diameter between 12 and 50 mm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2A101.b",
+            "heading": "An outer ring outside diameter between 25 and 100 mm; and",
+            "label": "2A101.b – An outer ring outside diameter between 25 and 100 mm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. An outer ring outside diameter between 25 and 100 mm; <I>and</I></P>",
+                "text": "b. An outer ring outside diameter between 25 and 100 mm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2A101.c",
+            "heading": "A width between 10 and 20 mm.",
+            "label": "2A101.c – A width between 10 and 20 mm.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c. A width between 10 and 20 mm.</P>",
+                "text": "c. A width between 10 and 20 mm.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+      "title": "Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+      "category": "2",
+      "group": "2A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).\nLicense Requirements\nReason for Control:\nMT, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entry (2A101) MT Column 1. AT applies to entire entry (2A101) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nMT applies to entire entry\nMT Column 1.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\nSee ECCN 2A001.\nRelated Definitions:\nN/A\nItems:\nAn inner ring bore diameter between 12 and 50 mm;\na. An inner ring bore diameter between 12 and 50 mm;\nAn outer ring outside diameter between 25 and 100 mm; and\nb. An outer ring outside diameter between 25 and 100 mm; and\nA width between 10 and 20 mm.\nc. A width between 10 and 20 mm.",
+      "structure": {
+        "identifier": "2A101",
+        "heading": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+        "label": "2A101 – 2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "MT, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center border-top-single border-bottom-single border-right-single\">Control(s)</TH>\n<TH class=\"center border-top-single border-bottom-single\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left border-right-single\">MT applies to entire entry (2A101)</TD>\n<TD class=\"left\">MT Column 1.</TD>\n</TR>\n<TR>\n<TD class=\"left border-bottom-single border-right-single\">AT applies to entire entry (2A101)</TD>\n<TD class=\"left border-bottom-single\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entry (2A101) MT Column 1. AT applies to entire entry (2A101) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "MT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "MT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "See ECCN 2A001."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "2A101.a",
+            "heading": "An inner ring bore diameter between 12 and 50 mm;",
+            "label": "2A101.a – An inner ring bore diameter between 12 and 50 mm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. An inner ring bore diameter between 12 and 50 mm;\n</P>",
+                "text": "a. An inner ring bore diameter between 12 and 50 mm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2A101.b",
+            "heading": "An outer ring outside diameter between 25 and 100 mm; and",
+            "label": "2A101.b – An outer ring outside diameter between 25 and 100 mm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. An outer ring outside diameter between 25 and 100 mm; <I>and</I>\n</P>",
+                "text": "b. An outer ring outside diameter between 25 and 100 mm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2A101.c",
+            "heading": "A width between 10 and 20 mm.",
+            "label": "2A101.c – A width between 10 and 20 mm.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c. A width between 10 and 20 mm.\n\n\n\n\n\n\n</P>",
+                "text": "c. A width between 10 and 20 mm.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+      "title": "Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+      "category": "2",
+      "group": "2A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).\nLicense Requirements\nReason for Control:\nMT, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entry (2A101) MT Column 1. AT applies to entire entry (2A101) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nMT applies to entire entry\nMT Column 1.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\nSee ECCN 2A001.\nRelated Definitions:\nN/A\nItems:\nAn inner ring bore diameter between 12 and 50 mm;\na. An inner ring bore diameter between 12 and 50 mm;\nAn outer ring outside diameter between 25 and 100 mm; and\nb. An outer ring outside diameter between 25 and 100 mm; and\nA width between 10 and 20 mm.\nc. A width between 10 and 20 mm.",
+      "structure": {
+        "identifier": "2A101",
+        "heading": "2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+        "label": "2A101 – 2A101 Radial Ball Bearings Having all Tolerances Specified in Accordance With ISO 492 Tolerance Class 2 (or ANSI/ABMA Std 20 Tolerance Class ABEC-9 or Other National Equivalents), or Better and Having all of the Following Characteristics (see List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "MT, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center border-top-single border-bottom-single border-right-single\">Control(s)</TH>\n<TH class=\"center border-top-single border-bottom-single\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left border-right-single\">MT applies to entire entry (2A101)</TD>\n<TD class=\"left\">MT Column 1.</TD>\n</TR>\n<TR>\n<TD class=\"left border-bottom-single border-right-single\">AT applies to entire entry (2A101)</TD>\n<TD class=\"left border-bottom-single\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entry (2A101) MT Column 1. AT applies to entire entry (2A101) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "MT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "MT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "See ECCN 2A001."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "2A101.a",
+            "heading": "An inner ring bore diameter between 12 and 50 mm;",
+            "label": "2A101.a – An inner ring bore diameter between 12 and 50 mm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. An inner ring bore diameter between 12 and 50 mm;\n</P>",
+                "text": "a. An inner ring bore diameter between 12 and 50 mm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2A101.b",
+            "heading": "An outer ring outside diameter between 25 and 100 mm; and",
+            "label": "2A101.b – An outer ring outside diameter between 25 and 100 mm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. An outer ring outside diameter between 25 and 100 mm; <I>and</I>\n</P>",
+                "text": "b. An outer ring outside diameter between 25 and 100 mm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2A101.c",
+            "heading": "A width between 10 and 20 mm.",
+            "label": "2A101.c – A width between 10 and 20 mm.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c. A width between 10 and 20 mm.\n\n\n\n\n\n\n</P>",
+                "text": "c. A width between 10 and 20 mm.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    }
+  ]
+}

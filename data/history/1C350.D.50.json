@@ -1,0 +1,254 @@
+{
+  "eccn": "1C350.d.50",
+  "normalized": "1C350.D.50",
+  "history": [
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "(C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+      "title": "(C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C350 Chemicals that may be used as precursors for toxic chemical agents (see List of Items Controlled).",
+        "Other Australia Group-controlled precursor chemicals not also identified as Schedule 1, 2, or 3 chemicals under the CWC, as follows, and mixtures in which at least one of the following chemicals constitutes 30 percent or more of the weight of the mixture:"
+      ],
+      "ancestors": [
+        "1C350",
+        "1C350.d"
+      ],
+      "text": "(C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+      "structure": {
+        "identifier": "1C350.d.50",
+        "heading": "(C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+        "label": "1C350.d.50 – (C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "(C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+      "title": "(C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "1C350 Chemicals that may be used as precursors for toxic chemical agents (see List of Items Controlled).",
+        "Other Australia Group-controlled precursor chemicals not also identified as Schedule 1, 2, or 3 chemicals under the CWC, as follows, and mixtures in which at least one of the following chemicals constitutes 30 percent or more of the weight of the mixture:"
+      ],
+      "ancestors": [
+        "1C350",
+        "1C350.d"
+      ],
+      "text": "(C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+      "structure": {
+        "identifier": "1C350.d.50",
+        "heading": "(C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+        "label": "1C350.d.50 – (C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "(C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+      "title": "(C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "1C350 Chemicals that may be used as precursors for toxic chemical agents (see List of Items Controlled).",
+        "Other Australia Group-controlled precursor chemicals not also identified as Schedule 1, 2, or 3 chemicals under the CWC, as follows, and mixtures in which at least one of the following chemicals constitutes 30 percent or more of the weight of the mixture:"
+      ],
+      "ancestors": [
+        "1C350",
+        "1C350.d"
+      ],
+      "text": "(C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+      "structure": {
+        "identifier": "1C350.d.50",
+        "heading": "(C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+        "label": "1C350.d.50 – (C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "(C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+      "title": "(C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "1C350 Chemicals that may be used as precursors for toxic chemical agents (see List of Items Controlled).",
+        "Other Australia Group-controlled precursor chemicals not also identified as Schedule 1, 2, or 3 chemicals under the CWC, as follows, and mixtures in which at least one of the following chemicals constitutes 30 percent or more of the weight of the mixture:"
+      ],
+      "ancestors": [
+        "1C350",
+        "1C350.d"
+      ],
+      "text": "(C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+      "structure": {
+        "identifier": "1C350.d.50",
+        "heading": "(C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+        "label": "1C350.d.50 – (C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "(C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+      "title": "(C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "1C350 Chemicals that may be used as precursors for toxic chemical agents (see List of Items Controlled).",
+        "Other Australia Group-controlled precursor chemicals not also identified as Schedule 1, 2, or 3 chemicals under the CWC, as follows, and mixtures in which at least one of the following chemicals constitutes 30 percent or more of the weight of the mixture:"
+      ],
+      "ancestors": [
+        "1C350",
+        "1C350.d"
+      ],
+      "text": "(C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+      "structure": {
+        "identifier": "1C350.d.50",
+        "heading": "(C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+        "label": "1C350.d.50 – (C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "(C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+      "title": "(C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "1C350 Chemicals that may be used as precursors for toxic chemical agents (see List of Items Controlled).",
+        "Other Australia Group-controlled precursor chemicals not also identified as Schedule 1, 2, or 3 chemicals under the CWC, as follows, and mixtures in which at least one of the following chemicals constitutes 30 percent or more of the weight of the mixture:"
+      ],
+      "ancestors": [
+        "1C350",
+        "1C350.d"
+      ],
+      "text": "(C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+      "structure": {
+        "identifier": "1C350.d.50",
+        "heading": "(C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+        "label": "1C350.d.50 – (C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "(C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+      "title": "(C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "1C350 Chemicals that may be used as precursors for toxic chemical agents (see List of Items Controlled).",
+        "Other Australia Group-controlled precursor chemicals not also identified as Schedule 1, 2, or 3 chemicals under the CWC, as follows, and mixtures in which at least one of the following chemicals constitutes 30 percent or more of the weight of the mixture:"
+      ],
+      "ancestors": [
+        "1C350",
+        "1C350.d"
+      ],
+      "text": "(C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+      "structure": {
+        "identifier": "1C350.d.50",
+        "heading": "(C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+        "label": "1C350.d.50 – (C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "(C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+      "title": "(C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "1C350 Chemicals that may be used as precursors for toxic chemical agents (see List of Items Controlled).",
+        "Other Australia Group-controlled precursor chemicals not also identified as Schedule 1, 2, or 3 chemicals under the CWC, as follows, and mixtures in which at least one of the following chemicals constitutes 30 percent or more of the weight of the mixture:"
+      ],
+      "ancestors": [
+        "1C350",
+        "1C350.d"
+      ],
+      "text": "(C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+      "structure": {
+        "identifier": "1C350.d.50",
+        "heading": "(C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+        "label": "1C350.d.50 – (C.A.S. #116-17-6) Tri-isopropyl phosphite.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

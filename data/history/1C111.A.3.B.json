@@ -1,0 +1,2133 @@
+{
+  "eccn": "1C111.a.3.b",
+  "normalized": "1C111.A.3.B",
+  "history": [
+    {
+      "version": "2017-01-15",
+      "fetchedAt": "2025-10-02T20:33:28.357Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-15/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled)",
+        "1C111.a",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-07-07",
+      "fetchedAt": "2025-10-02T20:33:28.904Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-07-07/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled)",
+        "1C111.a",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-08-15",
+      "fetchedAt": "2025-10-02T20:33:29.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-08-15/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled)",
+        "1C111.a",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-12-27",
+      "fetchedAt": "2025-10-02T20:33:29.759Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-12-27/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled)",
+        "1C111.a",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-01-08",
+      "fetchedAt": "2025-10-02T20:33:30.194Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-01-08/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled)",
+        "1C111.a",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-04-02",
+      "fetchedAt": "2025-10-02T20:33:30.716Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-02/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled)",
+        "1C111.a",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-04-05",
+      "fetchedAt": "2025-10-02T20:33:31.145Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-05/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled)",
+        "1C111.a",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-08-30",
+      "fetchedAt": "2025-10-02T20:33:31.567Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-08-30/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "Propulsive substances:",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS\n10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>10544-72-6);</P>",
+            "text": "10544-72-6);",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-10-24",
+      "fetchedAt": "2025-10-02T20:33:31.990Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-10-24/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "Propulsive substances:",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS\n10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>10544-72-6);</P>",
+            "text": "10544-72-6);",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-11-02",
+      "fetchedAt": "2025-10-02T20:33:32.381Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-11-02/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Reporting Requirements",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "Propulsive substances:",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS\n10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>10544-72-6);</P>",
+            "text": "10544-72-6);",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-12-20",
+      "fetchedAt": "2025-10-02T20:33:32.762Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-12-20/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "1C111.a",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS\n10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>10544-72-6);</P>",
+            "text": "10544-72-6);",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2019-05-23",
+      "fetchedAt": "2025-10-02T20:33:33.148Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2019-05-23/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "1C111.a",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS\n10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>10544-72-6);</P>",
+            "text": "10544-72-6);",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-01-06",
+      "fetchedAt": "2025-10-02T20:33:33.561Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-01-06/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "1C111.a",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS\n10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>10544-72-6);</P>",
+            "text": "10544-72-6);",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-03-09",
+      "fetchedAt": "2025-10-02T20:33:33.960Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-03-09/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "1C111.a",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS\n10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>10544-72-6);</P>",
+            "text": "10544-72-6);",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-06-17",
+      "fetchedAt": "2025-10-02T20:33:34.354Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-06-17/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "1C111.a",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS\n10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>10544-72-6);</P>",
+            "text": "10544-72-6);",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-06-29",
+      "fetchedAt": "2025-10-02T20:33:34.750Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-06-29/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "1C111.a",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS\n10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>10544-72-6);</P>",
+            "text": "10544-72-6);",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-09-11",
+      "fetchedAt": "2025-10-02T20:33:35.161Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-09-11/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "1C111.a",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS\n10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>10544-72-6);</P>",
+            "text": "10544-72-6);",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-10-05",
+      "fetchedAt": "2025-10-02T20:33:35.641Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-10-05/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "1C111.a",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS\n10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>10544-72-6);</P>",
+            "text": "10544-72-6);",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-10-06",
+      "fetchedAt": "2025-10-02T20:33:36.026Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-10-06/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "1C111.a",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS\n10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>10544-72-6);</P>",
+            "text": "10544-72-6);",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-12-04",
+      "fetchedAt": "2025-10-02T20:33:36.431Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-12-04/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "1C111.a",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS\n10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>10544-72-6);</P>",
+            "text": "10544-72-6);",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2021-01-06",
+      "fetchedAt": "2025-10-02T20:33:36.829Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2021-01-06/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "1C111.a",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS\n10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>10544-72-6);</P>",
+            "text": "10544-72-6);",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2021-01-07",
+      "fetchedAt": "2025-10-02T20:33:37.217Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2021-01-07/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "1C111.a",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS\n10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>10544-72-6);</P>",
+            "text": "10544-72-6);",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2021-01-14",
+      "fetchedAt": "2025-10-02T20:33:37.609Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2021-01-14/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "1C111.a",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS\n10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>10544-72-6);</P>",
+            "text": "10544-72-6);",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2021-03-29",
+      "fetchedAt": "2025-10-02T20:33:37.994Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2021-03-29/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "1C111.a",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS\n10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>10544-72-6);</P>",
+            "text": "10544-72-6);",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2021-09-20",
+      "fetchedAt": "2025-10-02T20:33:38.383Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2021-09-20/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "1C111.a",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS\n10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>10544-72-6);</P>",
+            "text": "10544-72-6);",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2021-10-05",
+      "fetchedAt": "2025-10-02T20:33:38.778Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2021-10-05/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "1C111.a",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS\n10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>10544-72-6);</P>",
+            "text": "10544-72-6);",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2021-12-06",
+      "fetchedAt": "2025-10-02T20:33:39.172Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2021-12-06/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "1C111.a",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS\n10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>10544-72-6);</P>",
+            "text": "10544-72-6);",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2022-01-06",
+      "fetchedAt": "2025-10-02T20:33:39.613Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2022-01-06/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "1C111.a",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS\n10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>10544-72-6);</P>",
+            "text": "10544-72-6);",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2022-01-19",
+      "fetchedAt": "2025-10-02T20:33:40.017Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2022-01-19/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "1C111.a",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS\n10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>10544-72-6);</P>",
+            "text": "10544-72-6);",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2022-02-03",
+      "fetchedAt": "2025-10-02T20:33:40.404Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2022-02-03/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "1C111.a",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS\n10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>10544-72-6);</P>",
+            "text": "10544-72-6);",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2022-05-26",
+      "fetchedAt": "2025-10-02T20:33:40.828Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2022-05-26/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "1C111.a",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS\n10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>10544-72-6);</P>",
+            "text": "10544-72-6);",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2022-08-15",
+      "fetchedAt": "2025-10-02T20:33:41.210Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2022-08-15/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "1C111.a",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS\n10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>10544-72-6);</P>",
+            "text": "10544-72-6);",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2022-10-07",
+      "fetchedAt": "2025-10-02T20:33:41.595Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2022-10-07/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "1C111.a",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS\n10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>10544-72-6);</P>",
+            "text": "10544-72-6);",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-01-17",
+      "fetchedAt": "2025-10-02T20:33:41.990Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-01-17/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "1C111.a",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS\n10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>10544-72-6);</P>",
+            "text": "10544-72-6);",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-02-24",
+      "fetchedAt": "2025-10-02T20:33:42.390Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-02-24/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "1C111.a",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS\n10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>10544-72-6);</P>",
+            "text": "10544-72-6);",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-08-18",
+      "fetchedAt": "2025-10-02T20:33:42.783Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-08-18/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "1C111.a",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS\n10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>10544-72-6);</P>",
+            "text": "10544-72-6);",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-10-18",
+      "fetchedAt": "2025-10-02T20:33:43.173Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-10-18/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "1C111.a",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS\n10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>10544-72-6);</P>",
+            "text": "10544-72-6);",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-11-17",
+      "fetchedAt": "2025-10-02T20:33:43.584Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-11-17/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "1C111.a",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS\n10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>10544-72-6);</P>",
+            "text": "10544-72-6);",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-12-08",
+      "fetchedAt": "2025-10-02T20:33:43.980Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-12-08/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "Propulsive substances:",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-03-08",
+      "fetchedAt": "2025-10-02T20:33:44.401Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-08/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "Propulsive substances:",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-03-13",
+      "fetchedAt": "2025-10-02T20:33:44.826Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-13/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "Propulsive substances:",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-04-04",
+      "fetchedAt": "2025-10-02T20:33:45.229Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-04/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "Propulsive substances:",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-04-19",
+      "fetchedAt": "2025-10-02T20:33:45.630Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-19/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "Propulsive substances:",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-05-30",
+      "fetchedAt": "2025-10-02T20:33:46.051Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-05-30/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "Propulsive substances:",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-06-12",
+      "fetchedAt": "2025-10-02T20:33:46.460Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-06-12/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "Propulsive substances:",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-09-06",
+      "fetchedAt": "2025-10-02T20:33:46.879Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-09-06/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "Propulsive substances:",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-10-23",
+      "fetchedAt": "2025-10-02T20:33:47.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-10-23/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "Propulsive substances:",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-02",
+      "fetchedAt": "2025-10-02T20:33:47.757Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-02/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "Propulsive substances:",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "Propulsive substances:",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "Propulsive substances:",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "Propulsive substances:",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "Propulsive substances:",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "Propulsive substances:",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "Propulsive substances:",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "Propulsive substances:",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "title": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "1C111 Propellants and constituent chemicals for propellants, other than those specified in 1C011, as follows (see List of Items Controlled).",
+        "Propulsive substances:",
+        "Oxidizer substances usable in liquid propellant rocket engines, as follows:"
+      ],
+      "ancestors": [
+        "1C111",
+        "1C111.a",
+        "1C111.a.3"
+      ],
+      "text": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+      "structure": {
+        "identifier": "1C111.a.3.b",
+        "heading": "Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "label": "1C111.a.3.b – Nitrogen dioxide (CAS 10102-44-0)/dinitrogen tetroxide (CAS 10544-72-6);",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

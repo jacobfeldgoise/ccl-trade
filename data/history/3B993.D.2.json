@@ -1,0 +1,678 @@
+{
+  "eccn": "3B993.d.2",
+  "normalized": "3B993.D.2",
+  "history": [
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:",
+      "title": "Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls).",
+        "Semiconductor manufacturing deposition equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.d"
+      ],
+      "text": "Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:\nBoat designed to hold multiple vertically stacked wafers;\nd.2.a. Boat designed to hold multiple vertically stacked wafers;\nTwo or more vertical injectors; and\nd.2.b. Two or more vertical injectors; and\nA silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.\nd.2.c. A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.",
+      "structure": {
+        "identifier": "3B993.d.2",
+        "heading": "Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:",
+        "label": "3B993.d.2 – Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.d.2.a",
+            "heading": "Boat designed to hold multiple vertically stacked wafers;",
+            "label": "3B993.d.2.a – Boat designed to hold multiple vertically stacked wafers;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.2.a. Boat designed to hold multiple vertically stacked wafers;</P>",
+                "text": "d.2.a. Boat designed to hold multiple vertically stacked wafers;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.d.2.b",
+            "heading": "Two or more vertical injectors; and",
+            "label": "3B993.d.2.b – Two or more vertical injectors; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.2.b. Two or more vertical injectors; and</P>",
+                "text": "d.2.b. Two or more vertical injectors; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.d.2.c",
+            "heading": "A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.",
+            "label": "3B993.d.2.c – A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.2.c. A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.</P>",
+                "text": "d.2.c. A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:",
+      "title": "Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls).",
+        "Semiconductor manufacturing deposition equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.d"
+      ],
+      "text": "Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:\nBoat designed to hold multiple vertically stacked wafers;\nd.2.a. Boat designed to hold multiple vertically stacked wafers;\nTwo or more vertical injectors; and\nd.2.b. Two or more vertical injectors; and\nA silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.\nd.2.c. A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.",
+      "structure": {
+        "identifier": "3B993.d.2",
+        "heading": "Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:",
+        "label": "3B993.d.2 – Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.d.2.a",
+            "heading": "Boat designed to hold multiple vertically stacked wafers;",
+            "label": "3B993.d.2.a – Boat designed to hold multiple vertically stacked wafers;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.2.a. Boat designed to hold multiple vertically stacked wafers;</P>",
+                "text": "d.2.a. Boat designed to hold multiple vertically stacked wafers;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.d.2.b",
+            "heading": "Two or more vertical injectors; and",
+            "label": "3B993.d.2.b – Two or more vertical injectors; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.2.b. Two or more vertical injectors; and</P>",
+                "text": "d.2.b. Two or more vertical injectors; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.d.2.c",
+            "heading": "A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.",
+            "label": "3B993.d.2.c – A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.2.c. A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.</P>",
+                "text": "d.2.c. A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:",
+      "title": "Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls).",
+        "Semiconductor manufacturing deposition equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.d"
+      ],
+      "text": "Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:\nBoat designed to hold multiple vertically stacked wafers;\nd.2.a. Boat designed to hold multiple vertically stacked wafers;\nTwo or more vertical injectors; and\nd.2.b. Two or more vertical injectors; and\nA silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.\nd.2.c. A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.",
+      "structure": {
+        "identifier": "3B993.d.2",
+        "heading": "Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:",
+        "label": "3B993.d.2 – Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.d.2.a",
+            "heading": "Boat designed to hold multiple vertically stacked wafers;",
+            "label": "3B993.d.2.a – Boat designed to hold multiple vertically stacked wafers;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.2.a. Boat designed to hold multiple vertically stacked wafers;</P>",
+                "text": "d.2.a. Boat designed to hold multiple vertically stacked wafers;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.d.2.b",
+            "heading": "Two or more vertical injectors; and",
+            "label": "3B993.d.2.b – Two or more vertical injectors; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.2.b. Two or more vertical injectors; and</P>",
+                "text": "d.2.b. Two or more vertical injectors; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.d.2.c",
+            "heading": "A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.",
+            "label": "3B993.d.2.c – A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.2.c. A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.</P>",
+                "text": "d.2.c. A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:",
+      "title": "Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls).",
+        "Semiconductor manufacturing deposition equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.d"
+      ],
+      "text": "Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:\nBoat designed to hold multiple vertically stacked wafers;\nd.2.a. Boat designed to hold multiple vertically stacked wafers;\nTwo or more vertical injectors; and\nd.2.b. Two or more vertical injectors; and\nA silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.\nd.2.c. A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.",
+      "structure": {
+        "identifier": "3B993.d.2",
+        "heading": "Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:",
+        "label": "3B993.d.2 – Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.d.2.a",
+            "heading": "Boat designed to hold multiple vertically stacked wafers;",
+            "label": "3B993.d.2.a – Boat designed to hold multiple vertically stacked wafers;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.2.a. Boat designed to hold multiple vertically stacked wafers;</P>",
+                "text": "d.2.a. Boat designed to hold multiple vertically stacked wafers;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.d.2.b",
+            "heading": "Two or more vertical injectors; and",
+            "label": "3B993.d.2.b – Two or more vertical injectors; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.2.b. Two or more vertical injectors; and</P>",
+                "text": "d.2.b. Two or more vertical injectors; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.d.2.c",
+            "heading": "A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.",
+            "label": "3B993.d.2.c – A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.2.c. A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.</P>",
+                "text": "d.2.c. A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:",
+      "title": "Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls), and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.d"
+      ],
+      "text": "Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:\nBoat designed to hold multiple vertically stacked wafers;\nd.2.a. Boat designed to hold multiple vertically stacked wafers;\nTwo or more vertical injectors; and\nd.2.b. Two or more vertical injectors; and\nA silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.\nd.2.c. A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.",
+      "structure": {
+        "identifier": "3B993.d.2",
+        "heading": "Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:",
+        "label": "3B993.d.2 – Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.d.2.a",
+            "heading": "Boat designed to hold multiple vertically stacked wafers;",
+            "label": "3B993.d.2.a – Boat designed to hold multiple vertically stacked wafers;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.2.a. Boat designed to hold multiple vertically stacked wafers;</P>",
+                "text": "d.2.a. Boat designed to hold multiple vertically stacked wafers;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.d.2.b",
+            "heading": "Two or more vertical injectors; and",
+            "label": "3B993.d.2.b – Two or more vertical injectors; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.2.b. Two or more vertical injectors; and</P>",
+                "text": "d.2.b. Two or more vertical injectors; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.d.2.c",
+            "heading": "A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.",
+            "label": "3B993.d.2.c – A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.2.c. A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.</P>",
+                "text": "d.2.c. A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:",
+      "title": "Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls), and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.d"
+      ],
+      "text": "Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:\nBoat designed to hold multiple vertically stacked wafers;\nd.2.a. Boat designed to hold multiple vertically stacked wafers;\nTwo or more vertical injectors; and\nd.2.b. Two or more vertical injectors; and\nA silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.\nd.2.c. A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.",
+      "structure": {
+        "identifier": "3B993.d.2",
+        "heading": "Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:",
+        "label": "3B993.d.2 – Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.d.2.a",
+            "heading": "Boat designed to hold multiple vertically stacked wafers;",
+            "label": "3B993.d.2.a – Boat designed to hold multiple vertically stacked wafers;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.2.a. Boat designed to hold multiple vertically stacked wafers;</P>",
+                "text": "d.2.a. Boat designed to hold multiple vertically stacked wafers;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.d.2.b",
+            "heading": "Two or more vertical injectors; and",
+            "label": "3B993.d.2.b – Two or more vertical injectors; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.2.b. Two or more vertical injectors; and</P>",
+                "text": "d.2.b. Two or more vertical injectors; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.d.2.c",
+            "heading": "A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.",
+            "label": "3B993.d.2.c – A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.2.c. A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.</P>",
+                "text": "d.2.c. A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:",
+      "title": "Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls), and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.d"
+      ],
+      "text": "Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:\nBoat designed to hold multiple vertically stacked wafers;\nd.2.a. Boat designed to hold multiple vertically stacked wafers;\nTwo or more vertical injectors; and\nd.2.b. Two or more vertical injectors; and\nA silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.\nd.2.c. A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.",
+      "structure": {
+        "identifier": "3B993.d.2",
+        "heading": "Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:",
+        "label": "3B993.d.2 – Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.d.2.a",
+            "heading": "Boat designed to hold multiple vertically stacked wafers;",
+            "label": "3B993.d.2.a – Boat designed to hold multiple vertically stacked wafers;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.2.a. Boat designed to hold multiple vertically stacked wafers;\n</P>",
+                "text": "d.2.a. Boat designed to hold multiple vertically stacked wafers;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.d.2.b",
+            "heading": "Two or more vertical injectors; and",
+            "label": "3B993.d.2.b – Two or more vertical injectors; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.2.b. Two or more vertical injectors; and\n</P>",
+                "text": "d.2.b. Two or more vertical injectors; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.d.2.c",
+            "heading": "A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.",
+            "label": "3B993.d.2.c – A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.2.c. A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.\n</P>",
+                "text": "d.2.c. A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:",
+      "title": "Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls), and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.d"
+      ],
+      "text": "Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:\nBoat designed to hold multiple vertically stacked wafers;\nd.2.a. Boat designed to hold multiple vertically stacked wafers;\nTwo or more vertical injectors; and\nd.2.b. Two or more vertical injectors; and\nA silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.\nd.2.c. A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.",
+      "structure": {
+        "identifier": "3B993.d.2",
+        "heading": "Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:",
+        "label": "3B993.d.2 – Equipment designed for deposition of a film, containing silicon and carbon, and having a dielectric constant (k) of less than 5.3, into lateral openings having widths of less than 70 nm and aspect ratios greater than 5:1 (depth: width) and a feature-to-feature pitch of less than 100 nm, while maintaining the wafer substrate at a temperature greater than 400 °C and less than 650 °C, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.d.2.a",
+            "heading": "Boat designed to hold multiple vertically stacked wafers;",
+            "label": "3B993.d.2.a – Boat designed to hold multiple vertically stacked wafers;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.2.a. Boat designed to hold multiple vertically stacked wafers;\n</P>",
+                "text": "d.2.a. Boat designed to hold multiple vertically stacked wafers;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.d.2.b",
+            "heading": "Two or more vertical injectors; and",
+            "label": "3B993.d.2.b – Two or more vertical injectors; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.2.b. Two or more vertical injectors; and\n</P>",
+                "text": "d.2.b. Two or more vertical injectors; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.d.2.c",
+            "heading": "A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.",
+            "label": "3B993.d.2.c – A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.2.c. A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.\n</P>",
+                "text": "d.2.c. A silicon source and propene are introduced to a different injector than a nitrogen source or an oxygen source.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    }
+  ]
+}

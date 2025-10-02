@@ -1,0 +1,1748 @@
+{
+  "eccn": "0E018",
+  "normalized": "0E018",
+  "history": [
+    {
+      "version": "2017-01-15",
+      "fetchedAt": "2025-10-02T20:33:28.357Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-15/title-15?format=xml",
+      "heading": "0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+      "title": "“Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+      "category": "0",
+      "group": "0E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.\nLicense Requirements\nReason for Control:\nNS, UN, AT\nControl(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. UN applies to entire entrySee § 746.1(b) for UN controls. AT applies to entire entryAT Column 1.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 1.\nUN applies to entire entry\nSee § 746.1(b) for UN controls.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nCIV:\nN/A\nTSR:\nYes.\nList of Items Controlled\nRelated Controls:\nN/A\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.\nNote: This ECCN no longer controls “technology” for items formerly controlled by 0A018.a. See ECCN 0A617.y.1, 0A617.y.1.a for items formerly controlled by 0A018.a and see the “technology” controls for those items in ECCN 0E617.y.",
+      "structure": {
+        "identifier": "0E018",
+        "heading": "0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+        "label": "0E018 – 0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, UN, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (0E018)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 1.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">UN applies to entire entry (0E018)</TD><TD align=\"left\" class=\"gpotbl_cell\">See § 746.1(b) for UN controls.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (0E018)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. UN applies to entire entrySee § 746.1(b) for UN controls. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 1."
+          },
+          {
+            "type": "text",
+            "text": "UN applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "See § 746.1(b) for UN controls."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "Yes."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>This ECCN no longer controls “technology” for items formerly controlled by 0A018.a. See ECCN 0A617.y.1, 0A617.y.1.a for items formerly controlled by 0A018.a and see the “technology” controls for those items in ECCN 0E617.y.</I></P></NOTE>",
+            "text": "Note: This ECCN no longer controls “technology” for items formerly controlled by 0A018.a. See ECCN 0A617.y.1, 0A617.y.1.a for items formerly controlled by 0A018.a and see the “technology” controls for those items in ECCN 0E617.y.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-07-07",
+      "fetchedAt": "2025-10-02T20:33:28.904Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-07-07/title-15?format=xml",
+      "heading": "0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+      "title": "“Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+      "category": "0",
+      "group": "0E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.\nLicense Requirements\nReason for Control:\nNS, UN, AT\nControl(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. UN applies to entire entrySee § 746.1(b) for UN controls. AT applies to entire entryAT Column 1.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 1.\nUN applies to entire entry\nSee § 746.1(b) for UN controls.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nCIV:\nN/A\nTSR:\nYes.\nList of Items Controlled\nRelated Controls:\nN/A\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.\nNote: This ECCN no longer controls “technology” for items formerly controlled by 0A018.a. See ECCN 0A617.y.1, 0A617.y.1.a for items formerly controlled by 0A018.a and see the “technology” controls for those items in ECCN 0E617.y.",
+      "structure": {
+        "identifier": "0E018",
+        "heading": "0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+        "label": "0E018 – 0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, UN, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (0E018)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 1.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">UN applies to entire entry (0E018)</TD><TD align=\"left\" class=\"gpotbl_cell\">See § 746.1(b) for UN controls.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (0E018)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. UN applies to entire entrySee § 746.1(b) for UN controls. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 1."
+          },
+          {
+            "type": "text",
+            "text": "UN applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "See § 746.1(b) for UN controls."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "Yes."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>This ECCN no longer controls “technology” for items formerly controlled by 0A018.a. See ECCN 0A617.y.1, 0A617.y.1.a for items formerly controlled by 0A018.a and see the “technology” controls for those items in ECCN 0E617.y.</I></P></NOTE>",
+            "text": "Note: This ECCN no longer controls “technology” for items formerly controlled by 0A018.a. See ECCN 0A617.y.1, 0A617.y.1.a for items formerly controlled by 0A018.a and see the “technology” controls for those items in ECCN 0E617.y.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-08-15",
+      "fetchedAt": "2025-10-02T20:33:29.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-08-15/title-15?format=xml",
+      "heading": "0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+      "title": "“Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+      "category": "0",
+      "group": "0E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.\nLicense Requirements\nReason for Control:\nNS, UN, AT\nControl(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. UN applies to entire entrySee § 746.1(b) for UN controls. AT applies to entire entryAT Column 1.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 1.\nUN applies to entire entry\nSee § 746.1(b) for UN controls.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nCIV:\nN/A\nTSR:\nYes.\nList of Items Controlled\nRelated Controls:\nN/A\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.\nNote: This ECCN no longer controls “technology” for items formerly controlled by 0A018.a. See ECCN 0A617.y.1, 0A617.y.1.a for items formerly controlled by 0A018.a and see the “technology” controls for those items in ECCN 0E617.y.",
+      "structure": {
+        "identifier": "0E018",
+        "heading": "0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+        "label": "0E018 – 0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, UN, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (0E018)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 1.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">UN applies to entire entry (0E018)</TD><TD align=\"left\" class=\"gpotbl_cell\">See § 746.1(b) for UN controls.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (0E018)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. UN applies to entire entrySee § 746.1(b) for UN controls. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 1."
+          },
+          {
+            "type": "text",
+            "text": "UN applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "See § 746.1(b) for UN controls."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "Yes."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>This ECCN no longer controls “technology” for items formerly controlled by 0A018.a. See ECCN 0A617.y.1, 0A617.y.1.a for items formerly controlled by 0A018.a and see the “technology” controls for those items in ECCN 0E617.y.</I></P></NOTE>",
+            "text": "Note: This ECCN no longer controls “technology” for items formerly controlled by 0A018.a. See ECCN 0A617.y.1, 0A617.y.1.a for items formerly controlled by 0A018.a and see the “technology” controls for those items in ECCN 0E617.y.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-12-27",
+      "fetchedAt": "2025-10-02T20:33:29.759Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-12-27/title-15?format=xml",
+      "heading": "0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+      "title": "“Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+      "category": "0",
+      "group": "0E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.\nLicense Requirements\nReason for Control:\nNS, UN, AT\nControl(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. UN applies to entire entrySee § 746.1(b) for UN controls. AT applies to entire entryAT Column 1.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 1.\nUN applies to entire entry\nSee § 746.1(b) for UN controls.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nCIV:\nN/A\nTSR:\nYes.\nList of Items Controlled\nRelated Controls:\nN/A\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.\nNote: This ECCN no longer controls “technology” for items formerly controlled by 0A018.a. See ECCN 0A617.y.1, 0A617.y.1.a for items formerly controlled by 0A018.a and see the “technology” controls for those items in ECCN 0E617.y.",
+      "structure": {
+        "identifier": "0E018",
+        "heading": "0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+        "label": "0E018 – 0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, UN, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (0E018)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 1.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">UN applies to entire entry (0E018)</TD><TD align=\"left\" class=\"gpotbl_cell\">See § 746.1(b) for UN controls.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (0E018)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. UN applies to entire entrySee § 746.1(b) for UN controls. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 1."
+          },
+          {
+            "type": "text",
+            "text": "UN applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "See § 746.1(b) for UN controls."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "Yes."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>This ECCN no longer controls “technology” for items formerly controlled by 0A018.a. See ECCN 0A617.y.1, 0A617.y.1.a for items formerly controlled by 0A018.a and see the “technology” controls for those items in ECCN 0E617.y.</I></P></NOTE>",
+            "text": "Note: This ECCN no longer controls “technology” for items formerly controlled by 0A018.a. See ECCN 0A617.y.1, 0A617.y.1.a for items formerly controlled by 0A018.a and see the “technology” controls for those items in ECCN 0E617.y.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-01-08",
+      "fetchedAt": "2025-10-02T20:33:30.194Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-01-08/title-15?format=xml",
+      "heading": "0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+      "title": "“Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+      "category": "0",
+      "group": "0E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.\nLicense Requirements\nReason for Control:\nNS, UN, AT\nControl(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. UN applies to entire entrySee § 746.1(b) for UN controls. AT applies to entire entryAT Column 1.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 1.\nUN applies to entire entry\nSee § 746.1(b) for UN controls.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nCIV:\nN/A\nTSR:\nYes.\nList of Items Controlled\nRelated Controls:\nN/A\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.\nNote: This ECCN no longer controls “technology” for items formerly controlled by 0A018.a. See ECCN 0A617.y.1, 0A617.y.1.a for items formerly controlled by 0A018.a and see the “technology” controls for those items in ECCN 0E617.y.",
+      "structure": {
+        "identifier": "0E018",
+        "heading": "0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+        "label": "0E018 – 0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, UN, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (0E018)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 1.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">UN applies to entire entry (0E018)</TD><TD align=\"left\" class=\"gpotbl_cell\">See § 746.1(b) for UN controls.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (0E018)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. UN applies to entire entrySee § 746.1(b) for UN controls. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 1."
+          },
+          {
+            "type": "text",
+            "text": "UN applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "See § 746.1(b) for UN controls."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "Yes."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>This ECCN no longer controls “technology” for items formerly controlled by 0A018.a. See ECCN 0A617.y.1, 0A617.y.1.a for items formerly controlled by 0A018.a and see the “technology” controls for those items in ECCN 0E617.y.</I></P></NOTE>",
+            "text": "Note: This ECCN no longer controls “technology” for items formerly controlled by 0A018.a. See ECCN 0A617.y.1, 0A617.y.1.a for items formerly controlled by 0A018.a and see the “technology” controls for those items in ECCN 0E617.y.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-04-02",
+      "fetchedAt": "2025-10-02T20:33:30.716Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-02/title-15?format=xml",
+      "heading": "0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+      "title": "“Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+      "category": "0",
+      "group": "0E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.\nLicense Requirements\nReason for Control:\nNS, UN, AT\nControl(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. UN applies to entire entrySee § 746.1(b) for UN controls. AT applies to entire entryAT Column 1.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 1.\nUN applies to entire entry\nSee § 746.1(b) for UN controls.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nCIV:\nN/A\nTSR:\nYes.\nList of Items Controlled\nRelated Controls:\nN/A\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.\nNote: This ECCN no longer controls “technology” for items formerly controlled by 0A018.a. See ECCN 0A617.y.1, 0A617.y.1.a for items formerly controlled by 0A018.a and see the “technology” controls for those items in ECCN 0E617.y.",
+      "structure": {
+        "identifier": "0E018",
+        "heading": "0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+        "label": "0E018 – 0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, UN, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (0E018)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 1.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">UN applies to entire entry (0E018)</TD><TD align=\"left\" class=\"gpotbl_cell\">See § 746.1(b) for UN controls.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (0E018)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. UN applies to entire entrySee § 746.1(b) for UN controls. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 1."
+          },
+          {
+            "type": "text",
+            "text": "UN applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "See § 746.1(b) for UN controls."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "Yes."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>This ECCN no longer controls “technology” for items formerly controlled by 0A018.a. See ECCN 0A617.y.1, 0A617.y.1.a for items formerly controlled by 0A018.a and see the “technology” controls for those items in ECCN 0E617.y.</I></P></NOTE>",
+            "text": "Note: This ECCN no longer controls “technology” for items formerly controlled by 0A018.a. See ECCN 0A617.y.1, 0A617.y.1.a for items formerly controlled by 0A018.a and see the “technology” controls for those items in ECCN 0E617.y.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-04-05",
+      "fetchedAt": "2025-10-02T20:33:31.145Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-05/title-15?format=xml",
+      "heading": "0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+      "title": "“Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+      "category": "0",
+      "group": "0E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.\nLicense Requirements\nReason for Control:\nNS, UN, AT\nControl(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. UN applies to entire entrySee § 746.1(b) for UN controls. AT applies to entire entryAT Column 1.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 1.\nUN applies to entire entry\nSee § 746.1(b) for UN controls.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nCIV:\nN/A\nTSR:\nYes.\nList of Items Controlled\nRelated Controls:\nN/A\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.\nNote: This ECCN no longer controls “technology” for items formerly controlled by 0A018.a. See ECCN 0A617.y.1, 0A617.y.1.a for items formerly controlled by 0A018.a and see the “technology” controls for those items in ECCN 0E617.y.",
+      "structure": {
+        "identifier": "0E018",
+        "heading": "0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+        "label": "0E018 – 0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, UN, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (0E018)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 1.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">UN applies to entire entry (0E018)</TD><TD align=\"left\" class=\"gpotbl_cell\">See § 746.1(b) for UN controls.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (0E018)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. UN applies to entire entrySee § 746.1(b) for UN controls. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 1."
+          },
+          {
+            "type": "text",
+            "text": "UN applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "See § 746.1(b) for UN controls."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "Yes."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>This ECCN no longer controls “technology” for items formerly controlled by 0A018.a. See ECCN 0A617.y.1, 0A617.y.1.a for items formerly controlled by 0A018.a and see the “technology” controls for those items in ECCN 0E617.y.</I></P></NOTE>",
+            "text": "Note: This ECCN no longer controls “technology” for items formerly controlled by 0A018.a. See ECCN 0A617.y.1, 0A617.y.1.a for items formerly controlled by 0A018.a and see the “technology” controls for those items in ECCN 0E617.y.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-08-30",
+      "fetchedAt": "2025-10-02T20:33:31.567Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-08-30/title-15?format=xml",
+      "heading": "0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+      "title": "“Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+      "category": "0",
+      "group": "0E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.\nLicense Requirements\nReason for Control:\nNS, UN, AT\nControl(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. UN applies to entire entrySee § 746.1(b) for UN controls. AT applies to entire entryAT Column 1.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 1.\nUN applies to entire entry\nSee § 746.1(b) for UN controls.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nCIV:\nN/A\nTSR:\nYes.\nList of Items Controlled\nRelated Controls:\nN/A\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.\nNote: This ECCN no longer controls “technology” for items formerly controlled by 0A018.a. See ECCN 0A617.y.1, 0A617.y.1.a for items formerly controlled by 0A018.a and see the “technology” controls for those items in ECCN 0E617.y.",
+      "structure": {
+        "identifier": "0E018",
+        "heading": "0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+        "label": "0E018 – 0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, UN, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (0E018)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 1.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">UN applies to entire entry (0E018)</TD><TD align=\"left\" class=\"gpotbl_cell\">See § 746.1(b) for UN controls.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (0E018)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. UN applies to entire entrySee § 746.1(b) for UN controls. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 1."
+          },
+          {
+            "type": "text",
+            "text": "UN applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "See § 746.1(b) for UN controls."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "Yes."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>This ECCN no longer controls “technology” for items formerly controlled by 0A018.a. See ECCN 0A617.y.1, 0A617.y.1.a for items formerly controlled by 0A018.a and see the “technology” controls for those items in ECCN 0E617.y.</I></P></NOTE>",
+            "text": "Note: This ECCN no longer controls “technology” for items formerly controlled by 0A018.a. See ECCN 0A617.y.1, 0A617.y.1.a for items formerly controlled by 0A018.a and see the “technology” controls for those items in ECCN 0E617.y.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-10-24",
+      "fetchedAt": "2025-10-02T20:33:31.990Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-10-24/title-15?format=xml",
+      "heading": "0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+      "title": "“Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+      "category": "0",
+      "group": "0E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.\nLicense Requirements\nReason for Control:\nNS, UN, AT\nControl(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. UN applies to entire entrySee § 746.1(b) for UN controls. AT applies to entire entryAT Column 1.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 1.\nUN applies to entire entry\nSee § 746.1(b) for UN controls.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nCIV:\nN/A\nTSR:\nYes.\nList of Items Controlled\nRelated Controls:\nN/A\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.\nNote: This ECCN no longer controls “technology” for items formerly controlled by 0A018.a. See ECCN 0A617.y.1, 0A617.y.1.a for items formerly controlled by 0A018.a and see the “technology” controls for those items in ECCN 0E617.y.",
+      "structure": {
+        "identifier": "0E018",
+        "heading": "0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+        "label": "0E018 – 0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, UN, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (0E018)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 1.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">UN applies to entire entry (0E018)</TD><TD align=\"left\" class=\"gpotbl_cell\">See § 746.1(b) for UN controls.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (0E018)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. UN applies to entire entrySee § 746.1(b) for UN controls. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 1."
+          },
+          {
+            "type": "text",
+            "text": "UN applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "See § 746.1(b) for UN controls."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "Yes."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>This ECCN no longer controls “technology” for items formerly controlled by 0A018.a. See ECCN 0A617.y.1, 0A617.y.1.a for items formerly controlled by 0A018.a and see the “technology” controls for those items in ECCN 0E617.y.</I></P></NOTE>",
+            "text": "Note: This ECCN no longer controls “technology” for items formerly controlled by 0A018.a. See ECCN 0A617.y.1, 0A617.y.1.a for items formerly controlled by 0A018.a and see the “technology” controls for those items in ECCN 0E617.y.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-11-02",
+      "fetchedAt": "2025-10-02T20:33:32.381Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-11-02/title-15?format=xml",
+      "heading": "0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+      "title": "“Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+      "category": "0",
+      "group": "0E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.\nLicense Requirements\nReason for Control:\nNS, UN, AT\nControl(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. UN applies to entire entrySee § 746.1(b) for UN controls. AT applies to entire entryAT Column 1.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 1.\nUN applies to entire entry\nSee § 746.1(b) for UN controls.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nCIV:\nN/A\nTSR:\nYes.\nList of Items Controlled\nRelated Controls:\nN/A\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.\nNote: This ECCN no longer controls “technology” for items formerly controlled by 0A018.a. See ECCN 0A617.y.1, 0A617.y.1.a for items formerly controlled by 0A018.a and see the “technology” controls for those items in ECCN 0E617.y.",
+      "structure": {
+        "identifier": "0E018",
+        "heading": "0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+        "label": "0E018 – 0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, UN, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (0E018)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 1.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">UN applies to entire entry (0E018)</TD><TD align=\"left\" class=\"gpotbl_cell\">See § 746.1(b) for UN controls.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (0E018)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. UN applies to entire entrySee § 746.1(b) for UN controls. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 1."
+          },
+          {
+            "type": "text",
+            "text": "UN applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "See § 746.1(b) for UN controls."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "Yes."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>This ECCN no longer controls “technology” for items formerly controlled by 0A018.a. See ECCN 0A617.y.1, 0A617.y.1.a for items formerly controlled by 0A018.a and see the “technology” controls for those items in ECCN 0E617.y.</I></P></NOTE>",
+            "text": "Note: This ECCN no longer controls “technology” for items formerly controlled by 0A018.a. See ECCN 0A617.y.1, 0A617.y.1.a for items formerly controlled by 0A018.a and see the “technology” controls for those items in ECCN 0E617.y.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-12-20",
+      "fetchedAt": "2025-10-02T20:33:32.762Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-12-20/title-15?format=xml",
+      "heading": "0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+      "title": "“Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+      "category": "0",
+      "group": "0E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.\nLicense Requirements\nReason for Control:\nNS, UN, AT\nControl(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. UN applies to entire entrySee § 746.1(b) for UN controls. AT applies to entire entryAT Column 1.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 1.\nUN applies to entire entry\nSee § 746.1(b) for UN controls.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nCIV:\nN/A\nTSR:\nYes.\nList of Items Controlled\nRelated Controls:\nN/A\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.\nNote: This ECCN no longer controls “technology” for items formerly controlled by 0A018.a. See ECCN 0A617.y.1, 0A617.y.1.a for items formerly controlled by 0A018.a and see the “technology” controls for those items in ECCN 0E617.y.",
+      "structure": {
+        "identifier": "0E018",
+        "heading": "0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+        "label": "0E018 – 0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, UN, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (0E018)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 1.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">UN applies to entire entry (0E018)</TD><TD align=\"left\" class=\"gpotbl_cell\">See § 746.1(b) for UN controls.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (0E018)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. UN applies to entire entrySee § 746.1(b) for UN controls. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 1."
+          },
+          {
+            "type": "text",
+            "text": "UN applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "See § 746.1(b) for UN controls."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "Yes."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>This ECCN no longer controls “technology” for items formerly controlled by 0A018.a. See ECCN 0A617.y.1, 0A617.y.1.a for items formerly controlled by 0A018.a and see the “technology” controls for those items in ECCN 0E617.y.</I></P></NOTE>",
+            "text": "Note: This ECCN no longer controls “technology” for items formerly controlled by 0A018.a. See ECCN 0A617.y.1, 0A617.y.1.a for items formerly controlled by 0A018.a and see the “technology” controls for those items in ECCN 0E617.y.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2019-05-23",
+      "fetchedAt": "2025-10-02T20:33:33.148Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2019-05-23/title-15?format=xml",
+      "heading": "0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+      "title": "“Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+      "category": "0",
+      "group": "0E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.\nLicense Requirements\nReason for Control:\nNS, UN, AT\nControl(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. UN applies to entire entrySee § 746.1(b) for UN controls. AT applies to entire entryAT Column 1.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 1.\nUN applies to entire entry\nSee § 746.1(b) for UN controls.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nCIV:\nN/A\nTSR:\nYes.\nList of Items Controlled\nRelated Controls:\nN/A\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.\nNote: This ECCN no longer controls “technology” for items formerly controlled by 0A018.a. See ECCN 0A617.y.1, 0A617.y.1.a for items formerly controlled by 0A018.a and see the “technology” controls for those items in ECCN 0E617.y.",
+      "structure": {
+        "identifier": "0E018",
+        "heading": "0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+        "label": "0E018 – 0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, UN, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (0E018)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 1.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">UN applies to entire entry (0E018)</TD><TD align=\"left\" class=\"gpotbl_cell\">See § 746.1(b) for UN controls.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (0E018)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. UN applies to entire entrySee § 746.1(b) for UN controls. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 1."
+          },
+          {
+            "type": "text",
+            "text": "UN applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "See § 746.1(b) for UN controls."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "Yes."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>This ECCN no longer controls “technology” for items formerly controlled by 0A018.a. See ECCN 0A617.y.1, 0A617.y.1.a for items formerly controlled by 0A018.a and see the “technology” controls for those items in ECCN 0E617.y.</I></P></NOTE>",
+            "text": "Note: This ECCN no longer controls “technology” for items formerly controlled by 0A018.a. See ECCN 0A617.y.1, 0A617.y.1.a for items formerly controlled by 0A018.a and see the “technology” controls for those items in ECCN 0E617.y.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-01-06",
+      "fetchedAt": "2025-10-02T20:33:33.561Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-01-06/title-15?format=xml",
+      "heading": "0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+      "title": "“Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+      "category": "0",
+      "group": "0E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.\nLicense Requirements\nReason for Control:\nNS, UN, AT\nControl(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. UN applies to entire entrySee § 746.1(b) for UN controls. AT applies to entire entryAT Column 1.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 1.\nUN applies to entire entry\nSee § 746.1(b) for UN controls.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nCIV:\nN/A\nTSR:\nYes.\nList of Items Controlled\nRelated Controls:\nN/A\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.\nNote: This ECCN no longer controls “technology” for items formerly controlled by 0A018.a. See ECCN 0A617.y.1, 0A617.y.1.a for items formerly controlled by 0A018.a and see the “technology” controls for those items in ECCN 0E617.y.",
+      "structure": {
+        "identifier": "0E018",
+        "heading": "0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+        "label": "0E018 – 0E018 “Technology” for the “development”, “production”, or “use” of items controlled by 0A018.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, UN, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (0E018)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 1.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">UN applies to entire entry (0E018)</TD><TD align=\"left\" class=\"gpotbl_cell\">See § 746.1(b) for UN controls.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (0E018)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. UN applies to entire entrySee § 746.1(b) for UN controls. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 1."
+          },
+          {
+            "type": "text",
+            "text": "UN applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "See § 746.1(b) for UN controls."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "Yes."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>This ECCN no longer controls “technology” for items formerly controlled by 0A018.a. See ECCN 0A617.y.1, 0A617.y.1.a for items formerly controlled by 0A018.a and see the “technology” controls for those items in ECCN 0E617.y.</I></P></NOTE>",
+            "text": "Note: This ECCN no longer controls “technology” for items formerly controlled by 0A018.a. See ECCN 0A617.y.1, 0A617.y.1.a for items formerly controlled by 0A018.a and see the “technology” controls for those items in ECCN 0E617.y.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

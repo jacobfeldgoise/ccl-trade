@@ -1,0 +1,558 @@
+{
+  "eccn": "3B994.b.2.b",
+  "normalized": "3B994.B.2.B",
+  "history": [
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "Having all of the following:",
+      "title": "Having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B994 Semiconductor manufacturing equipment that enables “advanced-node integrated circuit” production, as follows (see list of items controls).",
+        "Semiconductor wafer fabrication equipment designed for ion implantation of 300mm wafers as follows:",
+        "Ion implantation equipment as follows:"
+      ],
+      "ancestors": [
+        "3B994",
+        "3B994.b",
+        "3B994.b.2"
+      ],
+      "text": "Having all of the following:\nBeam current greater than 5 mA; and\nb.2.b.1. Beam current greater than 5 mA; and\nBeam energy less than 5 keV; or\nb.2.b.2. Beam energy less than 5 keV; or",
+      "structure": {
+        "identifier": "3B994.b.2.b",
+        "heading": "Having all of the following:",
+        "label": "3B994.b.2.b – Having all of the following:",
+        "children": [
+          {
+            "identifier": "3B994.b.2.b.1",
+            "heading": "Beam current greater than 5 mA; and",
+            "label": "3B994.b.2.b.1 – Beam current greater than 5 mA; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.2.b.1. Beam current greater than 5 mA; <I>and</I></P>",
+                "text": "b.2.b.1. Beam current greater than 5 mA; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B994.b.2.b.2",
+            "heading": "Beam energy less than 5 keV; or",
+            "label": "3B994.b.2.b.2 – Beam energy less than 5 keV; or",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.2.b.2. Beam energy less than 5 keV; <I>or</I></P>",
+                "text": "b.2.b.2. Beam energy less than 5 keV; or",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "Having all of the following:",
+      "title": "Having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B994 Semiconductor manufacturing equipment that enables “advanced-node integrated circuit” production, as follows (see list of items controls).",
+        "Semiconductor wafer fabrication equipment designed for ion implantation of 300mm wafers as follows:",
+        "Ion implantation equipment as follows:"
+      ],
+      "ancestors": [
+        "3B994",
+        "3B994.b",
+        "3B994.b.2"
+      ],
+      "text": "Having all of the following:\nBeam current greater than 5 mA; and\nb.2.b.1. Beam current greater than 5 mA; and\nBeam energy less than 5 keV; or\nb.2.b.2. Beam energy less than 5 keV; or",
+      "structure": {
+        "identifier": "3B994.b.2.b",
+        "heading": "Having all of the following:",
+        "label": "3B994.b.2.b – Having all of the following:",
+        "children": [
+          {
+            "identifier": "3B994.b.2.b.1",
+            "heading": "Beam current greater than 5 mA; and",
+            "label": "3B994.b.2.b.1 – Beam current greater than 5 mA; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.2.b.1. Beam current greater than 5 mA; <I>and</I></P>",
+                "text": "b.2.b.1. Beam current greater than 5 mA; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B994.b.2.b.2",
+            "heading": "Beam energy less than 5 keV; or",
+            "label": "3B994.b.2.b.2 – Beam energy less than 5 keV; or",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.2.b.2. Beam energy less than 5 keV; <I>or</I></P>",
+                "text": "b.2.b.2. Beam energy less than 5 keV; or",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "Having all of the following:",
+      "title": "Having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B994 Semiconductor manufacturing equipment that enables “advanced-node integrated circuit” production, as follows (see list of items controls).",
+        "Semiconductor wafer fabrication equipment designed for ion implantation of 300mm wafers as follows:",
+        "Ion implantation equipment as follows:"
+      ],
+      "ancestors": [
+        "3B994",
+        "3B994.b",
+        "3B994.b.2"
+      ],
+      "text": "Having all of the following:\nBeam current greater than 5 mA; and\nb.2.b.1. Beam current greater than 5 mA; and\nBeam energy less than 5 keV; or\nb.2.b.2. Beam energy less than 5 keV; or",
+      "structure": {
+        "identifier": "3B994.b.2.b",
+        "heading": "Having all of the following:",
+        "label": "3B994.b.2.b – Having all of the following:",
+        "children": [
+          {
+            "identifier": "3B994.b.2.b.1",
+            "heading": "Beam current greater than 5 mA; and",
+            "label": "3B994.b.2.b.1 – Beam current greater than 5 mA; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.2.b.1. Beam current greater than 5 mA; <I>and</I></P>",
+                "text": "b.2.b.1. Beam current greater than 5 mA; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B994.b.2.b.2",
+            "heading": "Beam energy less than 5 keV; or",
+            "label": "3B994.b.2.b.2 – Beam energy less than 5 keV; or",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.2.b.2. Beam energy less than 5 keV; <I>or</I></P>",
+                "text": "b.2.b.2. Beam energy less than 5 keV; or",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "Having all of the following:",
+      "title": "Having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B994 Semiconductor manufacturing equipment that enables “advanced-node integrated circuit” production, as follows (see list of items controls).",
+        "Semiconductor wafer fabrication equipment designed for ion implantation of 300mm wafers as follows:",
+        "Ion implantation equipment as follows:"
+      ],
+      "ancestors": [
+        "3B994",
+        "3B994.b",
+        "3B994.b.2"
+      ],
+      "text": "Having all of the following:\nBeam current greater than 5 mA; and\nb.2.b.1. Beam current greater than 5 mA; and\nBeam energy less than 5 keV; or\nb.2.b.2. Beam energy less than 5 keV; or",
+      "structure": {
+        "identifier": "3B994.b.2.b",
+        "heading": "Having all of the following:",
+        "label": "3B994.b.2.b – Having all of the following:",
+        "children": [
+          {
+            "identifier": "3B994.b.2.b.1",
+            "heading": "Beam current greater than 5 mA; and",
+            "label": "3B994.b.2.b.1 – Beam current greater than 5 mA; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.2.b.1. Beam current greater than 5 mA; <I>and</I></P>",
+                "text": "b.2.b.1. Beam current greater than 5 mA; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B994.b.2.b.2",
+            "heading": "Beam energy less than 5 keV; or",
+            "label": "3B994.b.2.b.2 – Beam energy less than 5 keV; or",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.2.b.2. Beam energy less than 5 keV; <I>or</I></P>",
+                "text": "b.2.b.2. Beam energy less than 5 keV; or",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "Having all of the following:",
+      "title": "Having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B994 Semiconductor manufacturing equipment that enables “advanced-node integrated circuit” production, as follows (see list of items controls), and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor wafer fabrication equipment designed for ion implantation of 300mm wafers as follows:",
+        "Ion implantation equipment as follows:"
+      ],
+      "ancestors": [
+        "3B994",
+        "3B994.b",
+        "3B994.b.2"
+      ],
+      "text": "Having all of the following:\nBeam current greater than 5 mA; and\nb.2.b.1. Beam current greater than 5 mA; and\nBeam energy less than 5 keV; or\nb.2.b.2. Beam energy less than 5 keV; or",
+      "structure": {
+        "identifier": "3B994.b.2.b",
+        "heading": "Having all of the following:",
+        "label": "3B994.b.2.b – Having all of the following:",
+        "children": [
+          {
+            "identifier": "3B994.b.2.b.1",
+            "heading": "Beam current greater than 5 mA; and",
+            "label": "3B994.b.2.b.1 – Beam current greater than 5 mA; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.2.b.1. Beam current greater than 5 mA; <I>and</I></P>",
+                "text": "b.2.b.1. Beam current greater than 5 mA; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B994.b.2.b.2",
+            "heading": "Beam energy less than 5 keV; or",
+            "label": "3B994.b.2.b.2 – Beam energy less than 5 keV; or",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.2.b.2. Beam energy less than 5 keV; <I>or</I></P>",
+                "text": "b.2.b.2. Beam energy less than 5 keV; or",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "Having all of the following:",
+      "title": "Having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B994 Semiconductor manufacturing equipment that enables “advanced-node integrated circuit” production, as follows (see list of items controls), and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor wafer fabrication equipment designed for ion implantation of 300mm wafers as follows:",
+        "Ion implantation equipment as follows:"
+      ],
+      "ancestors": [
+        "3B994",
+        "3B994.b",
+        "3B994.b.2"
+      ],
+      "text": "Having all of the following:\nBeam current greater than 5 mA; and\nb.2.b.1. Beam current greater than 5 mA; and\nBeam energy less than 5 keV; or\nb.2.b.2. Beam energy less than 5 keV; or",
+      "structure": {
+        "identifier": "3B994.b.2.b",
+        "heading": "Having all of the following:",
+        "label": "3B994.b.2.b – Having all of the following:",
+        "children": [
+          {
+            "identifier": "3B994.b.2.b.1",
+            "heading": "Beam current greater than 5 mA; and",
+            "label": "3B994.b.2.b.1 – Beam current greater than 5 mA; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.2.b.1. Beam current greater than 5 mA; <I>and</I></P>",
+                "text": "b.2.b.1. Beam current greater than 5 mA; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B994.b.2.b.2",
+            "heading": "Beam energy less than 5 keV; or",
+            "label": "3B994.b.2.b.2 – Beam energy less than 5 keV; or",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.2.b.2. Beam energy less than 5 keV; <I>or</I></P>",
+                "text": "b.2.b.2. Beam energy less than 5 keV; or",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "Having all of the following:",
+      "title": "Having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B994 Semiconductor manufacturing equipment that enables “advanced-node integrated circuit” production, as follows (see list of items controls), and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor wafer fabrication equipment designed for ion implantation of 300mm wafers as follows:",
+        "Ion implantation equipment as follows:"
+      ],
+      "ancestors": [
+        "3B994",
+        "3B994.b",
+        "3B994.b.2"
+      ],
+      "text": "Having all of the following:\nBeam current greater than 5 mA; and\nb.2.b.1. Beam current greater than 5 mA; and\nBeam energy less than 5 keV; or\nb.2.b.2. Beam energy less than 5 keV; or",
+      "structure": {
+        "identifier": "3B994.b.2.b",
+        "heading": "Having all of the following:",
+        "label": "3B994.b.2.b – Having all of the following:",
+        "children": [
+          {
+            "identifier": "3B994.b.2.b.1",
+            "heading": "Beam current greater than 5 mA; and",
+            "label": "3B994.b.2.b.1 – Beam current greater than 5 mA; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.2.b.1. Beam current greater than 5 mA; <I>and</I>\n</P>",
+                "text": "b.2.b.1. Beam current greater than 5 mA; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B994.b.2.b.2",
+            "heading": "Beam energy less than 5 keV; or",
+            "label": "3B994.b.2.b.2 – Beam energy less than 5 keV; or",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.2.b.2. Beam energy less than 5 keV; <I>or</I>\n</P>",
+                "text": "b.2.b.2. Beam energy less than 5 keV; or",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "Having all of the following:",
+      "title": "Having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B994 Semiconductor manufacturing equipment that enables “advanced-node integrated circuit” production, as follows (see list of items controls), and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor wafer fabrication equipment designed for ion implantation of 300mm wafers as follows:",
+        "Ion implantation equipment as follows:"
+      ],
+      "ancestors": [
+        "3B994",
+        "3B994.b",
+        "3B994.b.2"
+      ],
+      "text": "Having all of the following:\nBeam current greater than 5 mA; and\nb.2.b.1. Beam current greater than 5 mA; and\nBeam energy less than 5 keV; or\nb.2.b.2. Beam energy less than 5 keV; or",
+      "structure": {
+        "identifier": "3B994.b.2.b",
+        "heading": "Having all of the following:",
+        "label": "3B994.b.2.b – Having all of the following:",
+        "children": [
+          {
+            "identifier": "3B994.b.2.b.1",
+            "heading": "Beam current greater than 5 mA; and",
+            "label": "3B994.b.2.b.1 – Beam current greater than 5 mA; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.2.b.1. Beam current greater than 5 mA; <I>and</I>\n</P>",
+                "text": "b.2.b.1. Beam current greater than 5 mA; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B994.b.2.b.2",
+            "heading": "Beam energy less than 5 keV; or",
+            "label": "3B994.b.2.b.2 – Beam energy less than 5 keV; or",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.2.b.2. Beam energy less than 5 keV; <I>or</I>\n</P>",
+                "text": "b.2.b.2. Beam energy less than 5 keV; or",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    }
+  ]
+}

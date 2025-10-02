@@ -1,0 +1,342 @@
+{
+  "eccn": "3B090.a.8",
+  "normalized": "3B090.A.8",
+  "history": [
+    {
+      "version": "2023-01-17",
+      "fetchedAt": "2025-10-02T20:33:41.990Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-01-17/title-15?format=xml",
+      "heading": "Equipment capable of fabricating a metal contact in a vacuum environment by depositing all of the following:",
+      "title": "Equipment capable of fabricating a metal contact in a vacuum environment by depositing all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B090 Semiconductor manufacturing equipment, not Controlled by 3B001, as follows (see List of Items Controlled) and “specially designed” “parts,” “components,” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:"
+      ],
+      "ancestors": [
+        "3B090",
+        "3B090.a"
+      ],
+      "text": "Equipment capable of fabricating a metal contact in a vacuum environment by depositing all of the following:\nA titanium nitride (TiN) or tungsten carbide (WC) layer using an organometallic compound while maintaining the wafer substrate temperature between 20 °C and 500 °C;\na.8.a. A titanium nitride (TiN) or tungsten carbide (WC) layer using an organometallic compound while maintaining the wafer substrate temperature between 20 °C and 500 °C;\nA cobalt layer using a physical sputter deposition technique where the process pressure is 1-100 mTorr while maintaining the wafer substrate temperature below 500 °C; and\na.8.b. A cobalt layer using a physical sputter deposition technique where the process pressure is 1-100 mTorr while maintaining the wafer substrate temperature below 500 °C; and\nA cobalt layer using an organometallic compound, where the process pressure is 1-100 Torr, and the wafer substrate temperature is maintained between 20 °C and 500 °C.\na.8.c. A cobalt layer using an organometallic compound, where the process pressure is 1-100 Torr, and the wafer substrate temperature is maintained between 20 °C and 500 °C.",
+      "structure": {
+        "identifier": "3B090.a.8",
+        "heading": "Equipment capable of fabricating a metal contact in a vacuum environment by depositing all of the following:",
+        "label": "3B090.a.8 – Equipment capable of fabricating a metal contact in a vacuum environment by depositing all of the following:",
+        "children": [
+          {
+            "identifier": "3B090.a.8.a",
+            "heading": "A titanium nitride (TiN) or tungsten carbide (WC) layer using an organometallic compound while maintaining the wafer substrate temperature between 20 °C and 500 °C;",
+            "label": "3B090.a.8.a – A titanium nitride (TiN) or tungsten carbide (WC) layer using an organometallic compound while maintaining the wafer substrate temperature between 20 °C and 500 °C;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.8.a. A titanium nitride (TiN) or tungsten carbide (WC) layer using an organometallic compound while maintaining the wafer substrate temperature between 20 °C and 500 °C;</P>",
+                "text": "a.8.a. A titanium nitride (TiN) or tungsten carbide (WC) layer using an organometallic compound while maintaining the wafer substrate temperature between 20 °C and 500 °C;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B090.a.8.b",
+            "heading": "A cobalt layer using a physical sputter deposition technique where the process pressure is 1-100 mTorr while maintaining the wafer substrate temperature below 500 °C; and",
+            "label": "3B090.a.8.b – A cobalt layer using a physical sputter deposition technique where the process pressure is 1-100 mTorr while maintaining the wafer substrate temperature below 500 °C; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.8.b. A cobalt layer using a physical sputter deposition technique where the process pressure is 1-100 mTorr while maintaining the wafer substrate temperature below 500 °C; and</P>",
+                "text": "a.8.b. A cobalt layer using a physical sputter deposition technique where the process pressure is 1-100 mTorr while maintaining the wafer substrate temperature below 500 °C; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B090.a.8.c",
+            "heading": "A cobalt layer using an organometallic compound, where the process pressure is 1-100 Torr, and the wafer substrate temperature is maintained between 20 °C and 500 °C.",
+            "label": "3B090.a.8.c – A cobalt layer using an organometallic compound, where the process pressure is 1-100 Torr, and the wafer substrate temperature is maintained between 20 °C and 500 °C.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.8.c. A cobalt layer using an organometallic compound, where the process pressure is 1-100 Torr, and the wafer substrate temperature is maintained between 20 °C and 500 °C.</P>",
+                "text": "a.8.c. A cobalt layer using an organometallic compound, where the process pressure is 1-100 Torr, and the wafer substrate temperature is maintained between 20 °C and 500 °C.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2023-02-24",
+      "fetchedAt": "2025-10-02T20:33:42.390Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-02-24/title-15?format=xml",
+      "heading": "Equipment capable of fabricating a metal contact in a vacuum environment by depositing all of the following:",
+      "title": "Equipment capable of fabricating a metal contact in a vacuum environment by depositing all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B090 Semiconductor manufacturing equipment, not controlled by 3B001, as follows (see List of Items Controlled) and “specially designed” “parts,” “components,” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:"
+      ],
+      "ancestors": [
+        "3B090",
+        "3B090.a"
+      ],
+      "text": "Equipment capable of fabricating a metal contact in a vacuum environment by depositing all of the following:\nA titanium nitride (TiN) or tungsten carbide (WC) layer using an organometallic compound while maintaining the wafer substrate temperature between 20 °C and 500 °C;\na.8.a. A titanium nitride (TiN) or tungsten carbide (WC) layer using an organometallic compound while maintaining the wafer substrate temperature between 20 °C and 500 °C;\nA cobalt layer using a physical sputter deposition technique where the process pressure is 1-100 mTorr while maintaining the wafer substrate temperature below 500 °C; and\na.8.b. A cobalt layer using a physical sputter deposition technique where the process pressure is 1-100 mTorr while maintaining the wafer substrate temperature below 500 °C; and\nA cobalt layer using an organometallic compound, where the process pressure is 1-100 Torr, and the wafer substrate temperature is maintained between 20 °C and 500 °C.\na.8.c. A cobalt layer using an organometallic compound, where the process pressure is 1-100 Torr, and the wafer substrate temperature is maintained between 20 °C and 500 °C.",
+      "structure": {
+        "identifier": "3B090.a.8",
+        "heading": "Equipment capable of fabricating a metal contact in a vacuum environment by depositing all of the following:",
+        "label": "3B090.a.8 – Equipment capable of fabricating a metal contact in a vacuum environment by depositing all of the following:",
+        "children": [
+          {
+            "identifier": "3B090.a.8.a",
+            "heading": "A titanium nitride (TiN) or tungsten carbide (WC) layer using an organometallic compound while maintaining the wafer substrate temperature between 20 °C and 500 °C;",
+            "label": "3B090.a.8.a – A titanium nitride (TiN) or tungsten carbide (WC) layer using an organometallic compound while maintaining the wafer substrate temperature between 20 °C and 500 °C;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.8.a. A titanium nitride (TiN) or tungsten carbide (WC) layer using an organometallic compound while maintaining the wafer substrate temperature between 20 °C and 500 °C;</P>",
+                "text": "a.8.a. A titanium nitride (TiN) or tungsten carbide (WC) layer using an organometallic compound while maintaining the wafer substrate temperature between 20 °C and 500 °C;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B090.a.8.b",
+            "heading": "A cobalt layer using a physical sputter deposition technique where the process pressure is 1-100 mTorr while maintaining the wafer substrate temperature below 500 °C; and",
+            "label": "3B090.a.8.b – A cobalt layer using a physical sputter deposition technique where the process pressure is 1-100 mTorr while maintaining the wafer substrate temperature below 500 °C; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.8.b. A cobalt layer using a physical sputter deposition technique where the process pressure is 1-100 mTorr while maintaining the wafer substrate temperature below 500 °C; and</P>",
+                "text": "a.8.b. A cobalt layer using a physical sputter deposition technique where the process pressure is 1-100 mTorr while maintaining the wafer substrate temperature below 500 °C; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B090.a.8.c",
+            "heading": "A cobalt layer using an organometallic compound, where the process pressure is 1-100 Torr, and the wafer substrate temperature is maintained between 20 °C and 500 °C.",
+            "label": "3B090.a.8.c – A cobalt layer using an organometallic compound, where the process pressure is 1-100 Torr, and the wafer substrate temperature is maintained between 20 °C and 500 °C.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.8.c. A cobalt layer using an organometallic compound, where the process pressure is 1-100 Torr, and the wafer substrate temperature is maintained between 20 °C and 500 °C.</P>",
+                "text": "a.8.c. A cobalt layer using an organometallic compound, where the process pressure is 1-100 Torr, and the wafer substrate temperature is maintained between 20 °C and 500 °C.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2023-08-18",
+      "fetchedAt": "2025-10-02T20:33:42.783Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-08-18/title-15?format=xml",
+      "heading": "Equipment capable of fabricating a metal contact in a vacuum environment by depositing all of the following:",
+      "title": "Equipment capable of fabricating a metal contact in a vacuum environment by depositing all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B090 Semiconductor manufacturing equipment, not controlled by 3B001, as follows (see List of Items Controlled) and “specially designed” “parts,” “components,” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:"
+      ],
+      "ancestors": [
+        "3B090",
+        "3B090.a"
+      ],
+      "text": "Equipment capable of fabricating a metal contact in a vacuum environment by depositing all of the following:\nA titanium nitride (TiN) or tungsten carbide (WC) layer using an organometallic compound while maintaining the wafer substrate temperature between 20 °C and 500 °C;\na.8.a. A titanium nitride (TiN) or tungsten carbide (WC) layer using an organometallic compound while maintaining the wafer substrate temperature between 20 °C and 500 °C;\nA cobalt layer using a physical sputter deposition technique where the process pressure is 1-100 mTorr while maintaining the wafer substrate temperature below 500 °C; and\na.8.b. A cobalt layer using a physical sputter deposition technique where the process pressure is 1-100 mTorr while maintaining the wafer substrate temperature below 500 °C; and\nA cobalt layer using an organometallic compound, where the process pressure is 1-100 Torr, and the wafer substrate temperature is maintained between 20 °C and 500 °C.\na.8.c. A cobalt layer using an organometallic compound, where the process pressure is 1-100 Torr, and the wafer substrate temperature is maintained between 20 °C and 500 °C.",
+      "structure": {
+        "identifier": "3B090.a.8",
+        "heading": "Equipment capable of fabricating a metal contact in a vacuum environment by depositing all of the following:",
+        "label": "3B090.a.8 – Equipment capable of fabricating a metal contact in a vacuum environment by depositing all of the following:",
+        "children": [
+          {
+            "identifier": "3B090.a.8.a",
+            "heading": "A titanium nitride (TiN) or tungsten carbide (WC) layer using an organometallic compound while maintaining the wafer substrate temperature between 20 °C and 500 °C;",
+            "label": "3B090.a.8.a – A titanium nitride (TiN) or tungsten carbide (WC) layer using an organometallic compound while maintaining the wafer substrate temperature between 20 °C and 500 °C;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.8.a. A titanium nitride (TiN) or tungsten carbide (WC) layer using an organometallic compound while maintaining the wafer substrate temperature between 20 °C and 500 °C;</P>",
+                "text": "a.8.a. A titanium nitride (TiN) or tungsten carbide (WC) layer using an organometallic compound while maintaining the wafer substrate temperature between 20 °C and 500 °C;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B090.a.8.b",
+            "heading": "A cobalt layer using a physical sputter deposition technique where the process pressure is 1-100 mTorr while maintaining the wafer substrate temperature below 500 °C; and",
+            "label": "3B090.a.8.b – A cobalt layer using a physical sputter deposition technique where the process pressure is 1-100 mTorr while maintaining the wafer substrate temperature below 500 °C; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.8.b. A cobalt layer using a physical sputter deposition technique where the process pressure is 1-100 mTorr while maintaining the wafer substrate temperature below 500 °C; and</P>",
+                "text": "a.8.b. A cobalt layer using a physical sputter deposition technique where the process pressure is 1-100 mTorr while maintaining the wafer substrate temperature below 500 °C; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B090.a.8.c",
+            "heading": "A cobalt layer using an organometallic compound, where the process pressure is 1-100 Torr, and the wafer substrate temperature is maintained between 20 °C and 500 °C.",
+            "label": "3B090.a.8.c – A cobalt layer using an organometallic compound, where the process pressure is 1-100 Torr, and the wafer substrate temperature is maintained between 20 °C and 500 °C.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.8.c. A cobalt layer using an organometallic compound, where the process pressure is 1-100 Torr, and the wafer substrate temperature is maintained between 20 °C and 500 °C.</P>",
+                "text": "a.8.c. A cobalt layer using an organometallic compound, where the process pressure is 1-100 Torr, and the wafer substrate temperature is maintained between 20 °C and 500 °C.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2023-10-18",
+      "fetchedAt": "2025-10-02T20:33:43.173Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-10-18/title-15?format=xml",
+      "heading": "Equipment capable of fabricating a metal contact in a vacuum environment by depositing all of the following:",
+      "title": "Equipment capable of fabricating a metal contact in a vacuum environment by depositing all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B090 Semiconductor manufacturing equipment, not controlled by 3B001, as follows (see List of Items Controlled) and “specially designed” “parts,” “components,” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:"
+      ],
+      "ancestors": [
+        "3B090",
+        "3B090.a"
+      ],
+      "text": "Equipment capable of fabricating a metal contact in a vacuum environment by depositing all of the following:\nA titanium nitride (TiN) or tungsten carbide (WC) layer using an organometallic compound while maintaining the wafer substrate temperature between 20 °C and 500 °C;\na.8.a. A titanium nitride (TiN) or tungsten carbide (WC) layer using an organometallic compound while maintaining the wafer substrate temperature between 20 °C and 500 °C;\nA cobalt layer using a physical sputter deposition technique where the process pressure is 1-100 mTorr while maintaining the wafer substrate temperature below 500 °C; and\na.8.b. A cobalt layer using a physical sputter deposition technique where the process pressure is 1-100 mTorr while maintaining the wafer substrate temperature below 500 °C; and\nA cobalt layer using an organometallic compound, where the process pressure is 1-100 Torr, and the wafer substrate temperature is maintained between 20 °C and 500 °C.\na.8.c. A cobalt layer using an organometallic compound, where the process pressure is 1-100 Torr, and the wafer substrate temperature is maintained between 20 °C and 500 °C.",
+      "structure": {
+        "identifier": "3B090.a.8",
+        "heading": "Equipment capable of fabricating a metal contact in a vacuum environment by depositing all of the following:",
+        "label": "3B090.a.8 – Equipment capable of fabricating a metal contact in a vacuum environment by depositing all of the following:",
+        "children": [
+          {
+            "identifier": "3B090.a.8.a",
+            "heading": "A titanium nitride (TiN) or tungsten carbide (WC) layer using an organometallic compound while maintaining the wafer substrate temperature between 20 °C and 500 °C;",
+            "label": "3B090.a.8.a – A titanium nitride (TiN) or tungsten carbide (WC) layer using an organometallic compound while maintaining the wafer substrate temperature between 20 °C and 500 °C;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.8.a. A titanium nitride (TiN) or tungsten carbide (WC) layer using an organometallic compound while maintaining the wafer substrate temperature between 20 °C and 500 °C;</P>",
+                "text": "a.8.a. A titanium nitride (TiN) or tungsten carbide (WC) layer using an organometallic compound while maintaining the wafer substrate temperature between 20 °C and 500 °C;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B090.a.8.b",
+            "heading": "A cobalt layer using a physical sputter deposition technique where the process pressure is 1-100 mTorr while maintaining the wafer substrate temperature below 500 °C; and",
+            "label": "3B090.a.8.b – A cobalt layer using a physical sputter deposition technique where the process pressure is 1-100 mTorr while maintaining the wafer substrate temperature below 500 °C; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.8.b. A cobalt layer using a physical sputter deposition technique where the process pressure is 1-100 mTorr while maintaining the wafer substrate temperature below 500 °C; and</P>",
+                "text": "a.8.b. A cobalt layer using a physical sputter deposition technique where the process pressure is 1-100 mTorr while maintaining the wafer substrate temperature below 500 °C; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B090.a.8.c",
+            "heading": "A cobalt layer using an organometallic compound, where the process pressure is 1-100 Torr, and the wafer substrate temperature is maintained between 20 °C and 500 °C.",
+            "label": "3B090.a.8.c – A cobalt layer using an organometallic compound, where the process pressure is 1-100 Torr, and the wafer substrate temperature is maintained between 20 °C and 500 °C.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.8.c. A cobalt layer using an organometallic compound, where the process pressure is 1-100 Torr, and the wafer substrate temperature is maintained between 20 °C and 500 °C.</P>",
+                "text": "a.8.c. A cobalt layer using an organometallic compound, where the process pressure is 1-100 Torr, and the wafer substrate temperature is maintained between 20 °C and 500 °C.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    }
+  ]
+}

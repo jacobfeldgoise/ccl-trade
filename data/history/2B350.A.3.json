@@ -1,0 +1,161 @@
+{
+  "eccn": "2B350.a.3",
+  "normalized": "2B350.A.3",
+  "history": [
+    {
+      "version": "2017-01-15",
+      "fetchedAt": "2025-10-02T20:33:28.357Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-15/title-15?format=xml",
+      "heading": "Fluoropolymers (polymeric or elastomeric materials with more than 35% fluorine by weight);",
+      "title": "Fluoropolymers (polymeric or elastomeric materials with more than 35% fluorine by weight);",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B350 Chemical manufacturing facilities and equipment, except valves controlled by 2A226, as follows (see List of Items Controlled).",
+        "2B350.a"
+      ],
+      "ancestors": [
+        "2B350",
+        "2B350.a"
+      ],
+      "text": "Fluoropolymers (polymeric or elastomeric materials with more than 35% fluorine by weight);",
+      "structure": {
+        "identifier": "2B350.a.3",
+        "heading": "Fluoropolymers (polymeric or elastomeric materials with more than 35% fluorine by weight);",
+        "label": "2B350.a.3 – Fluoropolymers (polymeric or elastomeric materials with more than 35% fluorine by weight);",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-07-07",
+      "fetchedAt": "2025-10-02T20:33:28.904Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-07-07/title-15?format=xml",
+      "heading": "Fluoropolymers (polymeric or elastomeric materials with more than 35% fluorine by weight);",
+      "title": "Fluoropolymers (polymeric or elastomeric materials with more than 35% fluorine by weight);",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B350 Chemical manufacturing facilities and equipment, except valves controlled by 2A226, as follows (see List of Items Controlled).",
+        "2B350.a"
+      ],
+      "ancestors": [
+        "2B350",
+        "2B350.a"
+      ],
+      "text": "Fluoropolymers (polymeric or elastomeric materials with more than 35% fluorine by weight);",
+      "structure": {
+        "identifier": "2B350.a.3",
+        "heading": "Fluoropolymers (polymeric or elastomeric materials with more than 35% fluorine by weight);",
+        "label": "2B350.a.3 – Fluoropolymers (polymeric or elastomeric materials with more than 35% fluorine by weight);",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-08-15",
+      "fetchedAt": "2025-10-02T20:33:29.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-08-15/title-15?format=xml",
+      "heading": "Fluoropolymers (polymeric or elastomeric materials with more than 35% fluorine by weight);",
+      "title": "Fluoropolymers (polymeric or elastomeric materials with more than 35% fluorine by weight);",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "2B350 Chemical manufacturing facilities and equipment, except valves controlled by 2A226, as follows (see List of Items Controlled).",
+        "2B350.a"
+      ],
+      "ancestors": [
+        "2B350",
+        "2B350.a"
+      ],
+      "text": "Fluoropolymers (polymeric or elastomeric materials with more than 35% fluorine by weight);",
+      "structure": {
+        "identifier": "2B350.a.3",
+        "heading": "Fluoropolymers (polymeric or elastomeric materials with more than 35% fluorine by weight);",
+        "label": "2B350.a.3 – Fluoropolymers (polymeric or elastomeric materials with more than 35% fluorine by weight);",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-12-27",
+      "fetchedAt": "2025-10-02T20:33:29.759Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-12-27/title-15?format=xml",
+      "heading": "Fluoropolymers (polymeric or elastomeric materials with more than 35% fluorine by weight);",
+      "title": "Fluoropolymers (polymeric or elastomeric materials with more than 35% fluorine by weight);",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B350 Chemical manufacturing facilities and equipment, except valves controlled by 2A226, as follows (see List of Items Controlled).",
+        "2B350.a"
+      ],
+      "ancestors": [
+        "2B350",
+        "2B350.a"
+      ],
+      "text": "Fluoropolymers (polymeric or elastomeric materials with more than 35% fluorine by weight);",
+      "structure": {
+        "identifier": "2B350.a.3",
+        "heading": "Fluoropolymers (polymeric or elastomeric materials with more than 35% fluorine by weight);",
+        "label": "2B350.a.3 – Fluoropolymers (polymeric or elastomeric materials with more than 35% fluorine by weight);",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-01-08",
+      "fetchedAt": "2025-10-02T20:33:30.194Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-01-08/title-15?format=xml",
+      "heading": "Fluoropolymers (polymeric or elastomeric materials with more than 35% fluorine by weight);",
+      "title": "Fluoropolymers (polymeric or elastomeric materials with more than 35% fluorine by weight);",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B350 Chemical manufacturing facilities and equipment, except valves controlled by 2A226, as follows (see List of Items Controlled).",
+        "2B350.a"
+      ],
+      "ancestors": [
+        "2B350",
+        "2B350.a"
+      ],
+      "text": "Fluoropolymers (polymeric or elastomeric materials with more than 35% fluorine by weight);",
+      "structure": {
+        "identifier": "2B350.a.3",
+        "heading": "Fluoropolymers (polymeric or elastomeric materials with more than 35% fluorine by weight);",
+        "label": "2B350.a.3 – Fluoropolymers (polymeric or elastomeric materials with more than 35% fluorine by weight);",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

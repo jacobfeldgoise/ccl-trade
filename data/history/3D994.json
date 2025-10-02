@@ -1,0 +1,1096 @@
+{
+  "eccn": "3D994",
+  "normalized": "3D994",
+  "history": [
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "3D994 “Software” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).",
+      "title": "“Software” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).",
+      "category": "3",
+      "group": "3D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "3D994 “Software” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).\nLicense Requirements\nReason for Control:\nRS, AT\nControl(s) Country chart(see Supp. No. 1to part 738) RS applies to entire entry (3D994) See § 742.6(a)(11) of the EAR. AT applies to entire entry (3D994) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nRS applies to entire entry\nSee § 742.6(a)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nTSR:\nN/A\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship or transmit “software” specified in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (see supplement no. 1 to part 740 of the EAR).\nList of Items Controlled\nRelated Controls:\nFor additional controls that apply to this ECCN, see also § 744.11(a)(2)(v) and (a)(3) and § 744.23(a)(4)(iii) of the EAR.\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "3D994",
+        "heading": "3D994 “Software” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).",
+        "label": "3D994 – 3D994 “Software” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country chart<br/>(see Supp. No. 1<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">RS applies to entire entry (3D994)</TD>\n<TD class=\"left\">See § 742.6(a)(11) of the EAR.</TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (3D994)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart(see Supp. No. 1to part 738) RS applies to entire entry (3D994) See § 742.6(a)(11) of the EAR. AT applies to entire entry (3D994) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "RS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship or transmit “software” specified in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (see supplement no. 1 to part 740 of the EAR)."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "For additional controls that apply to this ECCN, see also § 744.11(a)(2)(v) and (a)(3) and § 744.23(a)(4)(iii) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "3D994 “Software” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).",
+      "title": "“Software” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).",
+      "category": "3",
+      "group": "3D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "3D994 “Software” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).\nLicense Requirements\nReason for Control:\nRS, AT\nControl(s) Country chart(see Supp. No. 1to part 738) RS applies to entire entry (3D994) See § 742.6(a)(11) of the EAR. AT applies to entire entry (3D994) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nRS applies to entire entry\nSee § 742.6(a)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nTSR:\nN/A\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship or transmit “software” specified in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (see supplement no. 1 to part 740 of the EAR).\nList of Items Controlled\nRelated Controls:\nFor additional controls that apply to this ECCN, see also § 744.11(a)(2)(v) and (a)(3) and § 744.23(a)(4)(iii) of the EAR.\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "3D994",
+        "heading": "3D994 “Software” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).",
+        "label": "3D994 – 3D994 “Software” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country chart<br/>(see Supp. No. 1<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">RS applies to entire entry (3D994)</TD>\n<TD class=\"left\">See § 742.6(a)(11) of the EAR.</TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (3D994)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart(see Supp. No. 1to part 738) RS applies to entire entry (3D994) See § 742.6(a)(11) of the EAR. AT applies to entire entry (3D994) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "RS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship or transmit “software” specified in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (see supplement no. 1 to part 740 of the EAR)."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "For additional controls that apply to this ECCN, see also § 744.11(a)(2)(v) and (a)(3) and § 744.23(a)(4)(iii) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "3D994 “Software” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).",
+      "title": "“Software” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).",
+      "category": "3",
+      "group": "3D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "3D994 “Software” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).\nLicense Requirements\nReason for Control:\nRS, AT\nControl(s) Country chart(see Supp. No. 1to part 738) RS applies to entire entry (3D994) See § 742.6(a)(11) of the EAR. AT applies to entire entry (3D994) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nRS applies to entire entry\nSee § 742.6(a)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nTSR:\nN/A\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship or transmit “software” specified in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (see supplement no. 1 to part 740 of the EAR).\nList of Items Controlled\nRelated Controls:\nFor additional controls that apply to this ECCN, see also § 744.11(a)(2)(v) and (a)(3) and § 744.23(a)(4)(iii) of the EAR.\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "3D994",
+        "heading": "3D994 “Software” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).",
+        "label": "3D994 – 3D994 “Software” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country chart<br/>(see Supp. No. 1<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">RS applies to entire entry (3D994)</TD>\n<TD class=\"left\">See § 742.6(a)(11) of the EAR.</TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (3D994)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart(see Supp. No. 1to part 738) RS applies to entire entry (3D994) See § 742.6(a)(11) of the EAR. AT applies to entire entry (3D994) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "RS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship or transmit “software” specified in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (see supplement no. 1 to part 740 of the EAR)."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "For additional controls that apply to this ECCN, see also § 744.11(a)(2)(v) and (a)(3) and § 744.23(a)(4)(iii) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "3D994 “Software” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).",
+      "title": "“Software” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).",
+      "category": "3",
+      "group": "3D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "3D994 “Software” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).\nLicense Requirements\nReason for Control:\nRS, AT\nControl(s) Country chart(see Supp. No. 1to part 738) RS applies to entire entry (3D994) See § 742.6(a)(11) of the EAR. AT applies to entire entry (3D994) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nRS applies to entire entry\nSee § 742.6(a)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nTSR:\nN/A\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship or transmit “software” specified in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (see supplement no. 1 to part 740 of the EAR).\nList of Items Controlled\nRelated Controls:\nFor additional controls that apply to this ECCN, see also § 744.11(a)(2)(v) and (a)(3) and § 744.23(a)(4)(iii) of the EAR.\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "3D994",
+        "heading": "3D994 “Software” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).",
+        "label": "3D994 – 3D994 “Software” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country chart<br/>(see Supp. No. 1<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">RS applies to entire entry (3D994)</TD>\n<TD class=\"left\">See § 742.6(a)(11) of the EAR.</TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (3D994)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart(see Supp. No. 1to part 738) RS applies to entire entry (3D994) See § 742.6(a)(11) of the EAR. AT applies to entire entry (3D994) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "RS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship or transmit “software” specified in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (see supplement no. 1 to part 740 of the EAR)."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "For additional controls that apply to this ECCN, see also § 744.11(a)(2)(v) and (a)(3) and § 744.23(a)(4)(iii) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "3D994 “Software” “specially designed” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).",
+      "title": "“Software” “specially designed” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).",
+      "category": "3",
+      "group": "3D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "3D994 “Software” “specially designed” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).\nLicense Requirements\nReason for Control:\nRS, AT\nControl(s) Country Chart (see Supp. No. 1 to part 738) RS applies to entire entry (3D994) See § 742.6(a)(11) of the EAR. AT applies to entire entry (3D994) AT Column 1.\nControl(s)\nCountry Chart\n(see Supp. No. 1\nto part 738)\nRS applies to entire entry\nSee § 742.6(a)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nTSR:\nN/A\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship or transmit “software” specified in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (see supplement no. 1 to part 740 of the EAR).\nList of Items Controlled\nRelated Controls:\nFor additional controls that apply to this ECCN, see also § 744.11(a)(2)(v) and (a)(3) and § 744.23(a)(4)(iii) of the EAR.\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "3D994",
+        "heading": "3D994 “Software” “specially designed” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).",
+        "label": "3D994 – 3D994 “Software” “specially designed” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country Chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">RS applies to entire entry (3D994)</TD>\n<TD class=\"left\">See § 742.6(a)(11) of the EAR.</TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (3D994)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country Chart (see Supp. No. 1 to part 738) RS applies to entire entry (3D994) See § 742.6(a)(11) of the EAR. AT applies to entire entry (3D994) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "RS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship or transmit “software” specified in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (see supplement no. 1 to part 740 of the EAR)."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "For additional controls that apply to this ECCN, see also § 744.11(a)(2)(v) and (a)(3) and § 744.23(a)(4)(iii) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "3D994 “Software” “specially designed” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).",
+      "title": "“Software” “specially designed” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).",
+      "category": "3",
+      "group": "3D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”"
+      ],
+      "ancestors": [],
+      "text": "3D994 “Software” “specially designed” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).\nLicense Requirements\nReason for Control:\nRS, AT\nControl(s) Country Chart (see Supp. No. 1 to part 738) RS applies to entire entry (3D994) See § 742.6(a)(11) of the EAR. AT applies to entire entry (3D994) AT Column 1.\nControl(s)\nCountry Chart\n(see Supp. No. 1\nto part 738)\nRS applies to entire entry\nSee § 742.6(a)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nTSR:\nN/A\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship or transmit “software” specified in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (see supplement no. 1 to part 740 of the EAR).\nList of Items Controlled\nRelated Controls:\nFor additional controls that apply to this ECCN, see also § 744.11(a)(2)(v) and (a)(3) and § 744.23(a)(4)(iii) of the EAR.\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.\nNote 1 to Cat 3 Product Group E: 3E001 and 3E905 do not apply to 'Process Design Kits' ('PDKs') unless they include libraries implementing functions or technologies for items specified by 3A001.\nTechnical Note: For the purposes of 3E001 and 3E905, 3E905.a 'Process Design Kit' ('PDK') is a software tool provided by a semiconductor manufacturer to ensure that the required design practices and rules are taken into account in order to successfully produce a specific integrated circuit design in a specific semiconductor process, in accordance with technological and manufacturing constraints (each semiconductor manufacturing process has its particular 'PDK').",
+      "structure": {
+        "identifier": "3D994",
+        "heading": "3D994 “Software” “specially designed” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).",
+        "label": "3D994 – 3D994 “Software” “specially designed” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country Chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">RS applies to entire entry (3D994)</TD>\n<TD class=\"left\">See § 742.6(a)(11) of the EAR.</TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (3D994)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country Chart (see Supp. No. 1 to part 738) RS applies to entire entry (3D994) See § 742.6(a)(11) of the EAR. AT applies to entire entry (3D994) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "RS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship or transmit “software” specified in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (see supplement no. 1 to part 740 of the EAR)."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "For additional controls that apply to this ECCN, see also § 744.11(a)(2)(v) and (a)(3) and § 744.23(a)(4)(iii) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1 to Cat 3 Product Group E:</I></HED>\n<P><I>3E001 and 3E905 do not apply to 'Process Design Kits' ('PDKs') unless they include libraries implementing functions or technologies for items specified by 3A001.</I></P></NOTE>",
+            "text": "Note 1 to Cat 3 Product Group E: 3E001 and 3E905 do not apply to 'Process Design Kits' ('PDKs') unless they include libraries implementing functions or technologies for items specified by 3A001.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 3E001 and 3E905, 3E905.a 'Process Design Kit' ('PDK') is a software tool provided by a semiconductor manufacturer to ensure that the required design practices and rules are taken into account in order to successfully produce a specific integrated circuit design in a specific semiconductor process, in accordance with technological and manufacturing constraints (each semiconductor manufacturing process has its particular 'PDK').</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 3E001 and 3E905, 3E905.a 'Process Design Kit' ('PDK') is a software tool provided by a semiconductor manufacturer to ensure that the required design practices and rules are taken into account in order to successfully produce a specific integrated circuit design in a specific semiconductor process, in accordance with technological and manufacturing constraints (each semiconductor manufacturing process has its particular 'PDK').",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "3D994 “Software” “specially designed” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).",
+      "title": "“Software” “specially designed” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).",
+      "category": "3",
+      "group": "3D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”"
+      ],
+      "ancestors": [],
+      "text": "3D994 “Software” “specially designed” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).\nLicense Requirements\nReason for Control:\nRS, AT\nControl(s) Country Chart (see Supp. No. 1 to part 738) RS applies to entire entry (3D994) See § 742.6(a)(11) of the EAR. AT applies to entire entry (3D994) AT Column 1.\nControl(s)\nCountry Chart\n(see Supp. No. 1\nto part 738)\nRS applies to entire entry\nSee § 742.6(a)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nTSR:\nN/A\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship or transmit “software” specified in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (see supplement no. 1 to part 740 of the EAR).\nList of Items Controlled\nRelated Controls:\nFor additional controls that apply to this ECCN, see also § 744.11(a)(2)(v) and (a)(3) and § 744.23(a)(4)(iii) of the EAR.\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.\nNote 1 to Cat 3 Product Group E: 3E001 and 3E905 do not apply to 'Process Design Kits' ('PDKs') unless they include libraries implementing functions or technologies for items specified by 3A001.\nTechnical Note: For the purposes of 3E001 and 3E905, 3E905.a 'Process Design Kit' ('PDK') is a software tool provided by a semiconductor manufacturer to ensure that the required design practices and rules are taken into account in order to successfully produce a specific integrated circuit design in a specific semiconductor process, in accordance with technological and manufacturing constraints (each semiconductor manufacturing process has its particular 'PDK').",
+      "structure": {
+        "identifier": "3D994",
+        "heading": "3D994 “Software” “specially designed” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).",
+        "label": "3D994 – 3D994 “Software” “specially designed” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country Chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">RS applies to entire entry (3D994)</TD>\n<TD class=\"left\">See § 742.6(a)(11) of the EAR.</TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (3D994)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country Chart (see Supp. No. 1 to part 738) RS applies to entire entry (3D994) See § 742.6(a)(11) of the EAR. AT applies to entire entry (3D994) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "RS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship or transmit “software” specified in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (see supplement no. 1 to part 740 of the EAR)."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "For additional controls that apply to this ECCN, see also § 744.11(a)(2)(v) and (a)(3) and § 744.23(a)(4)(iii) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1 to Cat 3 Product Group E:</I></HED>\n<P><I>3E001 and 3E905 do not apply to 'Process Design Kits' ('PDKs') unless they include libraries implementing functions or technologies for items specified by 3A001.</I></P></NOTE>",
+            "text": "Note 1 to Cat 3 Product Group E: 3E001 and 3E905 do not apply to 'Process Design Kits' ('PDKs') unless they include libraries implementing functions or technologies for items specified by 3A001.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 3E001 and 3E905, 3E905.a 'Process Design Kit' ('PDK') is a software tool provided by a semiconductor manufacturer to ensure that the required design practices and rules are taken into account in order to successfully produce a specific integrated circuit design in a specific semiconductor process, in accordance with technological and manufacturing constraints (each semiconductor manufacturing process has its particular 'PDK').</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 3E001 and 3E905, 3E905.a 'Process Design Kit' ('PDK') is a software tool provided by a semiconductor manufacturer to ensure that the required design practices and rules are taken into account in order to successfully produce a specific integrated circuit design in a specific semiconductor process, in accordance with technological and manufacturing constraints (each semiconductor manufacturing process has its particular 'PDK').",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "3D994 “Software” “specially designed” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).",
+      "title": "“Software” “specially designed” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).",
+      "category": "3",
+      "group": "3D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”"
+      ],
+      "ancestors": [],
+      "text": "3D994 “Software” “specially designed” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).\nLicense Requirements\nReason for Control:\nRS, AT\nControl(s) Country Chart (see Supp. No. 1 to part 738) RS applies to entire entry (3D994) See § 742.6(a)(11) of the EAR. AT applies to entire entry (3D994) AT Column 1.\nControl(s)\nCountry Chart\n(see Supp. No. 1\nto part 738)\nRS applies to entire entry\nSee § 742.6(a)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nTSR:\nN/A\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship or transmit “software” specified in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (see supplement no. 1 to part 740 of the EAR).\nList of Items Controlled\nRelated Controls:\nFor additional controls that apply to this ECCN, see also § 744.11(a)(2)(v) and (a)(3) and § 744.23(a)(4)(iii) of the EAR.\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.\nNote 1 to Cat 3 Product Group E: 3E001 and 3E905 do not apply to 'Process Design Kits' ('PDKs') unless they include libraries implementing functions or technologies for items specified by 3A001.\nTechnical Note: For the purposes of 3E001 and 3E905, 3E905.a 'Process Design Kit' ('PDK') is a software tool provided by a semiconductor manufacturer to ensure that the required design practices and rules are taken into account in order to successfully produce a specific integrated circuit design in a specific semiconductor process, in accordance with technological and manufacturing constraints (each semiconductor manufacturing process has its particular 'PDK').",
+      "structure": {
+        "identifier": "3D994",
+        "heading": "3D994 “Software” “specially designed” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).",
+        "label": "3D994 – 3D994 “Software” “specially designed” for the “development” or “production” of commodities specified in 3B994 and “software” as follows (see List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country Chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">RS applies to entire entry (3D994)</TD>\n<TD class=\"left\">See § 742.6(a)(11) of the EAR.</TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (3D994)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country Chart (see Supp. No. 1 to part 738) RS applies to entire entry (3D994) See § 742.6(a)(11) of the EAR. AT applies to entire entry (3D994) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "RS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship or transmit “software” specified in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (see supplement no. 1 to part 740 of the EAR)."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "For additional controls that apply to this ECCN, see also § 744.11(a)(2)(v) and (a)(3) and § 744.23(a)(4)(iii) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1 to Cat 3 Product Group E:</I></HED>\n<P><I>3E001 and 3E905 do not apply to 'Process Design Kits' ('PDKs') unless they include libraries implementing functions or technologies for items specified by 3A001.</I></P></NOTE>",
+            "text": "Note 1 to Cat 3 Product Group E: 3E001 and 3E905 do not apply to 'Process Design Kits' ('PDKs') unless they include libraries implementing functions or technologies for items specified by 3A001.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 3E001 and 3E905, 3E905.a 'Process Design Kit' ('PDK') is a software tool provided by a semiconductor manufacturer to ensure that the required design practices and rules are taken into account in order to successfully produce a specific integrated circuit design in a specific semiconductor process, in accordance with technological and manufacturing constraints (each semiconductor manufacturing process has its particular 'PDK').</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 3E001 and 3E905, 3E905.a 'Process Design Kit' ('PDK') is a software tool provided by a semiconductor manufacturer to ensure that the required design practices and rules are taken into account in order to successfully produce a specific integrated circuit design in a specific semiconductor process, in accordance with technological and manufacturing constraints (each semiconductor manufacturing process has its particular 'PDK').",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

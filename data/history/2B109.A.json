@@ -1,0 +1,201 @@
+{
+  "eccn": "2B109.a",
+  "normalized": "2B109.A",
+  "history": [
+    {
+      "version": "2018-08-30",
+      "fetchedAt": "2025-10-02T20:33:31.567Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-08-30/title-15?format=xml",
+      "heading": "Flow-forming machines, usable in the “production” of propulsion components and equipment (e.g., motor cases and interstages) for “missiles”, having all of the following:",
+      "title": "Flow-forming machines, usable in the “production” of propulsion components and equipment (e.g., motor cases and interstages) for “missiles”, having all of the following:",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B109 Flow-forming machines, other than those controlled by 2B009, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "2B109"
+      ],
+      "text": "Flow-forming machines, usable in the “production” of propulsion components and equipment (e.g., motor cases and interstages) for “missiles”, having all of the following:\nEquipped with, or according to the manufacturer's technical specification are capable of being equipped with, “numerical control” units or a computer control, even when not equipped with such units at delivery; and\na.1. Equipped with, or according to the manufacturer's technical specification are capable of being equipped with, “numerical control” units or a computer control, even when not equipped with such units at delivery; and\nMore than two axes which can be coordinated simultaneously for “contouring control.”\na.2. More than two axes which can be coordinated simultaneously for “contouring control.”",
+      "structure": {
+        "identifier": "2B109.a",
+        "heading": "Flow-forming machines, usable in the “production” of propulsion components and equipment (e.g., motor cases and interstages) for “missiles”, having all of the following:",
+        "label": "2B109.a – Flow-forming machines, usable in the “production” of propulsion components and equipment (e.g., motor cases and interstages) for “missiles”, having all of the following:",
+        "children": [
+          {
+            "identifier": "2B109.a.1",
+            "heading": "Equipped with, or according to the manufacturer's technical specification are capable of being equipped with, “numerical control” units or a computer control, even when not equipped with such units at delivery; and",
+            "label": "2B109.a.1 – Equipped with, or according to the manufacturer's technical specification are capable of being equipped with, “numerical control” units or a computer control, even when not equipped with such units at delivery; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. Equipped with, or according to the manufacturer's technical specification are capable of being equipped with, “numerical control” units or a computer control, even when not equipped with such units at delivery; <I>and</I></P>",
+                "text": "a.1. Equipped with, or according to the manufacturer's technical specification are capable of being equipped with, “numerical control” units or a computer control, even when not equipped with such units at delivery; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B109.a.2",
+            "heading": "More than two axes which can be coordinated simultaneously for “contouring control.”",
+            "label": "2B109.a.2 – More than two axes which can be coordinated simultaneously for “contouring control.”",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. More than two axes which can be coordinated simultaneously for “contouring control.”</P>",
+                "text": "a.2. More than two axes which can be coordinated simultaneously for “contouring control.”",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2018-10-24",
+      "fetchedAt": "2025-10-02T20:33:31.990Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-10-24/title-15?format=xml",
+      "heading": "Flow-forming machines, usable in the “production” of propulsion components and equipment (e.g., motor cases and interstages) for “missiles”, having all of the following:",
+      "title": "Flow-forming machines, usable in the “production” of propulsion components and equipment (e.g., motor cases and interstages) for “missiles”, having all of the following:",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B109 Flow-forming machines, other than those controlled by 2B009, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "2B109"
+      ],
+      "text": "Flow-forming machines, usable in the “production” of propulsion components and equipment (e.g., motor cases and interstages) for “missiles”, having all of the following:\nEquipped with, or according to the manufacturer's technical specification are capable of being equipped with, “numerical control” units or a computer control, even when not equipped with such units at delivery; and\na.1. Equipped with, or according to the manufacturer's technical specification are capable of being equipped with, “numerical control” units or a computer control, even when not equipped with such units at delivery; and\nMore than two axes which can be coordinated simultaneously for “contouring control.”\na.2. More than two axes which can be coordinated simultaneously for “contouring control.”",
+      "structure": {
+        "identifier": "2B109.a",
+        "heading": "Flow-forming machines, usable in the “production” of propulsion components and equipment (e.g., motor cases and interstages) for “missiles”, having all of the following:",
+        "label": "2B109.a – Flow-forming machines, usable in the “production” of propulsion components and equipment (e.g., motor cases and interstages) for “missiles”, having all of the following:",
+        "children": [
+          {
+            "identifier": "2B109.a.1",
+            "heading": "Equipped with, or according to the manufacturer's technical specification are capable of being equipped with, “numerical control” units or a computer control, even when not equipped with such units at delivery; and",
+            "label": "2B109.a.1 – Equipped with, or according to the manufacturer's technical specification are capable of being equipped with, “numerical control” units or a computer control, even when not equipped with such units at delivery; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. Equipped with, or according to the manufacturer's technical specification are capable of being equipped with, “numerical control” units or a computer control, even when not equipped with such units at delivery; <I>and</I></P>",
+                "text": "a.1. Equipped with, or according to the manufacturer's technical specification are capable of being equipped with, “numerical control” units or a computer control, even when not equipped with such units at delivery; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B109.a.2",
+            "heading": "More than two axes which can be coordinated simultaneously for “contouring control.”",
+            "label": "2B109.a.2 – More than two axes which can be coordinated simultaneously for “contouring control.”",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. More than two axes which can be coordinated simultaneously for “contouring control.”</P>",
+                "text": "a.2. More than two axes which can be coordinated simultaneously for “contouring control.”",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2018-11-02",
+      "fetchedAt": "2025-10-02T20:33:32.381Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-11-02/title-15?format=xml",
+      "heading": "Flow-forming machines, usable in the “production” of propulsion components and equipment (e.g., motor cases and interstages) for “missiles”, having all of the following:",
+      "title": "Flow-forming machines, usable in the “production” of propulsion components and equipment (e.g., motor cases and interstages) for “missiles”, having all of the following:",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B109 Flow-forming machines, other than those controlled by 2B009, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "2B109"
+      ],
+      "text": "Flow-forming machines, usable in the “production” of propulsion components and equipment (e.g., motor cases and interstages) for “missiles”, having all of the following:\nEquipped with, or according to the manufacturer's technical specification are capable of being equipped with, “numerical control” units or a computer control, even when not equipped with such units at delivery; and\na.1. Equipped with, or according to the manufacturer's technical specification are capable of being equipped with, “numerical control” units or a computer control, even when not equipped with such units at delivery; and\nMore than two axes which can be coordinated simultaneously for “contouring control.”\na.2. More than two axes which can be coordinated simultaneously for “contouring control.”",
+      "structure": {
+        "identifier": "2B109.a",
+        "heading": "Flow-forming machines, usable in the “production” of propulsion components and equipment (e.g., motor cases and interstages) for “missiles”, having all of the following:",
+        "label": "2B109.a – Flow-forming machines, usable in the “production” of propulsion components and equipment (e.g., motor cases and interstages) for “missiles”, having all of the following:",
+        "children": [
+          {
+            "identifier": "2B109.a.1",
+            "heading": "Equipped with, or according to the manufacturer's technical specification are capable of being equipped with, “numerical control” units or a computer control, even when not equipped with such units at delivery; and",
+            "label": "2B109.a.1 – Equipped with, or according to the manufacturer's technical specification are capable of being equipped with, “numerical control” units or a computer control, even when not equipped with such units at delivery; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. Equipped with, or according to the manufacturer's technical specification are capable of being equipped with, “numerical control” units or a computer control, even when not equipped with such units at delivery; <I>and</I></P>",
+                "text": "a.1. Equipped with, or according to the manufacturer's technical specification are capable of being equipped with, “numerical control” units or a computer control, even when not equipped with such units at delivery; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B109.a.2",
+            "heading": "More than two axes which can be coordinated simultaneously for “contouring control.”",
+            "label": "2B109.a.2 – More than two axes which can be coordinated simultaneously for “contouring control.”",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. More than two axes which can be coordinated simultaneously for “contouring control.”</P>",
+                "text": "a.2. More than two axes which can be coordinated simultaneously for “contouring control.”",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    }
+  ]
+}

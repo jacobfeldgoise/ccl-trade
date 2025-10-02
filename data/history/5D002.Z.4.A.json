@@ -1,0 +1,138 @@
+{
+  "eccn": "5D002.z.4.a",
+  "normalized": "5D002.Z.4.A",
+  "history": [
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "a Software that is described in 5D002.a.3.b, and that also meet or exceed the performance parameters in 3D001 for 3A090.a or 4D001 for 4A090.a;",
+      "title": "a Software that is described in 5D002.a.3.b, and that also meet or exceed the performance parameters in 3D001 for 3A090.a or 4D001 for 4A090.a;",
+      "category": "5",
+      "group": "5D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "5D002 “Software” as follows (see List of Items Controlled).",
+        "Other software, as follows:",
+        "5D002.z.4"
+      ],
+      "ancestors": [
+        "5D002",
+        "5D002.z",
+        "5D002.z.4"
+      ],
+      "text": "a Software that is described in 5D002.a.3.b, and that also meet or exceed the performance parameters in 3D001 for 3A090.a or 4D001 for 4A090.a;",
+      "structure": {
+        "identifier": "5D002.z.4.a",
+        "heading": "a Software that is described in 5D002.a.3.b, and that also meet or exceed the performance parameters in 3D001 for 3A090.a or 4D001 for 4A090.a;",
+        "label": "5D002.z.4.a – a Software that is described in 5D002.a.3.b, and that also meet or exceed the performance parameters in 3D001 for 3A090.a or 4D001 for 4A090.a;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "a Software that is described in 5D002.a.3.b, and that also meet or exceed the performance parameters in 3D001 for 3A090.a or 4D001 for 4A090.a;",
+      "title": "a Software that is described in 5D002.a.3.b, and that also meet or exceed the performance parameters in 3D001 for 3A090.a or 4D001 for 4A090.a;",
+      "category": "5",
+      "group": "5D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "5D002 “Software” as follows (see List of Items Controlled).",
+        "Other software, as follows:",
+        "5D002.z.4"
+      ],
+      "ancestors": [
+        "5D002",
+        "5D002.z",
+        "5D002.z.4"
+      ],
+      "text": "a Software that is described in 5D002.a.3.b, and that also meet or exceed the performance parameters in 3D001 for 3A090.a or 4D001 for 4A090.a;",
+      "structure": {
+        "identifier": "5D002.z.4.a",
+        "heading": "a Software that is described in 5D002.a.3.b, and that also meet or exceed the performance parameters in 3D001 for 3A090.a or 4D001 for 4A090.a;",
+        "label": "5D002.z.4.a – a Software that is described in 5D002.a.3.b, and that also meet or exceed the performance parameters in 3D001 for 3A090.a or 4D001 for 4A090.a;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "a Software that is described in 5D002.a.3.b, and that also meet or exceed the performance parameters in 3D001 for 3A090.a or 4D001 for 4A090.a;",
+      "title": "a Software that is described in 5D002.a.3.b, and that also meet or exceed the performance parameters in 3D001 for 3A090.a or 4D001 for 4A090.a;",
+      "category": "5",
+      "group": "5D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "5D002 “Software” as follows (see List of Items Controlled).",
+        "Other software, as follows:",
+        "5D002.z.4"
+      ],
+      "ancestors": [
+        "5D002",
+        "5D002.z",
+        "5D002.z.4"
+      ],
+      "text": "a Software that is described in 5D002.a.3.b, and that also meet or exceed the performance parameters in 3D001 for 3A090.a or 4D001 for 4A090.a;",
+      "structure": {
+        "identifier": "5D002.z.4.a",
+        "heading": "a Software that is described in 5D002.a.3.b, and that also meet or exceed the performance parameters in 3D001 for 3A090.a or 4D001 for 4A090.a;",
+        "label": "5D002.z.4.a – a Software that is described in 5D002.a.3.b, and that also meet or exceed the performance parameters in 3D001 for 3A090.a or 4D001 for 4A090.a;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "a Software that is described in 5D002.a.3.b, and that also meet or exceed the performance parameters in 3D001 for 3A090.a or 4D001 for 4A090.a;",
+      "title": "a Software that is described in 5D002.a.3.b, and that also meet or exceed the performance parameters in 3D001 for 3A090.a or 4D001 for 4A090.a;",
+      "category": "5",
+      "group": "5D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "5D002 “Software” as follows (see List of Items Controlled).",
+        "Other software, as follows:",
+        "5D002.z.4"
+      ],
+      "ancestors": [
+        "5D002",
+        "5D002.z",
+        "5D002.z.4"
+      ],
+      "text": "a Software that is described in 5D002.a.3.b, and that also meet or exceed the performance parameters in 3D001 for 3A090.a or 4D001 for 4A090.a;",
+      "structure": {
+        "identifier": "5D002.z.4.a",
+        "heading": "a Software that is described in 5D002.a.3.b, and that also meet or exceed the performance parameters in 3D001 for 3A090.a or 4D001 for 4A090.a;",
+        "label": "5D002.z.4.a – a Software that is described in 5D002.a.3.b, and that also meet or exceed the performance parameters in 3D001 for 3A090.a or 4D001 for 4A090.a;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

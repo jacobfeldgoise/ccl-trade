@@ -1,0 +1,320 @@
+{
+  "eccn": "4D004",
+  "normalized": "4D004",
+  "history": [
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "4D004 “Software” “specially designed” or modified for the generation, command and control, or delivery of “intrusion software.”",
+      "title": "“Software” “specially designed” or modified for the generation, command and control, or delivery of “intrusion software.”",
+      "category": "4",
+      "group": "4D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”"
+      ],
+      "ancestors": [],
+      "text": "4D004 “Software” “specially designed” or modified for the generation, command and control, or delivery of “intrusion software.”\nLicense Requirements\nReason for Control:\nNS, AT\nControl(s) Country chart(See Supp. No. 1to part 738) NS applies to entire entry (4D004) NS Column 1. AT applies to entire entry (4D004) AT Column 1.\nControl(s)\nCountry chart\n(See Supp. No. 1\nto part 738)\nNS applies to entire entry\nNS Column 1.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nTSR:\nN/A\nAPP:\nN/A\nACE:\nYes, except to Country Group E:1 or E:2. See § 740.22 of the EAR for eligibility criteria.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship or transmit “software” specified by ECCN 4D004.\nList of Items Controlled\nRelated Controls:\nSoftware described in USML Category XI(b), and software directly related to a defense article, is “subject to the ITAR”; see § 120.10(a)(4).\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.\nNote: 4D004 does not apply to “software” specially designed and limited to provide “software” updates or upgrades meeting all the following: a. The update or upgrade operates only with the authorization of the owner or administrator of the system receiving it; and b. After the update or upgrade, the “software” updated or upgraded is not any of the following: 1. “Software” specified by 4D004; or 2. “Intrusion software.”",
+      "structure": {
+        "identifier": "4D004",
+        "heading": "4D004 “Software” “specially designed” or modified for the generation, command and control, or delivery of “intrusion software.”",
+        "label": "4D004 – 4D004 “Software” “specially designed” or modified for the generation, command and control, or delivery of “intrusion software.”",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center border-top-single border-bottom-single border-right-single\">Control(s)</TH>\n<TH class=\"center border-top-single border-bottom-single\">Country chart<br/>(See Supp. No. 1<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left border-right-single\">NS applies to entire entry (4D004)</TD>\n<TD class=\"left\">NS Column 1.</TD>\n</TR>\n<TR>\n<TD class=\"left border-bottom-single border-right-single\">AT applies to entire entry (4D004)</TD>\n<TD class=\"left border-bottom-single\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart(See Supp. No. 1to part 738) NS applies to entire entry (4D004) NS Column 1. AT applies to entire entry (4D004) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(See Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 1."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "APP:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "ACE:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, except to Country Group E:1 or E:2. See § 740.22 of the EAR for eligibility criteria."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship or transmit “software” specified by ECCN 4D004."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "Software described in USML Category XI(b), and software directly related to a defense article, is “subject to the ITAR”; see § 120.10(a)(4)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>The list of items controlled is contained in the ECCN heading.\n</P>",
+            "text": "The list of items controlled is contained in the ECCN heading.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>4D004 does not apply to “software” specially designed and limited to provide “software” updates or upgrades meeting all the following:</I>\n</P>\n<P><I>a. The update or upgrade operates only with the authorization of the owner or administrator of the system receiving it; and</I>\n</P>\n<P><I>b. After the update or upgrade, the “software” updated or upgraded is not any of the following:</I>\n</P>\n<P><I>1. “Software” specified by 4D004; or</I>\n</P>\n<P><I>2. “Intrusion software.”</I></P></NOTE>",
+            "text": "Note: 4D004 does not apply to “software” specially designed and limited to provide “software” updates or upgrades meeting all the following: a. The update or upgrade operates only with the authorization of the owner or administrator of the system receiving it; and b. After the update or upgrade, the “software” updated or upgraded is not any of the following: 1. “Software” specified by 4D004; or 2. “Intrusion software.”",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "4D004 “Software” “specially designed” or modified for the generation, command and control, or delivery of “intrusion software.”",
+      "title": "“Software” “specially designed” or modified for the generation, command and control, or delivery of “intrusion software.”",
+      "category": "4",
+      "group": "4D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”"
+      ],
+      "ancestors": [],
+      "text": "4D004 “Software” “specially designed” or modified for the generation, command and control, or delivery of “intrusion software.”\nLicense Requirements\nReason for Control:\nNS, AT\nControl(s) Country chart(See Supp. No. 1to part 738) NS applies to entire entry (4D004) NS Column 1. AT applies to entire entry (4D004) AT Column 1.\nControl(s)\nCountry chart\n(See Supp. No. 1\nto part 738)\nNS applies to entire entry\nNS Column 1.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nTSR:\nN/A\nAPP:\nN/A\nACE:\nYes, except to Country Group E:1 or E:2. See § 740.22 of the EAR for eligibility criteria.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship or transmit “software” specified by ECCN 4D004.\nList of Items Controlled\nRelated Controls:\nSoftware described in USML Category XI(b), and software directly related to a defense article, is “subject to the ITAR”; see § 120.10(a)(4).\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.\nNote: 4D004 does not apply to “software” specially designed and limited to provide “software” updates or upgrades meeting all the following: a. The update or upgrade operates only with the authorization of the owner or administrator of the system receiving it; and b. After the update or upgrade, the “software” updated or upgraded is not any of the following: 1. “Software” specified by 4D004; or 2. “Intrusion software.”",
+      "structure": {
+        "identifier": "4D004",
+        "heading": "4D004 “Software” “specially designed” or modified for the generation, command and control, or delivery of “intrusion software.”",
+        "label": "4D004 – 4D004 “Software” “specially designed” or modified for the generation, command and control, or delivery of “intrusion software.”",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center border-top-single border-bottom-single border-right-single\">Control(s)</TH>\n<TH class=\"center border-top-single border-bottom-single\">Country chart<br/>(See Supp. No. 1<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left border-right-single\">NS applies to entire entry (4D004)</TD>\n<TD class=\"left\">NS Column 1.</TD>\n</TR>\n<TR>\n<TD class=\"left border-bottom-single border-right-single\">AT applies to entire entry (4D004)</TD>\n<TD class=\"left border-bottom-single\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart(See Supp. No. 1to part 738) NS applies to entire entry (4D004) NS Column 1. AT applies to entire entry (4D004) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(See Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 1."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "APP:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "ACE:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, except to Country Group E:1 or E:2. See § 740.22 of the EAR for eligibility criteria."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship or transmit “software” specified by ECCN 4D004."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "Software described in USML Category XI(b), and software directly related to a defense article, is “subject to the ITAR”; see § 120.10(a)(4)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>The list of items controlled is contained in the ECCN heading.\n</P>",
+            "text": "The list of items controlled is contained in the ECCN heading.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>4D004 does not apply to “software” specially designed and limited to provide “software” updates or upgrades meeting all the following:</I>\n</P>\n<P><I>a. The update or upgrade operates only with the authorization of the owner or administrator of the system receiving it; and</I>\n</P>\n<P><I>b. After the update or upgrade, the “software” updated or upgraded is not any of the following:</I>\n</P>\n<P><I>1. “Software” specified by 4D004; or</I>\n</P>\n<P><I>2. “Intrusion software.”</I></P></NOTE>",
+            "text": "Note: 4D004 does not apply to “software” specially designed and limited to provide “software” updates or upgrades meeting all the following: a. The update or upgrade operates only with the authorization of the owner or administrator of the system receiving it; and b. After the update or upgrade, the “software” updated or upgraded is not any of the following: 1. “Software” specified by 4D004; or 2. “Intrusion software.”",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

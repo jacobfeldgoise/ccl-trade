@@ -1,0 +1,846 @@
+{
+  "eccn": "3B001.c.4",
+  "normalized": "3B001.C.4",
+  "history": [
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "Equipment designed for Through Silicon Via (TSV) etch having all of the following:",
+      "title": "Equipment designed for Through Silicon Via (TSV) etch having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Etch equipment."
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.c"
+      ],
+      "text": "Equipment designed for Through Silicon Via (TSV) etch having all of the following:\nSilicon etch rate greater than 7 microns per minute;\nc.4.a. Silicon etch rate greater than 7 microns per minute;\nWithin wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and\nc.4.b. Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and\nA Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.\nc.4.c. A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.\nNote 1: 3B001.c includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.\nNote 2: 3B001.c.1.c includes etching using RF pulse excited plasma, pulsed duty cycle excited plasma, pulsed voltage on electrodes modified plasma, cyclic injection and purging of gases combined with a plasma, plasma atomic layer etching, or plasma quasi-atomic layer etching.\nTechnical Notes: 1. For the purposes of 3B001.c, 'silicon germanium-to-silicon (SiGe:Si) etch selectivity' is measured for a Ge concentration of greater than or equal to 30% (Si0.70Ge0.30). 2. For the purposes of 3B001.c Note 1 and 3B001.d.14, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration. 3. For the purposes of 3B001.c.3, 'process uniformity tuning' is the process of compensating for incoming wafer thickness variations after grinding.",
+      "structure": {
+        "identifier": "3B001.c.4",
+        "heading": "Equipment designed for Through Silicon Via (TSV) etch having all of the following:",
+        "label": "3B001.c.4 – Equipment designed for Through Silicon Via (TSV) etch having all of the following:",
+        "children": [
+          {
+            "identifier": "3B001.c.4.a",
+            "heading": "Silicon etch rate greater than 7 microns per minute;",
+            "label": "3B001.c.4.a – Silicon etch rate greater than 7 microns per minute;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.4.a. Silicon etch rate greater than 7 microns per minute;</P>",
+                "text": "c.4.a. Silicon etch rate greater than 7 microns per minute;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.c.4.b",
+            "heading": "Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and",
+            "label": "3B001.c.4.b – Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.4.b. Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; <I>and</I></P>",
+                "text": "c.4.b. Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.c.4.c",
+            "heading": "A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.",
+            "label": "3B001.c.4.c – A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.4.c. A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.</P>",
+                "text": "c.4.c. A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>3B001.c includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.</I></P></NOTE>",
+                "text": "Note 1: 3B001.c includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3B001.c.1.c includes etching using RF pulse excited plasma, pulsed duty cycle excited plasma, pulsed voltage on electrodes modified plasma, cyclic injection and purging of gases combined with a plasma, plasma atomic layer etching, or plasma quasi-atomic layer etching.</I></P></NOTE>",
+                "text": "Note 2: 3B001.c.1.c includes etching using RF pulse excited plasma, pulsed duty cycle excited plasma, pulsed voltage on electrodes modified plasma, cyclic injection and purging of gases combined with a plasma, plasma atomic layer etching, or plasma quasi-atomic layer etching.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Notes:</I></HED>\n<P><I>1. For the purposes of 3B001.c, 'silicon germanium-to-silicon (SiGe:Si) etch selectivity' is measured for a Ge concentration of greater than or equal to 30% (Si</I><E T=\"52\">0.70</E><I>Ge</I><E T=\"52\">0.30</E><I>).</I></P>\n<P><I>2. For the purposes of 3B001.c Note 1 and 3B001.d.14, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration.</I></P>\n<P><I>3. For the purposes of 3B001.c.3, 'process uniformity tuning' is the process of compensating for incoming wafer thickness variations after grinding.</I></P></NOTE>",
+                "text": "Technical Notes: 1. For the purposes of 3B001.c, 'silicon germanium-to-silicon (SiGe:Si) etch selectivity' is measured for a Ge concentration of greater than or equal to 30% (Si0.70Ge0.30). 2. For the purposes of 3B001.c Note 1 and 3B001.d.14, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration. 3. For the purposes of 3B001.c.3, 'process uniformity tuning' is the process of compensating for incoming wafer thickness variations after grinding.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "Equipment designed for Through Silicon Via (TSV) etch having all of the following:",
+      "title": "Equipment designed for Through Silicon Via (TSV) etch having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Etch equipment."
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.c"
+      ],
+      "text": "Equipment designed for Through Silicon Via (TSV) etch having all of the following:\nSilicon etch rate greater than 7 microns per minute;\nc.4.a. Silicon etch rate greater than 7 microns per minute;\nWithin wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and\nc.4.b. Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and\nA Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.\nc.4.c. A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.\nNote 1: 3B001.c includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.\nNote 2: 3B001.c.1.c includes etching using RF pulse excited plasma, pulsed duty cycle excited plasma, pulsed voltage on electrodes modified plasma, cyclic injection and purging of gases combined with a plasma, plasma atomic layer etching, or plasma quasi-atomic layer etching.\nTechnical Notes: 1. For the purposes of 3B001.c, 'silicon germanium-to-silicon (SiGe:Si) etch selectivity' is measured for a Ge concentration of greater than or equal to 30% (Si0.70Ge0.30). 2. For the purposes of 3B001.c Note 1 and 3B001.d.14, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration. 3. For the purposes of 3B001.c.3, 'process uniformity tuning' is the process of compensating for incoming wafer thickness variations after grinding.",
+      "structure": {
+        "identifier": "3B001.c.4",
+        "heading": "Equipment designed for Through Silicon Via (TSV) etch having all of the following:",
+        "label": "3B001.c.4 – Equipment designed for Through Silicon Via (TSV) etch having all of the following:",
+        "children": [
+          {
+            "identifier": "3B001.c.4.a",
+            "heading": "Silicon etch rate greater than 7 microns per minute;",
+            "label": "3B001.c.4.a – Silicon etch rate greater than 7 microns per minute;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.4.a. Silicon etch rate greater than 7 microns per minute;</P>",
+                "text": "c.4.a. Silicon etch rate greater than 7 microns per minute;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.c.4.b",
+            "heading": "Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and",
+            "label": "3B001.c.4.b – Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.4.b. Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; <I>and</I></P>",
+                "text": "c.4.b. Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.c.4.c",
+            "heading": "A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.",
+            "label": "3B001.c.4.c – A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.4.c. A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.</P>",
+                "text": "c.4.c. A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>3B001.c includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.</I></P></NOTE>",
+                "text": "Note 1: 3B001.c includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3B001.c.1.c includes etching using RF pulse excited plasma, pulsed duty cycle excited plasma, pulsed voltage on electrodes modified plasma, cyclic injection and purging of gases combined with a plasma, plasma atomic layer etching, or plasma quasi-atomic layer etching.</I></P></NOTE>",
+                "text": "Note 2: 3B001.c.1.c includes etching using RF pulse excited plasma, pulsed duty cycle excited plasma, pulsed voltage on electrodes modified plasma, cyclic injection and purging of gases combined with a plasma, plasma atomic layer etching, or plasma quasi-atomic layer etching.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Notes:</I></HED>\n<P><I>1. For the purposes of 3B001.c, 'silicon germanium-to-silicon (SiGe:Si) etch selectivity' is measured for a Ge concentration of greater than or equal to 30% (Si</I><E T=\"52\">0.70</E><I>Ge</I><E T=\"52\">0.30</E><I>).</I></P>\n<P><I>2. For the purposes of 3B001.c Note 1 and 3B001.d.14, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration.</I></P>\n<P><I>3. For the purposes of 3B001.c.3, 'process uniformity tuning' is the process of compensating for incoming wafer thickness variations after grinding.</I></P></NOTE>",
+                "text": "Technical Notes: 1. For the purposes of 3B001.c, 'silicon germanium-to-silicon (SiGe:Si) etch selectivity' is measured for a Ge concentration of greater than or equal to 30% (Si0.70Ge0.30). 2. For the purposes of 3B001.c Note 1 and 3B001.d.14, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration. 3. For the purposes of 3B001.c.3, 'process uniformity tuning' is the process of compensating for incoming wafer thickness variations after grinding.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "Equipment designed for Through Silicon Via (TSV) etch having all of the following:",
+      "title": "Equipment designed for Through Silicon Via (TSV) etch having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Etch equipment."
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.c"
+      ],
+      "text": "Equipment designed for Through Silicon Via (TSV) etch having all of the following:\nSilicon etch rate greater than 7 microns per minute;\nc.4.a. Silicon etch rate greater than 7 microns per minute;\nWithin wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and\nc.4.b. Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and\nA Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.\nc.4.c. A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.\nNote 1: 3B001.c includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.\nNote 2: 3B001.c.1.c includes etching using RF pulse excited plasma, pulsed duty cycle excited plasma, pulsed voltage on electrodes modified plasma, cyclic injection and purging of gases combined with a plasma, plasma atomic layer etching, or plasma quasi-atomic layer etching.\nTechnical Notes: 1. For the purposes of 3B001.c, 'silicon germanium-to-silicon (SiGe:Si) etch selectivity' is measured for a Ge concentration of greater than or equal to 30% (Si0.70Ge0.30). 2. For the purposes of 3B001.c Note 1 and 3B001.d.14, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration. 3. For the purposes of 3B001.c.3, 'process uniformity tuning' is the process of compensating for incoming wafer thickness variations after grinding.",
+      "structure": {
+        "identifier": "3B001.c.4",
+        "heading": "Equipment designed for Through Silicon Via (TSV) etch having all of the following:",
+        "label": "3B001.c.4 – Equipment designed for Through Silicon Via (TSV) etch having all of the following:",
+        "children": [
+          {
+            "identifier": "3B001.c.4.a",
+            "heading": "Silicon etch rate greater than 7 microns per minute;",
+            "label": "3B001.c.4.a – Silicon etch rate greater than 7 microns per minute;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.4.a. Silicon etch rate greater than 7 microns per minute;</P>",
+                "text": "c.4.a. Silicon etch rate greater than 7 microns per minute;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.c.4.b",
+            "heading": "Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and",
+            "label": "3B001.c.4.b – Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.4.b. Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; <I>and</I></P>",
+                "text": "c.4.b. Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.c.4.c",
+            "heading": "A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.",
+            "label": "3B001.c.4.c – A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.4.c. A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.</P>",
+                "text": "c.4.c. A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>3B001.c includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.</I></P></NOTE>",
+                "text": "Note 1: 3B001.c includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3B001.c.1.c includes etching using RF pulse excited plasma, pulsed duty cycle excited plasma, pulsed voltage on electrodes modified plasma, cyclic injection and purging of gases combined with a plasma, plasma atomic layer etching, or plasma quasi-atomic layer etching.</I></P></NOTE>",
+                "text": "Note 2: 3B001.c.1.c includes etching using RF pulse excited plasma, pulsed duty cycle excited plasma, pulsed voltage on electrodes modified plasma, cyclic injection and purging of gases combined with a plasma, plasma atomic layer etching, or plasma quasi-atomic layer etching.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Notes:</I></HED>\n<P><I>1. For the purposes of 3B001.c, 'silicon germanium-to-silicon (SiGe:Si) etch selectivity' is measured for a Ge concentration of greater than or equal to 30% (Si</I><E T=\"52\">0.70</E><I>Ge</I><E T=\"52\">0.30</E><I>).</I></P>\n<P><I>2. For the purposes of 3B001.c Note 1 and 3B001.d.14, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration.</I></P>\n<P><I>3. For the purposes of 3B001.c.3, 'process uniformity tuning' is the process of compensating for incoming wafer thickness variations after grinding.</I></P></NOTE>",
+                "text": "Technical Notes: 1. For the purposes of 3B001.c, 'silicon germanium-to-silicon (SiGe:Si) etch selectivity' is measured for a Ge concentration of greater than or equal to 30% (Si0.70Ge0.30). 2. For the purposes of 3B001.c Note 1 and 3B001.d.14, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration. 3. For the purposes of 3B001.c.3, 'process uniformity tuning' is the process of compensating for incoming wafer thickness variations after grinding.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "Equipment designed for Through Silicon Via (TSV) etch having all of the following:",
+      "title": "Equipment designed for Through Silicon Via (TSV) etch having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Etch equipment."
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.c"
+      ],
+      "text": "Equipment designed for Through Silicon Via (TSV) etch having all of the following:\nSilicon etch rate greater than 7 microns per minute;\nc.4.a. Silicon etch rate greater than 7 microns per minute;\nWithin wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and\nc.4.b. Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and\nA Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.\nc.4.c. A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.\nNote 1: 3B001.c includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.\nNote 2: 3B001.c.1.c includes etching using RF pulse excited plasma, pulsed duty cycle excited plasma, pulsed voltage on electrodes modified plasma, cyclic injection and purging of gases combined with a plasma, plasma atomic layer etching, or plasma quasi-atomic layer etching.\nTechnical Notes: 1. For the purposes of 3B001.c, 'silicon germanium-to-silicon (SiGe:Si) etch selectivity' is measured for a Ge concentration of greater than or equal to 30% (Si0.70Ge0.30). 2. For the purposes of 3B001.c Note 1 and 3B001.d.14, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration. 3. For the purposes of 3B001.c.3, 'process uniformity tuning' is the process of compensating for incoming wafer thickness variations after grinding.",
+      "structure": {
+        "identifier": "3B001.c.4",
+        "heading": "Equipment designed for Through Silicon Via (TSV) etch having all of the following:",
+        "label": "3B001.c.4 – Equipment designed for Through Silicon Via (TSV) etch having all of the following:",
+        "children": [
+          {
+            "identifier": "3B001.c.4.a",
+            "heading": "Silicon etch rate greater than 7 microns per minute;",
+            "label": "3B001.c.4.a – Silicon etch rate greater than 7 microns per minute;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.4.a. Silicon etch rate greater than 7 microns per minute;</P>",
+                "text": "c.4.a. Silicon etch rate greater than 7 microns per minute;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.c.4.b",
+            "heading": "Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and",
+            "label": "3B001.c.4.b – Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.4.b. Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; <I>and</I></P>",
+                "text": "c.4.b. Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.c.4.c",
+            "heading": "A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.",
+            "label": "3B001.c.4.c – A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.4.c. A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.</P>",
+                "text": "c.4.c. A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>3B001.c includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.</I></P></NOTE>",
+                "text": "Note 1: 3B001.c includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3B001.c.1.c includes etching using RF pulse excited plasma, pulsed duty cycle excited plasma, pulsed voltage on electrodes modified plasma, cyclic injection and purging of gases combined with a plasma, plasma atomic layer etching, or plasma quasi-atomic layer etching.</I></P></NOTE>",
+                "text": "Note 2: 3B001.c.1.c includes etching using RF pulse excited plasma, pulsed duty cycle excited plasma, pulsed voltage on electrodes modified plasma, cyclic injection and purging of gases combined with a plasma, plasma atomic layer etching, or plasma quasi-atomic layer etching.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Notes:</I></HED>\n<P><I>1. For the purposes of 3B001.c, 'silicon germanium-to-silicon (SiGe:Si) etch selectivity' is measured for a Ge concentration of greater than or equal to 30% (Si</I><E T=\"52\">0.70</E><I>Ge</I><E T=\"52\">0.30</E><I>).</I></P>\n<P><I>2. For the purposes of 3B001.c Note 1 and 3B001.d.14, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration.</I></P>\n<P><I>3. For the purposes of 3B001.c.3, 'process uniformity tuning' is the process of compensating for incoming wafer thickness variations after grinding.</I></P></NOTE>",
+                "text": "Technical Notes: 1. For the purposes of 3B001.c, 'silicon germanium-to-silicon (SiGe:Si) etch selectivity' is measured for a Ge concentration of greater than or equal to 30% (Si0.70Ge0.30). 2. For the purposes of 3B001.c Note 1 and 3B001.d.14, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration. 3. For the purposes of 3B001.c.3, 'process uniformity tuning' is the process of compensating for incoming wafer thickness variations after grinding.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "Equipment designed for Through Silicon Via (TSV) etch having all of the following:",
+      "title": "Equipment designed for Through Silicon Via (TSV) etch having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Etch equipment."
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.c"
+      ],
+      "text": "Equipment designed for Through Silicon Via (TSV) etch having all of the following:\nSilicon etch rate greater than 7 microns per minute;\nc.4.a. Silicon etch rate greater than 7 microns per minute;\nWithin wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and\nc.4.b. Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and\nA Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.\nc.4.c. A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.\nNote 1: 3B001.c includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.\nNote 2: 3B001.c.1.c includes etching using RF pulse excited plasma, pulsed duty cycle excited plasma, pulsed voltage on electrodes modified plasma, cyclic injection and purging of gases combined with a plasma, plasma atomic layer etching, or plasma quasi-atomic layer etching.\nTechnical Notes: 1. For the purposes of 3B001.c, 'silicon germanium-to-silicon (SiGe:Si) etch selectivity' is measured for a Ge concentration of greater than or equal to 30% (Si0.70Ge0.30). 2. For the purposes of 3B001.c Note 1 and 3B001.d.14, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration. 3. For the purposes of 3B001.c.3, 'process uniformity tuning' is the process of compensating for incoming wafer thickness variations after grinding.",
+      "structure": {
+        "identifier": "3B001.c.4",
+        "heading": "Equipment designed for Through Silicon Via (TSV) etch having all of the following:",
+        "label": "3B001.c.4 – Equipment designed for Through Silicon Via (TSV) etch having all of the following:",
+        "children": [
+          {
+            "identifier": "3B001.c.4.a",
+            "heading": "Silicon etch rate greater than 7 microns per minute;",
+            "label": "3B001.c.4.a – Silicon etch rate greater than 7 microns per minute;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.4.a. Silicon etch rate greater than 7 microns per minute;</P>",
+                "text": "c.4.a. Silicon etch rate greater than 7 microns per minute;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.c.4.b",
+            "heading": "Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and",
+            "label": "3B001.c.4.b – Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.4.b. Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; <I>and</I></P>",
+                "text": "c.4.b. Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.c.4.c",
+            "heading": "A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.",
+            "label": "3B001.c.4.c – A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.4.c. A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.</P>",
+                "text": "c.4.c. A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>3B001.c includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.</I></P></NOTE>",
+                "text": "Note 1: 3B001.c includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3B001.c.1.c includes etching using RF pulse excited plasma, pulsed duty cycle excited plasma, pulsed voltage on electrodes modified plasma, cyclic injection and purging of gases combined with a plasma, plasma atomic layer etching, or plasma quasi-atomic layer etching.</I></P></NOTE>",
+                "text": "Note 2: 3B001.c.1.c includes etching using RF pulse excited plasma, pulsed duty cycle excited plasma, pulsed voltage on electrodes modified plasma, cyclic injection and purging of gases combined with a plasma, plasma atomic layer etching, or plasma quasi-atomic layer etching.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Notes:</I>\n</HED>\n<P><I>1. For the purposes of 3B001.c, 'silicon germanium-to-silicon (SiGe:Si) etch selectivity' is measured for a Ge concentration of greater than or equal to 30% (Si</I><E T=\"52\">0.70</E>Ge<E T=\"52\">0.30</E><I>).</I></P>\n<P><I>2. For the purposes of 3B001.c Note 1 and 3B001.d.14, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration.</I></P>\n<P><I>3. For the purposes of 3B001.c.3, 'process uniformity tuning' is the process of compensating for incoming wafer thickness variations after grinding.</I></P></NOTE>",
+                "text": "Technical Notes: 1. For the purposes of 3B001.c, 'silicon germanium-to-silicon (SiGe:Si) etch selectivity' is measured for a Ge concentration of greater than or equal to 30% (Si0.70Ge0.30). 2. For the purposes of 3B001.c Note 1 and 3B001.d.14, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration. 3. For the purposes of 3B001.c.3, 'process uniformity tuning' is the process of compensating for incoming wafer thickness variations after grinding.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "Equipment designed for Through Silicon Via (TSV) etch having all of the following:",
+      "title": "Equipment designed for Through Silicon Via (TSV) etch having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Etch equipment."
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.c"
+      ],
+      "text": "Equipment designed for Through Silicon Via (TSV) etch having all of the following:\nSilicon etch rate greater than 7 microns per minute;\nc.4.a. Silicon etch rate greater than 7 microns per minute;\nWithin wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and\nc.4.b. Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and\nA Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.\nc.4.c. A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.\nNote 1: 3B001.c includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.\nNote 2: 3B001.c.1.c includes etching using RF pulse excited plasma, pulsed duty cycle excited plasma, pulsed voltage on electrodes modified plasma, cyclic injection and purging of gases combined with a plasma, plasma atomic layer etching, or plasma quasi-atomic layer etching.\nTechnical Notes: 1. For the purposes of 3B001.c, 'silicon germanium-to-silicon (SiGe:Si) etch selectivity' is measured for a Ge concentration of greater than or equal to 30% (Si0.70Ge0.30). 2. For the purposes of 3B001.c Note 1 and 3B001.d.14, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration. 3. For the purposes of 3B001.c.3, 'process uniformity tuning' is the process of compensating for incoming wafer thickness variations after grinding.",
+      "structure": {
+        "identifier": "3B001.c.4",
+        "heading": "Equipment designed for Through Silicon Via (TSV) etch having all of the following:",
+        "label": "3B001.c.4 – Equipment designed for Through Silicon Via (TSV) etch having all of the following:",
+        "children": [
+          {
+            "identifier": "3B001.c.4.a",
+            "heading": "Silicon etch rate greater than 7 microns per minute;",
+            "label": "3B001.c.4.a – Silicon etch rate greater than 7 microns per minute;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.4.a. Silicon etch rate greater than 7 microns per minute;</P>",
+                "text": "c.4.a. Silicon etch rate greater than 7 microns per minute;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.c.4.b",
+            "heading": "Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and",
+            "label": "3B001.c.4.b – Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.4.b. Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; <I>and</I></P>",
+                "text": "c.4.b. Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.c.4.c",
+            "heading": "A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.",
+            "label": "3B001.c.4.c – A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.4.c. A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.</P>",
+                "text": "c.4.c. A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>3B001.c includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.</I></P></NOTE>",
+                "text": "Note 1: 3B001.c includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3B001.c.1.c includes etching using RF pulse excited plasma, pulsed duty cycle excited plasma, pulsed voltage on electrodes modified plasma, cyclic injection and purging of gases combined with a plasma, plasma atomic layer etching, or plasma quasi-atomic layer etching.</I></P></NOTE>",
+                "text": "Note 2: 3B001.c.1.c includes etching using RF pulse excited plasma, pulsed duty cycle excited plasma, pulsed voltage on electrodes modified plasma, cyclic injection and purging of gases combined with a plasma, plasma atomic layer etching, or plasma quasi-atomic layer etching.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Notes:</I>\n</HED>\n<P><I>1. For the purposes of 3B001.c, 'silicon germanium-to-silicon (SiGe:Si) etch selectivity' is measured for a Ge concentration of greater than or equal to 30% (Si</I><E T=\"52\">0.70</E>Ge<E T=\"52\">0.30</E><I>).</I></P>\n<P><I>2. For the purposes of 3B001.c Note 1 and 3B001.d.14, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration.</I></P>\n<P><I>3. For the purposes of 3B001.c.3, 'process uniformity tuning' is the process of compensating for incoming wafer thickness variations after grinding.</I></P></NOTE>",
+                "text": "Technical Notes: 1. For the purposes of 3B001.c, 'silicon germanium-to-silicon (SiGe:Si) etch selectivity' is measured for a Ge concentration of greater than or equal to 30% (Si0.70Ge0.30). 2. For the purposes of 3B001.c Note 1 and 3B001.d.14, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration. 3. For the purposes of 3B001.c.3, 'process uniformity tuning' is the process of compensating for incoming wafer thickness variations after grinding.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "Equipment designed for Through Silicon Via (TSV) etch having all of the following:",
+      "title": "Equipment designed for Through Silicon Via (TSV) etch having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Etch equipment."
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.c"
+      ],
+      "text": "Equipment designed for Through Silicon Via (TSV) etch having all of the following:\nSilicon etch rate greater than 7 microns per minute;\nc.4.a. Silicon etch rate greater than 7 microns per minute;\nWithin wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and\nc.4.b. Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and\nA Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.\nc.4.c. A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.\nNote 1: 3B001.c includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.\nNote 2: 3B001.c.1.c includes etching using RF pulse excited plasma, pulsed duty cycle excited plasma, pulsed voltage on electrodes modified plasma, cyclic injection and purging of gases combined with a plasma, plasma atomic layer etching, or plasma quasi-atomic layer etching.\nTechnical Notes: 1. For the purposes of 3B001.c, 'silicon germanium-to-silicon (SiGe:Si) etch selectivity' is measured for a Ge concentration of greater than or equal to 30% (Si0.70Ge0.30). 2. For the purposes of 3B001.c Note 1 and 3B001.d.14, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration. 3. For the purposes of 3B001.c.3, 'process uniformity tuning' is the process of compensating for incoming wafer thickness variations after grinding.",
+      "structure": {
+        "identifier": "3B001.c.4",
+        "heading": "Equipment designed for Through Silicon Via (TSV) etch having all of the following:",
+        "label": "3B001.c.4 – Equipment designed for Through Silicon Via (TSV) etch having all of the following:",
+        "children": [
+          {
+            "identifier": "3B001.c.4.a",
+            "heading": "Silicon etch rate greater than 7 microns per minute;",
+            "label": "3B001.c.4.a – Silicon etch rate greater than 7 microns per minute;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.4.a. Silicon etch rate greater than 7 microns per minute;\n</P>",
+                "text": "c.4.a. Silicon etch rate greater than 7 microns per minute;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.c.4.b",
+            "heading": "Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and",
+            "label": "3B001.c.4.b – Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.4.b. Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; <I>and</I>\n</P>",
+                "text": "c.4.b. Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.c.4.c",
+            "heading": "A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.",
+            "label": "3B001.c.4.c – A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.4.c. A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.\n</P>",
+                "text": "c.4.c. A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>3B001.c includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.</I></P></NOTE>",
+                "text": "Note 1: 3B001.c includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3B001.c.1.c includes etching using RF pulse excited plasma, pulsed duty cycle excited plasma, pulsed voltage on electrodes modified plasma, cyclic injection and purging of gases combined with a plasma, plasma atomic layer etching, or plasma quasi-atomic layer etching.</I></P></NOTE>",
+                "text": "Note 2: 3B001.c.1.c includes etching using RF pulse excited plasma, pulsed duty cycle excited plasma, pulsed voltage on electrodes modified plasma, cyclic injection and purging of gases combined with a plasma, plasma atomic layer etching, or plasma quasi-atomic layer etching.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Notes:</I>\n</HED>\n<P><I>1. For the purposes of 3B001.c, 'silicon germanium-to-silicon (SiGe:Si) etch selectivity' is measured for a Ge concentration of greater than or equal to 30% (Si</I><E T=\"52\">0.70</E>Ge<E T=\"52\">0.30</E><I>).</I>\n</P>\n<P><I>2. For the purposes of 3B001.c Note 1 and 3B001.d.14, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration.</I>\n</P>\n<P><I>3. For the purposes of 3B001.c.3, 'process uniformity tuning' is the process of compensating for incoming wafer thickness variations after grinding.</I></P></NOTE>",
+                "text": "Technical Notes: 1. For the purposes of 3B001.c, 'silicon germanium-to-silicon (SiGe:Si) etch selectivity' is measured for a Ge concentration of greater than or equal to 30% (Si0.70Ge0.30). 2. For the purposes of 3B001.c Note 1 and 3B001.d.14, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration. 3. For the purposes of 3B001.c.3, 'process uniformity tuning' is the process of compensating for incoming wafer thickness variations after grinding.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "Equipment designed for Through Silicon Via (TSV) etch having all of the following:",
+      "title": "Equipment designed for Through Silicon Via (TSV) etch having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Etch equipment."
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.c"
+      ],
+      "text": "Equipment designed for Through Silicon Via (TSV) etch having all of the following:\nSilicon etch rate greater than 7 microns per minute;\nc.4.a. Silicon etch rate greater than 7 microns per minute;\nWithin wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and\nc.4.b. Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and\nA Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.\nc.4.c. A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.\nNote 1: 3B001.c includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.\nNote 2: 3B001.c.1.c includes etching using RF pulse excited plasma, pulsed duty cycle excited plasma, pulsed voltage on electrodes modified plasma, cyclic injection and purging of gases combined with a plasma, plasma atomic layer etching, or plasma quasi-atomic layer etching.\nTechnical Notes: 1. For the purposes of 3B001.c, 'silicon germanium-to-silicon (SiGe:Si) etch selectivity' is measured for a Ge concentration of greater than or equal to 30% (Si0.70Ge0.30). 2. For the purposes of 3B001.c Note 1 and 3B001.d.14, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration. 3. For the purposes of 3B001.c.3, 'process uniformity tuning' is the process of compensating for incoming wafer thickness variations after grinding.",
+      "structure": {
+        "identifier": "3B001.c.4",
+        "heading": "Equipment designed for Through Silicon Via (TSV) etch having all of the following:",
+        "label": "3B001.c.4 – Equipment designed for Through Silicon Via (TSV) etch having all of the following:",
+        "children": [
+          {
+            "identifier": "3B001.c.4.a",
+            "heading": "Silicon etch rate greater than 7 microns per minute;",
+            "label": "3B001.c.4.a – Silicon etch rate greater than 7 microns per minute;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.4.a. Silicon etch rate greater than 7 microns per minute;\n</P>",
+                "text": "c.4.a. Silicon etch rate greater than 7 microns per minute;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.c.4.b",
+            "heading": "Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and",
+            "label": "3B001.c.4.b – Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.4.b. Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; <I>and</I>\n</P>",
+                "text": "c.4.b. Within wafer (WIW) etch depth non-uniformity of less than or equal 2 percent; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.c.4.c",
+            "heading": "A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.",
+            "label": "3B001.c.4.c – A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.4.c. A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.\n</P>",
+                "text": "c.4.c. A Through Silicon Via (TSV) aspect ratio greater than or equal to 10:1.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>3B001.c includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.</I></P></NOTE>",
+                "text": "Note 1: 3B001.c includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3B001.c.1.c includes etching using RF pulse excited plasma, pulsed duty cycle excited plasma, pulsed voltage on electrodes modified plasma, cyclic injection and purging of gases combined with a plasma, plasma atomic layer etching, or plasma quasi-atomic layer etching.</I></P></NOTE>",
+                "text": "Note 2: 3B001.c.1.c includes etching using RF pulse excited plasma, pulsed duty cycle excited plasma, pulsed voltage on electrodes modified plasma, cyclic injection and purging of gases combined with a plasma, plasma atomic layer etching, or plasma quasi-atomic layer etching.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Notes:</I>\n</HED>\n<P><I>1. For the purposes of 3B001.c, 'silicon germanium-to-silicon (SiGe:Si) etch selectivity' is measured for a Ge concentration of greater than or equal to 30% (Si</I><E T=\"52\">0.70</E>Ge<E T=\"52\">0.30</E><I>).</I>\n</P>\n<P><I>2. For the purposes of 3B001.c Note 1 and 3B001.d.14, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration.</I>\n</P>\n<P><I>3. For the purposes of 3B001.c.3, 'process uniformity tuning' is the process of compensating for incoming wafer thickness variations after grinding.</I></P></NOTE>",
+                "text": "Technical Notes: 1. For the purposes of 3B001.c, 'silicon germanium-to-silicon (SiGe:Si) etch selectivity' is measured for a Ge concentration of greater than or equal to 30% (Si0.70Ge0.30). 2. For the purposes of 3B001.c Note 1 and 3B001.d.14, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration. 3. For the purposes of 3B001.c.3, 'process uniformity tuning' is the process of compensating for incoming wafer thickness variations after grinding.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    }
+  ]
+}

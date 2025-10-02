@@ -1,0 +1,206 @@
+{
+  "eccn": "1C353.b.2",
+  "normalized": "1C353.B.2",
+  "history": [
+    {
+      "version": "2017-01-15",
+      "fetchedAt": "2025-10-02T20:33:28.357Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-15/title-15?format=xml",
+      "heading": "Genetically modified organisms that contain nucleic acid sequences coding for any of the “toxins” controlled by 1C351.d or “sub-units of toxins” thereof.",
+      "title": "Genetically modified organisms that contain nucleic acid sequences coding for any of the “toxins” controlled by 1C351.d or “sub-units of toxins” thereof.",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C353 Genetic elements and genetically modified organisms, as follows (see List of Items Controlled).",
+        "Genetically modified organisms, as follows:"
+      ],
+      "ancestors": [
+        "1C353",
+        "1C353.b"
+      ],
+      "text": "Genetically modified organisms that contain nucleic acid sequences coding for any of the “toxins” controlled by 1C351.d or “sub-units of toxins” thereof.\nTechnical Note: 1. “Genetic elements” include, inter alia, chromosomes, genomes, plasmids, transposons, and vectors, whether genetically modified or unmodified, or chemically synthesized in whole or in part. 2. This ECCN does not control nucleic acid sequences associated with the pathogenicity of enterohaemorrhagic Escherichia coli, serotype O157 and other verotoxin producing strains, except those nucleic acid sequences that contain coding for the verotoxin or its sub-units. 3. “Nucleic acid sequences associated with the pathogenicity of any of the microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354” means any sequence specific to the relevant controlled microorganism that: a. In itself or through its transcribed or translated products represents a significant hazard to human, animal or plant health; or b. Is known to enhance the ability of a microorganism controlled by 1C351.a, 1C351.b, 1C351.c or 1C354, or any other organism into which it may be inserted or otherwise integrated, to cause serious harm to human, animal or plant health. 4. “Genetically modified organisms” include organisms in which the genetic material (nucleic acid sequences) has been altered in a way that does not occur naturally by mating and/or natural recombination, and encompasses those produced artificially in whole or in part.",
+      "structure": {
+        "identifier": "1C353.b.2",
+        "heading": "Genetically modified organisms that contain nucleic acid sequences coding for any of the “toxins” controlled by 1C351.d or “sub-units of toxins” thereof.",
+        "label": "1C353.b.2 – Genetically modified organisms that contain nucleic acid sequences coding for any of the “toxins” controlled by 1C351.d or “sub-units of toxins” thereof.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>1. “Genetic elements” include, inter alia, chromosomes, genomes, plasmids, transposons, and vectors, whether genetically modified or unmodified, or chemically synthesized in whole or in part.</I></P>\n<P><I>2. This ECCN does not control nucleic acid sequences associated with the pathogenicity of enterohaemorrhagic Escherichia coli, serotype O157 and other verotoxin producing strains, except those nucleic acid sequences that contain coding for the verotoxin or its sub-units.</I></P>\n<P><I>3. “Nucleic acid sequences associated with the pathogenicity of any of the microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354” means any sequence specific to the relevant controlled microorganism that:</I></P>\n<P><I>a. In itself or through its transcribed or translated products represents a significant hazard to human, animal or plant health; or</I></P>\n<P><I>b. Is known to enhance the ability of a microorganism controlled by 1C351.a, 1C351.b, 1C351.c or 1C354, or any other organism into which it may be inserted or otherwise integrated, to cause serious harm to human, animal or plant health.</I></P>\n<P><I>4. “Genetically modified organisms” include organisms in which the genetic material (nucleic acid sequences) has been altered in a way that does not occur naturally by mating and/or natural recombination, and encompasses those produced artificially in whole or in part.</I></P></NOTE>",
+            "text": "Technical Note: 1. “Genetic elements” include, inter alia, chromosomes, genomes, plasmids, transposons, and vectors, whether genetically modified or unmodified, or chemically synthesized in whole or in part. 2. This ECCN does not control nucleic acid sequences associated with the pathogenicity of enterohaemorrhagic Escherichia coli, serotype O157 and other verotoxin producing strains, except those nucleic acid sequences that contain coding for the verotoxin or its sub-units. 3. “Nucleic acid sequences associated with the pathogenicity of any of the microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354” means any sequence specific to the relevant controlled microorganism that: a. In itself or through its transcribed or translated products represents a significant hazard to human, animal or plant health; or b. Is known to enhance the ability of a microorganism controlled by 1C351.a, 1C351.b, 1C351.c or 1C354, or any other organism into which it may be inserted or otherwise integrated, to cause serious harm to human, animal or plant health. 4. “Genetically modified organisms” include organisms in which the genetic material (nucleic acid sequences) has been altered in a way that does not occur naturally by mating and/or natural recombination, and encompasses those produced artificially in whole or in part.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-07-07",
+      "fetchedAt": "2025-10-02T20:33:28.904Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-07-07/title-15?format=xml",
+      "heading": "Genetically modified organisms that contain nucleic acid sequences coding for any of the “toxins” controlled by 1C351.d or “sub-units of toxins” thereof.",
+      "title": "Genetically modified organisms that contain nucleic acid sequences coding for any of the “toxins” controlled by 1C351.d or “sub-units of toxins” thereof.",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C353 Genetic elements and genetically modified organisms, as follows (see List of Items Controlled).",
+        "Genetically modified organisms, as follows:"
+      ],
+      "ancestors": [
+        "1C353",
+        "1C353.b"
+      ],
+      "text": "Genetically modified organisms that contain nucleic acid sequences coding for any of the “toxins” controlled by 1C351.d or “sub-units of toxins” thereof.\nTechnical Note: 1. “Genetic elements” include, inter alia, chromosomes, genomes, plasmids, transposons, and vectors, whether genetically modified or unmodified, or chemically synthesized in whole or in part. 2. This ECCN does not control nucleic acid sequences associated with the pathogenicity of enterohaemorrhagic Escherichia coli, serotype O157 and other verotoxin producing strains, except those nucleic acid sequences that contain coding for the verotoxin or its sub-units. 3. “Nucleic acid sequences associated with the pathogenicity of any of the microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354” means any sequence specific to the relevant controlled microorganism that: a. In itself or through its transcribed or translated products represents a significant hazard to human, animal or plant health; or b. Is known to enhance the ability of a microorganism controlled by 1C351.a, 1C351.b, 1C351.c or 1C354, or any other organism into which it may be inserted or otherwise integrated, to cause serious harm to human, animal or plant health. 4. “Genetically modified organisms” include organisms in which the genetic material (nucleic acid sequences) has been altered in a way that does not occur naturally by mating and/or natural recombination, and encompasses those produced artificially in whole or in part.",
+      "structure": {
+        "identifier": "1C353.b.2",
+        "heading": "Genetically modified organisms that contain nucleic acid sequences coding for any of the “toxins” controlled by 1C351.d or “sub-units of toxins” thereof.",
+        "label": "1C353.b.2 – Genetically modified organisms that contain nucleic acid sequences coding for any of the “toxins” controlled by 1C351.d or “sub-units of toxins” thereof.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>1. “Genetic elements” include, inter alia, chromosomes, genomes, plasmids, transposons, and vectors, whether genetically modified or unmodified, or chemically synthesized in whole or in part.</I></P>\n<P><I>2. This ECCN does not control nucleic acid sequences associated with the pathogenicity of enterohaemorrhagic Escherichia coli, serotype O157 and other verotoxin producing strains, except those nucleic acid sequences that contain coding for the verotoxin or its sub-units.</I></P>\n<P><I>3. “Nucleic acid sequences associated with the pathogenicity of any of the microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354” means any sequence specific to the relevant controlled microorganism that:</I></P>\n<P><I>a. In itself or through its transcribed or translated products represents a significant hazard to human, animal or plant health; or</I></P>\n<P><I>b. Is known to enhance the ability of a microorganism controlled by 1C351.a, 1C351.b, 1C351.c or 1C354, or any other organism into which it may be inserted or otherwise integrated, to cause serious harm to human, animal or plant health.</I></P>\n<P><I>4. “Genetically modified organisms” include organisms in which the genetic material (nucleic acid sequences) has been altered in a way that does not occur naturally by mating and/or natural recombination, and encompasses those produced artificially in whole or in part.</I></P></NOTE>",
+            "text": "Technical Note: 1. “Genetic elements” include, inter alia, chromosomes, genomes, plasmids, transposons, and vectors, whether genetically modified or unmodified, or chemically synthesized in whole or in part. 2. This ECCN does not control nucleic acid sequences associated with the pathogenicity of enterohaemorrhagic Escherichia coli, serotype O157 and other verotoxin producing strains, except those nucleic acid sequences that contain coding for the verotoxin or its sub-units. 3. “Nucleic acid sequences associated with the pathogenicity of any of the microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354” means any sequence specific to the relevant controlled microorganism that: a. In itself or through its transcribed or translated products represents a significant hazard to human, animal or plant health; or b. Is known to enhance the ability of a microorganism controlled by 1C351.a, 1C351.b, 1C351.c or 1C354, or any other organism into which it may be inserted or otherwise integrated, to cause serious harm to human, animal or plant health. 4. “Genetically modified organisms” include organisms in which the genetic material (nucleic acid sequences) has been altered in a way that does not occur naturally by mating and/or natural recombination, and encompasses those produced artificially in whole or in part.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-08-15",
+      "fetchedAt": "2025-10-02T20:33:29.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-08-15/title-15?format=xml",
+      "heading": "Genetically modified organisms that contain nucleic acid sequences coding for any of the “toxins” controlled by 1C351.d or “sub-units of toxins” thereof.",
+      "title": "Genetically modified organisms that contain nucleic acid sequences coding for any of the “toxins” controlled by 1C351.d or “sub-units of toxins” thereof.",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "1C353 Genetic elements and genetically modified organisms, as follows (see List of Items Controlled).",
+        "Genetically modified organisms, as follows:"
+      ],
+      "ancestors": [
+        "1C353",
+        "1C353.b"
+      ],
+      "text": "Genetically modified organisms that contain nucleic acid sequences coding for any of the “toxins” controlled by 1C351.d or “sub-units of toxins” thereof.\nTechnical Note: 1. “Genetic elements” include, inter alia, chromosomes, genomes, plasmids, transposons, and vectors, whether genetically modified or unmodified, or chemically synthesized in whole or in part. 2. This ECCN does not control nucleic acid sequences associated with the pathogenicity of enterohaemorrhagic Escherichia coli, serotype O157 and other verotoxin producing strains, except those nucleic acid sequences that contain coding for the verotoxin or its sub-units. 3. “Nucleic acid sequences associated with the pathogenicity of any of the microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354” means any sequence specific to the relevant controlled microorganism that: a. In itself or through its transcribed or translated products represents a significant hazard to human, animal or plant health; or b. Is known to enhance the ability of a microorganism controlled by 1C351.a, 1C351.b, 1C351.c or 1C354, or any other organism into which it may be inserted or otherwise integrated, to cause serious harm to human, animal or plant health. 4. “Genetically modified organisms” include organisms in which the genetic material (nucleic acid sequences) has been altered in a way that does not occur naturally by mating and/or natural recombination, and encompasses those produced artificially in whole or in part.",
+      "structure": {
+        "identifier": "1C353.b.2",
+        "heading": "Genetically modified organisms that contain nucleic acid sequences coding for any of the “toxins” controlled by 1C351.d or “sub-units of toxins” thereof.",
+        "label": "1C353.b.2 – Genetically modified organisms that contain nucleic acid sequences coding for any of the “toxins” controlled by 1C351.d or “sub-units of toxins” thereof.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>1. “Genetic elements” include, inter alia, chromosomes, genomes, plasmids, transposons, and vectors, whether genetically modified or unmodified, or chemically synthesized in whole or in part.</I></P>\n<P><I>2. This ECCN does not control nucleic acid sequences associated with the pathogenicity of enterohaemorrhagic Escherichia coli, serotype O157 and other verotoxin producing strains, except those nucleic acid sequences that contain coding for the verotoxin or its sub-units.</I></P>\n<P><I>3. “Nucleic acid sequences associated with the pathogenicity of any of the microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354” means any sequence specific to the relevant controlled microorganism that:</I></P>\n<P><I>a. In itself or through its transcribed or translated products represents a significant hazard to human, animal or plant health; or</I></P>\n<P><I>b. Is known to enhance the ability of a microorganism controlled by 1C351.a, 1C351.b, 1C351.c or 1C354, or any other organism into which it may be inserted or otherwise integrated, to cause serious harm to human, animal or plant health.</I></P>\n<P><I>4. “Genetically modified organisms” include organisms in which the genetic material (nucleic acid sequences) has been altered in a way that does not occur naturally by mating and/or natural recombination, and encompasses those produced artificially in whole or in part.</I></P></NOTE>",
+            "text": "Technical Note: 1. “Genetic elements” include, inter alia, chromosomes, genomes, plasmids, transposons, and vectors, whether genetically modified or unmodified, or chemically synthesized in whole or in part. 2. This ECCN does not control nucleic acid sequences associated with the pathogenicity of enterohaemorrhagic Escherichia coli, serotype O157 and other verotoxin producing strains, except those nucleic acid sequences that contain coding for the verotoxin or its sub-units. 3. “Nucleic acid sequences associated with the pathogenicity of any of the microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354” means any sequence specific to the relevant controlled microorganism that: a. In itself or through its transcribed or translated products represents a significant hazard to human, animal or plant health; or b. Is known to enhance the ability of a microorganism controlled by 1C351.a, 1C351.b, 1C351.c or 1C354, or any other organism into which it may be inserted or otherwise integrated, to cause serious harm to human, animal or plant health. 4. “Genetically modified organisms” include organisms in which the genetic material (nucleic acid sequences) has been altered in a way that does not occur naturally by mating and/or natural recombination, and encompasses those produced artificially in whole or in part.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-12-27",
+      "fetchedAt": "2025-10-02T20:33:29.759Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-12-27/title-15?format=xml",
+      "heading": "Genetically modified organisms that contain nucleic acid sequences coding for any of the “toxins” controlled by 1C351.d or “sub-units of toxins” thereof.",
+      "title": "Genetically modified organisms that contain nucleic acid sequences coding for any of the “toxins” controlled by 1C351.d or “sub-units of toxins” thereof.",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "1C353 Genetic elements and genetically modified organisms, as follows (see List of Items Controlled).",
+        "Genetically modified organisms, as follows:"
+      ],
+      "ancestors": [
+        "1C353",
+        "1C353.b"
+      ],
+      "text": "Genetically modified organisms that contain nucleic acid sequences coding for any of the “toxins” controlled by 1C351.d or “sub-units of toxins” thereof.\nTechnical Note: 1. “Genetic elements” include, inter alia, chromosomes, genomes, plasmids, transposons, and vectors, whether genetically modified or unmodified, or chemically synthesized in whole or in part. 2. This ECCN does not control nucleic acid sequences associated with the pathogenicity of enterohaemorrhagic Escherichia coli, serotype O157 and other verotoxin producing strains, except those nucleic acid sequences that contain coding for the verotoxin or its sub-units. 3. “Nucleic acid sequences associated with the pathogenicity of any of the microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354” means any sequence specific to the relevant controlled microorganism that: a. In itself or through its transcribed or translated products represents a significant hazard to human, animal or plant health; or b. Is known to enhance the ability of a microorganism controlled by 1C351.a, 1C351.b, 1C351.c or 1C354, or any other organism into which it may be inserted or otherwise integrated, to cause serious harm to human, animal or plant health. 4. “Genetically modified organisms” include organisms in which the genetic material (nucleic acid sequences) has been altered in a way that does not occur naturally by mating and/or natural recombination, and encompasses those produced artificially in whole or in part.",
+      "structure": {
+        "identifier": "1C353.b.2",
+        "heading": "Genetically modified organisms that contain nucleic acid sequences coding for any of the “toxins” controlled by 1C351.d or “sub-units of toxins” thereof.",
+        "label": "1C353.b.2 – Genetically modified organisms that contain nucleic acid sequences coding for any of the “toxins” controlled by 1C351.d or “sub-units of toxins” thereof.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>1. “Genetic elements” include, inter alia, chromosomes, genomes, plasmids, transposons, and vectors, whether genetically modified or unmodified, or chemically synthesized in whole or in part.</I></P>\n<P><I>2. This ECCN does not control nucleic acid sequences associated with the pathogenicity of enterohaemorrhagic Escherichia coli, serotype O157 and other verotoxin producing strains, except those nucleic acid sequences that contain coding for the verotoxin or its sub-units.</I></P>\n<P><I>3. “Nucleic acid sequences associated with the pathogenicity of any of the microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354” means any sequence specific to the relevant controlled microorganism that:</I></P>\n<P><I>a. In itself or through its transcribed or translated products represents a significant hazard to human, animal or plant health; or</I></P>\n<P><I>b. Is known to enhance the ability of a microorganism controlled by 1C351.a, 1C351.b, 1C351.c or 1C354, or any other organism into which it may be inserted or otherwise integrated, to cause serious harm to human, animal or plant health.</I></P>\n<P><I>4. “Genetically modified organisms” include organisms in which the genetic material (nucleic acid sequences) has been altered in a way that does not occur naturally by mating and/or natural recombination, and encompasses those produced artificially in whole or in part.</I></P></NOTE>",
+            "text": "Technical Note: 1. “Genetic elements” include, inter alia, chromosomes, genomes, plasmids, transposons, and vectors, whether genetically modified or unmodified, or chemically synthesized in whole or in part. 2. This ECCN does not control nucleic acid sequences associated with the pathogenicity of enterohaemorrhagic Escherichia coli, serotype O157 and other verotoxin producing strains, except those nucleic acid sequences that contain coding for the verotoxin or its sub-units. 3. “Nucleic acid sequences associated with the pathogenicity of any of the microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354” means any sequence specific to the relevant controlled microorganism that: a. In itself or through its transcribed or translated products represents a significant hazard to human, animal or plant health; or b. Is known to enhance the ability of a microorganism controlled by 1C351.a, 1C351.b, 1C351.c or 1C354, or any other organism into which it may be inserted or otherwise integrated, to cause serious harm to human, animal or plant health. 4. “Genetically modified organisms” include organisms in which the genetic material (nucleic acid sequences) has been altered in a way that does not occur naturally by mating and/or natural recombination, and encompasses those produced artificially in whole or in part.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-01-08",
+      "fetchedAt": "2025-10-02T20:33:30.194Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-01-08/title-15?format=xml",
+      "heading": "Genetically modified organisms that contain nucleic acid sequences coding for any of the “toxins” controlled by 1C351.d or “sub-units of toxins” thereof.",
+      "title": "Genetically modified organisms that contain nucleic acid sequences coding for any of the “toxins” controlled by 1C351.d or “sub-units of toxins” thereof.",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "1C353 Genetic elements and genetically modified organisms, as follows (see List of Items Controlled).",
+        "Genetically modified organisms, as follows:"
+      ],
+      "ancestors": [
+        "1C353",
+        "1C353.b"
+      ],
+      "text": "Genetically modified organisms that contain nucleic acid sequences coding for any of the “toxins” controlled by 1C351.d or “sub-units of toxins” thereof.\nTechnical Note: 1. “Genetic elements” include, inter alia, chromosomes, genomes, plasmids, transposons, and vectors, whether genetically modified or unmodified, or chemically synthesized in whole or in part. 2. This ECCN does not control nucleic acid sequences associated with the pathogenicity of enterohaemorrhagic Escherichia coli, serotype O157 and other verotoxin producing strains, except those nucleic acid sequences that contain coding for the verotoxin or its sub-units. 3. “Nucleic acid sequences associated with the pathogenicity of any of the microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354” means any sequence specific to the relevant controlled microorganism that: a. In itself or through its transcribed or translated products represents a significant hazard to human, animal or plant health; or b. Is known to enhance the ability of a microorganism controlled by 1C351.a, 1C351.b, 1C351.c or 1C354, or any other organism into which it may be inserted or otherwise integrated, to cause serious harm to human, animal or plant health. 4. “Genetically modified organisms” include organisms in which the genetic material (nucleic acid sequences) has been altered in a way that does not occur naturally by mating and/or natural recombination, and encompasses those produced artificially in whole or in part.",
+      "structure": {
+        "identifier": "1C353.b.2",
+        "heading": "Genetically modified organisms that contain nucleic acid sequences coding for any of the “toxins” controlled by 1C351.d or “sub-units of toxins” thereof.",
+        "label": "1C353.b.2 – Genetically modified organisms that contain nucleic acid sequences coding for any of the “toxins” controlled by 1C351.d or “sub-units of toxins” thereof.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>1. “Genetic elements” include, inter alia, chromosomes, genomes, plasmids, transposons, and vectors, whether genetically modified or unmodified, or chemically synthesized in whole or in part.</I></P>\n<P><I>2. This ECCN does not control nucleic acid sequences associated with the pathogenicity of enterohaemorrhagic Escherichia coli, serotype O157 and other verotoxin producing strains, except those nucleic acid sequences that contain coding for the verotoxin or its sub-units.</I></P>\n<P><I>3. “Nucleic acid sequences associated with the pathogenicity of any of the microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354” means any sequence specific to the relevant controlled microorganism that:</I></P>\n<P><I>a. In itself or through its transcribed or translated products represents a significant hazard to human, animal or plant health; or</I></P>\n<P><I>b. Is known to enhance the ability of a microorganism controlled by 1C351.a, 1C351.b, 1C351.c or 1C354, or any other organism into which it may be inserted or otherwise integrated, to cause serious harm to human, animal or plant health.</I></P>\n<P><I>4. “Genetically modified organisms” include organisms in which the genetic material (nucleic acid sequences) has been altered in a way that does not occur naturally by mating and/or natural recombination, and encompasses those produced artificially in whole or in part.</I></P></NOTE>",
+            "text": "Technical Note: 1. “Genetic elements” include, inter alia, chromosomes, genomes, plasmids, transposons, and vectors, whether genetically modified or unmodified, or chemically synthesized in whole or in part. 2. This ECCN does not control nucleic acid sequences associated with the pathogenicity of enterohaemorrhagic Escherichia coli, serotype O157 and other verotoxin producing strains, except those nucleic acid sequences that contain coding for the verotoxin or its sub-units. 3. “Nucleic acid sequences associated with the pathogenicity of any of the microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354” means any sequence specific to the relevant controlled microorganism that: a. In itself or through its transcribed or translated products represents a significant hazard to human, animal or plant health; or b. Is known to enhance the ability of a microorganism controlled by 1C351.a, 1C351.b, 1C351.c or 1C354, or any other organism into which it may be inserted or otherwise integrated, to cause serious harm to human, animal or plant health. 4. “Genetically modified organisms” include organisms in which the genetic material (nucleic acid sequences) has been altered in a way that does not occur naturally by mating and/or natural recombination, and encompasses those produced artificially in whole or in part.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

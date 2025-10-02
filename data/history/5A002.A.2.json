@@ -1,0 +1,1627 @@
+{
+  "eccn": "5A002.a.2",
+  "normalized": "5A002.A.2",
+  "history": [
+    {
+      "version": "2017-01-15",
+      "fetchedAt": "2025-10-02T20:33:28.357Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-15/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Systems, equipment and components, for cryptographic “information security,” as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "[Reserved]\nN.B.: See 5A004.a for items formerly specified in 5A002.a.2.\nNote: 5A002.a does not control any of the following: (a) Smart cards and smart card 'readers/writers' as follows: (1) A smart card or an electronically readable personal document (e.g., token coin, e-passport) that meets any of the following: a. The cryptographic capability is restricted for use in equipment or systems, excluded from 5A002, 5A003 or 5A004 by Note 4 in Category 5 - Part 2 or entries (b) to (i) of this Note, and cannot be reprogrammed for any other use; or b. Having all of the following: 1. It is specially designed and limited to allow protection of 'personal data' stored within; 2. Has been, or can only be, personalized for public or commercial transactions or individual identification; and 3. Where the cryptographic capability is not user-accessible;\nTechnical Note: 'Personal data' includes any data specific to a particular person or entity, such as the amount of money stored and data necessary for authentication. (2). 'Readers/writers' specially designed or modified, and limited, for items specified by (a)(1) of this Note;\nTechnical Note: 'Readers/writers' include equipment that communicates with smart cards or electronically readable documents through a network. (b) Cryptographic equipment specially designed and limited for banking use or 'money transactions';\nTechnical Note: 'Money transactions' in 5A002 Note (b) includes the collection and settlement of fares or credit functions. (c) Portable or mobile radiotelephones for civil use (e.g., for use with commercial civil cellular radio communication systems) that are not capable of transmitting encrypted data directly to another radiotelephone or equipment (other than Radio Access Network (RAN) equipment), nor of passing encrypted data through RAN equipment (e.g., Radio Network Controller (RNC) or Base Station Controller (BSC)); (d) Cordless telephone equipment not capable of end-to-end encryption where the maximum effective range of unboosted cordless operation (i.e., a single, unrelayed hop between terminal and home base station) is less than 400 meters according to the manufacturer's specifications; (e) Portable or mobile radiotelephones and similar client wireless devices for civil use, that implement only published or commercial cryptographic standards (except for anti-piracy functions, which may be non-published) and also meet the provisions of paragraphs a.2. to a.5. of the Cryptography Note (Note 3 in Category 5 - Part 2), that have been customized for a specific civil industry application with features that do not affect the cryptographic functionality of these original non-customized devices; (f) Wireless “personal area network” equipment that implement only published or commercial cryptographic standards and where the cryptographic capability is limited to a nominal operating range not exceeding 30 meters according to the manufacturer's specifications, or not exceeding 100 meters according to the manufacturer's specifications for equipment that cannot interconnect with more than seven devices; (g) Equipment meeting all of the following: 1. All cryptographic capability specified by 5A002.a meets any of the following: a. It cannot be used; or b. It can only be made useable by means of “cryptographic activation;” and 2. When necessary as determined by the appropriate authority in the exporter's country, details of the equipment are accessible and will be provided to the authority upon request, in order to ascertain compliance with conditions described above;\nN.B.1: See 5A002.a for equipment that has undergone “cryptographic activation.”\nN.B.2: See also 5A002.b, 5D002.d and 5E002.b. (h) Mobile telecommunications Radio Access Network (RAN) equipment designed for civil use, which also meet the provisions 2. to 5. of part a. of the Cryptography Note (Note 3 in Category 5 - Part 2), having an RF output power limited to 0.1W (20 dBm) or less, and supporting 16 or fewer concurrent users; (i) Routers, switches or relays, where the “information security” functionality is limited to the tasks of “Operations, Administration or Maintenance” (“OAM”) implementing only published or commercial cryptographic standards; or (j) General purpose computing equipment or servers, where the “information security” functionality meets all of the following: 1. Uses only published or commercial cryptographic standards; and 2. Is any of the following: a. Integral to a CPU that meets the provisions of Note 3 in Category 5 - Part 2; b. Integral to an operating system that is not specified by 5D002; or c. Limited to “OAM” of the equipment.",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "[Reserved]",
+        "label": "5A002.a.2 – [Reserved]",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>N.B.:</I></HED>\n<P><I>See 5A004.a for items formerly specified in 5A002.a.2.</I></P></NOTE>",
+            "text": "N.B.: See 5A004.a for items formerly specified in 5A002.a.2.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>5A002.a does not control any of the following:</I></P>\n<P><I>(a) Smart cards and smart card 'readers/writers' as follows:</I></P>\n<P><I>(1) A smart card or an electronically readable personal document (e.g., token coin, e-passport) that meets any of the following:</I></P>\n<P><I>a. The cryptographic capability is restricted for use in equipment or systems, excluded from 5A002, 5A003 or 5A004 by Note 4 in Category 5 - Part 2 or entries (b) to (i) of this Note, and cannot be reprogrammed for any other use; or</I></P>\n<P><I>b. Having all of the following:</I></P>\n<P><I>1. It is specially designed and limited to allow protection of 'personal data' stored within;</I></P>\n<P><I>2. Has been, or can only be, personalized for public or commercial transactions or individual identification; and</I></P>\n<P><I>3. Where the cryptographic capability is not user-accessible;</I></P></NOTE>",
+            "text": "Note: 5A002.a does not control any of the following: (a) Smart cards and smart card 'readers/writers' as follows: (1) A smart card or an electronically readable personal document (e.g., token coin, e-passport) that meets any of the following: a. The cryptographic capability is restricted for use in equipment or systems, excluded from 5A002, 5A003 or 5A004 by Note 4 in Category 5 - Part 2 or entries (b) to (i) of this Note, and cannot be reprogrammed for any other use; or b. Having all of the following: 1. It is specially designed and limited to allow protection of 'personal data' stored within; 2. Has been, or can only be, personalized for public or commercial transactions or individual identification; and 3. Where the cryptographic capability is not user-accessible;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>'Personal data' includes any data specific to a particular person or entity, such as the amount of money stored and data necessary for authentication.</I></P>\n<P><I>(2). 'Readers/writers' specially designed or modified, and limited, for items specified by (a)(1) of this Note;</I></P></NOTE>",
+            "text": "Technical Note: 'Personal data' includes any data specific to a particular person or entity, such as the amount of money stored and data necessary for authentication. (2). 'Readers/writers' specially designed or modified, and limited, for items specified by (a)(1) of this Note;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>'Readers/writers' include equipment that communicates with smart cards or electronically readable documents through a network.</I></P>\n<P><I>(b) Cryptographic equipment specially designed and limited for banking use or 'money transactions';</I></P></NOTE>",
+            "text": "Technical Note: 'Readers/writers' include equipment that communicates with smart cards or electronically readable documents through a network. (b) Cryptographic equipment specially designed and limited for banking use or 'money transactions';",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>'Money transactions' in 5A002 Note (b) includes the collection and settlement of fares or credit functions.</I></P>\n<P><I>(c) Portable or mobile radiotelephones for civil use (e.g., for use with commercial civil cellular radio communication systems) that are not capable of transmitting encrypted data directly to another radiotelephone or equipment (other than Radio Access Network (RAN) equipment), nor of passing encrypted data through RAN equipment (e.g., Radio Network Controller (RNC) or Base Station Controller (BSC));</I></P>\n<P><I>(d) Cordless telephone equipment not capable of end-to-end encryption where the maximum effective range of unboosted cordless operation (i.e., a single, unrelayed hop between terminal and home base station) is less than 400 meters according to the manufacturer's specifications;</I></P>\n<P><I>(e) Portable or mobile radiotelephones and similar client wireless devices for civil use, that implement only published or commercial cryptographic standards (except for anti-piracy functions, which may be non-published) and also meet the provisions of paragraphs a.2. to a.5. of the Cryptography Note (Note 3 in Category 5 - Part 2), that have been customized for a specific civil industry application with features that do not affect the cryptographic functionality of these original non-customized devices;</I></P>\n<P><I>(f) Wireless “personal area network” equipment that implement only published or commercial cryptographic standards and where the cryptographic capability is limited to a nominal operating range not exceeding 30 meters according to the manufacturer's specifications, or not exceeding 100 meters according to the manufacturer's specifications for equipment that cannot interconnect with more than seven devices;</I></P>\n<P><I>(g) Equipment meeting all of the following:</I></P>\n<P><I>1. All cryptographic capability specified by 5A002.a meets any of the following:</I></P>\n<P><I>a. It cannot be used; or</I></P>\n<P><I>b. It can only be made useable by means of “cryptographic activation;” and</I></P>\n<P><I>2. When necessary as determined by the appropriate authority in the exporter's country, details of the equipment are accessible and will be provided to the authority upon request, in order to ascertain compliance with conditions described above;</I></P></NOTE>",
+            "text": "Technical Note: 'Money transactions' in 5A002 Note (b) includes the collection and settlement of fares or credit functions. (c) Portable or mobile radiotelephones for civil use (e.g., for use with commercial civil cellular radio communication systems) that are not capable of transmitting encrypted data directly to another radiotelephone or equipment (other than Radio Access Network (RAN) equipment), nor of passing encrypted data through RAN equipment (e.g., Radio Network Controller (RNC) or Base Station Controller (BSC)); (d) Cordless telephone equipment not capable of end-to-end encryption where the maximum effective range of unboosted cordless operation (i.e., a single, unrelayed hop between terminal and home base station) is less than 400 meters according to the manufacturer's specifications; (e) Portable or mobile radiotelephones and similar client wireless devices for civil use, that implement only published or commercial cryptographic standards (except for anti-piracy functions, which may be non-published) and also meet the provisions of paragraphs a.2. to a.5. of the Cryptography Note (Note 3 in Category 5 - Part 2), that have been customized for a specific civil industry application with features that do not affect the cryptographic functionality of these original non-customized devices; (f) Wireless “personal area network” equipment that implement only published or commercial cryptographic standards and where the cryptographic capability is limited to a nominal operating range not exceeding 30 meters according to the manufacturer's specifications, or not exceeding 100 meters according to the manufacturer's specifications for equipment that cannot interconnect with more than seven devices; (g) Equipment meeting all of the following: 1. All cryptographic capability specified by 5A002.a meets any of the following: a. It cannot be used; or b. It can only be made useable by means of “cryptographic activation;” and 2. When necessary as determined by the appropriate authority in the exporter's country, details of the equipment are accessible and will be provided to the authority upon request, in order to ascertain compliance with conditions described above;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>N.B.1:</I></HED>\n<P><I>See 5A002.a for equipment that has undergone “cryptographic activation.”</I></P></NOTE>",
+            "text": "N.B.1: See 5A002.a for equipment that has undergone “cryptographic activation.”",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>N.B.2:</I></HED>\n<P><I>See also 5A002.b, 5D002.d and 5E002.b.</I></P>\n<P><I>(h) Mobile telecommunications Radio Access Network (RAN) equipment designed for civil use, which also meet the provisions 2. to 5. of part a. of the Cryptography Note (Note 3 in Category 5 - Part 2), having an RF output power limited to 0.1W (20 dBm) or less, and supporting 16 or fewer concurrent users;</I></P>\n<P><I>(i) Routers, switches or relays, where the “information security” functionality is limited to the tasks of “Operations, Administration or Maintenance” (“OAM”) implementing only published or commercial cryptographic standards; or</I></P>\n<P><I>(j) General purpose computing equipment or servers, where the “information security” functionality meets all of the following:</I></P>\n<P><I>1. Uses only published or commercial cryptographic standards; and</I></P>\n<P><I>2. Is any of the following:</I></P>\n<P><I>a. Integral to a CPU that meets the provisions of Note 3 in Category 5 - Part 2;</I></P>\n<P><I>b. Integral to an operating system that is not specified by 5D002; or</I></P>\n<P><I>c. Limited to “OAM” of the equipment.</I></P></NOTE>",
+            "text": "N.B.2: See also 5A002.b, 5D002.d and 5E002.b. (h) Mobile telecommunications Radio Access Network (RAN) equipment designed for civil use, which also meet the provisions 2. to 5. of part a. of the Cryptography Note (Note 3 in Category 5 - Part 2), having an RF output power limited to 0.1W (20 dBm) or less, and supporting 16 or fewer concurrent users; (i) Routers, switches or relays, where the “information security” functionality is limited to the tasks of “Operations, Administration or Maintenance” (“OAM”) implementing only published or commercial cryptographic standards; or (j) General purpose computing equipment or servers, where the “information security” functionality meets all of the following: 1. Uses only published or commercial cryptographic standards; and 2. Is any of the following: a. Integral to a CPU that meets the provisions of Note 3 in Category 5 - Part 2; b. Integral to an operating system that is not specified by 5D002; or c. Limited to “OAM” of the equipment.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2017-07-07",
+      "fetchedAt": "2025-10-02T20:33:28.904Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-07-07/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Systems, equipment and components, for cryptographic “information security,” as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "[Reserved]\nN.B.: See 5A004.a for items formerly specified in 5A002.a.2.\nNote: 5A002.a does not control any of the following: (a) Smart cards and smart card 'readers/writers' as follows: (1) A smart card or an electronically readable personal document (e.g., token coin, e-passport) that meets any of the following: a. The cryptographic capability is restricted for use in equipment or systems, excluded from 5A002, 5A003 or 5A004 by Note 4 in Category 5 - Part 2 or entries (b) to (i) of this Note, and cannot be reprogrammed for any other use; or b. Having all of the following: 1. It is specially designed and limited to allow protection of 'personal data' stored within; 2. Has been, or can only be, personalized for public or commercial transactions or individual identification; and 3. Where the cryptographic capability is not user-accessible;\nTechnical Note: 'Personal data' includes any data specific to a particular person or entity, such as the amount of money stored and data necessary for authentication. (2). 'Readers/writers' specially designed or modified, and limited, for items specified by (a)(1) of this Note;\nTechnical Note: 'Readers/writers' include equipment that communicates with smart cards or electronically readable documents through a network. (b) Cryptographic equipment specially designed and limited for banking use or 'money transactions';\nTechnical Note: 'Money transactions' in 5A002 Note (b) includes the collection and settlement of fares or credit functions. (c) Portable or mobile radiotelephones for civil use (e.g., for use with commercial civil cellular radio communication systems) that are not capable of transmitting encrypted data directly to another radiotelephone or equipment (other than Radio Access Network (RAN) equipment), nor of passing encrypted data through RAN equipment (e.g., Radio Network Controller (RNC) or Base Station Controller (BSC)); (d) Cordless telephone equipment not capable of end-to-end encryption where the maximum effective range of unboosted cordless operation (i.e., a single, unrelayed hop between terminal and home base station) is less than 400 meters according to the manufacturer's specifications; (e) Portable or mobile radiotelephones and similar client wireless devices for civil use, that implement only published or commercial cryptographic standards (except for anti-piracy functions, which may be non-published) and also meet the provisions of paragraphs a.2. to a.5. of the Cryptography Note (Note 3 in Category 5 - Part 2), that have been customized for a specific civil industry application with features that do not affect the cryptographic functionality of these original non-customized devices; (f) Wireless “personal area network” equipment that implement only published or commercial cryptographic standards and where the cryptographic capability is limited to a nominal operating range not exceeding 30 meters according to the manufacturer's specifications, or not exceeding 100 meters according to the manufacturer's specifications for equipment that cannot interconnect with more than seven devices; (g) Equipment meeting all of the following: 1. All cryptographic capability specified by 5A002.a meets any of the following: a. It cannot be used; or b. It can only be made useable by means of “cryptographic activation;” and 2. When necessary as determined by the appropriate authority in the exporter's country, details of the equipment are accessible and will be provided to the authority upon request, in order to ascertain compliance with conditions described above;\nN.B.1: See 5A002.a for equipment that has undergone “cryptographic activation.”\nN.B.2: See also 5A002.b, 5D002.d and 5E002.b. (h) Mobile telecommunications Radio Access Network (RAN) equipment designed for civil use, which also meet the provisions 2. to 5. of part a. of the Cryptography Note (Note 3 in Category 5 - Part 2), having an RF output power limited to 0.1W (20 dBm) or less, and supporting 16 or fewer concurrent users; (i) Routers, switches or relays, where the “information security” functionality is limited to the tasks of “Operations, Administration or Maintenance” (“OAM”) implementing only published or commercial cryptographic standards; or (j) General purpose computing equipment or servers, where the “information security” functionality meets all of the following: 1. Uses only published or commercial cryptographic standards; and 2. Is any of the following: a. Integral to a CPU that meets the provisions of Note 3 in Category 5 - Part 2; b. Integral to an operating system that is not specified by 5D002; or c. Limited to “OAM” of the equipment.",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "[Reserved]",
+        "label": "5A002.a.2 – [Reserved]",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>N.B.:</I></HED>\n<P><I>See 5A004.a for items formerly specified in 5A002.a.2.</I></P></NOTE>",
+            "text": "N.B.: See 5A004.a for items formerly specified in 5A002.a.2.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>5A002.a does not control any of the following:</I></P>\n<P><I>(a) Smart cards and smart card 'readers/writers' as follows:</I></P>\n<P><I>(1) A smart card or an electronically readable personal document (e.g., token coin, e-passport) that meets any of the following:</I></P>\n<P><I>a. The cryptographic capability is restricted for use in equipment or systems, excluded from 5A002, 5A003 or 5A004 by Note 4 in Category 5 - Part 2 or entries (b) to (i) of this Note, and cannot be reprogrammed for any other use; or</I></P>\n<P><I>b. Having all of the following:</I></P>\n<P><I>1. It is specially designed and limited to allow protection of 'personal data' stored within;</I></P>\n<P><I>2. Has been, or can only be, personalized for public or commercial transactions or individual identification; and</I></P>\n<P><I>3. Where the cryptographic capability is not user-accessible;</I></P></NOTE>",
+            "text": "Note: 5A002.a does not control any of the following: (a) Smart cards and smart card 'readers/writers' as follows: (1) A smart card or an electronically readable personal document (e.g., token coin, e-passport) that meets any of the following: a. The cryptographic capability is restricted for use in equipment or systems, excluded from 5A002, 5A003 or 5A004 by Note 4 in Category 5 - Part 2 or entries (b) to (i) of this Note, and cannot be reprogrammed for any other use; or b. Having all of the following: 1. It is specially designed and limited to allow protection of 'personal data' stored within; 2. Has been, or can only be, personalized for public or commercial transactions or individual identification; and 3. Where the cryptographic capability is not user-accessible;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>'Personal data' includes any data specific to a particular person or entity, such as the amount of money stored and data necessary for authentication.</I></P>\n<P><I>(2). 'Readers/writers' specially designed or modified, and limited, for items specified by (a)(1) of this Note;</I></P></NOTE>",
+            "text": "Technical Note: 'Personal data' includes any data specific to a particular person or entity, such as the amount of money stored and data necessary for authentication. (2). 'Readers/writers' specially designed or modified, and limited, for items specified by (a)(1) of this Note;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>'Readers/writers' include equipment that communicates with smart cards or electronically readable documents through a network.</I></P>\n<P><I>(b) Cryptographic equipment specially designed and limited for banking use or 'money transactions';</I></P></NOTE>",
+            "text": "Technical Note: 'Readers/writers' include equipment that communicates with smart cards or electronically readable documents through a network. (b) Cryptographic equipment specially designed and limited for banking use or 'money transactions';",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>'Money transactions' in 5A002 Note (b) includes the collection and settlement of fares or credit functions.</I></P>\n<P><I>(c) Portable or mobile radiotelephones for civil use (e.g., for use with commercial civil cellular radio communication systems) that are not capable of transmitting encrypted data directly to another radiotelephone or equipment (other than Radio Access Network (RAN) equipment), nor of passing encrypted data through RAN equipment (e.g., Radio Network Controller (RNC) or Base Station Controller (BSC));</I></P>\n<P><I>(d) Cordless telephone equipment not capable of end-to-end encryption where the maximum effective range of unboosted cordless operation (i.e., a single, unrelayed hop between terminal and home base station) is less than 400 meters according to the manufacturer's specifications;</I></P>\n<P><I>(e) Portable or mobile radiotelephones and similar client wireless devices for civil use, that implement only published or commercial cryptographic standards (except for anti-piracy functions, which may be non-published) and also meet the provisions of paragraphs a.2. to a.5. of the Cryptography Note (Note 3 in Category 5 - Part 2), that have been customized for a specific civil industry application with features that do not affect the cryptographic functionality of these original non-customized devices;</I></P>\n<P><I>(f) Wireless “personal area network” equipment that implement only published or commercial cryptographic standards and where the cryptographic capability is limited to a nominal operating range not exceeding 30 meters according to the manufacturer's specifications, or not exceeding 100 meters according to the manufacturer's specifications for equipment that cannot interconnect with more than seven devices;</I></P>\n<P><I>(g) Equipment meeting all of the following:</I></P>\n<P><I>1. All cryptographic capability specified by 5A002.a meets any of the following:</I></P>\n<P><I>a. It cannot be used; or</I></P>\n<P><I>b. It can only be made useable by means of “cryptographic activation;” and</I></P>\n<P><I>2. When necessary as determined by the appropriate authority in the exporter's country, details of the equipment are accessible and will be provided to the authority upon request, in order to ascertain compliance with conditions described above;</I></P></NOTE>",
+            "text": "Technical Note: 'Money transactions' in 5A002 Note (b) includes the collection and settlement of fares or credit functions. (c) Portable or mobile radiotelephones for civil use (e.g., for use with commercial civil cellular radio communication systems) that are not capable of transmitting encrypted data directly to another radiotelephone or equipment (other than Radio Access Network (RAN) equipment), nor of passing encrypted data through RAN equipment (e.g., Radio Network Controller (RNC) or Base Station Controller (BSC)); (d) Cordless telephone equipment not capable of end-to-end encryption where the maximum effective range of unboosted cordless operation (i.e., a single, unrelayed hop between terminal and home base station) is less than 400 meters according to the manufacturer's specifications; (e) Portable or mobile radiotelephones and similar client wireless devices for civil use, that implement only published or commercial cryptographic standards (except for anti-piracy functions, which may be non-published) and also meet the provisions of paragraphs a.2. to a.5. of the Cryptography Note (Note 3 in Category 5 - Part 2), that have been customized for a specific civil industry application with features that do not affect the cryptographic functionality of these original non-customized devices; (f) Wireless “personal area network” equipment that implement only published or commercial cryptographic standards and where the cryptographic capability is limited to a nominal operating range not exceeding 30 meters according to the manufacturer's specifications, or not exceeding 100 meters according to the manufacturer's specifications for equipment that cannot interconnect with more than seven devices; (g) Equipment meeting all of the following: 1. All cryptographic capability specified by 5A002.a meets any of the following: a. It cannot be used; or b. It can only be made useable by means of “cryptographic activation;” and 2. When necessary as determined by the appropriate authority in the exporter's country, details of the equipment are accessible and will be provided to the authority upon request, in order to ascertain compliance with conditions described above;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>N.B.1:</I></HED>\n<P><I>See 5A002.a for equipment that has undergone “cryptographic activation.”</I></P></NOTE>",
+            "text": "N.B.1: See 5A002.a for equipment that has undergone “cryptographic activation.”",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>N.B.2:</I></HED>\n<P><I>See also 5A002.b, 5D002.d and 5E002.b.</I></P>\n<P><I>(h) Mobile telecommunications Radio Access Network (RAN) equipment designed for civil use, which also meet the provisions 2. to 5. of part a. of the Cryptography Note (Note 3 in Category 5 - Part 2), having an RF output power limited to 0.1W (20 dBm) or less, and supporting 16 or fewer concurrent users;</I></P>\n<P><I>(i) Routers, switches or relays, where the “information security” functionality is limited to the tasks of “Operations, Administration or Maintenance” (“OAM”) implementing only published or commercial cryptographic standards; or</I></P>\n<P><I>(j) General purpose computing equipment or servers, where the “information security” functionality meets all of the following:</I></P>\n<P><I>1. Uses only published or commercial cryptographic standards; and</I></P>\n<P><I>2. Is any of the following:</I></P>\n<P><I>a. Integral to a CPU that meets the provisions of Note 3 in Category 5 - Part 2;</I></P>\n<P><I>b. Integral to an operating system that is not specified by 5D002; or</I></P>\n<P><I>c. Limited to “OAM” of the equipment.</I></P></NOTE>",
+            "text": "N.B.2: See also 5A002.b, 5D002.d and 5E002.b. (h) Mobile telecommunications Radio Access Network (RAN) equipment designed for civil use, which also meet the provisions 2. to 5. of part a. of the Cryptography Note (Note 3 in Category 5 - Part 2), having an RF output power limited to 0.1W (20 dBm) or less, and supporting 16 or fewer concurrent users; (i) Routers, switches or relays, where the “information security” functionality is limited to the tasks of “Operations, Administration or Maintenance” (“OAM”) implementing only published or commercial cryptographic standards; or (j) General purpose computing equipment or servers, where the “information security” functionality meets all of the following: 1. Uses only published or commercial cryptographic standards; and 2. Is any of the following: a. Integral to a CPU that meets the provisions of Note 3 in Category 5 - Part 2; b. Integral to an operating system that is not specified by 5D002; or c. Limited to “OAM” of the equipment.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2017-08-15",
+      "fetchedAt": "2025-10-02T20:33:29.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-08-15/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having 'in excess of 56 bits of symmetric key length, or equivalent', where that cryptographic capability is usable without “cryptographic activation” or has been activated, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-12-27",
+      "fetchedAt": "2025-10-02T20:33:29.759Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-12-27/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having 'in excess of 56 bits of symmetric key length, or equivalent', where that cryptographic capability is usable without “cryptographic activation” or has been activated, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-01-08",
+      "fetchedAt": "2025-10-02T20:33:30.194Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-01-08/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having 'in excess of 56 bits of symmetric key length, or equivalent', where that cryptographic capability is usable without “cryptographic activation” or has been activated, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-04-02",
+      "fetchedAt": "2025-10-02T20:33:30.716Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-02/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having 'in excess of 56 bits of symmetric key length, or equivalent', where that cryptographic capability is usable without “cryptographic activation” or has been activated, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-04-05",
+      "fetchedAt": "2025-10-02T20:33:31.145Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-05/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having 'in excess of 56 bits of symmetric key length, or equivalent', where that cryptographic capability is usable without “cryptographic activation” or has been activated, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-08-30",
+      "fetchedAt": "2025-10-02T20:33:31.567Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-08-30/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having 'in excess of 56 bits of symmetric key length, or equivalent', where that cryptographic capability is usable without “cryptographic activation” or has been activated, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-10-24",
+      "fetchedAt": "2025-10-02T20:33:31.990Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-10-24/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having 'in excess of 56 bits of symmetric key length, or equivalent', where that cryptographic capability is usable without “cryptographic activation” or has been activated, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-11-02",
+      "fetchedAt": "2025-10-02T20:33:32.381Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-11-02/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components”, as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' 'having in excess of 56 bits of symmetric key length, or equivalent,' where that cryptographic capability is usable, has been activated, or can be activated by means of “cryptographic activation” not employing a secure mechanism, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-12-20",
+      "fetchedAt": "2025-10-02T20:33:32.762Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-12-20/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components”, as follows (see List of Items Controlled).",
+        "5A002.a"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-06-17",
+      "fetchedAt": "2025-10-02T20:33:34.354Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-06-17/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having a 'described security algorithm', where that cryptographic capability is usable, has been activated, or can be activated by means of “cryptographic activation” not employing a secure mechanism, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-06-29",
+      "fetchedAt": "2025-10-02T20:33:34.750Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-06-29/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having a 'described security algorithm', where that cryptographic capability is usable, has been activated, or can be activated by means of “cryptographic activation” not employing a secure mechanism, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-09-11",
+      "fetchedAt": "2025-10-02T20:33:35.161Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-09-11/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information Security” Systems, Equipment and “Components,” as Follows (See List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having a 'described security algorithm', where that cryptographic capability is usable without “cryptographic activation” or has been activated, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-10-05",
+      "fetchedAt": "2025-10-02T20:33:35.641Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-10-05/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information Security” Systems, Equipment and “Components,” as Follows (See List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having a 'described security algorithm', where that cryptographic capability is usable without “cryptographic activation” or has been activated, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-10-06",
+      "fetchedAt": "2025-10-02T20:33:36.026Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-10-06/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information Security” Systems, Equipment and “Components,” as Follows (See List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having a 'described security algorithm', where that cryptographic capability is usable without “cryptographic activation” or has been activated, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2021-03-29",
+      "fetchedAt": "2025-10-02T20:33:37.994Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2021-03-29/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having a 'described security algorithm', where that cryptographic capability is usable, has been activated, or can be activated by any means other than secure “cryptographic activation”, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2021-09-20",
+      "fetchedAt": "2025-10-02T20:33:38.383Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2021-09-20/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having a 'described security algorithm', where that cryptographic capability is usable, has been activated, or can be activated by any means other than secure “cryptographic activation”, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2021-10-05",
+      "fetchedAt": "2025-10-02T20:33:38.778Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2021-10-05/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having a 'described security algorithm', where that cryptographic capability is usable, has been activated, or can be activated by any means other than secure “cryptographic activation”, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2021-12-06",
+      "fetchedAt": "2025-10-02T20:33:39.172Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2021-12-06/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having a 'described security algorithm', where that cryptographic capability is usable, has been activated, or can be activated by any means other than secure “cryptographic activation”, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2022-01-06",
+      "fetchedAt": "2025-10-02T20:33:39.613Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2022-01-06/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having a 'described security algorithm', where that cryptographic capability is usable, has been activated, or can be activated by any means other than secure “cryptographic activation”, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2022-01-19",
+      "fetchedAt": "2025-10-02T20:33:40.017Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2022-01-19/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having a 'described security algorithm', where that cryptographic capability is usable, has been activated, or can be activated by any means other than secure “cryptographic activation”, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2022-02-03",
+      "fetchedAt": "2025-10-02T20:33:40.404Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2022-02-03/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having a 'described security algorithm', where that cryptographic capability is usable, has been activated, or can be activated by any means other than secure “cryptographic activation”, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2022-05-26",
+      "fetchedAt": "2025-10-02T20:33:40.828Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2022-05-26/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having a 'described security algorithm', where that cryptographic capability is usable, has been activated, or can be activated by any means other than secure “cryptographic activation”, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2022-08-15",
+      "fetchedAt": "2025-10-02T20:33:41.210Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2022-08-15/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having a 'described security algorithm', where that cryptographic capability is usable, has been activated, or can be activated by any means other than secure “cryptographic activation”, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2022-10-07",
+      "fetchedAt": "2025-10-02T20:33:41.595Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2022-10-07/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having a 'described security algorithm', where that cryptographic capability is usable, has been activated, or can be activated by any means other than secure “cryptographic activation”, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-01-17",
+      "fetchedAt": "2025-10-02T20:33:41.990Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-01-17/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having a 'described security algorithm', where that cryptographic capability is usable, has been activated, or can be activated by any means other than secure “cryptographic activation”, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-02-24",
+      "fetchedAt": "2025-10-02T20:33:42.390Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-02-24/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having a 'described security algorithm', where that cryptographic capability is usable, has been activated, or can be activated by any means other than secure “cryptographic activation”, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-08-18",
+      "fetchedAt": "2025-10-02T20:33:42.783Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-08-18/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having a 'described security algorithm', where that cryptographic capability is usable, has been activated, or can be activated by any means other than secure “cryptographic activation”, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-10-18",
+      "fetchedAt": "2025-10-02T20:33:43.173Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-10-18/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having a 'described security algorithm', where that cryptographic capability is usable, has been activated, or can be activated by any means other than secure “cryptographic activation”, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-11-17",
+      "fetchedAt": "2025-10-02T20:33:43.584Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-11-17/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having a 'described security algorithm', where that cryptographic capability is usable, has been activated, or can be activated by any means other than secure “cryptographic activation”, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-12-08",
+      "fetchedAt": "2025-10-02T20:33:43.980Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-12-08/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having a 'described security algorithm', where that cryptographic capability is usable, has been activated, or can be activated by any means other than secure “cryptographic activation”, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-03-08",
+      "fetchedAt": "2025-10-02T20:33:44.401Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-08/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having a 'described security algorithm', where that cryptographic capability is usable, has been activated, or can be activated by any means other than secure “cryptographic activation”, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-03-13",
+      "fetchedAt": "2025-10-02T20:33:44.826Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-13/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having a 'described security algorithm', where that cryptographic capability is usable, has been activated, or can be activated by any means other than secure “cryptographic activation”, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-04-04",
+      "fetchedAt": "2025-10-02T20:33:45.229Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-04/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having a 'described security algorithm', where that cryptographic capability is usable, has been activated, or can be activated by any means other than secure “cryptographic activation”, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-04-19",
+      "fetchedAt": "2025-10-02T20:33:45.630Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-19/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having a 'described security algorithm', where that cryptographic capability is usable, has been activated, or can be activated by any means other than secure “cryptographic activation”, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-05-30",
+      "fetchedAt": "2025-10-02T20:33:46.051Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-05-30/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having a 'described security algorithm', where that cryptographic capability is usable, has been activated, or can be activated by any means other than secure “cryptographic activation”, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-06-12",
+      "fetchedAt": "2025-10-02T20:33:46.460Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-06-12/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having a 'described security algorithm', where that cryptographic capability is usable, has been activated, or can be activated by any means other than secure “cryptographic activation”, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-09-06",
+      "fetchedAt": "2025-10-02T20:33:46.879Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-09-06/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having a 'described security algorithm', where that cryptographic capability is usable, has been activated, or can be activated by any means other than secure “cryptographic activation”, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-10-23",
+      "fetchedAt": "2025-10-02T20:33:47.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-10-23/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having a 'described security algorithm', where that cryptographic capability is usable, has been activated, or can be activated by any means other than secure “cryptographic activation”, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-02",
+      "fetchedAt": "2025-10-02T20:33:47.757Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-02/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having a 'described security algorithm', where that cryptographic capability is usable, has been activated, or can be activated by any means other than secure “cryptographic activation”, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having a 'described security algorithm', where that cryptographic capability is usable, has been activated, or can be activated by any means other than secure “cryptographic activation”, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having a 'described security algorithm', where that cryptographic capability is usable, has been activated, or can be activated by any means other than secure “cryptographic activation”, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having a 'described security algorithm', where that cryptographic capability is usable, has been activated, or can be activated by any means other than secure “cryptographic activation”, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having a 'described security algorithm', where that cryptographic capability is usable, has been activated, or can be activated by any means other than secure “cryptographic activation”, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having a 'described security algorithm', where that cryptographic capability is usable, has been activated, or can be activated by any means other than secure “cryptographic activation”, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having a 'described security algorithm', where that cryptographic capability is usable, has been activated, or can be activated by any means other than secure “cryptographic activation”, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having a 'described security algorithm', where that cryptographic capability is usable, has been activated, or can be activated by any means other than secure “cryptographic activation”, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "title": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Designed or modified to use 'cryptography for data confidentiality' having a 'described security algorithm', where that cryptographic capability is usable, has been activated, or can be activated by any means other than secure “cryptographic activation”, as follows:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a"
+      ],
+      "text": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+      "structure": {
+        "identifier": "5A002.a.2",
+        "heading": "Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "label": "5A002.a.2 – Digital communication or networking systems, equipment or components, not specified in paragraph 5A002.a.1;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

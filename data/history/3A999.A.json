@@ -1,0 +1,209 @@
+{
+  "eccn": "3A999.a",
+  "normalized": "3A999.A",
+  "history": [
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "Frequency changers capable of operating in the frequency range from 300 up to 600 Hz, n.e.s.",
+      "title": "Frequency changers capable of operating in the frequency range from 300 up to 600 Hz, n.e.s.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A999 Specific Processing Equipment, n.e.s., as Follows (See List of Items Controlled)."
+      ],
+      "ancestors": [
+        "3A999"
+      ],
+      "text": "Frequency changers capable of operating in the frequency range from 300 up to 600 Hz, n.e.s.",
+      "structure": {
+        "identifier": "3A999.a",
+        "heading": "Frequency changers capable of operating in the frequency range from 300 up to 600 Hz, n.e.s.",
+        "label": "3A999.a – Frequency changers capable of operating in the frequency range from 300 up to 600 Hz, n.e.s.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "Frequency changers capable of operating in the frequency range from 300 up to 600 Hz, n.e.s.",
+      "title": "Frequency changers capable of operating in the frequency range from 300 up to 600 Hz, n.e.s.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A999 Specific Processing Equipment, n.e.s., as Follows (See List of Items Controlled)."
+      ],
+      "ancestors": [
+        "3A999"
+      ],
+      "text": "Frequency changers capable of operating in the frequency range from 300 up to 600 Hz, n.e.s.",
+      "structure": {
+        "identifier": "3A999.a",
+        "heading": "Frequency changers capable of operating in the frequency range from 300 up to 600 Hz, n.e.s.",
+        "label": "3A999.a – Frequency changers capable of operating in the frequency range from 300 up to 600 Hz, n.e.s.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "Frequency changers capable of operating in the frequency range from 300 up to 600 Hz, n.e.s.",
+      "title": "Frequency changers capable of operating in the frequency range from 300 up to 600 Hz, n.e.s.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A999 Specific Processing Equipment, n.e.s., as Follows (See List of Items Controlled)."
+      ],
+      "ancestors": [
+        "3A999"
+      ],
+      "text": "Frequency changers capable of operating in the frequency range from 300 up to 600 Hz, n.e.s.",
+      "structure": {
+        "identifier": "3A999.a",
+        "heading": "Frequency changers capable of operating in the frequency range from 300 up to 600 Hz, n.e.s.",
+        "label": "3A999.a – Frequency changers capable of operating in the frequency range from 300 up to 600 Hz, n.e.s.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "Frequency changers capable of operating in the frequency range from 300 up to 600 Hz, n.e.s;",
+      "title": "Frequency changers capable of operating in the frequency range from 300 up to 600 Hz, n.e.s;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A999 Specific Processing Equipment, n.e.s., as Follows (See List of Items Controlled)."
+      ],
+      "ancestors": [
+        "3A999"
+      ],
+      "text": "Frequency changers capable of operating in the frequency range from 300 up to 600 Hz, n.e.s;",
+      "structure": {
+        "identifier": "3A999.a",
+        "heading": "Frequency changers capable of operating in the frequency range from 300 up to 600 Hz, n.e.s;",
+        "label": "3A999.a – Frequency changers capable of operating in the frequency range from 300 up to 600 Hz, n.e.s;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "Frequency changers capable of operating in the frequency range from 300 up to 600 Hz, n.e.s;",
+      "title": "Frequency changers capable of operating in the frequency range from 300 up to 600 Hz, n.e.s;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A999 Specific Processing Equipment, n.e.s., as Follows (See List of Items Controlled)."
+      ],
+      "ancestors": [
+        "3A999"
+      ],
+      "text": "Frequency changers capable of operating in the frequency range from 300 up to 600 Hz, n.e.s;",
+      "structure": {
+        "identifier": "3A999.a",
+        "heading": "Frequency changers capable of operating in the frequency range from 300 up to 600 Hz, n.e.s;",
+        "label": "3A999.a – Frequency changers capable of operating in the frequency range from 300 up to 600 Hz, n.e.s;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "Frequency changers capable of operating in the frequency range from 300 up to 600 Hz, n.e.s;",
+      "title": "Frequency changers capable of operating in the frequency range from 300 up to 600 Hz, n.e.s;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "3A999 Specific Processing Equipment, n.e.s., as Follows (See List of Items Controlled)."
+      ],
+      "ancestors": [
+        "3A999"
+      ],
+      "text": "Frequency changers capable of operating in the frequency range from 300 up to 600 Hz, n.e.s;",
+      "structure": {
+        "identifier": "3A999.a",
+        "heading": "Frequency changers capable of operating in the frequency range from 300 up to 600 Hz, n.e.s;",
+        "label": "3A999.a – Frequency changers capable of operating in the frequency range from 300 up to 600 Hz, n.e.s;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "Frequency changers capable of operating in the frequency range from 300 up to 600 Hz, n.e.s;",
+      "title": "Frequency changers capable of operating in the frequency range from 300 up to 600 Hz, n.e.s;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "3A999 Specific Processing Equipment, n.e.s., as Follows (See List of Items Controlled)."
+      ],
+      "ancestors": [
+        "3A999"
+      ],
+      "text": "Frequency changers capable of operating in the frequency range from 300 up to 600 Hz, n.e.s;",
+      "structure": {
+        "identifier": "3A999.a",
+        "heading": "Frequency changers capable of operating in the frequency range from 300 up to 600 Hz, n.e.s;",
+        "label": "3A999.a – Frequency changers capable of operating in the frequency range from 300 up to 600 Hz, n.e.s;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

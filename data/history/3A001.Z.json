@@ -1,0 +1,126 @@
+{
+  "eccn": "3A001.z",
+  "normalized": "3A001.Z",
+  "history": [
+    {
+      "version": "2023-11-17",
+      "fetchedAt": "2025-10-02T20:33:43.584Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-11-17/title-15?format=xml",
+      "heading": "Any commodity described in 3A001 that meets or exceeds the performance parameters in 3A090.",
+      "title": "Any commodity described in 3A001 that meets or exceeds the performance parameters in 3A090.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "3A001"
+      ],
+      "text": "Any commodity described in 3A001 that meets or exceeds the performance parameters in 3A090.",
+      "structure": {
+        "identifier": "3A001.z",
+        "heading": "Any commodity described in 3A001 that meets or exceeds the performance parameters in 3A090.",
+        "label": "3A001.z – Any commodity described in 3A001 that meets or exceeds the performance parameters in 3A090.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-12-08",
+      "fetchedAt": "2025-10-02T20:33:43.980Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-12-08/title-15?format=xml",
+      "heading": "Any commodity described in 3A001 that meets or exceeds the performance parameters in 3A090.",
+      "title": "Any commodity described in 3A001 that meets or exceeds the performance parameters in 3A090.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "3A001"
+      ],
+      "text": "Any commodity described in 3A001 that meets or exceeds the performance parameters in 3A090.",
+      "structure": {
+        "identifier": "3A001.z",
+        "heading": "Any commodity described in 3A001 that meets or exceeds the performance parameters in 3A090.",
+        "label": "3A001.z – Any commodity described in 3A001 that meets or exceeds the performance parameters in 3A090.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-03-08",
+      "fetchedAt": "2025-10-02T20:33:44.401Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-08/title-15?format=xml",
+      "heading": "Any commodity described in 3A001 that meets or exceeds the performance parameters in 3A090.",
+      "title": "Any commodity described in 3A001 that meets or exceeds the performance parameters in 3A090.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "3A001"
+      ],
+      "text": "Any commodity described in 3A001 that meets or exceeds the performance parameters in 3A090.",
+      "structure": {
+        "identifier": "3A001.z",
+        "heading": "Any commodity described in 3A001 that meets or exceeds the performance parameters in 3A090.",
+        "label": "3A001.z – Any commodity described in 3A001 that meets or exceeds the performance parameters in 3A090.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-03-13",
+      "fetchedAt": "2025-10-02T20:33:44.826Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-13/title-15?format=xml",
+      "heading": "Any commodity described in 3A001 that meets or exceeds the performance parameters in 3A090.",
+      "title": "Any commodity described in 3A001 that meets or exceeds the performance parameters in 3A090.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "3A001"
+      ],
+      "text": "Any commodity described in 3A001 that meets or exceeds the performance parameters in 3A090.",
+      "structure": {
+        "identifier": "3A001.z",
+        "heading": "Any commodity described in 3A001 that meets or exceeds the performance parameters in 3A090.",
+        "label": "3A001.z – Any commodity described in 3A001 that meets or exceeds the performance parameters in 3A090.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

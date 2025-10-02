@@ -1,0 +1,44 @@
+{
+  "eccn": "1C006.f",
+  "normalized": "1C006.F",
+  "history": [
+    {
+      "version": "2018-11-02",
+      "fetchedAt": "2025-10-02T20:33:32.381Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-11-02/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Reporting Requirements",
+        "1C006 Fluids and lubricating materials, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C006"
+      ],
+      "text": "[Reserved]\nN.B.: For items previously specified by 1C007.f see 1C007.c.1.a.",
+      "structure": {
+        "identifier": "1C006.f",
+        "heading": "[Reserved]",
+        "label": "1C006.f – [Reserved]",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>N.B.:</I>\n</HED>\n<P><I>For items previously specified by 1C007.f see 1C007.c.1.a.</I></P></NOTE>",
+            "text": "N.B.: For items previously specified by 1C007.f see 1C007.c.1.a.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

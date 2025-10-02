@@ -1,0 +1,1062 @@
+{
+  "eccn": "3A901.b",
+  "normalized": "3A901.B",
+  "history": [
+    {
+      "version": "2024-09-06",
+      "fetchedAt": "2025-10-02T20:33:46.879Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-09-06/title-15?format=xml",
+      "heading": "Parametric signal amplifiers having all of the following:",
+      "title": "Parametric signal amplifiers having all of the following:",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A901 Electronic items, not specified by ECCN 3A001, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "3A901"
+      ],
+      "text": "Parametric signal amplifiers having all of the following:\nDesigned for operation at an ambient temperature below 1 K (−272.15 °C);\nb.1. Designed for operation at an ambient temperature below 1 K (−272.15 °C);\nDesigned for operation at any frequency from 2 GHz up to and including 15 GHz; and\nb.2. Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and\nA noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).\nb.3. A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).\nNote: For the purposes of 3A901.b, parametric signal amplifiers include Travelling Wave Parametric Amplifiers (TWPAs).\nTechnical Note: For the purposes of 3A901.b, parametric signal amplifiers may also be referred to as Quantum-limited amplifiers (QLAs).",
+      "structure": {
+        "identifier": "3A901.b",
+        "heading": "Parametric signal amplifiers having all of the following:",
+        "label": "3A901.b – Parametric signal amplifiers having all of the following:",
+        "children": [
+          {
+            "identifier": "3A901.b.1",
+            "heading": "Designed for operation at an ambient temperature below 1 K (−272.15 °C);",
+            "label": "3A901.b.1 – Designed for operation at an ambient temperature below 1 K (−272.15 °C);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1. Designed for operation at an ambient temperature below 1 K (−272.15 °C);</P>",
+                "text": "b.1. Designed for operation at an ambient temperature below 1 K (−272.15 °C);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3A901.b.2",
+            "heading": "Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and",
+            "label": "3A901.b.2 – Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.2. Designed for operation at any frequency from 2 GHz up to and including 15 GHz; <I>and</I></P>",
+                "text": "b.2. Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3A901.b.3",
+            "heading": "A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).",
+            "label": "3A901.b.3 – A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.3. A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).</P>",
+                "text": "b.3. A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>For the purposes of 3A901.b, parametric signal amplifiers include Travelling Wave Parametric Amplifiers (TWPAs).</I></P></NOTE>",
+                "text": "Note: For the purposes of 3A901.b, parametric signal amplifiers include Travelling Wave Parametric Amplifiers (TWPAs).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 3A901.b, parametric signal amplifiers may also be referred to as Quantum-limited amplifiers (QLAs).</I></P></NOTE>",
+                "text": "Technical Note: For the purposes of 3A901.b, parametric signal amplifiers may also be referred to as Quantum-limited amplifiers (QLAs).",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-10-23",
+      "fetchedAt": "2025-10-02T20:33:47.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-10-23/title-15?format=xml",
+      "heading": "Parametric signal amplifiers having all of the following:",
+      "title": "Parametric signal amplifiers having all of the following:",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A901 Electronic items, not specified by ECCN 3A001, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "3A901"
+      ],
+      "text": "Parametric signal amplifiers having all of the following:\nDesigned for operation at an ambient temperature below 1 K (−272.15 °C);\nb.1. Designed for operation at an ambient temperature below 1 K (−272.15 °C);\nDesigned for operation at any frequency from 2 GHz up to and including 15 GHz; and\nb.2. Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and\nA noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).\nb.3. A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).\nNote: For the purposes of 3A901.b, parametric signal amplifiers include Travelling Wave Parametric Amplifiers (TWPAs).\nTechnical Note: For the purposes of 3A901.b, parametric signal amplifiers may also be referred to as Quantum-limited amplifiers (QLAs).",
+      "structure": {
+        "identifier": "3A901.b",
+        "heading": "Parametric signal amplifiers having all of the following:",
+        "label": "3A901.b – Parametric signal amplifiers having all of the following:",
+        "children": [
+          {
+            "identifier": "3A901.b.1",
+            "heading": "Designed for operation at an ambient temperature below 1 K (−272.15 °C);",
+            "label": "3A901.b.1 – Designed for operation at an ambient temperature below 1 K (−272.15 °C);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1. Designed for operation at an ambient temperature below 1 K (−272.15 °C);</P>",
+                "text": "b.1. Designed for operation at an ambient temperature below 1 K (−272.15 °C);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3A901.b.2",
+            "heading": "Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and",
+            "label": "3A901.b.2 – Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.2. Designed for operation at any frequency from 2 GHz up to and including 15 GHz; <I>and</I></P>",
+                "text": "b.2. Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3A901.b.3",
+            "heading": "A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).",
+            "label": "3A901.b.3 – A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.3. A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).</P>",
+                "text": "b.3. A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>For the purposes of 3A901.b, parametric signal amplifiers include Travelling Wave Parametric Amplifiers (TWPAs).</I></P></NOTE>",
+                "text": "Note: For the purposes of 3A901.b, parametric signal amplifiers include Travelling Wave Parametric Amplifiers (TWPAs).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 3A901.b, parametric signal amplifiers may also be referred to as Quantum-limited amplifiers (QLAs).</I></P></NOTE>",
+                "text": "Technical Note: For the purposes of 3A901.b, parametric signal amplifiers may also be referred to as Quantum-limited amplifiers (QLAs).",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-02",
+      "fetchedAt": "2025-10-02T20:33:47.757Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-02/title-15?format=xml",
+      "heading": "Parametric signal amplifiers having all of the following:",
+      "title": "Parametric signal amplifiers having all of the following:",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A901 Electronic items, not specified by ECCN 3A001, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "3A901"
+      ],
+      "text": "Parametric signal amplifiers having all of the following:\nDesigned for operation at an ambient temperature below 1 K (−272.15 °C);\nb.1. Designed for operation at an ambient temperature below 1 K (−272.15 °C);\nDesigned for operation at any frequency from 2 GHz up to and including 15 GHz; and\nb.2. Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and\nA noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).\nb.3. A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).\nNote: For the purposes of 3A901.b, parametric signal amplifiers include Travelling Wave Parametric Amplifiers (TWPAs).\nTechnical Note: For the purposes of 3A901.b, parametric signal amplifiers may also be referred to as Quantum-limited amplifiers (QLAs).",
+      "structure": {
+        "identifier": "3A901.b",
+        "heading": "Parametric signal amplifiers having all of the following:",
+        "label": "3A901.b – Parametric signal amplifiers having all of the following:",
+        "children": [
+          {
+            "identifier": "3A901.b.1",
+            "heading": "Designed for operation at an ambient temperature below 1 K (−272.15 °C);",
+            "label": "3A901.b.1 – Designed for operation at an ambient temperature below 1 K (−272.15 °C);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1. Designed for operation at an ambient temperature below 1 K (−272.15 °C);</P>",
+                "text": "b.1. Designed for operation at an ambient temperature below 1 K (−272.15 °C);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3A901.b.2",
+            "heading": "Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and",
+            "label": "3A901.b.2 – Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.2. Designed for operation at any frequency from 2 GHz up to and including 15 GHz; <I>and</I></P>",
+                "text": "b.2. Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3A901.b.3",
+            "heading": "A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).",
+            "label": "3A901.b.3 – A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.3. A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).</P>",
+                "text": "b.3. A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>For the purposes of 3A901.b, parametric signal amplifiers include Travelling Wave Parametric Amplifiers (TWPAs).</I></P></NOTE>",
+                "text": "Note: For the purposes of 3A901.b, parametric signal amplifiers include Travelling Wave Parametric Amplifiers (TWPAs).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 3A901.b, parametric signal amplifiers may also be referred to as Quantum-limited amplifiers (QLAs).</I></P></NOTE>",
+                "text": "Technical Note: For the purposes of 3A901.b, parametric signal amplifiers may also be referred to as Quantum-limited amplifiers (QLAs).",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "Parametric signal amplifiers having all of the following:",
+      "title": "Parametric signal amplifiers having all of the following:",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A901 Electronic items, not specified by ECCN 3A001, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "3A901"
+      ],
+      "text": "Parametric signal amplifiers having all of the following:\nDesigned for operation at an ambient temperature below 1 K (−272.15 °C);\nb.1. Designed for operation at an ambient temperature below 1 K (−272.15 °C);\nDesigned for operation at any frequency from 2 GHz up to and including 15 GHz; and\nb.2. Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and\nA noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).\nb.3. A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).\nNote: For the purposes of 3A901.b, parametric signal amplifiers include Travelling Wave Parametric Amplifiers (TWPAs).\nTechnical Note: For the purposes of 3A901.b, parametric signal amplifiers may also be referred to as Quantum-limited amplifiers (QLAs).",
+      "structure": {
+        "identifier": "3A901.b",
+        "heading": "Parametric signal amplifiers having all of the following:",
+        "label": "3A901.b – Parametric signal amplifiers having all of the following:",
+        "children": [
+          {
+            "identifier": "3A901.b.1",
+            "heading": "Designed for operation at an ambient temperature below 1 K (−272.15 °C);",
+            "label": "3A901.b.1 – Designed for operation at an ambient temperature below 1 K (−272.15 °C);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1. Designed for operation at an ambient temperature below 1 K (−272.15 °C);</P>",
+                "text": "b.1. Designed for operation at an ambient temperature below 1 K (−272.15 °C);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3A901.b.2",
+            "heading": "Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and",
+            "label": "3A901.b.2 – Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.2. Designed for operation at any frequency from 2 GHz up to and including 15 GHz; <I>and</I></P>",
+                "text": "b.2. Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3A901.b.3",
+            "heading": "A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).",
+            "label": "3A901.b.3 – A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.3. A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).</P>",
+                "text": "b.3. A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>For the purposes of 3A901.b, parametric signal amplifiers include Travelling Wave Parametric Amplifiers (TWPAs).</I></P></NOTE>",
+                "text": "Note: For the purposes of 3A901.b, parametric signal amplifiers include Travelling Wave Parametric Amplifiers (TWPAs).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 3A901.b, parametric signal amplifiers may also be referred to as Quantum-limited amplifiers (QLAs).</I></P></NOTE>",
+                "text": "Technical Note: For the purposes of 3A901.b, parametric signal amplifiers may also be referred to as Quantum-limited amplifiers (QLAs).",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "Parametric signal amplifiers having all of the following:",
+      "title": "Parametric signal amplifiers having all of the following:",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A901 Electronic items, not specified by ECCN 3A001, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "3A901"
+      ],
+      "text": "Parametric signal amplifiers having all of the following:\nDesigned for operation at an ambient temperature below 1 K (−272.15 °C);\nb.1. Designed for operation at an ambient temperature below 1 K (−272.15 °C);\nDesigned for operation at any frequency from 2 GHz up to and including 15 GHz; and\nb.2. Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and\nA noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).\nb.3. A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).\nNote: For the purposes of 3A901.b, parametric signal amplifiers include Travelling Wave Parametric Amplifiers (TWPAs).\nTechnical Note: For the purposes of 3A901.b, parametric signal amplifiers may also be referred to as Quantum-limited amplifiers (QLAs).",
+      "structure": {
+        "identifier": "3A901.b",
+        "heading": "Parametric signal amplifiers having all of the following:",
+        "label": "3A901.b – Parametric signal amplifiers having all of the following:",
+        "children": [
+          {
+            "identifier": "3A901.b.1",
+            "heading": "Designed for operation at an ambient temperature below 1 K (−272.15 °C);",
+            "label": "3A901.b.1 – Designed for operation at an ambient temperature below 1 K (−272.15 °C);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1. Designed for operation at an ambient temperature below 1 K (−272.15 °C);</P>",
+                "text": "b.1. Designed for operation at an ambient temperature below 1 K (−272.15 °C);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3A901.b.2",
+            "heading": "Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and",
+            "label": "3A901.b.2 – Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.2. Designed for operation at any frequency from 2 GHz up to and including 15 GHz; <I>and</I></P>",
+                "text": "b.2. Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3A901.b.3",
+            "heading": "A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).",
+            "label": "3A901.b.3 – A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.3. A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).</P>",
+                "text": "b.3. A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>For the purposes of 3A901.b, parametric signal amplifiers include Travelling Wave Parametric Amplifiers (TWPAs).</I></P></NOTE>",
+                "text": "Note: For the purposes of 3A901.b, parametric signal amplifiers include Travelling Wave Parametric Amplifiers (TWPAs).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 3A901.b, parametric signal amplifiers may also be referred to as Quantum-limited amplifiers (QLAs).</I></P></NOTE>",
+                "text": "Technical Note: For the purposes of 3A901.b, parametric signal amplifiers may also be referred to as Quantum-limited amplifiers (QLAs).",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "Parametric signal amplifiers having all of the following:",
+      "title": "Parametric signal amplifiers having all of the following:",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A901 Electronic items, not specified by ECCN 3A001, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "3A901"
+      ],
+      "text": "Parametric signal amplifiers having all of the following:\nDesigned for operation at an ambient temperature below 1 K (−272.15 °C);\nb.1. Designed for operation at an ambient temperature below 1 K (−272.15 °C);\nDesigned for operation at any frequency from 2 GHz up to and including 15 GHz; and\nb.2. Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and\nA noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).\nb.3. A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).\nNote: For the purposes of 3A901.b, parametric signal amplifiers include Travelling Wave Parametric Amplifiers (TWPAs).\nTechnical Note: For the purposes of 3A901.b, parametric signal amplifiers may also be referred to as Quantum-limited amplifiers (QLAs).",
+      "structure": {
+        "identifier": "3A901.b",
+        "heading": "Parametric signal amplifiers having all of the following:",
+        "label": "3A901.b – Parametric signal amplifiers having all of the following:",
+        "children": [
+          {
+            "identifier": "3A901.b.1",
+            "heading": "Designed for operation at an ambient temperature below 1 K (−272.15 °C);",
+            "label": "3A901.b.1 – Designed for operation at an ambient temperature below 1 K (−272.15 °C);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1. Designed for operation at an ambient temperature below 1 K (−272.15 °C);</P>",
+                "text": "b.1. Designed for operation at an ambient temperature below 1 K (−272.15 °C);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3A901.b.2",
+            "heading": "Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and",
+            "label": "3A901.b.2 – Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.2. Designed for operation at any frequency from 2 GHz up to and including 15 GHz; <I>and</I></P>",
+                "text": "b.2. Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3A901.b.3",
+            "heading": "A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).",
+            "label": "3A901.b.3 – A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.3. A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).</P>",
+                "text": "b.3. A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>For the purposes of 3A901.b, parametric signal amplifiers include Travelling Wave Parametric Amplifiers (TWPAs).</I></P></NOTE>",
+                "text": "Note: For the purposes of 3A901.b, parametric signal amplifiers include Travelling Wave Parametric Amplifiers (TWPAs).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 3A901.b, parametric signal amplifiers may also be referred to as Quantum-limited amplifiers (QLAs).</I></P></NOTE>",
+                "text": "Technical Note: For the purposes of 3A901.b, parametric signal amplifiers may also be referred to as Quantum-limited amplifiers (QLAs).",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "Parametric signal amplifiers having all of the following:",
+      "title": "Parametric signal amplifiers having all of the following:",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A901 Electronic items, not specified by ECCN 3A001, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "3A901"
+      ],
+      "text": "Parametric signal amplifiers having all of the following:\nDesigned for operation at an ambient temperature below 1 K (−272.15 °C);\nb.1. Designed for operation at an ambient temperature below 1 K (−272.15 °C);\nDesigned for operation at any frequency from 2 GHz up to and including 15 GHz; and\nb.2. Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and\nA noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).\nb.3. A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).\nNote: For the purposes of 3A901.b, parametric signal amplifiers include Travelling Wave Parametric Amplifiers (TWPAs).\nTechnical Note: For the purposes of 3A901.b, parametric signal amplifiers may also be referred to as Quantum-limited amplifiers (QLAs).",
+      "structure": {
+        "identifier": "3A901.b",
+        "heading": "Parametric signal amplifiers having all of the following:",
+        "label": "3A901.b – Parametric signal amplifiers having all of the following:",
+        "children": [
+          {
+            "identifier": "3A901.b.1",
+            "heading": "Designed for operation at an ambient temperature below 1 K (−272.15 °C);",
+            "label": "3A901.b.1 – Designed for operation at an ambient temperature below 1 K (−272.15 °C);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1. Designed for operation at an ambient temperature below 1 K (−272.15 °C);</P>",
+                "text": "b.1. Designed for operation at an ambient temperature below 1 K (−272.15 °C);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3A901.b.2",
+            "heading": "Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and",
+            "label": "3A901.b.2 – Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.2. Designed for operation at any frequency from 2 GHz up to and including 15 GHz; <I>and</I></P>",
+                "text": "b.2. Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3A901.b.3",
+            "heading": "A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).",
+            "label": "3A901.b.3 – A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.3. A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).</P>",
+                "text": "b.3. A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>For the purposes of 3A901.b, parametric signal amplifiers include Travelling Wave Parametric Amplifiers (TWPAs).</I></P></NOTE>",
+                "text": "Note: For the purposes of 3A901.b, parametric signal amplifiers include Travelling Wave Parametric Amplifiers (TWPAs).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 3A901.b, parametric signal amplifiers may also be referred to as Quantum-limited amplifiers (QLAs).</I></P></NOTE>",
+                "text": "Technical Note: For the purposes of 3A901.b, parametric signal amplifiers may also be referred to as Quantum-limited amplifiers (QLAs).",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "Parametric signal amplifiers having all of the following:",
+      "title": "Parametric signal amplifiers having all of the following:",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A901 Electronic items, not specified by ECCN 3A001, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "3A901"
+      ],
+      "text": "Parametric signal amplifiers having all of the following:\nDesigned for operation at an ambient temperature below 1 K (−272.15 °C);\nb.1. Designed for operation at an ambient temperature below 1 K (−272.15 °C);\nDesigned for operation at any frequency from 2 GHz up to and including 15 GHz; and\nb.2. Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and\nA noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).\nb.3. A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).\nNote: For the purposes of 3A901.b, parametric signal amplifiers include Travelling Wave Parametric Amplifiers (TWPAs).\nTechnical Note: For the purposes of 3A901.b, parametric signal amplifiers may also be referred to as Quantum-limited amplifiers (QLAs).",
+      "structure": {
+        "identifier": "3A901.b",
+        "heading": "Parametric signal amplifiers having all of the following:",
+        "label": "3A901.b – Parametric signal amplifiers having all of the following:",
+        "children": [
+          {
+            "identifier": "3A901.b.1",
+            "heading": "Designed for operation at an ambient temperature below 1 K (−272.15 °C);",
+            "label": "3A901.b.1 – Designed for operation at an ambient temperature below 1 K (−272.15 °C);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1. Designed for operation at an ambient temperature below 1 K (−272.15 °C);</P>",
+                "text": "b.1. Designed for operation at an ambient temperature below 1 K (−272.15 °C);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3A901.b.2",
+            "heading": "Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and",
+            "label": "3A901.b.2 – Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.2. Designed for operation at any frequency from 2 GHz up to and including 15 GHz; <I>and</I></P>",
+                "text": "b.2. Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3A901.b.3",
+            "heading": "A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).",
+            "label": "3A901.b.3 – A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.3. A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).</P>",
+                "text": "b.3. A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>For the purposes of 3A901.b, parametric signal amplifiers include Travelling Wave Parametric Amplifiers (TWPAs).</I></P></NOTE>",
+                "text": "Note: For the purposes of 3A901.b, parametric signal amplifiers include Travelling Wave Parametric Amplifiers (TWPAs).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 3A901.b, parametric signal amplifiers may also be referred to as Quantum-limited amplifiers (QLAs).</I></P></NOTE>",
+                "text": "Technical Note: For the purposes of 3A901.b, parametric signal amplifiers may also be referred to as Quantum-limited amplifiers (QLAs).",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "Parametric signal amplifiers having all of the following:",
+      "title": "Parametric signal amplifiers having all of the following:",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A901 Electronic items, not specified by ECCN 3A001, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "3A901"
+      ],
+      "text": "Parametric signal amplifiers having all of the following:\nDesigned for operation at an ambient temperature below 1 K (−272.15 °C);\nb.1. Designed for operation at an ambient temperature below 1 K (−272.15 °C);\nDesigned for operation at any frequency from 2 GHz up to and including 15 GHz; and\nb.2. Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and\nA noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).\nb.3. A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).\nNote: For the purposes of 3A901.b, parametric signal amplifiers include Travelling Wave Parametric Amplifiers (TWPAs).\nTechnical Note: For the purposes of 3A901.b, parametric signal amplifiers may also be referred to as Quantum-limited amplifiers (QLAs).",
+      "structure": {
+        "identifier": "3A901.b",
+        "heading": "Parametric signal amplifiers having all of the following:",
+        "label": "3A901.b – Parametric signal amplifiers having all of the following:",
+        "children": [
+          {
+            "identifier": "3A901.b.1",
+            "heading": "Designed for operation at an ambient temperature below 1 K (−272.15 °C);",
+            "label": "3A901.b.1 – Designed for operation at an ambient temperature below 1 K (−272.15 °C);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1. Designed for operation at an ambient temperature below 1 K (−272.15 °C);</P>",
+                "text": "b.1. Designed for operation at an ambient temperature below 1 K (−272.15 °C);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3A901.b.2",
+            "heading": "Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and",
+            "label": "3A901.b.2 – Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.2. Designed for operation at any frequency from 2 GHz up to and including 15 GHz; <I>and</I></P>",
+                "text": "b.2. Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3A901.b.3",
+            "heading": "A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).",
+            "label": "3A901.b.3 – A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.3. A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).</P>",
+                "text": "b.3. A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>For the purposes of 3A901.b, parametric signal amplifiers include Travelling Wave Parametric Amplifiers (TWPAs).</I></P></NOTE>",
+                "text": "Note: For the purposes of 3A901.b, parametric signal amplifiers include Travelling Wave Parametric Amplifiers (TWPAs).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 3A901.b, parametric signal amplifiers may also be referred to as Quantum-limited amplifiers (QLAs).</I></P></NOTE>",
+                "text": "Technical Note: For the purposes of 3A901.b, parametric signal amplifiers may also be referred to as Quantum-limited amplifiers (QLAs).",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "Parametric signal amplifiers having all of the following:",
+      "title": "Parametric signal amplifiers having all of the following:",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "3A901 Electronic items, not specified by ECCN 3A001, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "3A901"
+      ],
+      "text": "Parametric signal amplifiers having all of the following:\nDesigned for operation at an ambient temperature below 1 K (−272.15 °C);\nb.1. Designed for operation at an ambient temperature below 1 K (−272.15 °C);\nDesigned for operation at any frequency from 2 GHz up to and including 15 GHz; and\nb.2. Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and\nA noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).\nb.3. A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).\nNote: For the purposes of 3A901.b, parametric signal amplifiers include Travelling Wave Parametric Amplifiers (TWPAs).\nTechnical Note: For the purposes of 3A901.b, parametric signal amplifiers may also be referred to as Quantum-limited amplifiers (QLAs).",
+      "structure": {
+        "identifier": "3A901.b",
+        "heading": "Parametric signal amplifiers having all of the following:",
+        "label": "3A901.b – Parametric signal amplifiers having all of the following:",
+        "children": [
+          {
+            "identifier": "3A901.b.1",
+            "heading": "Designed for operation at an ambient temperature below 1 K (−272.15 °C);",
+            "label": "3A901.b.1 – Designed for operation at an ambient temperature below 1 K (−272.15 °C);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1. Designed for operation at an ambient temperature below 1 K (−272.15 °C);\n</P>",
+                "text": "b.1. Designed for operation at an ambient temperature below 1 K (−272.15 °C);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3A901.b.2",
+            "heading": "Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and",
+            "label": "3A901.b.2 – Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.2. Designed for operation at any frequency from 2 GHz up to and including 15 GHz; <I>and</I>\n</P>",
+                "text": "b.2. Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3A901.b.3",
+            "heading": "A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).",
+            "label": "3A901.b.3 – A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.3. A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).\n</P>",
+                "text": "b.3. A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>For the purposes of 3A901.b, parametric signal amplifiers include Travelling Wave Parametric Amplifiers (TWPAs).</I></P></NOTE>",
+                "text": "Note: For the purposes of 3A901.b, parametric signal amplifiers include Travelling Wave Parametric Amplifiers (TWPAs).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 3A901.b, parametric signal amplifiers may also be referred to as Quantum-limited amplifiers (QLAs).</I></P></NOTE>",
+                "text": "Technical Note: For the purposes of 3A901.b, parametric signal amplifiers may also be referred to as Quantum-limited amplifiers (QLAs).",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "Parametric signal amplifiers having all of the following:",
+      "title": "Parametric signal amplifiers having all of the following:",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "3A901 Electronic items, not specified by ECCN 3A001, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "3A901"
+      ],
+      "text": "Parametric signal amplifiers having all of the following:\nDesigned for operation at an ambient temperature below 1 K (−272.15 °C);\nb.1. Designed for operation at an ambient temperature below 1 K (−272.15 °C);\nDesigned for operation at any frequency from 2 GHz up to and including 15 GHz; and\nb.2. Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and\nA noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).\nb.3. A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).\nNote: For the purposes of 3A901.b, parametric signal amplifiers include Travelling Wave Parametric Amplifiers (TWPAs).\nTechnical Note: For the purposes of 3A901.b, parametric signal amplifiers may also be referred to as Quantum-limited amplifiers (QLAs).",
+      "structure": {
+        "identifier": "3A901.b",
+        "heading": "Parametric signal amplifiers having all of the following:",
+        "label": "3A901.b – Parametric signal amplifiers having all of the following:",
+        "children": [
+          {
+            "identifier": "3A901.b.1",
+            "heading": "Designed for operation at an ambient temperature below 1 K (−272.15 °C);",
+            "label": "3A901.b.1 – Designed for operation at an ambient temperature below 1 K (−272.15 °C);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1. Designed for operation at an ambient temperature below 1 K (−272.15 °C);\n</P>",
+                "text": "b.1. Designed for operation at an ambient temperature below 1 K (−272.15 °C);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3A901.b.2",
+            "heading": "Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and",
+            "label": "3A901.b.2 – Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.2. Designed for operation at any frequency from 2 GHz up to and including 15 GHz; <I>and</I>\n</P>",
+                "text": "b.2. Designed for operation at any frequency from 2 GHz up to and including 15 GHz; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3A901.b.3",
+            "heading": "A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).",
+            "label": "3A901.b.3 – A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.3. A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).\n</P>",
+                "text": "b.3. A noise figure less (better) than 0.015 dB at any frequency from 2 GHz up to and including 15 GHz at 1 K (−272.15 °C).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>For the purposes of 3A901.b, parametric signal amplifiers include Travelling Wave Parametric Amplifiers (TWPAs).</I></P></NOTE>",
+                "text": "Note: For the purposes of 3A901.b, parametric signal amplifiers include Travelling Wave Parametric Amplifiers (TWPAs).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 3A901.b, parametric signal amplifiers may also be referred to as Quantum-limited amplifiers (QLAs).</I></P></NOTE>",
+                "text": "Technical Note: For the purposes of 3A901.b, parametric signal amplifiers may also be referred to as Quantum-limited amplifiers (QLAs).",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "eccn": "2B001.f.d",
+  "normalized": "2B001.F.D",
+  "history": [
+    {
+      "version": "2017-01-15",
+      "fetchedAt": "2025-10-02T20:33:28.357Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-15/title-15?format=xml",
+      "heading": "Deep-hole-drilling machines controlled under 2B001.f;",
+      "title": "Deep-hole-drilling machines controlled under 2B001.f;",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774 - Sensitive List"
+      },
+      "breadcrumbs": [
+        "(2) Category 2",
+        "(D) Deep-hole-drilling machines controlled under 2B001.f;"
+      ],
+      "ancestors": [
+        "2B001.f"
+      ],
+      "text": "Deep-hole-drilling machines controlled under 2B001.f;",
+      "structure": {
+        "identifier": "2B001.f.d",
+        "heading": "Deep-hole-drilling machines controlled under 2B001.f;",
+        "label": "2B001.f.d – Deep-hole-drilling machines controlled under 2B001.f;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-07-07",
+      "fetchedAt": "2025-10-02T20:33:28.904Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-07-07/title-15?format=xml",
+      "heading": "Deep-hole-drilling machines controlled under 2B001.f;",
+      "title": "Deep-hole-drilling machines controlled under 2B001.f;",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774 - Sensitive List"
+      },
+      "breadcrumbs": [
+        "(2) Category 2",
+        "(D) Deep-hole-drilling machines controlled under 2B001.f;"
+      ],
+      "ancestors": [
+        "2B001.f"
+      ],
+      "text": "Deep-hole-drilling machines controlled under 2B001.f;",
+      "structure": {
+        "identifier": "2B001.f.d",
+        "heading": "Deep-hole-drilling machines controlled under 2B001.f;",
+        "label": "2B001.f.d – Deep-hole-drilling machines controlled under 2B001.f;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-08-15",
+      "fetchedAt": "2025-10-02T20:33:29.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-08-15/title-15?format=xml",
+      "heading": "Deep-hole-drilling machines controlled under 2B001.f;",
+      "title": "Deep-hole-drilling machines controlled under 2B001.f;",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774 - Sensitive List"
+      },
+      "breadcrumbs": [
+        "(2) Category 2",
+        "(D) Deep-hole-drilling machines controlled under 2B001.f;"
+      ],
+      "ancestors": [
+        "2B001.f"
+      ],
+      "text": "Deep-hole-drilling machines controlled under 2B001.f;",
+      "structure": {
+        "identifier": "2B001.f.d",
+        "heading": "Deep-hole-drilling machines controlled under 2B001.f;",
+        "label": "2B001.f.d – Deep-hole-drilling machines controlled under 2B001.f;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-12-27",
+      "fetchedAt": "2025-10-02T20:33:29.759Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-12-27/title-15?format=xml",
+      "heading": "Deep-hole-drilling machines controlled under 2B001.f;",
+      "title": "Deep-hole-drilling machines controlled under 2B001.f;",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774 - Sensitive List"
+      },
+      "breadcrumbs": [
+        "(2) Category 2",
+        "(D) Deep-hole-drilling machines controlled under 2B001.f;"
+      ],
+      "ancestors": [
+        "2B001.f"
+      ],
+      "text": "Deep-hole-drilling machines controlled under 2B001.f;",
+      "structure": {
+        "identifier": "2B001.f.d",
+        "heading": "Deep-hole-drilling machines controlled under 2B001.f;",
+        "label": "2B001.f.d – Deep-hole-drilling machines controlled under 2B001.f;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-01-08",
+      "fetchedAt": "2025-10-02T20:33:30.194Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-01-08/title-15?format=xml",
+      "heading": "Deep-hole-drilling machines controlled under 2B001.f;",
+      "title": "Deep-hole-drilling machines controlled under 2B001.f;",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774 - Sensitive List"
+      },
+      "breadcrumbs": [
+        "(2) Category 2",
+        "(D) Deep-hole-drilling machines controlled under 2B001.f;"
+      ],
+      "ancestors": [
+        "2B001.f"
+      ],
+      "text": "Deep-hole-drilling machines controlled under 2B001.f;",
+      "structure": {
+        "identifier": "2B001.f.d",
+        "heading": "Deep-hole-drilling machines controlled under 2B001.f;",
+        "label": "2B001.f.d – Deep-hole-drilling machines controlled under 2B001.f;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-04-02",
+      "fetchedAt": "2025-10-02T20:33:30.716Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-02/title-15?format=xml",
+      "heading": "Deep-hole-drilling machines controlled under 2B001.f;",
+      "title": "Deep-hole-drilling machines controlled under 2B001.f;",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774 - Sensitive List"
+      },
+      "breadcrumbs": [
+        "(2) Category 2",
+        "(D) Deep-hole-drilling machines controlled under 2B001.f;"
+      ],
+      "ancestors": [
+        "2B001.f"
+      ],
+      "text": "Deep-hole-drilling machines controlled under 2B001.f;",
+      "structure": {
+        "identifier": "2B001.f.d",
+        "heading": "Deep-hole-drilling machines controlled under 2B001.f;",
+        "label": "2B001.f.d – Deep-hole-drilling machines controlled under 2B001.f;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-04-05",
+      "fetchedAt": "2025-10-02T20:33:31.145Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-05/title-15?format=xml",
+      "heading": "Deep-hole-drilling machines controlled under 2B001.f;",
+      "title": "Deep-hole-drilling machines controlled under 2B001.f;",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774 - Sensitive List"
+      },
+      "breadcrumbs": [
+        "(2) Category 2",
+        "(D) Deep-hole-drilling machines controlled under 2B001.f;"
+      ],
+      "ancestors": [
+        "2B001.f"
+      ],
+      "text": "Deep-hole-drilling machines controlled under 2B001.f;",
+      "structure": {
+        "identifier": "2B001.f.d",
+        "heading": "Deep-hole-drilling machines controlled under 2B001.f;",
+        "label": "2B001.f.d – Deep-hole-drilling machines controlled under 2B001.f;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-08-30",
+      "fetchedAt": "2025-10-02T20:33:31.567Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-08-30/title-15?format=xml",
+      "heading": "Deep-hole-drilling machines controlled under 2B001.f;",
+      "title": "Deep-hole-drilling machines controlled under 2B001.f;",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774 - Sensitive List"
+      },
+      "breadcrumbs": [
+        "(2) Category 2",
+        "(D) Deep-hole-drilling machines controlled under 2B001.f;"
+      ],
+      "ancestors": [
+        "2B001.f"
+      ],
+      "text": "Deep-hole-drilling machines controlled under 2B001.f;",
+      "structure": {
+        "identifier": "2B001.f.d",
+        "heading": "Deep-hole-drilling machines controlled under 2B001.f;",
+        "label": "2B001.f.d – Deep-hole-drilling machines controlled under 2B001.f;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-10-24",
+      "fetchedAt": "2025-10-02T20:33:31.990Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-10-24/title-15?format=xml",
+      "heading": "Deep-hole-drilling machines controlled under 2B001.f;",
+      "title": "Deep-hole-drilling machines controlled under 2B001.f;",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774 - Sensitive List"
+      },
+      "breadcrumbs": [
+        "(2) Category 2",
+        "(D) Deep-hole-drilling machines controlled under 2B001.f;"
+      ],
+      "ancestors": [
+        "2B001.f"
+      ],
+      "text": "Deep-hole-drilling machines controlled under 2B001.f;",
+      "structure": {
+        "identifier": "2B001.f.d",
+        "heading": "Deep-hole-drilling machines controlled under 2B001.f;",
+        "label": "2B001.f.d – Deep-hole-drilling machines controlled under 2B001.f;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

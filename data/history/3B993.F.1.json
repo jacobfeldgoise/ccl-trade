@@ -1,0 +1,942 @@
+{
+  "eccn": "3B993.f.1",
+  "normalized": "3B993.F.1",
+  "history": [
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:",
+      "title": "Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls).",
+        "Lithography equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.f"
+      ],
+      "text": "Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:\n[Reserved]\nf.1.a. [Reserved]\nA light source wavelength equal to or longer than 193 nm and having all of the following:\nf.1.b. A light source wavelength equal to or longer than 193 nm and having all of the following:\n1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and\nf.1.b.1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and\nA maximum 'dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.\nf.1.b.2. A maximum 'dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.\nTechnical Notes for paragraph 3B993.f.1: 1. The 'Minimum Resolvable Feature size' ('MRF') is calculated by the following formula:\nwhere, for the purposes of 3B993.f.1, the K factor = 0.25. 'MRF' is also known as resolution. 2. 'Dedicated chuck overlay' is the alignment accuracy of a new pattern to an existing pattern printed on a wafer by the same lithographic system. 'Dedicated chuck overlay' is also known as single machine overlay.",
+      "structure": {
+        "identifier": "3B993.f.1",
+        "heading": "Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:",
+        "label": "3B993.f.1 – Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.f.1.a",
+            "heading": "[Reserved]",
+            "label": "3B993.f.1.a – [Reserved]",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>f.1.a. [Reserved]</P>",
+                "text": "f.1.a. [Reserved]",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.f.1.b",
+            "heading": "A light source wavelength equal to or longer than 193 nm and having all of the following:",
+            "label": "3B993.f.1.b – A light source wavelength equal to or longer than 193 nm and having all of the following:",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>f.1.b. A light source wavelength equal to or longer than 193 nm and having all of the following:</P>",
+                "text": "f.1.b. A light source wavelength equal to or longer than 193 nm and having all of the following:",
+                "id": null
+              }
+            ],
+            "children": [
+              {
+                "identifier": "3B993.f.1.b.1",
+                "heading": "1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and",
+                "label": "3B993.f.1.b.1 – 1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>f.1.b.1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; <I>and</I></P>",
+                    "text": "f.1.b.1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              },
+              {
+                "identifier": "3B993.f.1.b.2",
+                "heading": "A maximum 'dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.",
+                "label": "3B993.f.1.b.2 – A maximum 'dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>f.1.b.2. A maximum 'dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.</P>",
+                    "text": "f.1.b.2. A maximum 'dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.",
+                    "id": null
+                  },
+                  {
+                    "type": "html",
+                    "tag": "NOTE",
+                    "html": "<NOTE>\n<HED><I>Technical Notes for paragraph 3B993.f.1:</I></HED>\n<P><I>1. The 'Minimum Resolvable Feature size' ('MRF') is calculated by the following formula:</I></P></NOTE>",
+                    "text": "Technical Notes for paragraph 3B993.f.1: 1. The 'Minimum Resolvable Feature size' ('MRF') is calculated by the following formula:",
+                    "id": null
+                  },
+                  {
+                    "type": "html",
+                    "tag": "NOTE",
+                    "html": "<NOTE>\n<HED> </HED>\n<FP><I>where, for the purposes of 3B993.f.1, the K factor = 0.25.</I>\n</FP>\n<P><I>'MRF' is also known as resolution.</I></P>\n<P><I>2. 'Dedicated chuck overlay' is the alignment accuracy of a new pattern to an existing pattern printed on a wafer by the same lithographic system. 'Dedicated chuck overlay' is also known as single machine overlay.</I></P></NOTE>",
+                    "text": "where, for the purposes of 3B993.f.1, the K factor = 0.25. 'MRF' is also known as resolution. 2. 'Dedicated chuck overlay' is the alignment accuracy of a new pattern to an existing pattern printed on a wafer by the same lithographic system. 'Dedicated chuck overlay' is also known as single machine overlay.",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": true
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:",
+      "title": "Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls).",
+        "Lithography equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.f"
+      ],
+      "text": "Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:\n[Reserved]\nf.1.a. [Reserved]\nA light source wavelength equal to or longer than 193 nm and having all of the following:\nf.1.b. A light source wavelength equal to or longer than 193 nm and having all of the following:\n1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and\nf.1.b.1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and\nA maximum 'dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.\nf.1.b.2. A maximum 'dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.\nTechnical Notes for paragraph 3B993.f.1: 1. The 'Minimum Resolvable Feature size' ('MRF') is calculated by the following formula:\nwhere, for the purposes of 3B993.f.1, the K factor = 0.25. 'MRF' is also known as resolution. 2. 'Dedicated chuck overlay' is the alignment accuracy of a new pattern to an existing pattern printed on a wafer by the same lithographic system. 'Dedicated chuck overlay' is also known as single machine overlay.",
+      "structure": {
+        "identifier": "3B993.f.1",
+        "heading": "Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:",
+        "label": "3B993.f.1 – Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.f.1.a",
+            "heading": "[Reserved]",
+            "label": "3B993.f.1.a – [Reserved]",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>f.1.a. [Reserved]</P>",
+                "text": "f.1.a. [Reserved]",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.f.1.b",
+            "heading": "A light source wavelength equal to or longer than 193 nm and having all of the following:",
+            "label": "3B993.f.1.b – A light source wavelength equal to or longer than 193 nm and having all of the following:",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>f.1.b. A light source wavelength equal to or longer than 193 nm and having all of the following:</P>",
+                "text": "f.1.b. A light source wavelength equal to or longer than 193 nm and having all of the following:",
+                "id": null
+              }
+            ],
+            "children": [
+              {
+                "identifier": "3B993.f.1.b.1",
+                "heading": "1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and",
+                "label": "3B993.f.1.b.1 – 1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>f.1.b.1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; <I>and</I></P>",
+                    "text": "f.1.b.1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              },
+              {
+                "identifier": "3B993.f.1.b.2",
+                "heading": "A maximum 'dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.",
+                "label": "3B993.f.1.b.2 – A maximum 'dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>f.1.b.2. A maximum 'dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.</P>",
+                    "text": "f.1.b.2. A maximum 'dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.",
+                    "id": null
+                  },
+                  {
+                    "type": "html",
+                    "tag": "NOTE",
+                    "html": "<NOTE>\n<HED><I>Technical Notes for paragraph 3B993.f.1:</I></HED>\n<P><I>1. The 'Minimum Resolvable Feature size' ('MRF') is calculated by the following formula:</I></P></NOTE>",
+                    "text": "Technical Notes for paragraph 3B993.f.1: 1. The 'Minimum Resolvable Feature size' ('MRF') is calculated by the following formula:",
+                    "id": null
+                  },
+                  {
+                    "type": "html",
+                    "tag": "NOTE",
+                    "html": "<NOTE>\n<HED> </HED>\n<FP><I>where, for the purposes of 3B993.f.1, the K factor = 0.25.</I>\n</FP>\n<P><I>'MRF' is also known as resolution.</I></P>\n<P><I>2. 'Dedicated chuck overlay' is the alignment accuracy of a new pattern to an existing pattern printed on a wafer by the same lithographic system. 'Dedicated chuck overlay' is also known as single machine overlay.</I></P></NOTE>",
+                    "text": "where, for the purposes of 3B993.f.1, the K factor = 0.25. 'MRF' is also known as resolution. 2. 'Dedicated chuck overlay' is the alignment accuracy of a new pattern to an existing pattern printed on a wafer by the same lithographic system. 'Dedicated chuck overlay' is also known as single machine overlay.",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": true
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:",
+      "title": "Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls).",
+        "Lithography equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.f"
+      ],
+      "text": "Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:\n[Reserved]\nf.1.a. [Reserved]\nA light source wavelength equal to or longer than 193 nm and having all of the following:\nf.1.b. A light source wavelength equal to or longer than 193 nm and having all of the following:\n1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and\nf.1.b.1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and\nA maximum 'dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.\nf.1.b.2. A maximum 'dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.\nTechnical Notes for paragraph 3B993.f.1: 1. The 'Minimum Resolvable Feature size' ('MRF') is calculated by the following formula:\nwhere, for the purposes of 3B993.f.1, the K factor = 0.25. 'MRF' is also known as resolution. 2. 'Dedicated chuck overlay' is the alignment accuracy of a new pattern to an existing pattern printed on a wafer by the same lithographic system. 'Dedicated chuck overlay' is also known as single machine overlay.",
+      "structure": {
+        "identifier": "3B993.f.1",
+        "heading": "Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:",
+        "label": "3B993.f.1 – Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.f.1.a",
+            "heading": "[Reserved]",
+            "label": "3B993.f.1.a – [Reserved]",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>f.1.a. [Reserved]</P>",
+                "text": "f.1.a. [Reserved]",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.f.1.b",
+            "heading": "A light source wavelength equal to or longer than 193 nm and having all of the following:",
+            "label": "3B993.f.1.b – A light source wavelength equal to or longer than 193 nm and having all of the following:",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>f.1.b. A light source wavelength equal to or longer than 193 nm and having all of the following:</P>",
+                "text": "f.1.b. A light source wavelength equal to or longer than 193 nm and having all of the following:",
+                "id": null
+              }
+            ],
+            "children": [
+              {
+                "identifier": "3B993.f.1.b.1",
+                "heading": "1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and",
+                "label": "3B993.f.1.b.1 – 1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>f.1.b.1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; <I>and</I></P>",
+                    "text": "f.1.b.1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              },
+              {
+                "identifier": "3B993.f.1.b.2",
+                "heading": "A maximum 'dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.",
+                "label": "3B993.f.1.b.2 – A maximum 'dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>f.1.b.2. A maximum 'dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.</P>",
+                    "text": "f.1.b.2. A maximum 'dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.",
+                    "id": null
+                  },
+                  {
+                    "type": "html",
+                    "tag": "NOTE",
+                    "html": "<NOTE>\n<HED><I>Technical Notes for paragraph 3B993.f.1:</I></HED>\n<P><I>1. The 'Minimum Resolvable Feature size' ('MRF') is calculated by the following formula:</I></P></NOTE>",
+                    "text": "Technical Notes for paragraph 3B993.f.1: 1. The 'Minimum Resolvable Feature size' ('MRF') is calculated by the following formula:",
+                    "id": null
+                  },
+                  {
+                    "type": "html",
+                    "tag": "NOTE",
+                    "html": "<NOTE>\n<HED> </HED>\n<FP><I>where, for the purposes of 3B993.f.1, the K factor = 0.25.</I>\n</FP>\n<P><I>'MRF' is also known as resolution.</I></P>\n<P><I>2. 'Dedicated chuck overlay' is the alignment accuracy of a new pattern to an existing pattern printed on a wafer by the same lithographic system. 'Dedicated chuck overlay' is also known as single machine overlay.</I></P></NOTE>",
+                    "text": "where, for the purposes of 3B993.f.1, the K factor = 0.25. 'MRF' is also known as resolution. 2. 'Dedicated chuck overlay' is the alignment accuracy of a new pattern to an existing pattern printed on a wafer by the same lithographic system. 'Dedicated chuck overlay' is also known as single machine overlay.",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": true
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:",
+      "title": "Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls).",
+        "Lithography equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.f"
+      ],
+      "text": "Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:\n[Reserved]\nf.1.a. [Reserved]\nA light source wavelength equal to or longer than 193 nm and having all of the following:\nf.1.b. A light source wavelength equal to or longer than 193 nm and having all of the following:\n1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and\nf.1.b.1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and\nA maximum 'dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.\nf.1.b.2. A maximum 'dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.\nTechnical Notes for paragraph 3B993.f.1: 1. The 'Minimum Resolvable Feature size' ('MRF') is calculated by the following formula:\nwhere, for the purposes of 3B993.f.1, the K factor = 0.25. 'MRF' is also known as resolution. 2. 'Dedicated chuck overlay' is the alignment accuracy of a new pattern to an existing pattern printed on a wafer by the same lithographic system. 'Dedicated chuck overlay' is also known as single machine overlay.",
+      "structure": {
+        "identifier": "3B993.f.1",
+        "heading": "Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:",
+        "label": "3B993.f.1 – Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.f.1.a",
+            "heading": "[Reserved]",
+            "label": "3B993.f.1.a – [Reserved]",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>f.1.a. [Reserved]</P>",
+                "text": "f.1.a. [Reserved]",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.f.1.b",
+            "heading": "A light source wavelength equal to or longer than 193 nm and having all of the following:",
+            "label": "3B993.f.1.b – A light source wavelength equal to or longer than 193 nm and having all of the following:",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>f.1.b. A light source wavelength equal to or longer than 193 nm and having all of the following:</P>",
+                "text": "f.1.b. A light source wavelength equal to or longer than 193 nm and having all of the following:",
+                "id": null
+              }
+            ],
+            "children": [
+              {
+                "identifier": "3B993.f.1.b.1",
+                "heading": "1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and",
+                "label": "3B993.f.1.b.1 – 1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>f.1.b.1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; <I>and</I></P>",
+                    "text": "f.1.b.1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              },
+              {
+                "identifier": "3B993.f.1.b.2",
+                "heading": "A maximum 'dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.",
+                "label": "3B993.f.1.b.2 – A maximum 'dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>f.1.b.2. A maximum 'dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.</P>",
+                    "text": "f.1.b.2. A maximum 'dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.",
+                    "id": null
+                  },
+                  {
+                    "type": "html",
+                    "tag": "NOTE",
+                    "html": "<NOTE>\n<HED><I>Technical Notes for paragraph 3B993.f.1:</I></HED>\n<P><I>1. The 'Minimum Resolvable Feature size' ('MRF') is calculated by the following formula:</I></P></NOTE>",
+                    "text": "Technical Notes for paragraph 3B993.f.1: 1. The 'Minimum Resolvable Feature size' ('MRF') is calculated by the following formula:",
+                    "id": null
+                  },
+                  {
+                    "type": "html",
+                    "tag": "NOTE",
+                    "html": "<NOTE>\n<HED> </HED>\n<FP><I>where, for the purposes of 3B993.f.1, the K factor = 0.25.</I>\n</FP>\n<P><I>'MRF' is also known as resolution.</I></P>\n<P><I>2. 'Dedicated chuck overlay' is the alignment accuracy of a new pattern to an existing pattern printed on a wafer by the same lithographic system. 'Dedicated chuck overlay' is also known as single machine overlay.</I></P></NOTE>",
+                    "text": "where, for the purposes of 3B993.f.1, the K factor = 0.25. 'MRF' is also known as resolution. 2. 'Dedicated chuck overlay' is the alignment accuracy of a new pattern to an existing pattern printed on a wafer by the same lithographic system. 'Dedicated chuck overlay' is also known as single machine overlay.",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": true
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:",
+      "title": "Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls), and “specially designed” “components” and “accessories” therefor.",
+        "Lithography commodities as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.f"
+      ],
+      "text": "Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:\n[Reserved]\nf.1.a. [Reserved]\nA light source wavelength equal to or longer than 193 nm and having all of the following:\nf.1.b. A light source wavelength equal to or longer than 193 nm and having all of the following:\n1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and\nf.1.b.1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and\nA maximum `dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.\nf.1.b.2. A maximum `dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.\nTechnical Notes for paragraph 3B993.f.1: 1. The 'Minimum Resolvable Feature size' ('MRF') is calculated by the following formula:\nwhere, for the purposes of 3B993.f.1, the K factor = 0.25. 'MRF' is also known as resolution. 2. 'Dedicated chuck overlay' is the alignment accuracy of a new pattern to an existing pattern printed on a wafer by the same lithographic system. 'Dedicated chuck overlay' is also known as single machine overlay.",
+      "structure": {
+        "identifier": "3B993.f.1",
+        "heading": "Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:",
+        "label": "3B993.f.1 – Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.f.1.a",
+            "heading": "[Reserved]",
+            "label": "3B993.f.1.a – [Reserved]",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>f.1.a. [Reserved]</P>",
+                "text": "f.1.a. [Reserved]",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.f.1.b",
+            "heading": "A light source wavelength equal to or longer than 193 nm and having all of the following:",
+            "label": "3B993.f.1.b – A light source wavelength equal to or longer than 193 nm and having all of the following:",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>f.1.b. A light source wavelength equal to or longer than 193 nm and having all of the following:</P>",
+                "text": "f.1.b. A light source wavelength equal to or longer than 193 nm and having all of the following:",
+                "id": null
+              }
+            ],
+            "children": [
+              {
+                "identifier": "3B993.f.1.b.1",
+                "heading": "1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and",
+                "label": "3B993.f.1.b.1 – 1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>f.1.b.1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; <I>and</I></P>",
+                    "text": "f.1.b.1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              },
+              {
+                "identifier": "3B993.f.1.b.2",
+                "heading": "A maximum `dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.",
+                "label": "3B993.f.1.b.2 – A maximum `dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>f.1.b.2. A maximum `dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.</P>",
+                    "text": "f.1.b.2. A maximum `dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.",
+                    "id": null
+                  },
+                  {
+                    "type": "html",
+                    "tag": "NOTE",
+                    "html": "<NOTE>\n<HED><I>Technical Notes for paragraph 3B993.f.1:</I>\n</HED>\n<P><I>1. The 'Minimum Resolvable Feature size' ('MRF') is calculated by the following formula:</I></P></NOTE>",
+                    "text": "Technical Notes for paragraph 3B993.f.1: 1. The 'Minimum Resolvable Feature size' ('MRF') is calculated by the following formula:",
+                    "id": null
+                  },
+                  {
+                    "type": "html",
+                    "tag": "NOTE",
+                    "html": "<NOTE>\n<HED> </HED>\n<FP><I>where, for the purposes of 3B993.f.1, the K factor = 0.25.</I>\n</FP>\n<P><I>'MRF' is also known as resolution.</I></P>\n<P><I>2. 'Dedicated chuck overlay' is the alignment accuracy of a new pattern to an existing pattern printed on a wafer by the same lithographic system. 'Dedicated chuck overlay' is also known as single machine overlay.</I></P></NOTE>",
+                    "text": "where, for the purposes of 3B993.f.1, the K factor = 0.25. 'MRF' is also known as resolution. 2. 'Dedicated chuck overlay' is the alignment accuracy of a new pattern to an existing pattern printed on a wafer by the same lithographic system. 'Dedicated chuck overlay' is also known as single machine overlay.",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": true
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:",
+      "title": "Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls), and “specially designed” “components” and “accessories” therefor.",
+        "Lithography commodities as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.f"
+      ],
+      "text": "Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:\n[Reserved]\nf.1.a. [Reserved]\nA light source wavelength equal to or longer than 193 nm and having all of the following:\nf.1.b. A light source wavelength equal to or longer than 193 nm and having all of the following:\n1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and\nf.1.b.1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and\nA maximum `dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.\nf.1.b.2. A maximum `dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.\nTechnical Notes for paragraph 3B993.f.1: 1. The 'Minimum Resolvable Feature size' ('MRF') is calculated by the following formula:\nwhere, for the purposes of 3B993.f.1, the K factor = 0.25. 'MRF' is also known as resolution. 2. 'Dedicated chuck overlay' is the alignment accuracy of a new pattern to an existing pattern printed on a wafer by the same lithographic system. 'Dedicated chuck overlay' is also known as single machine overlay.",
+      "structure": {
+        "identifier": "3B993.f.1",
+        "heading": "Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:",
+        "label": "3B993.f.1 – Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.f.1.a",
+            "heading": "[Reserved]",
+            "label": "3B993.f.1.a – [Reserved]",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>f.1.a. [Reserved]</P>",
+                "text": "f.1.a. [Reserved]",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.f.1.b",
+            "heading": "A light source wavelength equal to or longer than 193 nm and having all of the following:",
+            "label": "3B993.f.1.b – A light source wavelength equal to or longer than 193 nm and having all of the following:",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>f.1.b. A light source wavelength equal to or longer than 193 nm and having all of the following:</P>",
+                "text": "f.1.b. A light source wavelength equal to or longer than 193 nm and having all of the following:",
+                "id": null
+              }
+            ],
+            "children": [
+              {
+                "identifier": "3B993.f.1.b.1",
+                "heading": "1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and",
+                "label": "3B993.f.1.b.1 – 1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>f.1.b.1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; <I>and</I></P>",
+                    "text": "f.1.b.1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              },
+              {
+                "identifier": "3B993.f.1.b.2",
+                "heading": "A maximum `dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.",
+                "label": "3B993.f.1.b.2 – A maximum `dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>f.1.b.2. A maximum `dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.</P>",
+                    "text": "f.1.b.2. A maximum `dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.",
+                    "id": null
+                  },
+                  {
+                    "type": "html",
+                    "tag": "NOTE",
+                    "html": "<NOTE>\n<HED><I>Technical Notes for paragraph 3B993.f.1:</I>\n</HED>\n<P><I>1. The 'Minimum Resolvable Feature size' ('MRF') is calculated by the following formula:</I></P></NOTE>",
+                    "text": "Technical Notes for paragraph 3B993.f.1: 1. The 'Minimum Resolvable Feature size' ('MRF') is calculated by the following formula:",
+                    "id": null
+                  },
+                  {
+                    "type": "html",
+                    "tag": "NOTE",
+                    "html": "<NOTE>\n<HED> </HED>\n<FP><I>where, for the purposes of 3B993.f.1, the K factor = 0.25.</I>\n</FP>\n<P><I>'MRF' is also known as resolution.</I></P>\n<P><I>2. 'Dedicated chuck overlay' is the alignment accuracy of a new pattern to an existing pattern printed on a wafer by the same lithographic system. 'Dedicated chuck overlay' is also known as single machine overlay.</I></P></NOTE>",
+                    "text": "where, for the purposes of 3B993.f.1, the K factor = 0.25. 'MRF' is also known as resolution. 2. 'Dedicated chuck overlay' is the alignment accuracy of a new pattern to an existing pattern printed on a wafer by the same lithographic system. 'Dedicated chuck overlay' is also known as single machine overlay.",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": true
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:",
+      "title": "Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls), and “specially designed” “components” and “accessories” therefor.",
+        "Lithography commodities as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.f"
+      ],
+      "text": "Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:\n[Reserved]\nf.1.a. [Reserved]\nA light source wavelength equal to or longer than 193 nm and having all of the following:\nf.1.b. A light source wavelength equal to or longer than 193 nm and having all of the following:\n1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and\nf.1.b.1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and\nA maximum 'dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.\nf.1.b.2. A maximum 'dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.\nTechnical Notes for paragraph 3B993.f.1: 1. The 'Minimum Resolvable Feature size' ('MRF') is calculated by the following formula:\nwhere, for the purposes of 3B993.f.1, the K factor = 0.25. 'MRF' is also known as resolution. 2. 'Dedicated chuck overlay' is the alignment accuracy of a new pattern to an existing pattern printed on a wafer by the same lithographic system. 'Dedicated chuck overlay' is also known as single machine overlay.",
+      "structure": {
+        "identifier": "3B993.f.1",
+        "heading": "Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:",
+        "label": "3B993.f.1 – Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.f.1.a",
+            "heading": "[Reserved]",
+            "label": "3B993.f.1.a – [Reserved]",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>f.1.a. [Reserved]\n</P>",
+                "text": "f.1.a. [Reserved]",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.f.1.b",
+            "heading": "A light source wavelength equal to or longer than 193 nm and having all of the following:",
+            "label": "3B993.f.1.b – A light source wavelength equal to or longer than 193 nm and having all of the following:",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>f.1.b. A light source wavelength equal to or longer than 193 nm and having all of the following:\n</P>",
+                "text": "f.1.b. A light source wavelength equal to or longer than 193 nm and having all of the following:",
+                "id": null
+              }
+            ],
+            "children": [
+              {
+                "identifier": "3B993.f.1.b.1",
+                "heading": "1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and",
+                "label": "3B993.f.1.b.1 – 1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>f.1.b.1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; <I>and</I>\n</P>",
+                    "text": "f.1.b.1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              },
+              {
+                "identifier": "3B993.f.1.b.2",
+                "heading": "A maximum 'dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.",
+                "label": "3B993.f.1.b.2 – A maximum 'dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>f.1.b.2. A maximum 'dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.\n</P>",
+                    "text": "f.1.b.2. A maximum 'dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.",
+                    "id": null
+                  },
+                  {
+                    "type": "html",
+                    "tag": "NOTE",
+                    "html": "<NOTE>\n<HED><I>Technical Notes for paragraph 3B993.f.1:</I>\n</HED>\n<P><I>1. The 'Minimum Resolvable Feature size' ('MRF') is calculated by the following formula:</I></P></NOTE>",
+                    "text": "Technical Notes for paragraph 3B993.f.1: 1. The 'Minimum Resolvable Feature size' ('MRF') is calculated by the following formula:",
+                    "id": null
+                  },
+                  {
+                    "type": "html",
+                    "tag": "NOTE",
+                    "html": "<NOTE>\n<HED> </HED>\n<P> \n</P>\n<FP><I>where, for the purposes of 3B993.f.1, the K factor = 0.25.</I>\n</FP>\n<P><I>'MRF' is also known as resolution.</I>\n</P>\n<P><I>2. 'Dedicated chuck overlay' is the alignment accuracy of a new pattern to an existing pattern printed on a wafer by the same lithographic system. 'Dedicated chuck overlay' is also known as single machine overlay.</I></P></NOTE>",
+                    "text": "where, for the purposes of 3B993.f.1, the K factor = 0.25. 'MRF' is also known as resolution. 2. 'Dedicated chuck overlay' is the alignment accuracy of a new pattern to an existing pattern printed on a wafer by the same lithographic system. 'Dedicated chuck overlay' is also known as single machine overlay.",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": true
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:",
+      "title": "Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls), and “specially designed” “components” and “accessories” therefor.",
+        "Lithography commodities as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.f"
+      ],
+      "text": "Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:\n[Reserved]\nf.1.a. [Reserved]\nA light source wavelength equal to or longer than 193 nm and having all of the following:\nf.1.b. A light source wavelength equal to or longer than 193 nm and having all of the following:\n1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and\nf.1.b.1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and\nA maximum 'dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.\nf.1.b.2. A maximum 'dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.\nTechnical Notes for paragraph 3B993.f.1: 1. The 'Minimum Resolvable Feature size' ('MRF') is calculated by the following formula:\nwhere, for the purposes of 3B993.f.1, the K factor = 0.25. 'MRF' is also known as resolution. 2. 'Dedicated chuck overlay' is the alignment accuracy of a new pattern to an existing pattern printed on a wafer by the same lithographic system. 'Dedicated chuck overlay' is also known as single machine overlay.",
+      "structure": {
+        "identifier": "3B993.f.1",
+        "heading": "Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:",
+        "label": "3B993.f.1 – Align and expose step and repeat (direct step on wafer) or step and scan (scanner) lithography equipment for wafer processing using photo-optical or X-ray methods and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.f.1.a",
+            "heading": "[Reserved]",
+            "label": "3B993.f.1.a – [Reserved]",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>f.1.a. [Reserved]\n</P>",
+                "text": "f.1.a. [Reserved]",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.f.1.b",
+            "heading": "A light source wavelength equal to or longer than 193 nm and having all of the following:",
+            "label": "3B993.f.1.b – A light source wavelength equal to or longer than 193 nm and having all of the following:",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>f.1.b. A light source wavelength equal to or longer than 193 nm and having all of the following:\n</P>",
+                "text": "f.1.b. A light source wavelength equal to or longer than 193 nm and having all of the following:",
+                "id": null
+              }
+            ],
+            "children": [
+              {
+                "identifier": "3B993.f.1.b.1",
+                "heading": "1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and",
+                "label": "3B993.f.1.b.1 – 1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>f.1.b.1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; <I>and</I>\n</P>",
+                    "text": "f.1.b.1 The capability to produce a pattern with a 'Minimum Resolvable Feature size' ('MRF') of 45 nm or less; and",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              },
+              {
+                "identifier": "3B993.f.1.b.2",
+                "heading": "A maximum 'dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.",
+                "label": "3B993.f.1.b.2 – A maximum 'dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>f.1.b.2. A maximum 'dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.\n</P>",
+                    "text": "f.1.b.2. A maximum 'dedicated chuck overlay' value greater than 1.50 nm and less than or equal to 2.40 nm.",
+                    "id": null
+                  },
+                  {
+                    "type": "html",
+                    "tag": "NOTE",
+                    "html": "<NOTE>\n<HED><I>Technical Notes for paragraph 3B993.f.1:</I>\n</HED>\n<P><I>1. The 'Minimum Resolvable Feature size' ('MRF') is calculated by the following formula:</I></P></NOTE>",
+                    "text": "Technical Notes for paragraph 3B993.f.1: 1. The 'Minimum Resolvable Feature size' ('MRF') is calculated by the following formula:",
+                    "id": null
+                  },
+                  {
+                    "type": "html",
+                    "tag": "NOTE",
+                    "html": "<NOTE>\n<HED> </HED>\n<P> \n</P>\n<FP><I>where, for the purposes of 3B993.f.1, the K factor = 0.25.</I>\n</FP>\n<P><I>'MRF' is also known as resolution.</I>\n</P>\n<P><I>2. 'Dedicated chuck overlay' is the alignment accuracy of a new pattern to an existing pattern printed on a wafer by the same lithographic system. 'Dedicated chuck overlay' is also known as single machine overlay.</I></P></NOTE>",
+                    "text": "where, for the purposes of 3B993.f.1, the K factor = 0.25. 'MRF' is also known as resolution. 2. 'Dedicated chuck overlay' is the alignment accuracy of a new pattern to an existing pattern printed on a wafer by the same lithographic system. 'Dedicated chuck overlay' is also known as single machine overlay.",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": true
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    }
+  ]
+}

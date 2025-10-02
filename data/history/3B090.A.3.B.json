@@ -1,0 +1,138 @@
+{
+  "eccn": "3B090.a.3.b",
+  "normalized": "3B090.A.3.B",
+  "history": [
+    {
+      "version": "2023-01-17",
+      "fetchedAt": "2025-10-02T20:33:41.990Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-01-17/title-15?format=xml",
+      "heading": "Conducting a plasma process where the chemistries include hydrogen, including H2+N2 and NH3.",
+      "title": "Conducting a plasma process where the chemistries include hydrogen, including H2+N2 and NH3.",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B090 Semiconductor manufacturing equipment, not Controlled by 3B001, as follows (see List of Items Controlled) and “specially designed” “parts,” “components,” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "3 Equipment capable of fabricating a metal contact within one processing chamber by:"
+      ],
+      "ancestors": [
+        "3B090",
+        "3B090.a",
+        "3B090.a.3"
+      ],
+      "text": "Conducting a plasma process where the chemistries include hydrogen, including H2+N2 and NH3.",
+      "structure": {
+        "identifier": "3B090.a.3.b",
+        "heading": "Conducting a plasma process where the chemistries include hydrogen, including H2+N2 and NH3.",
+        "label": "3B090.a.3.b – Conducting a plasma process where the chemistries include hydrogen, including H2+N2 and NH3.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-02-24",
+      "fetchedAt": "2025-10-02T20:33:42.390Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-02-24/title-15?format=xml",
+      "heading": "Conducting a plasma process where the chemistries include hydrogen, including H2+N2 and NH3.",
+      "title": "Conducting a plasma process where the chemistries include hydrogen, including H2+N2 and NH3.",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B090 Semiconductor manufacturing equipment, not controlled by 3B001, as follows (see List of Items Controlled) and “specially designed” “parts,” “components,” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "3 Equipment capable of fabricating a metal contact within one processing chamber by:"
+      ],
+      "ancestors": [
+        "3B090",
+        "3B090.a",
+        "3B090.a.3"
+      ],
+      "text": "Conducting a plasma process where the chemistries include hydrogen, including H2+N2 and NH3.",
+      "structure": {
+        "identifier": "3B090.a.3.b",
+        "heading": "Conducting a plasma process where the chemistries include hydrogen, including H2+N2 and NH3.",
+        "label": "3B090.a.3.b – Conducting a plasma process where the chemistries include hydrogen, including H2+N2 and NH3.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-08-18",
+      "fetchedAt": "2025-10-02T20:33:42.783Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-08-18/title-15?format=xml",
+      "heading": "Conducting a plasma process where the chemistries include hydrogen, including H2+N2 and NH3.",
+      "title": "Conducting a plasma process where the chemistries include hydrogen, including H2+N2 and NH3.",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B090 Semiconductor manufacturing equipment, not controlled by 3B001, as follows (see List of Items Controlled) and “specially designed” “parts,” “components,” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "3 Equipment capable of fabricating a metal contact within one processing chamber by:"
+      ],
+      "ancestors": [
+        "3B090",
+        "3B090.a",
+        "3B090.a.3"
+      ],
+      "text": "Conducting a plasma process where the chemistries include hydrogen, including H2+N2 and NH3.",
+      "structure": {
+        "identifier": "3B090.a.3.b",
+        "heading": "Conducting a plasma process where the chemistries include hydrogen, including H2+N2 and NH3.",
+        "label": "3B090.a.3.b – Conducting a plasma process where the chemistries include hydrogen, including H2+N2 and NH3.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-10-18",
+      "fetchedAt": "2025-10-02T20:33:43.173Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-10-18/title-15?format=xml",
+      "heading": "Conducting a plasma process where the chemistries include hydrogen, including H2+N2 and NH3.",
+      "title": "Conducting a plasma process where the chemistries include hydrogen, including H2+N2 and NH3.",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B090 Semiconductor manufacturing equipment, not controlled by 3B001, as follows (see List of Items Controlled) and “specially designed” “parts,” “components,” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "3 Equipment capable of fabricating a metal contact within one processing chamber by:"
+      ],
+      "ancestors": [
+        "3B090",
+        "3B090.a",
+        "3B090.a.3"
+      ],
+      "text": "Conducting a plasma process where the chemistries include hydrogen, including H2+N2 and NH3.",
+      "structure": {
+        "identifier": "3B090.a.3.b",
+        "heading": "Conducting a plasma process where the chemistries include hydrogen, including H2+N2 and NH3.",
+        "label": "3B090.a.3.b – Conducting a plasma process where the chemistries include hydrogen, including H2+N2 and NH3.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

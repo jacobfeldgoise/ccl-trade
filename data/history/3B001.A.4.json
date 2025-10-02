@@ -1,0 +1,1466 @@
+{
+  "eccn": "3B001.a.4",
+  "normalized": "3B001.A.4",
+  "history": [
+    {
+      "version": "2023-11-17",
+      "fetchedAt": "2025-10-02T20:33:43.584Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-11-17/title-15?format=xml",
+      "heading": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+      "title": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Equipment designed for epitaxial growth as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.a"
+      ],
+      "text": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:\nMultiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;\na.4.a. Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;\nAt least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and\na.4.b. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and\nAn epitaxial deposition operating temperature of 685 °C or below;\na.4.c. An epitaxial deposition operating temperature of 685 °C or below;",
+      "structure": {
+        "identifier": "3B001.a.4",
+        "heading": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+        "label": "3B001.a.4 – Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B001.a.4.a",
+            "heading": "Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;",
+            "label": "3B001.a.4.a – Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.a. Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;</P>",
+                "text": "a.4.a. Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.a.4.b",
+            "heading": "At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+            "label": "3B001.a.4.b – At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.b. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; <I>and</I></P>",
+                "text": "a.4.b. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.a.4.c",
+            "heading": "An epitaxial deposition operating temperature of 685 °C or below;",
+            "label": "3B001.a.4.c – An epitaxial deposition operating temperature of 685 °C or below;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.c. An epitaxial deposition operating temperature of 685 °C or below;</P>",
+                "text": "a.4.c. An epitaxial deposition operating temperature of 685 °C or below;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2023-12-08",
+      "fetchedAt": "2025-10-02T20:33:43.980Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-12-08/title-15?format=xml",
+      "heading": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+      "title": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Equipment designed for epitaxial growth as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.a"
+      ],
+      "text": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:\nMultiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;\na.4.a. Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;\nAt least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and\na.4.b. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and\nAn epitaxial deposition operating temperature of 685 °C or below;\na.4.c. An epitaxial deposition operating temperature of 685 °C or below;",
+      "structure": {
+        "identifier": "3B001.a.4",
+        "heading": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+        "label": "3B001.a.4 – Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B001.a.4.a",
+            "heading": "Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;",
+            "label": "3B001.a.4.a – Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.a. Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;</P>",
+                "text": "a.4.a. Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.a.4.b",
+            "heading": "At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+            "label": "3B001.a.4.b – At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.b. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; <I>and</I></P>",
+                "text": "a.4.b. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.a.4.c",
+            "heading": "An epitaxial deposition operating temperature of 685 °C or below;",
+            "label": "3B001.a.4.c – An epitaxial deposition operating temperature of 685 °C or below;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.c. An epitaxial deposition operating temperature of 685 °C or below;</P>",
+                "text": "a.4.c. An epitaxial deposition operating temperature of 685 °C or below;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-03-08",
+      "fetchedAt": "2025-10-02T20:33:44.401Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-08/title-15?format=xml",
+      "heading": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+      "title": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Equipment designed for epitaxial growth as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.a"
+      ],
+      "text": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:\nMultiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;\na.4.a. Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;\nAt least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and\na.4.b. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and\nAn epitaxial deposition operating temperature of 685 °C or below;\na.4.c. An epitaxial deposition operating temperature of 685 °C or below;",
+      "structure": {
+        "identifier": "3B001.a.4",
+        "heading": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+        "label": "3B001.a.4 – Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B001.a.4.a",
+            "heading": "Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;",
+            "label": "3B001.a.4.a – Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.a. Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;</P>",
+                "text": "a.4.a. Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.a.4.b",
+            "heading": "At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+            "label": "3B001.a.4.b – At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.b. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; <I>and</I></P>",
+                "text": "a.4.b. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.a.4.c",
+            "heading": "An epitaxial deposition operating temperature of 685 °C or below;",
+            "label": "3B001.a.4.c – An epitaxial deposition operating temperature of 685 °C or below;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.c. An epitaxial deposition operating temperature of 685 °C or below;</P>",
+                "text": "a.4.c. An epitaxial deposition operating temperature of 685 °C or below;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-03-13",
+      "fetchedAt": "2025-10-02T20:33:44.826Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-13/title-15?format=xml",
+      "heading": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+      "title": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Equipment designed for epitaxial growth as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.a"
+      ],
+      "text": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:\nMultiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;\na.4.a. Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;\nAt least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and\na.4.b. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and\nAn epitaxial deposition operating temperature of 685 °C or below;\na.4.c. An epitaxial deposition operating temperature of 685 °C or below;",
+      "structure": {
+        "identifier": "3B001.a.4",
+        "heading": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+        "label": "3B001.a.4 – Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B001.a.4.a",
+            "heading": "Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;",
+            "label": "3B001.a.4.a – Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.a. Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;</P>",
+                "text": "a.4.a. Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.a.4.b",
+            "heading": "At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+            "label": "3B001.a.4.b – At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.b. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; <I>and</I></P>",
+                "text": "a.4.b. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.a.4.c",
+            "heading": "An epitaxial deposition operating temperature of 685 °C or below;",
+            "label": "3B001.a.4.c – An epitaxial deposition operating temperature of 685 °C or below;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.c. An epitaxial deposition operating temperature of 685 °C or below;</P>",
+                "text": "a.4.c. An epitaxial deposition operating temperature of 685 °C or below;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-04-04",
+      "fetchedAt": "2025-10-02T20:33:45.229Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-04/title-15?format=xml",
+      "heading": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+      "title": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Equipment designed for epitaxial growth as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.a"
+      ],
+      "text": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:\nMultiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;\na.4.a. Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;\nAt least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and\na.4.b. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and\nAn epitaxial deposition operating temperature of 685 °C or below;\na.4.c. An epitaxial deposition operating temperature of 685 °C or below;",
+      "structure": {
+        "identifier": "3B001.a.4",
+        "heading": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+        "label": "3B001.a.4 – Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B001.a.4.a",
+            "heading": "Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;",
+            "label": "3B001.a.4.a – Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.a. Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;</P>",
+                "text": "a.4.a. Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.a.4.b",
+            "heading": "At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+            "label": "3B001.a.4.b – At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.b. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; <I>and</I></P>",
+                "text": "a.4.b. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.a.4.c",
+            "heading": "An epitaxial deposition operating temperature of 685 °C or below;",
+            "label": "3B001.a.4.c – An epitaxial deposition operating temperature of 685 °C or below;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.c. An epitaxial deposition operating temperature of 685 °C or below;</P>",
+                "text": "a.4.c. An epitaxial deposition operating temperature of 685 °C or below;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-04-19",
+      "fetchedAt": "2025-10-02T20:33:45.630Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-19/title-15?format=xml",
+      "heading": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+      "title": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Equipment designed for epitaxial growth as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.a"
+      ],
+      "text": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:\nMultiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;\na.4.a. Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;\nAt least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and\na.4.b. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and\nAn epitaxial deposition operating temperature of 685 °C or below;\na.4.c. An epitaxial deposition operating temperature of 685 °C or below;",
+      "structure": {
+        "identifier": "3B001.a.4",
+        "heading": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+        "label": "3B001.a.4 – Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B001.a.4.a",
+            "heading": "Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;",
+            "label": "3B001.a.4.a – Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.a. Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;</P>",
+                "text": "a.4.a. Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.a.4.b",
+            "heading": "At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+            "label": "3B001.a.4.b – At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.b. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; <I>and</I></P>",
+                "text": "a.4.b. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.a.4.c",
+            "heading": "An epitaxial deposition operating temperature of 685 °C or below;",
+            "label": "3B001.a.4.c – An epitaxial deposition operating temperature of 685 °C or below;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.c. An epitaxial deposition operating temperature of 685 °C or below;</P>",
+                "text": "a.4.c. An epitaxial deposition operating temperature of 685 °C or below;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-05-30",
+      "fetchedAt": "2025-10-02T20:33:46.051Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-05-30/title-15?format=xml",
+      "heading": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+      "title": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Equipment designed for epitaxial growth as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.a"
+      ],
+      "text": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:\nMultiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;\na.4.a. Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;\nAt least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and\na.4.b. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and\nAn epitaxial deposition operating temperature of 685 °C or below;\na.4.c. An epitaxial deposition operating temperature of 685 °C or below;",
+      "structure": {
+        "identifier": "3B001.a.4",
+        "heading": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+        "label": "3B001.a.4 – Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B001.a.4.a",
+            "heading": "Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;",
+            "label": "3B001.a.4.a – Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.a. Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;</P>",
+                "text": "a.4.a. Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.a.4.b",
+            "heading": "At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+            "label": "3B001.a.4.b – At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.b. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; <I>and</I></P>",
+                "text": "a.4.b. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.a.4.c",
+            "heading": "An epitaxial deposition operating temperature of 685 °C or below;",
+            "label": "3B001.a.4.c – An epitaxial deposition operating temperature of 685 °C or below;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.c. An epitaxial deposition operating temperature of 685 °C or below;</P>",
+                "text": "a.4.c. An epitaxial deposition operating temperature of 685 °C or below;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-06-12",
+      "fetchedAt": "2025-10-02T20:33:46.460Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-06-12/title-15?format=xml",
+      "heading": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+      "title": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Equipment designed for epitaxial growth as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.a"
+      ],
+      "text": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:\nMultiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;\na.4.a. Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;\nAt least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and\na.4.b. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and\nAn epitaxial deposition operating temperature of 685 °C or below;\na.4.c. An epitaxial deposition operating temperature of 685 °C or below;",
+      "structure": {
+        "identifier": "3B001.a.4",
+        "heading": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+        "label": "3B001.a.4 – Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B001.a.4.a",
+            "heading": "Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;",
+            "label": "3B001.a.4.a – Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.a. Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;</P>",
+                "text": "a.4.a. Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.a.4.b",
+            "heading": "At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+            "label": "3B001.a.4.b – At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.b. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; <I>and</I></P>",
+                "text": "a.4.b. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.a.4.c",
+            "heading": "An epitaxial deposition operating temperature of 685 °C or below;",
+            "label": "3B001.a.4.c – An epitaxial deposition operating temperature of 685 °C or below;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.c. An epitaxial deposition operating temperature of 685 °C or below;</P>",
+                "text": "a.4.c. An epitaxial deposition operating temperature of 685 °C or below;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-09-06",
+      "fetchedAt": "2025-10-02T20:33:46.879Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-09-06/title-15?format=xml",
+      "heading": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+      "title": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Equipment designed for epitaxial growth as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.a"
+      ],
+      "text": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:\nMultiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;\na.4.a. Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;\nAt least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and\na.4.b. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and\nAn epitaxial deposition operating temperature of 685 °C or below;\na.4.c. An epitaxial deposition operating temperature of 685 °C or below;",
+      "structure": {
+        "identifier": "3B001.a.4",
+        "heading": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+        "label": "3B001.a.4 – Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B001.a.4.a",
+            "heading": "Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;",
+            "label": "3B001.a.4.a – Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.a. Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;</P>",
+                "text": "a.4.a. Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.a.4.b",
+            "heading": "At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+            "label": "3B001.a.4.b – At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.b. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; <I>and</I></P>",
+                "text": "a.4.b. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.a.4.c",
+            "heading": "An epitaxial deposition operating temperature of 685 °C or below;",
+            "label": "3B001.a.4.c – An epitaxial deposition operating temperature of 685 °C or below;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.c. An epitaxial deposition operating temperature of 685 °C or below;</P>",
+                "text": "a.4.c. An epitaxial deposition operating temperature of 685 °C or below;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-10-23",
+      "fetchedAt": "2025-10-02T20:33:47.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-10-23/title-15?format=xml",
+      "heading": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+      "title": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Equipment designed for epitaxial growth as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.a"
+      ],
+      "text": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:\nMultiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;\na.4.a. Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;\nAt least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and\na.4.b. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and\nAn epitaxial deposition operating temperature of 685 °C or below;\na.4.c. An epitaxial deposition operating temperature of 685 °C or below;",
+      "structure": {
+        "identifier": "3B001.a.4",
+        "heading": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+        "label": "3B001.a.4 – Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B001.a.4.a",
+            "heading": "Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;",
+            "label": "3B001.a.4.a – Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.a. Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;</P>",
+                "text": "a.4.a. Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.a.4.b",
+            "heading": "At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+            "label": "3B001.a.4.b – At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.b. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; <I>and</I></P>",
+                "text": "a.4.b. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.a.4.c",
+            "heading": "An epitaxial deposition operating temperature of 685 °C or below;",
+            "label": "3B001.a.4.c – An epitaxial deposition operating temperature of 685 °C or below;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.c. An epitaxial deposition operating temperature of 685 °C or below;</P>",
+                "text": "a.4.c. An epitaxial deposition operating temperature of 685 °C or below;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-02",
+      "fetchedAt": "2025-10-02T20:33:47.757Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-02/title-15?format=xml",
+      "heading": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+      "title": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Equipment designed for epitaxial growth as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.a"
+      ],
+      "text": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:\nMultiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;\na.4.a. Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;\nAt least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and\na.4.b. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and\nAn epitaxial deposition operating temperature of 685 °C or below;\na.4.c. An epitaxial deposition operating temperature of 685 °C or below;",
+      "structure": {
+        "identifier": "3B001.a.4",
+        "heading": "Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+        "label": "3B001.a.4 – Equipment designed for silicon (Si), carbon doped silicon, silicon germanium (SiGe), or carbon doped SiGe epitaxial growth, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B001.a.4.a",
+            "heading": "Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;",
+            "label": "3B001.a.4.a – Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.a. Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;</P>",
+                "text": "a.4.a. Multiple chambers and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment (water and oxygen partial pressure less than 0.01 Pa) between process steps;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.a.4.b",
+            "heading": "At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+            "label": "3B001.a.4.b – At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.b. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; <I>and</I></P>",
+                "text": "a.4.b. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.a.4.c",
+            "heading": "An epitaxial deposition operating temperature of 685 °C or below;",
+            "label": "3B001.a.4.c – An epitaxial deposition operating temperature of 685 °C or below;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.c. An epitaxial deposition operating temperature of 685 °C or below;</P>",
+                "text": "a.4.c. An epitaxial deposition operating temperature of 685 °C or below;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:",
+      "title": "Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Equipment designed for epitaxial growth as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.a"
+      ],
+      "text": "Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:\nAt least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and\na.4.a. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and\nAn epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).\na.4.b. An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).",
+      "structure": {
+        "identifier": "3B001.a.4",
+        "heading": "Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:",
+        "label": "3B001.a.4 – Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B001.a.4.a",
+            "heading": "At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+            "label": "3B001.a.4.a – At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.a. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; <I>and</I></P>",
+                "text": "a.4.a. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.a.4.b",
+            "heading": "An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).",
+            "label": "3B001.a.4.b – An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.b. An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).</P>",
+                "text": "a.4.b. An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:",
+      "title": "Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Equipment designed for epitaxial growth as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.a"
+      ],
+      "text": "Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:\nAt least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and\na.4.a. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and\nAn epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).\na.4.b. An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).",
+      "structure": {
+        "identifier": "3B001.a.4",
+        "heading": "Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:",
+        "label": "3B001.a.4 – Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B001.a.4.a",
+            "heading": "At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+            "label": "3B001.a.4.a – At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.a. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; <I>and</I></P>",
+                "text": "a.4.a. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.a.4.b",
+            "heading": "An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).",
+            "label": "3B001.a.4.b – An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.b. An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).</P>",
+                "text": "a.4.b. An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:",
+      "title": "Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Equipment designed for epitaxial growth as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.a"
+      ],
+      "text": "Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:\nAt least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and\na.4.a. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and\nAn epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).\na.4.b. An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).",
+      "structure": {
+        "identifier": "3B001.a.4",
+        "heading": "Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:",
+        "label": "3B001.a.4 – Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B001.a.4.a",
+            "heading": "At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+            "label": "3B001.a.4.a – At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.a. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; <I>and</I></P>",
+                "text": "a.4.a. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.a.4.b",
+            "heading": "An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).",
+            "label": "3B001.a.4.b – An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.b. An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).</P>",
+                "text": "a.4.b. An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:",
+      "title": "Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Equipment designed for epitaxial growth as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.a"
+      ],
+      "text": "Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:\nAt least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and\na.4.a. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and\nAn epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).\na.4.b. An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).",
+      "structure": {
+        "identifier": "3B001.a.4",
+        "heading": "Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:",
+        "label": "3B001.a.4 – Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B001.a.4.a",
+            "heading": "At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+            "label": "3B001.a.4.a – At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.a. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; <I>and</I></P>",
+                "text": "a.4.a. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.a.4.b",
+            "heading": "An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).",
+            "label": "3B001.a.4.b – An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.b. An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).</P>",
+                "text": "a.4.b. An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:",
+      "title": "Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Equipment designed for epitaxial growth as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.a"
+      ],
+      "text": "Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:\nAt least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and\na.4.a. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and\nAn epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).\na.4.b. An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).",
+      "structure": {
+        "identifier": "3B001.a.4",
+        "heading": "Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:",
+        "label": "3B001.a.4 – Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B001.a.4.a",
+            "heading": "At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+            "label": "3B001.a.4.a – At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.a. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; <I>and</I></P>",
+                "text": "a.4.a. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.a.4.b",
+            "heading": "An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).",
+            "label": "3B001.a.4.b – An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.b. An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).</P>",
+                "text": "a.4.b. An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:",
+      "title": "Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Equipment designed for epitaxial growth as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.a"
+      ],
+      "text": "Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:\nAt least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and\na.4.a. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and\nAn epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).\na.4.b. An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).",
+      "structure": {
+        "identifier": "3B001.a.4",
+        "heading": "Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:",
+        "label": "3B001.a.4 – Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B001.a.4.a",
+            "heading": "At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+            "label": "3B001.a.4.a – At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.a. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; <I>and</I></P>",
+                "text": "a.4.a. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.a.4.b",
+            "heading": "An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).",
+            "label": "3B001.a.4.b – An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.b. An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).</P>",
+                "text": "a.4.b. An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:",
+      "title": "Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Equipment designed for epitaxial growth as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.a"
+      ],
+      "text": "Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:\nAt least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and\na.4.a. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and\nAn epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).\na.4.b. An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).",
+      "structure": {
+        "identifier": "3B001.a.4",
+        "heading": "Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:",
+        "label": "3B001.a.4 – Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B001.a.4.a",
+            "heading": "At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+            "label": "3B001.a.4.a – At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.a. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; <I>and</I>\n</P>",
+                "text": "a.4.a. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.a.4.b",
+            "heading": "An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).",
+            "label": "3B001.a.4.b – An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.b. An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).\n</P>",
+                "text": "a.4.b. An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:",
+      "title": "Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Equipment designed for epitaxial growth as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.a"
+      ],
+      "text": "Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:\nAt least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and\na.4.a. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and\nAn epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).\na.4.b. An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).",
+      "structure": {
+        "identifier": "3B001.a.4",
+        "heading": "Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:",
+        "label": "3B001.a.4 – Equipment designed for epitaxial growth of silicon (Si) or silicon germanium (SiGe), and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B001.a.4.a",
+            "heading": "At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+            "label": "3B001.a.4.a – At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.a. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; <I>and</I>\n</P>",
+                "text": "a.4.a. At least one preclean chamber designed to provide a surface preparation means to clean the surface of the wafer; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.a.4.b",
+            "heading": "An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).",
+            "label": "3B001.a.4.b – An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4.b. An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).\n</P>",
+                "text": "a.4.b. An epitaxial deposition chamber designed to operate at a temperature equal to or below 958 K (685 °C).",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "eccn": "3B001.d.20",
+  "normalized": "3B001.D.20",
+  "history": [
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+      "title": "Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d"
+      ],
+      "text": "Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+      "structure": {
+        "identifier": "3B001.d.20",
+        "heading": "Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+        "label": "3B001.d.20 – Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+      "title": "Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d"
+      ],
+      "text": "Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+      "structure": {
+        "identifier": "3B001.d.20",
+        "heading": "Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+        "label": "3B001.d.20 – Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+      "title": "Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d"
+      ],
+      "text": "Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+      "structure": {
+        "identifier": "3B001.d.20",
+        "heading": "Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+        "label": "3B001.d.20 – Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+      "title": "Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d"
+      ],
+      "text": "Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+      "structure": {
+        "identifier": "3B001.d.20",
+        "heading": "Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+        "label": "3B001.d.20 – Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+      "title": "Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d"
+      ],
+      "text": "Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+      "structure": {
+        "identifier": "3B001.d.20",
+        "heading": "Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+        "label": "3B001.d.20 – Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+      "title": "Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d"
+      ],
+      "text": "Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+      "structure": {
+        "identifier": "3B001.d.20",
+        "heading": "Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+        "label": "3B001.d.20 – Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+      "title": "Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d"
+      ],
+      "text": "Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+      "structure": {
+        "identifier": "3B001.d.20",
+        "heading": "Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+        "label": "3B001.d.20 – Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+      "title": "Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d"
+      ],
+      "text": "Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+      "structure": {
+        "identifier": "3B001.d.20",
+        "heading": "Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+        "label": "3B001.d.20 – Physical vapor deposition equipment having electromagnets for ion flux guidance, and “specially designed” to deposit tungsten (W) metal into features having an aspect ratio of 3:1 or greater.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

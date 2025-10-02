@@ -1,0 +1,34 @@
+{
+  "eccn": "0A001.b",
+  "normalized": "0A001.B",
+  "history": [
+    {
+      "version": "2024-01-01",
+      "fetchedAt": "2025-10-02T20:33:44.024Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-01-01/title-15?format=xml",
+      "heading": "Nuclear reactor pressure vessels specially designed or prepared to contain the core of a nuclear reactor.",
+      "title": "Nuclear reactor pressure vessels specially designed or prepared to contain the core of a nuclear reactor.",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "0A001 Nuclear reactors and specially designed or prepared equipment and components therefor"
+      ],
+      "ancestors": [
+        "0A001"
+      ],
+      "text": "Nuclear reactor pressure vessels specially designed or prepared to contain the core of a nuclear reactor.",
+      "structure": {
+        "identifier": "0A001.b",
+        "heading": "Nuclear reactor pressure vessels specially designed or prepared to contain the core of a nuclear reactor.",
+        "label": "0A001.b – Nuclear reactor pressure vessels specially designed or prepared to contain the core of a nuclear reactor.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

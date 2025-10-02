@@ -1,0 +1,1168 @@
+{
+  "eccn": "4A005",
+  "normalized": "4A005",
+  "history": [
+    {
+      "version": "2022-05-26",
+      "fetchedAt": "2025-10-02T20:33:40.828Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2022-05-26/title-15?format=xml",
+      "heading": "4A005 “Systems,” “equipment,” and “components” therefor, “specially designed” or modified for the generation, command and control, or delivery of “intrusion software”.",
+      "title": "“Systems,” “equipment,” and “components” therefor, “specially designed” or modified for the generation, command and control, or delivery of “intrusion software”.",
+      "category": "4",
+      "group": "4A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "4A005 “Systems,” “equipment,” and “components” therefor, “specially designed” or modified for the generation, command and control, or delivery of “intrusion software”.\nLicense Requirements\nReason for Control:\nNS, AT\nControl(s) Country chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. AT applies to entire entryAT Column 1.\nControl(s)\nCountry chart\n(See Supp. No. 1\nto part 738)\nNS applies to entire entry\nNS Column 1.\nAT applies to entire entry\nAT Column 1.\nReporting Requirements\nSee § 743.1 of the EAR for reporting requirements for exports under License Exceptions, and Validated End-User authorizations.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nAPP:\nN/A\nACE:\nYes, except to Country Group E:1 or E:2. See § 740.22 of the EAR for eligibility criteria.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship items specified by ECCN 4A005.\nList of Items Controlled\nRelated Controls:\nDefense articles described in USML Category XI(b), and software directly related to a defense article, are “subject to the ITAR”; see § 120.10(a)(4).\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "4A005",
+        "heading": "4A005 “Systems,” “equipment,” and “components” therefor, “specially designed” or modified for the generation, command and control, or delivery of “intrusion software”.",
+        "label": "4A005 – 4A005 “Systems,” “equipment,” and “components” therefor, “specially designed” or modified for the generation, command and control, or delivery of “intrusion software”.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country chart\n<br/>(See Supp. No. 1\n<br/>to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (4A005)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 1.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (4A005)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(See Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 1."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "Reporting Requirements"
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>See § 743.1 of the EAR for reporting requirements for exports under License Exceptions, and Validated End-User authorizations.</P>",
+            "text": "See § 743.1 of the EAR for reporting requirements for exports under License Exceptions, and Validated End-User authorizations.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "APP:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "ACE:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, except to Country Group E:1 or E:2. See § 740.22 of the EAR for eligibility criteria."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship items specified by ECCN 4A005."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "Defense articles described in USML Category XI(b), and software directly related to a defense article, are “subject to the ITAR”; see § 120.10(a)(4)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2022-08-15",
+      "fetchedAt": "2025-10-02T20:33:41.210Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2022-08-15/title-15?format=xml",
+      "heading": "4A005 “Systems,” “equipment,” and “components” therefor, “specially designed” or modified for the generation, command and control, or delivery of “intrusion software”.",
+      "title": "“Systems,” “equipment,” and “components” therefor, “specially designed” or modified for the generation, command and control, or delivery of “intrusion software”.",
+      "category": "4",
+      "group": "4A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "4A005 “Systems,” “equipment,” and “components” therefor, “specially designed” or modified for the generation, command and control, or delivery of “intrusion software”.\nLicense Requirements\nReason for Control:\nNS, AT\nControl(s) Country chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. AT applies to entire entryAT Column 1.\nControl(s)\nCountry chart\n(See Supp. No. 1\nto part 738)\nNS applies to entire entry\nNS Column 1.\nAT applies to entire entry\nAT Column 1.\nReporting Requirements\nSee § 743.1 of the EAR for reporting requirements for exports under License Exceptions, and Validated End-User authorizations.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nAPP:\nN/A\nACE:\nYes, except to Country Group E:1 or E:2. See § 740.22 of the EAR for eligibility criteria.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship items specified by ECCN 4A005.\nList of Items Controlled\nRelated Controls:\nDefense articles described in USML Category XI(b), and software directly related to a defense article, are “subject to the ITAR”; see § 120.10(a)(4).\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "4A005",
+        "heading": "4A005 “Systems,” “equipment,” and “components” therefor, “specially designed” or modified for the generation, command and control, or delivery of “intrusion software”.",
+        "label": "4A005 – 4A005 “Systems,” “equipment,” and “components” therefor, “specially designed” or modified for the generation, command and control, or delivery of “intrusion software”.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country chart\n<br/>(See Supp. No. 1\n<br/>to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (4A005)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 1.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (4A005)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(See Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 1."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "Reporting Requirements"
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>See § 743.1 of the EAR for reporting requirements for exports under License Exceptions, and Validated End-User authorizations.</P>",
+            "text": "See § 743.1 of the EAR for reporting requirements for exports under License Exceptions, and Validated End-User authorizations.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "APP:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "ACE:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, except to Country Group E:1 or E:2. See § 740.22 of the EAR for eligibility criteria."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship items specified by ECCN 4A005."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "Defense articles described in USML Category XI(b), and software directly related to a defense article, are “subject to the ITAR”; see § 120.10(a)(4)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2022-10-07",
+      "fetchedAt": "2025-10-02T20:33:41.595Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2022-10-07/title-15?format=xml",
+      "heading": "4A005 “Systems,” “equipment,” and “components” therefor, “specially designed” or modified for the generation, command and control, or delivery of “intrusion software”.",
+      "title": "“Systems,” “equipment,” and “components” therefor, “specially designed” or modified for the generation, command and control, or delivery of “intrusion software”.",
+      "category": "4",
+      "group": "4A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "4A005 “Systems,” “equipment,” and “components” therefor, “specially designed” or modified for the generation, command and control, or delivery of “intrusion software”.\nLicense Requirements\nReason for Control:\nNS, AT\nControl(s) Country chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. AT applies to entire entryAT Column 1.\nControl(s)\nCountry chart\n(See Supp. No. 1\nto part 738)\nNS applies to entire entry\nNS Column 1.\nAT applies to entire entry\nAT Column 1.\nReporting Requirements\nSee § 743.1 of the EAR for reporting requirements for exports under License Exceptions, and Validated End-User authorizations.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nAPP:\nN/A\nACE:\nYes, except to Country Group E:1 or E:2. See § 740.22 of the EAR for eligibility criteria.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship items specified by ECCN 4A005.\nList of Items Controlled\nRelated Controls:\nDefense articles described in USML Category XI(b), and software directly related to a defense article, are “subject to the ITAR”; see § 120.10(a)(4).\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "4A005",
+        "heading": "4A005 “Systems,” “equipment,” and “components” therefor, “specially designed” or modified for the generation, command and control, or delivery of “intrusion software”.",
+        "label": "4A005 – 4A005 “Systems,” “equipment,” and “components” therefor, “specially designed” or modified for the generation, command and control, or delivery of “intrusion software”.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country chart\n<br/>(See Supp. No. 1\n<br/>to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (4A005)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 1.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (4A005)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(See Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 1."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "Reporting Requirements"
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>See § 743.1 of the EAR for reporting requirements for exports under License Exceptions, and Validated End-User authorizations.</P>",
+            "text": "See § 743.1 of the EAR for reporting requirements for exports under License Exceptions, and Validated End-User authorizations.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "APP:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "ACE:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, except to Country Group E:1 or E:2. See § 740.22 of the EAR for eligibility criteria."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship items specified by ECCN 4A005."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "Defense articles described in USML Category XI(b), and software directly related to a defense article, are “subject to the ITAR”; see § 120.10(a)(4)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-01-17",
+      "fetchedAt": "2025-10-02T20:33:41.990Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-01-17/title-15?format=xml",
+      "heading": "4A005 “Systems,” “equipment,” and “components” therefor, “specially designed” or modified for the generation, command and control, or delivery of “intrusion software”.",
+      "title": "“Systems,” “equipment,” and “components” therefor, “specially designed” or modified for the generation, command and control, or delivery of “intrusion software”.",
+      "category": "4",
+      "group": "4A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "4A005 “Systems,” “equipment,” and “components” therefor, “specially designed” or modified for the generation, command and control, or delivery of “intrusion software”.\nLicense Requirements\nReason for Control:\nNS, AT\nControl(s) Country chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. AT applies to entire entryAT Column 1.\nControl(s)\nCountry chart\n(See Supp. No. 1\nto part 738)\nNS applies to entire entry\nNS Column 1.\nAT applies to entire entry\nAT Column 1.\nReporting Requirements\nSee § 743.1 of the EAR for reporting requirements for exports under License Exceptions, and Validated End-User authorizations.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nAPP:\nN/A\nACE:\nYes, except to Country Group E:1 or E:2. See § 740.22 of the EAR for eligibility criteria.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship items specified by ECCN 4A005.\nList of Items Controlled\nRelated Controls:\nDefense articles described in USML Category XI(b), and software directly related to a defense article, are “subject to the ITAR”; see § 120.10(a)(4).\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "4A005",
+        "heading": "4A005 “Systems,” “equipment,” and “components” therefor, “specially designed” or modified for the generation, command and control, or delivery of “intrusion software”.",
+        "label": "4A005 – 4A005 “Systems,” “equipment,” and “components” therefor, “specially designed” or modified for the generation, command and control, or delivery of “intrusion software”.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country chart\n<br/>(See Supp. No. 1\n<br/>to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (4A005)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 1.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (4A005)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(See Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 1."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "Reporting Requirements"
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>See § 743.1 of the EAR for reporting requirements for exports under License Exceptions, and Validated End-User authorizations.</P>",
+            "text": "See § 743.1 of the EAR for reporting requirements for exports under License Exceptions, and Validated End-User authorizations.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "APP:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "ACE:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, except to Country Group E:1 or E:2. See § 740.22 of the EAR for eligibility criteria."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship items specified by ECCN 4A005."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "Defense articles described in USML Category XI(b), and software directly related to a defense article, are “subject to the ITAR”; see § 120.10(a)(4)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-02-24",
+      "fetchedAt": "2025-10-02T20:33:42.390Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-02-24/title-15?format=xml",
+      "heading": "4A005 “Systems,” “equipment,” and “components” therefor, “specially designed” or modified for the generation, command and control, or delivery of “intrusion software”.",
+      "title": "“Systems,” “equipment,” and “components” therefor, “specially designed” or modified for the generation, command and control, or delivery of “intrusion software”.",
+      "category": "4",
+      "group": "4A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "4A005 “Systems,” “equipment,” and “components” therefor, “specially designed” or modified for the generation, command and control, or delivery of “intrusion software”.\nLicense Requirements\nReason for Control:\nNS, AT\nControl(s) Country chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. AT applies to entire entryAT Column 1.\nControl(s)\nCountry chart\n(See Supp. No. 1\nto part 738)\nNS applies to entire entry\nNS Column 1.\nAT applies to entire entry\nAT Column 1.\nReporting Requirements\nSee § 743.1 of the EAR for reporting requirements for exports under License Exceptions, and Validated End-User authorizations.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nAPP:\nN/A\nACE:\nYes, except to Country Group E:1 or E:2. See § 740.22 of the EAR for eligibility criteria.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship items specified by ECCN 4A005.\nList of Items Controlled\nRelated Controls:\nDefense articles described in USML Category XI(b), and software directly related to a defense article, are “subject to the ITAR”; see § 120.10(a)(4).\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "4A005",
+        "heading": "4A005 “Systems,” “equipment,” and “components” therefor, “specially designed” or modified for the generation, command and control, or delivery of “intrusion software”.",
+        "label": "4A005 – 4A005 “Systems,” “equipment,” and “components” therefor, “specially designed” or modified for the generation, command and control, or delivery of “intrusion software”.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country chart\n<br/>(See Supp. No. 1\n<br/>to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (4A005)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 1.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (4A005)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(See Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 1."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "Reporting Requirements"
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>See § 743.1 of the EAR for reporting requirements for exports under License Exceptions, and Validated End-User authorizations.</P>",
+            "text": "See § 743.1 of the EAR for reporting requirements for exports under License Exceptions, and Validated End-User authorizations.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "APP:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "ACE:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, except to Country Group E:1 or E:2. See § 740.22 of the EAR for eligibility criteria."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship items specified by ECCN 4A005."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "Defense articles described in USML Category XI(b), and software directly related to a defense article, are “subject to the ITAR”; see § 120.10(a)(4)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-08-18",
+      "fetchedAt": "2025-10-02T20:33:42.783Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-08-18/title-15?format=xml",
+      "heading": "4A005 “Systems,” “equipment,” and “components” therefor, “specially designed” or modified for the generation, command and control, or delivery of “intrusion software”.",
+      "title": "“Systems,” “equipment,” and “components” therefor, “specially designed” or modified for the generation, command and control, or delivery of “intrusion software”.",
+      "category": "4",
+      "group": "4A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "4A005 “Systems,” “equipment,” and “components” therefor, “specially designed” or modified for the generation, command and control, or delivery of “intrusion software”.\nLicense Requirements\nReason for Control:\nNS, AT\nControl(s) Country chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. AT applies to entire entryAT Column 1.\nControl(s)\nCountry chart\n(See Supp. No. 1\nto part 738)\nNS applies to entire entry\nNS Column 1.\nAT applies to entire entry\nAT Column 1.\nReporting Requirements\nSee § 743.1 of the EAR for reporting requirements for exports under License Exceptions, and Validated End-User authorizations.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nAPP:\nN/A\nACE:\nYes, except to Country Group E:1 or E:2. See § 740.22 of the EAR for eligibility criteria.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship items specified by ECCN 4A005.\nList of Items Controlled\nRelated Controls:\nDefense articles described in USML Category XI(b), and software directly related to a defense article, are “subject to the ITAR”; see § 120.10(a)(4).\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "4A005",
+        "heading": "4A005 “Systems,” “equipment,” and “components” therefor, “specially designed” or modified for the generation, command and control, or delivery of “intrusion software”.",
+        "label": "4A005 – 4A005 “Systems,” “equipment,” and “components” therefor, “specially designed” or modified for the generation, command and control, or delivery of “intrusion software”.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country chart\n<br/>(See Supp. No. 1\n<br/>to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (4A005)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 1.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (4A005)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(See Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 1."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "Reporting Requirements"
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>See § 743.1 of the EAR for reporting requirements for exports under License Exceptions, and Validated End-User authorizations.</P>",
+            "text": "See § 743.1 of the EAR for reporting requirements for exports under License Exceptions, and Validated End-User authorizations.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "APP:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "ACE:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, except to Country Group E:1 or E:2. See § 740.22 of the EAR for eligibility criteria."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship items specified by ECCN 4A005."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "Defense articles described in USML Category XI(b), and software directly related to a defense article, are “subject to the ITAR”; see § 120.10(a)(4)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-10-18",
+      "fetchedAt": "2025-10-02T20:33:43.173Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-10-18/title-15?format=xml",
+      "heading": "4A005 “Systems,” “equipment,” and “components” therefor, “specially designed” or modified for the generation, command and control, or delivery of “intrusion software”.",
+      "title": "“Systems,” “equipment,” and “components” therefor, “specially designed” or modified for the generation, command and control, or delivery of “intrusion software”.",
+      "category": "4",
+      "group": "4A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "4A005 “Systems,” “equipment,” and “components” therefor, “specially designed” or modified for the generation, command and control, or delivery of “intrusion software”.\nLicense Requirements\nReason for Control:\nNS, AT\nControl(s) Country chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. AT applies to entire entryAT Column 1.\nControl(s)\nCountry chart\n(See Supp. No. 1\nto part 738)\nNS applies to entire entry\nNS Column 1.\nAT applies to entire entry\nAT Column 1.\nReporting Requirements\nSee § 743.1 of the EAR for reporting requirements for exports under License Exceptions, and Validated End-User authorizations.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nAPP:\nN/A\nACE:\nYes, except to Country Group E:1 or E:2. See § 740.22 of the EAR for eligibility criteria.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship items specified by ECCN 4A005.\nList of Items Controlled\nRelated Controls:\nDefense articles described in USML Category XI(b), and software directly related to a defense article, are “subject to the ITAR”; see § 120.10(a)(4).\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "4A005",
+        "heading": "4A005 “Systems,” “equipment,” and “components” therefor, “specially designed” or modified for the generation, command and control, or delivery of “intrusion software”.",
+        "label": "4A005 – 4A005 “Systems,” “equipment,” and “components” therefor, “specially designed” or modified for the generation, command and control, or delivery of “intrusion software”.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country chart\n<br/>(See Supp. No. 1\n<br/>to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (4A005)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 1.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (4A005)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 1. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(See Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 1."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "Reporting Requirements"
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>See § 743.1 of the EAR for reporting requirements for exports under License Exceptions, and Validated End-User authorizations.</P>",
+            "text": "See § 743.1 of the EAR for reporting requirements for exports under License Exceptions, and Validated End-User authorizations.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "APP:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "ACE:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, except to Country Group E:1 or E:2. See § 740.22 of the EAR for eligibility criteria."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship items specified by ECCN 4A005."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "Defense articles described in USML Category XI(b), and software directly related to a defense article, are “subject to the ITAR”; see § 120.10(a)(4)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

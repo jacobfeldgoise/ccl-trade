@@ -1,0 +1,678 @@
+{
+  "eccn": "3B993.b.1",
+  "normalized": "3B993.B.1",
+  "history": [
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "Equipment designed for plasma doping, having all of the following:",
+      "title": "Equipment designed for plasma doping, having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls).",
+        "Semiconductor wafer fabrication equipment for 300 mm wafers designed for ion implantation and having any of the following:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.b"
+      ],
+      "text": "Equipment designed for plasma doping, having all of the following:\nOne or more Radio Frequency (RF) power source(s);\nb.1.a. One or more Radio Frequency (RF) power source(s);\nOne or more pulsed DC Power Source; and\nb.1.b. One or more pulsed DC Power Source; and\nOne or more n-type or p-type dopant implants.\nb.1.c. One or more n-type or p-type dopant implants.",
+      "structure": {
+        "identifier": "3B993.b.1",
+        "heading": "Equipment designed for plasma doping, having all of the following:",
+        "label": "3B993.b.1 – Equipment designed for plasma doping, having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.b.1.a",
+            "heading": "One or more Radio Frequency (RF) power source(s);",
+            "label": "3B993.b.1.a – One or more Radio Frequency (RF) power source(s);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.a. One or more Radio Frequency (RF) power source(s);</P>",
+                "text": "b.1.a. One or more Radio Frequency (RF) power source(s);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.b.1.b",
+            "heading": "One or more pulsed DC Power Source; and",
+            "label": "3B993.b.1.b – One or more pulsed DC Power Source; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.b. One or more pulsed DC Power Source; <I>and</I></P>",
+                "text": "b.1.b. One or more pulsed DC Power Source; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.b.1.c",
+            "heading": "One or more n-type or p-type dopant implants.",
+            "label": "3B993.b.1.c – One or more n-type or p-type dopant implants.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.c. One or more n-type or p-type dopant implants.</P>",
+                "text": "b.1.c. One or more n-type or p-type dopant implants.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "Equipment designed for plasma doping, having all of the following:",
+      "title": "Equipment designed for plasma doping, having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls).",
+        "Semiconductor wafer fabrication equipment for 300 mm wafers designed for ion implantation and having any of the following:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.b"
+      ],
+      "text": "Equipment designed for plasma doping, having all of the following:\nOne or more Radio Frequency (RF) power source(s);\nb.1.a. One or more Radio Frequency (RF) power source(s);\nOne or more pulsed DC Power Source; and\nb.1.b. One or more pulsed DC Power Source; and\nOne or more n-type or p-type dopant implants.\nb.1.c. One or more n-type or p-type dopant implants.",
+      "structure": {
+        "identifier": "3B993.b.1",
+        "heading": "Equipment designed for plasma doping, having all of the following:",
+        "label": "3B993.b.1 – Equipment designed for plasma doping, having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.b.1.a",
+            "heading": "One or more Radio Frequency (RF) power source(s);",
+            "label": "3B993.b.1.a – One or more Radio Frequency (RF) power source(s);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.a. One or more Radio Frequency (RF) power source(s);</P>",
+                "text": "b.1.a. One or more Radio Frequency (RF) power source(s);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.b.1.b",
+            "heading": "One or more pulsed DC Power Source; and",
+            "label": "3B993.b.1.b – One or more pulsed DC Power Source; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.b. One or more pulsed DC Power Source; <I>and</I></P>",
+                "text": "b.1.b. One or more pulsed DC Power Source; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.b.1.c",
+            "heading": "One or more n-type or p-type dopant implants.",
+            "label": "3B993.b.1.c – One or more n-type or p-type dopant implants.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.c. One or more n-type or p-type dopant implants.</P>",
+                "text": "b.1.c. One or more n-type or p-type dopant implants.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "Equipment designed for plasma doping, having all of the following:",
+      "title": "Equipment designed for plasma doping, having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls).",
+        "Semiconductor wafer fabrication equipment for 300 mm wafers designed for ion implantation and having any of the following:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.b"
+      ],
+      "text": "Equipment designed for plasma doping, having all of the following:\nOne or more Radio Frequency (RF) power source(s);\nb.1.a. One or more Radio Frequency (RF) power source(s);\nOne or more pulsed DC Power Source; and\nb.1.b. One or more pulsed DC Power Source; and\nOne or more n-type or p-type dopant implants.\nb.1.c. One or more n-type or p-type dopant implants.",
+      "structure": {
+        "identifier": "3B993.b.1",
+        "heading": "Equipment designed for plasma doping, having all of the following:",
+        "label": "3B993.b.1 – Equipment designed for plasma doping, having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.b.1.a",
+            "heading": "One or more Radio Frequency (RF) power source(s);",
+            "label": "3B993.b.1.a – One or more Radio Frequency (RF) power source(s);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.a. One or more Radio Frequency (RF) power source(s);</P>",
+                "text": "b.1.a. One or more Radio Frequency (RF) power source(s);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.b.1.b",
+            "heading": "One or more pulsed DC Power Source; and",
+            "label": "3B993.b.1.b – One or more pulsed DC Power Source; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.b. One or more pulsed DC Power Source; <I>and</I></P>",
+                "text": "b.1.b. One or more pulsed DC Power Source; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.b.1.c",
+            "heading": "One or more n-type or p-type dopant implants.",
+            "label": "3B993.b.1.c – One or more n-type or p-type dopant implants.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.c. One or more n-type or p-type dopant implants.</P>",
+                "text": "b.1.c. One or more n-type or p-type dopant implants.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "Equipment designed for plasma doping, having all of the following:",
+      "title": "Equipment designed for plasma doping, having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls).",
+        "Semiconductor wafer fabrication equipment for 300 mm wafers designed for ion implantation and having any of the following:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.b"
+      ],
+      "text": "Equipment designed for plasma doping, having all of the following:\nOne or more Radio Frequency (RF) power source(s);\nb.1.a. One or more Radio Frequency (RF) power source(s);\nOne or more pulsed DC Power Source; and\nb.1.b. One or more pulsed DC Power Source; and\nOne or more n-type or p-type dopant implants.\nb.1.c. One or more n-type or p-type dopant implants.",
+      "structure": {
+        "identifier": "3B993.b.1",
+        "heading": "Equipment designed for plasma doping, having all of the following:",
+        "label": "3B993.b.1 – Equipment designed for plasma doping, having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.b.1.a",
+            "heading": "One or more Radio Frequency (RF) power source(s);",
+            "label": "3B993.b.1.a – One or more Radio Frequency (RF) power source(s);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.a. One or more Radio Frequency (RF) power source(s);</P>",
+                "text": "b.1.a. One or more Radio Frequency (RF) power source(s);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.b.1.b",
+            "heading": "One or more pulsed DC Power Source; and",
+            "label": "3B993.b.1.b – One or more pulsed DC Power Source; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.b. One or more pulsed DC Power Source; <I>and</I></P>",
+                "text": "b.1.b. One or more pulsed DC Power Source; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.b.1.c",
+            "heading": "One or more n-type or p-type dopant implants.",
+            "label": "3B993.b.1.c – One or more n-type or p-type dopant implants.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.c. One or more n-type or p-type dopant implants.</P>",
+                "text": "b.1.c. One or more n-type or p-type dopant implants.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "Equipment designed for plasma doping, having all of the following:",
+      "title": "Equipment designed for plasma doping, having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls), and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor wafer fabrication equipment for 300 mm wafers designed for ion implantation and having any of the following:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.b"
+      ],
+      "text": "Equipment designed for plasma doping, having all of the following:\nOne or more Radio Frequency (RF) power source(s);\nb.1.a. One or more Radio Frequency (RF) power source(s);\nOne or more pulsed DC Power Source; and\nb.1.b. One or more pulsed DC Power Source; and\nOne or more n-type or p-type dopant implants.\nb.1.c. One or more n-type or p-type dopant implants.",
+      "structure": {
+        "identifier": "3B993.b.1",
+        "heading": "Equipment designed for plasma doping, having all of the following:",
+        "label": "3B993.b.1 – Equipment designed for plasma doping, having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.b.1.a",
+            "heading": "One or more Radio Frequency (RF) power source(s);",
+            "label": "3B993.b.1.a – One or more Radio Frequency (RF) power source(s);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.a. One or more Radio Frequency (RF) power source(s);</P>",
+                "text": "b.1.a. One or more Radio Frequency (RF) power source(s);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.b.1.b",
+            "heading": "One or more pulsed DC Power Source; and",
+            "label": "3B993.b.1.b – One or more pulsed DC Power Source; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.b. One or more pulsed DC Power Source; <I>and</I></P>",
+                "text": "b.1.b. One or more pulsed DC Power Source; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.b.1.c",
+            "heading": "One or more n-type or p-type dopant implants.",
+            "label": "3B993.b.1.c – One or more n-type or p-type dopant implants.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.c. One or more n-type or p-type dopant implants.</P>",
+                "text": "b.1.c. One or more n-type or p-type dopant implants.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "Equipment designed for plasma doping, having all of the following:",
+      "title": "Equipment designed for plasma doping, having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls), and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor wafer fabrication equipment for 300 mm wafers designed for ion implantation and having any of the following:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.b"
+      ],
+      "text": "Equipment designed for plasma doping, having all of the following:\nOne or more Radio Frequency (RF) power source(s);\nb.1.a. One or more Radio Frequency (RF) power source(s);\nOne or more pulsed DC Power Source; and\nb.1.b. One or more pulsed DC Power Source; and\nOne or more n-type or p-type dopant implants.\nb.1.c. One or more n-type or p-type dopant implants.",
+      "structure": {
+        "identifier": "3B993.b.1",
+        "heading": "Equipment designed for plasma doping, having all of the following:",
+        "label": "3B993.b.1 – Equipment designed for plasma doping, having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.b.1.a",
+            "heading": "One or more Radio Frequency (RF) power source(s);",
+            "label": "3B993.b.1.a – One or more Radio Frequency (RF) power source(s);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.a. One or more Radio Frequency (RF) power source(s);</P>",
+                "text": "b.1.a. One or more Radio Frequency (RF) power source(s);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.b.1.b",
+            "heading": "One or more pulsed DC Power Source; and",
+            "label": "3B993.b.1.b – One or more pulsed DC Power Source; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.b. One or more pulsed DC Power Source; <I>and</I></P>",
+                "text": "b.1.b. One or more pulsed DC Power Source; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.b.1.c",
+            "heading": "One or more n-type or p-type dopant implants.",
+            "label": "3B993.b.1.c – One or more n-type or p-type dopant implants.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.c. One or more n-type or p-type dopant implants.</P>",
+                "text": "b.1.c. One or more n-type or p-type dopant implants.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "Equipment designed for plasma doping, having all of the following:",
+      "title": "Equipment designed for plasma doping, having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls), and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor wafer fabrication equipment for 300 mm wafers designed for ion implantation and having any of the following:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.b"
+      ],
+      "text": "Equipment designed for plasma doping, having all of the following:\nOne or more Radio Frequency (RF) power source(s);\nb.1.a. One or more Radio Frequency (RF) power source(s);\nOne or more pulsed DC Power Source; and\nb.1.b. One or more pulsed DC Power Source; and\nOne or more n-type or p-type dopant implants.\nb.1.c. One or more n-type or p-type dopant implants.",
+      "structure": {
+        "identifier": "3B993.b.1",
+        "heading": "Equipment designed for plasma doping, having all of the following:",
+        "label": "3B993.b.1 – Equipment designed for plasma doping, having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.b.1.a",
+            "heading": "One or more Radio Frequency (RF) power source(s);",
+            "label": "3B993.b.1.a – One or more Radio Frequency (RF) power source(s);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.a. One or more Radio Frequency (RF) power source(s);\n</P>",
+                "text": "b.1.a. One or more Radio Frequency (RF) power source(s);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.b.1.b",
+            "heading": "One or more pulsed DC Power Source; and",
+            "label": "3B993.b.1.b – One or more pulsed DC Power Source; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.b. One or more pulsed DC Power Source; <I>and</I>\n</P>",
+                "text": "b.1.b. One or more pulsed DC Power Source; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.b.1.c",
+            "heading": "One or more n-type or p-type dopant implants.",
+            "label": "3B993.b.1.c – One or more n-type or p-type dopant implants.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.c. One or more n-type or p-type dopant implants.\n</P>",
+                "text": "b.1.c. One or more n-type or p-type dopant implants.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "Equipment designed for plasma doping, having all of the following:",
+      "title": "Equipment designed for plasma doping, having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls), and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor wafer fabrication equipment for 300 mm wafers designed for ion implantation and having any of the following:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.b"
+      ],
+      "text": "Equipment designed for plasma doping, having all of the following:\nOne or more Radio Frequency (RF) power source(s);\nb.1.a. One or more Radio Frequency (RF) power source(s);\nOne or more pulsed DC Power Source; and\nb.1.b. One or more pulsed DC Power Source; and\nOne or more n-type or p-type dopant implants.\nb.1.c. One or more n-type or p-type dopant implants.",
+      "structure": {
+        "identifier": "3B993.b.1",
+        "heading": "Equipment designed for plasma doping, having all of the following:",
+        "label": "3B993.b.1 – Equipment designed for plasma doping, having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.b.1.a",
+            "heading": "One or more Radio Frequency (RF) power source(s);",
+            "label": "3B993.b.1.a – One or more Radio Frequency (RF) power source(s);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.a. One or more Radio Frequency (RF) power source(s);\n</P>",
+                "text": "b.1.a. One or more Radio Frequency (RF) power source(s);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.b.1.b",
+            "heading": "One or more pulsed DC Power Source; and",
+            "label": "3B993.b.1.b – One or more pulsed DC Power Source; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.b. One or more pulsed DC Power Source; <I>and</I>\n</P>",
+                "text": "b.1.b. One or more pulsed DC Power Source; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.b.1.c",
+            "heading": "One or more n-type or p-type dopant implants.",
+            "label": "3B993.b.1.c – One or more n-type or p-type dopant implants.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.c. One or more n-type or p-type dopant implants.\n</P>",
+                "text": "b.1.c. One or more n-type or p-type dopant implants.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,1222 @@
+{
+  "eccn": "5A003.a",
+  "normalized": "5A003.A",
+  "history": [
+    {
+      "version": "2017-01-15",
+      "fetchedAt": "2025-10-02T20:33:28.357Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-15/title-15?format=xml",
+      "heading": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "title": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "II. NON-CRYPTOGRAPHIC “INFORMATION SECURITY”",
+        "5A003 “Systems,” “equipment” and “components,” for non-cryptographic “information security,” as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5A003"
+      ],
+      "text": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;\nNote: 5A003.a applies only to physical layer security. b. “Specially designed” or modified to reduce the compromising emanations of information-bearing signals beyond what is necessary for health, safety or electromagnetic interference standards.",
+      "structure": {
+        "identifier": "5A003.a",
+        "heading": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "label": "5A003.a – Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED>Note:</HED>\n<P>5A003.a applies only to physical layer security.</P>\n<P>b. “Specially designed” or modified to reduce the compromising emanations of information-bearing signals beyond what is necessary for health, safety or electromagnetic interference standards.</P></NOTE>",
+            "text": "Note: 5A003.a applies only to physical layer security. b. “Specially designed” or modified to reduce the compromising emanations of information-bearing signals beyond what is necessary for health, safety or electromagnetic interference standards.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-07-07",
+      "fetchedAt": "2025-10-02T20:33:28.904Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-07-07/title-15?format=xml",
+      "heading": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "title": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "II. NON-CRYPTOGRAPHIC “INFORMATION SECURITY”",
+        "5A003 “Systems,” “equipment” and “components,” for non-cryptographic “information security,” as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5A003"
+      ],
+      "text": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;\nNote: 5A003.a applies only to physical layer security. b. “Specially designed” or modified to reduce the compromising emanations of information-bearing signals beyond what is necessary for health, safety or electromagnetic interference standards.",
+      "structure": {
+        "identifier": "5A003.a",
+        "heading": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "label": "5A003.a – Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED>Note:</HED>\n<P>5A003.a applies only to physical layer security.</P>\n<P>b. “Specially designed” or modified to reduce the compromising emanations of information-bearing signals beyond what is necessary for health, safety or electromagnetic interference standards.</P></NOTE>",
+            "text": "Note: 5A003.a applies only to physical layer security. b. “Specially designed” or modified to reduce the compromising emanations of information-bearing signals beyond what is necessary for health, safety or electromagnetic interference standards.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-08-15",
+      "fetchedAt": "2025-10-02T20:33:29.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-08-15/title-15?format=xml",
+      "heading": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "title": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "II. NON-CRYPTOGRAPHIC “INFORMATION SECURITY”",
+        "5A003 “Systems,” “equipment” and “components,” for non-cryptographic “information security,” as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5A003"
+      ],
+      "text": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;\nNote: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+      "structure": {
+        "identifier": "5A003.a",
+        "heading": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "label": "5A003.a – Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).</I></P></NOTE>",
+            "text": "Note: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-12-27",
+      "fetchedAt": "2025-10-02T20:33:29.759Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-12-27/title-15?format=xml",
+      "heading": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "title": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "II. NON-CRYPTOGRAPHIC “INFORMATION SECURITY”",
+        "5A003 “Systems,” “equipment” and “components,” for non-cryptographic “information security,” as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5A003"
+      ],
+      "text": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;\nNote: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+      "structure": {
+        "identifier": "5A003.a",
+        "heading": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "label": "5A003.a – Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).</I></P></NOTE>",
+            "text": "Note: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-01-08",
+      "fetchedAt": "2025-10-02T20:33:30.194Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-01-08/title-15?format=xml",
+      "heading": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "title": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "II. NON-CRYPTOGRAPHIC “INFORMATION SECURITY”",
+        "5A003 “Systems,” “equipment” and “components,” for non-cryptographic “information security,” as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5A003"
+      ],
+      "text": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;\nNote: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+      "structure": {
+        "identifier": "5A003.a",
+        "heading": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "label": "5A003.a – Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).</I></P></NOTE>",
+            "text": "Note: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-04-02",
+      "fetchedAt": "2025-10-02T20:33:30.716Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-02/title-15?format=xml",
+      "heading": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "title": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "II. NON-CRYPTOGRAPHIC “INFORMATION SECURITY”",
+        "5A003 “Systems,” “equipment” and “components,” for non-cryptographic “information security,” as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5A003"
+      ],
+      "text": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;\nNote: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+      "structure": {
+        "identifier": "5A003.a",
+        "heading": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "label": "5A003.a – Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).</I></P></NOTE>",
+            "text": "Note: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-04-05",
+      "fetchedAt": "2025-10-02T20:33:31.145Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-05/title-15?format=xml",
+      "heading": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "title": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "II. NON-CRYPTOGRAPHIC “INFORMATION SECURITY”",
+        "5A003 “Systems,” “equipment” and “components,” for non-cryptographic “information security,” as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5A003"
+      ],
+      "text": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;\nNote: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+      "structure": {
+        "identifier": "5A003.a",
+        "heading": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "label": "5A003.a – Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).</I></P></NOTE>",
+            "text": "Note: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-08-30",
+      "fetchedAt": "2025-10-02T20:33:31.567Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-08-30/title-15?format=xml",
+      "heading": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "title": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "II. NON-CRYPTOGRAPHIC “INFORMATION SECURITY”",
+        "5A003 “Systems,” “equipment” and “components,” for non-cryptographic “information security,” as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5A003"
+      ],
+      "text": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;\nNote: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+      "structure": {
+        "identifier": "5A003.a",
+        "heading": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "label": "5A003.a – Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).</I></P></NOTE>",
+            "text": "Note: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-10-24",
+      "fetchedAt": "2025-10-02T20:33:31.990Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-10-24/title-15?format=xml",
+      "heading": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "title": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "II. NON-CRYPTOGRAPHIC “INFORMATION SECURITY”",
+        "5A003 “Systems,” “equipment” and “components,” for non-cryptographic “information security,” as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5A003"
+      ],
+      "text": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;\nNote: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+      "structure": {
+        "identifier": "5A003.a",
+        "heading": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "label": "5A003.a – Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).</I></P></NOTE>",
+            "text": "Note: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-11-02",
+      "fetchedAt": "2025-10-02T20:33:32.381Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-11-02/title-15?format=xml",
+      "heading": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "title": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "II. NON-CRYPTOGRAPHIC “INFORMATION SECURITY”",
+        "5A003 “Systems,” “equipment” and “components,” for non-cryptographic “information security,” as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5A003"
+      ],
+      "text": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;\nNote: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+      "structure": {
+        "identifier": "5A003.a",
+        "heading": "Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "label": "5A003.a – Communications cable systems designed or modified using mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).</I></P></NOTE>",
+            "text": "Note: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-02-24",
+      "fetchedAt": "2025-10-02T20:33:42.390Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-02-24/title-15?format=xml",
+      "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "title": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "II. NON-CRYPTOGRAPHIC “INFORMATION SECURITY”",
+        "5A003 “Systems,” “equipment” and “components,” for non-cryptographic “information security,” as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5A003"
+      ],
+      "text": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;\nNote: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+      "structure": {
+        "identifier": "5A003.a",
+        "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "label": "5A003.a – Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE><HED><I>Note:</I></HED><P> <I>5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).</I></P></NOTE>",
+            "text": "Note: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-08-18",
+      "fetchedAt": "2025-10-02T20:33:42.783Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-08-18/title-15?format=xml",
+      "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "title": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "II. NON-CRYPTOGRAPHIC “INFORMATION SECURITY”",
+        "5A003 “Systems,” “equipment” and “components,” for non-cryptographic “information security,” as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5A003"
+      ],
+      "text": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;\nNote: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+      "structure": {
+        "identifier": "5A003.a",
+        "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "label": "5A003.a – Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).</I></P></NOTE>",
+            "text": "Note: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-10-18",
+      "fetchedAt": "2025-10-02T20:33:43.173Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-10-18/title-15?format=xml",
+      "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "title": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "II. NON-CRYPTOGRAPHIC “INFORMATION SECURITY”",
+        "5A003 “Systems,” “equipment” and “components,” for non-cryptographic “information security,” as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5A003"
+      ],
+      "text": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;\nNote: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+      "structure": {
+        "identifier": "5A003.a",
+        "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "label": "5A003.a – Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).</I></P></NOTE>",
+            "text": "Note: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-11-17",
+      "fetchedAt": "2025-10-02T20:33:43.584Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-11-17/title-15?format=xml",
+      "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "title": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "II. NON-CRYPTOGRAPHIC “INFORMATION SECURITY”",
+        "5A003 “Systems,” “equipment” and “components,” for non-cryptographic “information security,” as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5A003"
+      ],
+      "text": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;\nNote: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+      "structure": {
+        "identifier": "5A003.a",
+        "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "label": "5A003.a – Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).</I></P></NOTE>",
+            "text": "Note: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-12-08",
+      "fetchedAt": "2025-10-02T20:33:43.980Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-12-08/title-15?format=xml",
+      "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "title": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "II. NON-CRYPTOGRAPHIC “INFORMATION SECURITY”",
+        "5A003 “Systems,” “equipment” and “components,” for non-cryptographic “information security,” as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5A003"
+      ],
+      "text": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;\nNote: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+      "structure": {
+        "identifier": "5A003.a",
+        "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "label": "5A003.a – Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).</I></P></NOTE>",
+            "text": "Note: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-03-08",
+      "fetchedAt": "2025-10-02T20:33:44.401Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-08/title-15?format=xml",
+      "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "title": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "II. NON-CRYPTOGRAPHIC “INFORMATION SECURITY”",
+        "5A003 “Systems,” “equipment” and “components,” for non-cryptographic “information security,” as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5A003"
+      ],
+      "text": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;\nNote: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+      "structure": {
+        "identifier": "5A003.a",
+        "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "label": "5A003.a – Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).</I></P></NOTE>",
+            "text": "Note: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-03-13",
+      "fetchedAt": "2025-10-02T20:33:44.826Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-13/title-15?format=xml",
+      "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "title": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "II. NON-CRYPTOGRAPHIC “INFORMATION SECURITY”",
+        "5A003 “Systems,” “equipment” and “components,” for non-cryptographic “information security,” as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5A003"
+      ],
+      "text": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;\nNote: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+      "structure": {
+        "identifier": "5A003.a",
+        "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "label": "5A003.a – Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).</I></P></NOTE>",
+            "text": "Note: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-04-04",
+      "fetchedAt": "2025-10-02T20:33:45.229Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-04/title-15?format=xml",
+      "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "title": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "II. NON-CRYPTOGRAPHIC “INFORMATION SECURITY”",
+        "5A003 “Systems,” “equipment” and “components,” for non-cryptographic “information security,” as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5A003"
+      ],
+      "text": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;\nNote: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+      "structure": {
+        "identifier": "5A003.a",
+        "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "label": "5A003.a – Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).</I></P></NOTE>",
+            "text": "Note: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-04-19",
+      "fetchedAt": "2025-10-02T20:33:45.630Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-19/title-15?format=xml",
+      "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "title": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "II. NON-CRYPTOGRAPHIC “INFORMATION SECURITY”",
+        "5A003 “Systems,” “equipment” and “components,” for non-cryptographic “information security,” as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5A003"
+      ],
+      "text": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;\nNote: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+      "structure": {
+        "identifier": "5A003.a",
+        "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "label": "5A003.a – Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).</I></P></NOTE>",
+            "text": "Note: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-05-30",
+      "fetchedAt": "2025-10-02T20:33:46.051Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-05-30/title-15?format=xml",
+      "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "title": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "II. NON-CRYPTOGRAPHIC “INFORMATION SECURITY”",
+        "5A003 “Systems,” “equipment” and “components,” for non-cryptographic “information security,” as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5A003"
+      ],
+      "text": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;\nNote: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+      "structure": {
+        "identifier": "5A003.a",
+        "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "label": "5A003.a – Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).</I></P></NOTE>",
+            "text": "Note: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-06-12",
+      "fetchedAt": "2025-10-02T20:33:46.460Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-06-12/title-15?format=xml",
+      "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "title": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "II. NON-CRYPTOGRAPHIC “INFORMATION SECURITY”",
+        "5A003 “Systems,” “equipment” and “components,” for non-cryptographic “information security,” as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5A003"
+      ],
+      "text": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;\nNote: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+      "structure": {
+        "identifier": "5A003.a",
+        "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "label": "5A003.a – Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).</I></P></NOTE>",
+            "text": "Note: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-09-06",
+      "fetchedAt": "2025-10-02T20:33:46.879Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-09-06/title-15?format=xml",
+      "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "title": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "II. NON-CRYPTOGRAPHIC “INFORMATION SECURITY”",
+        "5A003 “Systems,” “equipment” and “components,” for non-cryptographic “information security,” as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5A003"
+      ],
+      "text": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;\nNote: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+      "structure": {
+        "identifier": "5A003.a",
+        "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "label": "5A003.a – Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).</I></P></NOTE>",
+            "text": "Note: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-10-23",
+      "fetchedAt": "2025-10-02T20:33:47.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-10-23/title-15?format=xml",
+      "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "title": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "II. NON-CRYPTOGRAPHIC “INFORMATION SECURITY”",
+        "5A003 “Systems,” “equipment” and “components,” for non-cryptographic “information security,” as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5A003"
+      ],
+      "text": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;\nNote: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+      "structure": {
+        "identifier": "5A003.a",
+        "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "label": "5A003.a – Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).</I></P></NOTE>",
+            "text": "Note: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-02",
+      "fetchedAt": "2025-10-02T20:33:47.757Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-02/title-15?format=xml",
+      "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "title": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "II. NON-CRYPTOGRAPHIC “INFORMATION SECURITY”",
+        "5A003 “Systems,” “equipment” and “components,” for non-cryptographic “information security,” as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5A003"
+      ],
+      "text": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;\nNote: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+      "structure": {
+        "identifier": "5A003.a",
+        "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "label": "5A003.a – Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).</I></P></NOTE>",
+            "text": "Note: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "title": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "II. NON-CRYPTOGRAPHIC “INFORMATION SECURITY”",
+        "5A003 “Systems,” “equipment” and “components,” for non-cryptographic “information security,” as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5A003"
+      ],
+      "text": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;\nNote: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+      "structure": {
+        "identifier": "5A003.a",
+        "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "label": "5A003.a – Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).</I></P></NOTE>",
+            "text": "Note: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "title": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "II. NON-CRYPTOGRAPHIC “INFORMATION SECURITY”",
+        "5A003 “Systems,” “equipment” and “components,” for non-cryptographic “information security,” as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5A003"
+      ],
+      "text": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;\nNote: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+      "structure": {
+        "identifier": "5A003.a",
+        "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "label": "5A003.a – Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).</I></P></NOTE>",
+            "text": "Note: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "title": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "II. NON-CRYPTOGRAPHIC “INFORMATION SECURITY”",
+        "5A003 “Systems,” “equipment” and “components,” for non-cryptographic “information security,” as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5A003"
+      ],
+      "text": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;\nNote: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+      "structure": {
+        "identifier": "5A003.a",
+        "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "label": "5A003.a – Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).</I></P></NOTE>",
+            "text": "Note: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "title": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "II. NON-CRYPTOGRAPHIC “INFORMATION SECURITY”",
+        "5A003 “Systems,” “equipment” and “components,” for non-cryptographic “information security,” as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5A003"
+      ],
+      "text": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;\nNote: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+      "structure": {
+        "identifier": "5A003.a",
+        "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "label": "5A003.a – Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).</I></P></NOTE>",
+            "text": "Note: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "title": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "II. NON-CRYPTOGRAPHIC “INFORMATION SECURITY”",
+        "5A003 “Systems,” “equipment” and “components,” for non-cryptographic “information security,” as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5A003"
+      ],
+      "text": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;\nNote: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+      "structure": {
+        "identifier": "5A003.a",
+        "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "label": "5A003.a – Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).</I></P></NOTE>",
+            "text": "Note: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "title": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "II. NON-CRYPTOGRAPHIC “INFORMATION SECURITY”",
+        "5A003 “Systems,” “equipment” and “components,” for non-cryptographic “information security,” as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5A003"
+      ],
+      "text": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;\nNote: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+      "structure": {
+        "identifier": "5A003.a",
+        "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "label": "5A003.a – Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).</I></P></NOTE>",
+            "text": "Note: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "title": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "II. NON-CRYPTOGRAPHIC “INFORMATION SECURITY”",
+        "5A003 “Systems,” “equipment” and “components,” for non-cryptographic “information security,” as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5A003"
+      ],
+      "text": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;\nNote: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+      "structure": {
+        "identifier": "5A003.a",
+        "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "label": "5A003.a – Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).</I></P></NOTE>",
+            "text": "Note: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "title": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "II. NON-CRYPTOGRAPHIC “INFORMATION SECURITY”",
+        "5A003 “Systems,” “equipment” and “components,” for non-cryptographic “information security,” as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5A003"
+      ],
+      "text": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;\nNote: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+      "structure": {
+        "identifier": "5A003.a",
+        "heading": "Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "label": "5A003.a – Communications cable systems designed or modified to use mechanical, electrical or electronic means to detect surreptitious intrusion;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).</I></P></NOTE>",
+            "text": "Note: 5A003.a applies only to physical layer security. For the purpose of 5A003.a, the physical layer includes Layer 1 of the Reference Model of Open Systems Interconnection (OSI) (ISO/IEC 7498-1).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

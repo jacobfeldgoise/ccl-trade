@@ -1,0 +1,598 @@
+{
+  "eccn": "3B993.c.2",
+  "normalized": "3B993.C.2",
+  "history": [
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:",
+      "title": "Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls).",
+        "Etch equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.c"
+      ],
+      "text": "Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:\nAn aspect ratio greater than 30:1; and\nc.2.a. An aspect ratio greater than 30:1; and\nA lateral dimension on the top surface of less than 40 nm.\nc.2.b. A lateral dimension on the top surface of less than 40 nm.\nNote: 3B993.c.2 does not apply to equipment designed for wafer diameters less than 300 mm.",
+      "structure": {
+        "identifier": "3B993.c.2",
+        "heading": "Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:",
+        "label": "3B993.c.2 – Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.c.2.a",
+            "heading": "An aspect ratio greater than 30:1; and",
+            "label": "3B993.c.2.a – An aspect ratio greater than 30:1; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.2.a. An aspect ratio greater than 30:1; <I>and</I></P>",
+                "text": "c.2.a. An aspect ratio greater than 30:1; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.c.2.b",
+            "heading": "A lateral dimension on the top surface of less than 40 nm.",
+            "label": "3B993.c.2.b – A lateral dimension on the top surface of less than 40 nm.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.2.b. A lateral dimension on the top surface of less than 40 nm.</P>",
+                "text": "c.2.b. A lateral dimension on the top surface of less than 40 nm.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>3B993.c.2 does not apply to equipment designed for wafer diameters less than 300 mm.</I></P></NOTE>",
+                "text": "Note: 3B993.c.2 does not apply to equipment designed for wafer diameters less than 300 mm.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:",
+      "title": "Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls).",
+        "Etch equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.c"
+      ],
+      "text": "Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:\nAn aspect ratio greater than 30:1; and\nc.2.a. An aspect ratio greater than 30:1; and\nA lateral dimension on the top surface of less than 40 nm.\nc.2.b. A lateral dimension on the top surface of less than 40 nm.\nNote: 3B993.c.2 does not apply to equipment designed for wafer diameters less than 300 mm.",
+      "structure": {
+        "identifier": "3B993.c.2",
+        "heading": "Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:",
+        "label": "3B993.c.2 – Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.c.2.a",
+            "heading": "An aspect ratio greater than 30:1; and",
+            "label": "3B993.c.2.a – An aspect ratio greater than 30:1; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.2.a. An aspect ratio greater than 30:1; <I>and</I></P>",
+                "text": "c.2.a. An aspect ratio greater than 30:1; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.c.2.b",
+            "heading": "A lateral dimension on the top surface of less than 40 nm.",
+            "label": "3B993.c.2.b – A lateral dimension on the top surface of less than 40 nm.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.2.b. A lateral dimension on the top surface of less than 40 nm.</P>",
+                "text": "c.2.b. A lateral dimension on the top surface of less than 40 nm.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>3B993.c.2 does not apply to equipment designed for wafer diameters less than 300 mm.</I></P></NOTE>",
+                "text": "Note: 3B993.c.2 does not apply to equipment designed for wafer diameters less than 300 mm.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:",
+      "title": "Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls).",
+        "Etch equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.c"
+      ],
+      "text": "Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:\nAn aspect ratio greater than 30:1; and\nc.2.a. An aspect ratio greater than 30:1; and\nA lateral dimension on the top surface of less than 40 nm.\nc.2.b. A lateral dimension on the top surface of less than 40 nm.\nNote: 3B993.c.2 does not apply to equipment designed for wafer diameters less than 300 mm.",
+      "structure": {
+        "identifier": "3B993.c.2",
+        "heading": "Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:",
+        "label": "3B993.c.2 – Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.c.2.a",
+            "heading": "An aspect ratio greater than 30:1; and",
+            "label": "3B993.c.2.a – An aspect ratio greater than 30:1; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.2.a. An aspect ratio greater than 30:1; <I>and</I></P>",
+                "text": "c.2.a. An aspect ratio greater than 30:1; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.c.2.b",
+            "heading": "A lateral dimension on the top surface of less than 40 nm.",
+            "label": "3B993.c.2.b – A lateral dimension on the top surface of less than 40 nm.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.2.b. A lateral dimension on the top surface of less than 40 nm.</P>",
+                "text": "c.2.b. A lateral dimension on the top surface of less than 40 nm.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>3B993.c.2 does not apply to equipment designed for wafer diameters less than 300 mm.</I></P></NOTE>",
+                "text": "Note: 3B993.c.2 does not apply to equipment designed for wafer diameters less than 300 mm.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:",
+      "title": "Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls).",
+        "Etch equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.c"
+      ],
+      "text": "Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:\nAn aspect ratio greater than 30:1; and\nc.2.a. An aspect ratio greater than 30:1; and\nA lateral dimension on the top surface of less than 40 nm.\nc.2.b. A lateral dimension on the top surface of less than 40 nm.\nNote: 3B993.c.2 does not apply to equipment designed for wafer diameters less than 300 mm.",
+      "structure": {
+        "identifier": "3B993.c.2",
+        "heading": "Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:",
+        "label": "3B993.c.2 – Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.c.2.a",
+            "heading": "An aspect ratio greater than 30:1; and",
+            "label": "3B993.c.2.a – An aspect ratio greater than 30:1; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.2.a. An aspect ratio greater than 30:1; <I>and</I></P>",
+                "text": "c.2.a. An aspect ratio greater than 30:1; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.c.2.b",
+            "heading": "A lateral dimension on the top surface of less than 40 nm.",
+            "label": "3B993.c.2.b – A lateral dimension on the top surface of less than 40 nm.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.2.b. A lateral dimension on the top surface of less than 40 nm.</P>",
+                "text": "c.2.b. A lateral dimension on the top surface of less than 40 nm.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>3B993.c.2 does not apply to equipment designed for wafer diameters less than 300 mm.</I></P></NOTE>",
+                "text": "Note: 3B993.c.2 does not apply to equipment designed for wafer diameters less than 300 mm.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:",
+      "title": "Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls), and “specially designed” “components” and “accessories” therefor.",
+        "Etch equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.c"
+      ],
+      "text": "Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:\nAn aspect ratio greater than 30:1; and\nc.2.a. An aspect ratio greater than 30:1; and\nA lateral dimension on the top surface of less than 40 nm.\nc.2.b. A lateral dimension on the top surface of less than 40 nm.\nNote: 3B993.c.2 does not apply to equipment designed for wafer diameters less than 300 mm.",
+      "structure": {
+        "identifier": "3B993.c.2",
+        "heading": "Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:",
+        "label": "3B993.c.2 – Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.c.2.a",
+            "heading": "An aspect ratio greater than 30:1; and",
+            "label": "3B993.c.2.a – An aspect ratio greater than 30:1; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.2.a. An aspect ratio greater than 30:1; <I>and</I></P>",
+                "text": "c.2.a. An aspect ratio greater than 30:1; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.c.2.b",
+            "heading": "A lateral dimension on the top surface of less than 40 nm.",
+            "label": "3B993.c.2.b – A lateral dimension on the top surface of less than 40 nm.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.2.b. A lateral dimension on the top surface of less than 40 nm.</P>",
+                "text": "c.2.b. A lateral dimension on the top surface of less than 40 nm.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>3B993.c.2 does not apply to equipment designed for wafer diameters less than 300 mm.</I></P></NOTE>",
+                "text": "Note: 3B993.c.2 does not apply to equipment designed for wafer diameters less than 300 mm.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:",
+      "title": "Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls), and “specially designed” “components” and “accessories” therefor.",
+        "Etch equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.c"
+      ],
+      "text": "Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:\nAn aspect ratio greater than 30:1; and\nc.2.a. An aspect ratio greater than 30:1; and\nA lateral dimension on the top surface of less than 40 nm.\nc.2.b. A lateral dimension on the top surface of less than 40 nm.\nNote: 3B993.c.2 does not apply to equipment designed for wafer diameters less than 300 mm.",
+      "structure": {
+        "identifier": "3B993.c.2",
+        "heading": "Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:",
+        "label": "3B993.c.2 – Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.c.2.a",
+            "heading": "An aspect ratio greater than 30:1; and",
+            "label": "3B993.c.2.a – An aspect ratio greater than 30:1; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.2.a. An aspect ratio greater than 30:1; <I>and</I></P>",
+                "text": "c.2.a. An aspect ratio greater than 30:1; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.c.2.b",
+            "heading": "A lateral dimension on the top surface of less than 40 nm.",
+            "label": "3B993.c.2.b – A lateral dimension on the top surface of less than 40 nm.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.2.b. A lateral dimension on the top surface of less than 40 nm.</P>",
+                "text": "c.2.b. A lateral dimension on the top surface of less than 40 nm.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>3B993.c.2 does not apply to equipment designed for wafer diameters less than 300 mm.</I></P></NOTE>",
+                "text": "Note: 3B993.c.2 does not apply to equipment designed for wafer diameters less than 300 mm.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:",
+      "title": "Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls), and “specially designed” “components” and “accessories” therefor.",
+        "Etch equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.c"
+      ],
+      "text": "Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:\nAn aspect ratio greater than 30:1; and\nc.2.a. An aspect ratio greater than 30:1; and\nA lateral dimension on the top surface of less than 40 nm.\nc.2.b. A lateral dimension on the top surface of less than 40 nm.\nNote: 3B993.c.2 does not apply to equipment designed for wafer diameters less than 300 mm.",
+      "structure": {
+        "identifier": "3B993.c.2",
+        "heading": "Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:",
+        "label": "3B993.c.2 – Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.c.2.a",
+            "heading": "An aspect ratio greater than 30:1; and",
+            "label": "3B993.c.2.a – An aspect ratio greater than 30:1; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.2.a. An aspect ratio greater than 30:1; <I>and</I>\n</P>",
+                "text": "c.2.a. An aspect ratio greater than 30:1; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.c.2.b",
+            "heading": "A lateral dimension on the top surface of less than 40 nm.",
+            "label": "3B993.c.2.b – A lateral dimension on the top surface of less than 40 nm.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.2.b. A lateral dimension on the top surface of less than 40 nm.\n</P>",
+                "text": "c.2.b. A lateral dimension on the top surface of less than 40 nm.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>3B993.c.2 does not apply to equipment designed for wafer diameters less than 300 mm.</I></P></NOTE>",
+                "text": "Note: 3B993.c.2 does not apply to equipment designed for wafer diameters less than 300 mm.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:",
+      "title": "Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls), and “specially designed” “components” and “accessories” therefor.",
+        "Etch equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.c"
+      ],
+      "text": "Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:\nAn aspect ratio greater than 30:1; and\nc.2.a. An aspect ratio greater than 30:1; and\nA lateral dimension on the top surface of less than 40 nm.\nc.2.b. A lateral dimension on the top surface of less than 40 nm.\nNote: 3B993.c.2 does not apply to equipment designed for wafer diameters less than 300 mm.",
+      "structure": {
+        "identifier": "3B993.c.2",
+        "heading": "Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:",
+        "label": "3B993.c.2 – Equipment, not specified by 3B993.c.1, designed for anisotropic etching of dielectric material and enabling the fabrication of high aspect ratio features having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.c.2.a",
+            "heading": "An aspect ratio greater than 30:1; and",
+            "label": "3B993.c.2.a – An aspect ratio greater than 30:1; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.2.a. An aspect ratio greater than 30:1; <I>and</I>\n</P>",
+                "text": "c.2.a. An aspect ratio greater than 30:1; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.c.2.b",
+            "heading": "A lateral dimension on the top surface of less than 40 nm.",
+            "label": "3B993.c.2.b – A lateral dimension on the top surface of less than 40 nm.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.2.b. A lateral dimension on the top surface of less than 40 nm.\n</P>",
+                "text": "c.2.b. A lateral dimension on the top surface of less than 40 nm.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>3B993.c.2 does not apply to equipment designed for wafer diameters less than 300 mm.</I></P></NOTE>",
+                "text": "Note: 3B993.c.2 does not apply to equipment designed for wafer diameters less than 300 mm.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    }
+  ]
+}

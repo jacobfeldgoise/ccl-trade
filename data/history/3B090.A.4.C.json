@@ -1,0 +1,138 @@
+{
+  "eccn": "3B090.a.4.c",
+  "normalized": "3B090.A.4.C",
+  "history": [
+    {
+      "version": "2023-01-17",
+      "fetchedAt": "2025-10-02T20:33:41.990Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-01-17/title-15?format=xml",
+      "heading": "Depositing a tungsten layer while maintaining the wafer substrate temperature between 100 °C and 500 °C.",
+      "title": "Depositing a tungsten layer while maintaining the wafer substrate temperature between 100 °C and 500 °C.",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B090 Semiconductor manufacturing equipment, not Controlled by 3B001, as follows (see List of Items Controlled) and “specially designed” “parts,” “components,” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment capable of fabricating a metal contact in a vacuum environment by:"
+      ],
+      "ancestors": [
+        "3B090",
+        "3B090.a",
+        "3B090.a.4"
+      ],
+      "text": "Depositing a tungsten layer while maintaining the wafer substrate temperature between 100 °C and 500 °C.",
+      "structure": {
+        "identifier": "3B090.a.4.c",
+        "heading": "Depositing a tungsten layer while maintaining the wafer substrate temperature between 100 °C and 500 °C.",
+        "label": "3B090.a.4.c – Depositing a tungsten layer while maintaining the wafer substrate temperature between 100 °C and 500 °C.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-02-24",
+      "fetchedAt": "2025-10-02T20:33:42.390Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-02-24/title-15?format=xml",
+      "heading": "Depositing a tungsten layer while maintaining the wafer substrate temperature between 100 °C and 500 °C.",
+      "title": "Depositing a tungsten layer while maintaining the wafer substrate temperature between 100 °C and 500 °C.",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B090 Semiconductor manufacturing equipment, not controlled by 3B001, as follows (see List of Items Controlled) and “specially designed” “parts,” “components,” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment capable of fabricating a metal contact in a vacuum environment by:"
+      ],
+      "ancestors": [
+        "3B090",
+        "3B090.a",
+        "3B090.a.4"
+      ],
+      "text": "Depositing a tungsten layer while maintaining the wafer substrate temperature between 100 °C and 500 °C.",
+      "structure": {
+        "identifier": "3B090.a.4.c",
+        "heading": "Depositing a tungsten layer while maintaining the wafer substrate temperature between 100 °C and 500 °C.",
+        "label": "3B090.a.4.c – Depositing a tungsten layer while maintaining the wafer substrate temperature between 100 °C and 500 °C.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-08-18",
+      "fetchedAt": "2025-10-02T20:33:42.783Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-08-18/title-15?format=xml",
+      "heading": "Depositing a tungsten layer while maintaining the wafer substrate temperature between 100 °C and 500 °C.",
+      "title": "Depositing a tungsten layer while maintaining the wafer substrate temperature between 100 °C and 500 °C.",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B090 Semiconductor manufacturing equipment, not controlled by 3B001, as follows (see List of Items Controlled) and “specially designed” “parts,” “components,” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment capable of fabricating a metal contact in a vacuum environment by:"
+      ],
+      "ancestors": [
+        "3B090",
+        "3B090.a",
+        "3B090.a.4"
+      ],
+      "text": "Depositing a tungsten layer while maintaining the wafer substrate temperature between 100 °C and 500 °C.",
+      "structure": {
+        "identifier": "3B090.a.4.c",
+        "heading": "Depositing a tungsten layer while maintaining the wafer substrate temperature between 100 °C and 500 °C.",
+        "label": "3B090.a.4.c – Depositing a tungsten layer while maintaining the wafer substrate temperature between 100 °C and 500 °C.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-10-18",
+      "fetchedAt": "2025-10-02T20:33:43.173Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-10-18/title-15?format=xml",
+      "heading": "Depositing a tungsten layer while maintaining the wafer substrate temperature between 100 °C and 500 °C.",
+      "title": "Depositing a tungsten layer while maintaining the wafer substrate temperature between 100 °C and 500 °C.",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B090 Semiconductor manufacturing equipment, not controlled by 3B001, as follows (see List of Items Controlled) and “specially designed” “parts,” “components,” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment capable of fabricating a metal contact in a vacuum environment by:"
+      ],
+      "ancestors": [
+        "3B090",
+        "3B090.a",
+        "3B090.a.4"
+      ],
+      "text": "Depositing a tungsten layer while maintaining the wafer substrate temperature between 100 °C and 500 °C.",
+      "structure": {
+        "identifier": "3B090.a.4.c",
+        "heading": "Depositing a tungsten layer while maintaining the wafer substrate temperature between 100 °C and 500 °C.",
+        "label": "3B090.a.4.c – Depositing a tungsten layer while maintaining the wafer substrate temperature between 100 °C and 500 °C.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

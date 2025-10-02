@@ -1,0 +1,2140 @@
+{
+  "eccn": "2E903",
+  "normalized": "2E903",
+  "history": [
+    {
+      "version": "2024-09-06",
+      "fetchedAt": "2025-10-02T20:33:46.879Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-09-06/title-15?format=xml",
+      "heading": "2E903 “Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).",
+      "title": "“Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).",
+      "category": "2",
+      "group": "2E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "2E903 “Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).\nLicense Requirements\nReason for Control:\nNS, RS, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (2E903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to entire entry (2E903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (2E903) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nNS applies to entire entry\nWorldwide control.\nSee § 742.4(a)(5) and (b)(10) of the EAR.\nRS applies to entire entry\nWorldwide control.\nSee § 742.6(a)(10) and (b)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nTSR:\nN/A\nIEC:\nYes, see § 740.2(a)(22) and § 740.24 of the EAR.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR).\nList of Items Controlled\nRelated Controls:\nN/A\nRelated Definitions:\nN/A\nItems:\nDesigned to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and\na. Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and\nDesigned to operate at temperatures exceeding 1,373.15 K (1,100 °C).\nb. Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).\nTechnical Note: For the purposes of 2E903, 'coating systems' consist of one or more layers (e.g., bond, interlayer, top coat) of material deposited on the substrate.",
+      "structure": {
+        "identifier": "2E903",
+        "heading": "2E903 “Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).",
+        "label": "2E903 – 2E903 “Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">NS applies to entire entry (2E903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.4(a)(5) and (b)(10) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">RS applies to entire entry (2E903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.6(a)(10) and (b)(11) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (2E903)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (2E903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to entire entry (2E903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (2E903) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.4(a)(5) and (b)(10) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "RS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(10) and (b)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "IEC:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, see § 740.2(a)(22) and § 740.24 of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR)."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "2E903.a",
+            "heading": "Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and",
+            "label": "2E903.a – Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; <I>and</I></P>",
+                "text": "a. Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2E903.b",
+            "heading": "Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).",
+            "label": "2E903.b – Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).</P>",
+                "text": "b. Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 2E903, 'coating systems' consist of one or more layers (e.g., bond, interlayer, top coat) of material deposited on the substrate.</I></P></NOTE>",
+                "text": "Technical Note: For the purposes of 2E903, 'coating systems' consist of one or more layers (e.g., bond, interlayer, top coat) of material deposited on the substrate.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-10-23",
+      "fetchedAt": "2025-10-02T20:33:47.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-10-23/title-15?format=xml",
+      "heading": "2E903 “Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).",
+      "title": "“Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).",
+      "category": "2",
+      "group": "2E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "2E903 “Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).\nLicense Requirements\nReason for Control:\nNS, RS, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (2E903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to entire entry (2E903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (2E903) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nNS applies to entire entry\nWorldwide control.\nSee § 742.4(a)(5) and (b)(10) of the EAR.\nRS applies to entire entry\nWorldwide control.\nSee § 742.6(a)(10) and (b)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nTSR:\nN/A\nIEC:\nYes, see § 740.2(a)(22) and § 740.24 of the EAR.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR).\nList of Items Controlled\nRelated Controls:\nN/A\nRelated Definitions:\nN/A\nItems:\nDesigned to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and\na. Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and\nDesigned to operate at temperatures exceeding 1,373.15 K (1,100 °C).\nb. Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).\nTechnical Note: For the purposes of 2E903, 'coating systems' consist of one or more layers (e.g., bond, interlayer, top coat) of material deposited on the substrate.",
+      "structure": {
+        "identifier": "2E903",
+        "heading": "2E903 “Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).",
+        "label": "2E903 – 2E903 “Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">NS applies to entire entry (2E903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.4(a)(5) and (b)(10) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">RS applies to entire entry (2E903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.6(a)(10) and (b)(11) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (2E903)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (2E903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to entire entry (2E903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (2E903) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.4(a)(5) and (b)(10) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "RS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(10) and (b)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "IEC:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, see § 740.2(a)(22) and § 740.24 of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR)."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "2E903.a",
+            "heading": "Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and",
+            "label": "2E903.a – Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; <I>and</I></P>",
+                "text": "a. Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2E903.b",
+            "heading": "Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).",
+            "label": "2E903.b – Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).</P>",
+                "text": "b. Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 2E903, 'coating systems' consist of one or more layers (e.g., bond, interlayer, top coat) of material deposited on the substrate.</I></P></NOTE>",
+                "text": "Technical Note: For the purposes of 2E903, 'coating systems' consist of one or more layers (e.g., bond, interlayer, top coat) of material deposited on the substrate.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-02",
+      "fetchedAt": "2025-10-02T20:33:47.757Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-02/title-15?format=xml",
+      "heading": "2E903 “Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).",
+      "title": "“Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).",
+      "category": "2",
+      "group": "2E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "2E903 “Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).\nLicense Requirements\nReason for Control:\nNS, RS, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (2E903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to entire entry (2E903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (2E903) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nNS applies to entire entry\nWorldwide control.\nSee § 742.4(a)(5) and (b)(10) of the EAR.\nRS applies to entire entry\nWorldwide control.\nSee § 742.6(a)(10) and (b)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nTSR:\nN/A\nIEC:\nYes, see § 740.2(a)(22) and § 740.24 of the EAR.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR).\nList of Items Controlled\nRelated Controls:\nN/A\nRelated Definitions:\nN/A\nItems:\nDesigned to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and\na. Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and\nDesigned to operate at temperatures exceeding 1,373.15 K (1,100 °C).\nb. Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).\nTechnical Note: For the purposes of 2E903, 'coating systems' consist of one or more layers (e.g., bond, interlayer, top coat) of material deposited on the substrate.",
+      "structure": {
+        "identifier": "2E903",
+        "heading": "2E903 “Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).",
+        "label": "2E903 – 2E903 “Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">NS applies to entire entry (2E903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.4(a)(5) and (b)(10) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">RS applies to entire entry (2E903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.6(a)(10) and (b)(11) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (2E903)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (2E903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to entire entry (2E903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (2E903) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.4(a)(5) and (b)(10) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "RS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(10) and (b)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "IEC:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, see § 740.2(a)(22) and § 740.24 of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR)."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "2E903.a",
+            "heading": "Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and",
+            "label": "2E903.a – Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; <I>and</I></P>",
+                "text": "a. Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2E903.b",
+            "heading": "Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).",
+            "label": "2E903.b – Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).</P>",
+                "text": "b. Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 2E903, 'coating systems' consist of one or more layers (e.g., bond, interlayer, top coat) of material deposited on the substrate.</I></P></NOTE>",
+                "text": "Technical Note: For the purposes of 2E903, 'coating systems' consist of one or more layers (e.g., bond, interlayer, top coat) of material deposited on the substrate.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "2E903 “Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).",
+      "title": "“Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).",
+      "category": "2",
+      "group": "2E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "2E903 “Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).\nLicense Requirements\nReason for Control:\nNS, RS, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (2E903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to entire entry (2E903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (2E903) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nNS applies to entire entry\nWorldwide control.\nSee § 742.4(a)(5) and (b)(10) of the EAR.\nRS applies to entire entry\nWorldwide control.\nSee § 742.6(a)(10) and (b)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nTSR:\nN/A\nIEC:\nYes, see § 740.2(a)(22) and § 740.24 of the EAR.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR).\nList of Items Controlled\nRelated Controls:\nN/A\nRelated Definitions:\nN/A\nItems:\nDesigned to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and\na. Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and\nDesigned to operate at temperatures exceeding 1,373.15 K (1,100 °C).\nb. Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).\nTechnical Note: For the purposes of 2E903, 'coating systems' consist of one or more layers (e.g., bond, interlayer, top coat) of material deposited on the substrate.",
+      "structure": {
+        "identifier": "2E903",
+        "heading": "2E903 “Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).",
+        "label": "2E903 – 2E903 “Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">NS applies to entire entry (2E903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.4(a)(5) and (b)(10) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">RS applies to entire entry (2E903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.6(a)(10) and (b)(11) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (2E903)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (2E903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to entire entry (2E903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (2E903) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.4(a)(5) and (b)(10) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "RS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(10) and (b)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "IEC:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, see § 740.2(a)(22) and § 740.24 of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR)."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "2E903.a",
+            "heading": "Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and",
+            "label": "2E903.a – Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; <I>and</I></P>",
+                "text": "a. Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2E903.b",
+            "heading": "Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).",
+            "label": "2E903.b – Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).</P>",
+                "text": "b. Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 2E903, 'coating systems' consist of one or more layers (e.g., bond, interlayer, top coat) of material deposited on the substrate.</I></P></NOTE>",
+                "text": "Technical Note: For the purposes of 2E903, 'coating systems' consist of one or more layers (e.g., bond, interlayer, top coat) of material deposited on the substrate.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "2E903 “Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).",
+      "title": "“Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).",
+      "category": "2",
+      "group": "2E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "2E903 “Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).\nLicense Requirements\nReason for Control:\nNS, RS, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (2E903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to entire entry (2E903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (2E903) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nNS applies to entire entry\nWorldwide control.\nSee § 742.4(a)(5) and (b)(10) of the EAR.\nRS applies to entire entry\nWorldwide control.\nSee § 742.6(a)(10) and (b)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nTSR:\nN/A\nIEC:\nYes, see § 740.2(a)(22) and § 740.24 of the EAR.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR).\nList of Items Controlled\nRelated Controls:\nN/A\nRelated Definitions:\nN/A\nItems:\nDesigned to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and\na. Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and\nDesigned to operate at temperatures exceeding 1,373.15 K (1,100 °C).\nb. Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).\nTechnical Note: For the purposes of 2E903, 'coating systems' consist of one or more layers (e.g., bond, interlayer, top coat) of material deposited on the substrate.",
+      "structure": {
+        "identifier": "2E903",
+        "heading": "2E903 “Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).",
+        "label": "2E903 – 2E903 “Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">NS applies to entire entry (2E903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.4(a)(5) and (b)(10) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">RS applies to entire entry (2E903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.6(a)(10) and (b)(11) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (2E903)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (2E903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to entire entry (2E903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (2E903) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.4(a)(5) and (b)(10) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "RS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(10) and (b)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "IEC:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, see § 740.2(a)(22) and § 740.24 of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR)."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "2E903.a",
+            "heading": "Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and",
+            "label": "2E903.a – Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; <I>and</I></P>",
+                "text": "a. Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2E903.b",
+            "heading": "Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).",
+            "label": "2E903.b – Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).</P>",
+                "text": "b. Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 2E903, 'coating systems' consist of one or more layers (e.g., bond, interlayer, top coat) of material deposited on the substrate.</I></P></NOTE>",
+                "text": "Technical Note: For the purposes of 2E903, 'coating systems' consist of one or more layers (e.g., bond, interlayer, top coat) of material deposited on the substrate.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "2E903 “Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).",
+      "title": "“Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).",
+      "category": "2",
+      "group": "2E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "2E903 “Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).\nLicense Requirements\nReason for Control:\nNS, RS, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (2E903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to entire entry (2E903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (2E903) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nNS applies to entire entry\nWorldwide control.\nSee § 742.4(a)(5) and (b)(10) of the EAR.\nRS applies to entire entry\nWorldwide control.\nSee § 742.6(a)(10) and (b)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nTSR:\nN/A\nIEC:\nYes, see § 740.2(a)(22) and § 740.24 of the EAR.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR).\nList of Items Controlled\nRelated Controls:\nN/A\nRelated Definitions:\nN/A\nItems:\nDesigned to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and\na. Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and\nDesigned to operate at temperatures exceeding 1,373.15 K (1,100 °C).\nb. Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).\nTechnical Note: For the purposes of 2E903, 'coating systems' consist of one or more layers (e.g., bond, interlayer, top coat) of material deposited on the substrate.",
+      "structure": {
+        "identifier": "2E903",
+        "heading": "2E903 “Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).",
+        "label": "2E903 – 2E903 “Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">NS applies to entire entry (2E903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.4(a)(5) and (b)(10) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">RS applies to entire entry (2E903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.6(a)(10) and (b)(11) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (2E903)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (2E903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to entire entry (2E903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (2E903) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.4(a)(5) and (b)(10) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "RS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(10) and (b)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "IEC:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, see § 740.2(a)(22) and § 740.24 of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR)."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "2E903.a",
+            "heading": "Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and",
+            "label": "2E903.a – Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; <I>and</I></P>",
+                "text": "a. Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2E903.b",
+            "heading": "Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).",
+            "label": "2E903.b – Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).</P>",
+                "text": "b. Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 2E903, 'coating systems' consist of one or more layers (e.g., bond, interlayer, top coat) of material deposited on the substrate.</I></P></NOTE>",
+                "text": "Technical Note: For the purposes of 2E903, 'coating systems' consist of one or more layers (e.g., bond, interlayer, top coat) of material deposited on the substrate.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "2E903 “Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).",
+      "title": "“Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).",
+      "category": "2",
+      "group": "2E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "2E903 “Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).\nLicense Requirements\nReason for Control:\nNS, RS, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (2E903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to entire entry (2E903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (2E903) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nNS applies to entire entry\nWorldwide control.\nSee § 742.4(a)(5) and (b)(10) of the EAR.\nRS applies to entire entry\nWorldwide control.\nSee § 742.6(a)(10) and (b)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nTSR:\nN/A\nIEC:\nYes, see § 740.2(a)(22) and § 740.24 of the EAR.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR).\nList of Items Controlled\nRelated Controls:\nN/A\nRelated Definitions:\nN/A\nItems:\nDesigned to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and\na. Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and\nDesigned to operate at temperatures exceeding 1,373.15 K (1,100 °C).\nb. Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).\nTechnical Note: For the purposes of 2E903, 'coating systems' consist of one or more layers (e.g., bond, interlayer, top coat) of material deposited on the substrate.",
+      "structure": {
+        "identifier": "2E903",
+        "heading": "2E903 “Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).",
+        "label": "2E903 – 2E903 “Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">NS applies to entire entry (2E903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.4(a)(5) and (b)(10) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">RS applies to entire entry (2E903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.6(a)(10) and (b)(11) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (2E903)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (2E903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to entire entry (2E903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (2E903) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.4(a)(5) and (b)(10) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "RS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(10) and (b)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "IEC:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, see § 740.2(a)(22) and § 740.24 of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR)."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "2E903.a",
+            "heading": "Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and",
+            "label": "2E903.a – Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; <I>and</I></P>",
+                "text": "a. Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2E903.b",
+            "heading": "Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).",
+            "label": "2E903.b – Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).</P>",
+                "text": "b. Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 2E903, 'coating systems' consist of one or more layers (e.g., bond, interlayer, top coat) of material deposited on the substrate.</I></P></NOTE>",
+                "text": "Technical Note: For the purposes of 2E903, 'coating systems' consist of one or more layers (e.g., bond, interlayer, top coat) of material deposited on the substrate.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "2E903 “Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).",
+      "title": "“Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).",
+      "category": "2",
+      "group": "2E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "2E903 “Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).\nLicense Requirements\nReason for Control:\nNS, RS, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (2E903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to entire entry (2E903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (2E903) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nNS applies to entire entry\nWorldwide control.\nSee § 742.4(a)(5) and (b)(10) of the EAR.\nRS applies to entire entry\nWorldwide control.\nSee § 742.6(a)(10) and (b)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nTSR:\nN/A\nIEC:\nYes, see § 740.2(a)(22) and § 740.24 of the EAR.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR).\nList of Items Controlled\nRelated Controls:\nN/A\nRelated Definitions:\nN/A\nItems:\nDesigned to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and\na. Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and\nDesigned to operate at temperatures exceeding 1,373.15 K (1,100 °C).\nb. Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).\nTechnical Note: For the purposes of 2E903, 'coating systems' consist of one or more layers (e.g., bond, interlayer, top coat) of material deposited on the substrate.",
+      "structure": {
+        "identifier": "2E903",
+        "heading": "2E903 “Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).",
+        "label": "2E903 – 2E903 “Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">NS applies to entire entry (2E903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.4(a)(5) and (b)(10) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">RS applies to entire entry (2E903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.6(a)(10) and (b)(11) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (2E903)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (2E903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to entire entry (2E903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (2E903) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.4(a)(5) and (b)(10) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "RS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(10) and (b)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "IEC:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, see § 740.2(a)(22) and § 740.24 of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR)."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "2E903.a",
+            "heading": "Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and",
+            "label": "2E903.a – Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; <I>and</I></P>",
+                "text": "a. Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2E903.b",
+            "heading": "Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).",
+            "label": "2E903.b – Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).</P>",
+                "text": "b. Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 2E903, 'coating systems' consist of one or more layers (e.g., bond, interlayer, top coat) of material deposited on the substrate.</I></P></NOTE>",
+                "text": "Technical Note: For the purposes of 2E903, 'coating systems' consist of one or more layers (e.g., bond, interlayer, top coat) of material deposited on the substrate.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "2E903 “Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).",
+      "title": "“Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).",
+      "category": "2",
+      "group": "2E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "2E903 “Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).\nLicense Requirements\nReason for Control:\nNS, RS, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (2E903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to entire entry (2E903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (2E903) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nNS applies to entire entry\nWorldwide control.\nSee § 742.4(a)(5) and (b)(10) of the EAR.\nRS applies to entire entry\nWorldwide control.\nSee § 742.6(a)(10) and (b)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nTSR:\nN/A\nIEC:\nYes, see § 740.2(a)(22) and § 740.24 of the EAR.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR).\nList of Items Controlled\nRelated Controls:\nN/A\nRelated Definitions:\nN/A\nItems:\nDesigned to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and\na. Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and\nDesigned to operate at temperatures exceeding 1,373.15 K (1,100 °C).\nb. Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).\nTechnical Note: For the purposes of 2E903, 'coating systems' consist of one or more layers (e.g., bond, interlayer, top coat) of material deposited on the substrate.",
+      "structure": {
+        "identifier": "2E903",
+        "heading": "2E903 “Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).",
+        "label": "2E903 – 2E903 “Technology”, not specified elsewhere, for the “development” or “production” of `coating systems' having all of the following: (see List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">NS applies to entire entry (2E903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.4(a)(5) and (b)(10) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">RS applies to entire entry (2E903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.6(a)(10) and (b)(11) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (2E903)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (2E903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to entire entry (2E903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (2E903) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.4(a)(5) and (b)(10) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "RS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(10) and (b)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "IEC:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, see § 740.2(a)(22) and § 740.24 of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR)."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "2E903.a",
+            "heading": "Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and",
+            "label": "2E903.a – Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; <I>and</I></P>",
+                "text": "a. Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2E903.b",
+            "heading": "Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).",
+            "label": "2E903.b – Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).</P>",
+                "text": "b. Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 2E903, 'coating systems' consist of one or more layers (e.g., bond, interlayer, top coat) of material deposited on the substrate.</I></P></NOTE>",
+                "text": "Technical Note: For the purposes of 2E903, 'coating systems' consist of one or more layers (e.g., bond, interlayer, top coat) of material deposited on the substrate.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "2E903 “Technology”, not specified elsewhere, for the “development” or “production” of 'coating systems' having all of the following: (see List of Items Controlled).",
+      "title": "“Technology”, not specified elsewhere, for the “development” or “production” of 'coating systems' having all of the following: (see List of Items Controlled).",
+      "category": "2",
+      "group": "2E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "2E903 “Technology”, not specified elsewhere, for the “development” or “production” of 'coating systems' having all of the following: (see List of Items Controlled).\nLicense Requirements\nReason for Control:\nNS, RS, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (2E903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to entire entry (2E903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (2E903) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nNS applies to entire entry\nWorldwide control.\nSee § 742.4(a)(5) and (b)(10) of the EAR.\nRS applies to entire entry\nWorldwide control.\nSee § 742.6(a)(10) and (b)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nTSR:\nN/A\nIEC:\nYes, see § 740.2(a)(22) and § 740.24 of the EAR.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR).\nList of Items Controlled\nRelated Controls:\nN/A\nRelated Definitions:\nN/A\nItems:\nDesigned to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and\na. Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and\nDesigned to operate at temperatures exceeding 1,373.15 K (1,100 °C).\nb. Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).\nTechnical Note: For the purposes of 2E903, 'coating systems' consist of one or more layers (e.g., bond, interlayer, top coat) of material deposited on the substrate.",
+      "structure": {
+        "identifier": "2E903",
+        "heading": "2E903 “Technology”, not specified elsewhere, for the “development” or “production” of 'coating systems' having all of the following: (see List of Items Controlled).",
+        "label": "2E903 – 2E903 “Technology”, not specified elsewhere, for the “development” or “production” of 'coating systems' having all of the following: (see List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">NS applies to entire entry (2E903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.4(a)(5) and (b)(10) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">RS applies to entire entry (2E903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.6(a)(10) and (b)(11) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (2E903)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (2E903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to entire entry (2E903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (2E903) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.4(a)(5) and (b)(10) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "RS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(10) and (b)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "IEC:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, see § 740.2(a)(22) and § 740.24 of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR)."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "2E903.a",
+            "heading": "Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and",
+            "label": "2E903.a – Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; <I>and</I>\n</P>",
+                "text": "a. Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2E903.b",
+            "heading": "Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).",
+            "label": "2E903.b – Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).\n</P>",
+                "text": "b. Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 2E903, 'coating systems' consist of one or more layers (e.g., bond, interlayer, top coat) of material deposited on the substrate.</I></P></NOTE>",
+                "text": "Technical Note: For the purposes of 2E903, 'coating systems' consist of one or more layers (e.g., bond, interlayer, top coat) of material deposited on the substrate.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "2E903 “Technology”, not specified elsewhere, for the “development” or “production” of 'coating systems' having all of the following: (see List of Items Controlled).",
+      "title": "“Technology”, not specified elsewhere, for the “development” or “production” of 'coating systems' having all of the following: (see List of Items Controlled).",
+      "category": "2",
+      "group": "2E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "2E903 “Technology”, not specified elsewhere, for the “development” or “production” of 'coating systems' having all of the following: (see List of Items Controlled).\nLicense Requirements\nReason for Control:\nNS, RS, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (2E903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to entire entry (2E903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (2E903) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nNS applies to entire entry\nWorldwide control.\nSee § 742.4(a)(5) and (b)(10) of the EAR.\nRS applies to entire entry\nWorldwide control.\nSee § 742.6(a)(10) and (b)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nTSR:\nN/A\nIEC:\nYes, see § 740.2(a)(22) and § 740.24 of the EAR.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR).\nList of Items Controlled\nRelated Controls:\nN/A\nRelated Definitions:\nN/A\nItems:\nDesigned to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and\na. Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and\nDesigned to operate at temperatures exceeding 1,373.15 K (1,100 °C).\nb. Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).\nTechnical Note: For the purposes of 2E903, 'coating systems' consist of one or more layers (e.g., bond, interlayer, top coat) of material deposited on the substrate.",
+      "structure": {
+        "identifier": "2E903",
+        "heading": "2E903 “Technology”, not specified elsewhere, for the “development” or “production” of 'coating systems' having all of the following: (see List of Items Controlled).",
+        "label": "2E903 – 2E903 “Technology”, not specified elsewhere, for the “development” or “production” of 'coating systems' having all of the following: (see List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">NS applies to entire entry (2E903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.4(a)(5) and (b)(10) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">RS applies to entire entry (2E903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.6(a)(10) and (b)(11) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (2E903)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (2E903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to entire entry (2E903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (2E903) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.4(a)(5) and (b)(10) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "RS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(10) and (b)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "IEC:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, see § 740.2(a)(22) and § 740.24 of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR)."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "2E903.a",
+            "heading": "Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and",
+            "label": "2E903.a – Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; <I>and</I>\n</P>",
+                "text": "a. Designed to protect ceramic “matrix” “composite” materials specified by ECCN 1C007 from corrosion; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2E903.b",
+            "heading": "Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).",
+            "label": "2E903.b – Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).\n</P>",
+                "text": "b. Designed to operate at temperatures exceeding 1,373.15 K (1,100 °C).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 2E903, 'coating systems' consist of one or more layers (e.g., bond, interlayer, top coat) of material deposited on the substrate.</I></P></NOTE>",
+                "text": "Technical Note: For the purposes of 2E903, 'coating systems' consist of one or more layers (e.g., bond, interlayer, top coat) of material deposited on the substrate.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    }
+  ]
+}

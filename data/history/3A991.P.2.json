@@ -1,0 +1,936 @@
+{
+  "eccn": "3A991.p.2",
+  "normalized": "3A991.P.2",
+  "history": [
+    {
+      "version": "2023-01-17",
+      "fetchedAt": "2025-10-02T20:33:41.990Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-01-17/title-15?format=xml",
+      "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "title": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3 - Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A991 Electronic devices and “components,” not controlled by 3A001.",
+        "Integrated circuits, n.e.s., having any of the following:"
+      ],
+      "ancestors": [
+        "3A991",
+        "3A991.p"
+      ],
+      "text": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.\nTechnical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. The rate of TOPS is to be calculated at its maximum value theoretically possible when all processing elements are operating simultaneously. The rate of TOPS and aggregate bidirectional transfer rate is assumed to be the highest value the manufacturer claims in a manual or brochure for the integrated circuit. Operations include both scalar operations and the scalar constituents of composite operations such as vector operations, matrix operations, and tensor operations. Scalar operations include integer operations, floating-point operations (often measured by FLOPS), fixed-point operations, bit-manipulation operations, and/or bitwise operations.",
+      "structure": {
+        "identifier": "3A991.p.2",
+        "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "label": "3A991.p.2 – An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Notes:</I></HED>\n<P><I>For the purposes of 3A991.p:</I></P>\n<P><I>1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs).</I></P>\n<P><I>2. TOPS is Tera Operations Per Second or 10\n<SU>12</SU> Operations per Second.</I></P>\n<P><I>3. The rate of TOPS is to be calculated at its maximum value theoretically possible when all processing elements are operating simultaneously. The rate of TOPS and aggregate bidirectional transfer rate is assumed to be the highest value the manufacturer claims in a manual or brochure for the integrated circuit. Operations include both scalar operations and the scalar constituents of composite operations such as vector operations, matrix operations, and tensor operations. Scalar operations include integer operations, floating-point operations (often measured by FLOPS), fixed-point operations, bit-manipulation operations, and/or bitwise operations.</I></P></NOTE>",
+            "text": "Technical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. The rate of TOPS is to be calculated at its maximum value theoretically possible when all processing elements are operating simultaneously. The rate of TOPS and aggregate bidirectional transfer rate is assumed to be the highest value the manufacturer claims in a manual or brochure for the integrated circuit. Operations include both scalar operations and the scalar constituents of composite operations such as vector operations, matrix operations, and tensor operations. Scalar operations include integer operations, floating-point operations (often measured by FLOPS), fixed-point operations, bit-manipulation operations, and/or bitwise operations.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-02-24",
+      "fetchedAt": "2025-10-02T20:33:42.390Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-02-24/title-15?format=xml",
+      "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "title": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "3A991 Electronic devices and “components,” not controlled by 3A001.",
+        "Integrated circuits, n.e.s., having any of the following:"
+      ],
+      "ancestors": [
+        "3A991",
+        "3A991.p"
+      ],
+      "text": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.\nTechnical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. The rate of TOPS is to be calculated at its maximum value theoretically possible when all processing elements are operating simultaneously. The rate of TOPS and aggregate bidirectional transfer rate is assumed to be the highest value the manufacturer claims in a manual or brochure for the integrated circuit. Operations include both scalar operations and the scalar constituents of composite operations such as vector operations, matrix operations, and tensor operations. Scalar operations include integer operations, floating-point operations (often measured by FLOPS), fixed-point operations, bit-manipulation operations, and/or bitwise operations.",
+      "structure": {
+        "identifier": "3A991.p.2",
+        "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "label": "3A991.p.2 – An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Notes:</I></HED>\n<P><I>For the purposes of 3A991.p:</I></P>\n<P><I>1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs).</I></P>\n<P><I>2. TOPS is Tera Operations Per Second or 10\n<SU>12</SU> Operations per Second.</I></P>\n<P><I>3. The rate of TOPS is to be calculated at its maximum value theoretically possible when all processing elements are operating simultaneously. The rate of TOPS and aggregate bidirectional transfer rate is assumed to be the highest value the manufacturer claims in a manual or brochure for the integrated circuit. Operations include both scalar operations and the scalar constituents of composite operations such as vector operations, matrix operations, and tensor operations. Scalar operations include integer operations, floating-point operations (often measured by FLOPS), fixed-point operations, bit-manipulation operations, and/or bitwise operations.</I></P></NOTE>",
+            "text": "Technical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. The rate of TOPS is to be calculated at its maximum value theoretically possible when all processing elements are operating simultaneously. The rate of TOPS and aggregate bidirectional transfer rate is assumed to be the highest value the manufacturer claims in a manual or brochure for the integrated circuit. Operations include both scalar operations and the scalar constituents of composite operations such as vector operations, matrix operations, and tensor operations. Scalar operations include integer operations, floating-point operations (often measured by FLOPS), fixed-point operations, bit-manipulation operations, and/or bitwise operations.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-08-18",
+      "fetchedAt": "2025-10-02T20:33:42.783Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-08-18/title-15?format=xml",
+      "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "title": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "3A991 Electronic devices and “components,” not controlled by 3A001.",
+        "Integrated circuits, n.e.s., having any of the following:"
+      ],
+      "ancestors": [
+        "3A991",
+        "3A991.p"
+      ],
+      "text": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.\nTechnical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. The rate of TOPS is to be calculated at its maximum value theoretically possible when all processing elements are operating simultaneously. The rate of TOPS and aggregate bidirectional transfer rate is assumed to be the highest value the manufacturer claims in a manual or brochure for the integrated circuit. Operations include both scalar operations and the scalar constituents of composite operations such as vector operations, matrix operations, and tensor operations. Scalar operations include integer operations, floating-point operations (often measured by FLOPS), fixed-point operations, bit-manipulation operations, and/or bitwise operations.",
+      "structure": {
+        "identifier": "3A991.p.2",
+        "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "label": "3A991.p.2 – An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Notes:</I></HED>\n<P><I>For the purposes of 3A991.p:</I></P>\n<P><I>1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs).</I></P>\n<P><I>2. TOPS is Tera Operations Per Second or 10\n<SU>12</SU> Operations per Second.</I></P>\n<P><I>3. The rate of TOPS is to be calculated at its maximum value theoretically possible when all processing elements are operating simultaneously. The rate of TOPS and aggregate bidirectional transfer rate is assumed to be the highest value the manufacturer claims in a manual or brochure for the integrated circuit. Operations include both scalar operations and the scalar constituents of composite operations such as vector operations, matrix operations, and tensor operations. Scalar operations include integer operations, floating-point operations (often measured by FLOPS), fixed-point operations, bit-manipulation operations, and/or bitwise operations.</I></P></NOTE>",
+            "text": "Technical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. The rate of TOPS is to be calculated at its maximum value theoretically possible when all processing elements are operating simultaneously. The rate of TOPS and aggregate bidirectional transfer rate is assumed to be the highest value the manufacturer claims in a manual or brochure for the integrated circuit. Operations include both scalar operations and the scalar constituents of composite operations such as vector operations, matrix operations, and tensor operations. Scalar operations include integer operations, floating-point operations (often measured by FLOPS), fixed-point operations, bit-manipulation operations, and/or bitwise operations.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-10-18",
+      "fetchedAt": "2025-10-02T20:33:43.173Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-10-18/title-15?format=xml",
+      "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "title": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A991 Electronic devices and “components,” not controlled by 3A001.",
+        "Integrated circuits, n.e.s., having any of the following:"
+      ],
+      "ancestors": [
+        "3A991",
+        "3A991.p"
+      ],
+      "text": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.\nTechnical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. The rate of TOPS is to be calculated at its maximum value theoretically possible when all processing elements are operating simultaneously. The rate of TOPS and aggregate bidirectional transfer rate is assumed to be the highest value the manufacturer claims in a manual or brochure for the integrated circuit. Operations include both scalar operations and the scalar constituents of composite operations such as vector operations, matrix operations, and tensor operations. Scalar operations include integer operations, floating-point operations (often measured by FLOPS), fixed-point operations, bit-manipulation operations, and/or bitwise operations.",
+      "structure": {
+        "identifier": "3A991.p.2",
+        "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "label": "3A991.p.2 – An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Notes:</I></HED>\n<P><I>For the purposes of 3A991.p:</I></P>\n<P><I>1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs).</I></P>\n<P><I>2. TOPS is Tera Operations Per Second or 10\n<SU>12</SU> Operations per Second.</I></P>\n<P><I>3. The rate of TOPS is to be calculated at its maximum value theoretically possible when all processing elements are operating simultaneously. The rate of TOPS and aggregate bidirectional transfer rate is assumed to be the highest value the manufacturer claims in a manual or brochure for the integrated circuit. Operations include both scalar operations and the scalar constituents of composite operations such as vector operations, matrix operations, and tensor operations. Scalar operations include integer operations, floating-point operations (often measured by FLOPS), fixed-point operations, bit-manipulation operations, and/or bitwise operations.</I></P></NOTE>",
+            "text": "Technical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. The rate of TOPS is to be calculated at its maximum value theoretically possible when all processing elements are operating simultaneously. The rate of TOPS and aggregate bidirectional transfer rate is assumed to be the highest value the manufacturer claims in a manual or brochure for the integrated circuit. Operations include both scalar operations and the scalar constituents of composite operations such as vector operations, matrix operations, and tensor operations. Scalar operations include integer operations, floating-point operations (often measured by FLOPS), fixed-point operations, bit-manipulation operations, and/or bitwise operations.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-11-17",
+      "fetchedAt": "2025-10-02T20:33:43.584Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-11-17/title-15?format=xml",
+      "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "title": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A991 Electronic devices, and “components” not controlled by 3A001.",
+        "Integrated circuits, n.e.s., having any of the following:"
+      ],
+      "ancestors": [
+        "3A991",
+        "3A991.p"
+      ],
+      "text": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.\nTechnical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit. a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C). b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.",
+      "structure": {
+        "identifier": "3A991.p.2",
+        "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "label": "3A991.p.2 – An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Notes:</I></HED>\n<P><I>For the purposes of 3A991.p:</I></P>\n<P><I>1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs).</I></P>\n<P><I>2. TOPS is Tera Operations Per Second or 10\n<SU>12</SU> Operations per Second.</I></P>\n<P><I>3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit.</I></P>\n<P><I>a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C).</I></P>\n<P><I>b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.</I></P></NOTE>",
+            "text": "Technical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit. a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C). b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-12-08",
+      "fetchedAt": "2025-10-02T20:33:43.980Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-12-08/title-15?format=xml",
+      "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "title": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A991 Electronic devices, and “components” not controlled by 3A001.",
+        "Integrated circuits, n.e.s., having any of the following:"
+      ],
+      "ancestors": [
+        "3A991",
+        "3A991.p"
+      ],
+      "text": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.\nTechnical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit. a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C). b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.",
+      "structure": {
+        "identifier": "3A991.p.2",
+        "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "label": "3A991.p.2 – An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Notes:</I></HED>\n<P><I>For the purposes of 3A991.p:</I></P>\n<P><I>1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs).</I></P>\n<P><I>2. TOPS is Tera Operations Per Second or 10\n<SU>12</SU> Operations per Second.</I></P>\n<P><I>3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit.</I></P>\n<P><I>a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C).</I></P>\n<P><I>b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.</I></P></NOTE>",
+            "text": "Technical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit. a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C). b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-03-08",
+      "fetchedAt": "2025-10-02T20:33:44.401Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-08/title-15?format=xml",
+      "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "title": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A991 Electronic devices, and “components” not controlled by 3A001.",
+        "Integrated circuits, n.e.s., having any of the following:"
+      ],
+      "ancestors": [
+        "3A991",
+        "3A991.p"
+      ],
+      "text": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.\nTechnical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit. a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C). b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.",
+      "structure": {
+        "identifier": "3A991.p.2",
+        "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "label": "3A991.p.2 – An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Notes:</I></HED>\n<P><I>For the purposes of 3A991.p:</I></P>\n<P><I>1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs).</I></P>\n<P><I>2. TOPS is Tera Operations Per Second or 10\n<SU>12</SU> Operations per Second.</I></P>\n<P><I>3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit.</I></P>\n<P><I>a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C).</I></P>\n<P><I>b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.</I></P></NOTE>",
+            "text": "Technical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit. a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C). b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-03-13",
+      "fetchedAt": "2025-10-02T20:33:44.826Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-13/title-15?format=xml",
+      "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "title": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A991 Electronic devices, and “components” not controlled by 3A001.",
+        "Integrated circuits, n.e.s., having any of the following:"
+      ],
+      "ancestors": [
+        "3A991",
+        "3A991.p"
+      ],
+      "text": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.\nTechnical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit. a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C). b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.",
+      "structure": {
+        "identifier": "3A991.p.2",
+        "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "label": "3A991.p.2 – An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Notes:</I></HED>\n<P><I>For the purposes of 3A991.p:</I></P>\n<P><I>1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs).</I></P>\n<P><I>2. TOPS is Tera Operations Per Second or 10\n<SU>12</SU> Operations per Second.</I></P>\n<P><I>3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit.</I></P>\n<P><I>a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C).</I></P>\n<P><I>b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.</I></P></NOTE>",
+            "text": "Technical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit. a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C). b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-04-04",
+      "fetchedAt": "2025-10-02T20:33:45.229Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-04/title-15?format=xml",
+      "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "title": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A991 Electronic devices, and “components” not controlled by 3A001.",
+        "Integrated circuits, n.e.s., having any of the following:"
+      ],
+      "ancestors": [
+        "3A991",
+        "3A991.p"
+      ],
+      "text": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.\nTechnical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit. a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C). b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.",
+      "structure": {
+        "identifier": "3A991.p.2",
+        "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "label": "3A991.p.2 – An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Notes:</I></HED>\n<P><I>For the purposes of 3A991.p:</I></P>\n<P><I>1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs).</I></P>\n<P><I>2. TOPS is Tera Operations Per Second or 10\n<SU>12</SU> Operations per Second.</I></P>\n<P><I>3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit.</I></P>\n<P><I>a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C).</I></P>\n<P><I>b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.</I></P></NOTE>",
+            "text": "Technical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit. a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C). b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-04-19",
+      "fetchedAt": "2025-10-02T20:33:45.630Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-19/title-15?format=xml",
+      "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "title": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A991 Electronic devices, and “components” not controlled by 3A001.",
+        "Integrated circuits, n.e.s., having any of the following:"
+      ],
+      "ancestors": [
+        "3A991",
+        "3A991.p"
+      ],
+      "text": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.\nTechnical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit. a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C). b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.",
+      "structure": {
+        "identifier": "3A991.p.2",
+        "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "label": "3A991.p.2 – An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Notes:</I></HED>\n<P><I>For the purposes of 3A991.p:</I></P>\n<P><I>1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs).</I></P>\n<P><I>2. TOPS is Tera Operations Per Second or 10\n<SU>12</SU> Operations per Second.</I></P>\n<P><I>3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit.</I></P>\n<P><I>a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C).</I></P>\n<P><I>b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.</I></P></NOTE>",
+            "text": "Technical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit. a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C). b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-05-30",
+      "fetchedAt": "2025-10-02T20:33:46.051Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-05-30/title-15?format=xml",
+      "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "title": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A991 Electronic devices, and “components” not controlled by 3A001.",
+        "Integrated circuits, n.e.s., having any of the following:"
+      ],
+      "ancestors": [
+        "3A991",
+        "3A991.p"
+      ],
+      "text": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.\nTechnical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit. a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C). b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.",
+      "structure": {
+        "identifier": "3A991.p.2",
+        "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "label": "3A991.p.2 – An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Notes:</I></HED>\n<P><I>For the purposes of 3A991.p:</I></P>\n<P><I>1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs).</I></P>\n<P><I>2. TOPS is Tera Operations Per Second or 10\n<SU>12</SU> Operations per Second.</I></P>\n<P><I>3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit.</I></P>\n<P><I>a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C).</I></P>\n<P><I>b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.</I></P></NOTE>",
+            "text": "Technical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit. a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C). b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-06-12",
+      "fetchedAt": "2025-10-02T20:33:46.460Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-06-12/title-15?format=xml",
+      "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "title": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A991 Electronic devices, and “components” not controlled by 3A001.",
+        "Integrated circuits, n.e.s., having any of the following:"
+      ],
+      "ancestors": [
+        "3A991",
+        "3A991.p"
+      ],
+      "text": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.\nTechnical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit. a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C). b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.",
+      "structure": {
+        "identifier": "3A991.p.2",
+        "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "label": "3A991.p.2 – An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Notes:</I></HED>\n<P><I>For the purposes of 3A991.p:</I></P>\n<P><I>1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs).</I></P>\n<P><I>2. TOPS is Tera Operations Per Second or 10\n<SU>12</SU> Operations per Second.</I></P>\n<P><I>3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit.</I></P>\n<P><I>a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C).</I></P>\n<P><I>b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.</I></P></NOTE>",
+            "text": "Technical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit. a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C). b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-09-06",
+      "fetchedAt": "2025-10-02T20:33:46.879Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-09-06/title-15?format=xml",
+      "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "title": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A991 Electronic devices, and “components” not controlled by 3A001.",
+        "Integrated circuits, n.e.s., having any of the following:"
+      ],
+      "ancestors": [
+        "3A991",
+        "3A991.p"
+      ],
+      "text": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.\nTechnical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit. a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C). b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.",
+      "structure": {
+        "identifier": "3A991.p.2",
+        "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "label": "3A991.p.2 – An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Notes:</I></HED>\n<P><I>For the purposes of 3A991.p:</I></P>\n<P><I>1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs).</I></P>\n<P><I>2. TOPS is Tera Operations Per Second or 10\n<SU>12</SU> Operations per Second.</I></P>\n<P><I>3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit.</I></P>\n<P><I>a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C).</I></P>\n<P><I>b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.</I></P></NOTE>",
+            "text": "Technical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit. a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C). b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-10-23",
+      "fetchedAt": "2025-10-02T20:33:47.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-10-23/title-15?format=xml",
+      "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "title": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A991 Electronic devices, and “components” not controlled by 3A001.",
+        "Integrated circuits, n.e.s., having any of the following:"
+      ],
+      "ancestors": [
+        "3A991",
+        "3A991.p"
+      ],
+      "text": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.\nTechnical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit. a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C). b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.",
+      "structure": {
+        "identifier": "3A991.p.2",
+        "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "label": "3A991.p.2 – An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Notes:</I></HED>\n<P><I>For the purposes of 3A991.p:</I></P>\n<P><I>1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs).</I></P>\n<P><I>2. TOPS is Tera Operations Per Second or 10\n<SU>12</SU> Operations per Second.</I></P>\n<P><I>3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit.</I></P>\n<P><I>a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C).</I></P>\n<P><I>b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.</I></P></NOTE>",
+            "text": "Technical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit. a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C). b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-02",
+      "fetchedAt": "2025-10-02T20:33:47.757Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-02/title-15?format=xml",
+      "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "title": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A991 Electronic devices, and “components” not controlled by 3A001.",
+        "Integrated circuits, n.e.s., having any of the following:"
+      ],
+      "ancestors": [
+        "3A991",
+        "3A991.p"
+      ],
+      "text": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.\nTechnical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit. a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C). b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.",
+      "structure": {
+        "identifier": "3A991.p.2",
+        "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "label": "3A991.p.2 – An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Notes:</I></HED>\n<P><I>For the purposes of 3A991.p:</I></P>\n<P><I>1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs).</I></P>\n<P><I>2. TOPS is Tera Operations Per Second or 10\n<SU>12</SU> Operations per Second.</I></P>\n<P><I>3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit.</I></P>\n<P><I>a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C).</I></P>\n<P><I>b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.</I></P></NOTE>",
+            "text": "Technical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit. a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C). b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "title": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A991 Electronic devices, and “components” not controlled by 3A001.",
+        "Integrated circuits, n.e.s., having any of the following:"
+      ],
+      "ancestors": [
+        "3A991",
+        "3A991.p"
+      ],
+      "text": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.\nTechnical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit. a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C). b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.",
+      "structure": {
+        "identifier": "3A991.p.2",
+        "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "label": "3A991.p.2 – An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Notes:</I></HED>\n<P><I>For the purposes of 3A991.p:</I></P>\n<P><I>1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs).</I></P>\n<P><I>2. TOPS is Tera Operations Per Second or 10\n<SU>12</SU> Operations per Second.</I></P>\n<P><I>3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit.</I></P>\n<P><I>a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C).</I></P>\n<P><I>b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.</I></P></NOTE>",
+            "text": "Technical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit. a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C). b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "title": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A991 Electronic devices, and “components” not controlled by 3A001.",
+        "Integrated circuits, n.e.s., having any of the following:"
+      ],
+      "ancestors": [
+        "3A991",
+        "3A991.p"
+      ],
+      "text": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.\nTechnical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit. a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C). b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.",
+      "structure": {
+        "identifier": "3A991.p.2",
+        "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "label": "3A991.p.2 – An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Notes:</I></HED>\n<P><I>For the purposes of 3A991.p:</I></P>\n<P><I>1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs).</I></P>\n<P><I>2. TOPS is Tera Operations Per Second or 10\n<SU>12</SU> Operations per Second.</I></P>\n<P><I>3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit.</I></P>\n<P><I>a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C).</I></P>\n<P><I>b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.</I></P></NOTE>",
+            "text": "Technical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit. a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C). b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "title": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A991 Electronic devices, and “components” not controlled by 3A001.",
+        "Integrated circuits, n.e.s., having any of the following:"
+      ],
+      "ancestors": [
+        "3A991",
+        "3A991.p"
+      ],
+      "text": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.\nTechnical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit. a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C). b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.",
+      "structure": {
+        "identifier": "3A991.p.2",
+        "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "label": "3A991.p.2 – An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Notes:</I></HED>\n<P><I>For the purposes of 3A991.p:</I></P>\n<P><I>1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs).</I></P>\n<P><I>2. TOPS is Tera Operations Per Second or 10\n<SU>12</SU> Operations per Second.</I></P>\n<P><I>3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit.</I></P>\n<P><I>a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C).</I></P>\n<P><I>b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.</I></P></NOTE>",
+            "text": "Technical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit. a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C). b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "title": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A991 Electronic devices, and “components” not controlled by 3A001.",
+        "Integrated circuits, n.e.s., having any of the following:"
+      ],
+      "ancestors": [
+        "3A991",
+        "3A991.p"
+      ],
+      "text": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.\nTechnical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit. a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C). b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.",
+      "structure": {
+        "identifier": "3A991.p.2",
+        "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "label": "3A991.p.2 – An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Notes:</I></HED>\n<P><I>For the purposes of 3A991.p:</I></P>\n<P><I>1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs).</I></P>\n<P><I>2. TOPS is Tera Operations Per Second or 10\n<SU>12</SU> Operations per Second.</I></P>\n<P><I>3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit.</I></P>\n<P><I>a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C).</I></P>\n<P><I>b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.</I></P></NOTE>",
+            "text": "Technical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit. a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C). b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "title": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A991 Electronic devices, and “components” not controlled by 3A001.",
+        "Integrated circuits, n.e.s., having any of the following:"
+      ],
+      "ancestors": [
+        "3A991",
+        "3A991.p"
+      ],
+      "text": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.\nTechnical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit. a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C). b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.",
+      "structure": {
+        "identifier": "3A991.p.2",
+        "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "label": "3A991.p.2 – An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Notes:</I></HED>\n<P><I>For the purposes of 3A991.p:</I></P>\n<P><I>1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs).</I></P>\n<P><I>2. TOPS is Tera Operations Per Second or 10\n<SU>12</SU> Operations per Second.</I></P>\n<P><I>3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit.</I></P>\n<P><I>a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C).</I></P>\n<P><I>b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.</I></P></NOTE>",
+            "text": "Technical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit. a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C). b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "title": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A991 Electronic devices, and “components” not controlled by 3A001.",
+        "Integrated circuits, n.e.s., having any of the following:"
+      ],
+      "ancestors": [
+        "3A991",
+        "3A991.p"
+      ],
+      "text": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.\nTechnical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit. a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C). b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.",
+      "structure": {
+        "identifier": "3A991.p.2",
+        "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "label": "3A991.p.2 – An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Notes:</I></HED>\n<P><I>For the purposes of 3A991.p:</I></P>\n<P><I>1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs).</I></P>\n<P><I>2. TOPS is Tera Operations Per Second or 10\n<SU>12</SU> Operations per Second.</I></P>\n<P><I>3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit.</I></P>\n<P><I>a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C).</I></P>\n<P><I>b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.</I></P></NOTE>",
+            "text": "Technical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit. a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C). b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "title": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "3A991 Electronic devices, and “components” not controlled by 3A001.",
+        "Integrated circuits, n.e.s., having any of the following:"
+      ],
+      "ancestors": [
+        "3A991",
+        "3A991.p"
+      ],
+      "text": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.\nTechnical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit. a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C). b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.",
+      "structure": {
+        "identifier": "3A991.p.2",
+        "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "label": "3A991.p.2 – An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Notes:</I></HED>\n<P><I>For the purposes of 3A991.p:</I>\n</P>\n<P><I>1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs).</I>\n</P>\n<P><I>2. TOPS is Tera Operations Per Second or 10\n<SU>12</SU> Operations per Second.</I>\n</P>\n<P><I>3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit.</I>\n</P>\n<P><I>a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C).</I>\n</P>\n<P><I>b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.</I></P></NOTE>",
+            "text": "Technical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit. a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C). b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "title": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "3A991 Electronic devices, and “components” not controlled by 3A001.",
+        "Integrated circuits, n.e.s., having any of the following:"
+      ],
+      "ancestors": [
+        "3A991",
+        "3A991.p"
+      ],
+      "text": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.\nTechnical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit. a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C). b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.",
+      "structure": {
+        "identifier": "3A991.p.2",
+        "heading": "An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "label": "3A991.p.2 – An aggregate bidirectional transfer rate over all inputs and outputs of 150 Gbyte/s or more to or from integrated circuits other than volatile memories.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Notes:</I></HED>\n<P><I>For the purposes of 3A991.p:</I>\n</P>\n<P><I>1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs).</I>\n</P>\n<P><I>2. TOPS is Tera Operations Per Second or 10\n<SU>12</SU> Operations per Second.</I>\n</P>\n<P><I>3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit.</I>\n</P>\n<P><I>a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C).</I>\n</P>\n<P><I>b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.</I></P></NOTE>",
+            "text": "Technical Notes: For the purposes of 3A991.p: 1. This ECCN includes but is not limited to central processing units (CPU), graphics processing units (GPU), tensor processing units (TPU), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, and field-programmable logic devices (FPLDs). 2. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 3. For purposes of 3A991.p, TOPS is 2 × 'MacTOPS' aggregated over all processing units on the integrated circuit. a. For purposes of 3A991.p, 'MacTOPS' is the theoretical peak number of Tera (10^12) operations per second for multiply-accumulate computation (D = A × B + C). b. The 2 in the formula is based on industry convention of counting one multiply-accumulate computation, D = A × B + C, as 2 operations for purpose of datasheets. Therefore, 2 × 'MacTOPS' may correspond to the reported TOPS or FLOPS on a datasheet.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

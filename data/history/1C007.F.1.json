@@ -1,0 +1,68 @@
+{
+  "eccn": "1C007.f.1",
+  "normalized": "1C007.F.1",
+  "history": [
+    {
+      "version": "2017-01-15",
+      "fetchedAt": "2025-10-02T20:33:28.357Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-15/title-15?format=xml",
+      "heading": "Al2O3 (CAS 1344-28-1); or",
+      "title": "Al2O3 (CAS 1344-28-1); or",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C007 Ceramic Powders, Non-”Composite” Ceramic Materials, Ceramic-”Matrix” “composite” Materials and Precursor Materials, as Follows (see List of Items Controlled).",
+        "Ceramic-ceramic “composite” materials with an oxide or glass “matrix” reinforced with continuous fibers from any of the following systems:"
+      ],
+      "ancestors": [
+        "1C007",
+        "1C007.f"
+      ],
+      "text": "Al2O3 (CAS 1344-28-1); or",
+      "structure": {
+        "identifier": "1C007.f.1",
+        "heading": "Al2O3 (CAS 1344-28-1); or",
+        "label": "1C007.f.1 – Al2O3 (CAS 1344-28-1); or",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-07-07",
+      "fetchedAt": "2025-10-02T20:33:28.904Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-07-07/title-15?format=xml",
+      "heading": "Al2O3 (CAS 1344-28-1); or",
+      "title": "Al2O3 (CAS 1344-28-1); or",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C007 Ceramic Powders, Non-”Composite” Ceramic Materials, Ceramic-”Matrix” “composite” Materials and Precursor Materials, as Follows (see List of Items Controlled).",
+        "Ceramic-ceramic “composite” materials with an oxide or glass “matrix” reinforced with continuous fibers from any of the following systems:"
+      ],
+      "ancestors": [
+        "1C007",
+        "1C007.f"
+      ],
+      "text": "Al2O3 (CAS 1344-28-1); or",
+      "structure": {
+        "identifier": "1C007.f.1",
+        "heading": "Al2O3 (CAS 1344-28-1); or",
+        "label": "1C007.f.1 – Al2O3 (CAS 1344-28-1); or",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

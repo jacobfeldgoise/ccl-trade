@@ -1,0 +1,471 @@
+{
+  "eccn": "5D002.a.3",
+  "normalized": "5D002.A.3",
+  "history": [
+    {
+      "version": "2017-08-15",
+      "fetchedAt": "2025-10-02T20:33:29.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-08-15/title-15?format=xml",
+      "heading": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "title": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "category": "5",
+      "group": "5D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "5D002 “Software” as follows (see List of Items Controlled).",
+        "“Software” “specially designed” or modified for the “development,” “production” or “use” of any of the following:"
+      ],
+      "ancestors": [
+        "5D002",
+        "5D002.a"
+      ],
+      "text": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "structure": {
+        "identifier": "5D002.a.3",
+        "heading": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+        "label": "5D002.a.3 – Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-12-27",
+      "fetchedAt": "2025-10-02T20:33:29.759Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-12-27/title-15?format=xml",
+      "heading": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "title": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "category": "5",
+      "group": "5D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "5D002 “Software” as follows (see List of Items Controlled).",
+        "“Software” “specially designed” or modified for the “development,” “production” or “use” of any of the following:"
+      ],
+      "ancestors": [
+        "5D002",
+        "5D002.a"
+      ],
+      "text": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "structure": {
+        "identifier": "5D002.a.3",
+        "heading": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+        "label": "5D002.a.3 – Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-01-08",
+      "fetchedAt": "2025-10-02T20:33:30.194Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-01-08/title-15?format=xml",
+      "heading": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "title": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "category": "5",
+      "group": "5D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "5D002 “Software” as follows (see List of Items Controlled).",
+        "“Software” “specially designed” or modified for the “development,” “production” or “use” of any of the following:"
+      ],
+      "ancestors": [
+        "5D002",
+        "5D002.a"
+      ],
+      "text": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "structure": {
+        "identifier": "5D002.a.3",
+        "heading": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+        "label": "5D002.a.3 – Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-04-02",
+      "fetchedAt": "2025-10-02T20:33:30.716Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-02/title-15?format=xml",
+      "heading": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "title": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "category": "5",
+      "group": "5D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "5D002 “Software” as follows (see List of Items Controlled).",
+        "“Software” “specially designed” or modified for the “development,” “production” or “use” of any of the following:"
+      ],
+      "ancestors": [
+        "5D002",
+        "5D002.a"
+      ],
+      "text": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "structure": {
+        "identifier": "5D002.a.3",
+        "heading": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+        "label": "5D002.a.3 – Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-04-05",
+      "fetchedAt": "2025-10-02T20:33:31.145Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-05/title-15?format=xml",
+      "heading": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "title": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "category": "5",
+      "group": "5D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "5D002 “Software” as follows (see List of Items Controlled).",
+        "“Software” “specially designed” or modified for the “development,” “production” or “use” of any of the following:"
+      ],
+      "ancestors": [
+        "5D002",
+        "5D002.a"
+      ],
+      "text": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "structure": {
+        "identifier": "5D002.a.3",
+        "heading": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+        "label": "5D002.a.3 – Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-08-30",
+      "fetchedAt": "2025-10-02T20:33:31.567Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-08-30/title-15?format=xml",
+      "heading": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "title": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "category": "5",
+      "group": "5D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "5D002 “Software” as follows (see List of Items Controlled).",
+        "“Software” “specially designed” or modified for the “development,” “production” or “use” of any of the following:"
+      ],
+      "ancestors": [
+        "5D002",
+        "5D002.a"
+      ],
+      "text": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "structure": {
+        "identifier": "5D002.a.3",
+        "heading": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+        "label": "5D002.a.3 – Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-10-24",
+      "fetchedAt": "2025-10-02T20:33:31.990Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-10-24/title-15?format=xml",
+      "heading": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "title": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "category": "5",
+      "group": "5D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "5D002 “Software” as follows (see List of Items Controlled).",
+        "“Software” “specially designed” or modified for the “development,” “production” or “use” of any of the following:"
+      ],
+      "ancestors": [
+        "5D002",
+        "5D002.a"
+      ],
+      "text": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "structure": {
+        "identifier": "5D002.a.3",
+        "heading": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+        "label": "5D002.a.3 – Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-11-02",
+      "fetchedAt": "2025-10-02T20:33:32.381Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-11-02/title-15?format=xml",
+      "heading": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "title": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "category": "5",
+      "group": "5D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "5D002 “Software” as follows (see List of Items Controlled).",
+        "“Software” “specially designed” or modified for the “development”, “production” or “use” of any of the following:"
+      ],
+      "ancestors": [
+        "5D002",
+        "5D002.a"
+      ],
+      "text": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "structure": {
+        "identifier": "5D002.a.3",
+        "heading": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+        "label": "5D002.a.3 – Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-12-20",
+      "fetchedAt": "2025-10-02T20:33:32.762Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-12-20/title-15?format=xml",
+      "heading": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "title": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "category": "5",
+      "group": "5D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "5D002 “Software” as follows (see List of Items Controlled).",
+        "5D002.a"
+      ],
+      "ancestors": [
+        "5D002",
+        "5D002.a"
+      ],
+      "text": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "structure": {
+        "identifier": "5D002.a.3",
+        "heading": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+        "label": "5D002.a.3 – Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2019-05-23",
+      "fetchedAt": "2025-10-02T20:33:33.148Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2019-05-23/title-15?format=xml",
+      "heading": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "title": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "category": "5",
+      "group": "5D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "5D002 “Software” as follows (see List of Items Controlled).",
+        "5D002.a"
+      ],
+      "ancestors": [
+        "5D002",
+        "5D002.a"
+      ],
+      "text": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "structure": {
+        "identifier": "5D002.a.3",
+        "heading": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+        "label": "5D002.a.3 – Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-01-06",
+      "fetchedAt": "2025-10-02T20:33:33.561Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-01-06/title-15?format=xml",
+      "heading": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "title": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "category": "5",
+      "group": "5D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "5D002 “Software” as follows (see List of Items Controlled).",
+        "5D002.a"
+      ],
+      "ancestors": [
+        "5D002",
+        "5D002.a"
+      ],
+      "text": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "structure": {
+        "identifier": "5D002.a.3",
+        "heading": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+        "label": "5D002.a.3 – Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-03-09",
+      "fetchedAt": "2025-10-02T20:33:33.960Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-03-09/title-15?format=xml",
+      "heading": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "title": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "category": "5",
+      "group": "5D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "5D002 “Software” as follows (see List of Items Controlled).",
+        "5D002.a"
+      ],
+      "ancestors": [
+        "5D002",
+        "5D002.a"
+      ],
+      "text": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "structure": {
+        "identifier": "5D002.a.3",
+        "heading": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+        "label": "5D002.a.3 – Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-06-17",
+      "fetchedAt": "2025-10-02T20:33:34.354Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-06-17/title-15?format=xml",
+      "heading": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "title": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "category": "5",
+      "group": "5D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "5D002 “Software” as follows (see List of Items Controlled).",
+        "5D002.a"
+      ],
+      "ancestors": [
+        "5D002",
+        "5D002.a"
+      ],
+      "text": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "structure": {
+        "identifier": "5D002.a.3",
+        "heading": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+        "label": "5D002.a.3 – Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-06-29",
+      "fetchedAt": "2025-10-02T20:33:34.750Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-06-29/title-15?format=xml",
+      "heading": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "title": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "category": "5",
+      "group": "5D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "5D002 “Software” as follows (see List of Items Controlled).",
+        "5D002.a"
+      ],
+      "ancestors": [
+        "5D002",
+        "5D002.a"
+      ],
+      "text": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "structure": {
+        "identifier": "5D002.a.3",
+        "heading": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+        "label": "5D002.a.3 – Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-09-11",
+      "fetchedAt": "2025-10-02T20:33:35.161Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-09-11/title-15?format=xml",
+      "heading": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "title": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "category": "5",
+      "group": "5D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "5D002 “Software” as Follows (see List of Items Controlled).",
+        "“Software” “specially designed” or modified for the “development,” “production” or “use” of any of the following:"
+      ],
+      "ancestors": [
+        "5D002",
+        "5D002.a"
+      ],
+      "text": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+      "structure": {
+        "identifier": "5D002.a.3",
+        "heading": "Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+        "label": "5D002.a.3 – Equipment specified by 5A004 or “software” specified by 5D002.c.3;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

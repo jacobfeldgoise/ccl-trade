@@ -1,0 +1,161 @@
+{
+  "eccn": "1C350.b.23",
+  "normalized": "1C350.B.23",
+  "history": [
+    {
+      "version": "2017-01-15",
+      "fetchedAt": "2025-10-02T20:33:28.357Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-15/title-15?format=xml",
+      "heading": "(C.A.S. #677-43-0) N,N-dimethylamino-phosphoryl dichloride;",
+      "title": "(C.A.S. #677-43-0) N,N-dimethylamino-phosphoryl dichloride;",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C350 Chemicals that may be used as precursors for toxic chemical agents (see List of Items Controlled).",
+        "CW applies to 1C350, 1C350.b, 1C350.c. The Commerce Country Chart is not designed to determine licensing requirements for items controlled for CW reasons. A license is required, for CW reasons, to export or reexport Schedule 2 chemicals and mixtures identified in 1C350.b to States not Party to the CWC (destinations not listed in Supplement No. 2 to part 745 of the EAR). A license is required, for CW reasons, to export Schedule 3 chemicals and mixtures identified in 1C350.c to States not Party to the CWC, unless an End-Use Certificate issued by the government of the importing country has been obtained by the exporter prior to export. A license is required, for CW reasons, to reexport Schedule 3 chemicals and mixtures identified in 1C350.c from a State not Party to the CWC to any other State not Party to the CWC. (See § 742.18 of the EAR for license requirements and policies for toxic and precursor chemicals controlled for CW reasons. See § 745.2 of the EAR for End-Use Certificate requirements that apply to exports of Schedule 3 chemicals to countries not listed in Supplement No. 2 to part 745 of the EAR.)"
+      ],
+      "ancestors": [
+        "1C350",
+        "1C350.b"
+      ],
+      "text": "(C.A.S. #677-43-0) N,N-dimethylamino-phosphoryl dichloride;",
+      "structure": {
+        "identifier": "1C350.b.23",
+        "heading": "(C.A.S. #677-43-0) N,N-dimethylamino-phosphoryl dichloride;",
+        "label": "1C350.b.23 – (C.A.S. #677-43-0) N,N-dimethylamino-phosphoryl dichloride;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-07-07",
+      "fetchedAt": "2025-10-02T20:33:28.904Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-07-07/title-15?format=xml",
+      "heading": "(C.A.S. #677-43-0) N,N-dimethylamino-phosphoryl dichloride;",
+      "title": "(C.A.S. #677-43-0) N,N-dimethylamino-phosphoryl dichloride;",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C350 Chemicals that may be used as precursors for toxic chemical agents (see List of Items Controlled).",
+        "CW applies to 1C350, 1C350.b, 1C350.c. The Commerce Country Chart is not designed to determine licensing requirements for items controlled for CW reasons. A license is required, for CW reasons, to export or reexport Schedule 2 chemicals and mixtures identified in 1C350.b to States not Party to the CWC (destinations not listed in Supplement No. 2 to part 745 of the EAR). A license is required, for CW reasons, to export Schedule 3 chemicals and mixtures identified in 1C350.c to States not Party to the CWC, unless an End-Use Certificate issued by the government of the importing country has been obtained by the exporter prior to export. A license is required, for CW reasons, to reexport Schedule 3 chemicals and mixtures identified in 1C350.c from a State not Party to the CWC to any other State not Party to the CWC. (See § 742.18 of the EAR for license requirements and policies for toxic and precursor chemicals controlled for CW reasons. See § 745.2 of the EAR for End-Use Certificate requirements that apply to exports of Schedule 3 chemicals to countries not listed in Supplement No. 2 to part 745 of the EAR.)"
+      ],
+      "ancestors": [
+        "1C350",
+        "1C350.b"
+      ],
+      "text": "(C.A.S. #677-43-0) N,N-dimethylamino-phosphoryl dichloride;",
+      "structure": {
+        "identifier": "1C350.b.23",
+        "heading": "(C.A.S. #677-43-0) N,N-dimethylamino-phosphoryl dichloride;",
+        "label": "1C350.b.23 – (C.A.S. #677-43-0) N,N-dimethylamino-phosphoryl dichloride;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-08-15",
+      "fetchedAt": "2025-10-02T20:33:29.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-08-15/title-15?format=xml",
+      "heading": "(C.A.S. #677-43-0) N,N-dimethylamino-phosphoryl dichloride;",
+      "title": "(C.A.S. #677-43-0) N,N-dimethylamino-phosphoryl dichloride;",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "1C350 Chemicals that may be used as precursors for toxic chemical agents (see List of Items Controlled).",
+        "CW applies to 1C350, 1C350.b, 1C350.c. The Commerce Country Chart is not designed to determine licensing requirements for items controlled for CW reasons. A license is required, for CW reasons, to export or reexport Schedule 2 chemicals and mixtures identified in 1C350.b to States not Party to the CWC (destinations not listed in Supplement No. 2 to part 745 of the EAR). A license is required, for CW reasons, to export Schedule 3 chemicals and mixtures identified in 1C350.c to States not Party to the CWC, unless an End-Use Certificate issued by the government of the importing country has been obtained by the exporter prior to export. A license is required, for CW reasons, to reexport Schedule 3 chemicals and mixtures identified in 1C350.c from a State not Party to the CWC to any other State not Party to the CWC. (See § 742.18 of the EAR for license requirements and policies for toxic and precursor chemicals controlled for CW reasons. See § 745.2 of the EAR for End-Use Certificate requirements that apply to exports of Schedule 3 chemicals to countries not listed in Supplement No. 2 to part 745 of the EAR.)"
+      ],
+      "ancestors": [
+        "1C350",
+        "1C350.b"
+      ],
+      "text": "(C.A.S. #677-43-0) N,N-dimethylamino-phosphoryl dichloride;",
+      "structure": {
+        "identifier": "1C350.b.23",
+        "heading": "(C.A.S. #677-43-0) N,N-dimethylamino-phosphoryl dichloride;",
+        "label": "1C350.b.23 – (C.A.S. #677-43-0) N,N-dimethylamino-phosphoryl dichloride;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-12-27",
+      "fetchedAt": "2025-10-02T20:33:29.759Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-12-27/title-15?format=xml",
+      "heading": "(C.A.S. #677-43-0) N,N-dimethylamino-phosphoryl dichloride;",
+      "title": "(C.A.S. #677-43-0) N,N-dimethylamino-phosphoryl dichloride;",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "1C350 Chemicals that may be used as precursors for toxic chemical agents (see List of Items Controlled).",
+        "CW applies to 1C350, 1C350.b, 1C350.c. The Commerce Country Chart is not designed to determine licensing requirements for items controlled for CW reasons. A license is required, for CW reasons, to export or reexport Schedule 2 chemicals and mixtures identified in 1C350.b to States not Party to the CWC (destinations not listed in Supplement No. 2 to part 745 of the EAR). A license is required, for CW reasons, to export Schedule 3 chemicals and mixtures identified in 1C350.c to States not Party to the CWC, unless an End-Use Certificate issued by the government of the importing country has been obtained by the exporter prior to export. A license is required, for CW reasons, to reexport Schedule 3 chemicals and mixtures identified in 1C350.c from a State not Party to the CWC to any other State not Party to the CWC. (See § 742.18 of the EAR for license requirements and policies for toxic and precursor chemicals controlled for CW reasons. See § 745.2 of the EAR for End-Use Certificate requirements that apply to exports of Schedule 3 chemicals to countries not listed in Supplement No. 2 to part 745 of the EAR.)"
+      ],
+      "ancestors": [
+        "1C350",
+        "1C350.b"
+      ],
+      "text": "(C.A.S. #677-43-0) N,N-dimethylamino-phosphoryl dichloride;",
+      "structure": {
+        "identifier": "1C350.b.23",
+        "heading": "(C.A.S. #677-43-0) N,N-dimethylamino-phosphoryl dichloride;",
+        "label": "1C350.b.23 – (C.A.S. #677-43-0) N,N-dimethylamino-phosphoryl dichloride;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-01-08",
+      "fetchedAt": "2025-10-02T20:33:30.194Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-01-08/title-15?format=xml",
+      "heading": "(C.A.S. #677-43-0) N,N-dimethylamino-phosphoryl dichloride;",
+      "title": "(C.A.S. #677-43-0) N,N-dimethylamino-phosphoryl dichloride;",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "1C350 Chemicals that may be used as precursors for toxic chemical agents (see List of Items Controlled).",
+        "CW applies to 1C350, 1C350.b, 1C350.c. The Commerce Country Chart is not designed to determine licensing requirements for items controlled for CW reasons. A license is required, for CW reasons, to export or reexport Schedule 2 chemicals and mixtures identified in 1C350.b to States not Party to the CWC (destinations not listed in Supplement No. 2 to part 745 of the EAR). A license is required, for CW reasons, to export Schedule 3 chemicals and mixtures identified in 1C350.c to States not Party to the CWC, unless an End-Use Certificate issued by the government of the importing country has been obtained by the exporter prior to export. A license is required, for CW reasons, to reexport Schedule 3 chemicals and mixtures identified in 1C350.c from a State not Party to the CWC to any other State not Party to the CWC. (See § 742.18 of the EAR for license requirements and policies for toxic and precursor chemicals controlled for CW reasons. See § 745.2 of the EAR for End-Use Certificate requirements that apply to exports of Schedule 3 chemicals to countries not listed in Supplement No. 2 to part 745 of the EAR.)"
+      ],
+      "ancestors": [
+        "1C350",
+        "1C350.b"
+      ],
+      "text": "(C.A.S. #677-43-0) N,N-dimethylamino-phosphoryl dichloride;",
+      "structure": {
+        "identifier": "1C350.b.23",
+        "heading": "(C.A.S. #677-43-0) N,N-dimethylamino-phosphoryl dichloride;",
+        "label": "1C350.b.23 – (C.A.S. #677-43-0) N,N-dimethylamino-phosphoryl dichloride;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

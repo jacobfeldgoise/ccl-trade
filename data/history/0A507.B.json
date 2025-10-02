@@ -1,0 +1,591 @@
+{
+  "eccn": "0A507.b",
+  "normalized": "0A507.B",
+  "history": [
+    {
+      "version": "2024-05-30",
+      "fetchedAt": "2025-10-02T20:33:46.051Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-05-30/title-15?format=xml",
+      "heading": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+      "title": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)",
+        "0A507 Semi-Automatic Pistols as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "0A507"
+      ],
+      "text": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.\nNote 1 to 0A507.a, 0A507.b: “Parts” and “components” that are “specially designed” for a commodity classified under .a or .b of this entry, except those controlled under ECCN 0A509, are controlled under ECCN 0A501.c, 0A501.d, 0A501.x, 0A501.y.\nTechnical Note to 0A507: Firearms described in 0A507 includes those chambered for the .50 BMG cartridge, including revolvers, or that may be developed to fire .50 BMG cartridges.",
+      "structure": {
+        "identifier": "0A507.b",
+        "heading": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+        "label": "0A507.b – Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1 to 0A507.a, 0A507.b:</I></HED>\n<P><I>“Parts” and “components” that are “specially designed” for a commodity classified under .a or .b of this entry, except those controlled under ECCN 0A509, are controlled under ECCN 0A501.c, 0A501.d, 0A501.x, 0A501.y.</I></P></NOTE>",
+            "text": "Note 1 to 0A507.a, 0A507.b: “Parts” and “components” that are “specially designed” for a commodity classified under .a or .b of this entry, except those controlled under ECCN 0A509, are controlled under ECCN 0A501.c, 0A501.d, 0A501.x, 0A501.y.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note to 0A507:</I></HED>\n<P><I>Firearms described in 0A507 includes those chambered for the .50 BMG cartridge, including revolvers, or that may be developed to fire .50 BMG cartridges.</I></P></NOTE>",
+            "text": "Technical Note to 0A507: Firearms described in 0A507 includes those chambered for the .50 BMG cartridge, including revolvers, or that may be developed to fire .50 BMG cartridges.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-06-12",
+      "fetchedAt": "2025-10-02T20:33:46.460Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-06-12/title-15?format=xml",
+      "heading": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+      "title": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)",
+        "0A507 Semi-Automatic Pistols as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "0A507"
+      ],
+      "text": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.\nNote 1 to 0A507.a, 0A507.b: “Parts” and “components” that are “specially designed” for a commodity classified under .a or .b of this entry, except those controlled under ECCN 0A509, are controlled under ECCN 0A501.c, 0A501.d, 0A501.x, 0A501.y.\nTechnical Note to 0A507: Firearms described in 0A507 includes those chambered for the .50 BMG cartridge, including revolvers, or that may be developed to fire .50 BMG cartridges.",
+      "structure": {
+        "identifier": "0A507.b",
+        "heading": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+        "label": "0A507.b – Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1 to 0A507.a, 0A507.b:</I></HED>\n<P><I>“Parts” and “components” that are “specially designed” for a commodity classified under .a or .b of this entry, except those controlled under ECCN 0A509, are controlled under ECCN 0A501.c, 0A501.d, 0A501.x, 0A501.y.</I></P></NOTE>",
+            "text": "Note 1 to 0A507.a, 0A507.b: “Parts” and “components” that are “specially designed” for a commodity classified under .a or .b of this entry, except those controlled under ECCN 0A509, are controlled under ECCN 0A501.c, 0A501.d, 0A501.x, 0A501.y.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note to 0A507:</I></HED>\n<P><I>Firearms described in 0A507 includes those chambered for the .50 BMG cartridge, including revolvers, or that may be developed to fire .50 BMG cartridges.</I></P></NOTE>",
+            "text": "Technical Note to 0A507: Firearms described in 0A507 includes those chambered for the .50 BMG cartridge, including revolvers, or that may be developed to fire .50 BMG cartridges.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-09-06",
+      "fetchedAt": "2025-10-02T20:33:46.879Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-09-06/title-15?format=xml",
+      "heading": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+      "title": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "0A507 Semi-Automatic Pistols as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "0A507"
+      ],
+      "text": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.\nNote 1 to 0A507.a, 0A507.b: “Parts” and “components” that are “specially designed” for a commodity classified under .a or .b of this entry, except those controlled under ECCN 0A509, are controlled under ECCN 0A501.c, 0A501.d, 0A501.x, 0A501.y.\nTechnical Note to 0A507: Firearms described in 0A507 includes those chambered for the .50 BMG cartridge, including revolvers, or that may be developed to fire .50 BMG cartridges.",
+      "structure": {
+        "identifier": "0A507.b",
+        "heading": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+        "label": "0A507.b – Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1 to 0A507.a, 0A507.b:</I></HED>\n<P><I>“Parts” and “components” that are “specially designed” for a commodity classified under .a or .b of this entry, except those controlled under ECCN 0A509, are controlled under ECCN 0A501.c, 0A501.d, 0A501.x, 0A501.y.</I></P></NOTE>",
+            "text": "Note 1 to 0A507.a, 0A507.b: “Parts” and “components” that are “specially designed” for a commodity classified under .a or .b of this entry, except those controlled under ECCN 0A509, are controlled under ECCN 0A501.c, 0A501.d, 0A501.x, 0A501.y.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note to 0A507:</I></HED>\n<P><I>Firearms described in 0A507 includes those chambered for the .50 BMG cartridge, including revolvers, or that may be developed to fire .50 BMG cartridges.</I></P></NOTE>",
+            "text": "Technical Note to 0A507: Firearms described in 0A507 includes those chambered for the .50 BMG cartridge, including revolvers, or that may be developed to fire .50 BMG cartridges.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-10-23",
+      "fetchedAt": "2025-10-02T20:33:47.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-10-23/title-15?format=xml",
+      "heading": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+      "title": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "0A507 Semi-Automatic Pistols as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "0A507"
+      ],
+      "text": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.\nNote 1 to 0A507.a, 0A507.b: “Parts” and “components” that are “specially designed” for a commodity classified under .a or .b of this entry, except those controlled under ECCN 0A509, are controlled under ECCN 0A501.c, 0A501.d, 0A501.x, 0A501.y.\nTechnical Note to 0A507: Firearms described in 0A507 includes those chambered for the .50 BMG cartridge, including revolvers, or that may be developed to fire .50 BMG cartridges.",
+      "structure": {
+        "identifier": "0A507.b",
+        "heading": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+        "label": "0A507.b – Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1 to 0A507.a, 0A507.b:</I></HED>\n<P><I>“Parts” and “components” that are “specially designed” for a commodity classified under .a or .b of this entry, except those controlled under ECCN 0A509, are controlled under ECCN 0A501.c, 0A501.d, 0A501.x, 0A501.y.</I></P></NOTE>",
+            "text": "Note 1 to 0A507.a, 0A507.b: “Parts” and “components” that are “specially designed” for a commodity classified under .a or .b of this entry, except those controlled under ECCN 0A509, are controlled under ECCN 0A501.c, 0A501.d, 0A501.x, 0A501.y.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note to 0A507:</I></HED>\n<P><I>Firearms described in 0A507 includes those chambered for the .50 BMG cartridge, including revolvers, or that may be developed to fire .50 BMG cartridges.</I></P></NOTE>",
+            "text": "Technical Note to 0A507: Firearms described in 0A507 includes those chambered for the .50 BMG cartridge, including revolvers, or that may be developed to fire .50 BMG cartridges.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-02",
+      "fetchedAt": "2025-10-02T20:33:47.757Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-02/title-15?format=xml",
+      "heading": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+      "title": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "0A507 Semi-Automatic Pistols as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "0A507"
+      ],
+      "text": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.\nNote 1 to 0A507.a, 0A507.b: “Parts” and “components” that are “specially designed” for a commodity classified under .a or .b of this entry, except those controlled under ECCN 0A509, are controlled under ECCN 0A501.c, 0A501.d, 0A501.x, 0A501.y.\nTechnical Note to 0A507: Firearms described in 0A507 includes those chambered for the .50 BMG cartridge, including revolvers, or that may be developed to fire .50 BMG cartridges.",
+      "structure": {
+        "identifier": "0A507.b",
+        "heading": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+        "label": "0A507.b – Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1 to 0A507.a, 0A507.b:</I></HED>\n<P><I>“Parts” and “components” that are “specially designed” for a commodity classified under .a or .b of this entry, except those controlled under ECCN 0A509, are controlled under ECCN 0A501.c, 0A501.d, 0A501.x, 0A501.y.</I></P></NOTE>",
+            "text": "Note 1 to 0A507.a, 0A507.b: “Parts” and “components” that are “specially designed” for a commodity classified under .a or .b of this entry, except those controlled under ECCN 0A509, are controlled under ECCN 0A501.c, 0A501.d, 0A501.x, 0A501.y.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note to 0A507:</I></HED>\n<P><I>Firearms described in 0A507 includes those chambered for the .50 BMG cartridge, including revolvers, or that may be developed to fire .50 BMG cartridges.</I></P></NOTE>",
+            "text": "Technical Note to 0A507: Firearms described in 0A507 includes those chambered for the .50 BMG cartridge, including revolvers, or that may be developed to fire .50 BMG cartridges.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+      "title": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "0A507 Semi-Automatic Pistols as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "0A507"
+      ],
+      "text": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.\nNote 1 to 0A507.a, 0A507.b: “Parts” and “components” that are “specially designed” for a commodity classified under .a or .b of this entry, except those controlled under ECCN 0A509, are controlled under ECCN 0A501.c, 0A501.d, 0A501.x, 0A501.y.\nTechnical Note to 0A507: Firearms described in 0A507 includes those chambered for the .50 BMG cartridge, including revolvers, or that may be developed to fire .50 BMG cartridges.",
+      "structure": {
+        "identifier": "0A507.b",
+        "heading": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+        "label": "0A507.b – Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1 to 0A507.a, 0A507.b:</I></HED>\n<P><I>“Parts” and “components” that are “specially designed” for a commodity classified under .a or .b of this entry, except those controlled under ECCN 0A509, are controlled under ECCN 0A501.c, 0A501.d, 0A501.x, 0A501.y.</I></P></NOTE>",
+            "text": "Note 1 to 0A507.a, 0A507.b: “Parts” and “components” that are “specially designed” for a commodity classified under .a or .b of this entry, except those controlled under ECCN 0A509, are controlled under ECCN 0A501.c, 0A501.d, 0A501.x, 0A501.y.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note to 0A507:</I></HED>\n<P><I>Firearms described in 0A507 includes those chambered for the .50 BMG cartridge, including revolvers, or that may be developed to fire .50 BMG cartridges.</I></P></NOTE>",
+            "text": "Technical Note to 0A507: Firearms described in 0A507 includes those chambered for the .50 BMG cartridge, including revolvers, or that may be developed to fire .50 BMG cartridges.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+      "title": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "0A507 Semi-Automatic Pistols as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "0A507"
+      ],
+      "text": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.\nNote 1 to 0A507.a, 0A507.b: “Parts” and “components” that are “specially designed” for a commodity classified under .a or .b of this entry, except those controlled under ECCN 0A509, are controlled under ECCN 0A501.c, 0A501.d, 0A501.x, 0A501.y.\nTechnical Note to 0A507: Firearms described in 0A507 includes those chambered for the .50 BMG cartridge, including revolvers, or that may be developed to fire .50 BMG cartridges.",
+      "structure": {
+        "identifier": "0A507.b",
+        "heading": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+        "label": "0A507.b – Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1 to 0A507.a, 0A507.b:</I></HED>\n<P><I>“Parts” and “components” that are “specially designed” for a commodity classified under .a or .b of this entry, except those controlled under ECCN 0A509, are controlled under ECCN 0A501.c, 0A501.d, 0A501.x, 0A501.y.</I></P></NOTE>",
+            "text": "Note 1 to 0A507.a, 0A507.b: “Parts” and “components” that are “specially designed” for a commodity classified under .a or .b of this entry, except those controlled under ECCN 0A509, are controlled under ECCN 0A501.c, 0A501.d, 0A501.x, 0A501.y.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note to 0A507:</I></HED>\n<P><I>Firearms described in 0A507 includes those chambered for the .50 BMG cartridge, including revolvers, or that may be developed to fire .50 BMG cartridges.</I></P></NOTE>",
+            "text": "Technical Note to 0A507: Firearms described in 0A507 includes those chambered for the .50 BMG cartridge, including revolvers, or that may be developed to fire .50 BMG cartridges.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+      "title": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "0A507 Semi-Automatic Pistols as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "0A507"
+      ],
+      "text": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.\nNote 1 to 0A507.a, 0A507.b: “Parts” and “components” that are “specially designed” for a commodity classified under .a or .b of this entry, except those controlled under ECCN 0A509, are controlled under ECCN 0A501.c, 0A501.d, 0A501.x, 0A501.y.\nTechnical Note to 0A507: Firearms described in 0A507 includes those chambered for the .50 BMG cartridge, including revolvers, or that may be developed to fire .50 BMG cartridges.",
+      "structure": {
+        "identifier": "0A507.b",
+        "heading": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+        "label": "0A507.b – Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1 to 0A507.a, 0A507.b:</I></HED>\n<P><I>“Parts” and “components” that are “specially designed” for a commodity classified under .a or .b of this entry, except those controlled under ECCN 0A509, are controlled under ECCN 0A501.c, 0A501.d, 0A501.x, 0A501.y.</I></P></NOTE>",
+            "text": "Note 1 to 0A507.a, 0A507.b: “Parts” and “components” that are “specially designed” for a commodity classified under .a or .b of this entry, except those controlled under ECCN 0A509, are controlled under ECCN 0A501.c, 0A501.d, 0A501.x, 0A501.y.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note to 0A507:</I></HED>\n<P><I>Firearms described in 0A507 includes those chambered for the .50 BMG cartridge, including revolvers, or that may be developed to fire .50 BMG cartridges.</I></P></NOTE>",
+            "text": "Technical Note to 0A507: Firearms described in 0A507 includes those chambered for the .50 BMG cartridge, including revolvers, or that may be developed to fire .50 BMG cartridges.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+      "title": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "0A507 Semi-Automatic Pistols as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "0A507"
+      ],
+      "text": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.\nNote 1 to 0A507.a, 0A507.b: “Parts” and “components” that are “specially designed” for a commodity classified under .a or .b of this entry, except those controlled under ECCN 0A509, are controlled under ECCN 0A501.c, 0A501.d, 0A501.x, 0A501.y.\nTechnical Note to 0A507: Firearms described in 0A507 includes those chambered for the .50 BMG cartridge, including revolvers, or that may be developed to fire .50 BMG cartridges.",
+      "structure": {
+        "identifier": "0A507.b",
+        "heading": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+        "label": "0A507.b – Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1 to 0A507.a, 0A507.b:</I></HED>\n<P><I>“Parts” and “components” that are “specially designed” for a commodity classified under .a or .b of this entry, except those controlled under ECCN 0A509, are controlled under ECCN 0A501.c, 0A501.d, 0A501.x, 0A501.y.</I></P></NOTE>",
+            "text": "Note 1 to 0A507.a, 0A507.b: “Parts” and “components” that are “specially designed” for a commodity classified under .a or .b of this entry, except those controlled under ECCN 0A509, are controlled under ECCN 0A501.c, 0A501.d, 0A501.x, 0A501.y.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note to 0A507:</I></HED>\n<P><I>Firearms described in 0A507 includes those chambered for the .50 BMG cartridge, including revolvers, or that may be developed to fire .50 BMG cartridges.</I></P></NOTE>",
+            "text": "Technical Note to 0A507: Firearms described in 0A507 includes those chambered for the .50 BMG cartridge, including revolvers, or that may be developed to fire .50 BMG cartridges.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+      "title": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "0A507 Semi-Automatic Pistols as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "0A507"
+      ],
+      "text": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.\nNote 1 to 0A507.a, 0A507.b: “Parts” and “components” that are “specially designed” for a commodity classified under .a or .b of this entry, except those controlled under ECCN 0A509, are controlled under ECCN 0A501.c, 0A501.d, 0A501.x, 0A501.y.\nTechnical Note to 0A507: Firearms described in 0A507 includes those chambered for the .50 BMG cartridge, including revolvers, or that may be developed to fire .50 BMG cartridges.",
+      "structure": {
+        "identifier": "0A507.b",
+        "heading": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+        "label": "0A507.b – Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1 to 0A507.a, 0A507.b:</I></HED>\n<P><I>“Parts” and “components” that are “specially designed” for a commodity classified under .a or .b of this entry, except those controlled under ECCN 0A509, are controlled under ECCN 0A501.c, 0A501.d, 0A501.x, 0A501.y.</I></P></NOTE>",
+            "text": "Note 1 to 0A507.a, 0A507.b: “Parts” and “components” that are “specially designed” for a commodity classified under .a or .b of this entry, except those controlled under ECCN 0A509, are controlled under ECCN 0A501.c, 0A501.d, 0A501.x, 0A501.y.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note to 0A507:</I></HED>\n<P><I>Firearms described in 0A507 includes those chambered for the .50 BMG cartridge, including revolvers, or that may be developed to fire .50 BMG cartridges.</I></P></NOTE>",
+            "text": "Technical Note to 0A507: Firearms described in 0A507 includes those chambered for the .50 BMG cartridge, including revolvers, or that may be developed to fire .50 BMG cartridges.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+      "title": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "0A507 Semi-Automatic Pistols as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "0A507"
+      ],
+      "text": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.\nNote 1 to 0A507.a, 0A507.b: “Parts” and “components” that are “specially designed” for a commodity classified under .a or .b of this entry, except those controlled under ECCN 0A509, are controlled under ECCN 0A501.c, 0A501.d, 0A501.x, 0A501.y.\nTechnical Note to 0A507: Firearms described in 0A507 includes those chambered for the .50 BMG cartridge, including revolvers, or that may be developed to fire .50 BMG cartridges.",
+      "structure": {
+        "identifier": "0A507.b",
+        "heading": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+        "label": "0A507.b – Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1 to 0A507.a, 0A507.b:</I></HED>\n<P><I>“Parts” and “components” that are “specially designed” for a commodity classified under .a or .b of this entry, except those controlled under ECCN 0A509, are controlled under ECCN 0A501.c, 0A501.d, 0A501.x, 0A501.y.</I></P></NOTE>",
+            "text": "Note 1 to 0A507.a, 0A507.b: “Parts” and “components” that are “specially designed” for a commodity classified under .a or .b of this entry, except those controlled under ECCN 0A509, are controlled under ECCN 0A501.c, 0A501.d, 0A501.x, 0A501.y.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note to 0A507:</I></HED>\n<P><I>Firearms described in 0A507 includes those chambered for the .50 BMG cartridge, including revolvers, or that may be developed to fire .50 BMG cartridges.</I></P></NOTE>",
+            "text": "Technical Note to 0A507: Firearms described in 0A507 includes those chambered for the .50 BMG cartridge, including revolvers, or that may be developed to fire .50 BMG cartridges.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+      "title": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "0A507 Semi-Automatic Pistols as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "0A507"
+      ],
+      "text": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.\nNote 1 to 0A507.a, 0A507.b: “Parts” and “components” that are “specially designed” for a commodity classified under .a or .b of this entry, except those controlled under ECCN 0A509, are controlled under ECCN 0A501.c, 0A501.d, 0A501.x, 0A501.y.\nTechnical Note to 0A507: Firearms described in 0A507 includes those chambered for the .50 BMG cartridge, including revolvers, or that may be developed to fire .50 BMG cartridges.",
+      "structure": {
+        "identifier": "0A507.b",
+        "heading": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+        "label": "0A507.b – Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1 to 0A507.a, 0A507.b:</I></HED>\n<P><I>“Parts” and “components” that are “specially designed” for a commodity classified under .a or .b of this entry, except those controlled under ECCN 0A509, are controlled under ECCN 0A501.c, 0A501.d, 0A501.x, 0A501.y.</I></P></NOTE>",
+            "text": "Note 1 to 0A507.a, 0A507.b: “Parts” and “components” that are “specially designed” for a commodity classified under .a or .b of this entry, except those controlled under ECCN 0A509, are controlled under ECCN 0A501.c, 0A501.d, 0A501.x, 0A501.y.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note to 0A507:</I></HED>\n<P><I>Firearms described in 0A507 includes those chambered for the .50 BMG cartridge, including revolvers, or that may be developed to fire .50 BMG cartridges.</I></P></NOTE>",
+            "text": "Technical Note to 0A507: Firearms described in 0A507 includes those chambered for the .50 BMG cartridge, including revolvers, or that may be developed to fire .50 BMG cartridges.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+      "title": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "0A507 Semi-Automatic Pistols as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "0A507"
+      ],
+      "text": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.\nNote 1 to 0A507.a, 0A507.b: “Parts” and “components” that are “specially designed” for a commodity classified under .a or .b of this entry, except those controlled under ECCN 0A509, are controlled under ECCN 0A501.c, 0A501.d, 0A501.x, 0A501.y.\nTechnical Note to 0A507: Firearms described in 0A507 includes those chambered for the .50 BMG cartridge, including revolvers, or that may be developed to fire .50 BMG cartridges.",
+      "structure": {
+        "identifier": "0A507.b",
+        "heading": "Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+        "label": "0A507.b – Semi-automatic rimfire pistols equal to .50 caliber (12.7 mm) or less.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1 to 0A507.a, 0A507.b:</I></HED>\n<P><I>“Parts” and “components” that are “specially designed” for a commodity classified under .a or .b of this entry, except those controlled under ECCN 0A509, are controlled under ECCN 0A501.c, 0A501.d, 0A501.x, 0A501.y.</I></P></NOTE>",
+            "text": "Note 1 to 0A507.a, 0A507.b: “Parts” and “components” that are “specially designed” for a commodity classified under .a or .b of this entry, except those controlled under ECCN 0A509, are controlled under ECCN 0A501.c, 0A501.d, 0A501.x, 0A501.y.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note to 0A507:</I></HED>\n<P><I>Firearms described in 0A507 includes those chambered for the .50 BMG cartridge, including revolvers, or that may be developed to fire .50 BMG cartridges.</I></P></NOTE>",
+            "text": "Technical Note to 0A507: Firearms described in 0A507 includes those chambered for the .50 BMG cartridge, including revolvers, or that may be developed to fire .50 BMG cartridges.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

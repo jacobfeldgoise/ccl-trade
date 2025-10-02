@@ -1,0 +1,132 @@
+{
+  "eccn": "3A090.a.3",
+  "normalized": "3A090.A.3",
+  "history": [
+    {
+      "version": "2023-01-17",
+      "fetchedAt": "2025-10-02T20:33:41.990Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-01-17/title-15?format=xml",
+      "heading": "One or more analog, multi-value, or multi-level 'primitive computational units' having a processing performance measured in TOPS multiplied by 8, aggregated over all computational units, of 4800 or more; or",
+      "title": "One or more analog, multi-value, or multi-level 'primitive computational units' having a processing performance measured in TOPS multiplied by 8, aggregated over all computational units, of 4800 or more; or",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3 - Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A090 Integrated circuits as follows (see List of Items Controlled).",
+        "Integrated circuits that have or are programmable to have an aggregate bidirectional transfer rate over all inputs and outputs of 600 Gbyte/s or more to or from integrated circuits other than volatile memories, and any of the following:"
+      ],
+      "ancestors": [
+        "3A090",
+        "3A090.a"
+      ],
+      "text": "One or more analog, multi-value, or multi-level 'primitive computational units' having a processing performance measured in TOPS multiplied by 8, aggregated over all computational units, of 4800 or more; or",
+      "structure": {
+        "identifier": "3A090.a.3",
+        "heading": "One or more analog, multi-value, or multi-level 'primitive computational units' having a processing performance measured in TOPS multiplied by 8, aggregated over all computational units, of 4800 or more; or",
+        "label": "3A090.a.3 – One or more analog, multi-value, or multi-level 'primitive computational units' having a processing performance measured in TOPS multiplied by 8, aggregated over all computational units, of 4800 or more; or",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-02-24",
+      "fetchedAt": "2025-10-02T20:33:42.390Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-02-24/title-15?format=xml",
+      "heading": "One or more analog, multi-value, or multi-level 'primitive computational units' having a processing performance measured in TOPS multiplied by 8, aggregated over all computational units, of 4800 or more; or",
+      "title": "One or more analog, multi-value, or multi-level 'primitive computational units' having a processing performance measured in TOPS multiplied by 8, aggregated over all computational units, of 4800 or more; or",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "3A090 Integrated circuits as follows (see List of Items Controlled).",
+        "Integrated circuits that have or are programmable to have an aggregate bidirectional transfer rate over all inputs and outputs of 600 Gbyte/s or more to or from integrated circuits other than volatile memories, and any of the following:"
+      ],
+      "ancestors": [
+        "3A090",
+        "3A090.a"
+      ],
+      "text": "One or more analog, multi-value, or multi-level 'primitive computational units' having a processing performance measured in TOPS multiplied by 8, aggregated over all computational units, of 4800 or more; or",
+      "structure": {
+        "identifier": "3A090.a.3",
+        "heading": "One or more analog, multi-value, or multi-level 'primitive computational units' having a processing performance measured in TOPS multiplied by 8, aggregated over all computational units, of 4800 or more; or",
+        "label": "3A090.a.3 – One or more analog, multi-value, or multi-level 'primitive computational units' having a processing performance measured in TOPS multiplied by 8, aggregated over all computational units, of 4800 or more; or",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-08-18",
+      "fetchedAt": "2025-10-02T20:33:42.783Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-08-18/title-15?format=xml",
+      "heading": "One or more analog, multi-value, or multi-level 'primitive computational units' having a processing performance measured in TOPS multiplied by 8, aggregated over all computational units, of 4800 or more; or",
+      "title": "One or more analog, multi-value, or multi-level 'primitive computational units' having a processing performance measured in TOPS multiplied by 8, aggregated over all computational units, of 4800 or more; or",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "3A090 Integrated circuits as follows (see List of Items Controlled).",
+        "Integrated circuits that have or are programmable to have an aggregate bidirectional transfer rate over all inputs and outputs of 600 Gbyte/s or more to or from integrated circuits other than volatile memories, and any of the following:"
+      ],
+      "ancestors": [
+        "3A090",
+        "3A090.a"
+      ],
+      "text": "One or more analog, multi-value, or multi-level 'primitive computational units' having a processing performance measured in TOPS multiplied by 8, aggregated over all computational units, of 4800 or more; or",
+      "structure": {
+        "identifier": "3A090.a.3",
+        "heading": "One or more analog, multi-value, or multi-level 'primitive computational units' having a processing performance measured in TOPS multiplied by 8, aggregated over all computational units, of 4800 or more; or",
+        "label": "3A090.a.3 – One or more analog, multi-value, or multi-level 'primitive computational units' having a processing performance measured in TOPS multiplied by 8, aggregated over all computational units, of 4800 or more; or",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-10-18",
+      "fetchedAt": "2025-10-02T20:33:43.173Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-10-18/title-15?format=xml",
+      "heading": "One or more analog, multi-value, or multi-level 'primitive computational units' having a processing performance measured in TOPS multiplied by 8, aggregated over all computational units, of 4800 or more; or",
+      "title": "One or more analog, multi-value, or multi-level 'primitive computational units' having a processing performance measured in TOPS multiplied by 8, aggregated over all computational units, of 4800 or more; or",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A090 Integrated circuits as follows (see List of Items Controlled).",
+        "Integrated circuits that have or are programmable to have an aggregate bidirectional transfer rate over all inputs and outputs of 600 Gbyte/s or more to or from integrated circuits other than volatile memories, and any of the following:"
+      ],
+      "ancestors": [
+        "3A090",
+        "3A090.a"
+      ],
+      "text": "One or more analog, multi-value, or multi-level 'primitive computational units' having a processing performance measured in TOPS multiplied by 8, aggregated over all computational units, of 4800 or more; or",
+      "structure": {
+        "identifier": "3A090.a.3",
+        "heading": "One or more analog, multi-value, or multi-level 'primitive computational units' having a processing performance measured in TOPS multiplied by 8, aggregated over all computational units, of 4800 or more; or",
+        "label": "3A090.a.3 – One or more analog, multi-value, or multi-level 'primitive computational units' having a processing performance measured in TOPS multiplied by 8, aggregated over all computational units, of 4800 or more; or",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

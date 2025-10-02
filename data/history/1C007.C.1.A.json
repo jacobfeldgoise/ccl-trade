@@ -1,0 +1,70 @@
+{
+  "eccn": "1C007.c.1.a",
+  "normalized": "1C007.C.1.A",
+  "history": [
+    {
+      "version": "2017-01-15",
+      "fetchedAt": "2025-10-02T20:33:28.357Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-15/title-15?format=xml",
+      "heading": "Si-N;",
+      "title": "Si-N;",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C007 Ceramic Powders, Non-”Composite” Ceramic Materials, Ceramic-”Matrix” “composite” Materials and Precursor Materials, as Follows (see List of Items Controlled).",
+        "Ceramic-ceramic “composite” materials with a glass or oxide-“matrix” and reinforced with fibers having all the following:",
+        "1 Made from any of the following materials:"
+      ],
+      "ancestors": [
+        "1C007.c",
+        "1C007.c.1"
+      ],
+      "text": "Si-N;",
+      "structure": {
+        "identifier": "1C007.c.1.a",
+        "heading": "Si-N;",
+        "label": "1C007.c.1.a – Si-N;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-07-07",
+      "fetchedAt": "2025-10-02T20:33:28.904Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-07-07/title-15?format=xml",
+      "heading": "Si-N;",
+      "title": "Si-N;",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C007 Ceramic Powders, Non-”Composite” Ceramic Materials, Ceramic-”Matrix” “composite” Materials and Precursor Materials, as Follows (see List of Items Controlled).",
+        "Ceramic-ceramic “composite” materials with a glass or oxide-“matrix” and reinforced with fibers having all the following:",
+        "1 Made from any of the following materials:"
+      ],
+      "ancestors": [
+        "1C007.c",
+        "1C007.c.1"
+      ],
+      "text": "Si-N;",
+      "structure": {
+        "identifier": "1C007.c.1.a",
+        "heading": "Si-N;",
+        "label": "1C007.c.1.a – Si-N;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,1297 @@
+{
+  "eccn": "7A105",
+  "normalized": "7A105",
+  "history": [
+    {
+      "version": "2017-01-15",
+      "fetchedAt": "2025-10-02T20:33:28.357Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-15/title-15?format=xml",
+      "heading": "7A105 Receiving equipment for Global Navigation Satellite Systems (GNSS) (e.g., GPS, GLONASS, or Galileo) designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+      "title": "Receiving equipment for Global Navigation Satellite Systems (GNSS) (e.g., GPS, GLONASS, or Galileo) designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+      "category": "7",
+      "group": "7A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "7A105 Receiving equipment for Global Navigation Satellite Systems (GNSS) (e.g., GPS, GLONASS, or Galileo) designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.\nLicense Requirements\nReason for Control:\nMT, AT\nControl(s) Country chart MT applies to entire entryMT Column 1 AT applies to entire entryAT Column 1\nControl(s)\nCountry chart\nMT applies to entire entry\nMT Column 1\nAT applies to entire entry\nAT Column 1\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\n(1) See also 7A005 and 7A994. (2) See Categories XI and XV of the U.S. Munitions List (22 CFR 121.1) for controls on similar equipment “specially designed” for defense articles.\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "7A105",
+        "heading": "7A105 Receiving equipment for Global Navigation Satellite Systems (GNSS) (e.g., GPS, GLONASS, or Galileo) designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+        "label": "7A105 – 7A105 Receiving equipment for Global Navigation Satellite Systems (GNSS) (e.g., GPS, GLONASS, or Galileo) designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "MT, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country chart\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">MT applies to entire entry (7A105)</TD><TD align=\"left\" class=\"gpotbl_cell\">MT Column 1\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (7A105)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1</TD></TR></TABLE>",
+            "text": "Control(s) Country chart MT applies to entire entryMT Column 1 AT applies to entire entryAT Column 1",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "MT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "MT Column 1"
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1"
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) See also 7A005 and 7A994. (2) See Categories XI and XV of the U.S. Munitions List (22 CFR 121.1) for controls on similar equipment “specially designed” for defense articles."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-07-07",
+      "fetchedAt": "2025-10-02T20:33:28.904Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-07-07/title-15?format=xml",
+      "heading": "7A105 Receiving equipment for Global Navigation Satellite Systems (GNSS) (e.g., GPS, GLONASS, or Galileo) designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+      "title": "Receiving equipment for Global Navigation Satellite Systems (GNSS) (e.g., GPS, GLONASS, or Galileo) designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+      "category": "7",
+      "group": "7A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "7A105 Receiving equipment for Global Navigation Satellite Systems (GNSS) (e.g., GPS, GLONASS, or Galileo) designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.\nLicense Requirements\nReason for Control:\nMT, AT\nControl(s) Country chart MT applies to entire entryMT Column 1 AT applies to entire entryAT Column 1\nControl(s)\nCountry chart\nMT applies to entire entry\nMT Column 1\nAT applies to entire entry\nAT Column 1\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\n(1) See also 7A005 and 7A994. (2) See Categories XI and XV of the U.S. Munitions List (22 CFR 121.1) for controls on similar equipment “specially designed” for defense articles.\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "7A105",
+        "heading": "7A105 Receiving equipment for Global Navigation Satellite Systems (GNSS) (e.g., GPS, GLONASS, or Galileo) designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+        "label": "7A105 – 7A105 Receiving equipment for Global Navigation Satellite Systems (GNSS) (e.g., GPS, GLONASS, or Galileo) designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "MT, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country chart\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">MT applies to entire entry (7A105)</TD><TD align=\"left\" class=\"gpotbl_cell\">MT Column 1\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (7A105)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1</TD></TR></TABLE>",
+            "text": "Control(s) Country chart MT applies to entire entryMT Column 1 AT applies to entire entryAT Column 1",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "MT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "MT Column 1"
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1"
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) See also 7A005 and 7A994. (2) See Categories XI and XV of the U.S. Munitions List (22 CFR 121.1) for controls on similar equipment “specially designed” for defense articles."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-08-15",
+      "fetchedAt": "2025-10-02T20:33:29.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-08-15/title-15?format=xml",
+      "heading": "7A105 Receiving equipment for Global Navigation Satellite Systems (GNSS) (e.g., GPS, GLONASS, or Galileo) designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+      "title": "Receiving equipment for Global Navigation Satellite Systems (GNSS) (e.g., GPS, GLONASS, or Galileo) designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+      "category": "7",
+      "group": "7A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "7A105 Receiving equipment for Global Navigation Satellite Systems (GNSS) (e.g., GPS, GLONASS, or Galileo) designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.\nLicense Requirements\nReason for Control:\nMT, AT\nControl(s) Country chart MT applies to entire entryMT Column 1 AT applies to entire entryAT Column 1\nControl(s)\nCountry chart\nMT applies to entire entry\nMT Column 1\nAT applies to entire entry\nAT Column 1\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\n(1) See also 7A005 and 7A994. (2) See Categories XI and XV of the U.S. Munitions List (22 CFR 121.1) for controls on similar equipment “specially designed” for defense articles.\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "7A105",
+        "heading": "7A105 Receiving equipment for Global Navigation Satellite Systems (GNSS) (e.g., GPS, GLONASS, or Galileo) designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+        "label": "7A105 – 7A105 Receiving equipment for Global Navigation Satellite Systems (GNSS) (e.g., GPS, GLONASS, or Galileo) designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "MT, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country chart\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">MT applies to entire entry (7A105)</TD><TD align=\"left\" class=\"gpotbl_cell\">MT Column 1\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (7A105)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1</TD></TR></TABLE>",
+            "text": "Control(s) Country chart MT applies to entire entryMT Column 1 AT applies to entire entryAT Column 1",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "MT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "MT Column 1"
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1"
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) See also 7A005 and 7A994. (2) See Categories XI and XV of the U.S. Munitions List (22 CFR 121.1) for controls on similar equipment “specially designed” for defense articles."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-12-27",
+      "fetchedAt": "2025-10-02T20:33:29.759Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-12-27/title-15?format=xml",
+      "heading": "7A105 Receiving equipment for Global Navigation Satellite Systems (GNSS) (e.g., GPS, GLONASS, or Galileo) designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+      "title": "Receiving equipment for Global Navigation Satellite Systems (GNSS) (e.g., GPS, GLONASS, or Galileo) designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+      "category": "7",
+      "group": "7A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "7A105 Receiving equipment for Global Navigation Satellite Systems (GNSS) (e.g., GPS, GLONASS, or Galileo) designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.\nLicense Requirements\nReason for Control:\nMT, AT\nControl(s) Country chart MT applies to entire entryMT Column 1 AT applies to entire entryAT Column 1\nControl(s)\nCountry chart\nMT applies to entire entry\nMT Column 1\nAT applies to entire entry\nAT Column 1\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\n(1) See also 7A005 and 7A994. (2) See Categories XI and XV of the U.S. Munitions List (22 CFR 121.1) for controls on similar equipment “specially designed” for defense articles.\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "7A105",
+        "heading": "7A105 Receiving equipment for Global Navigation Satellite Systems (GNSS) (e.g., GPS, GLONASS, or Galileo) designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+        "label": "7A105 – 7A105 Receiving equipment for Global Navigation Satellite Systems (GNSS) (e.g., GPS, GLONASS, or Galileo) designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "MT, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country chart\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">MT applies to entire entry (7A105)</TD><TD align=\"left\" class=\"gpotbl_cell\">MT Column 1\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (7A105)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1</TD></TR></TABLE>",
+            "text": "Control(s) Country chart MT applies to entire entryMT Column 1 AT applies to entire entryAT Column 1",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "MT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "MT Column 1"
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1"
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) See also 7A005 and 7A994. (2) See Categories XI and XV of the U.S. Munitions List (22 CFR 121.1) for controls on similar equipment “specially designed” for defense articles."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-01-08",
+      "fetchedAt": "2025-10-02T20:33:30.194Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-01-08/title-15?format=xml",
+      "heading": "7A105 Receiving equipment for Global Navigation Satellite Systems (GNSS) (e.g., GPS, GLONASS, or Galileo) designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+      "title": "Receiving equipment for Global Navigation Satellite Systems (GNSS) (e.g., GPS, GLONASS, or Galileo) designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+      "category": "7",
+      "group": "7A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "7A105 Receiving equipment for Global Navigation Satellite Systems (GNSS) (e.g., GPS, GLONASS, or Galileo) designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.\nLicense Requirements\nReason for Control:\nMT, AT\nControl(s) Country chart MT applies to entire entryMT Column 1 AT applies to entire entryAT Column 1\nControl(s)\nCountry chart\nMT applies to entire entry\nMT Column 1\nAT applies to entire entry\nAT Column 1\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\n(1) See also 7A005 and 7A994. (2) See Categories XI and XV of the U.S. Munitions List (22 CFR 121.1) for controls on similar equipment “specially designed” for defense articles.\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "7A105",
+        "heading": "7A105 Receiving equipment for Global Navigation Satellite Systems (GNSS) (e.g., GPS, GLONASS, or Galileo) designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+        "label": "7A105 – 7A105 Receiving equipment for Global Navigation Satellite Systems (GNSS) (e.g., GPS, GLONASS, or Galileo) designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "MT, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country chart\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">MT applies to entire entry (7A105)</TD><TD align=\"left\" class=\"gpotbl_cell\">MT Column 1\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (7A105)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1</TD></TR></TABLE>",
+            "text": "Control(s) Country chart MT applies to entire entryMT Column 1 AT applies to entire entryAT Column 1",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "MT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "MT Column 1"
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1"
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) See also 7A005 and 7A994. (2) See Categories XI and XV of the U.S. Munitions List (22 CFR 121.1) for controls on similar equipment “specially designed” for defense articles."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-04-02",
+      "fetchedAt": "2025-10-02T20:33:30.716Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-02/title-15?format=xml",
+      "heading": "7A105 Receiving equipment for Global Navigation Satellite Systems (GNSS) (e.g., GPS, GLONASS, or Galileo) designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+      "title": "Receiving equipment for Global Navigation Satellite Systems (GNSS) (e.g., GPS, GLONASS, or Galileo) designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+      "category": "7",
+      "group": "7A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "7A105 Receiving equipment for Global Navigation Satellite Systems (GNSS) (e.g., GPS, GLONASS, or Galileo) designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.\nLicense Requirements\nReason for Control:\nMT, AT\nControl(s) Country chart MT applies to entire entryMT Column 1 AT applies to entire entryAT Column 1\nControl(s)\nCountry chart\nMT applies to entire entry\nMT Column 1\nAT applies to entire entry\nAT Column 1\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\n(1) See also 7A005 and 7A994. (2) See Categories XI and XV of the U.S. Munitions List (22 CFR 121.1) for controls on similar equipment “specially designed” for defense articles.\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "7A105",
+        "heading": "7A105 Receiving equipment for Global Navigation Satellite Systems (GNSS) (e.g., GPS, GLONASS, or Galileo) designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+        "label": "7A105 – 7A105 Receiving equipment for Global Navigation Satellite Systems (GNSS) (e.g., GPS, GLONASS, or Galileo) designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "MT, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country chart\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">MT applies to entire entry (7A105)</TD><TD align=\"left\" class=\"gpotbl_cell\">MT Column 1\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (7A105)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1</TD></TR></TABLE>",
+            "text": "Control(s) Country chart MT applies to entire entryMT Column 1 AT applies to entire entryAT Column 1",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "MT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "MT Column 1"
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1"
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) See also 7A005 and 7A994. (2) See Categories XI and XV of the U.S. Munitions List (22 CFR 121.1) for controls on similar equipment “specially designed” for defense articles."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-04-05",
+      "fetchedAt": "2025-10-02T20:33:31.145Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-05/title-15?format=xml",
+      "heading": "7A105 Receiving equipment for Global Navigation Satellite Systems (GNSS) (e.g., GPS, GLONASS, or Galileo) designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+      "title": "Receiving equipment for Global Navigation Satellite Systems (GNSS) (e.g., GPS, GLONASS, or Galileo) designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+      "category": "7",
+      "group": "7A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "7A105 Receiving equipment for Global Navigation Satellite Systems (GNSS) (e.g., GPS, GLONASS, or Galileo) designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.\nLicense Requirements\nReason for Control:\nMT, AT\nControl(s) Country chart MT applies to entire entryMT Column 1 AT applies to entire entryAT Column 1\nControl(s)\nCountry chart\nMT applies to entire entry\nMT Column 1\nAT applies to entire entry\nAT Column 1\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\n(1) See also 7A005 and 7A994. (2) See Categories XI and XV of the U.S. Munitions List (22 CFR 121.1) for controls on similar equipment “specially designed” for defense articles.\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "7A105",
+        "heading": "7A105 Receiving equipment for Global Navigation Satellite Systems (GNSS) (e.g., GPS, GLONASS, or Galileo) designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+        "label": "7A105 – 7A105 Receiving equipment for Global Navigation Satellite Systems (GNSS) (e.g., GPS, GLONASS, or Galileo) designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "MT, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country chart\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">MT applies to entire entry (7A105)</TD><TD align=\"left\" class=\"gpotbl_cell\">MT Column 1\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (7A105)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1</TD></TR></TABLE>",
+            "text": "Control(s) Country chart MT applies to entire entryMT Column 1 AT applies to entire entryAT Column 1",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "MT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "MT Column 1"
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1"
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) See also 7A005 and 7A994. (2) See Categories XI and XV of the U.S. Munitions List (22 CFR 121.1) for controls on similar equipment “specially designed” for defense articles."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-08-30",
+      "fetchedAt": "2025-10-02T20:33:31.567Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-08-30/title-15?format=xml",
+      "heading": "7A105 Receiving equipment for 'navigation satellite systems' designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+      "title": "Receiving equipment for 'navigation satellite systems' designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+      "category": "7",
+      "group": "7A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "7A105 Receiving equipment for 'navigation satellite systems' designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.\nLicense Requirements\nReason for Control:\nMT, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entryMT Column 1 AT applies to entire entryAT Column 1\nControl(s)\nCountry chart\n(see Supp. No. 1 to part 738)\nMT applies to entire entry\nMT Column 1\nAT applies to entire entry\nAT Column 1\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\n(1) See also 7A005 and 7A994. (2) See Categories XI and XV of the U.S. Munitions List (22 CFR 121.1) for controls on similar equipment “specially designed” for defense articles.\nRelated Definitions:\n'Navigation satellite systems' include Global Navigation Satellite Systems (GNSS; e.g., GPS, GLONASS, Galileo or BeiDou) and Regional Navigation Satellite Systems (RNSS; e.g., NavIC, QZSS).\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "7A105",
+        "heading": "7A105 Receiving equipment for 'navigation satellite systems' designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+        "label": "7A105 – 7A105 Receiving equipment for 'navigation satellite systems' designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "MT, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country chart\n<br/>(see Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">MT applies to entire entry (7A105)</TD><TD align=\"left\" class=\"gpotbl_cell\">MT Column 1\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (7A105)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1</TD></TR></TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entryMT Column 1 AT applies to entire entryAT Column 1",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "MT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "MT Column 1"
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1"
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) See also 7A005 and 7A994. (2) See Categories XI and XV of the U.S. Munitions List (22 CFR 121.1) for controls on similar equipment “specially designed” for defense articles."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "'Navigation satellite systems' include Global Navigation Satellite Systems (GNSS; e.g., GPS, GLONASS, Galileo or BeiDou) and Regional Navigation Satellite Systems (RNSS; e.g., NavIC, QZSS)."
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>The list of items controlled is contained in the ECCN heading.</P>",
+            "text": "The list of items controlled is contained in the ECCN heading.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-10-24",
+      "fetchedAt": "2025-10-02T20:33:31.990Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-10-24/title-15?format=xml",
+      "heading": "7A105 Receiving equipment for 'navigation satellite systems' designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+      "title": "Receiving equipment for 'navigation satellite systems' designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+      "category": "7",
+      "group": "7A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "7A105 Receiving equipment for 'navigation satellite systems' designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.\nLicense Requirements\nReason for Control:\nMT, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entryMT Column 1 AT applies to entire entryAT Column 1\nControl(s)\nCountry chart\n(see Supp. No. 1 to part 738)\nMT applies to entire entry\nMT Column 1\nAT applies to entire entry\nAT Column 1\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\n(1) See also 7A005 and 7A994. (2) See Categories XI and XV of the U.S. Munitions List (22 CFR 121.1) for controls on similar equipment “specially designed” for defense articles.\nRelated Definitions:\n'Navigation satellite systems' include Global Navigation Satellite Systems (GNSS; e.g., GPS, GLONASS, Galileo or BeiDou) and Regional Navigation Satellite Systems (RNSS; e.g., NavIC, QZSS).\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "7A105",
+        "heading": "7A105 Receiving equipment for 'navigation satellite systems' designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+        "label": "7A105 – 7A105 Receiving equipment for 'navigation satellite systems' designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "MT, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country chart\n<br/>(see Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">MT applies to entire entry (7A105)</TD><TD align=\"left\" class=\"gpotbl_cell\">MT Column 1\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (7A105)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1</TD></TR></TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entryMT Column 1 AT applies to entire entryAT Column 1",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "MT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "MT Column 1"
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1"
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) See also 7A005 and 7A994. (2) See Categories XI and XV of the U.S. Munitions List (22 CFR 121.1) for controls on similar equipment “specially designed” for defense articles."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "'Navigation satellite systems' include Global Navigation Satellite Systems (GNSS; e.g., GPS, GLONASS, Galileo or BeiDou) and Regional Navigation Satellite Systems (RNSS; e.g., NavIC, QZSS)."
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>The list of items controlled is contained in the ECCN heading.</P>",
+            "text": "The list of items controlled is contained in the ECCN heading.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-11-02",
+      "fetchedAt": "2025-10-02T20:33:32.381Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-11-02/title-15?format=xml",
+      "heading": "7A105 Receiving equipment for 'navigation satellite systems' designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+      "title": "Receiving equipment for 'navigation satellite systems' designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+      "category": "7",
+      "group": "7A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "7A105 Receiving equipment for 'navigation satellite systems' designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.\nLicense Requirements\nReason for Control:\nMT, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entryMT Column 1 AT applies to entire entryAT Column 1\nControl(s)\nCountry chart\n(see Supp. No. 1 to part 738)\nMT applies to entire entry\nMT Column 1\nAT applies to entire entry\nAT Column 1\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\n(1) See also 7A005 and 7A994. (2) See Categories XI and XV of the U.S. Munitions List (22 CFR 121.1) for controls on similar equipment “specially designed” for defense articles.\nRelated Definitions:\n'Navigation satellite systems' include Global Navigation Satellite Systems (GNSS; e.g., GPS, GLONASS, Galileo or BeiDou) and Regional Navigation Satellite Systems (RNSS; e.g., NavIC, QZSS).\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "7A105",
+        "heading": "7A105 Receiving equipment for 'navigation satellite systems' designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+        "label": "7A105 – 7A105 Receiving equipment for 'navigation satellite systems' designed or modified for airborne applications and capable of providing navigation information at speeds in excess of 600 m/s (1,165 nautical mph), and “specially designed” “parts” and “components” therefor.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "MT, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country chart\n<br/>(see Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">MT applies to entire entry (7A105)</TD><TD align=\"left\" class=\"gpotbl_cell\">MT Column 1\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (7A105)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1</TD></TR></TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) MT applies to entire entryMT Column 1 AT applies to entire entryAT Column 1",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "MT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "MT Column 1"
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1"
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) See also 7A005 and 7A994. (2) See Categories XI and XV of the U.S. Munitions List (22 CFR 121.1) for controls on similar equipment “specially designed” for defense articles."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "'Navigation satellite systems' include Global Navigation Satellite Systems (GNSS; e.g., GPS, GLONASS, Galileo or BeiDou) and Regional Navigation Satellite Systems (RNSS; e.g., NavIC, QZSS)."
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>The list of items controlled is contained in the ECCN heading.</P>",
+            "text": "The list of items controlled is contained in the ECCN heading.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

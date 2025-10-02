@@ -1,0 +1,272 @@
+{
+  "eccn": "6A996.a",
+  "normalized": "6A996.A",
+  "history": [
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "“Magnetometers”, n.e.s., having a 'sensitivity' lower (better) than 1.0 nT (rms) per square root Hz.",
+      "title": "“Magnetometers”, n.e.s., having a 'sensitivity' lower (better) than 1.0 nT (rms) per square root Hz.",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A996 “Magnetometers” not controlled by ECCN 6A006, “Superconductive” electromagnetic sensors, and “specially designed” “components” therefor, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6A996"
+      ],
+      "text": "“Magnetometers”, n.e.s., having a 'sensitivity' lower (better) than 1.0 nT (rms) per square root Hz.\nTechnical Note: For the purposes of 6A996, 'sensitivity' (noise level) is the root mean square of the device-limited noise floor which is the lowest signal that can be measured.",
+      "structure": {
+        "identifier": "6A996.a",
+        "heading": "“Magnetometers”, n.e.s., having a 'sensitivity' lower (better) than 1.0 nT (rms) per square root Hz.",
+        "label": "6A996.a – “Magnetometers”, n.e.s., having a 'sensitivity' lower (better) than 1.0 nT (rms) per square root Hz.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED>\n</HED>\n<P><I>Technical Note:</I></P>\n<P><I>For the purposes of 6A996, 'sensitivity' (noise level) is the root mean square of the device-limited noise floor which is the lowest signal that can be measured.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 6A996, 'sensitivity' (noise level) is the root mean square of the device-limited noise floor which is the lowest signal that can be measured.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "“Magnetometers”, n.e.s., having a 'sensitivity' lower (better) than 1.0 nT (rms) per square root Hz.",
+      "title": "“Magnetometers”, n.e.s., having a 'sensitivity' lower (better) than 1.0 nT (rms) per square root Hz.",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A996 “Magnetometers” not controlled by ECCN 6A006, “Superconductive” electromagnetic sensors, and “specially designed” “components” therefor, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6A996"
+      ],
+      "text": "“Magnetometers”, n.e.s., having a 'sensitivity' lower (better) than 1.0 nT (rms) per square root Hz.\nTechnical Note: For the purposes of 6A996, 'sensitivity' (noise level) is the root mean square of the device-limited noise floor which is the lowest signal that can be measured.",
+      "structure": {
+        "identifier": "6A996.a",
+        "heading": "“Magnetometers”, n.e.s., having a 'sensitivity' lower (better) than 1.0 nT (rms) per square root Hz.",
+        "label": "6A996.a – “Magnetometers”, n.e.s., having a 'sensitivity' lower (better) than 1.0 nT (rms) per square root Hz.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED>\n</HED>\n<P><I>Technical Note:</I></P>\n<P><I>For the purposes of 6A996, 'sensitivity' (noise level) is the root mean square of the device-limited noise floor which is the lowest signal that can be measured.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 6A996, 'sensitivity' (noise level) is the root mean square of the device-limited noise floor which is the lowest signal that can be measured.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "“Magnetometers”, n.e.s., having a 'sensitivity' lower (better) than 1.0 nT (rms) per square root Hz.",
+      "title": "“Magnetometers”, n.e.s., having a 'sensitivity' lower (better) than 1.0 nT (rms) per square root Hz.",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A996 “Magnetometers” not controlled by ECCN 6A006, “Superconductive” electromagnetic sensors, and “specially designed” “components” therefor, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6A996"
+      ],
+      "text": "“Magnetometers”, n.e.s., having a 'sensitivity' lower (better) than 1.0 nT (rms) per square root Hz.\nTechnical Note: For the purposes of 6A996, 'sensitivity' (noise level) is the root mean square of the device-limited noise floor which is the lowest signal that can be measured.",
+      "structure": {
+        "identifier": "6A996.a",
+        "heading": "“Magnetometers”, n.e.s., having a 'sensitivity' lower (better) than 1.0 nT (rms) per square root Hz.",
+        "label": "6A996.a – “Magnetometers”, n.e.s., having a 'sensitivity' lower (better) than 1.0 nT (rms) per square root Hz.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED>\n</HED>\n<P><I>Technical Note:</I></P>\n<P><I>For the purposes of 6A996, 'sensitivity' (noise level) is the root mean square of the device-limited noise floor which is the lowest signal that can be measured.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 6A996, 'sensitivity' (noise level) is the root mean square of the device-limited noise floor which is the lowest signal that can be measured.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "“Magnetometers”, n.e.s., having a 'sensitivity' lower (better) than 1.0 nT (rms) per square root Hz.",
+      "title": "“Magnetometers”, n.e.s., having a 'sensitivity' lower (better) than 1.0 nT (rms) per square root Hz.",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A996 “Magnetometers” not controlled by ECCN 6A006, “Superconductive” electromagnetic sensors, and “specially designed” “components” therefor, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6A996"
+      ],
+      "text": "“Magnetometers”, n.e.s., having a 'sensitivity' lower (better) than 1.0 nT (rms) per square root Hz.\nTechnical Note: For the purposes of 6A996, 'sensitivity' (noise level) is the root mean square of the device-limited noise floor which is the lowest signal that can be measured.",
+      "structure": {
+        "identifier": "6A996.a",
+        "heading": "“Magnetometers”, n.e.s., having a 'sensitivity' lower (better) than 1.0 nT (rms) per square root Hz.",
+        "label": "6A996.a – “Magnetometers”, n.e.s., having a 'sensitivity' lower (better) than 1.0 nT (rms) per square root Hz.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED>\n</HED>\n<P><I>Technical Note:</I></P>\n<P><I>For the purposes of 6A996, 'sensitivity' (noise level) is the root mean square of the device-limited noise floor which is the lowest signal that can be measured.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 6A996, 'sensitivity' (noise level) is the root mean square of the device-limited noise floor which is the lowest signal that can be measured.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "“Magnetometers”, n.e.s., having a 'sensitivity' lower (better) than 1.0 nT (rms) per square root Hz.",
+      "title": "“Magnetometers”, n.e.s., having a 'sensitivity' lower (better) than 1.0 nT (rms) per square root Hz.",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A996 “Magnetometers” not controlled by ECCN 6A006, “Superconductive” electromagnetic sensors, and “specially designed” “components” therefor, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6A996"
+      ],
+      "text": "“Magnetometers”, n.e.s., having a 'sensitivity' lower (better) than 1.0 nT (rms) per square root Hz.\nTechnical Note: For the purposes of 6A996, 'sensitivity' (noise level) is the root mean square of the device-limited noise floor which is the lowest signal that can be measured.",
+      "structure": {
+        "identifier": "6A996.a",
+        "heading": "“Magnetometers”, n.e.s., having a 'sensitivity' lower (better) than 1.0 nT (rms) per square root Hz.",
+        "label": "6A996.a – “Magnetometers”, n.e.s., having a 'sensitivity' lower (better) than 1.0 nT (rms) per square root Hz.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED>\n</HED>\n<P><I>Technical Note:</I></P>\n<P><I>For the purposes of 6A996, 'sensitivity' (noise level) is the root mean square of the device-limited noise floor which is the lowest signal that can be measured.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 6A996, 'sensitivity' (noise level) is the root mean square of the device-limited noise floor which is the lowest signal that can be measured.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "“Magnetometers”, n.e.s., having a 'sensitivity' lower (better) than 1.0 nT (rms) per square root Hz.",
+      "title": "“Magnetometers”, n.e.s., having a 'sensitivity' lower (better) than 1.0 nT (rms) per square root Hz.",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A996 “Magnetometers” not controlled by ECCN 6A006, “Superconductive” electromagnetic sensors, and “specially designed” “components” therefor, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6A996"
+      ],
+      "text": "“Magnetometers”, n.e.s., having a 'sensitivity' lower (better) than 1.0 nT (rms) per square root Hz.\nTechnical Note: For the purposes of 6A996, 'sensitivity' (noise level) is the root mean square of the device-limited noise floor which is the lowest signal that can be measured.",
+      "structure": {
+        "identifier": "6A996.a",
+        "heading": "“Magnetometers”, n.e.s., having a 'sensitivity' lower (better) than 1.0 nT (rms) per square root Hz.",
+        "label": "6A996.a – “Magnetometers”, n.e.s., having a 'sensitivity' lower (better) than 1.0 nT (rms) per square root Hz.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED>\n</HED>\n<P><I>Technical Note:</I></P>\n<P><I>For the purposes of 6A996, 'sensitivity' (noise level) is the root mean square of the device-limited noise floor which is the lowest signal that can be measured.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 6A996, 'sensitivity' (noise level) is the root mean square of the device-limited noise floor which is the lowest signal that can be measured.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "“Magnetometers”, n.e.s., having a 'sensitivity' lower (better) than 1.0 nT (rms) per square root Hz.",
+      "title": "“Magnetometers”, n.e.s., having a 'sensitivity' lower (better) than 1.0 nT (rms) per square root Hz.",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A996 “Magnetometers” not controlled by ECCN 6A006, “Superconductive” electromagnetic sensors, and “specially designed” “components” therefor, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6A996"
+      ],
+      "text": "“Magnetometers”, n.e.s., having a 'sensitivity' lower (better) than 1.0 nT (rms) per square root Hz.\nTechnical Note: For the purposes of 6A996, 'sensitivity' (noise level) is the root mean square of the device-limited noise floor which is the lowest signal that can be measured.",
+      "structure": {
+        "identifier": "6A996.a",
+        "heading": "“Magnetometers”, n.e.s., having a 'sensitivity' lower (better) than 1.0 nT (rms) per square root Hz.",
+        "label": "6A996.a – “Magnetometers”, n.e.s., having a 'sensitivity' lower (better) than 1.0 nT (rms) per square root Hz.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED>\n</HED>\n<P><I>Technical Note:</I></P>\n<P><I>For the purposes of 6A996, 'sensitivity' (noise level) is the root mean square of the device-limited noise floor which is the lowest signal that can be measured.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 6A996, 'sensitivity' (noise level) is the root mean square of the device-limited noise floor which is the lowest signal that can be measured.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

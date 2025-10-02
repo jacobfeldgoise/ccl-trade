@@ -1,0 +1,3116 @@
+{
+  "eccn": "1A006",
+  "normalized": "1A006",
+  "history": [
+    {
+      "version": "2017-01-15",
+      "fetchedAt": "2025-10-02T20:33:28.357Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-15/title-15?format=xml",
+      "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "title": "Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "category": "1",
+      "group": "1A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components”and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.\nLicense Requirements\nReason for Control:\nNS, AT\nControl(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 2.\nAT applies to entire entry\nAT Column 1.\nLicense Requirement Note: 1A006 does not apply to equipment when accompanying its operator.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\nEquipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV).\nRelated Definitions:\n‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile.\nItems:\na. Remotely operated vehicles;\nb. ‘Disruptors’",
+      "structure": {
+        "identifier": "1A006",
+        "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "label": "1A006 – 1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 2.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 2."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>License Requirement Note:</I></HED>\n<P><I>1A006 does not apply to equipment when accompanying its operator.</I></P></NOTE>",
+            "text": "License Requirement Note: 1A006 does not apply to equipment when accompanying its operator.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "Equipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile."
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "a. Remotely operated vehicles;"
+          },
+          {
+            "type": "text",
+            "text": "b. ‘Disruptors’"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-07-07",
+      "fetchedAt": "2025-10-02T20:33:28.904Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-07-07/title-15?format=xml",
+      "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "title": "Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "category": "1",
+      "group": "1A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components”and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.\nLicense Requirements\nReason for Control:\nNS, AT\nControl(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 2.\nAT applies to entire entry\nAT Column 1.\nLicense Requirement Note: 1A006 does not apply to equipment when accompanying its operator.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\nEquipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV).\nRelated Definitions:\n‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile.\nItems:\na. Remotely operated vehicles;\nb. ‘Disruptors’",
+      "structure": {
+        "identifier": "1A006",
+        "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "label": "1A006 – 1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 2.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 2."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>License Requirement Note:</I></HED>\n<P><I>1A006 does not apply to equipment when accompanying its operator.</I></P></NOTE>",
+            "text": "License Requirement Note: 1A006 does not apply to equipment when accompanying its operator.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "Equipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile."
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "a. Remotely operated vehicles;"
+          },
+          {
+            "type": "text",
+            "text": "b. ‘Disruptors’"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-08-15",
+      "fetchedAt": "2025-10-02T20:33:29.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-08-15/title-15?format=xml",
+      "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "title": "Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "category": "1",
+      "group": "1A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled"
+      ],
+      "ancestors": [],
+      "text": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.\nLicense Requirements\nReason for Control:\nNS, AT\nControl(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 2.\nAT applies to entire entry\nAT Column 1.\nLicense Requirement Note: 1A006 does not apply to equipment when accompanying its operator.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\nEquipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV).\nRelated Definitions:\n‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile.\nItems:\na. Remotely operated vehicles;\nb. ‘Disruptors’",
+      "structure": {
+        "identifier": "1A006",
+        "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "label": "1A006 – 1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 2.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 2."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>License Requirement Note:</I></HED>\n<P><I>1A006 does not apply to equipment when accompanying its operator.</I></P></NOTE>",
+            "text": "License Requirement Note: 1A006 does not apply to equipment when accompanying its operator.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "Equipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile."
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "a. Remotely operated vehicles;"
+          },
+          {
+            "type": "text",
+            "text": "b. ‘Disruptors’"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-12-27",
+      "fetchedAt": "2025-10-02T20:33:29.759Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-12-27/title-15?format=xml",
+      "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "title": "Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "category": "1",
+      "group": "1A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled"
+      ],
+      "ancestors": [],
+      "text": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.\nLicense Requirements\nReason for Control:\nNS, AT\nControl(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 2.\nAT applies to entire entry\nAT Column 1.\nLicense Requirement Note: 1A006 does not apply to equipment when accompanying its operator.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\nEquipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV).\nRelated Definitions:\n‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile.\nItems:\na. Remotely operated vehicles;\nb. ‘Disruptors’",
+      "structure": {
+        "identifier": "1A006",
+        "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "label": "1A006 – 1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 2.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 2."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>License Requirement Note:</I></HED>\n<P><I>1A006 does not apply to equipment when accompanying its operator.</I></P></NOTE>",
+            "text": "License Requirement Note: 1A006 does not apply to equipment when accompanying its operator.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "Equipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile."
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "a. Remotely operated vehicles;"
+          },
+          {
+            "type": "text",
+            "text": "b. ‘Disruptors’"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-01-08",
+      "fetchedAt": "2025-10-02T20:33:30.194Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-01-08/title-15?format=xml",
+      "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "title": "Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "category": "1",
+      "group": "1A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled"
+      ],
+      "ancestors": [],
+      "text": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.\nLicense Requirements\nReason for Control:\nNS, AT\nControl(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 2.\nAT applies to entire entry\nAT Column 1.\nLicense Requirement Note: 1A006 does not apply to equipment when accompanying its operator.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\nEquipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV).\nRelated Definitions:\n‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile.\nItems:\na. Remotely operated vehicles;\nb. ‘Disruptors’",
+      "structure": {
+        "identifier": "1A006",
+        "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "label": "1A006 – 1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 2.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 2."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>License Requirement Note:</I></HED>\n<P><I>1A006 does not apply to equipment when accompanying its operator.</I></P></NOTE>",
+            "text": "License Requirement Note: 1A006 does not apply to equipment when accompanying its operator.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "Equipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile."
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "a. Remotely operated vehicles;"
+          },
+          {
+            "type": "text",
+            "text": "b. ‘Disruptors’"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-04-02",
+      "fetchedAt": "2025-10-02T20:33:30.716Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-02/title-15?format=xml",
+      "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "title": "Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "category": "1",
+      "group": "1A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled"
+      ],
+      "ancestors": [],
+      "text": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.\nLicense Requirements\nReason for Control:\nNS, AT\nControl(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 2.\nAT applies to entire entry\nAT Column 1.\nLicense Requirement Note: 1A006 does not apply to equipment when accompanying its operator.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\nEquipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV).\nRelated Definitions:\n‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile.\nItems:\na. Remotely operated vehicles;\nb. ‘Disruptors’",
+      "structure": {
+        "identifier": "1A006",
+        "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "label": "1A006 – 1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 2.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 2."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>License Requirement Note:</I></HED>\n<P><I>1A006 does not apply to equipment when accompanying its operator.</I></P></NOTE>",
+            "text": "License Requirement Note: 1A006 does not apply to equipment when accompanying its operator.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "Equipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile."
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "a. Remotely operated vehicles;"
+          },
+          {
+            "type": "text",
+            "text": "b. ‘Disruptors’"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-04-05",
+      "fetchedAt": "2025-10-02T20:33:31.145Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-05/title-15?format=xml",
+      "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "title": "Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "category": "1",
+      "group": "1A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled"
+      ],
+      "ancestors": [],
+      "text": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.\nLicense Requirements\nReason for Control:\nNS, AT\nControl(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 2.\nAT applies to entire entry\nAT Column 1.\nLicense Requirement Note: 1A006 does not apply to equipment when accompanying its operator.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\nEquipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV).\nRelated Definitions:\n‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile.\nItems:\na. Remotely operated vehicles;\nb. ‘Disruptors’",
+      "structure": {
+        "identifier": "1A006",
+        "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "label": "1A006 – 1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 2.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 2."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>License Requirement Note:</I></HED>\n<P><I>1A006 does not apply to equipment when accompanying its operator.</I></P></NOTE>",
+            "text": "License Requirement Note: 1A006 does not apply to equipment when accompanying its operator.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "Equipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile."
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "a. Remotely operated vehicles;"
+          },
+          {
+            "type": "text",
+            "text": "b. ‘Disruptors’"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-08-30",
+      "fetchedAt": "2025-10-02T20:33:31.567Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-08-30/title-15?format=xml",
+      "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "title": "Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "category": "1",
+      "group": "1A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled"
+      ],
+      "ancestors": [],
+      "text": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.\nLicense Requirements\nReason for Control:\nNS, AT\nControl(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 2.\nAT applies to entire entry\nAT Column 1.\nLicense Requirement Note: 1A006 does not apply to equipment when accompanying its operator.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\nEquipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV).\nRelated Definitions:\n‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile.\nItems:\na. Remotely operated vehicles;\nb. ‘Disruptors’",
+      "structure": {
+        "identifier": "1A006",
+        "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "label": "1A006 – 1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 2.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 2."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>License Requirement Note:</I></HED>\n<P><I>1A006 does not apply to equipment when accompanying its operator.</I></P></NOTE>",
+            "text": "License Requirement Note: 1A006 does not apply to equipment when accompanying its operator.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "Equipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile."
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "a. Remotely operated vehicles;"
+          },
+          {
+            "type": "text",
+            "text": "b. ‘Disruptors’"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-10-24",
+      "fetchedAt": "2025-10-02T20:33:31.990Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-10-24/title-15?format=xml",
+      "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "title": "Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "category": "1",
+      "group": "1A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled"
+      ],
+      "ancestors": [],
+      "text": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.\nLicense Requirements\nReason for Control:\nNS, AT\nControl(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 2.\nAT applies to entire entry\nAT Column 1.\nLicense Requirement Note: 1A006 does not apply to equipment when accompanying its operator.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\nEquipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV).\nRelated Definitions:\n‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile.\nItems:\na. Remotely operated vehicles;\nb. ‘Disruptors’",
+      "structure": {
+        "identifier": "1A006",
+        "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "label": "1A006 – 1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 2.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 2."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>License Requirement Note:</I></HED>\n<P><I>1A006 does not apply to equipment when accompanying its operator.</I></P></NOTE>",
+            "text": "License Requirement Note: 1A006 does not apply to equipment when accompanying its operator.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "Equipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile."
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "a. Remotely operated vehicles;"
+          },
+          {
+            "type": "text",
+            "text": "b. ‘Disruptors’"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-11-02",
+      "fetchedAt": "2025-10-02T20:33:32.381Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-11-02/title-15?format=xml",
+      "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "title": "Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "category": "1",
+      "group": "1A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled"
+      ],
+      "ancestors": [],
+      "text": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.\nLicense Requirements\nReason for Control:\nNS, AT\nControl(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 2.\nAT applies to entire entry\nAT Column 1.\nLicense Requirement Note: 1A006 does not apply to equipment when accompanying its operator.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\nEquipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV).\nRelated Definitions:\n‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile.\nItems:\na. Remotely operated vehicles;\nb. ‘Disruptors’",
+      "structure": {
+        "identifier": "1A006",
+        "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "label": "1A006 – 1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 2.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 2."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>License Requirement Note:</I></HED>\n<P><I>1A006 does not apply to equipment when accompanying its operator.</I></P></NOTE>",
+            "text": "License Requirement Note: 1A006 does not apply to equipment when accompanying its operator.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "Equipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile."
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "a. Remotely operated vehicles;"
+          },
+          {
+            "type": "text",
+            "text": "b. ‘Disruptors’"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-12-20",
+      "fetchedAt": "2025-10-02T20:33:32.762Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-12-20/title-15?format=xml",
+      "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "title": "Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "category": "1",
+      "group": "1A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled"
+      ],
+      "ancestors": [],
+      "text": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.\nLicense Requirements\nReason for Control:\nNS, AT\nControl(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 2.\nAT applies to entire entry\nAT Column 1.\nLicense Requirement Note: 1A006 does not apply to equipment when accompanying its operator.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\nEquipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV).\nRelated Definitions:\n‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile.\nItems:\na. Remotely operated vehicles;\nb. ‘Disruptors’",
+      "structure": {
+        "identifier": "1A006",
+        "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "label": "1A006 – 1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 2.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 2."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>License Requirement Note:</I></HED>\n<P><I>1A006 does not apply to equipment when accompanying its operator.</I></P></NOTE>",
+            "text": "License Requirement Note: 1A006 does not apply to equipment when accompanying its operator.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "Equipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile."
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "a. Remotely operated vehicles;"
+          },
+          {
+            "type": "text",
+            "text": "b. ‘Disruptors’"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2019-05-23",
+      "fetchedAt": "2025-10-02T20:33:33.148Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2019-05-23/title-15?format=xml",
+      "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "title": "Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "category": "1",
+      "group": "1A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled"
+      ],
+      "ancestors": [],
+      "text": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.\nLicense Requirements\nReason for Control:\nNS, AT\nControl(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 2.\nAT applies to entire entry\nAT Column 1.\nLicense Requirement Note: 1A006 does not apply to equipment when accompanying its operator.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\nEquipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV).\nRelated Definitions:\n‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile.\nItems:\na. Remotely operated vehicles;\nb. ‘Disruptors’",
+      "structure": {
+        "identifier": "1A006",
+        "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "label": "1A006 – 1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 2.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 2."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>License Requirement Note:</I></HED>\n<P><I>1A006 does not apply to equipment when accompanying its operator.</I></P></NOTE>",
+            "text": "License Requirement Note: 1A006 does not apply to equipment when accompanying its operator.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "Equipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile."
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "a. Remotely operated vehicles;"
+          },
+          {
+            "type": "text",
+            "text": "b. ‘Disruptors’"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-01-06",
+      "fetchedAt": "2025-10-02T20:33:33.561Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-01-06/title-15?format=xml",
+      "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "title": "Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "category": "1",
+      "group": "1A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled"
+      ],
+      "ancestors": [],
+      "text": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.\nLicense Requirements\nReason for Control:\nNS, AT\nControl(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 2.\nAT applies to entire entry\nAT Column 1.\nLicense Requirement Note: 1A006 does not apply to equipment when accompanying its operator.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\nEquipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV).\nRelated Definitions:\n‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile.\nItems:\na. Remotely operated vehicles;\nb. ‘Disruptors’",
+      "structure": {
+        "identifier": "1A006",
+        "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "label": "1A006 – 1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 2.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 2."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>License Requirement Note:</I></HED>\n<P><I>1A006 does not apply to equipment when accompanying its operator.</I></P></NOTE>",
+            "text": "License Requirement Note: 1A006 does not apply to equipment when accompanying its operator.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "Equipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile."
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "a. Remotely operated vehicles;"
+          },
+          {
+            "type": "text",
+            "text": "b. ‘Disruptors’"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-03-09",
+      "fetchedAt": "2025-10-02T20:33:33.960Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-03-09/title-15?format=xml",
+      "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "title": "Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "category": "1",
+      "group": "1A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled"
+      ],
+      "ancestors": [],
+      "text": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.\nLicense Requirements\nReason for Control:\nNS, AT\nControl(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 2.\nAT applies to entire entry\nAT Column 1.\nLicense Requirement Note: 1A006 does not apply to equipment when accompanying its operator.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\nEquipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV).\nRelated Definitions:\n‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile.\nItems:\na. Remotely operated vehicles;\nb. ‘Disruptors’",
+      "structure": {
+        "identifier": "1A006",
+        "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "label": "1A006 – 1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 2.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 2."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>License Requirement Note:</I></HED>\n<P><I>1A006 does not apply to equipment when accompanying its operator.</I></P></NOTE>",
+            "text": "License Requirement Note: 1A006 does not apply to equipment when accompanying its operator.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "Equipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile."
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "a. Remotely operated vehicles;"
+          },
+          {
+            "type": "text",
+            "text": "b. ‘Disruptors’"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-06-17",
+      "fetchedAt": "2025-10-02T20:33:34.354Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-06-17/title-15?format=xml",
+      "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "title": "Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "category": "1",
+      "group": "1A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled"
+      ],
+      "ancestors": [],
+      "text": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.\nLicense Requirements\nReason for Control:\nNS, AT\nControl(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 2.\nAT applies to entire entry\nAT Column 1.\nLicense Requirement Note: 1A006 does not apply to equipment when accompanying its operator.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\nEquipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV).\nRelated Definitions:\n‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile.\nItems:\na. Remotely operated vehicles;\nb. ‘Disruptors’",
+      "structure": {
+        "identifier": "1A006",
+        "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "label": "1A006 – 1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 2.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 2."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>License Requirement Note:</I></HED>\n<P><I>1A006 does not apply to equipment when accompanying its operator.</I></P></NOTE>",
+            "text": "License Requirement Note: 1A006 does not apply to equipment when accompanying its operator.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "Equipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile."
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "a. Remotely operated vehicles;"
+          },
+          {
+            "type": "text",
+            "text": "b. ‘Disruptors’"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-06-29",
+      "fetchedAt": "2025-10-02T20:33:34.750Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-06-29/title-15?format=xml",
+      "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "title": "Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "category": "1",
+      "group": "1A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled"
+      ],
+      "ancestors": [],
+      "text": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.\nLicense Requirements\nReason for Control:\nNS, AT\nControl(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 2.\nAT applies to entire entry\nAT Column 1.\nLicense Requirement Note: 1A006 does not apply to equipment when accompanying its operator.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\nEquipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV).\nRelated Definitions:\n‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile.\nItems:\na. Remotely operated vehicles;\nb. ‘Disruptors’",
+      "structure": {
+        "identifier": "1A006",
+        "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "label": "1A006 – 1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 2.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 2."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>License Requirement Note:</I></HED>\n<P><I>1A006 does not apply to equipment when accompanying its operator.</I></P></NOTE>",
+            "text": "License Requirement Note: 1A006 does not apply to equipment when accompanying its operator.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "Equipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile."
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "a. Remotely operated vehicles;"
+          },
+          {
+            "type": "text",
+            "text": "b. ‘Disruptors’"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-09-11",
+      "fetchedAt": "2025-10-02T20:33:35.161Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-09-11/title-15?format=xml",
+      "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "title": "Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "category": "1",
+      "group": "1A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components”and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.\nLicense Requirements\nReason for Control:\nNS, AT\nControl(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 2.\nAT applies to entire entry\nAT Column 1.\nLicense Requirement Note: 1A006 does not apply to equipment when accompanying its operator.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\nEquipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV).\nRelated Definitions:\n‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile.\nItems:\na. Remotely operated vehicles;\nb. ‘Disruptors’",
+      "structure": {
+        "identifier": "1A006",
+        "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "label": "1A006 – 1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 2.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 2."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>License Requirement Note:</I></HED>\n<P><I>1A006 does not apply to equipment when accompanying its operator.</I></P></NOTE>",
+            "text": "License Requirement Note: 1A006 does not apply to equipment when accompanying its operator.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "Equipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile."
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "a. Remotely operated vehicles;"
+          },
+          {
+            "type": "text",
+            "text": "b. ‘Disruptors’"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-10-05",
+      "fetchedAt": "2025-10-02T20:33:35.641Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-10-05/title-15?format=xml",
+      "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "title": "Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "category": "1",
+      "group": "1A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components”and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.\nLicense Requirements\nReason for Control:\nNS, AT\nControl(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 2.\nAT applies to entire entry\nAT Column 1.\nLicense Requirement Note: 1A006 does not apply to equipment when accompanying its operator.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\nEquipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV).\nRelated Definitions:\n‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile.\nItems:\na. Remotely operated vehicles;\nb. ‘Disruptors’",
+      "structure": {
+        "identifier": "1A006",
+        "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "label": "1A006 – 1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 2.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 2."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>License Requirement Note:</I></HED>\n<P><I>1A006 does not apply to equipment when accompanying its operator.</I></P></NOTE>",
+            "text": "License Requirement Note: 1A006 does not apply to equipment when accompanying its operator.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "Equipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile."
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "a. Remotely operated vehicles;"
+          },
+          {
+            "type": "text",
+            "text": "b. ‘Disruptors’"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-10-06",
+      "fetchedAt": "2025-10-02T20:33:36.026Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-10-06/title-15?format=xml",
+      "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "title": "Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "category": "1",
+      "group": "1A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components”and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.\nLicense Requirements\nReason for Control:\nNS, AT\nControl(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 2.\nAT applies to entire entry\nAT Column 1.\nLicense Requirement Note: 1A006 does not apply to equipment when accompanying its operator.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\nEquipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV).\nRelated Definitions:\n‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile.\nItems:\na. Remotely operated vehicles;\nb. ‘Disruptors’",
+      "structure": {
+        "identifier": "1A006",
+        "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "label": "1A006 – 1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 2.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 2."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>License Requirement Note:</I></HED>\n<P><I>1A006 does not apply to equipment when accompanying its operator.</I></P></NOTE>",
+            "text": "License Requirement Note: 1A006 does not apply to equipment when accompanying its operator.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "Equipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile."
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "a. Remotely operated vehicles;"
+          },
+          {
+            "type": "text",
+            "text": "b. ‘Disruptors’"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-12-04",
+      "fetchedAt": "2025-10-02T20:33:36.431Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-12-04/title-15?format=xml",
+      "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "title": "Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "category": "1",
+      "group": "1A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components”and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.\nLicense Requirements\nReason for Control:\nNS, AT\nControl(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 2.\nAT applies to entire entry\nAT Column 1.\nLicense Requirement Note: 1A006 does not apply to equipment when accompanying its operator.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\nEquipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV).\nRelated Definitions:\n‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile.\nItems:\na. Remotely operated vehicles;\nb. ‘Disruptors’",
+      "structure": {
+        "identifier": "1A006",
+        "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "label": "1A006 – 1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 2.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 2."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>License Requirement Note:</I></HED>\n<P><I>1A006 does not apply to equipment when accompanying its operator.</I></P></NOTE>",
+            "text": "License Requirement Note: 1A006 does not apply to equipment when accompanying its operator.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "Equipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile."
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "a. Remotely operated vehicles;"
+          },
+          {
+            "type": "text",
+            "text": "b. ‘Disruptors’"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2021-01-06",
+      "fetchedAt": "2025-10-02T20:33:36.829Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2021-01-06/title-15?format=xml",
+      "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "title": "Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "category": "1",
+      "group": "1A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components”and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.\nLicense Requirements\nReason for Control:\nNS, AT\nControl(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 2.\nAT applies to entire entry\nAT Column 1.\nLicense Requirement Note: 1A006 does not apply to equipment when accompanying its operator.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\nEquipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV).\nRelated Definitions:\n‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile.\nItems:\na. Remotely operated vehicles;\nb. ‘Disruptors’",
+      "structure": {
+        "identifier": "1A006",
+        "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "label": "1A006 – 1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 2.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 2."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>License Requirement Note:</I></HED>\n<P><I>1A006 does not apply to equipment when accompanying its operator.</I></P></NOTE>",
+            "text": "License Requirement Note: 1A006 does not apply to equipment when accompanying its operator.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "Equipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile."
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "a. Remotely operated vehicles;"
+          },
+          {
+            "type": "text",
+            "text": "b. ‘Disruptors’"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2021-01-07",
+      "fetchedAt": "2025-10-02T20:33:37.217Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2021-01-07/title-15?format=xml",
+      "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "title": "Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "category": "1",
+      "group": "1A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components”and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.\nLicense Requirements\nReason for Control:\nNS, AT\nControl(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 2.\nAT applies to entire entry\nAT Column 1.\nLicense Requirement Note: 1A006 does not apply to equipment when accompanying its operator.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\nEquipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV).\nRelated Definitions:\n‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile.\nItems:\na. Remotely operated vehicles;\nb. ‘Disruptors’",
+      "structure": {
+        "identifier": "1A006",
+        "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "label": "1A006 – 1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 2.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 2."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>License Requirement Note:</I></HED>\n<P><I>1A006 does not apply to equipment when accompanying its operator.</I></P></NOTE>",
+            "text": "License Requirement Note: 1A006 does not apply to equipment when accompanying its operator.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "Equipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile."
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "a. Remotely operated vehicles;"
+          },
+          {
+            "type": "text",
+            "text": "b. ‘Disruptors’"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2021-01-14",
+      "fetchedAt": "2025-10-02T20:33:37.609Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2021-01-14/title-15?format=xml",
+      "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "title": "Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+      "category": "1",
+      "group": "1A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components”and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.\nLicense Requirements\nReason for Control:\nNS, AT\nControl(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 2.\nAT applies to entire entry\nAT Column 1.\nLicense Requirement Note: 1A006 does not apply to equipment when accompanying its operator.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\nEquipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV).\nRelated Definitions:\n‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile.\nItems:\na. Remotely operated vehicles;\nb. ‘Disruptors’",
+      "structure": {
+        "identifier": "1A006",
+        "heading": "1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "label": "1A006 – 1A006 Equipment, “specially designed” or modified for the disposal of improvised explosive devices, as follows (see List of Items Controlled), and “specially designed” “components” and “accessories” therefor.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">NS applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">NS Column 2.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">AT applies to entire entry (1A006)</TD><TD align=\"left\" class=\"gpotbl_cell\">AT Column 1.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) NS applies to entire entryNS Column 2. AT applies to entire entryAT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 2."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>License Requirement Note:</I></HED>\n<P><I>1A006 does not apply to equipment when accompanying its operator.</I></P></NOTE>",
+            "text": "License Requirement Note: 1A006 does not apply to equipment when accompanying its operator.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "Equipment “specially designed” for military use for the disposal of improvised explosive devices is “subject to the ITAR” (see 22 CFR parts 120 through 130, including USML Category IV)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "‘Disruptors’ - Devices “specially designed” for the purpose of preventing the operation of an explosive device by projecting a liquid, solid or frangible projectile."
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "a. Remotely operated vehicles;"
+          },
+          {
+            "type": "text",
+            "text": "b. ‘Disruptors’"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

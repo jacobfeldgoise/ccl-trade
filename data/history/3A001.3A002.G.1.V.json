@@ -1,0 +1,209 @@
+{
+  "eccn": "3A001.3a002.g.1.v",
+  "normalized": "3A001.3A002.G.1.V",
+  "history": [
+    {
+      "version": "2020-09-11",
+      "fetchedAt": "2025-10-02T20:33:35.161Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-09-11/title-15?format=xml",
+      "heading": "3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, 3A001.3a002.g.1.",
+      "title": "3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, 3A001.3a002.g.1.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774 - Sensitive List"
+      },
+      "breadcrumbs": [
+        "(3) Category 3",
+        "(v) 3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, and .3A002.g.1."
+      ],
+      "ancestors": [
+        "3A001.3a002.g.1"
+      ],
+      "text": "3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, 3A001.3a002.g.1.",
+      "structure": {
+        "identifier": "3A001.3a002.g.1.v",
+        "heading": "3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, 3A001.3a002.g.1.",
+        "label": "3A001.3a002.g.1.v – 3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, 3A001.3a002.g.1.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-10-05",
+      "fetchedAt": "2025-10-02T20:33:35.641Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-10-05/title-15?format=xml",
+      "heading": "3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, 3A001.3a002.g.1.",
+      "title": "3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, 3A001.3a002.g.1.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774 - Sensitive List"
+      },
+      "breadcrumbs": [
+        "(3) Category 3",
+        "(v) 3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, and .3A002.g.1."
+      ],
+      "ancestors": [
+        "3A001.3a002.g.1"
+      ],
+      "text": "3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, 3A001.3a002.g.1.",
+      "structure": {
+        "identifier": "3A001.3a002.g.1.v",
+        "heading": "3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, 3A001.3a002.g.1.",
+        "label": "3A001.3a002.g.1.v – 3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, 3A001.3a002.g.1.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-10-06",
+      "fetchedAt": "2025-10-02T20:33:36.026Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-10-06/title-15?format=xml",
+      "heading": "3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, 3A001.3a002.g.1.",
+      "title": "3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, 3A001.3a002.g.1.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774 - Sensitive List"
+      },
+      "breadcrumbs": [
+        "(3) Category 3",
+        "(v) 3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, and .3A002.g.1."
+      ],
+      "ancestors": [
+        "3A001.3a002.g.1"
+      ],
+      "text": "3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, 3A001.3a002.g.1.",
+      "structure": {
+        "identifier": "3A001.3a002.g.1.v",
+        "heading": "3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, 3A001.3a002.g.1.",
+        "label": "3A001.3a002.g.1.v – 3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, 3A001.3a002.g.1.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-12-04",
+      "fetchedAt": "2025-10-02T20:33:36.431Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-12-04/title-15?format=xml",
+      "heading": "3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, 3A001.3a002.g.1.",
+      "title": "3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, 3A001.3a002.g.1.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774 - Sensitive List"
+      },
+      "breadcrumbs": [
+        "(3) Category 3",
+        "(v) 3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, and .3A002.g.1."
+      ],
+      "ancestors": [
+        "3A001.3a002.g.1"
+      ],
+      "text": "3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, 3A001.3a002.g.1.",
+      "structure": {
+        "identifier": "3A001.3a002.g.1.v",
+        "heading": "3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, 3A001.3a002.g.1.",
+        "label": "3A001.3a002.g.1.v – 3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, 3A001.3a002.g.1.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2021-01-06",
+      "fetchedAt": "2025-10-02T20:33:36.829Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2021-01-06/title-15?format=xml",
+      "heading": "3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, 3A001.3a002.g.1.",
+      "title": "3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, 3A001.3a002.g.1.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774 - Sensitive List"
+      },
+      "breadcrumbs": [
+        "(3) Category 3",
+        "(v) 3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, and .3A002.g.1."
+      ],
+      "ancestors": [
+        "3A001.3a002.g.1"
+      ],
+      "text": "3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, 3A001.3a002.g.1.",
+      "structure": {
+        "identifier": "3A001.3a002.g.1.v",
+        "heading": "3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, 3A001.3a002.g.1.",
+        "label": "3A001.3a002.g.1.v – 3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, 3A001.3a002.g.1.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2021-01-07",
+      "fetchedAt": "2025-10-02T20:33:37.217Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2021-01-07/title-15?format=xml",
+      "heading": "3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, 3A001.3a002.g.1.",
+      "title": "3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, 3A001.3a002.g.1.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774 - Sensitive List"
+      },
+      "breadcrumbs": [
+        "(3) Category 3",
+        "(v) 3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, and .3A002.g.1."
+      ],
+      "ancestors": [
+        "3A001.3a002.g.1"
+      ],
+      "text": "3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, 3A001.3a002.g.1.",
+      "structure": {
+        "identifier": "3A001.3a002.g.1.v",
+        "heading": "3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, 3A001.3a002.g.1.",
+        "label": "3A001.3a002.g.1.v – 3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, 3A001.3a002.g.1.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2021-01-14",
+      "fetchedAt": "2025-10-02T20:33:37.609Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2021-01-14/title-15?format=xml",
+      "heading": "3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, 3A001.3a002.g.1.",
+      "title": "3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, 3A001.3a002.g.1.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774 - Sensitive List"
+      },
+      "breadcrumbs": [
+        "(3) Category 3",
+        "(v) 3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, and .3A002.g.1."
+      ],
+      "ancestors": [
+        "3A001.3a002.g.1"
+      ],
+      "text": "3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, 3A001.3a002.g.1.",
+      "structure": {
+        "identifier": "3A001.3a002.g.1.v",
+        "heading": "3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, 3A001.3a002.g.1.",
+        "label": "3A001.3a002.g.1.v – 3E001 - “Technology” according to the General Technology Note for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, 3A001.3a002.g.1.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,498 @@
+{
+  "eccn": "3E069",
+  "normalized": "3E069",
+  "history": [
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "3E069 “Technology” according to the General Technology Note for the “development” or “production” of items controlled by 3A069.",
+      "title": "“Technology” according to the General Technology Note for the “development” or “production” of items controlled by 3A069.",
+      "category": "3",
+      "group": "3E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "3E069 “Technology” according to the General Technology Note for the “development” or “production” of items controlled by 3A069.\nLicense Requirements\nReason for Control:\nNS, RS, AT\nControl(s) Country Chart (see Supp. No. 1 to part 738) NS applies to entire entry (3E069) NS Column 2. RS applies to entire entry (3E069) To or within Macau or a destination specified in Country Group D:5 of supplement no. 1 to part 740 of the EAR. See § 742.6(a)(13) of the EAR. AT applies to entire entry (3E069) AT Column 1.\nControl(s)\nCountry Chart\n(see Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 2.\nRS applies to entire entry\nTo or within Macau or a destination specified in Country Group D:5 of supplement no. 1 to part 740 of the EAR. See § 742.6(a)(13) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nTSR:\nYes, except N/A for Macau, destinations in Country Group D:5, or destinations subject to the RS control in 3A999.\nList of Items Controlled\nRelated Controls:\nN/A\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "3E069",
+        "heading": "3E069 “Technology” according to the General Technology Note for the “development” or “production” of items controlled by 3A069.",
+        "label": "3E069 – 3E069 “Technology” according to the General Technology Note for the “development” or “production” of items controlled by 3A069.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country Chart\n<br/>(see Supp. No. 1 to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">NS applies to entire entry (3E069)</TD>\n<TD class=\"left\">NS Column 2.</TD>\n</TR>\n<TR>\n<TD class=\"left\">RS applies to entire entry (3E069)</TD>\n<TD class=\"left\">To or within Macau or a destination specified in Country Group D:5 of supplement no. 1 to part 740 of the EAR. See § 742.6(a)(13) of the EAR.</TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (3E069)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country Chart (see Supp. No. 1 to part 738) NS applies to entire entry (3E069) NS Column 2. RS applies to entire entry (3E069) To or within Macau or a destination specified in Country Group D:5 of supplement no. 1 to part 740 of the EAR. See § 742.6(a)(13) of the EAR. AT applies to entire entry (3E069) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 2."
+          },
+          {
+            "type": "text",
+            "text": "RS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "To or within Macau or a destination specified in Country Group D:5 of supplement no. 1 to part 740 of the EAR. See § 742.6(a)(13) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, except N/A for Macau, destinations in Country Group D:5, or destinations subject to the RS control in 3A999."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "3E069 “Technology” according to the General Technology Note for the “development” or “production” of items controlled by 3A069.",
+      "title": "“Technology” according to the General Technology Note for the “development” or “production” of items controlled by 3A069.",
+      "category": "3",
+      "group": "3E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "3E069 “Technology” according to the General Technology Note for the “development” or “production” of items controlled by 3A069.\nLicense Requirements\nReason for Control:\nNS, RS, AT\nControl(s) Country Chart (see Supp. No. 1 to part 738) NS applies to entire entry (3E069) NS Column 2. RS applies to entire entry (3E069) To or within Macau or a destination specified in Country Group D:5 of supplement no. 1 to part 740 of the EAR. See § 742.6(a)(13) of the EAR. AT applies to entire entry (3E069) AT Column 1.\nControl(s)\nCountry Chart\n(see Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 2.\nRS applies to entire entry\nTo or within Macau or a destination specified in Country Group D:5 of supplement no. 1 to part 740 of the EAR. See § 742.6(a)(13) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nTSR:\nYes, except N/A for Macau, destinations in Country Group D:5, or destinations subject to the RS control in 3A999.\nList of Items Controlled\nRelated Controls:\nN/A\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "3E069",
+        "heading": "3E069 “Technology” according to the General Technology Note for the “development” or “production” of items controlled by 3A069.",
+        "label": "3E069 – 3E069 “Technology” according to the General Technology Note for the “development” or “production” of items controlled by 3A069.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country Chart\n<br/>(see Supp. No. 1 to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">NS applies to entire entry (3E069)</TD>\n<TD class=\"left\">NS Column 2.</TD>\n</TR>\n<TR>\n<TD class=\"left\">RS applies to entire entry (3E069)</TD>\n<TD class=\"left\">To or within Macau or a destination specified in Country Group D:5 of supplement no. 1 to part 740 of the EAR. See § 742.6(a)(13) of the EAR.</TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (3E069)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country Chart (see Supp. No. 1 to part 738) NS applies to entire entry (3E069) NS Column 2. RS applies to entire entry (3E069) To or within Macau or a destination specified in Country Group D:5 of supplement no. 1 to part 740 of the EAR. See § 742.6(a)(13) of the EAR. AT applies to entire entry (3E069) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 2."
+          },
+          {
+            "type": "text",
+            "text": "RS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "To or within Macau or a destination specified in Country Group D:5 of supplement no. 1 to part 740 of the EAR. See § 742.6(a)(13) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, except N/A for Macau, destinations in Country Group D:5, or destinations subject to the RS control in 3A999."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "3E069 “Technology” according to the General Technology Note for the “development” or “production” of items controlled by 3A069.",
+      "title": "“Technology” according to the General Technology Note for the “development” or “production” of items controlled by 3A069.",
+      "category": "3",
+      "group": "3E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "3E069 “Technology” according to the General Technology Note for the “development” or “production” of items controlled by 3A069.\nLicense Requirements\nReason for Control:\nNS, RS, AT\nControl(s) Country Chart (see Supp. No. 1 to part 738) NS applies to entire entry (3E069) NS Column 2. RS applies to entire entry (3E069) To or within Macau or a destination specified in Country Group D:5 of supplement no. 1 to part 740 of the EAR. See § 742.6(a)(13) of the EAR. AT applies to entire entry (3E069) AT Column 1.\nControl(s)\nCountry Chart\n(see Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 2.\nRS applies to entire entry\nTo or within Macau or a destination specified in Country Group D:5 of supplement no. 1 to part 740 of the EAR. See § 742.6(a)(13) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nTSR:\nYes, except N/A for Macau, destinations in Country Group D:5, or destinations subject to the RS control in 3A999.\nList of Items Controlled\nRelated Controls:\nN/A\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "3E069",
+        "heading": "3E069 “Technology” according to the General Technology Note for the “development” or “production” of items controlled by 3A069.",
+        "label": "3E069 – 3E069 “Technology” according to the General Technology Note for the “development” or “production” of items controlled by 3A069.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country Chart\n<br/>(see Supp. No. 1 to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">NS applies to entire entry (3E069)</TD>\n<TD class=\"left\">NS Column 2.</TD>\n</TR>\n<TR>\n<TD class=\"left\">RS applies to entire entry (3E069)</TD>\n<TD class=\"left\">To or within Macau or a destination specified in Country Group D:5 of supplement no. 1 to part 740 of the EAR. See § 742.6(a)(13) of the EAR.</TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (3E069)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country Chart (see Supp. No. 1 to part 738) NS applies to entire entry (3E069) NS Column 2. RS applies to entire entry (3E069) To or within Macau or a destination specified in Country Group D:5 of supplement no. 1 to part 740 of the EAR. See § 742.6(a)(13) of the EAR. AT applies to entire entry (3E069) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 2."
+          },
+          {
+            "type": "text",
+            "text": "RS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "To or within Macau or a destination specified in Country Group D:5 of supplement no. 1 to part 740 of the EAR. See § 742.6(a)(13) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, except N/A for Macau, destinations in Country Group D:5, or destinations subject to the RS control in 3A999."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "3E069 “Technology” according to the General Technology Note for the “development” or “production” of items controlled by 3A069.",
+      "title": "“Technology” according to the General Technology Note for the “development” or “production” of items controlled by 3A069.",
+      "category": "3",
+      "group": "3E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "3E069 “Technology” according to the General Technology Note for the “development” or “production” of items controlled by 3A069.\nLicense Requirements\nReason for Control:\nNS, RS, AT\nControl(s) Country Chart (see Supp. No. 1 to part 738) NS applies to entire entry (3E069) NS Column 2. RS applies to entire entry (3E069) To or within Macau or a destination specified in Country Group D:5 of supplement no. 1 to part 740 of the EAR. See § 742.6(a)(13) of the EAR. AT applies to entire entry (3E069) AT Column 1.\nControl(s)\nCountry Chart\n(see Supp. No. 1 to part 738)\nNS applies to entire entry\nNS Column 2.\nRS applies to entire entry\nTo or within Macau or a destination specified in Country Group D:5 of supplement no. 1 to part 740 of the EAR. See § 742.6(a)(13) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nTSR:\nYes, except N/A for Macau, destinations in Country Group D:5, or destinations subject to the RS control in 3A999.\nList of Items Controlled\nRelated Controls:\nN/A\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "3E069",
+        "heading": "3E069 “Technology” according to the General Technology Note for the “development” or “production” of items controlled by 3A069.",
+        "label": "3E069 – 3E069 “Technology” according to the General Technology Note for the “development” or “production” of items controlled by 3A069.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country Chart\n<br/>(see Supp. No. 1 to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">NS applies to entire entry (3E069)</TD>\n<TD class=\"left\">NS Column 2.</TD>\n</TR>\n<TR>\n<TD class=\"left\">RS applies to entire entry (3E069)</TD>\n<TD class=\"left\">To or within Macau or a destination specified in Country Group D:5 of supplement no. 1 to part 740 of the EAR. See § 742.6(a)(13) of the EAR.</TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (3E069)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country Chart (see Supp. No. 1 to part 738) NS applies to entire entry (3E069) NS Column 2. RS applies to entire entry (3E069) To or within Macau or a destination specified in Country Group D:5 of supplement no. 1 to part 740 of the EAR. See § 742.6(a)(13) of the EAR. AT applies to entire entry (3E069) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 2."
+          },
+          {
+            "type": "text",
+            "text": "RS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "To or within Macau or a destination specified in Country Group D:5 of supplement no. 1 to part 740 of the EAR. See § 742.6(a)(13) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, except N/A for Macau, destinations in Country Group D:5, or destinations subject to the RS control in 3A999."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,598 @@
+{
+  "eccn": "3B001.d.18",
+  "normalized": "3B001.D.18",
+  "history": [
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:",
+      "title": "Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d"
+      ],
+      "text": "Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:\nA metal precursor source designed or modified to operate at a temperature greater 75 °C; and\nd.18.a. A metal precursor source designed or modified to operate at a temperature greater 75 °C; and\nA process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).\nd.18.b. A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).\nNote: For the purposes of paragraph d.18.a, the metal precursor source need not be integrated with the equipment. The metal precursor could be delivered by an on-tool source or from a sub-fab source.",
+      "structure": {
+        "identifier": "3B001.d.18",
+        "heading": "Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:",
+        "label": "3B001.d.18 – Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B001.d.18.a",
+            "heading": "A metal precursor source designed or modified to operate at a temperature greater 75 °C; and",
+            "label": "3B001.d.18.a – A metal precursor source designed or modified to operate at a temperature greater 75 °C; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.18.a. A metal precursor source designed or modified to operate at a temperature greater 75 °C; <I>and</I></P>",
+                "text": "d.18.a. A metal precursor source designed or modified to operate at a temperature greater 75 °C; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.18.b",
+            "heading": "A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).",
+            "label": "3B001.d.18.b – A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.18.b. A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).</P>",
+                "text": "d.18.b. A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>For the purposes of paragraph d.18.a, the metal precursor source need not be integrated with the equipment. The metal precursor could be delivered by an on-tool source or from a sub-fab source.</I></P></NOTE>",
+                "text": "Note: For the purposes of paragraph d.18.a, the metal precursor source need not be integrated with the equipment. The metal precursor could be delivered by an on-tool source or from a sub-fab source.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:",
+      "title": "Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d"
+      ],
+      "text": "Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:\nA metal precursor source designed or modified to operate at a temperature greater 75 °C; and\nd.18.a. A metal precursor source designed or modified to operate at a temperature greater 75 °C; and\nA process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).\nd.18.b. A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).\nNote: For the purposes of paragraph d.18.a, the metal precursor source need not be integrated with the equipment. The metal precursor could be delivered by an on-tool source or from a sub-fab source.",
+      "structure": {
+        "identifier": "3B001.d.18",
+        "heading": "Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:",
+        "label": "3B001.d.18 – Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B001.d.18.a",
+            "heading": "A metal precursor source designed or modified to operate at a temperature greater 75 °C; and",
+            "label": "3B001.d.18.a – A metal precursor source designed or modified to operate at a temperature greater 75 °C; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.18.a. A metal precursor source designed or modified to operate at a temperature greater 75 °C; <I>and</I></P>",
+                "text": "d.18.a. A metal precursor source designed or modified to operate at a temperature greater 75 °C; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.18.b",
+            "heading": "A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).",
+            "label": "3B001.d.18.b – A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.18.b. A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).</P>",
+                "text": "d.18.b. A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>For the purposes of paragraph d.18.a, the metal precursor source need not be integrated with the equipment. The metal precursor could be delivered by an on-tool source or from a sub-fab source.</I></P></NOTE>",
+                "text": "Note: For the purposes of paragraph d.18.a, the metal precursor source need not be integrated with the equipment. The metal precursor could be delivered by an on-tool source or from a sub-fab source.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:",
+      "title": "Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d"
+      ],
+      "text": "Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:\nA metal precursor source designed or modified to operate at a temperature greater 75 °C; and\nd.18.a. A metal precursor source designed or modified to operate at a temperature greater 75 °C; and\nA process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).\nd.18.b. A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).\nNote: For the purposes of paragraph d.18.a, the metal precursor source need not be integrated with the equipment. The metal precursor could be delivered by an on-tool source or from a sub-fab source.",
+      "structure": {
+        "identifier": "3B001.d.18",
+        "heading": "Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:",
+        "label": "3B001.d.18 – Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B001.d.18.a",
+            "heading": "A metal precursor source designed or modified to operate at a temperature greater 75 °C; and",
+            "label": "3B001.d.18.a – A metal precursor source designed or modified to operate at a temperature greater 75 °C; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.18.a. A metal precursor source designed or modified to operate at a temperature greater 75 °C; <I>and</I></P>",
+                "text": "d.18.a. A metal precursor source designed or modified to operate at a temperature greater 75 °C; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.18.b",
+            "heading": "A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).",
+            "label": "3B001.d.18.b – A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.18.b. A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).</P>",
+                "text": "d.18.b. A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>For the purposes of paragraph d.18.a, the metal precursor source need not be integrated with the equipment. The metal precursor could be delivered by an on-tool source or from a sub-fab source.</I></P></NOTE>",
+                "text": "Note: For the purposes of paragraph d.18.a, the metal precursor source need not be integrated with the equipment. The metal precursor could be delivered by an on-tool source or from a sub-fab source.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:",
+      "title": "Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d"
+      ],
+      "text": "Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:\nA metal precursor source designed or modified to operate at a temperature greater 75 °C; and\nd.18.a. A metal precursor source designed or modified to operate at a temperature greater 75 °C; and\nA process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).\nd.18.b. A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).\nNote: For the purposes of paragraph d.18.a, the metal precursor source need not be integrated with the equipment. The metal precursor could be delivered by an on-tool source or from a sub-fab source.",
+      "structure": {
+        "identifier": "3B001.d.18",
+        "heading": "Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:",
+        "label": "3B001.d.18 – Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B001.d.18.a",
+            "heading": "A metal precursor source designed or modified to operate at a temperature greater 75 °C; and",
+            "label": "3B001.d.18.a – A metal precursor source designed or modified to operate at a temperature greater 75 °C; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.18.a. A metal precursor source designed or modified to operate at a temperature greater 75 °C; <I>and</I></P>",
+                "text": "d.18.a. A metal precursor source designed or modified to operate at a temperature greater 75 °C; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.18.b",
+            "heading": "A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).",
+            "label": "3B001.d.18.b – A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.18.b. A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).</P>",
+                "text": "d.18.b. A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>For the purposes of paragraph d.18.a, the metal precursor source need not be integrated with the equipment. The metal precursor could be delivered by an on-tool source or from a sub-fab source.</I></P></NOTE>",
+                "text": "Note: For the purposes of paragraph d.18.a, the metal precursor source need not be integrated with the equipment. The metal precursor could be delivered by an on-tool source or from a sub-fab source.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:",
+      "title": "Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d"
+      ],
+      "text": "Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:\nA metal precursor source designed or modified to operate at a temperature greater 75 °C; and\nd.18.a. A metal precursor source designed or modified to operate at a temperature greater 75 °C; and\nA process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).\nd.18.b. A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).\nNote: For the purposes of paragraph d.18.a, the metal precursor source need not be integrated with the equipment. The metal precursor could be delivered by an on-tool source or from a sub-fab source.",
+      "structure": {
+        "identifier": "3B001.d.18",
+        "heading": "Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:",
+        "label": "3B001.d.18 – Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B001.d.18.a",
+            "heading": "A metal precursor source designed or modified to operate at a temperature greater 75 °C; and",
+            "label": "3B001.d.18.a – A metal precursor source designed or modified to operate at a temperature greater 75 °C; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.18.a. A metal precursor source designed or modified to operate at a temperature greater 75 °C; <I>and</I></P>",
+                "text": "d.18.a. A metal precursor source designed or modified to operate at a temperature greater 75 °C; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.18.b",
+            "heading": "A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).",
+            "label": "3B001.d.18.b – A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.18.b. A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).</P>",
+                "text": "d.18.b. A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>For the purposes of paragraph d.18.a, the metal precursor source need not be integrated with the equipment. The metal precursor could be delivered by an on-tool source or from a sub-fab source.</I></P></NOTE>",
+                "text": "Note: For the purposes of paragraph d.18.a, the metal precursor source need not be integrated with the equipment. The metal precursor could be delivered by an on-tool source or from a sub-fab source.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:",
+      "title": "Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d"
+      ],
+      "text": "Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:\nA metal precursor source designed or modified to operate at a temperature greater 75 °C; and\nd.18.a. A metal precursor source designed or modified to operate at a temperature greater 75 °C; and\nA process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).\nd.18.b. A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).\nNote: For the purposes of paragraph d.18.a, the metal precursor source need not be integrated with the equipment. The metal precursor could be delivered by an on-tool source or from a sub-fab source.",
+      "structure": {
+        "identifier": "3B001.d.18",
+        "heading": "Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:",
+        "label": "3B001.d.18 – Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B001.d.18.a",
+            "heading": "A metal precursor source designed or modified to operate at a temperature greater 75 °C; and",
+            "label": "3B001.d.18.a – A metal precursor source designed or modified to operate at a temperature greater 75 °C; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.18.a. A metal precursor source designed or modified to operate at a temperature greater 75 °C; <I>and</I></P>",
+                "text": "d.18.a. A metal precursor source designed or modified to operate at a temperature greater 75 °C; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.18.b",
+            "heading": "A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).",
+            "label": "3B001.d.18.b – A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.18.b. A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).</P>",
+                "text": "d.18.b. A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>For the purposes of paragraph d.18.a, the metal precursor source need not be integrated with the equipment. The metal precursor could be delivered by an on-tool source or from a sub-fab source.</I></P></NOTE>",
+                "text": "Note: For the purposes of paragraph d.18.a, the metal precursor source need not be integrated with the equipment. The metal precursor could be delivered by an on-tool source or from a sub-fab source.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:",
+      "title": "Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d"
+      ],
+      "text": "Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:\nA metal precursor source designed or modified to operate at a temperature greater 75 °C; and\nd.18.a. A metal precursor source designed or modified to operate at a temperature greater 75 °C; and\nA process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).\nd.18.b. A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).\nNote: For the purposes of paragraph d.18.a, the metal precursor source need not be integrated with the equipment. The metal precursor could be delivered by an on-tool source or from a sub-fab source.",
+      "structure": {
+        "identifier": "3B001.d.18",
+        "heading": "Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:",
+        "label": "3B001.d.18 – Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B001.d.18.a",
+            "heading": "A metal precursor source designed or modified to operate at a temperature greater 75 °C; and",
+            "label": "3B001.d.18.a – A metal precursor source designed or modified to operate at a temperature greater 75 °C; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.18.a. A metal precursor source designed or modified to operate at a temperature greater 75 °C; <I>and</I>\n</P>",
+                "text": "d.18.a. A metal precursor source designed or modified to operate at a temperature greater 75 °C; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.18.b",
+            "heading": "A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).",
+            "label": "3B001.d.18.b – A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.18.b. A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).\n</P>",
+                "text": "d.18.b. A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>For the purposes of paragraph d.18.a, the metal precursor source need not be integrated with the equipment. The metal precursor could be delivered by an on-tool source or from a sub-fab source.</I></P></NOTE>",
+                "text": "Note: For the purposes of paragraph d.18.a, the metal precursor source need not be integrated with the equipment. The metal precursor could be delivered by an on-tool source or from a sub-fab source.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:",
+      "title": "Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d"
+      ],
+      "text": "Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:\nA metal precursor source designed or modified to operate at a temperature greater 75 °C; and\nd.18.a. A metal precursor source designed or modified to operate at a temperature greater 75 °C; and\nA process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).\nd.18.b. A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).\nNote: For the purposes of paragraph d.18.a, the metal precursor source need not be integrated with the equipment. The metal precursor could be delivered by an on-tool source or from a sub-fab source.",
+      "structure": {
+        "identifier": "3B001.d.18",
+        "heading": "Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:",
+        "label": "3B001.d.18 – Equipment designed or modified for Atomic Layer Deposition (ALD) of molybdenum (Mo), ruthenium (Ru), or combinations Mo or Ru, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B001.d.18.a",
+            "heading": "A metal precursor source designed or modified to operate at a temperature greater 75 °C; and",
+            "label": "3B001.d.18.a – A metal precursor source designed or modified to operate at a temperature greater 75 °C; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.18.a. A metal precursor source designed or modified to operate at a temperature greater 75 °C; <I>and</I>\n</P>",
+                "text": "d.18.a. A metal precursor source designed or modified to operate at a temperature greater 75 °C; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.18.b",
+            "heading": "A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).",
+            "label": "3B001.d.18.b – A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.18.b. A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).\n</P>",
+                "text": "d.18.b. A process chamber (module) using a reducing agent containing hydrogen (H) at a pressure greater than or equal to 30 Torr (4 kPa).",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>For the purposes of paragraph d.18.a, the metal precursor source need not be integrated with the equipment. The metal precursor could be delivered by an on-tool source or from a sub-fab source.</I></P></NOTE>",
+                "text": "Note: For the purposes of paragraph d.18.a, the metal precursor source need not be integrated with the equipment. The metal precursor could be delivered by an on-tool source or from a sub-fab source.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    }
+  ]
+}

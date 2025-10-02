@@ -1,0 +1,654 @@
+{
+  "eccn": "3B993.c.1",
+  "normalized": "3B993.C.1",
+  "history": [
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:",
+      "title": "Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls).",
+        "Etch equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.c"
+      ],
+      "text": "Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:\nRadio Frequency (RF) power source(s) with at least one pulsed RF output; and\nc.1.a. Radio Frequency (RF) power source(s) with at least one pulsed RF output; and\nOne or more fast gas switching valve(s) with switching time less than 300 milliseconds.\nc.1.b. One or more fast gas switching valve(s) with switching time less than 300 milliseconds.\nNote: 3B993.c.1 includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.\nTechnical Note: For the purposes of the Note to 3B993.c.1, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration.",
+      "structure": {
+        "identifier": "3B993.c.1",
+        "heading": "Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:",
+        "label": "3B993.c.1 – Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.c.1.a",
+            "heading": "Radio Frequency (RF) power source(s) with at least one pulsed RF output; and",
+            "label": "3B993.c.1.a – Radio Frequency (RF) power source(s) with at least one pulsed RF output; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.1.a. Radio Frequency (RF) power source(s) with at least one pulsed RF output; <I>and</I></P>",
+                "text": "c.1.a. Radio Frequency (RF) power source(s) with at least one pulsed RF output; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.c.1.b",
+            "heading": "One or more fast gas switching valve(s) with switching time less than 300 milliseconds.",
+            "label": "3B993.c.1.b – One or more fast gas switching valve(s) with switching time less than 300 milliseconds.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.1.b. One or more fast gas switching valve(s) with switching time less than 300 milliseconds.</P>",
+                "text": "c.1.b. One or more fast gas switching valve(s) with switching time less than 300 milliseconds.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>3B993.c.1 includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.</I></P></NOTE>",
+                "text": "Note: 3B993.c.1 includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of the Note to 3B993.c.1, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration.</I></P></NOTE>",
+                "text": "Technical Note: For the purposes of the Note to 3B993.c.1, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:",
+      "title": "Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls).",
+        "Etch equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.c"
+      ],
+      "text": "Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:\nRadio Frequency (RF) power source(s) with at least one pulsed RF output; and\nc.1.a. Radio Frequency (RF) power source(s) with at least one pulsed RF output; and\nOne or more fast gas switching valve(s) with switching time less than 300 milliseconds.\nc.1.b. One or more fast gas switching valve(s) with switching time less than 300 milliseconds.\nNote: 3B993.c.1 includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.\nTechnical Note: For the purposes of the Note to 3B993.c.1, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration.",
+      "structure": {
+        "identifier": "3B993.c.1",
+        "heading": "Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:",
+        "label": "3B993.c.1 – Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.c.1.a",
+            "heading": "Radio Frequency (RF) power source(s) with at least one pulsed RF output; and",
+            "label": "3B993.c.1.a – Radio Frequency (RF) power source(s) with at least one pulsed RF output; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.1.a. Radio Frequency (RF) power source(s) with at least one pulsed RF output; <I>and</I></P>",
+                "text": "c.1.a. Radio Frequency (RF) power source(s) with at least one pulsed RF output; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.c.1.b",
+            "heading": "One or more fast gas switching valve(s) with switching time less than 300 milliseconds.",
+            "label": "3B993.c.1.b – One or more fast gas switching valve(s) with switching time less than 300 milliseconds.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.1.b. One or more fast gas switching valve(s) with switching time less than 300 milliseconds.</P>",
+                "text": "c.1.b. One or more fast gas switching valve(s) with switching time less than 300 milliseconds.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>3B993.c.1 includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.</I></P></NOTE>",
+                "text": "Note: 3B993.c.1 includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of the Note to 3B993.c.1, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration.</I></P></NOTE>",
+                "text": "Technical Note: For the purposes of the Note to 3B993.c.1, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:",
+      "title": "Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls).",
+        "Etch equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.c"
+      ],
+      "text": "Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:\nRadio Frequency (RF) power source(s) with at least one pulsed RF output; and\nc.1.a. Radio Frequency (RF) power source(s) with at least one pulsed RF output; and\nOne or more fast gas switching valve(s) with switching time less than 300 milliseconds.\nc.1.b. One or more fast gas switching valve(s) with switching time less than 300 milliseconds.\nNote: 3B993.c.1 includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.\nTechnical Note: For the purposes of the Note to 3B993.c.1, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration.",
+      "structure": {
+        "identifier": "3B993.c.1",
+        "heading": "Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:",
+        "label": "3B993.c.1 – Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.c.1.a",
+            "heading": "Radio Frequency (RF) power source(s) with at least one pulsed RF output; and",
+            "label": "3B993.c.1.a – Radio Frequency (RF) power source(s) with at least one pulsed RF output; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.1.a. Radio Frequency (RF) power source(s) with at least one pulsed RF output; <I>and</I></P>",
+                "text": "c.1.a. Radio Frequency (RF) power source(s) with at least one pulsed RF output; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.c.1.b",
+            "heading": "One or more fast gas switching valve(s) with switching time less than 300 milliseconds.",
+            "label": "3B993.c.1.b – One or more fast gas switching valve(s) with switching time less than 300 milliseconds.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.1.b. One or more fast gas switching valve(s) with switching time less than 300 milliseconds.</P>",
+                "text": "c.1.b. One or more fast gas switching valve(s) with switching time less than 300 milliseconds.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>3B993.c.1 includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.</I></P></NOTE>",
+                "text": "Note: 3B993.c.1 includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of the Note to 3B993.c.1, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration.</I></P></NOTE>",
+                "text": "Technical Note: For the purposes of the Note to 3B993.c.1, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:",
+      "title": "Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls).",
+        "Etch equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.c"
+      ],
+      "text": "Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:\nRadio Frequency (RF) power source(s) with at least one pulsed RF output; and\nc.1.a. Radio Frequency (RF) power source(s) with at least one pulsed RF output; and\nOne or more fast gas switching valve(s) with switching time less than 300 milliseconds.\nc.1.b. One or more fast gas switching valve(s) with switching time less than 300 milliseconds.\nNote: 3B993.c.1 includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.\nTechnical Note: For the purposes of the Note to 3B993.c.1, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration.",
+      "structure": {
+        "identifier": "3B993.c.1",
+        "heading": "Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:",
+        "label": "3B993.c.1 – Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.c.1.a",
+            "heading": "Radio Frequency (RF) power source(s) with at least one pulsed RF output; and",
+            "label": "3B993.c.1.a – Radio Frequency (RF) power source(s) with at least one pulsed RF output; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.1.a. Radio Frequency (RF) power source(s) with at least one pulsed RF output; <I>and</I></P>",
+                "text": "c.1.a. Radio Frequency (RF) power source(s) with at least one pulsed RF output; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.c.1.b",
+            "heading": "One or more fast gas switching valve(s) with switching time less than 300 milliseconds.",
+            "label": "3B993.c.1.b – One or more fast gas switching valve(s) with switching time less than 300 milliseconds.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.1.b. One or more fast gas switching valve(s) with switching time less than 300 milliseconds.</P>",
+                "text": "c.1.b. One or more fast gas switching valve(s) with switching time less than 300 milliseconds.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>3B993.c.1 includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.</I></P></NOTE>",
+                "text": "Note: 3B993.c.1 includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of the Note to 3B993.c.1, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration.</I></P></NOTE>",
+                "text": "Technical Note: For the purposes of the Note to 3B993.c.1, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:",
+      "title": "Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls), and “specially designed” “components” and “accessories” therefor.",
+        "Etch equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.c"
+      ],
+      "text": "Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:\nRadio Frequency (RF) power source(s) with at least one pulsed RF output; and\nc.1.a. Radio Frequency (RF) power source(s) with at least one pulsed RF output; and\nOne or more fast gas switching valve(s) with switching time less than 300 milliseconds.\nc.1.b. One or more fast gas switching valve(s) with switching time less than 300 milliseconds.\nNote: 3B993.c.1 includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.\nTechnical Note: For the purposes of the Note to 3B993.c.1, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration.",
+      "structure": {
+        "identifier": "3B993.c.1",
+        "heading": "Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:",
+        "label": "3B993.c.1 – Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.c.1.a",
+            "heading": "Radio Frequency (RF) power source(s) with at least one pulsed RF output; and",
+            "label": "3B993.c.1.a – Radio Frequency (RF) power source(s) with at least one pulsed RF output; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.1.a. Radio Frequency (RF) power source(s) with at least one pulsed RF output; <I>and</I></P>",
+                "text": "c.1.a. Radio Frequency (RF) power source(s) with at least one pulsed RF output; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.c.1.b",
+            "heading": "One or more fast gas switching valve(s) with switching time less than 300 milliseconds.",
+            "label": "3B993.c.1.b – One or more fast gas switching valve(s) with switching time less than 300 milliseconds.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.1.b. One or more fast gas switching valve(s) with switching time less than 300 milliseconds.</P>",
+                "text": "c.1.b. One or more fast gas switching valve(s) with switching time less than 300 milliseconds.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>3B993.c.1 includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.</I></P></NOTE>",
+                "text": "Note: 3B993.c.1 includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of the Note to 3B993.c.1, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration.</I></P></NOTE>",
+                "text": "Technical Note: For the purposes of the Note to 3B993.c.1, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:",
+      "title": "Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls), and “specially designed” “components” and “accessories” therefor.",
+        "Etch equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.c"
+      ],
+      "text": "Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:\nRadio Frequency (RF) power source(s) with at least one pulsed RF output; and\nc.1.a. Radio Frequency (RF) power source(s) with at least one pulsed RF output; and\nOne or more fast gas switching valve(s) with switching time less than 300 milliseconds.\nc.1.b. One or more fast gas switching valve(s) with switching time less than 300 milliseconds.\nNote: 3B993.c.1 includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.\nTechnical Note: For the purposes of the Note to 3B993.c.1, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration.",
+      "structure": {
+        "identifier": "3B993.c.1",
+        "heading": "Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:",
+        "label": "3B993.c.1 – Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.c.1.a",
+            "heading": "Radio Frequency (RF) power source(s) with at least one pulsed RF output; and",
+            "label": "3B993.c.1.a – Radio Frequency (RF) power source(s) with at least one pulsed RF output; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.1.a. Radio Frequency (RF) power source(s) with at least one pulsed RF output; <I>and</I></P>",
+                "text": "c.1.a. Radio Frequency (RF) power source(s) with at least one pulsed RF output; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.c.1.b",
+            "heading": "One or more fast gas switching valve(s) with switching time less than 300 milliseconds.",
+            "label": "3B993.c.1.b – One or more fast gas switching valve(s) with switching time less than 300 milliseconds.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.1.b. One or more fast gas switching valve(s) with switching time less than 300 milliseconds.</P>",
+                "text": "c.1.b. One or more fast gas switching valve(s) with switching time less than 300 milliseconds.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>3B993.c.1 includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.</I></P></NOTE>",
+                "text": "Note: 3B993.c.1 includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of the Note to 3B993.c.1, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration.</I></P></NOTE>",
+                "text": "Technical Note: For the purposes of the Note to 3B993.c.1, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:",
+      "title": "Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls), and “specially designed” “components” and “accessories” therefor.",
+        "Etch equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.c"
+      ],
+      "text": "Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:\nRadio Frequency (RF) power source(s) with at least one pulsed RF output; and\nc.1.a. Radio Frequency (RF) power source(s) with at least one pulsed RF output; and\nOne or more fast gas switching valve(s) with switching time less than 300 milliseconds.\nc.1.b. One or more fast gas switching valve(s) with switching time less than 300 milliseconds.\nNote: 3B993.c.1 includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.\nTechnical Note: For the purposes of the Note to 3B993.c.1, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration.",
+      "structure": {
+        "identifier": "3B993.c.1",
+        "heading": "Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:",
+        "label": "3B993.c.1 – Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.c.1.a",
+            "heading": "Radio Frequency (RF) power source(s) with at least one pulsed RF output; and",
+            "label": "3B993.c.1.a – Radio Frequency (RF) power source(s) with at least one pulsed RF output; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.1.a. Radio Frequency (RF) power source(s) with at least one pulsed RF output; <I>and</I>\n</P>",
+                "text": "c.1.a. Radio Frequency (RF) power source(s) with at least one pulsed RF output; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.c.1.b",
+            "heading": "One or more fast gas switching valve(s) with switching time less than 300 milliseconds.",
+            "label": "3B993.c.1.b – One or more fast gas switching valve(s) with switching time less than 300 milliseconds.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.1.b. One or more fast gas switching valve(s) with switching time less than 300 milliseconds.\n</P>",
+                "text": "c.1.b. One or more fast gas switching valve(s) with switching time less than 300 milliseconds.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>3B993.c.1 includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.</I></P></NOTE>",
+                "text": "Note: 3B993.c.1 includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of the Note to 3B993.c.1, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration.</I></P></NOTE>",
+                "text": "Technical Note: For the purposes of the Note to 3B993.c.1, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:",
+      "title": "Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls), and “specially designed” “components” and “accessories” therefor.",
+        "Etch equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.c"
+      ],
+      "text": "Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:\nRadio Frequency (RF) power source(s) with at least one pulsed RF output; and\nc.1.a. Radio Frequency (RF) power source(s) with at least one pulsed RF output; and\nOne or more fast gas switching valve(s) with switching time less than 300 milliseconds.\nc.1.b. One or more fast gas switching valve(s) with switching time less than 300 milliseconds.\nNote: 3B993.c.1 includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.\nTechnical Note: For the purposes of the Note to 3B993.c.1, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration.",
+      "structure": {
+        "identifier": "3B993.c.1",
+        "heading": "Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:",
+        "label": "3B993.c.1 – Equipment designed or modified for anisotropic etching of dielectric materials and enabling the fabrication of high aspect ratio features with aspect ratio greater than 30:1 and a lateral dimension on the top surface of less than 100 nm, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.c.1.a",
+            "heading": "Radio Frequency (RF) power source(s) with at least one pulsed RF output; and",
+            "label": "3B993.c.1.a – Radio Frequency (RF) power source(s) with at least one pulsed RF output; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.1.a. Radio Frequency (RF) power source(s) with at least one pulsed RF output; <I>and</I>\n</P>",
+                "text": "c.1.a. Radio Frequency (RF) power source(s) with at least one pulsed RF output; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.c.1.b",
+            "heading": "One or more fast gas switching valve(s) with switching time less than 300 milliseconds.",
+            "label": "3B993.c.1.b – One or more fast gas switching valve(s) with switching time less than 300 milliseconds.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c.1.b. One or more fast gas switching valve(s) with switching time less than 300 milliseconds.\n</P>",
+                "text": "c.1.b. One or more fast gas switching valve(s) with switching time less than 300 milliseconds.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>3B993.c.1 includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.</I></P></NOTE>",
+                "text": "Note: 3B993.c.1 includes etching by 'radicals', ions, sequential reactions, or non-sequential reaction.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of the Note to 3B993.c.1, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration.</I></P></NOTE>",
+                "text": "Technical Note: For the purposes of the Note to 3B993.c.1, 'radical' is defined as an atom, molecule, or ion that has an unpaired electron in an open electron shell configuration.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,2232 @@
+{
+  "eccn": "9A101.a",
+  "normalized": "9A101.A",
+  "history": [
+    {
+      "version": "2018-08-30",
+      "fetchedAt": "2025-10-02T20:33:31.567Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-08-30/title-15?format=xml",
+      "heading": "Engines having all of the following characteristics:",
+      "title": "Engines having all of the following characteristics:",
+      "category": "9",
+      "group": "9A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "9A101 Turbojet and turbofan engines, other than those controlled by 9A001, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "9A101"
+      ],
+      "text": "Engines having all of the following characteristics:\n'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\na.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\nSpecific fuel consumption of 0.15 kg N−1 h−1 or less (at maximum continuous power at sea level static conditions using the ICAO standard atmosphere);\na.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less (at maximum continuous power at sea level static conditions using the ICAO standard atmosphere);\n'Dry weight' less than 750 kg; and\na.3. 'Dry weight' less than 750 kg; and\n'First -stage rotor diameter' less than 1 m; or\na.4. 'First -stage rotor diameter' less than 1 m; or\nTechnical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 3. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+      "structure": {
+        "identifier": "9A101.a",
+        "heading": "Engines having all of the following characteristics:",
+        "label": "9A101.a – Engines having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "9A101.a.1",
+            "heading": "'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "label": "9A101.a.1 – 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);</P>",
+                "text": "a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.2",
+            "heading": "Specific fuel consumption of 0.15 kg N−1 h−1 or less (at maximum continuous power at sea level static conditions using the ICAO standard atmosphere);",
+            "label": "9A101.a.2 – Specific fuel consumption of 0.15 kg N−1 h−1 or less (at maximum continuous power at sea level static conditions using the ICAO standard atmosphere);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. Specific fuel consumption of 0.15 kg N<E T=\"51\">−1</E> h<E T=\"51\">−1</E> or less (at maximum continuous power at sea level static conditions using the ICAO standard atmosphere);</P>",
+                "text": "a.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less (at maximum continuous power at sea level static conditions using the ICAO standard atmosphere);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.3",
+            "heading": "'Dry weight' less than 750 kg; and",
+            "label": "9A101.a.3 – 'Dry weight' less than 750 kg; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.3. 'Dry weight' less than 750 kg; <I>and</I></P>",
+                "text": "a.3. 'Dry weight' less than 750 kg; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.4",
+            "heading": "'First -stage rotor diameter' less than 1 m; or",
+            "label": "9A101.a.4 – 'First -stage rotor diameter' less than 1 m; or",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4. 'First -stage rotor diameter' less than 1 m; <I>or</I></P>",
+                "text": "a.4. 'First -stage rotor diameter' less than 1 m; or",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Notes:</I>\n</HED>\n<P><I>1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type.</I></P>\n<P><I>2. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing).</I></P>\n<P><I>3. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.</I></P></NOTE>",
+                "text": "Technical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 3. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2018-10-24",
+      "fetchedAt": "2025-10-02T20:33:31.990Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-10-24/title-15?format=xml",
+      "heading": "Engines having all of the following characteristics:",
+      "title": "Engines having all of the following characteristics:",
+      "category": "9",
+      "group": "9A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "9A101 Turbojet and turbofan engines, other than those controlled by 9A001, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "9A101"
+      ],
+      "text": "Engines having all of the following characteristics:\n'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\na.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\nSpecific fuel consumption of 0.15 kg N−1 h−1 or less (at maximum continuous power at sea level static conditions using the ICAO standard atmosphere);\na.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less (at maximum continuous power at sea level static conditions using the ICAO standard atmosphere);\n'Dry weight' less than 750 kg; and\na.3. 'Dry weight' less than 750 kg; and\n'First -stage rotor diameter' less than 1 m; or\na.4. 'First -stage rotor diameter' less than 1 m; or\nTechnical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 3. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+      "structure": {
+        "identifier": "9A101.a",
+        "heading": "Engines having all of the following characteristics:",
+        "label": "9A101.a – Engines having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "9A101.a.1",
+            "heading": "'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "label": "9A101.a.1 – 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);</P>",
+                "text": "a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.2",
+            "heading": "Specific fuel consumption of 0.15 kg N−1 h−1 or less (at maximum continuous power at sea level static conditions using the ICAO standard atmosphere);",
+            "label": "9A101.a.2 – Specific fuel consumption of 0.15 kg N−1 h−1 or less (at maximum continuous power at sea level static conditions using the ICAO standard atmosphere);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. Specific fuel consumption of 0.15 kg N<E T=\"51\">−1</E> h<E T=\"51\">−1</E> or less (at maximum continuous power at sea level static conditions using the ICAO standard atmosphere);</P>",
+                "text": "a.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less (at maximum continuous power at sea level static conditions using the ICAO standard atmosphere);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.3",
+            "heading": "'Dry weight' less than 750 kg; and",
+            "label": "9A101.a.3 – 'Dry weight' less than 750 kg; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.3. 'Dry weight' less than 750 kg; <I>and</I></P>",
+                "text": "a.3. 'Dry weight' less than 750 kg; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.4",
+            "heading": "'First -stage rotor diameter' less than 1 m; or",
+            "label": "9A101.a.4 – 'First -stage rotor diameter' less than 1 m; or",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4. 'First -stage rotor diameter' less than 1 m; <I>or</I></P>",
+                "text": "a.4. 'First -stage rotor diameter' less than 1 m; or",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Notes:</I>\n</HED>\n<P><I>1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type.</I></P>\n<P><I>2. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing).</I></P>\n<P><I>3. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.</I></P></NOTE>",
+                "text": "Technical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 3. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2018-11-02",
+      "fetchedAt": "2025-10-02T20:33:32.381Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-11-02/title-15?format=xml",
+      "heading": "Engines having all of the following characteristics:",
+      "title": "Engines having all of the following characteristics:",
+      "category": "9",
+      "group": "9A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "9A101 Turbojet and turbofan engines, other than those controlled by 9A001, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "9A101"
+      ],
+      "text": "Engines having all of the following characteristics:\n'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\na.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\nSpecific fuel consumption of 0.15 kg N−1 h−1 or less (at maximum continuous power at sea level static conditions using the ICAO standard atmosphere);\na.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less (at maximum continuous power at sea level static conditions using the ICAO standard atmosphere);\n'Dry weight' less than 750 kg; and\na.3. 'Dry weight' less than 750 kg; and\n'First -stage rotor diameter' less than 1 m; or\na.4. 'First -stage rotor diameter' less than 1 m; or\nTechnical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 3. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+      "structure": {
+        "identifier": "9A101.a",
+        "heading": "Engines having all of the following characteristics:",
+        "label": "9A101.a – Engines having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "9A101.a.1",
+            "heading": "'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "label": "9A101.a.1 – 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);</P>",
+                "text": "a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.2",
+            "heading": "Specific fuel consumption of 0.15 kg N−1 h−1 or less (at maximum continuous power at sea level static conditions using the ICAO standard atmosphere);",
+            "label": "9A101.a.2 – Specific fuel consumption of 0.15 kg N−1 h−1 or less (at maximum continuous power at sea level static conditions using the ICAO standard atmosphere);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. Specific fuel consumption of 0.15 kg N<E T=\"51\">−1</E> h<E T=\"51\">−1</E> or less (at maximum continuous power at sea level static conditions using the ICAO standard atmosphere);</P>",
+                "text": "a.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less (at maximum continuous power at sea level static conditions using the ICAO standard atmosphere);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.3",
+            "heading": "'Dry weight' less than 750 kg; and",
+            "label": "9A101.a.3 – 'Dry weight' less than 750 kg; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.3. 'Dry weight' less than 750 kg; <I>and</I></P>",
+                "text": "a.3. 'Dry weight' less than 750 kg; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.4",
+            "heading": "'First -stage rotor diameter' less than 1 m; or",
+            "label": "9A101.a.4 – 'First -stage rotor diameter' less than 1 m; or",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4. 'First -stage rotor diameter' less than 1 m; <I>or</I></P>",
+                "text": "a.4. 'First -stage rotor diameter' less than 1 m; or",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Notes:</I>\n</HED>\n<P><I>1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type.</I></P>\n<P><I>2. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing).</I></P>\n<P><I>3. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.</I></P></NOTE>",
+                "text": "Technical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 3. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2023-12-08",
+      "fetchedAt": "2025-10-02T20:33:43.980Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-12-08/title-15?format=xml",
+      "heading": "Engines having all of the following characteristics:",
+      "title": "Engines having all of the following characteristics:",
+      "category": "9",
+      "group": "9A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "9A101 Turbojet and turbofan engines, other than those controlled by 9A001, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "9A101"
+      ],
+      "text": "Engines having all of the following characteristics:\n'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\na.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\nSpecific fuel consumption of 0.15 kg N−1 h−1 or less;\na.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less;\n'Dry weight' less than 750 kg; and\na.3. 'Dry weight' less than 750 kg; and\n'First-stage rotor diameter' less than 1 m; or\na.4. 'First-stage rotor diameter' less than 1 m; or\nTechnical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere. 3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+      "structure": {
+        "identifier": "9A101.a",
+        "heading": "Engines having all of the following characteristics:",
+        "label": "9A101.a – Engines having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "9A101.a.1",
+            "heading": "'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "label": "9A101.a.1 – 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);</P>",
+                "text": "a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.2",
+            "heading": "Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+            "label": "9A101.a.2 – Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. Specific fuel consumption of 0.15 kg N<E T=\"51\">−1</E> h<E T=\"51\">−1</E> or less;</P>",
+                "text": "a.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.3",
+            "heading": "'Dry weight' less than 750 kg; and",
+            "label": "9A101.a.3 – 'Dry weight' less than 750 kg; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.3. 'Dry weight' less than 750 kg; <I>and</I></P>",
+                "text": "a.3. 'Dry weight' less than 750 kg; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.4",
+            "heading": "'First-stage rotor diameter' less than 1 m; or",
+            "label": "9A101.a.4 – 'First-stage rotor diameter' less than 1 m; or",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4. 'First-stage rotor diameter' less than 1 m; <I>or</I></P>",
+                "text": "a.4. 'First-stage rotor diameter' less than 1 m; or",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Notes:</I>\n</HED>\n<P><I>1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type.</I></P>\n<P><I>2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere.</I></P>\n<P><I>3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing).</I></P>\n<P><I>4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.</I></P></NOTE>",
+                "text": "Technical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere. 3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-03-08",
+      "fetchedAt": "2025-10-02T20:33:44.401Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-08/title-15?format=xml",
+      "heading": "Engines having all of the following characteristics:",
+      "title": "Engines having all of the following characteristics:",
+      "category": "9",
+      "group": "9A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "9A101 Turbojet and turbofan engines, other than those controlled by 9A001, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "9A101"
+      ],
+      "text": "Engines having all of the following characteristics:\n'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\na.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\nSpecific fuel consumption of 0.15 kg N−1 h−1 or less;\na.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less;\n'Dry weight' less than 750 kg; and\na.3. 'Dry weight' less than 750 kg; and\n'First-stage rotor diameter' less than 1 m; or\na.4. 'First-stage rotor diameter' less than 1 m; or\nTechnical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere. 3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+      "structure": {
+        "identifier": "9A101.a",
+        "heading": "Engines having all of the following characteristics:",
+        "label": "9A101.a – Engines having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "9A101.a.1",
+            "heading": "'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "label": "9A101.a.1 – 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);</P>",
+                "text": "a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.2",
+            "heading": "Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+            "label": "9A101.a.2 – Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. Specific fuel consumption of 0.15 kg N<E T=\"51\">−1</E> h<E T=\"51\">−1</E> or less;</P>",
+                "text": "a.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.3",
+            "heading": "'Dry weight' less than 750 kg; and",
+            "label": "9A101.a.3 – 'Dry weight' less than 750 kg; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.3. 'Dry weight' less than 750 kg; <I>and</I></P>",
+                "text": "a.3. 'Dry weight' less than 750 kg; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.4",
+            "heading": "'First-stage rotor diameter' less than 1 m; or",
+            "label": "9A101.a.4 – 'First-stage rotor diameter' less than 1 m; or",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4. 'First-stage rotor diameter' less than 1 m; <I>or</I></P>",
+                "text": "a.4. 'First-stage rotor diameter' less than 1 m; or",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Notes:</I>\n</HED>\n<P><I>1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type.</I></P>\n<P><I>2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere.</I></P>\n<P><I>3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing).</I></P>\n<P><I>4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.</I></P></NOTE>",
+                "text": "Technical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere. 3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-03-13",
+      "fetchedAt": "2025-10-02T20:33:44.826Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-13/title-15?format=xml",
+      "heading": "Engines having all of the following characteristics:",
+      "title": "Engines having all of the following characteristics:",
+      "category": "9",
+      "group": "9A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "9A101 Turbojet and turbofan engines, other than those controlled by 9A001, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "9A101"
+      ],
+      "text": "Engines having all of the following characteristics:\n'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\na.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\nSpecific fuel consumption of 0.15 kg N−1 h−1 or less;\na.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less;\n'Dry weight' less than 750 kg; and\na.3. 'Dry weight' less than 750 kg; and\n'First-stage rotor diameter' less than 1 m; or\na.4. 'First-stage rotor diameter' less than 1 m; or\nTechnical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere. 3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+      "structure": {
+        "identifier": "9A101.a",
+        "heading": "Engines having all of the following characteristics:",
+        "label": "9A101.a – Engines having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "9A101.a.1",
+            "heading": "'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "label": "9A101.a.1 – 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);</P>",
+                "text": "a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.2",
+            "heading": "Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+            "label": "9A101.a.2 – Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. Specific fuel consumption of 0.15 kg N<E T=\"51\">−1</E> h<E T=\"51\">−1</E> or less;</P>",
+                "text": "a.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.3",
+            "heading": "'Dry weight' less than 750 kg; and",
+            "label": "9A101.a.3 – 'Dry weight' less than 750 kg; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.3. 'Dry weight' less than 750 kg; <I>and</I></P>",
+                "text": "a.3. 'Dry weight' less than 750 kg; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.4",
+            "heading": "'First-stage rotor diameter' less than 1 m; or",
+            "label": "9A101.a.4 – 'First-stage rotor diameter' less than 1 m; or",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4. 'First-stage rotor diameter' less than 1 m; <I>or</I></P>",
+                "text": "a.4. 'First-stage rotor diameter' less than 1 m; or",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Notes:</I>\n</HED>\n<P><I>1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type.</I></P>\n<P><I>2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere.</I></P>\n<P><I>3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing).</I></P>\n<P><I>4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.</I></P></NOTE>",
+                "text": "Technical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere. 3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-04-04",
+      "fetchedAt": "2025-10-02T20:33:45.229Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-04/title-15?format=xml",
+      "heading": "Engines having all of the following characteristics:",
+      "title": "Engines having all of the following characteristics:",
+      "category": "9",
+      "group": "9A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "9A101 Turbojet and turbofan engines, other than those controlled by 9A001, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "9A101"
+      ],
+      "text": "Engines having all of the following characteristics:\n'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\na.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\nSpecific fuel consumption of 0.15 kg N−1 h−1 or less;\na.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less;\n'Dry weight' less than 750 kg; and\na.3. 'Dry weight' less than 750 kg; and\n'First-stage rotor diameter' less than 1 m; or\na.4. 'First-stage rotor diameter' less than 1 m; or\nTechnical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere. 3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+      "structure": {
+        "identifier": "9A101.a",
+        "heading": "Engines having all of the following characteristics:",
+        "label": "9A101.a – Engines having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "9A101.a.1",
+            "heading": "'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "label": "9A101.a.1 – 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);</P>",
+                "text": "a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.2",
+            "heading": "Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+            "label": "9A101.a.2 – Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. Specific fuel consumption of 0.15 kg N<E T=\"51\">−1</E> h<E T=\"51\">−1</E> or less;</P>",
+                "text": "a.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.3",
+            "heading": "'Dry weight' less than 750 kg; and",
+            "label": "9A101.a.3 – 'Dry weight' less than 750 kg; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.3. 'Dry weight' less than 750 kg; <I>and</I></P>",
+                "text": "a.3. 'Dry weight' less than 750 kg; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.4",
+            "heading": "'First-stage rotor diameter' less than 1 m; or",
+            "label": "9A101.a.4 – 'First-stage rotor diameter' less than 1 m; or",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4. 'First-stage rotor diameter' less than 1 m; <I>or</I></P>",
+                "text": "a.4. 'First-stage rotor diameter' less than 1 m; or",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Notes:</I>\n</HED>\n<P><I>1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type.</I></P>\n<P><I>2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere.</I></P>\n<P><I>3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing).</I></P>\n<P><I>4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.</I></P></NOTE>",
+                "text": "Technical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere. 3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-04-19",
+      "fetchedAt": "2025-10-02T20:33:45.630Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-19/title-15?format=xml",
+      "heading": "Engines having all of the following characteristics:",
+      "title": "Engines having all of the following characteristics:",
+      "category": "9",
+      "group": "9A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "9A101 Turbojet and turbofan engines, other than those controlled by 9A001, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "9A101"
+      ],
+      "text": "Engines having all of the following characteristics:\n'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\na.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\nSpecific fuel consumption of 0.15 kg N−1 h−1 or less;\na.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less;\n'Dry weight' less than 750 kg; and\na.3. 'Dry weight' less than 750 kg; and\n'First-stage rotor diameter' less than 1 m; or\na.4. 'First-stage rotor diameter' less than 1 m; or\nTechnical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere. 3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+      "structure": {
+        "identifier": "9A101.a",
+        "heading": "Engines having all of the following characteristics:",
+        "label": "9A101.a – Engines having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "9A101.a.1",
+            "heading": "'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "label": "9A101.a.1 – 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);</P>",
+                "text": "a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.2",
+            "heading": "Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+            "label": "9A101.a.2 – Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. Specific fuel consumption of 0.15 kg N<E T=\"51\">−1</E> h<E T=\"51\">−1</E> or less;</P>",
+                "text": "a.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.3",
+            "heading": "'Dry weight' less than 750 kg; and",
+            "label": "9A101.a.3 – 'Dry weight' less than 750 kg; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.3. 'Dry weight' less than 750 kg; <I>and</I></P>",
+                "text": "a.3. 'Dry weight' less than 750 kg; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.4",
+            "heading": "'First-stage rotor diameter' less than 1 m; or",
+            "label": "9A101.a.4 – 'First-stage rotor diameter' less than 1 m; or",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4. 'First-stage rotor diameter' less than 1 m; <I>or</I></P>",
+                "text": "a.4. 'First-stage rotor diameter' less than 1 m; or",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Notes:</I>\n</HED>\n<P><I>1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type.</I></P>\n<P><I>2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere.</I></P>\n<P><I>3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing).</I></P>\n<P><I>4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.</I></P></NOTE>",
+                "text": "Technical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere. 3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-05-30",
+      "fetchedAt": "2025-10-02T20:33:46.051Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-05-30/title-15?format=xml",
+      "heading": "Engines having all of the following characteristics:",
+      "title": "Engines having all of the following characteristics:",
+      "category": "9",
+      "group": "9A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "9A101 Turbojet and turbofan engines, other than those controlled by 9A001, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "9A101"
+      ],
+      "text": "Engines having all of the following characteristics:\n'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\na.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\nSpecific fuel consumption of 0.15 kg N−1 h−1 or less;\na.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less;\n'Dry weight' less than 750 kg; and\na.3. 'Dry weight' less than 750 kg; and\n'First-stage rotor diameter' less than 1 m; or\na.4. 'First-stage rotor diameter' less than 1 m; or\nTechnical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere. 3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+      "structure": {
+        "identifier": "9A101.a",
+        "heading": "Engines having all of the following characteristics:",
+        "label": "9A101.a – Engines having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "9A101.a.1",
+            "heading": "'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "label": "9A101.a.1 – 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);</P>",
+                "text": "a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.2",
+            "heading": "Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+            "label": "9A101.a.2 – Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. Specific fuel consumption of 0.15 kg N<E T=\"51\">−1</E> h<E T=\"51\">−1</E> or less;</P>",
+                "text": "a.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.3",
+            "heading": "'Dry weight' less than 750 kg; and",
+            "label": "9A101.a.3 – 'Dry weight' less than 750 kg; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.3. 'Dry weight' less than 750 kg; <I>and</I></P>",
+                "text": "a.3. 'Dry weight' less than 750 kg; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.4",
+            "heading": "'First-stage rotor diameter' less than 1 m; or",
+            "label": "9A101.a.4 – 'First-stage rotor diameter' less than 1 m; or",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4. 'First-stage rotor diameter' less than 1 m; <I>or</I></P>",
+                "text": "a.4. 'First-stage rotor diameter' less than 1 m; or",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Notes:</I>\n</HED>\n<P><I>1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type.</I></P>\n<P><I>2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere.</I></P>\n<P><I>3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing).</I></P>\n<P><I>4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.</I></P></NOTE>",
+                "text": "Technical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere. 3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-06-12",
+      "fetchedAt": "2025-10-02T20:33:46.460Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-06-12/title-15?format=xml",
+      "heading": "Engines having all of the following characteristics:",
+      "title": "Engines having all of the following characteristics:",
+      "category": "9",
+      "group": "9A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "9A101 Turbojet and turbofan engines, other than those controlled by 9A001, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "9A101"
+      ],
+      "text": "Engines having all of the following characteristics:\n'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\na.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\nSpecific fuel consumption of 0.15 kg N−1 h−1 or less;\na.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less;\n'Dry weight' less than 750 kg; and\na.3. 'Dry weight' less than 750 kg; and\n'First-stage rotor diameter' less than 1 m; or\na.4. 'First-stage rotor diameter' less than 1 m; or\nTechnical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere. 3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+      "structure": {
+        "identifier": "9A101.a",
+        "heading": "Engines having all of the following characteristics:",
+        "label": "9A101.a – Engines having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "9A101.a.1",
+            "heading": "'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "label": "9A101.a.1 – 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);</P>",
+                "text": "a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.2",
+            "heading": "Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+            "label": "9A101.a.2 – Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. Specific fuel consumption of 0.15 kg N<E T=\"51\">−1</E> h<E T=\"51\">−1</E> or less;</P>",
+                "text": "a.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.3",
+            "heading": "'Dry weight' less than 750 kg; and",
+            "label": "9A101.a.3 – 'Dry weight' less than 750 kg; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.3. 'Dry weight' less than 750 kg; <I>and</I></P>",
+                "text": "a.3. 'Dry weight' less than 750 kg; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.4",
+            "heading": "'First-stage rotor diameter' less than 1 m; or",
+            "label": "9A101.a.4 – 'First-stage rotor diameter' less than 1 m; or",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4. 'First-stage rotor diameter' less than 1 m; <I>or</I></P>",
+                "text": "a.4. 'First-stage rotor diameter' less than 1 m; or",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Notes:</I>\n</HED>\n<P><I>1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type.</I></P>\n<P><I>2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere.</I></P>\n<P><I>3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing).</I></P>\n<P><I>4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.</I></P></NOTE>",
+                "text": "Technical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere. 3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-09-06",
+      "fetchedAt": "2025-10-02T20:33:46.879Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-09-06/title-15?format=xml",
+      "heading": "Engines having all of the following characteristics:",
+      "title": "Engines having all of the following characteristics:",
+      "category": "9",
+      "group": "9A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "9A101 Turbojet and turbofan engines, other than those controlled by 9A001, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "9A101"
+      ],
+      "text": "Engines having all of the following characteristics:\n'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\na.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\nSpecific fuel consumption of 0.15 kg N−1 h−1 or less;\na.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less;\n'Dry weight' less than 750 kg; and\na.3. 'Dry weight' less than 750 kg; and\n'First-stage rotor diameter' less than 1 m; or\na.4. 'First-stage rotor diameter' less than 1 m; or\nTechnical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere. 3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+      "structure": {
+        "identifier": "9A101.a",
+        "heading": "Engines having all of the following characteristics:",
+        "label": "9A101.a – Engines having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "9A101.a.1",
+            "heading": "'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "label": "9A101.a.1 – 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);</P>",
+                "text": "a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.2",
+            "heading": "Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+            "label": "9A101.a.2 – Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. Specific fuel consumption of 0.15 kg N<E T=\"51\">−1</E> h<E T=\"51\">−1</E> or less;</P>",
+                "text": "a.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.3",
+            "heading": "'Dry weight' less than 750 kg; and",
+            "label": "9A101.a.3 – 'Dry weight' less than 750 kg; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.3. 'Dry weight' less than 750 kg; <I>and</I></P>",
+                "text": "a.3. 'Dry weight' less than 750 kg; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.4",
+            "heading": "'First-stage rotor diameter' less than 1 m; or",
+            "label": "9A101.a.4 – 'First-stage rotor diameter' less than 1 m; or",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4. 'First-stage rotor diameter' less than 1 m; <I>or</I></P>",
+                "text": "a.4. 'First-stage rotor diameter' less than 1 m; or",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Notes:</I>\n</HED>\n<P><I>1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type.</I></P>\n<P><I>2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere.</I></P>\n<P><I>3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing).</I></P>\n<P><I>4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.</I></P></NOTE>",
+                "text": "Technical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere. 3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-10-23",
+      "fetchedAt": "2025-10-02T20:33:47.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-10-23/title-15?format=xml",
+      "heading": "Engines having all of the following characteristics:",
+      "title": "Engines having all of the following characteristics:",
+      "category": "9",
+      "group": "9A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "9A101 Turbojet and turbofan engines, other than those controlled by 9A001, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "9A101"
+      ],
+      "text": "Engines having all of the following characteristics:\n'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\na.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\nSpecific fuel consumption of 0.15 kg N−1 h−1 or less;\na.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less;\n'Dry weight' less than 750 kg; and\na.3. 'Dry weight' less than 750 kg; and\n'First-stage rotor diameter' less than 1 m; or\na.4. 'First-stage rotor diameter' less than 1 m; or\nTechnical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere. 3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+      "structure": {
+        "identifier": "9A101.a",
+        "heading": "Engines having all of the following characteristics:",
+        "label": "9A101.a – Engines having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "9A101.a.1",
+            "heading": "'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "label": "9A101.a.1 – 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);</P>",
+                "text": "a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.2",
+            "heading": "Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+            "label": "9A101.a.2 – Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. Specific fuel consumption of 0.15 kg N<E T=\"51\">−1</E> h<E T=\"51\">−1</E> or less;</P>",
+                "text": "a.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.3",
+            "heading": "'Dry weight' less than 750 kg; and",
+            "label": "9A101.a.3 – 'Dry weight' less than 750 kg; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.3. 'Dry weight' less than 750 kg; <I>and</I></P>",
+                "text": "a.3. 'Dry weight' less than 750 kg; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.4",
+            "heading": "'First-stage rotor diameter' less than 1 m; or",
+            "label": "9A101.a.4 – 'First-stage rotor diameter' less than 1 m; or",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4. 'First-stage rotor diameter' less than 1 m; <I>or</I></P>",
+                "text": "a.4. 'First-stage rotor diameter' less than 1 m; or",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Notes:</I>\n</HED>\n<P><I>1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type.</I></P>\n<P><I>2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere.</I></P>\n<P><I>3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing).</I></P>\n<P><I>4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.</I></P></NOTE>",
+                "text": "Technical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere. 3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-02",
+      "fetchedAt": "2025-10-02T20:33:47.757Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-02/title-15?format=xml",
+      "heading": "Engines having all of the following characteristics:",
+      "title": "Engines having all of the following characteristics:",
+      "category": "9",
+      "group": "9A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "9A101 Turbojet and turbofan engines, other than those controlled by 9A001, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "9A101"
+      ],
+      "text": "Engines having all of the following characteristics:\n'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\na.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\nSpecific fuel consumption of 0.15 kg N−1 h−1 or less;\na.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less;\n'Dry weight' less than 750 kg; and\na.3. 'Dry weight' less than 750 kg; and\n'First-stage rotor diameter' less than 1 m; or\na.4. 'First-stage rotor diameter' less than 1 m; or\nTechnical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere. 3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+      "structure": {
+        "identifier": "9A101.a",
+        "heading": "Engines having all of the following characteristics:",
+        "label": "9A101.a – Engines having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "9A101.a.1",
+            "heading": "'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "label": "9A101.a.1 – 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);</P>",
+                "text": "a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.2",
+            "heading": "Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+            "label": "9A101.a.2 – Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. Specific fuel consumption of 0.15 kg N<E T=\"51\">−1</E> h<E T=\"51\">−1</E> or less;</P>",
+                "text": "a.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.3",
+            "heading": "'Dry weight' less than 750 kg; and",
+            "label": "9A101.a.3 – 'Dry weight' less than 750 kg; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.3. 'Dry weight' less than 750 kg; <I>and</I></P>",
+                "text": "a.3. 'Dry weight' less than 750 kg; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.4",
+            "heading": "'First-stage rotor diameter' less than 1 m; or",
+            "label": "9A101.a.4 – 'First-stage rotor diameter' less than 1 m; or",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4. 'First-stage rotor diameter' less than 1 m; <I>or</I></P>",
+                "text": "a.4. 'First-stage rotor diameter' less than 1 m; or",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Notes:</I>\n</HED>\n<P><I>1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type.</I></P>\n<P><I>2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere.</I></P>\n<P><I>3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing).</I></P>\n<P><I>4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.</I></P></NOTE>",
+                "text": "Technical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere. 3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "Engines having all of the following characteristics:",
+      "title": "Engines having all of the following characteristics:",
+      "category": "9",
+      "group": "9A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "9A101 Turbojet and turbofan engines, other than those controlled by 9A001, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "9A101"
+      ],
+      "text": "Engines having all of the following characteristics:\n'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\na.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\nSpecific fuel consumption of 0.15 kg N−1 h−1 or less;\na.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less;\n'Dry weight' less than 750 kg; and\na.3. 'Dry weight' less than 750 kg; and\n'First-stage rotor diameter' less than 1 m; or\na.4. 'First-stage rotor diameter' less than 1 m; or\nTechnical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere. 3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+      "structure": {
+        "identifier": "9A101.a",
+        "heading": "Engines having all of the following characteristics:",
+        "label": "9A101.a – Engines having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "9A101.a.1",
+            "heading": "'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "label": "9A101.a.1 – 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);</P>",
+                "text": "a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.2",
+            "heading": "Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+            "label": "9A101.a.2 – Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. Specific fuel consumption of 0.15 kg N<E T=\"51\">−1</E> h<E T=\"51\">−1</E> or less;</P>",
+                "text": "a.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.3",
+            "heading": "'Dry weight' less than 750 kg; and",
+            "label": "9A101.a.3 – 'Dry weight' less than 750 kg; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.3. 'Dry weight' less than 750 kg; <I>and</I></P>",
+                "text": "a.3. 'Dry weight' less than 750 kg; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.4",
+            "heading": "'First-stage rotor diameter' less than 1 m; or",
+            "label": "9A101.a.4 – 'First-stage rotor diameter' less than 1 m; or",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4. 'First-stage rotor diameter' less than 1 m; <I>or</I></P>",
+                "text": "a.4. 'First-stage rotor diameter' less than 1 m; or",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Notes:</I>\n</HED>\n<P><I>1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type.</I></P>\n<P><I>2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere.</I></P>\n<P><I>3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing).</I></P>\n<P><I>4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.</I></P></NOTE>",
+                "text": "Technical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere. 3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "Engines having all of the following characteristics:",
+      "title": "Engines having all of the following characteristics:",
+      "category": "9",
+      "group": "9A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "9A101 Turbojet and turbofan engines, other than those controlled by 9A001, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "9A101"
+      ],
+      "text": "Engines having all of the following characteristics:\n'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\na.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\nSpecific fuel consumption of 0.15 kg N−1 h−1 or less;\na.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less;\n'Dry weight' less than 750 kg; and\na.3. 'Dry weight' less than 750 kg; and\n'First-stage rotor diameter' less than 1 m; or\na.4. 'First-stage rotor diameter' less than 1 m; or\nTechnical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere. 3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+      "structure": {
+        "identifier": "9A101.a",
+        "heading": "Engines having all of the following characteristics:",
+        "label": "9A101.a – Engines having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "9A101.a.1",
+            "heading": "'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "label": "9A101.a.1 – 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);</P>",
+                "text": "a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.2",
+            "heading": "Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+            "label": "9A101.a.2 – Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. Specific fuel consumption of 0.15 kg N<E T=\"51\">−1</E> h<E T=\"51\">−1</E> or less;</P>",
+                "text": "a.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.3",
+            "heading": "'Dry weight' less than 750 kg; and",
+            "label": "9A101.a.3 – 'Dry weight' less than 750 kg; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.3. 'Dry weight' less than 750 kg; <I>and</I></P>",
+                "text": "a.3. 'Dry weight' less than 750 kg; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.4",
+            "heading": "'First-stage rotor diameter' less than 1 m; or",
+            "label": "9A101.a.4 – 'First-stage rotor diameter' less than 1 m; or",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4. 'First-stage rotor diameter' less than 1 m; <I>or</I></P>",
+                "text": "a.4. 'First-stage rotor diameter' less than 1 m; or",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Notes:</I>\n</HED>\n<P><I>1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type.</I></P>\n<P><I>2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere.</I></P>\n<P><I>3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing).</I></P>\n<P><I>4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.</I></P></NOTE>",
+                "text": "Technical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere. 3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "Engines having all of the following characteristics:",
+      "title": "Engines having all of the following characteristics:",
+      "category": "9",
+      "group": "9A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "9A101 Turbojet and turbofan engines, other than those controlled by 9A001, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "9A101"
+      ],
+      "text": "Engines having all of the following characteristics:\n'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\na.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\nSpecific fuel consumption of 0.15 kg N−1 h−1 or less;\na.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less;\n'Dry weight' less than 750 kg; and\na.3. 'Dry weight' less than 750 kg; and\n'First-stage rotor diameter' less than 1 m; or\na.4. 'First-stage rotor diameter' less than 1 m; or\nTechnical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere. 3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+      "structure": {
+        "identifier": "9A101.a",
+        "heading": "Engines having all of the following characteristics:",
+        "label": "9A101.a – Engines having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "9A101.a.1",
+            "heading": "'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "label": "9A101.a.1 – 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);</P>",
+                "text": "a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.2",
+            "heading": "Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+            "label": "9A101.a.2 – Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. Specific fuel consumption of 0.15 kg N<E T=\"51\">−1</E> h<E T=\"51\">−1</E> or less;</P>",
+                "text": "a.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.3",
+            "heading": "'Dry weight' less than 750 kg; and",
+            "label": "9A101.a.3 – 'Dry weight' less than 750 kg; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.3. 'Dry weight' less than 750 kg; <I>and</I></P>",
+                "text": "a.3. 'Dry weight' less than 750 kg; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.4",
+            "heading": "'First-stage rotor diameter' less than 1 m; or",
+            "label": "9A101.a.4 – 'First-stage rotor diameter' less than 1 m; or",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4. 'First-stage rotor diameter' less than 1 m; <I>or</I></P>",
+                "text": "a.4. 'First-stage rotor diameter' less than 1 m; or",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Notes:</I>\n</HED>\n<P><I>1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type.</I></P>\n<P><I>2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere.</I></P>\n<P><I>3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing).</I></P>\n<P><I>4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.</I></P></NOTE>",
+                "text": "Technical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere. 3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "Engines having all of the following characteristics:",
+      "title": "Engines having all of the following characteristics:",
+      "category": "9",
+      "group": "9A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "9A101 Turbojet and turbofan engines, other than those controlled by 9A001, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "9A101"
+      ],
+      "text": "Engines having all of the following characteristics:\n'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\na.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\nSpecific fuel consumption of 0.15 kg N−1 h−1 or less;\na.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less;\n'Dry weight' less than 750 kg; and\na.3. 'Dry weight' less than 750 kg; and\n'First-stage rotor diameter' less than 1 m; or\na.4. 'First-stage rotor diameter' less than 1 m; or\nTechnical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere. 3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+      "structure": {
+        "identifier": "9A101.a",
+        "heading": "Engines having all of the following characteristics:",
+        "label": "9A101.a – Engines having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "9A101.a.1",
+            "heading": "'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "label": "9A101.a.1 – 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);</P>",
+                "text": "a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.2",
+            "heading": "Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+            "label": "9A101.a.2 – Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. Specific fuel consumption of 0.15 kg N<E T=\"51\">−1</E> h<E T=\"51\">−1</E> or less;</P>",
+                "text": "a.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.3",
+            "heading": "'Dry weight' less than 750 kg; and",
+            "label": "9A101.a.3 – 'Dry weight' less than 750 kg; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.3. 'Dry weight' less than 750 kg; <I>and</I></P>",
+                "text": "a.3. 'Dry weight' less than 750 kg; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.4",
+            "heading": "'First-stage rotor diameter' less than 1 m; or",
+            "label": "9A101.a.4 – 'First-stage rotor diameter' less than 1 m; or",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4. 'First-stage rotor diameter' less than 1 m; <I>or</I></P>",
+                "text": "a.4. 'First-stage rotor diameter' less than 1 m; or",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Notes:</I>\n</HED>\n<P><I>1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type.</I></P>\n<P><I>2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere.</I></P>\n<P><I>3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing).</I></P>\n<P><I>4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.</I></P></NOTE>",
+                "text": "Technical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere. 3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "Engines having all of the following characteristics:",
+      "title": "Engines having all of the following characteristics:",
+      "category": "9",
+      "group": "9A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "9A101 Turbojet and turbofan engines, other than those controlled by 9A001, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "9A101"
+      ],
+      "text": "Engines having all of the following characteristics:\n'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\na.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\nSpecific fuel consumption of 0.15 kg N−1 h−1 or less;\na.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less;\n'Dry weight' less than 750 kg; and\na.3. 'Dry weight' less than 750 kg; and\n'First-stage rotor diameter' less than 1 m; or\na.4. 'First-stage rotor diameter' less than 1 m; or\nTechnical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere. 3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+      "structure": {
+        "identifier": "9A101.a",
+        "heading": "Engines having all of the following characteristics:",
+        "label": "9A101.a – Engines having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "9A101.a.1",
+            "heading": "'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "label": "9A101.a.1 – 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);</P>",
+                "text": "a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.2",
+            "heading": "Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+            "label": "9A101.a.2 – Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. Specific fuel consumption of 0.15 kg N<E T=\"51\">−1</E> h<E T=\"51\">−1</E> or less;</P>",
+                "text": "a.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.3",
+            "heading": "'Dry weight' less than 750 kg; and",
+            "label": "9A101.a.3 – 'Dry weight' less than 750 kg; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.3. 'Dry weight' less than 750 kg; <I>and</I></P>",
+                "text": "a.3. 'Dry weight' less than 750 kg; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.4",
+            "heading": "'First-stage rotor diameter' less than 1 m; or",
+            "label": "9A101.a.4 – 'First-stage rotor diameter' less than 1 m; or",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4. 'First-stage rotor diameter' less than 1 m; <I>or</I></P>",
+                "text": "a.4. 'First-stage rotor diameter' less than 1 m; or",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Notes:</I>\n</HED>\n<P><I>1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type.</I></P>\n<P><I>2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere.</I></P>\n<P><I>3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing).</I></P>\n<P><I>4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.</I></P></NOTE>",
+                "text": "Technical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere. 3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "Engines having all of the following characteristics:",
+      "title": "Engines having all of the following characteristics:",
+      "category": "9",
+      "group": "9A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "9A101 Turbojet and turbofan engines, other than those controlled by 9A001, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "9A101"
+      ],
+      "text": "Engines having all of the following characteristics:\n'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\na.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\nSpecific fuel consumption of 0.15 kg N−1 h−1 or less;\na.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less;\n'Dry weight' less than 750 kg; and\na.3. 'Dry weight' less than 750 kg; and\n'First-stage rotor diameter' less than 1 m; or\na.4. 'First-stage rotor diameter' less than 1 m; or\nTechnical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere. 3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+      "structure": {
+        "identifier": "9A101.a",
+        "heading": "Engines having all of the following characteristics:",
+        "label": "9A101.a – Engines having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "9A101.a.1",
+            "heading": "'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "label": "9A101.a.1 – 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);</P>",
+                "text": "a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.2",
+            "heading": "Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+            "label": "9A101.a.2 – Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. Specific fuel consumption of 0.15 kg N<E T=\"51\">−1</E> h<E T=\"51\">−1</E> or less;</P>",
+                "text": "a.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.3",
+            "heading": "'Dry weight' less than 750 kg; and",
+            "label": "9A101.a.3 – 'Dry weight' less than 750 kg; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.3. 'Dry weight' less than 750 kg; <I>and</I></P>",
+                "text": "a.3. 'Dry weight' less than 750 kg; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.4",
+            "heading": "'First-stage rotor diameter' less than 1 m; or",
+            "label": "9A101.a.4 – 'First-stage rotor diameter' less than 1 m; or",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4. 'First-stage rotor diameter' less than 1 m; <I>or</I></P>",
+                "text": "a.4. 'First-stage rotor diameter' less than 1 m; or",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Notes:</I>\n</HED>\n<P><I>1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type.</I></P>\n<P><I>2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere.</I></P>\n<P><I>3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing).</I></P>\n<P><I>4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.</I></P></NOTE>",
+                "text": "Technical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere. 3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "Engines having all of the following characteristics:",
+      "title": "Engines having all of the following characteristics:",
+      "category": "9",
+      "group": "9A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "9A101 Turbojet and turbofan engines, other than those controlled by 9A001, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "9A101"
+      ],
+      "text": "Engines having all of the following characteristics:\n'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\na.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\nSpecific fuel consumption of 0.15 kg N−1 h−1 or less;\na.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less;\n'Dry weight' less than 750 kg; and\na.3. 'Dry weight' less than 750 kg; and\n'First-stage rotor diameter' less than 1 m; or\na.4. 'First-stage rotor diameter' less than 1 m; or\nTechnical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere. 3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+      "structure": {
+        "identifier": "9A101.a",
+        "heading": "Engines having all of the following characteristics:",
+        "label": "9A101.a – Engines having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "9A101.a.1",
+            "heading": "'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "label": "9A101.a.1 – 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\n</P>",
+                "text": "a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.2",
+            "heading": "Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+            "label": "9A101.a.2 – Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. Specific fuel consumption of 0.15 kg N<E T=\"51\">−1</E> h<E T=\"51\">−1</E> or less;\n</P>",
+                "text": "a.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.3",
+            "heading": "'Dry weight' less than 750 kg; and",
+            "label": "9A101.a.3 – 'Dry weight' less than 750 kg; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.3. 'Dry weight' less than 750 kg; <I>and</I>\n</P>",
+                "text": "a.3. 'Dry weight' less than 750 kg; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.4",
+            "heading": "'First-stage rotor diameter' less than 1 m; or",
+            "label": "9A101.a.4 – 'First-stage rotor diameter' less than 1 m; or",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4. 'First-stage rotor diameter' less than 1 m; <I>or</I>\n</P>",
+                "text": "a.4. 'First-stage rotor diameter' less than 1 m; or",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Notes:</I>\n</HED>\n<P><I>1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type.</I>\n</P>\n<P><I>2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere.</I>\n</P>\n<P><I>3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing).</I>\n</P>\n<P><I>4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.</I></P></NOTE>",
+                "text": "Technical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere. 3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "Engines having all of the following characteristics:",
+      "title": "Engines having all of the following characteristics:",
+      "category": "9",
+      "group": "9A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "9A101 Turbojet and turbofan engines, other than those controlled by 9A001, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "9A101"
+      ],
+      "text": "Engines having all of the following characteristics:\n'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\na.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\nSpecific fuel consumption of 0.15 kg N−1 h−1 or less;\na.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less;\n'Dry weight' less than 750 kg; and\na.3. 'Dry weight' less than 750 kg; and\n'First-stage rotor diameter' less than 1 m; or\na.4. 'First-stage rotor diameter' less than 1 m; or\nTechnical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere. 3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+      "structure": {
+        "identifier": "9A101.a",
+        "heading": "Engines having all of the following characteristics:",
+        "label": "9A101.a – Engines having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "9A101.a.1",
+            "heading": "'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "label": "9A101.a.1 – 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);\n</P>",
+                "text": "a.1. 'Maximum thrust value' greater than 400 N (achieved un-installed) excluding civil certified engines with a maximum thrust value greater than 8,890 N (achieved un-installed);",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.2",
+            "heading": "Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+            "label": "9A101.a.2 – Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. Specific fuel consumption of 0.15 kg N<E T=\"51\">−1</E> h<E T=\"51\">−1</E> or less;\n</P>",
+                "text": "a.2. Specific fuel consumption of 0.15 kg N−1 h−1 or less;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.3",
+            "heading": "'Dry weight' less than 750 kg; and",
+            "label": "9A101.a.3 – 'Dry weight' less than 750 kg; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.3. 'Dry weight' less than 750 kg; <I>and</I>\n</P>",
+                "text": "a.3. 'Dry weight' less than 750 kg; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "9A101.a.4",
+            "heading": "'First-stage rotor diameter' less than 1 m; or",
+            "label": "9A101.a.4 – 'First-stage rotor diameter' less than 1 m; or",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4. 'First-stage rotor diameter' less than 1 m; <I>or</I>\n</P>",
+                "text": "a.4. 'First-stage rotor diameter' less than 1 m; or",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Notes:</I>\n</HED>\n<P><I>1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type.</I>\n</P>\n<P><I>2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere.</I>\n</P>\n<P><I>3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing).</I>\n</P>\n<P><I>4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.</I></P></NOTE>",
+                "text": "Technical Notes: 1. 'Maximum thrust value' in 9A101.a.1 is the manufacturer's demonstrated maximum thrust for the engine type un-installed at sea level static conditions using the ICAO standard atmosphere. The civil type certified thrust value will be equal to or less than the manufacturer's demonstrated maximum thrust for the engine type. 2. Specific fuel consumption is determined at maximum continuous thrust for engine type un-installed at sea level static conditions using the ICAO standard atmosphere. 3. 'Dry weight' is the weight of the engine without fluids (fuel, hydraulic fluid, oil, etc.) and does not include the nacelle (housing). 4. 'First-stage rotor diameter' is the diameter of the first rotating stage of the engine, whether a fan or compressor, measured at the leading edge of the blade tips.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    }
+  ]
+}

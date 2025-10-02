@@ -1,0 +1,1659 @@
+{
+  "eccn": "3A001.z.i",
+  "normalized": "3A001.Z.I",
+  "history": [
+    {
+      "version": "2023-11-17",
+      "fetchedAt": "2025-10-02T20:33:43.584Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-11-17/title-15?format=xml",
+      "heading": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+      "title": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774—Sensitive List"
+      },
+      "breadcrumbs": [
+        "(3) Category 3",
+        "(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.z"
+      ],
+      "text": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:\n(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:\n(A.1.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;\n(A.2.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;\n(A.3.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or\n(A.4.) A peak saturated power output greater than 120 W (50.8 dBm) at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;\n(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including 12 GHz with a “fractional bandwidth” greater than 10%, and having any of the following:\n(B.1) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or\n(B.2.) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 8.5 GHz up to and including 12 GHz.",
+      "structure": {
+        "identifier": "3A001.z.i",
+        "heading": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+        "label": "3A001.z.i – Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:</P>",
+            "text": "(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.1.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;</P>",
+            "text": "(A.1.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.2.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;</P>",
+            "text": "(A.2.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.3.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or</P>",
+            "text": "(A.3.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.4.) A peak saturated power output greater than <I>120 W (50.8 dBm)</I> at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;</P>",
+            "text": "(A.4.) A peak saturated power output greater than 120 W (50.8 dBm) at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including <I>12 GHz</I> with a “fractional bandwidth” greater than 10%, and having any of the following:</P>",
+            "text": "(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including 12 GHz with a “fractional bandwidth” greater than 10%, and having any of the following:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B.1) A peak saturated power output greater than <I>25 W (44 dBm)</I> at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or</P>",
+            "text": "(B.1) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B.2.) A peak saturated power output greater than <I>25 W (44 dBm)</I> at any frequency exceeding 8.5 GHz up to and including <I>12 GHz.</I></P>",
+            "text": "(B.2.) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 8.5 GHz up to and including 12 GHz.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-12-08",
+      "fetchedAt": "2025-10-02T20:33:43.980Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-12-08/title-15?format=xml",
+      "heading": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+      "title": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774—Sensitive List"
+      },
+      "breadcrumbs": [
+        "(3) Category 3",
+        "(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.z"
+      ],
+      "text": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:\n(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:\n(A.1.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;\n(A.2.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;\n(A.3.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or\n(A.4.) A peak saturated power output greater than 120 W (50.8 dBm) at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;\n(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including 12 GHz with a “fractional bandwidth” greater than 10%, and having any of the following:\n(B.1) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or\n(B.2.) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 8.5 GHz up to and including 12 GHz.",
+      "structure": {
+        "identifier": "3A001.z.i",
+        "heading": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+        "label": "3A001.z.i – Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:</P>",
+            "text": "(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.1.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;</P>",
+            "text": "(A.1.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.2.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;</P>",
+            "text": "(A.2.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.3.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or</P>",
+            "text": "(A.3.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.4.) A peak saturated power output greater than <I>120 W (50.8 dBm)</I> at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;</P>",
+            "text": "(A.4.) A peak saturated power output greater than 120 W (50.8 dBm) at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including <I>12 GHz</I> with a “fractional bandwidth” greater than 10%, and having any of the following:</P>",
+            "text": "(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including 12 GHz with a “fractional bandwidth” greater than 10%, and having any of the following:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B.1) A peak saturated power output greater than <I>25 W (44 dBm)</I> at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or</P>",
+            "text": "(B.1) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B.2.) A peak saturated power output greater than <I>25 W (44 dBm)</I> at any frequency exceeding 8.5 GHz up to and including <I>12 GHz.</I></P>",
+            "text": "(B.2.) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 8.5 GHz up to and including 12 GHz.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-03-08",
+      "fetchedAt": "2025-10-02T20:33:44.401Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-08/title-15?format=xml",
+      "heading": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+      "title": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774—Sensitive List"
+      },
+      "breadcrumbs": [
+        "(3) Category 3",
+        "(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.z"
+      ],
+      "text": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:\n(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:\n(A.1.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;\n(A.2.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;\n(A.3.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or\n(A.4.) A peak saturated power output greater than 120 W (50.8 dBm) at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;\n(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including 12 GHz with a “fractional bandwidth” greater than 10%, and having any of the following:\n(B.1) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or\n(B.2.) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 8.5 GHz up to and including 12 GHz.",
+      "structure": {
+        "identifier": "3A001.z.i",
+        "heading": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+        "label": "3A001.z.i – Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:</P>",
+            "text": "(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.1.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;</P>",
+            "text": "(A.1.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.2.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;</P>",
+            "text": "(A.2.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.3.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or</P>",
+            "text": "(A.3.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.4.) A peak saturated power output greater than <I>120 W (50.8 dBm)</I> at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;</P>",
+            "text": "(A.4.) A peak saturated power output greater than 120 W (50.8 dBm) at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including <I>12 GHz</I> with a “fractional bandwidth” greater than 10%, and having any of the following:</P>",
+            "text": "(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including 12 GHz with a “fractional bandwidth” greater than 10%, and having any of the following:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B.1) A peak saturated power output greater than <I>25 W (44 dBm)</I> at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or</P>",
+            "text": "(B.1) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B.2.) A peak saturated power output greater than <I>25 W (44 dBm)</I> at any frequency exceeding 8.5 GHz up to and including <I>12 GHz.</I></P>",
+            "text": "(B.2.) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 8.5 GHz up to and including 12 GHz.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-03-13",
+      "fetchedAt": "2025-10-02T20:33:44.826Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-13/title-15?format=xml",
+      "heading": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+      "title": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774—Sensitive List"
+      },
+      "breadcrumbs": [
+        "(3) Category 3",
+        "(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.z"
+      ],
+      "text": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:\n(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:\n(A.1.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;\n(A.2.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;\n(A.3.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or\n(A.4.) A peak saturated power output greater than 120 W (50.8 dBm) at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;\n(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including 12 GHz with a “fractional bandwidth” greater than 10%, and having any of the following:\n(B.1) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or\n(B.2.) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 8.5 GHz up to and including 12 GHz.",
+      "structure": {
+        "identifier": "3A001.z.i",
+        "heading": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+        "label": "3A001.z.i – Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:</P>",
+            "text": "(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.1.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;</P>",
+            "text": "(A.1.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.2.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;</P>",
+            "text": "(A.2.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.3.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or</P>",
+            "text": "(A.3.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.4.) A peak saturated power output greater than <I>120 W (50.8 dBm)</I> at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;</P>",
+            "text": "(A.4.) A peak saturated power output greater than 120 W (50.8 dBm) at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including <I>12 GHz</I> with a “fractional bandwidth” greater than 10%, and having any of the following:</P>",
+            "text": "(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including 12 GHz with a “fractional bandwidth” greater than 10%, and having any of the following:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B.1) A peak saturated power output greater than <I>25 W (44 dBm)</I> at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or</P>",
+            "text": "(B.1) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B.2.) A peak saturated power output greater than <I>25 W (44 dBm)</I> at any frequency exceeding 8.5 GHz up to and including <I>12 GHz.</I></P>",
+            "text": "(B.2.) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 8.5 GHz up to and including 12 GHz.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-04-04",
+      "fetchedAt": "2025-10-02T20:33:45.229Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-04/title-15?format=xml",
+      "heading": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+      "title": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774—Sensitive List"
+      },
+      "breadcrumbs": [
+        "(3) Category 3",
+        "(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.z"
+      ],
+      "text": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:\n(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:\n(A.1.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;\n(A.2.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;\n(A.3.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or\n(A.4.) A peak saturated power output greater than 120 W (50.8 dBm) at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;\n(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including 12 GHz with a “fractional bandwidth” greater than 10%, and having any of the following:\n(B.1) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or\n(B.2.) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 8.5 GHz up to and including 12 GHz.",
+      "structure": {
+        "identifier": "3A001.z.i",
+        "heading": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+        "label": "3A001.z.i – Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:</P>",
+            "text": "(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.1.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;</P>",
+            "text": "(A.1.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.2.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;</P>",
+            "text": "(A.2.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.3.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or</P>",
+            "text": "(A.3.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.4.) A peak saturated power output greater than <I>120 W (50.8 dBm)</I> at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;</P>",
+            "text": "(A.4.) A peak saturated power output greater than 120 W (50.8 dBm) at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including <I>12 GHz</I> with a “fractional bandwidth” greater than 10%, and having any of the following:</P>",
+            "text": "(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including 12 GHz with a “fractional bandwidth” greater than 10%, and having any of the following:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B.1) A peak saturated power output greater than <I>25 W (44 dBm)</I> at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or</P>",
+            "text": "(B.1) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B.2.) A peak saturated power output greater than <I>25 W (44 dBm)</I> at any frequency exceeding 8.5 GHz up to and including <I>12 GHz.</I></P>",
+            "text": "(B.2.) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 8.5 GHz up to and including 12 GHz.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-04-19",
+      "fetchedAt": "2025-10-02T20:33:45.630Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-19/title-15?format=xml",
+      "heading": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+      "title": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774—Sensitive List"
+      },
+      "breadcrumbs": [
+        "(3) Category 3",
+        "(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.z"
+      ],
+      "text": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:\n(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:\n(A.1.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;\n(A.2.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;\n(A.3.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or\n(A.4.) A peak saturated power output greater than 120 W (50.8 dBm) at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;\n(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including 12 GHz with a “fractional bandwidth” greater than 10%, and having any of the following:\n(B.1) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or\n(B.2.) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 8.5 GHz up to and including 12 GHz.",
+      "structure": {
+        "identifier": "3A001.z.i",
+        "heading": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+        "label": "3A001.z.i – Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:</P>",
+            "text": "(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.1.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;</P>",
+            "text": "(A.1.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.2.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;</P>",
+            "text": "(A.2.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.3.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or</P>",
+            "text": "(A.3.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.4.) A peak saturated power output greater than <I>120 W (50.8 dBm)</I> at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;</P>",
+            "text": "(A.4.) A peak saturated power output greater than 120 W (50.8 dBm) at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including <I>12 GHz</I> with a “fractional bandwidth” greater than 10%, and having any of the following:</P>",
+            "text": "(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including 12 GHz with a “fractional bandwidth” greater than 10%, and having any of the following:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B.1) A peak saturated power output greater than <I>25 W (44 dBm)</I> at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or</P>",
+            "text": "(B.1) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B.2.) A peak saturated power output greater than <I>25 W (44 dBm)</I> at any frequency exceeding 8.5 GHz up to and including <I>12 GHz.</I></P>",
+            "text": "(B.2.) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 8.5 GHz up to and including 12 GHz.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-05-30",
+      "fetchedAt": "2025-10-02T20:33:46.051Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-05-30/title-15?format=xml",
+      "heading": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+      "title": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774—Sensitive List"
+      },
+      "breadcrumbs": [
+        "(3) Category 3",
+        "(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.z"
+      ],
+      "text": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:\n(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:\n(A.1.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;\n(A.2.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;\n(A.3.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or\n(A.4.) A peak saturated power output greater than 120 W (50.8 dBm) at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;\n(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including 12 GHz with a “fractional bandwidth” greater than 10%, and having any of the following:\n(B.1) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or\n(B.2.) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 8.5 GHz up to and including 12 GHz.",
+      "structure": {
+        "identifier": "3A001.z.i",
+        "heading": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+        "label": "3A001.z.i – Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:</P>",
+            "text": "(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.1.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;</P>",
+            "text": "(A.1.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.2.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;</P>",
+            "text": "(A.2.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.3.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or</P>",
+            "text": "(A.3.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.4.) A peak saturated power output greater than <I>120 W (50.8 dBm)</I> at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;</P>",
+            "text": "(A.4.) A peak saturated power output greater than 120 W (50.8 dBm) at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including <I>12 GHz</I> with a “fractional bandwidth” greater than 10%, and having any of the following:</P>",
+            "text": "(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including 12 GHz with a “fractional bandwidth” greater than 10%, and having any of the following:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B.1) A peak saturated power output greater than <I>25 W (44 dBm)</I> at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or</P>",
+            "text": "(B.1) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B.2.) A peak saturated power output greater than <I>25 W (44 dBm)</I> at any frequency exceeding 8.5 GHz up to and including <I>12 GHz.</I></P>",
+            "text": "(B.2.) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 8.5 GHz up to and including 12 GHz.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-06-12",
+      "fetchedAt": "2025-10-02T20:33:46.460Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-06-12/title-15?format=xml",
+      "heading": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+      "title": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774—Sensitive List"
+      },
+      "breadcrumbs": [
+        "(3) Category 3",
+        "(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.z"
+      ],
+      "text": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:\n(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:\n(A.1.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;\n(A.2.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;\n(A.3.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or\n(A.4.) A peak saturated power output greater than 120 W (50.8 dBm) at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;\n(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including 12 GHz with a “fractional bandwidth” greater than 10%, and having any of the following:\n(B.1) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or\n(B.2.) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 8.5 GHz up to and including 12 GHz.",
+      "structure": {
+        "identifier": "3A001.z.i",
+        "heading": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+        "label": "3A001.z.i – Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:</P>",
+            "text": "(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.1.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;</P>",
+            "text": "(A.1.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.2.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;</P>",
+            "text": "(A.2.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.3.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or</P>",
+            "text": "(A.3.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.4.) A peak saturated power output greater than <I>120 W (50.8 dBm)</I> at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;</P>",
+            "text": "(A.4.) A peak saturated power output greater than 120 W (50.8 dBm) at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including <I>12 GHz</I> with a “fractional bandwidth” greater than 10%, and having any of the following:</P>",
+            "text": "(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including 12 GHz with a “fractional bandwidth” greater than 10%, and having any of the following:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B.1) A peak saturated power output greater than <I>25 W (44 dBm)</I> at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or</P>",
+            "text": "(B.1) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B.2.) A peak saturated power output greater than <I>25 W (44 dBm)</I> at any frequency exceeding 8.5 GHz up to and including <I>12 GHz.</I></P>",
+            "text": "(B.2.) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 8.5 GHz up to and including 12 GHz.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-09-06",
+      "fetchedAt": "2025-10-02T20:33:46.879Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-09-06/title-15?format=xml",
+      "heading": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+      "title": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774—Sensitive List"
+      },
+      "breadcrumbs": [
+        "(3) Category 3",
+        "(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.z"
+      ],
+      "text": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:\n(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:\n(A.1.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;\n(A.2.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;\n(A.3.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or\n(A.4.) A peak saturated power output greater than 120 W (50.8 dBm) at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;\n(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including 12 GHz with a “fractional bandwidth” greater than 10%, and having any of the following:\n(B.1) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or\n(B.2.) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 8.5 GHz up to and including 12 GHz.",
+      "structure": {
+        "identifier": "3A001.z.i",
+        "heading": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+        "label": "3A001.z.i – Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:</P>",
+            "text": "(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.1.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;</P>",
+            "text": "(A.1.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.2.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;</P>",
+            "text": "(A.2.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.3.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or</P>",
+            "text": "(A.3.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.4.) A peak saturated power output greater than <I>120 W (50.8 dBm)</I> at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;</P>",
+            "text": "(A.4.) A peak saturated power output greater than 120 W (50.8 dBm) at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including <I>12 GHz</I> with a “fractional bandwidth” greater than 10%, and having any of the following:</P>",
+            "text": "(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including 12 GHz with a “fractional bandwidth” greater than 10%, and having any of the following:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B.1) A peak saturated power output greater than <I>25 W (44 dBm)</I> at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or</P>",
+            "text": "(B.1) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B.2.) A peak saturated power output greater than <I>25 W (44 dBm)</I> at any frequency exceeding 8.5 GHz up to and including <I>12 GHz.</I></P>",
+            "text": "(B.2.) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 8.5 GHz up to and including 12 GHz.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-10-23",
+      "fetchedAt": "2025-10-02T20:33:47.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-10-23/title-15?format=xml",
+      "heading": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+      "title": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774—Sensitive List"
+      },
+      "breadcrumbs": [
+        "(3) Category 3",
+        "(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.z"
+      ],
+      "text": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:\n(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:\n(A.1.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;\n(A.2.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;\n(A.3.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or\n(A.4.) A peak saturated power output greater than 120 W (50.8 dBm) at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;\n(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including 12 GHz with a “fractional bandwidth” greater than 10%, and having any of the following:\n(B.1) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or\n(B.2.) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 8.5 GHz up to and including 12 GHz.",
+      "structure": {
+        "identifier": "3A001.z.i",
+        "heading": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+        "label": "3A001.z.i – Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:</P>",
+            "text": "(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.1.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;</P>",
+            "text": "(A.1.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.2.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;</P>",
+            "text": "(A.2.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.3.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or</P>",
+            "text": "(A.3.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.4.) A peak saturated power output greater than <I>120 W (50.8 dBm)</I> at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;</P>",
+            "text": "(A.4.) A peak saturated power output greater than 120 W (50.8 dBm) at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including <I>12 GHz</I> with a “fractional bandwidth” greater than 10%, and having any of the following:</P>",
+            "text": "(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including 12 GHz with a “fractional bandwidth” greater than 10%, and having any of the following:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B.1) A peak saturated power output greater than <I>25 W (44 dBm)</I> at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or</P>",
+            "text": "(B.1) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B.2.) A peak saturated power output greater than <I>25 W (44 dBm)</I> at any frequency exceeding 8.5 GHz up to and including <I>12 GHz.</I></P>",
+            "text": "(B.2.) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 8.5 GHz up to and including 12 GHz.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-02",
+      "fetchedAt": "2025-10-02T20:33:47.757Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-02/title-15?format=xml",
+      "heading": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+      "title": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774—Sensitive List"
+      },
+      "breadcrumbs": [
+        "(3) Category 3",
+        "(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.z"
+      ],
+      "text": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:\n(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:\n(A.1.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;\n(A.2.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;\n(A.3.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or\n(A.4.) A peak saturated power output greater than 120 W (50.8 dBm) at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;\n(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including 12 GHz with a “fractional bandwidth” greater than 10%, and having any of the following:\n(B.1) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or\n(B.2.) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 8.5 GHz up to and including 12 GHz.",
+      "structure": {
+        "identifier": "3A001.z.i",
+        "heading": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+        "label": "3A001.z.i – Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:</P>",
+            "text": "(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.1.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;</P>",
+            "text": "(A.1.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.2.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;</P>",
+            "text": "(A.2.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.3.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or</P>",
+            "text": "(A.3.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.4.) A peak saturated power output greater than <I>120 W (50.8 dBm)</I> at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;</P>",
+            "text": "(A.4.) A peak saturated power output greater than 120 W (50.8 dBm) at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including <I>12 GHz</I> with a “fractional bandwidth” greater than 10%, and having any of the following:</P>",
+            "text": "(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including 12 GHz with a “fractional bandwidth” greater than 10%, and having any of the following:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B.1) A peak saturated power output greater than <I>25 W (44 dBm)</I> at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or</P>",
+            "text": "(B.1) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B.2.) A peak saturated power output greater than <I>25 W (44 dBm)</I> at any frequency exceeding 8.5 GHz up to and including <I>12 GHz.</I></P>",
+            "text": "(B.2.) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 8.5 GHz up to and including 12 GHz.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+      "title": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774—Sensitive List"
+      },
+      "breadcrumbs": [
+        "(3) Category 3",
+        "(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.z"
+      ],
+      "text": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:\n(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:\n(A.1.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;\n(A.2.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;\n(A.3.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or\n(A.4.) A peak saturated power output greater than 120 W (50.8 dBm) at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;\n(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including 12 GHz with a “fractional bandwidth” greater than 10%, and having any of the following:\n(B.1) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or\n(B.2.) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 8.5 GHz up to and including 12 GHz.",
+      "structure": {
+        "identifier": "3A001.z.i",
+        "heading": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+        "label": "3A001.z.i – Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:</P>",
+            "text": "(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.1.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;</P>",
+            "text": "(A.1.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.2.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;</P>",
+            "text": "(A.2.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.3.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or</P>",
+            "text": "(A.3.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.4.) A peak saturated power output greater than <I>120 W (50.8 dBm)</I> at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;</P>",
+            "text": "(A.4.) A peak saturated power output greater than 120 W (50.8 dBm) at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including <I>12 GHz</I> with a “fractional bandwidth” greater than 10%, and having any of the following:</P>",
+            "text": "(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including 12 GHz with a “fractional bandwidth” greater than 10%, and having any of the following:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B.1) A peak saturated power output greater than <I>25 W (44 dBm)</I> at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or</P>",
+            "text": "(B.1) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B.2.) A peak saturated power output greater than <I>25 W (44 dBm)</I> at any frequency exceeding 8.5 GHz up to and including <I>12 GHz.</I></P>",
+            "text": "(B.2.) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 8.5 GHz up to and including 12 GHz.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+      "title": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774—Sensitive List"
+      },
+      "breadcrumbs": [
+        "(3) Category 3",
+        "(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.z"
+      ],
+      "text": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:\n(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:\n(A.1.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;\n(A.2.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;\n(A.3.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or\n(A.4.) A peak saturated power output greater than 120 W (50.8 dBm) at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;\n(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including 12 GHz with a “fractional bandwidth” greater than 10%, and having any of the following:\n(B.1) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or\n(B.2.) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 8.5 GHz up to and including 12 GHz.",
+      "structure": {
+        "identifier": "3A001.z.i",
+        "heading": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+        "label": "3A001.z.i – Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:</P>",
+            "text": "(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.1.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;</P>",
+            "text": "(A.1.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.2.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;</P>",
+            "text": "(A.2.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.3.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or</P>",
+            "text": "(A.3.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.4.) A peak saturated power output greater than <I>120 W (50.8 dBm)</I> at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;</P>",
+            "text": "(A.4.) A peak saturated power output greater than 120 W (50.8 dBm) at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including <I>12 GHz</I> with a “fractional bandwidth” greater than 10%, and having any of the following:</P>",
+            "text": "(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including 12 GHz with a “fractional bandwidth” greater than 10%, and having any of the following:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B.1) A peak saturated power output greater than <I>25 W (44 dBm)</I> at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or</P>",
+            "text": "(B.1) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B.2.) A peak saturated power output greater than <I>25 W (44 dBm)</I> at any frequency exceeding 8.5 GHz up to and including <I>12 GHz.</I></P>",
+            "text": "(B.2.) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 8.5 GHz up to and including 12 GHz.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+      "title": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774—Sensitive List"
+      },
+      "breadcrumbs": [
+        "(3) Category 3",
+        "(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.z"
+      ],
+      "text": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:\n(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:\n(A.1.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;\n(A.2.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;\n(A.3.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or\n(A.4.) A peak saturated power output greater than 120 W (50.8 dBm) at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;\n(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including 12 GHz with a “fractional bandwidth” greater than 10%, and having any of the following:\n(B.1) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or\n(B.2.) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 8.5 GHz up to and including 12 GHz.",
+      "structure": {
+        "identifier": "3A001.z.i",
+        "heading": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+        "label": "3A001.z.i – Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:</P>",
+            "text": "(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.1.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;</P>",
+            "text": "(A.1.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.2.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;</P>",
+            "text": "(A.2.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.3.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or</P>",
+            "text": "(A.3.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.4.) A peak saturated power output greater than <I>120 W (50.8 dBm)</I> at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;</P>",
+            "text": "(A.4.) A peak saturated power output greater than 120 W (50.8 dBm) at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including <I>12 GHz</I> with a “fractional bandwidth” greater than 10%, and having any of the following:</P>",
+            "text": "(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including 12 GHz with a “fractional bandwidth” greater than 10%, and having any of the following:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B.1) A peak saturated power output greater than <I>25 W (44 dBm)</I> at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or</P>",
+            "text": "(B.1) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B.2.) A peak saturated power output greater than <I>25 W (44 dBm)</I> at any frequency exceeding 8.5 GHz up to and including <I>12 GHz.</I></P>",
+            "text": "(B.2.) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 8.5 GHz up to and including 12 GHz.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+      "title": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774—Sensitive List"
+      },
+      "breadcrumbs": [
+        "(3) Category 3",
+        "(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.z"
+      ],
+      "text": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:\n(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:\n(A.1.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;\n(A.2.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;\n(A.3.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or\n(A.4.) A peak saturated power output greater than 120 W (50.8 dBm) at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;\n(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including 12 GHz with a “fractional bandwidth” greater than 10%, and having any of the following:\n(B.1) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or\n(B.2.) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 8.5 GHz up to and including 12 GHz.",
+      "structure": {
+        "identifier": "3A001.z.i",
+        "heading": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+        "label": "3A001.z.i – Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:</P>",
+            "text": "(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.1.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;</P>",
+            "text": "(A.1.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.2.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;</P>",
+            "text": "(A.2.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.3.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or</P>",
+            "text": "(A.3.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.4.) A peak saturated power output greater than <I>120 W (50.8 dBm)</I> at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;</P>",
+            "text": "(A.4.) A peak saturated power output greater than 120 W (50.8 dBm) at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including <I>12 GHz</I> with a “fractional bandwidth” greater than 10%, and having any of the following:</P>",
+            "text": "(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including 12 GHz with a “fractional bandwidth” greater than 10%, and having any of the following:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B.1) A peak saturated power output greater than <I>25 W (44 dBm)</I> at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or</P>",
+            "text": "(B.1) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B.2.) A peak saturated power output greater than <I>25 W (44 dBm)</I> at any frequency exceeding 8.5 GHz up to and including <I>12 GHz.</I></P>",
+            "text": "(B.2.) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 8.5 GHz up to and including 12 GHz.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+      "title": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774—Sensitive List"
+      },
+      "breadcrumbs": [
+        "(3) Category 3",
+        "(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.z"
+      ],
+      "text": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:\n(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:\n(A.1.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;\n(A.2.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;\n(A.3.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or\n(A.4.) A peak saturated power output greater than 120 W (50.8 dBm) at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;\n(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including 12 GHz with a “fractional bandwidth” greater than 10%, and having any of the following:\n(B.1) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or\n(B.2.) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 8.5 GHz up to and including 12 GHz.",
+      "structure": {
+        "identifier": "3A001.z.i",
+        "heading": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+        "label": "3A001.z.i – Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:</P>",
+            "text": "(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.1.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;</P>",
+            "text": "(A.1.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.2.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;</P>",
+            "text": "(A.2.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.3.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or</P>",
+            "text": "(A.3.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.4.) A peak saturated power output greater than <I>120 W (50.8 dBm)</I> at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;</P>",
+            "text": "(A.4.) A peak saturated power output greater than 120 W (50.8 dBm) at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including <I>12 GHz</I> with a “fractional bandwidth” greater than 10%, and having any of the following:</P>",
+            "text": "(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including 12 GHz with a “fractional bandwidth” greater than 10%, and having any of the following:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B.1) A peak saturated power output greater than <I>25 W (44 dBm)</I> at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or</P>",
+            "text": "(B.1) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B.2.) A peak saturated power output greater than <I>25 W (44 dBm)</I> at any frequency exceeding 8.5 GHz up to and including <I>12 GHz.</I></P>",
+            "text": "(B.2.) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 8.5 GHz up to and including 12 GHz.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+      "title": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774—Sensitive List"
+      },
+      "breadcrumbs": [
+        "(3) Category 3",
+        "(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.z"
+      ],
+      "text": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:\n(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:\n(A.1.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;\n(A.2.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;\n(A.3.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or\n(A.4.) A peak saturated power output greater than 120 W (50.8 dBm) at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;\n(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including 12 GHz with a “fractional bandwidth” greater than 10%, and having any of the following:\n(B.1) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or\n(B.2.) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 8.5 GHz up to and including 12 GHz.",
+      "structure": {
+        "identifier": "3A001.z.i",
+        "heading": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+        "label": "3A001.z.i – Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:</P>",
+            "text": "(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.1.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;</P>",
+            "text": "(A.1.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.2.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;</P>",
+            "text": "(A.2.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.3.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or</P>",
+            "text": "(A.3.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.4.) A peak saturated power output greater than <I>120 W (50.8 dBm)</I> at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;</P>",
+            "text": "(A.4.) A peak saturated power output greater than 120 W (50.8 dBm) at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including <I>12 GHz</I> with a “fractional bandwidth” greater than 10%, and having any of the following:</P>",
+            "text": "(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including 12 GHz with a “fractional bandwidth” greater than 10%, and having any of the following:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B.1) A peak saturated power output greater than <I>25 W (44 dBm)</I> at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or</P>",
+            "text": "(B.1) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B.2.) A peak saturated power output greater than <I>25 W (44 dBm)</I> at any frequency exceeding 8.5 GHz up to and including <I>12 GHz.</I></P>",
+            "text": "(B.2.) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 8.5 GHz up to and including 12 GHz.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+      "title": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774—Sensitive List"
+      },
+      "breadcrumbs": [
+        "(3) Category 3",
+        "(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.z"
+      ],
+      "text": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:\n(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:\n(A.1.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;\n(A.2.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;\n(A.3.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or\n(A.4.) A peak saturated power output greater than 120 W (50.8 dBm) at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;\n(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including 12 GHz with a “fractional bandwidth” greater than 10%, and having any of the following:\n(B.1) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or\n(B.2.) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 8.5 GHz up to and including 12 GHz.",
+      "structure": {
+        "identifier": "3A001.z.i",
+        "heading": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+        "label": "3A001.z.i – Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:\n\n\n\n\n\n\n</P>",
+            "text": "(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.1.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;\n</P>",
+            "text": "(A.1.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.2.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;\n</P>",
+            "text": "(A.2.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.3.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or\n</P>",
+            "text": "(A.3.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.4.) A peak saturated power output greater than <I>120 W (50.8 dBm)</I> at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;\n</P>",
+            "text": "(A.4.) A peak saturated power output greater than 120 W (50.8 dBm) at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including <I>12 GHz</I> with a “fractional bandwidth” greater than 10%, and having any of the following:\n</P>",
+            "text": "(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including 12 GHz with a “fractional bandwidth” greater than 10%, and having any of the following:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B.1) A peak saturated power output greater than <I>25 W (44 dBm)</I> at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or\n</P>",
+            "text": "(B.1) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B.2.) A peak saturated power output greater than <I>25 W (44 dBm)</I> at any frequency exceeding 8.5 GHz up to and including <I>12 GHz.</I>\n\n\n</P>",
+            "text": "(B.2.) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 8.5 GHz up to and including 12 GHz.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+      "title": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774—Sensitive List"
+      },
+      "breadcrumbs": [
+        "(3) Category 3",
+        "(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.z"
+      ],
+      "text": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:\n(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:\n(A.1.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;\n(A.2.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;\n(A.3.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or\n(A.4.) A peak saturated power output greater than 120 W (50.8 dBm) at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;\n(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including 12 GHz with a “fractional bandwidth” greater than 10%, and having any of the following:\n(B.1) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or\n(B.2.) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 8.5 GHz up to and including 12 GHz.",
+      "structure": {
+        "identifier": "3A001.z.i",
+        "heading": "Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+        "label": "3A001.z.i – Rated for operation at frequencies exceeding 2.7 GHz up to and including 6.8 GHz with a “fractional bandwidth” greater than 15%, and having any of the following:",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:\n\n\n\n\n\n\n</P>",
+            "text": "(i) 3A001.b.2 (including those described under 3A001.b.2 that are controlled by 3A001.z)—“Monolithic Microwave Integrated Circuit” (“MMIC”) amplifiers that are any of the following:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.1.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;\n</P>",
+            "text": "(A.1.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.7 GHz up to and including 2.9 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.2.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;\n</P>",
+            "text": "(A.2.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 2.9 GHz up to and including 3.2 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.3.) A peak saturated power output greater than <I>300 W (54.8 dBm)</I> at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or\n</P>",
+            "text": "(A.3.) A peak saturated power output greater than 300 W (54.8 dBm) at any frequency exceeding 3.2 GHz up to and including 3.7 GHz; or",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(A.4.) A peak saturated power output greater than <I>120 W (50.8 dBm)</I> at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;\n</P>",
+            "text": "(A.4.) A peak saturated power output greater than 120 W (50.8 dBm) at any frequency exceeding 3.7 GHz up to and including 6.8 GHz;",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including <I>12 GHz</I> with a “fractional bandwidth” greater than 10%, and having any of the following:\n</P>",
+            "text": "(B) Rated for operation at frequencies exceeding 6.8 GHz up to and including 12 GHz with a “fractional bandwidth” greater than 10%, and having any of the following:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B.1) A peak saturated power output greater than <I>25 W (44 dBm)</I> at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or\n</P>",
+            "text": "(B.1) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 6.8 GHz up to and including 8.5 GHz; or",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>(B.2.) A peak saturated power output greater than <I>25 W (44 dBm)</I> at any frequency exceeding 8.5 GHz up to and including <I>12 GHz.</I>\n\n\n</P>",
+            "text": "(B.2.) A peak saturated power output greater than 25 W (44 dBm) at any frequency exceeding 8.5 GHz up to and including 12 GHz.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "eccn": "3B993.o.1.a",
+  "normalized": "3B993.O.1.A",
+  "history": [
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+      "title": "Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls).",
+        "Annealing equipment designed for 300 mm wafers as follows:",
+        "1 Annealing equipment, operating in a vacuum (equal to or less than 0.01 Pa) environment, performing any of the following:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.o",
+        "3B993.o.1"
+      ],
+      "text": "Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+      "structure": {
+        "identifier": "3B993.o.1.a",
+        "heading": "Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+        "label": "3B993.o.1.a – Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+      "title": "Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls).",
+        "Annealing equipment designed for 300 mm wafers as follows:",
+        "1 Annealing equipment, operating in a vacuum (equal to or less than 0.01 Pa) environment, performing any of the following:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.o",
+        "3B993.o.1"
+      ],
+      "text": "Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+      "structure": {
+        "identifier": "3B993.o.1.a",
+        "heading": "Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+        "label": "3B993.o.1.a – Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+      "title": "Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls).",
+        "Annealing equipment designed for 300 mm wafers as follows:",
+        "1 Annealing equipment, operating in a vacuum (equal to or less than 0.01 Pa) environment, performing any of the following:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.o",
+        "3B993.o.1"
+      ],
+      "text": "Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+      "structure": {
+        "identifier": "3B993.o.1.a",
+        "heading": "Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+        "label": "3B993.o.1.a – Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+      "title": "Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls).",
+        "Annealing equipment designed for 300 mm wafers as follows:",
+        "1 Annealing equipment, operating in a vacuum (equal to or less than 0.01 Pa) environment, performing any of the following:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.o",
+        "3B993.o.1"
+      ],
+      "text": "Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+      "structure": {
+        "identifier": "3B993.o.1.a",
+        "heading": "Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+        "label": "3B993.o.1.a – Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "a Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+      "title": "a Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls), and “specially designed” “components” and “accessories” therefor.",
+        "Annealing equipment designed for 300 mm wafers as follows:",
+        "1 Annealing equipment, operating in a vacuum (equal to or less than 0.01 Pa) environment, performing any of the following:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.o",
+        "3B993.o.1"
+      ],
+      "text": "a Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+      "structure": {
+        "identifier": "3B993.o.1.a",
+        "heading": "a Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+        "label": "3B993.o.1.a – a Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "a Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+      "title": "a Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls), and “specially designed” “components” and “accessories” therefor.",
+        "Annealing equipment designed for 300 mm wafers as follows:",
+        "1 Annealing equipment, operating in a vacuum (equal to or less than 0.01 Pa) environment, performing any of the following:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.o",
+        "3B993.o.1"
+      ],
+      "text": "a Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+      "structure": {
+        "identifier": "3B993.o.1.a",
+        "heading": "a Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+        "label": "3B993.o.1.a – a Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "a Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+      "title": "a Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls), and “specially designed” “components” and “accessories” therefor.",
+        "Annealing equipment designed for 300 mm wafers as follows:",
+        "1 Annealing equipment, operating in a vacuum (equal to or less than 0.01 Pa) environment, performing any of the following:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.o",
+        "3B993.o.1"
+      ],
+      "text": "a Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+      "structure": {
+        "identifier": "3B993.o.1.a",
+        "heading": "a Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+        "label": "3B993.o.1.a – a Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "a Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+      "title": "a Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls), and “specially designed” “components” and “accessories” therefor.",
+        "Annealing equipment designed for 300 mm wafers as follows:",
+        "1 Annealing equipment, operating in a vacuum (equal to or less than 0.01 Pa) environment, performing any of the following:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.o",
+        "3B993.o.1"
+      ],
+      "text": "a Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+      "structure": {
+        "identifier": "3B993.o.1.a",
+        "heading": "a Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+        "label": "3B993.o.1.a – a Reflow of copper (Cu) to minimize or eliminate voids or seams in copper (Cu) metal interconnects; or",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

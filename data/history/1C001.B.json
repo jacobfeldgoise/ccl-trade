@@ -1,0 +1,804 @@
+{
+  "eccn": "1C001.b",
+  "normalized": "1C001.B",
+  "history": [
+    {
+      "version": "2018-11-02",
+      "fetchedAt": "2025-10-02T20:33:32.381Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-11-02/title-15?format=xml",
+      "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "title": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C001 Materials “specially designed” for absorbing electromagnetic radiation, or intrinsically conductive polymers, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C001"
+      ],
+      "text": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);\nNote: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+      "structure": {
+        "identifier": "1C001.b",
+        "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "label": "1C001.b – Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications:</I></P>\n<P><I>a. “Laser” marking of polymers; or</I></P>\n<P><I>b. “Laser” welding of polymers.</I></P></NOTE>",
+            "text": "Note: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-09-11",
+      "fetchedAt": "2025-10-02T20:33:35.161Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-09-11/title-15?format=xml",
+      "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "title": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C001 Materials “Specially Designed” for Absorbing Electromagnetic Radiation, or Intrinsically Conductive Polymers, as Follows (See List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C001"
+      ],
+      "text": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);\nNote: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+      "structure": {
+        "identifier": "1C001.b",
+        "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "label": "1C001.b – Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I> 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications:</I></P>\n<P><I>a. “Laser” marking of polymers; or</I></P>\n<P><I>b. “Laser” welding of polymers.</I></P></NOTE>",
+            "text": "Note: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-10-05",
+      "fetchedAt": "2025-10-02T20:33:35.641Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-10-05/title-15?format=xml",
+      "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "title": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C001 Materials “Specially Designed” for Absorbing Electromagnetic Radiation, or Intrinsically Conductive Polymers, as Follows (See List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C001"
+      ],
+      "text": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);\nNote: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+      "structure": {
+        "identifier": "1C001.b",
+        "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "label": "1C001.b – Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I> 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications:</I></P>\n<P><I>a. “Laser” marking of polymers; or</I></P>\n<P><I>b. “Laser” welding of polymers.</I></P></NOTE>",
+            "text": "Note: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-10-06",
+      "fetchedAt": "2025-10-02T20:33:36.026Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-10-06/title-15?format=xml",
+      "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "title": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C001 Materials “Specially Designed” for Absorbing Electromagnetic Radiation, or Intrinsically Conductive Polymers, as Follows (See List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C001"
+      ],
+      "text": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);\nNote: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+      "structure": {
+        "identifier": "1C001.b",
+        "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "label": "1C001.b – Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I> 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications:</I></P>\n<P><I>a. “Laser” marking of polymers; or</I></P>\n<P><I>b. “Laser” welding of polymers.</I></P></NOTE>",
+            "text": "Note: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-12-04",
+      "fetchedAt": "2025-10-02T20:33:36.431Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-12-04/title-15?format=xml",
+      "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "title": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C001 Materials “Specially Designed” for Absorbing Electromagnetic Radiation, or Intrinsically Conductive Polymers, as Follows (See List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C001"
+      ],
+      "text": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);\nNote: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+      "structure": {
+        "identifier": "1C001.b",
+        "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "label": "1C001.b – Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I> 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications:</I></P>\n<P><I>a. “Laser” marking of polymers; or</I></P>\n<P><I>b. “Laser” welding of polymers.</I></P></NOTE>",
+            "text": "Note: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2021-01-06",
+      "fetchedAt": "2025-10-02T20:33:36.829Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2021-01-06/title-15?format=xml",
+      "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "title": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C001 Materials “Specially Designed” for Absorbing Electromagnetic Radiation, or Intrinsically Conductive Polymers, as Follows (See List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C001"
+      ],
+      "text": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);\nNote: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+      "structure": {
+        "identifier": "1C001.b",
+        "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "label": "1C001.b – Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I> 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications:</I></P>\n<P><I>a. “Laser” marking of polymers; or</I></P>\n<P><I>b. “Laser” welding of polymers.</I></P></NOTE>",
+            "text": "Note: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2021-01-07",
+      "fetchedAt": "2025-10-02T20:33:37.217Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2021-01-07/title-15?format=xml",
+      "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "title": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C001 Materials “Specially Designed” for Absorbing Electromagnetic Radiation, or Intrinsically Conductive Polymers, as Follows (See List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C001"
+      ],
+      "text": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);\nNote: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+      "structure": {
+        "identifier": "1C001.b",
+        "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "label": "1C001.b – Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I> 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications:</I></P>\n<P><I>a. “Laser” marking of polymers; or</I></P>\n<P><I>b. “Laser” welding of polymers.</I></P></NOTE>",
+            "text": "Note: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2021-01-14",
+      "fetchedAt": "2025-10-02T20:33:37.609Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2021-01-14/title-15?format=xml",
+      "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "title": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C001 Materials “Specially Designed” for Absorbing Electromagnetic Radiation, or Intrinsically Conductive Polymers, as Follows (See List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C001"
+      ],
+      "text": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);\nNote: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+      "structure": {
+        "identifier": "1C001.b",
+        "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "label": "1C001.b – Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I> 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications:</I></P>\n<P><I>a. “Laser” marking of polymers; or</I></P>\n<P><I>b. “Laser” welding of polymers.</I></P></NOTE>",
+            "text": "Note: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2021-03-29",
+      "fetchedAt": "2025-10-02T20:33:37.994Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2021-03-29/title-15?format=xml",
+      "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "title": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C001 Materials “specially designed” for absorbing electromagnetic radiation, or intrinsically conductive polymers, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C001"
+      ],
+      "text": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);\nNote: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+      "structure": {
+        "identifier": "1C001.b",
+        "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "label": "1C001.b – Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I>\n</HED>\n<P><I>1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications:</I></P>\n<P><I>a. “Laser” marking of polymers; or</I></P>\n<P><I>b. “Laser” welding of polymers.</I></P></NOTE>",
+            "text": "Note: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2021-09-20",
+      "fetchedAt": "2025-10-02T20:33:38.383Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2021-09-20/title-15?format=xml",
+      "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "title": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C001 Materials “specially designed” for absorbing electromagnetic radiation, or intrinsically conductive polymers, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C001"
+      ],
+      "text": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);\nNote: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+      "structure": {
+        "identifier": "1C001.b",
+        "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "label": "1C001.b – Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I>\n</HED>\n<P><I>1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications:</I></P>\n<P><I>a. “Laser” marking of polymers; or</I></P>\n<P><I>b. “Laser” welding of polymers.</I></P></NOTE>",
+            "text": "Note: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2021-10-05",
+      "fetchedAt": "2025-10-02T20:33:38.778Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2021-10-05/title-15?format=xml",
+      "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "title": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C001 Materials “specially designed” for absorbing electromagnetic radiation, or intrinsically conductive polymers, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C001"
+      ],
+      "text": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);\nNote: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+      "structure": {
+        "identifier": "1C001.b",
+        "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "label": "1C001.b – Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I>\n</HED>\n<P><I>1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications:</I></P>\n<P><I>a. “Laser” marking of polymers; or</I></P>\n<P><I>b. “Laser” welding of polymers.</I></P></NOTE>",
+            "text": "Note: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2021-12-06",
+      "fetchedAt": "2025-10-02T20:33:39.172Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2021-12-06/title-15?format=xml",
+      "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "title": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C001 Materials “specially designed” for absorbing electromagnetic radiation, or intrinsically conductive polymers, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C001"
+      ],
+      "text": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);\nNote: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+      "structure": {
+        "identifier": "1C001.b",
+        "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "label": "1C001.b – Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I>\n</HED>\n<P><I>1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications:</I></P>\n<P><I>a. “Laser” marking of polymers; or</I></P>\n<P><I>b. “Laser” welding of polymers.</I></P></NOTE>",
+            "text": "Note: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2022-01-06",
+      "fetchedAt": "2025-10-02T20:33:39.613Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2022-01-06/title-15?format=xml",
+      "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "title": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C001 Materials “specially designed” for absorbing electromagnetic radiation, or intrinsically conductive polymers, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C001"
+      ],
+      "text": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);\nNote: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+      "structure": {
+        "identifier": "1C001.b",
+        "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "label": "1C001.b – Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I>\n</HED>\n<P><I>1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications:</I></P>\n<P><I>a. “Laser” marking of polymers; or</I></P>\n<P><I>b. “Laser” welding of polymers.</I></P></NOTE>",
+            "text": "Note: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2022-01-19",
+      "fetchedAt": "2025-10-02T20:33:40.017Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2022-01-19/title-15?format=xml",
+      "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "title": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C001 Materials “specially designed” for absorbing electromagnetic radiation, or intrinsically conductive polymers, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C001"
+      ],
+      "text": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);\nNote: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+      "structure": {
+        "identifier": "1C001.b",
+        "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "label": "1C001.b – Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I>\n</HED>\n<P><I>1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications:</I></P>\n<P><I>a. “Laser” marking of polymers; or</I></P>\n<P><I>b. “Laser” welding of polymers.</I></P></NOTE>",
+            "text": "Note: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2022-02-03",
+      "fetchedAt": "2025-10-02T20:33:40.404Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2022-02-03/title-15?format=xml",
+      "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "title": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C001 Materials “specially designed” for absorbing electromagnetic radiation, or intrinsically conductive polymers, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C001"
+      ],
+      "text": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);\nNote: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+      "structure": {
+        "identifier": "1C001.b",
+        "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "label": "1C001.b – Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I>\n</HED>\n<P><I>1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications:</I></P>\n<P><I>a. “Laser” marking of polymers; or</I></P>\n<P><I>b. “Laser” welding of polymers.</I></P></NOTE>",
+            "text": "Note: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2022-05-26",
+      "fetchedAt": "2025-10-02T20:33:40.828Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2022-05-26/title-15?format=xml",
+      "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "title": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C001 Materials “specially designed” for absorbing electromagnetic radiation, or intrinsically conductive polymers, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C001"
+      ],
+      "text": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);\nNote: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+      "structure": {
+        "identifier": "1C001.b",
+        "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "label": "1C001.b – Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I>\n</HED>\n<P><I>1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications:</I></P>\n<P><I>a. “Laser” marking of polymers; or</I></P>\n<P><I>b. “Laser” welding of polymers.</I></P></NOTE>",
+            "text": "Note: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2022-08-15",
+      "fetchedAt": "2025-10-02T20:33:41.210Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2022-08-15/title-15?format=xml",
+      "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "title": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C001 Materials “specially designed” for absorbing electromagnetic radiation, or intrinsically conductive polymers, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C001"
+      ],
+      "text": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);\nNote: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+      "structure": {
+        "identifier": "1C001.b",
+        "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "label": "1C001.b – Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I>\n</HED>\n<P><I>1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications:</I></P>\n<P><I>a. “Laser” marking of polymers; or</I></P>\n<P><I>b. “Laser” welding of polymers.</I></P></NOTE>",
+            "text": "Note: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2022-10-07",
+      "fetchedAt": "2025-10-02T20:33:41.595Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2022-10-07/title-15?format=xml",
+      "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "title": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C001 Materials “specially designed” for absorbing electromagnetic radiation, or intrinsically conductive polymers, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C001"
+      ],
+      "text": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);\nNote: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+      "structure": {
+        "identifier": "1C001.b",
+        "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "label": "1C001.b – Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications:</I></P>\n<P><I>a. “Laser” marking of polymers; or</I></P>\n<P><I>b. “Laser” welding of polymers.</I></P></NOTE>",
+            "text": "Note: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-01-17",
+      "fetchedAt": "2025-10-02T20:33:41.990Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-01-17/title-15?format=xml",
+      "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "title": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C001 Materials “specially designed” for absorbing electromagnetic radiation, or intrinsically conductive polymers, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C001"
+      ],
+      "text": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);\nNote: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+      "structure": {
+        "identifier": "1C001.b",
+        "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "label": "1C001.b – Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications:</I></P>\n<P><I>a. “Laser” marking of polymers; or</I></P>\n<P><I>b. “Laser” welding of polymers.</I></P></NOTE>",
+            "text": "Note: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-02-24",
+      "fetchedAt": "2025-10-02T20:33:42.390Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-02-24/title-15?format=xml",
+      "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "title": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C001 Materials “specially designed” for absorbing electromagnetic radiation, or intrinsically conductive polymers, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C001"
+      ],
+      "text": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);\nNote: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+      "structure": {
+        "identifier": "1C001.b",
+        "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "label": "1C001.b – Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications:</I></P>\n<P><I>a. “Laser” marking of polymers; or</I></P>\n<P><I>b. “Laser” welding of polymers.</I></P></NOTE>",
+            "text": "Note: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-08-18",
+      "fetchedAt": "2025-10-02T20:33:42.783Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-08-18/title-15?format=xml",
+      "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "title": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C001 Materials “specially designed” for absorbing electromagnetic radiation, or intrinsically conductive polymers, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C001"
+      ],
+      "text": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);\nNote: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+      "structure": {
+        "identifier": "1C001.b",
+        "heading": "Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "label": "1C001.b – Materials not transparent to visible light and specially designed for absorbing near-infrared radiation having a wavelength exceeding 810 nm but less than 2,000 nm (frequencies exceeding 150 THz but less than 370 THz);",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications:</I></P>\n<P><I>a. “Laser” marking of polymers; or</I></P>\n<P><I>b. “Laser” welding of polymers.</I></P></NOTE>",
+            "text": "Note: 1C001.b does not apply to materials, “specially designed” or formulated for any of the following applications: a. “Laser” marking of polymers; or b. “Laser” welding of polymers.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "eccn": "3B090.a.10",
+  "normalized": "3B090.A.10",
+  "history": [
+    {
+      "version": "2023-01-17",
+      "fetchedAt": "2025-10-02T20:33:41.990Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-01-17/title-15?format=xml",
+      "heading": "Equipment capable of area selective deposition of a barrier or liner using an organometallic compound.",
+      "title": "Equipment capable of area selective deposition of a barrier or liner using an organometallic compound.",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B090 Semiconductor manufacturing equipment, not Controlled by 3B001, as follows (see List of Items Controlled) and “specially designed” “parts,” “components,” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:"
+      ],
+      "ancestors": [
+        "3B090",
+        "3B090.a"
+      ],
+      "text": "Equipment capable of area selective deposition of a barrier or liner using an organometallic compound.\nNote: 3B090.a.10 includes equipment capable of area selective deposition of a barrier layer to enable fill metal contact to an underlying electrical conductor without a barrier layer at the fill metal via interface to an underlying electrical conductor.",
+      "structure": {
+        "identifier": "3B090.a.10",
+        "heading": "Equipment capable of area selective deposition of a barrier or liner using an organometallic compound.",
+        "label": "3B090.a.10 – Equipment capable of area selective deposition of a barrier or liner using an organometallic compound.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>3B090.a.10 includes equipment capable of area selective deposition of a barrier layer to enable fill metal contact to an underlying electrical conductor without a barrier layer at the fill metal via interface to an underlying electrical conductor.</I></P></NOTE>",
+            "text": "Note: 3B090.a.10 includes equipment capable of area selective deposition of a barrier layer to enable fill metal contact to an underlying electrical conductor without a barrier layer at the fill metal via interface to an underlying electrical conductor.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-02-24",
+      "fetchedAt": "2025-10-02T20:33:42.390Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-02-24/title-15?format=xml",
+      "heading": "Equipment capable of area selective deposition of a barrier or liner using an organometallic compound.",
+      "title": "Equipment capable of area selective deposition of a barrier or liner using an organometallic compound.",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B090 Semiconductor manufacturing equipment, not controlled by 3B001, as follows (see List of Items Controlled) and “specially designed” “parts,” “components,” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:"
+      ],
+      "ancestors": [
+        "3B090",
+        "3B090.a"
+      ],
+      "text": "Equipment capable of area selective deposition of a barrier or liner using an organometallic compound.",
+      "structure": {
+        "identifier": "3B090.a.10",
+        "heading": "Equipment capable of area selective deposition of a barrier or liner using an organometallic compound.",
+        "label": "3B090.a.10 – Equipment capable of area selective deposition of a barrier or liner using an organometallic compound.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-08-18",
+      "fetchedAt": "2025-10-02T20:33:42.783Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-08-18/title-15?format=xml",
+      "heading": "Equipment capable of area selective deposition of a barrier or liner using an organometallic compound.",
+      "title": "Equipment capable of area selective deposition of a barrier or liner using an organometallic compound.",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B090 Semiconductor manufacturing equipment, not controlled by 3B001, as follows (see List of Items Controlled) and “specially designed” “parts,” “components,” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:"
+      ],
+      "ancestors": [
+        "3B090",
+        "3B090.a"
+      ],
+      "text": "Equipment capable of area selective deposition of a barrier or liner using an organometallic compound.",
+      "structure": {
+        "identifier": "3B090.a.10",
+        "heading": "Equipment capable of area selective deposition of a barrier or liner using an organometallic compound.",
+        "label": "3B090.a.10 – Equipment capable of area selective deposition of a barrier or liner using an organometallic compound.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-10-18",
+      "fetchedAt": "2025-10-02T20:33:43.173Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-10-18/title-15?format=xml",
+      "heading": "Equipment capable of area selective deposition of a barrier or liner using an organometallic compound.",
+      "title": "Equipment capable of area selective deposition of a barrier or liner using an organometallic compound.",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B090 Semiconductor manufacturing equipment, not controlled by 3B001, as follows (see List of Items Controlled) and “specially designed” “parts,” “components,” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:"
+      ],
+      "ancestors": [
+        "3B090",
+        "3B090.a"
+      ],
+      "text": "Equipment capable of area selective deposition of a barrier or liner using an organometallic compound.",
+      "structure": {
+        "identifier": "3B090.a.10",
+        "heading": "Equipment capable of area selective deposition of a barrier or liner using an organometallic compound.",
+        "label": "3B090.a.10 – Equipment capable of area selective deposition of a barrier or liner using an organometallic compound.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

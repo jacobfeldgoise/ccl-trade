@@ -1,0 +1,411 @@
+{
+  "eccn": "2B206.if",
+  "normalized": "2B206.IF",
+  "history": [
+    {
+      "version": "2017-01-15",
+      "fetchedAt": "2025-10-02T20:33:28.357Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-15/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B206 Dimensional inspection machines, instruments or systems, other than those described in 2B006, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "2B206"
+      ],
+      "text": "2B206.if\nControl Notes to ECCN 2B206: (1) Machine tools that can be used as measuring machines are controlled by ECCN 2B206 if they meet or exceed the control parameters specified in this entry for the measuring machine function. (2) The machines described in ECCN 2B206 are controlled by this entry if they exceed the specified control threshold anywhere in their operating range.\nTechnical Note to ECCN 2B206: All parameters of measurement values in this entry represent plus/minus, i.e., not total band.",
+      "structure": {
+        "identifier": "2B206.if",
+        "heading": null,
+        "label": "2B206.if",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>Control Notes to ECCN 2B206: (1) Machine tools that can be used as measuring machines are controlled by ECCN 2B206 if they meet or exceed the control parameters specified in this entry for the measuring machine function. (2) The machines described in ECCN 2B206 are controlled by this entry if they exceed the specified control threshold anywhere in their operating range.</I></P>",
+            "text": "Control Notes to ECCN 2B206: (1) Machine tools that can be used as measuring machines are controlled by ECCN 2B206 if they meet or exceed the control parameters specified in this entry for the measuring machine function. (2) The machines described in ECCN 2B206 are controlled by this entry if they exceed the specified control threshold anywhere in their operating range.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE><HED><I>Technical Note to ECCN 2B206: All parameters of measurement values in this entry represent plus/minus, i.e., not total band.</I></HED></NOTE>",
+            "text": "Technical Note to ECCN 2B206: All parameters of measurement values in this entry represent plus/minus, i.e., not total band.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-07-07",
+      "fetchedAt": "2025-10-02T20:33:28.904Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-07-07/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B206 Dimensional inspection machines, instruments or systems, other than those described in 2B006, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "2B206"
+      ],
+      "text": "2B206.if\nControl Notes to ECCN 2B206: (1) Machine tools that can be used as measuring machines are controlled by ECCN 2B206 if they meet or exceed the control parameters specified in this entry for the measuring machine function. (2) The machines described in ECCN 2B206 are controlled by this entry if they exceed the specified control threshold anywhere in their operating range.\nTechnical Note to ECCN 2B206: All parameters of measurement values in this entry represent plus/minus, i.e., not total band.",
+      "structure": {
+        "identifier": "2B206.if",
+        "heading": null,
+        "label": "2B206.if",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>Control Notes to ECCN 2B206: (1) Machine tools that can be used as measuring machines are controlled by ECCN 2B206 if they meet or exceed the control parameters specified in this entry for the measuring machine function. (2) The machines described in ECCN 2B206 are controlled by this entry if they exceed the specified control threshold anywhere in their operating range.</I></P>",
+            "text": "Control Notes to ECCN 2B206: (1) Machine tools that can be used as measuring machines are controlled by ECCN 2B206 if they meet or exceed the control parameters specified in this entry for the measuring machine function. (2) The machines described in ECCN 2B206 are controlled by this entry if they exceed the specified control threshold anywhere in their operating range.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE><HED><I>Technical Note to ECCN 2B206: All parameters of measurement values in this entry represent plus/minus, i.e., not total band.</I></HED></NOTE>",
+            "text": "Technical Note to ECCN 2B206: All parameters of measurement values in this entry represent plus/minus, i.e., not total band.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-08-15",
+      "fetchedAt": "2025-10-02T20:33:29.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-08-15/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "2B206 Dimensional inspection machines, instruments or systems, other than those described in 2B006, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "2B206"
+      ],
+      "text": "2B206.if\nControl Notes to ECCN 2B206: (1) Machine tools that can be used as measuring machines are controlled by ECCN 2B206 if they meet or exceed the control parameters specified in this entry for the measuring machine function. (2) The machines described in ECCN 2B206 are controlled by this entry if they exceed the specified control threshold anywhere in their operating range.\nTechnical Note to ECCN 2B206: All parameters of measurement values in this entry represent plus/minus, i.e., not total band.",
+      "structure": {
+        "identifier": "2B206.if",
+        "heading": null,
+        "label": "2B206.if",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>Control Notes to ECCN 2B206: (1) Machine tools that can be used as measuring machines are controlled by ECCN 2B206 if they meet or exceed the control parameters specified in this entry for the measuring machine function. (2) The machines described in ECCN 2B206 are controlled by this entry if they exceed the specified control threshold anywhere in their operating range.</I></P>",
+            "text": "Control Notes to ECCN 2B206: (1) Machine tools that can be used as measuring machines are controlled by ECCN 2B206 if they meet or exceed the control parameters specified in this entry for the measuring machine function. (2) The machines described in ECCN 2B206 are controlled by this entry if they exceed the specified control threshold anywhere in their operating range.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE><HED><I>Technical Note to ECCN 2B206: All parameters of measurement values in this entry represent plus/minus, i.e., not total band.</I></HED></NOTE>",
+            "text": "Technical Note to ECCN 2B206: All parameters of measurement values in this entry represent plus/minus, i.e., not total band.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-12-27",
+      "fetchedAt": "2025-10-02T20:33:29.759Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-12-27/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B206 Dimensional inspection machines, instruments or systems, other than those described in 2B006, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "2B206"
+      ],
+      "text": "2B206.if\nControl Notes to ECCN 2B206: (1) Machine tools that can be used as measuring machines are controlled by ECCN 2B206 if they meet or exceed the control parameters specified in this entry for the measuring machine function. (2) The machines described in ECCN 2B206 are controlled by this entry if they exceed the specified control threshold anywhere in their operating range.\nTechnical Note to ECCN 2B206: All parameters of measurement values in this entry represent plus/minus, i.e., not total band.",
+      "structure": {
+        "identifier": "2B206.if",
+        "heading": null,
+        "label": "2B206.if",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>Control Notes to ECCN 2B206: (1) Machine tools that can be used as measuring machines are controlled by ECCN 2B206 if they meet or exceed the control parameters specified in this entry for the measuring machine function. (2) The machines described in ECCN 2B206 are controlled by this entry if they exceed the specified control threshold anywhere in their operating range.</I></P>",
+            "text": "Control Notes to ECCN 2B206: (1) Machine tools that can be used as measuring machines are controlled by ECCN 2B206 if they meet or exceed the control parameters specified in this entry for the measuring machine function. (2) The machines described in ECCN 2B206 are controlled by this entry if they exceed the specified control threshold anywhere in their operating range.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE><HED><I>Technical Note to ECCN 2B206: All parameters of measurement values in this entry represent plus/minus, i.e., not total band.</I></HED></NOTE>",
+            "text": "Technical Note to ECCN 2B206: All parameters of measurement values in this entry represent plus/minus, i.e., not total band.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-01-08",
+      "fetchedAt": "2025-10-02T20:33:30.194Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-01-08/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B206 Dimensional inspection machines, instruments or systems, other than those described in 2B006, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "2B206"
+      ],
+      "text": "2B206.if\nControl Notes to ECCN 2B206: (1) Machine tools that can be used as measuring machines are controlled by ECCN 2B206 if they meet or exceed the control parameters specified in this entry for the measuring machine function. (2) The machines described in ECCN 2B206 are controlled by this entry if they exceed the specified control threshold anywhere in their operating range.\nTechnical Note to ECCN 2B206: All parameters of measurement values in this entry represent plus/minus, i.e., not total band.",
+      "structure": {
+        "identifier": "2B206.if",
+        "heading": null,
+        "label": "2B206.if",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>Control Notes to ECCN 2B206: (1) Machine tools that can be used as measuring machines are controlled by ECCN 2B206 if they meet or exceed the control parameters specified in this entry for the measuring machine function. (2) The machines described in ECCN 2B206 are controlled by this entry if they exceed the specified control threshold anywhere in their operating range.</I></P>",
+            "text": "Control Notes to ECCN 2B206: (1) Machine tools that can be used as measuring machines are controlled by ECCN 2B206 if they meet or exceed the control parameters specified in this entry for the measuring machine function. (2) The machines described in ECCN 2B206 are controlled by this entry if they exceed the specified control threshold anywhere in their operating range.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE><HED><I>Technical Note to ECCN 2B206: All parameters of measurement values in this entry represent plus/minus, i.e., not total band.</I></HED></NOTE>",
+            "text": "Technical Note to ECCN 2B206: All parameters of measurement values in this entry represent plus/minus, i.e., not total band.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-04-02",
+      "fetchedAt": "2025-10-02T20:33:30.716Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-02/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B206 Dimensional inspection machines, instruments or systems, other than those described in 2B006, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "2B206"
+      ],
+      "text": "2B206.if\nControl Notes to ECCN 2B206: (1) Machine tools that can be used as measuring machines are controlled by ECCN 2B206 if they meet or exceed the control parameters specified in this entry for the measuring machine function. (2) The machines described in ECCN 2B206 are controlled by this entry if they exceed the specified control threshold anywhere in their operating range.\nTechnical Note to ECCN 2B206: All parameters of measurement values in this entry represent plus/minus, i.e., not total band.",
+      "structure": {
+        "identifier": "2B206.if",
+        "heading": null,
+        "label": "2B206.if",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>Control Notes to ECCN 2B206: (1) Machine tools that can be used as measuring machines are controlled by ECCN 2B206 if they meet or exceed the control parameters specified in this entry for the measuring machine function. (2) The machines described in ECCN 2B206 are controlled by this entry if they exceed the specified control threshold anywhere in their operating range.</I></P>",
+            "text": "Control Notes to ECCN 2B206: (1) Machine tools that can be used as measuring machines are controlled by ECCN 2B206 if they meet or exceed the control parameters specified in this entry for the measuring machine function. (2) The machines described in ECCN 2B206 are controlled by this entry if they exceed the specified control threshold anywhere in their operating range.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE><HED><I>Technical Note to ECCN 2B206: All parameters of measurement values in this entry represent plus/minus, i.e., not total band.</I></HED></NOTE>",
+            "text": "Technical Note to ECCN 2B206: All parameters of measurement values in this entry represent plus/minus, i.e., not total band.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-04-05",
+      "fetchedAt": "2025-10-02T20:33:31.145Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-05/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B206 Dimensional inspection machines, instruments or systems, other than those described in 2B006, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "2B206"
+      ],
+      "text": "2B206.if\nControl Notes to ECCN 2B206: (1) Machine tools that can be used as measuring machines are controlled by ECCN 2B206 if they meet or exceed the control parameters specified in this entry for the measuring machine function. (2) The machines described in ECCN 2B206 are controlled by this entry if they exceed the specified control threshold anywhere in their operating range.\nTechnical Note to ECCN 2B206: All parameters of measurement values in this entry represent plus/minus, i.e., not total band.",
+      "structure": {
+        "identifier": "2B206.if",
+        "heading": null,
+        "label": "2B206.if",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>Control Notes to ECCN 2B206: (1) Machine tools that can be used as measuring machines are controlled by ECCN 2B206 if they meet or exceed the control parameters specified in this entry for the measuring machine function. (2) The machines described in ECCN 2B206 are controlled by this entry if they exceed the specified control threshold anywhere in their operating range.</I></P>",
+            "text": "Control Notes to ECCN 2B206: (1) Machine tools that can be used as measuring machines are controlled by ECCN 2B206 if they meet or exceed the control parameters specified in this entry for the measuring machine function. (2) The machines described in ECCN 2B206 are controlled by this entry if they exceed the specified control threshold anywhere in their operating range.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE><HED><I>Technical Note to ECCN 2B206: All parameters of measurement values in this entry represent plus/minus, i.e., not total band.</I></HED></NOTE>",
+            "text": "Technical Note to ECCN 2B206: All parameters of measurement values in this entry represent plus/minus, i.e., not total band.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-08-30",
+      "fetchedAt": "2025-10-02T20:33:31.567Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-08-30/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B206 Dimensional inspection machines, instruments or systems, other than those described in 2B006, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "2B206"
+      ],
+      "text": "2B206.if\nControl Notes to ECCN 2B206: (1) Machine tools that can be used as measuring machines are controlled by ECCN 2B206 if they meet or exceed the control parameters specified in this entry for the measuring machine function. (2) The machines described in ECCN 2B206 are controlled by this entry if they exceed the specified control threshold anywhere in their operating range.\nTechnical Note to ECCN 2B206: All parameters of measurement values in this entry represent plus/minus, i.e., not total band.",
+      "structure": {
+        "identifier": "2B206.if",
+        "heading": null,
+        "label": "2B206.if",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>Control Notes to ECCN 2B206: (1) Machine tools that can be used as measuring machines are controlled by ECCN 2B206 if they meet or exceed the control parameters specified in this entry for the measuring machine function. (2) The machines described in ECCN 2B206 are controlled by this entry if they exceed the specified control threshold anywhere in their operating range.</I></P>",
+            "text": "Control Notes to ECCN 2B206: (1) Machine tools that can be used as measuring machines are controlled by ECCN 2B206 if they meet or exceed the control parameters specified in this entry for the measuring machine function. (2) The machines described in ECCN 2B206 are controlled by this entry if they exceed the specified control threshold anywhere in their operating range.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE><HED><I>Technical Note to ECCN 2B206: All parameters of measurement values in this entry represent plus/minus, i.e., not total band.</I></HED></NOTE>",
+            "text": "Technical Note to ECCN 2B206: All parameters of measurement values in this entry represent plus/minus, i.e., not total band.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-10-24",
+      "fetchedAt": "2025-10-02T20:33:31.990Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-10-24/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B206 Dimensional inspection machines, instruments or systems, other than those described in 2B006, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "2B206"
+      ],
+      "text": "2B206.if\nControl Notes to ECCN 2B206: (1) Machine tools that can be used as measuring machines are controlled by ECCN 2B206 if they meet or exceed the control parameters specified in this entry for the measuring machine function. (2) The machines described in ECCN 2B206 are controlled by this entry if they exceed the specified control threshold anywhere in their operating range.\nTechnical Note to ECCN 2B206: All parameters of measurement values in this entry represent plus/minus, i.e., not total band.",
+      "structure": {
+        "identifier": "2B206.if",
+        "heading": null,
+        "label": "2B206.if",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>Control Notes to ECCN 2B206: (1) Machine tools that can be used as measuring machines are controlled by ECCN 2B206 if they meet or exceed the control parameters specified in this entry for the measuring machine function. (2) The machines described in ECCN 2B206 are controlled by this entry if they exceed the specified control threshold anywhere in their operating range.</I></P>",
+            "text": "Control Notes to ECCN 2B206: (1) Machine tools that can be used as measuring machines are controlled by ECCN 2B206 if they meet or exceed the control parameters specified in this entry for the measuring machine function. (2) The machines described in ECCN 2B206 are controlled by this entry if they exceed the specified control threshold anywhere in their operating range.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE><HED><I>Technical Note to ECCN 2B206: All parameters of measurement values in this entry represent plus/minus, i.e., not total band.</I></HED></NOTE>",
+            "text": "Technical Note to ECCN 2B206: All parameters of measurement values in this entry represent plus/minus, i.e., not total band.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

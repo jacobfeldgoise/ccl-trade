@@ -1,0 +1,732 @@
+{
+  "eccn": "4A906.c",
+  "normalized": "4A906.C",
+  "history": [
+    {
+      "version": "2024-09-06",
+      "fetchedAt": "2025-10-02T20:33:46.879Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-09-06/title-15?format=xml",
+      "heading": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+      "title": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+      "category": "4",
+      "group": "4A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "4A906 Quantum computers and related “electronic assemblies,” and “components” therefor, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "4A906"
+      ],
+      "text": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;\nNote 1: 4A906 applies to circuit model (or gate-based) and one-way (or measurement-based) quantum computers. This entry does not apply to adiabatic (or annealing) quantum computers.\nNote 2: Items specified by 4A906 may not necessarily physically contain any qubits. For example, quantum computers based on photonic schemes do not permanently contain a physical item that can be identified as a qubit. Instead, the photonic qubits are generated while the computer is operating and then later discarded.\nNote 3: Items specified by 4A906.b include semiconductor, superconducting, and photonic qubit chips and chip arrays; surface ion trap arrays; other qubit confinement technologies; and coherent interconnects between such items.\nNote 4: 4A906.c applies to items designed for calibrating, initializing, manipulating or measuring the resident qubits of a quantum computer.\nTechnical Notes: For the purposes of 4A906: 1. A 'physical qubit' is a two-level quantum system used to represent the elementary unit of quantum logic by means of manipulations and measurements that are not error corrected. 'Physical qubits' are distinguished from logical qubits, in that logical qubits are error-corrected qubits comprised of many 'physical qubits'. 2. 'Fully controlled' means the 'physical qubit' can be calibrated, initialized, gated, and read out, as necessary. 3. 'Connected' means that two-qubit gate operations can be performed between any arbitrary pair of the available 'working' 'physical qubits'. This does not necessarily entail all-to-all connectivity. 4. 'Working' means that the 'physical qubit' performs universal quantum computational work according to the system specifications for qubit operational fidelity. 5. Supporting 34 or more 'fully controlled', 'connected', 'working' 'physical qubits' refers to the capability of a quantum computer to confine, control, measure and process the quantum information embodied in 34 or more 'physical qubits'. 6. 'C-NOT error' is the average physical gate error for the nearest-neighbor two-'physical qubit' Controlled-NOT (C-NOT) gates.",
+      "structure": {
+        "identifier": "4A906.c",
+        "heading": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+        "label": "4A906.c – Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>4A906 applies to circuit model (or gate-based) and one-way (or measurement-based) quantum computers. This entry does not apply to adiabatic (or annealing) quantum computers.</I></P></NOTE>",
+            "text": "Note 1: 4A906 applies to circuit model (or gate-based) and one-way (or measurement-based) quantum computers. This entry does not apply to adiabatic (or annealing) quantum computers.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>Items specified by 4A906 may not necessarily physically contain any qubits. For example, quantum computers based on photonic schemes do not permanently contain a physical item that can be identified as a qubit. Instead, the photonic qubits are generated while the computer is operating and then later discarded.</I></P></NOTE>",
+            "text": "Note 2: Items specified by 4A906 may not necessarily physically contain any qubits. For example, quantum computers based on photonic schemes do not permanently contain a physical item that can be identified as a qubit. Instead, the photonic qubits are generated while the computer is operating and then later discarded.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 3:</I></HED>\n<P><I>Items specified by 4A906.b include semiconductor, superconducting, and photonic qubit chips and chip arrays; surface ion trap arrays; other qubit confinement technologies; and coherent interconnects between such items.</I></P></NOTE>",
+            "text": "Note 3: Items specified by 4A906.b include semiconductor, superconducting, and photonic qubit chips and chip arrays; surface ion trap arrays; other qubit confinement technologies; and coherent interconnects between such items.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 4:</I></HED>\n<P><I>4A906.c applies to items designed for calibrating, initializing, manipulating or measuring the resident qubits of a quantum computer.</I></P></NOTE>",
+            "text": "Note 4: 4A906.c applies to items designed for calibrating, initializing, manipulating or measuring the resident qubits of a quantum computer.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Notes:</I></HED>\n<P><I>For the purposes of 4A906:</I></P>\n<P><I>1. A 'physical qubit' is a two-level quantum system used to represent the elementary unit of quantum logic by means of manipulations and measurements that are not error corrected. 'Physical qubits' are distinguished from logical qubits, in that logical qubits are error-corrected qubits comprised of many 'physical qubits'.</I></P>\n<P><I>2. 'Fully controlled' means the 'physical qubit' can be calibrated, initialized, gated, and read out, as necessary.</I></P>\n<P><I>3. 'Connected' means that two-qubit gate operations can be performed between any arbitrary pair of the available 'working' 'physical qubits'. This does not necessarily entail all-to-all connectivity.</I></P>\n<P><I>4. 'Working' means that the 'physical qubit' performs universal quantum computational work according to the system specifications for qubit operational fidelity.</I></P>\n<P><I>5. Supporting 34 or more 'fully controlled', 'connected', 'working' 'physical qubits' refers to the capability of a quantum computer to confine, control, measure and process the quantum information embodied in 34 or more 'physical qubits'.</I></P>\n<P><I>6. 'C-NOT error' is the average physical gate error for the nearest-neighbor two-'physical qubit' Controlled-NOT (C-NOT) gates.</I></P></NOTE>",
+            "text": "Technical Notes: For the purposes of 4A906: 1. A 'physical qubit' is a two-level quantum system used to represent the elementary unit of quantum logic by means of manipulations and measurements that are not error corrected. 'Physical qubits' are distinguished from logical qubits, in that logical qubits are error-corrected qubits comprised of many 'physical qubits'. 2. 'Fully controlled' means the 'physical qubit' can be calibrated, initialized, gated, and read out, as necessary. 3. 'Connected' means that two-qubit gate operations can be performed between any arbitrary pair of the available 'working' 'physical qubits'. This does not necessarily entail all-to-all connectivity. 4. 'Working' means that the 'physical qubit' performs universal quantum computational work according to the system specifications for qubit operational fidelity. 5. Supporting 34 or more 'fully controlled', 'connected', 'working' 'physical qubits' refers to the capability of a quantum computer to confine, control, measure and process the quantum information embodied in 34 or more 'physical qubits'. 6. 'C-NOT error' is the average physical gate error for the nearest-neighbor two-'physical qubit' Controlled-NOT (C-NOT) gates.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-10-23",
+      "fetchedAt": "2025-10-02T20:33:47.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-10-23/title-15?format=xml",
+      "heading": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+      "title": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+      "category": "4",
+      "group": "4A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "4A906 Quantum computers and related “electronic assemblies,” and “components” therefor, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "4A906"
+      ],
+      "text": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;\nNote 1: 4A906 applies to circuit model (or gate-based) and one-way (or measurement-based) quantum computers. This entry does not apply to adiabatic (or annealing) quantum computers.\nNote 2: Items specified by 4A906 may not necessarily physically contain any qubits. For example, quantum computers based on photonic schemes do not permanently contain a physical item that can be identified as a qubit. Instead, the photonic qubits are generated while the computer is operating and then later discarded.\nNote 3: Items specified by 4A906.b include semiconductor, superconducting, and photonic qubit chips and chip arrays; surface ion trap arrays; other qubit confinement technologies; and coherent interconnects between such items.\nNote 4: 4A906.c applies to items designed for calibrating, initializing, manipulating or measuring the resident qubits of a quantum computer.\nTechnical Notes: For the purposes of 4A906: 1. A 'physical qubit' is a two-level quantum system used to represent the elementary unit of quantum logic by means of manipulations and measurements that are not error corrected. 'Physical qubits' are distinguished from logical qubits, in that logical qubits are error-corrected qubits comprised of many 'physical qubits'. 2. 'Fully controlled' means the 'physical qubit' can be calibrated, initialized, gated, and read out, as necessary. 3. 'Connected' means that two-qubit gate operations can be performed between any arbitrary pair of the available 'working' 'physical qubits'. This does not necessarily entail all-to-all connectivity. 4. 'Working' means that the 'physical qubit' performs universal quantum computational work according to the system specifications for qubit operational fidelity. 5. Supporting 34 or more 'fully controlled', 'connected', 'working' 'physical qubits' refers to the capability of a quantum computer to confine, control, measure and process the quantum information embodied in 34 or more 'physical qubits'. 6. 'C-NOT error' is the average physical gate error for the nearest-neighbor two-'physical qubit' Controlled-NOT (C-NOT) gates.",
+      "structure": {
+        "identifier": "4A906.c",
+        "heading": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+        "label": "4A906.c – Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>4A906 applies to circuit model (or gate-based) and one-way (or measurement-based) quantum computers. This entry does not apply to adiabatic (or annealing) quantum computers.</I></P></NOTE>",
+            "text": "Note 1: 4A906 applies to circuit model (or gate-based) and one-way (or measurement-based) quantum computers. This entry does not apply to adiabatic (or annealing) quantum computers.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>Items specified by 4A906 may not necessarily physically contain any qubits. For example, quantum computers based on photonic schemes do not permanently contain a physical item that can be identified as a qubit. Instead, the photonic qubits are generated while the computer is operating and then later discarded.</I></P></NOTE>",
+            "text": "Note 2: Items specified by 4A906 may not necessarily physically contain any qubits. For example, quantum computers based on photonic schemes do not permanently contain a physical item that can be identified as a qubit. Instead, the photonic qubits are generated while the computer is operating and then later discarded.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 3:</I></HED>\n<P><I>Items specified by 4A906.b include semiconductor, superconducting, and photonic qubit chips and chip arrays; surface ion trap arrays; other qubit confinement technologies; and coherent interconnects between such items.</I></P></NOTE>",
+            "text": "Note 3: Items specified by 4A906.b include semiconductor, superconducting, and photonic qubit chips and chip arrays; surface ion trap arrays; other qubit confinement technologies; and coherent interconnects between such items.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 4:</I></HED>\n<P><I>4A906.c applies to items designed for calibrating, initializing, manipulating or measuring the resident qubits of a quantum computer.</I></P></NOTE>",
+            "text": "Note 4: 4A906.c applies to items designed for calibrating, initializing, manipulating or measuring the resident qubits of a quantum computer.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Notes:</I></HED>\n<P><I>For the purposes of 4A906:</I></P>\n<P><I>1. A 'physical qubit' is a two-level quantum system used to represent the elementary unit of quantum logic by means of manipulations and measurements that are not error corrected. 'Physical qubits' are distinguished from logical qubits, in that logical qubits are error-corrected qubits comprised of many 'physical qubits'.</I></P>\n<P><I>2. 'Fully controlled' means the 'physical qubit' can be calibrated, initialized, gated, and read out, as necessary.</I></P>\n<P><I>3. 'Connected' means that two-qubit gate operations can be performed between any arbitrary pair of the available 'working' 'physical qubits'. This does not necessarily entail all-to-all connectivity.</I></P>\n<P><I>4. 'Working' means that the 'physical qubit' performs universal quantum computational work according to the system specifications for qubit operational fidelity.</I></P>\n<P><I>5. Supporting 34 or more 'fully controlled', 'connected', 'working' 'physical qubits' refers to the capability of a quantum computer to confine, control, measure and process the quantum information embodied in 34 or more 'physical qubits'.</I></P>\n<P><I>6. 'C-NOT error' is the average physical gate error for the nearest-neighbor two-'physical qubit' Controlled-NOT (C-NOT) gates.</I></P></NOTE>",
+            "text": "Technical Notes: For the purposes of 4A906: 1. A 'physical qubit' is a two-level quantum system used to represent the elementary unit of quantum logic by means of manipulations and measurements that are not error corrected. 'Physical qubits' are distinguished from logical qubits, in that logical qubits are error-corrected qubits comprised of many 'physical qubits'. 2. 'Fully controlled' means the 'physical qubit' can be calibrated, initialized, gated, and read out, as necessary. 3. 'Connected' means that two-qubit gate operations can be performed between any arbitrary pair of the available 'working' 'physical qubits'. This does not necessarily entail all-to-all connectivity. 4. 'Working' means that the 'physical qubit' performs universal quantum computational work according to the system specifications for qubit operational fidelity. 5. Supporting 34 or more 'fully controlled', 'connected', 'working' 'physical qubits' refers to the capability of a quantum computer to confine, control, measure and process the quantum information embodied in 34 or more 'physical qubits'. 6. 'C-NOT error' is the average physical gate error for the nearest-neighbor two-'physical qubit' Controlled-NOT (C-NOT) gates.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-02",
+      "fetchedAt": "2025-10-02T20:33:47.757Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-02/title-15?format=xml",
+      "heading": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+      "title": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+      "category": "4",
+      "group": "4A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "4A906 Quantum computers and related “electronic assemblies,” and “components” therefor, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "4A906"
+      ],
+      "text": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;\nNote 1: 4A906 applies to circuit model (or gate-based) and one-way (or measurement-based) quantum computers. This entry does not apply to adiabatic (or annealing) quantum computers.\nNote 2: Items specified by 4A906 may not necessarily physically contain any qubits. For example, quantum computers based on photonic schemes do not permanently contain a physical item that can be identified as a qubit. Instead, the photonic qubits are generated while the computer is operating and then later discarded.\nNote 3: Items specified by 4A906.b include semiconductor, superconducting, and photonic qubit chips and chip arrays; surface ion trap arrays; other qubit confinement technologies; and coherent interconnects between such items.\nNote 4: 4A906.c applies to items designed for calibrating, initializing, manipulating or measuring the resident qubits of a quantum computer.\nTechnical Notes: For the purposes of 4A906: 1. A 'physical qubit' is a two-level quantum system used to represent the elementary unit of quantum logic by means of manipulations and measurements that are not error corrected. 'Physical qubits' are distinguished from logical qubits, in that logical qubits are error-corrected qubits comprised of many 'physical qubits'. 2. 'Fully controlled' means the 'physical qubit' can be calibrated, initialized, gated, and read out, as necessary. 3. 'Connected' means that two-qubit gate operations can be performed between any arbitrary pair of the available 'working' 'physical qubits'. This does not necessarily entail all-to-all connectivity. 4. 'Working' means that the 'physical qubit' performs universal quantum computational work according to the system specifications for qubit operational fidelity. 5. Supporting 34 or more 'fully controlled', 'connected', 'working' 'physical qubits' refers to the capability of a quantum computer to confine, control, measure and process the quantum information embodied in 34 or more 'physical qubits'. 6. 'C-NOT error' is the average physical gate error for the nearest-neighbor two-'physical qubit' Controlled-NOT (C-NOT) gates.",
+      "structure": {
+        "identifier": "4A906.c",
+        "heading": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+        "label": "4A906.c – Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>4A906 applies to circuit model (or gate-based) and one-way (or measurement-based) quantum computers. This entry does not apply to adiabatic (or annealing) quantum computers.</I></P></NOTE>",
+            "text": "Note 1: 4A906 applies to circuit model (or gate-based) and one-way (or measurement-based) quantum computers. This entry does not apply to adiabatic (or annealing) quantum computers.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>Items specified by 4A906 may not necessarily physically contain any qubits. For example, quantum computers based on photonic schemes do not permanently contain a physical item that can be identified as a qubit. Instead, the photonic qubits are generated while the computer is operating and then later discarded.</I></P></NOTE>",
+            "text": "Note 2: Items specified by 4A906 may not necessarily physically contain any qubits. For example, quantum computers based on photonic schemes do not permanently contain a physical item that can be identified as a qubit. Instead, the photonic qubits are generated while the computer is operating and then later discarded.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 3:</I></HED>\n<P><I>Items specified by 4A906.b include semiconductor, superconducting, and photonic qubit chips and chip arrays; surface ion trap arrays; other qubit confinement technologies; and coherent interconnects between such items.</I></P></NOTE>",
+            "text": "Note 3: Items specified by 4A906.b include semiconductor, superconducting, and photonic qubit chips and chip arrays; surface ion trap arrays; other qubit confinement technologies; and coherent interconnects between such items.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 4:</I></HED>\n<P><I>4A906.c applies to items designed for calibrating, initializing, manipulating or measuring the resident qubits of a quantum computer.</I></P></NOTE>",
+            "text": "Note 4: 4A906.c applies to items designed for calibrating, initializing, manipulating or measuring the resident qubits of a quantum computer.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Notes:</I></HED>\n<P><I>For the purposes of 4A906:</I></P>\n<P><I>1. A 'physical qubit' is a two-level quantum system used to represent the elementary unit of quantum logic by means of manipulations and measurements that are not error corrected. 'Physical qubits' are distinguished from logical qubits, in that logical qubits are error-corrected qubits comprised of many 'physical qubits'.</I></P>\n<P><I>2. 'Fully controlled' means the 'physical qubit' can be calibrated, initialized, gated, and read out, as necessary.</I></P>\n<P><I>3. 'Connected' means that two-qubit gate operations can be performed between any arbitrary pair of the available 'working' 'physical qubits'. This does not necessarily entail all-to-all connectivity.</I></P>\n<P><I>4. 'Working' means that the 'physical qubit' performs universal quantum computational work according to the system specifications for qubit operational fidelity.</I></P>\n<P><I>5. Supporting 34 or more 'fully controlled', 'connected', 'working' 'physical qubits' refers to the capability of a quantum computer to confine, control, measure and process the quantum information embodied in 34 or more 'physical qubits'.</I></P>\n<P><I>6. 'C-NOT error' is the average physical gate error for the nearest-neighbor two-'physical qubit' Controlled-NOT (C-NOT) gates.</I></P></NOTE>",
+            "text": "Technical Notes: For the purposes of 4A906: 1. A 'physical qubit' is a two-level quantum system used to represent the elementary unit of quantum logic by means of manipulations and measurements that are not error corrected. 'Physical qubits' are distinguished from logical qubits, in that logical qubits are error-corrected qubits comprised of many 'physical qubits'. 2. 'Fully controlled' means the 'physical qubit' can be calibrated, initialized, gated, and read out, as necessary. 3. 'Connected' means that two-qubit gate operations can be performed between any arbitrary pair of the available 'working' 'physical qubits'. This does not necessarily entail all-to-all connectivity. 4. 'Working' means that the 'physical qubit' performs universal quantum computational work according to the system specifications for qubit operational fidelity. 5. Supporting 34 or more 'fully controlled', 'connected', 'working' 'physical qubits' refers to the capability of a quantum computer to confine, control, measure and process the quantum information embodied in 34 or more 'physical qubits'. 6. 'C-NOT error' is the average physical gate error for the nearest-neighbor two-'physical qubit' Controlled-NOT (C-NOT) gates.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+      "title": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+      "category": "4",
+      "group": "4A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "4A906 Quantum computers and related “electronic assemblies,” and “components” therefor, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "4A906"
+      ],
+      "text": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;\nNote 1: 4A906 applies to circuit model (or gate-based) and one-way (or measurement-based) quantum computers. This entry does not apply to adiabatic (or annealing) quantum computers.\nNote 2: Items specified by 4A906 may not necessarily physically contain any qubits. For example, quantum computers based on photonic schemes do not permanently contain a physical item that can be identified as a qubit. Instead, the photonic qubits are generated while the computer is operating and then later discarded.\nNote 3: Items specified by 4A906.b include semiconductor, superconducting, and photonic qubit chips and chip arrays; surface ion trap arrays; other qubit confinement technologies; and coherent interconnects between such items.\nNote 4: 4A906.c applies to items designed for calibrating, initializing, manipulating or measuring the resident qubits of a quantum computer.\nTechnical Notes: For the purposes of 4A906: 1. A 'physical qubit' is a two-level quantum system used to represent the elementary unit of quantum logic by means of manipulations and measurements that are not error corrected. 'Physical qubits' are distinguished from logical qubits, in that logical qubits are error-corrected qubits comprised of many 'physical qubits'. 2. 'Fully controlled' means the 'physical qubit' can be calibrated, initialized, gated, and read out, as necessary. 3. 'Connected' means that two-qubit gate operations can be performed between any arbitrary pair of the available 'working' 'physical qubits'. This does not necessarily entail all-to-all connectivity. 4. 'Working' means that the 'physical qubit' performs universal quantum computational work according to the system specifications for qubit operational fidelity. 5. Supporting 34 or more 'fully controlled', 'connected', 'working' 'physical qubits' refers to the capability of a quantum computer to confine, control, measure and process the quantum information embodied in 34 or more 'physical qubits'. 6. 'C-NOT error' is the average physical gate error for the nearest-neighbor two-'physical qubit' Controlled-NOT (C-NOT) gates.",
+      "structure": {
+        "identifier": "4A906.c",
+        "heading": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+        "label": "4A906.c – Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>4A906 applies to circuit model (or gate-based) and one-way (or measurement-based) quantum computers. This entry does not apply to adiabatic (or annealing) quantum computers.</I></P></NOTE>",
+            "text": "Note 1: 4A906 applies to circuit model (or gate-based) and one-way (or measurement-based) quantum computers. This entry does not apply to adiabatic (or annealing) quantum computers.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>Items specified by 4A906 may not necessarily physically contain any qubits. For example, quantum computers based on photonic schemes do not permanently contain a physical item that can be identified as a qubit. Instead, the photonic qubits are generated while the computer is operating and then later discarded.</I></P></NOTE>",
+            "text": "Note 2: Items specified by 4A906 may not necessarily physically contain any qubits. For example, quantum computers based on photonic schemes do not permanently contain a physical item that can be identified as a qubit. Instead, the photonic qubits are generated while the computer is operating and then later discarded.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 3:</I></HED>\n<P><I>Items specified by 4A906.b include semiconductor, superconducting, and photonic qubit chips and chip arrays; surface ion trap arrays; other qubit confinement technologies; and coherent interconnects between such items.</I></P></NOTE>",
+            "text": "Note 3: Items specified by 4A906.b include semiconductor, superconducting, and photonic qubit chips and chip arrays; surface ion trap arrays; other qubit confinement technologies; and coherent interconnects between such items.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 4:</I></HED>\n<P><I>4A906.c applies to items designed for calibrating, initializing, manipulating or measuring the resident qubits of a quantum computer.</I></P></NOTE>",
+            "text": "Note 4: 4A906.c applies to items designed for calibrating, initializing, manipulating or measuring the resident qubits of a quantum computer.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Notes:</I></HED>\n<P><I>For the purposes of 4A906:</I></P>\n<P><I>1. A 'physical qubit' is a two-level quantum system used to represent the elementary unit of quantum logic by means of manipulations and measurements that are not error corrected. 'Physical qubits' are distinguished from logical qubits, in that logical qubits are error-corrected qubits comprised of many 'physical qubits'.</I></P>\n<P><I>2. 'Fully controlled' means the 'physical qubit' can be calibrated, initialized, gated, and read out, as necessary.</I></P>\n<P><I>3. 'Connected' means that two-qubit gate operations can be performed between any arbitrary pair of the available 'working' 'physical qubits'. This does not necessarily entail all-to-all connectivity.</I></P>\n<P><I>4. 'Working' means that the 'physical qubit' performs universal quantum computational work according to the system specifications for qubit operational fidelity.</I></P>\n<P><I>5. Supporting 34 or more 'fully controlled', 'connected', 'working' 'physical qubits' refers to the capability of a quantum computer to confine, control, measure and process the quantum information embodied in 34 or more 'physical qubits'.</I></P>\n<P><I>6. 'C-NOT error' is the average physical gate error for the nearest-neighbor two-'physical qubit' Controlled-NOT (C-NOT) gates.</I></P></NOTE>",
+            "text": "Technical Notes: For the purposes of 4A906: 1. A 'physical qubit' is a two-level quantum system used to represent the elementary unit of quantum logic by means of manipulations and measurements that are not error corrected. 'Physical qubits' are distinguished from logical qubits, in that logical qubits are error-corrected qubits comprised of many 'physical qubits'. 2. 'Fully controlled' means the 'physical qubit' can be calibrated, initialized, gated, and read out, as necessary. 3. 'Connected' means that two-qubit gate operations can be performed between any arbitrary pair of the available 'working' 'physical qubits'. This does not necessarily entail all-to-all connectivity. 4. 'Working' means that the 'physical qubit' performs universal quantum computational work according to the system specifications for qubit operational fidelity. 5. Supporting 34 or more 'fully controlled', 'connected', 'working' 'physical qubits' refers to the capability of a quantum computer to confine, control, measure and process the quantum information embodied in 34 or more 'physical qubits'. 6. 'C-NOT error' is the average physical gate error for the nearest-neighbor two-'physical qubit' Controlled-NOT (C-NOT) gates.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+      "title": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+      "category": "4",
+      "group": "4A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "4A906 Quantum computers and related “electronic assemblies,” and “components” therefor, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "4A906"
+      ],
+      "text": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;\nNote 1: 4A906 applies to circuit model (or gate-based) and one-way (or measurement-based) quantum computers. This entry does not apply to adiabatic (or annealing) quantum computers.\nNote 2: Items specified by 4A906 may not necessarily physically contain any qubits. For example, quantum computers based on photonic schemes do not permanently contain a physical item that can be identified as a qubit. Instead, the photonic qubits are generated while the computer is operating and then later discarded.\nNote 3: Items specified by 4A906.b include semiconductor, superconducting, and photonic qubit chips and chip arrays; surface ion trap arrays; other qubit confinement technologies; and coherent interconnects between such items.\nNote 4: 4A906.c applies to items designed for calibrating, initializing, manipulating or measuring the resident qubits of a quantum computer.\nTechnical Notes: For the purposes of 4A906: 1. A 'physical qubit' is a two-level quantum system used to represent the elementary unit of quantum logic by means of manipulations and measurements that are not error corrected. 'Physical qubits' are distinguished from logical qubits, in that logical qubits are error-corrected qubits comprised of many 'physical qubits'. 2. 'Fully controlled' means the 'physical qubit' can be calibrated, initialized, gated, and read out, as necessary. 3. 'Connected' means that two-qubit gate operations can be performed between any arbitrary pair of the available 'working' 'physical qubits'. This does not necessarily entail all-to-all connectivity. 4. 'Working' means that the 'physical qubit' performs universal quantum computational work according to the system specifications for qubit operational fidelity. 5. Supporting 34 or more 'fully controlled', 'connected', 'working' 'physical qubits' refers to the capability of a quantum computer to confine, control, measure and process the quantum information embodied in 34 or more 'physical qubits'. 6. 'C-NOT error' is the average physical gate error for the nearest-neighbor two-'physical qubit' Controlled-NOT (C-NOT) gates.",
+      "structure": {
+        "identifier": "4A906.c",
+        "heading": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+        "label": "4A906.c – Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>4A906 applies to circuit model (or gate-based) and one-way (or measurement-based) quantum computers. This entry does not apply to adiabatic (or annealing) quantum computers.</I></P></NOTE>",
+            "text": "Note 1: 4A906 applies to circuit model (or gate-based) and one-way (or measurement-based) quantum computers. This entry does not apply to adiabatic (or annealing) quantum computers.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>Items specified by 4A906 may not necessarily physically contain any qubits. For example, quantum computers based on photonic schemes do not permanently contain a physical item that can be identified as a qubit. Instead, the photonic qubits are generated while the computer is operating and then later discarded.</I></P></NOTE>",
+            "text": "Note 2: Items specified by 4A906 may not necessarily physically contain any qubits. For example, quantum computers based on photonic schemes do not permanently contain a physical item that can be identified as a qubit. Instead, the photonic qubits are generated while the computer is operating and then later discarded.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 3:</I></HED>\n<P><I>Items specified by 4A906.b include semiconductor, superconducting, and photonic qubit chips and chip arrays; surface ion trap arrays; other qubit confinement technologies; and coherent interconnects between such items.</I></P></NOTE>",
+            "text": "Note 3: Items specified by 4A906.b include semiconductor, superconducting, and photonic qubit chips and chip arrays; surface ion trap arrays; other qubit confinement technologies; and coherent interconnects between such items.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 4:</I></HED>\n<P><I>4A906.c applies to items designed for calibrating, initializing, manipulating or measuring the resident qubits of a quantum computer.</I></P></NOTE>",
+            "text": "Note 4: 4A906.c applies to items designed for calibrating, initializing, manipulating or measuring the resident qubits of a quantum computer.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Notes:</I></HED>\n<P><I>For the purposes of 4A906:</I></P>\n<P><I>1. A 'physical qubit' is a two-level quantum system used to represent the elementary unit of quantum logic by means of manipulations and measurements that are not error corrected. 'Physical qubits' are distinguished from logical qubits, in that logical qubits are error-corrected qubits comprised of many 'physical qubits'.</I></P>\n<P><I>2. 'Fully controlled' means the 'physical qubit' can be calibrated, initialized, gated, and read out, as necessary.</I></P>\n<P><I>3. 'Connected' means that two-qubit gate operations can be performed between any arbitrary pair of the available 'working' 'physical qubits'. This does not necessarily entail all-to-all connectivity.</I></P>\n<P><I>4. 'Working' means that the 'physical qubit' performs universal quantum computational work according to the system specifications for qubit operational fidelity.</I></P>\n<P><I>5. Supporting 34 or more 'fully controlled', 'connected', 'working' 'physical qubits' refers to the capability of a quantum computer to confine, control, measure and process the quantum information embodied in 34 or more 'physical qubits'.</I></P>\n<P><I>6. 'C-NOT error' is the average physical gate error for the nearest-neighbor two-'physical qubit' Controlled-NOT (C-NOT) gates.</I></P></NOTE>",
+            "text": "Technical Notes: For the purposes of 4A906: 1. A 'physical qubit' is a two-level quantum system used to represent the elementary unit of quantum logic by means of manipulations and measurements that are not error corrected. 'Physical qubits' are distinguished from logical qubits, in that logical qubits are error-corrected qubits comprised of many 'physical qubits'. 2. 'Fully controlled' means the 'physical qubit' can be calibrated, initialized, gated, and read out, as necessary. 3. 'Connected' means that two-qubit gate operations can be performed between any arbitrary pair of the available 'working' 'physical qubits'. This does not necessarily entail all-to-all connectivity. 4. 'Working' means that the 'physical qubit' performs universal quantum computational work according to the system specifications for qubit operational fidelity. 5. Supporting 34 or more 'fully controlled', 'connected', 'working' 'physical qubits' refers to the capability of a quantum computer to confine, control, measure and process the quantum information embodied in 34 or more 'physical qubits'. 6. 'C-NOT error' is the average physical gate error for the nearest-neighbor two-'physical qubit' Controlled-NOT (C-NOT) gates.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+      "title": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+      "category": "4",
+      "group": "4A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "4A906 Quantum computers and related “electronic assemblies,” and “components” therefor, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "4A906"
+      ],
+      "text": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;\nNote 1: 4A906 applies to circuit model (or gate-based) and one-way (or measurement-based) quantum computers. This entry does not apply to adiabatic (or annealing) quantum computers.\nNote 2: Items specified by 4A906 may not necessarily physically contain any qubits. For example, quantum computers based on photonic schemes do not permanently contain a physical item that can be identified as a qubit. Instead, the photonic qubits are generated while the computer is operating and then later discarded.\nNote 3: Items specified by 4A906.b include semiconductor, superconducting, and photonic qubit chips and chip arrays; surface ion trap arrays; other qubit confinement technologies; and coherent interconnects between such items.\nNote 4: 4A906.c applies to items designed for calibrating, initializing, manipulating or measuring the resident qubits of a quantum computer.\nTechnical Notes: For the purposes of 4A906: 1. A 'physical qubit' is a two-level quantum system used to represent the elementary unit of quantum logic by means of manipulations and measurements that are not error corrected. 'Physical qubits' are distinguished from logical qubits, in that logical qubits are error-corrected qubits comprised of many 'physical qubits'. 2. 'Fully controlled' means the 'physical qubit' can be calibrated, initialized, gated, and read out, as necessary. 3. 'Connected' means that two-qubit gate operations can be performed between any arbitrary pair of the available 'working' 'physical qubits'. This does not necessarily entail all-to-all connectivity. 4. 'Working' means that the 'physical qubit' performs universal quantum computational work according to the system specifications for qubit operational fidelity. 5. Supporting 34 or more 'fully controlled', 'connected', 'working' 'physical qubits' refers to the capability of a quantum computer to confine, control, measure and process the quantum information embodied in 34 or more 'physical qubits'. 6. 'C-NOT error' is the average physical gate error for the nearest-neighbor two-'physical qubit' Controlled-NOT (C-NOT) gates.",
+      "structure": {
+        "identifier": "4A906.c",
+        "heading": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+        "label": "4A906.c – Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>4A906 applies to circuit model (or gate-based) and one-way (or measurement-based) quantum computers. This entry does not apply to adiabatic (or annealing) quantum computers.</I></P></NOTE>",
+            "text": "Note 1: 4A906 applies to circuit model (or gate-based) and one-way (or measurement-based) quantum computers. This entry does not apply to adiabatic (or annealing) quantum computers.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>Items specified by 4A906 may not necessarily physically contain any qubits. For example, quantum computers based on photonic schemes do not permanently contain a physical item that can be identified as a qubit. Instead, the photonic qubits are generated while the computer is operating and then later discarded.</I></P></NOTE>",
+            "text": "Note 2: Items specified by 4A906 may not necessarily physically contain any qubits. For example, quantum computers based on photonic schemes do not permanently contain a physical item that can be identified as a qubit. Instead, the photonic qubits are generated while the computer is operating and then later discarded.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 3:</I></HED>\n<P><I>Items specified by 4A906.b include semiconductor, superconducting, and photonic qubit chips and chip arrays; surface ion trap arrays; other qubit confinement technologies; and coherent interconnects between such items.</I></P></NOTE>",
+            "text": "Note 3: Items specified by 4A906.b include semiconductor, superconducting, and photonic qubit chips and chip arrays; surface ion trap arrays; other qubit confinement technologies; and coherent interconnects between such items.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 4:</I></HED>\n<P><I>4A906.c applies to items designed for calibrating, initializing, manipulating or measuring the resident qubits of a quantum computer.</I></P></NOTE>",
+            "text": "Note 4: 4A906.c applies to items designed for calibrating, initializing, manipulating or measuring the resident qubits of a quantum computer.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Notes:</I></HED>\n<P><I>For the purposes of 4A906:</I></P>\n<P><I>1. A 'physical qubit' is a two-level quantum system used to represent the elementary unit of quantum logic by means of manipulations and measurements that are not error corrected. 'Physical qubits' are distinguished from logical qubits, in that logical qubits are error-corrected qubits comprised of many 'physical qubits'.</I></P>\n<P><I>2. 'Fully controlled' means the 'physical qubit' can be calibrated, initialized, gated, and read out, as necessary.</I></P>\n<P><I>3. 'Connected' means that two-qubit gate operations can be performed between any arbitrary pair of the available 'working' 'physical qubits'. This does not necessarily entail all-to-all connectivity.</I></P>\n<P><I>4. 'Working' means that the 'physical qubit' performs universal quantum computational work according to the system specifications for qubit operational fidelity.</I></P>\n<P><I>5. Supporting 34 or more 'fully controlled', 'connected', 'working' 'physical qubits' refers to the capability of a quantum computer to confine, control, measure and process the quantum information embodied in 34 or more 'physical qubits'.</I></P>\n<P><I>6. 'C-NOT error' is the average physical gate error for the nearest-neighbor two-'physical qubit' Controlled-NOT (C-NOT) gates.</I></P></NOTE>",
+            "text": "Technical Notes: For the purposes of 4A906: 1. A 'physical qubit' is a two-level quantum system used to represent the elementary unit of quantum logic by means of manipulations and measurements that are not error corrected. 'Physical qubits' are distinguished from logical qubits, in that logical qubits are error-corrected qubits comprised of many 'physical qubits'. 2. 'Fully controlled' means the 'physical qubit' can be calibrated, initialized, gated, and read out, as necessary. 3. 'Connected' means that two-qubit gate operations can be performed between any arbitrary pair of the available 'working' 'physical qubits'. This does not necessarily entail all-to-all connectivity. 4. 'Working' means that the 'physical qubit' performs universal quantum computational work according to the system specifications for qubit operational fidelity. 5. Supporting 34 or more 'fully controlled', 'connected', 'working' 'physical qubits' refers to the capability of a quantum computer to confine, control, measure and process the quantum information embodied in 34 or more 'physical qubits'. 6. 'C-NOT error' is the average physical gate error for the nearest-neighbor two-'physical qubit' Controlled-NOT (C-NOT) gates.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+      "title": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+      "category": "4",
+      "group": "4A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "4A906 Quantum computers and related “electronic assemblies,” and “components” therefor, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "4A906"
+      ],
+      "text": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;\nNote 1: 4A906 applies to circuit model (or gate-based) and one-way (or measurement-based) quantum computers. This entry does not apply to adiabatic (or annealing) quantum computers.\nNote 2: Items specified by 4A906 may not necessarily physically contain any qubits. For example, quantum computers based on photonic schemes do not permanently contain a physical item that can be identified as a qubit. Instead, the photonic qubits are generated while the computer is operating and then later discarded.\nNote 3: Items specified by 4A906.b include semiconductor, superconducting, and photonic qubit chips and chip arrays; surface ion trap arrays; other qubit confinement technologies; and coherent interconnects between such items.\nNote 4: 4A906.c applies to items designed for calibrating, initializing, manipulating or measuring the resident qubits of a quantum computer.\nTechnical Notes: For the purposes of 4A906: 1. A 'physical qubit' is a two-level quantum system used to represent the elementary unit of quantum logic by means of manipulations and measurements that are not error corrected. 'Physical qubits' are distinguished from logical qubits, in that logical qubits are error-corrected qubits comprised of many 'physical qubits'. 2. 'Fully controlled' means the 'physical qubit' can be calibrated, initialized, gated, and read out, as necessary. 3. 'Connected' means that two-qubit gate operations can be performed between any arbitrary pair of the available 'working' 'physical qubits'. This does not necessarily entail all-to-all connectivity. 4. 'Working' means that the 'physical qubit' performs universal quantum computational work according to the system specifications for qubit operational fidelity. 5. Supporting 34 or more 'fully controlled', 'connected', 'working' 'physical qubits' refers to the capability of a quantum computer to confine, control, measure and process the quantum information embodied in 34 or more 'physical qubits'. 6. 'C-NOT error' is the average physical gate error for the nearest-neighbor two-'physical qubit' Controlled-NOT (C-NOT) gates.",
+      "structure": {
+        "identifier": "4A906.c",
+        "heading": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+        "label": "4A906.c – Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>4A906 applies to circuit model (or gate-based) and one-way (or measurement-based) quantum computers. This entry does not apply to adiabatic (or annealing) quantum computers.</I></P></NOTE>",
+            "text": "Note 1: 4A906 applies to circuit model (or gate-based) and one-way (or measurement-based) quantum computers. This entry does not apply to adiabatic (or annealing) quantum computers.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>Items specified by 4A906 may not necessarily physically contain any qubits. For example, quantum computers based on photonic schemes do not permanently contain a physical item that can be identified as a qubit. Instead, the photonic qubits are generated while the computer is operating and then later discarded.</I></P></NOTE>",
+            "text": "Note 2: Items specified by 4A906 may not necessarily physically contain any qubits. For example, quantum computers based on photonic schemes do not permanently contain a physical item that can be identified as a qubit. Instead, the photonic qubits are generated while the computer is operating and then later discarded.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 3:</I></HED>\n<P><I>Items specified by 4A906.b include semiconductor, superconducting, and photonic qubit chips and chip arrays; surface ion trap arrays; other qubit confinement technologies; and coherent interconnects between such items.</I></P></NOTE>",
+            "text": "Note 3: Items specified by 4A906.b include semiconductor, superconducting, and photonic qubit chips and chip arrays; surface ion trap arrays; other qubit confinement technologies; and coherent interconnects between such items.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 4:</I></HED>\n<P><I>4A906.c applies to items designed for calibrating, initializing, manipulating or measuring the resident qubits of a quantum computer.</I></P></NOTE>",
+            "text": "Note 4: 4A906.c applies to items designed for calibrating, initializing, manipulating or measuring the resident qubits of a quantum computer.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Notes:</I></HED>\n<P><I>For the purposes of 4A906:</I></P>\n<P><I>1. A 'physical qubit' is a two-level quantum system used to represent the elementary unit of quantum logic by means of manipulations and measurements that are not error corrected. 'Physical qubits' are distinguished from logical qubits, in that logical qubits are error-corrected qubits comprised of many 'physical qubits'.</I></P>\n<P><I>2. 'Fully controlled' means the 'physical qubit' can be calibrated, initialized, gated, and read out, as necessary.</I></P>\n<P><I>3. 'Connected' means that two-qubit gate operations can be performed between any arbitrary pair of the available 'working' 'physical qubits'. This does not necessarily entail all-to-all connectivity.</I></P>\n<P><I>4. 'Working' means that the 'physical qubit' performs universal quantum computational work according to the system specifications for qubit operational fidelity.</I></P>\n<P><I>5. Supporting 34 or more 'fully controlled', 'connected', 'working' 'physical qubits' refers to the capability of a quantum computer to confine, control, measure and process the quantum information embodied in 34 or more 'physical qubits'.</I></P>\n<P><I>6. 'C-NOT error' is the average physical gate error for the nearest-neighbor two-'physical qubit' Controlled-NOT (C-NOT) gates.</I></P></NOTE>",
+            "text": "Technical Notes: For the purposes of 4A906: 1. A 'physical qubit' is a two-level quantum system used to represent the elementary unit of quantum logic by means of manipulations and measurements that are not error corrected. 'Physical qubits' are distinguished from logical qubits, in that logical qubits are error-corrected qubits comprised of many 'physical qubits'. 2. 'Fully controlled' means the 'physical qubit' can be calibrated, initialized, gated, and read out, as necessary. 3. 'Connected' means that two-qubit gate operations can be performed between any arbitrary pair of the available 'working' 'physical qubits'. This does not necessarily entail all-to-all connectivity. 4. 'Working' means that the 'physical qubit' performs universal quantum computational work according to the system specifications for qubit operational fidelity. 5. Supporting 34 or more 'fully controlled', 'connected', 'working' 'physical qubits' refers to the capability of a quantum computer to confine, control, measure and process the quantum information embodied in 34 or more 'physical qubits'. 6. 'C-NOT error' is the average physical gate error for the nearest-neighbor two-'physical qubit' Controlled-NOT (C-NOT) gates.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+      "title": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+      "category": "4",
+      "group": "4A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "4A906 Quantum computers and related “electronic assemblies,” and “components” therefor, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "4A906"
+      ],
+      "text": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;\nNote 1: 4A906 applies to circuit model (or gate-based) and one-way (or measurement-based) quantum computers. This entry does not apply to adiabatic (or annealing) quantum computers.\nNote 2: Items specified by 4A906 may not necessarily physically contain any qubits. For example, quantum computers based on photonic schemes do not permanently contain a physical item that can be identified as a qubit. Instead, the photonic qubits are generated while the computer is operating and then later discarded.\nNote 3: Items specified by 4A906.b include semiconductor, superconducting, and photonic qubit chips and chip arrays; surface ion trap arrays; other qubit confinement technologies; and coherent interconnects between such items.\nNote 4: 4A906.c applies to items designed for calibrating, initializing, manipulating or measuring the resident qubits of a quantum computer.\nTechnical Notes: For the purposes of 4A906: 1. A 'physical qubit' is a two-level quantum system used to represent the elementary unit of quantum logic by means of manipulations and measurements that are not error corrected. 'Physical qubits' are distinguished from logical qubits, in that logical qubits are error-corrected qubits comprised of many 'physical qubits'. 2. 'Fully controlled' means the 'physical qubit' can be calibrated, initialized, gated, and read out, as necessary. 3. 'Connected' means that two-qubit gate operations can be performed between any arbitrary pair of the available 'working' 'physical qubits'. This does not necessarily entail all-to-all connectivity. 4. 'Working' means that the 'physical qubit' performs universal quantum computational work according to the system specifications for qubit operational fidelity. 5. Supporting 34 or more 'fully controlled', 'connected', 'working' 'physical qubits' refers to the capability of a quantum computer to confine, control, measure and process the quantum information embodied in 34 or more 'physical qubits'. 6. 'C-NOT error' is the average physical gate error for the nearest-neighbor two-'physical qubit' Controlled-NOT (C-NOT) gates.",
+      "structure": {
+        "identifier": "4A906.c",
+        "heading": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+        "label": "4A906.c – Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>4A906 applies to circuit model (or gate-based) and one-way (or measurement-based) quantum computers. This entry does not apply to adiabatic (or annealing) quantum computers.</I></P></NOTE>",
+            "text": "Note 1: 4A906 applies to circuit model (or gate-based) and one-way (or measurement-based) quantum computers. This entry does not apply to adiabatic (or annealing) quantum computers.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>Items specified by 4A906 may not necessarily physically contain any qubits. For example, quantum computers based on photonic schemes do not permanently contain a physical item that can be identified as a qubit. Instead, the photonic qubits are generated while the computer is operating and then later discarded.</I></P></NOTE>",
+            "text": "Note 2: Items specified by 4A906 may not necessarily physically contain any qubits. For example, quantum computers based on photonic schemes do not permanently contain a physical item that can be identified as a qubit. Instead, the photonic qubits are generated while the computer is operating and then later discarded.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 3:</I></HED>\n<P><I>Items specified by 4A906.b include semiconductor, superconducting, and photonic qubit chips and chip arrays; surface ion trap arrays; other qubit confinement technologies; and coherent interconnects between such items.</I></P></NOTE>",
+            "text": "Note 3: Items specified by 4A906.b include semiconductor, superconducting, and photonic qubit chips and chip arrays; surface ion trap arrays; other qubit confinement technologies; and coherent interconnects between such items.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 4:</I></HED>\n<P><I>4A906.c applies to items designed for calibrating, initializing, manipulating or measuring the resident qubits of a quantum computer.</I></P></NOTE>",
+            "text": "Note 4: 4A906.c applies to items designed for calibrating, initializing, manipulating or measuring the resident qubits of a quantum computer.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Notes:</I></HED>\n<P><I>For the purposes of 4A906:</I></P>\n<P><I>1. A 'physical qubit' is a two-level quantum system used to represent the elementary unit of quantum logic by means of manipulations and measurements that are not error corrected. 'Physical qubits' are distinguished from logical qubits, in that logical qubits are error-corrected qubits comprised of many 'physical qubits'.</I></P>\n<P><I>2. 'Fully controlled' means the 'physical qubit' can be calibrated, initialized, gated, and read out, as necessary.</I></P>\n<P><I>3. 'Connected' means that two-qubit gate operations can be performed between any arbitrary pair of the available 'working' 'physical qubits'. This does not necessarily entail all-to-all connectivity.</I></P>\n<P><I>4. 'Working' means that the 'physical qubit' performs universal quantum computational work according to the system specifications for qubit operational fidelity.</I></P>\n<P><I>5. Supporting 34 or more 'fully controlled', 'connected', 'working' 'physical qubits' refers to the capability of a quantum computer to confine, control, measure and process the quantum information embodied in 34 or more 'physical qubits'.</I></P>\n<P><I>6. 'C-NOT error' is the average physical gate error for the nearest-neighbor two-'physical qubit' Controlled-NOT (C-NOT) gates.</I></P></NOTE>",
+            "text": "Technical Notes: For the purposes of 4A906: 1. A 'physical qubit' is a two-level quantum system used to represent the elementary unit of quantum logic by means of manipulations and measurements that are not error corrected. 'Physical qubits' are distinguished from logical qubits, in that logical qubits are error-corrected qubits comprised of many 'physical qubits'. 2. 'Fully controlled' means the 'physical qubit' can be calibrated, initialized, gated, and read out, as necessary. 3. 'Connected' means that two-qubit gate operations can be performed between any arbitrary pair of the available 'working' 'physical qubits'. This does not necessarily entail all-to-all connectivity. 4. 'Working' means that the 'physical qubit' performs universal quantum computational work according to the system specifications for qubit operational fidelity. 5. Supporting 34 or more 'fully controlled', 'connected', 'working' 'physical qubits' refers to the capability of a quantum computer to confine, control, measure and process the quantum information embodied in 34 or more 'physical qubits'. 6. 'C-NOT error' is the average physical gate error for the nearest-neighbor two-'physical qubit' Controlled-NOT (C-NOT) gates.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+      "title": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+      "category": "4",
+      "group": "4A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "4A906 Quantum computers and related “electronic assemblies,” and “components” therefor, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "4A906"
+      ],
+      "text": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;\nNote 1: 4A906 applies to circuit model (or gate-based) and one-way (or measurement-based) quantum computers. This entry does not apply to adiabatic (or annealing) quantum computers.\nNote 2: Items specified by 4A906 may not necessarily physically contain any qubits. For example, quantum computers based on photonic schemes do not permanently contain a physical item that can be identified as a qubit. Instead, the photonic qubits are generated while the computer is operating and then later discarded.\nNote 3: Items specified by 4A906.b include semiconductor, superconducting, and photonic qubit chips and chip arrays; surface ion trap arrays; other qubit confinement technologies; and coherent interconnects between such items.\nNote 4: 4A906.c applies to items designed for calibrating, initializing, manipulating or measuring the resident qubits of a quantum computer.\nTechnical Notes: For the purposes of 4A906: 1. A 'physical qubit' is a two-level quantum system used to represent the elementary unit of quantum logic by means of manipulations and measurements that are not error corrected. 'Physical qubits' are distinguished from logical qubits, in that logical qubits are error-corrected qubits comprised of many 'physical qubits'. 2. 'Fully controlled' means the 'physical qubit' can be calibrated, initialized, gated, and read out, as necessary. 3. 'Connected' means that two-qubit gate operations can be performed between any arbitrary pair of the available 'working' 'physical qubits'. This does not necessarily entail all-to-all connectivity. 4. 'Working' means that the 'physical qubit' performs universal quantum computational work according to the system specifications for qubit operational fidelity. 5. Supporting 34 or more 'fully controlled', 'connected', 'working' 'physical qubits' refers to the capability of a quantum computer to confine, control, measure and process the quantum information embodied in 34 or more 'physical qubits'. 6. 'C-NOT error' is the average physical gate error for the nearest-neighbor two-'physical qubit' Controlled-NOT (C-NOT) gates.",
+      "structure": {
+        "identifier": "4A906.c",
+        "heading": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+        "label": "4A906.c – Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>4A906 applies to circuit model (or gate-based) and one-way (or measurement-based) quantum computers. This entry does not apply to adiabatic (or annealing) quantum computers.</I></P></NOTE>",
+            "text": "Note 1: 4A906 applies to circuit model (or gate-based) and one-way (or measurement-based) quantum computers. This entry does not apply to adiabatic (or annealing) quantum computers.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>Items specified by 4A906 may not necessarily physically contain any qubits. For example, quantum computers based on photonic schemes do not permanently contain a physical item that can be identified as a qubit. Instead, the photonic qubits are generated while the computer is operating and then later discarded.</I></P></NOTE>",
+            "text": "Note 2: Items specified by 4A906 may not necessarily physically contain any qubits. For example, quantum computers based on photonic schemes do not permanently contain a physical item that can be identified as a qubit. Instead, the photonic qubits are generated while the computer is operating and then later discarded.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 3:</I></HED>\n<P><I>Items specified by 4A906.b include semiconductor, superconducting, and photonic qubit chips and chip arrays; surface ion trap arrays; other qubit confinement technologies; and coherent interconnects between such items.</I></P></NOTE>",
+            "text": "Note 3: Items specified by 4A906.b include semiconductor, superconducting, and photonic qubit chips and chip arrays; surface ion trap arrays; other qubit confinement technologies; and coherent interconnects between such items.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 4:</I></HED>\n<P><I>4A906.c applies to items designed for calibrating, initializing, manipulating or measuring the resident qubits of a quantum computer.</I></P></NOTE>",
+            "text": "Note 4: 4A906.c applies to items designed for calibrating, initializing, manipulating or measuring the resident qubits of a quantum computer.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Notes:</I></HED>\n<P><I>For the purposes of 4A906:</I></P>\n<P><I>1. A 'physical qubit' is a two-level quantum system used to represent the elementary unit of quantum logic by means of manipulations and measurements that are not error corrected. 'Physical qubits' are distinguished from logical qubits, in that logical qubits are error-corrected qubits comprised of many 'physical qubits'.</I></P>\n<P><I>2. 'Fully controlled' means the 'physical qubit' can be calibrated, initialized, gated, and read out, as necessary.</I></P>\n<P><I>3. 'Connected' means that two-qubit gate operations can be performed between any arbitrary pair of the available 'working' 'physical qubits'. This does not necessarily entail all-to-all connectivity.</I></P>\n<P><I>4. 'Working' means that the 'physical qubit' performs universal quantum computational work according to the system specifications for qubit operational fidelity.</I></P>\n<P><I>5. Supporting 34 or more 'fully controlled', 'connected', 'working' 'physical qubits' refers to the capability of a quantum computer to confine, control, measure and process the quantum information embodied in 34 or more 'physical qubits'.</I></P>\n<P><I>6. 'C-NOT error' is the average physical gate error for the nearest-neighbor two-'physical qubit' Controlled-NOT (C-NOT) gates.</I></P></NOTE>",
+            "text": "Technical Notes: For the purposes of 4A906: 1. A 'physical qubit' is a two-level quantum system used to represent the elementary unit of quantum logic by means of manipulations and measurements that are not error corrected. 'Physical qubits' are distinguished from logical qubits, in that logical qubits are error-corrected qubits comprised of many 'physical qubits'. 2. 'Fully controlled' means the 'physical qubit' can be calibrated, initialized, gated, and read out, as necessary. 3. 'Connected' means that two-qubit gate operations can be performed between any arbitrary pair of the available 'working' 'physical qubits'. This does not necessarily entail all-to-all connectivity. 4. 'Working' means that the 'physical qubit' performs universal quantum computational work according to the system specifications for qubit operational fidelity. 5. Supporting 34 or more 'fully controlled', 'connected', 'working' 'physical qubits' refers to the capability of a quantum computer to confine, control, measure and process the quantum information embodied in 34 or more 'physical qubits'. 6. 'C-NOT error' is the average physical gate error for the nearest-neighbor two-'physical qubit' Controlled-NOT (C-NOT) gates.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+      "title": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+      "category": "4",
+      "group": "4A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "4A906 Quantum computers and related “electronic assemblies,” and “components” therefor, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "4A906"
+      ],
+      "text": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;\nNote 1: 4A906 applies to circuit model (or gate-based) and one-way (or measurement-based) quantum computers. This entry does not apply to adiabatic (or annealing) quantum computers.\nNote 2: Items specified by 4A906 may not necessarily physically contain any qubits. For example, quantum computers based on photonic schemes do not permanently contain a physical item that can be identified as a qubit. Instead, the photonic qubits are generated while the computer is operating and then later discarded.\nNote 3: Items specified by 4A906.b include semiconductor, superconducting, and photonic qubit chips and chip arrays; surface ion trap arrays; other qubit confinement technologies; and coherent interconnects between such items.\nNote 4: 4A906.c applies to items designed for calibrating, initializing, manipulating or measuring the resident qubits of a quantum computer.\nTechnical Notes: For the purposes of 4A906: 1. A 'physical qubit' is a two-level quantum system used to represent the elementary unit of quantum logic by means of manipulations and measurements that are not error corrected. 'Physical qubits' are distinguished from logical qubits, in that logical qubits are error-corrected qubits comprised of many 'physical qubits'. 2. 'Fully controlled' means the 'physical qubit' can be calibrated, initialized, gated, and read out, as necessary. 3. 'Connected' means that two-qubit gate operations can be performed between any arbitrary pair of the available 'working' 'physical qubits'. This does not necessarily entail all-to-all connectivity. 4. 'Working' means that the 'physical qubit' performs universal quantum computational work according to the system specifications for qubit operational fidelity. 5. Supporting 34 or more 'fully controlled', 'connected', 'working' 'physical qubits' refers to the capability of a quantum computer to confine, control, measure and process the quantum information embodied in 34 or more 'physical qubits'. 6. 'C-NOT error' is the average physical gate error for the nearest-neighbor two-'physical qubit' Controlled-NOT (C-NOT) gates.",
+      "structure": {
+        "identifier": "4A906.c",
+        "heading": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+        "label": "4A906.c – Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>4A906 applies to circuit model (or gate-based) and one-way (or measurement-based) quantum computers. This entry does not apply to adiabatic (or annealing) quantum computers.</I></P></NOTE>",
+            "text": "Note 1: 4A906 applies to circuit model (or gate-based) and one-way (or measurement-based) quantum computers. This entry does not apply to adiabatic (or annealing) quantum computers.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>Items specified by 4A906 may not necessarily physically contain any qubits. For example, quantum computers based on photonic schemes do not permanently contain a physical item that can be identified as a qubit. Instead, the photonic qubits are generated while the computer is operating and then later discarded.</I></P></NOTE>",
+            "text": "Note 2: Items specified by 4A906 may not necessarily physically contain any qubits. For example, quantum computers based on photonic schemes do not permanently contain a physical item that can be identified as a qubit. Instead, the photonic qubits are generated while the computer is operating and then later discarded.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 3:</I></HED>\n<P><I>Items specified by 4A906.b include semiconductor, superconducting, and photonic qubit chips and chip arrays; surface ion trap arrays; other qubit confinement technologies; and coherent interconnects between such items.</I></P></NOTE>",
+            "text": "Note 3: Items specified by 4A906.b include semiconductor, superconducting, and photonic qubit chips and chip arrays; surface ion trap arrays; other qubit confinement technologies; and coherent interconnects between such items.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 4:</I></HED>\n<P><I>4A906.c applies to items designed for calibrating, initializing, manipulating or measuring the resident qubits of a quantum computer.</I></P></NOTE>",
+            "text": "Note 4: 4A906.c applies to items designed for calibrating, initializing, manipulating or measuring the resident qubits of a quantum computer.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Notes:</I></HED>\n<P><I>For the purposes of 4A906:</I>\n</P>\n<P><I>1. A 'physical qubit' is a two-level quantum system used to represent the elementary unit of quantum logic by means of manipulations and measurements that are not error corrected. 'Physical qubits' are distinguished from logical qubits, in that logical qubits are error-corrected qubits comprised of many 'physical qubits'.</I>\n</P>\n<P><I>2. 'Fully controlled' means the 'physical qubit' can be calibrated, initialized, gated, and read out, as necessary.</I>\n</P>\n<P><I>3. 'Connected' means that two-qubit gate operations can be performed between any arbitrary pair of the available 'working' 'physical qubits'. This does not necessarily entail all-to-all connectivity.</I>\n</P>\n<P><I>4. 'Working' means that the 'physical qubit' performs universal quantum computational work according to the system specifications for qubit operational fidelity.</I>\n</P>\n<P><I>5. Supporting 34 or more 'fully controlled', 'connected', 'working' 'physical qubits' refers to the capability of a quantum computer to confine, control, measure and process the quantum information embodied in 34 or more 'physical qubits'.</I>\n</P>\n<P><I>6. 'C-NOT error' is the average physical gate error for the nearest-neighbor two-'physical qubit' Controlled-NOT (C-NOT) gates.</I></P></NOTE>",
+            "text": "Technical Notes: For the purposes of 4A906: 1. A 'physical qubit' is a two-level quantum system used to represent the elementary unit of quantum logic by means of manipulations and measurements that are not error corrected. 'Physical qubits' are distinguished from logical qubits, in that logical qubits are error-corrected qubits comprised of many 'physical qubits'. 2. 'Fully controlled' means the 'physical qubit' can be calibrated, initialized, gated, and read out, as necessary. 3. 'Connected' means that two-qubit gate operations can be performed between any arbitrary pair of the available 'working' 'physical qubits'. This does not necessarily entail all-to-all connectivity. 4. 'Working' means that the 'physical qubit' performs universal quantum computational work according to the system specifications for qubit operational fidelity. 5. Supporting 34 or more 'fully controlled', 'connected', 'working' 'physical qubits' refers to the capability of a quantum computer to confine, control, measure and process the quantum information embodied in 34 or more 'physical qubits'. 6. 'C-NOT error' is the average physical gate error for the nearest-neighbor two-'physical qubit' Controlled-NOT (C-NOT) gates.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+      "title": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+      "category": "4",
+      "group": "4A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "4A906 Quantum computers and related “electronic assemblies,” and “components” therefor, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "4A906"
+      ],
+      "text": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;\nNote 1: 4A906 applies to circuit model (or gate-based) and one-way (or measurement-based) quantum computers. This entry does not apply to adiabatic (or annealing) quantum computers.\nNote 2: Items specified by 4A906 may not necessarily physically contain any qubits. For example, quantum computers based on photonic schemes do not permanently contain a physical item that can be identified as a qubit. Instead, the photonic qubits are generated while the computer is operating and then later discarded.\nNote 3: Items specified by 4A906.b include semiconductor, superconducting, and photonic qubit chips and chip arrays; surface ion trap arrays; other qubit confinement technologies; and coherent interconnects between such items.\nNote 4: 4A906.c applies to items designed for calibrating, initializing, manipulating or measuring the resident qubits of a quantum computer.\nTechnical Notes: For the purposes of 4A906: 1. A 'physical qubit' is a two-level quantum system used to represent the elementary unit of quantum logic by means of manipulations and measurements that are not error corrected. 'Physical qubits' are distinguished from logical qubits, in that logical qubits are error-corrected qubits comprised of many 'physical qubits'. 2. 'Fully controlled' means the 'physical qubit' can be calibrated, initialized, gated, and read out, as necessary. 3. 'Connected' means that two-qubit gate operations can be performed between any arbitrary pair of the available 'working' 'physical qubits'. This does not necessarily entail all-to-all connectivity. 4. 'Working' means that the 'physical qubit' performs universal quantum computational work according to the system specifications for qubit operational fidelity. 5. Supporting 34 or more 'fully controlled', 'connected', 'working' 'physical qubits' refers to the capability of a quantum computer to confine, control, measure and process the quantum information embodied in 34 or more 'physical qubits'. 6. 'C-NOT error' is the average physical gate error for the nearest-neighbor two-'physical qubit' Controlled-NOT (C-NOT) gates.",
+      "structure": {
+        "identifier": "4A906.c",
+        "heading": "Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+        "label": "4A906.c – Quantum control components and quantum measurement devices, “specially designed” for items specified by 4A906.a;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>4A906 applies to circuit model (or gate-based) and one-way (or measurement-based) quantum computers. This entry does not apply to adiabatic (or annealing) quantum computers.</I></P></NOTE>",
+            "text": "Note 1: 4A906 applies to circuit model (or gate-based) and one-way (or measurement-based) quantum computers. This entry does not apply to adiabatic (or annealing) quantum computers.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>Items specified by 4A906 may not necessarily physically contain any qubits. For example, quantum computers based on photonic schemes do not permanently contain a physical item that can be identified as a qubit. Instead, the photonic qubits are generated while the computer is operating and then later discarded.</I></P></NOTE>",
+            "text": "Note 2: Items specified by 4A906 may not necessarily physically contain any qubits. For example, quantum computers based on photonic schemes do not permanently contain a physical item that can be identified as a qubit. Instead, the photonic qubits are generated while the computer is operating and then later discarded.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 3:</I></HED>\n<P><I>Items specified by 4A906.b include semiconductor, superconducting, and photonic qubit chips and chip arrays; surface ion trap arrays; other qubit confinement technologies; and coherent interconnects between such items.</I></P></NOTE>",
+            "text": "Note 3: Items specified by 4A906.b include semiconductor, superconducting, and photonic qubit chips and chip arrays; surface ion trap arrays; other qubit confinement technologies; and coherent interconnects between such items.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 4:</I></HED>\n<P><I>4A906.c applies to items designed for calibrating, initializing, manipulating or measuring the resident qubits of a quantum computer.</I></P></NOTE>",
+            "text": "Note 4: 4A906.c applies to items designed for calibrating, initializing, manipulating or measuring the resident qubits of a quantum computer.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Notes:</I></HED>\n<P><I>For the purposes of 4A906:</I>\n</P>\n<P><I>1. A 'physical qubit' is a two-level quantum system used to represent the elementary unit of quantum logic by means of manipulations and measurements that are not error corrected. 'Physical qubits' are distinguished from logical qubits, in that logical qubits are error-corrected qubits comprised of many 'physical qubits'.</I>\n</P>\n<P><I>2. 'Fully controlled' means the 'physical qubit' can be calibrated, initialized, gated, and read out, as necessary.</I>\n</P>\n<P><I>3. 'Connected' means that two-qubit gate operations can be performed between any arbitrary pair of the available 'working' 'physical qubits'. This does not necessarily entail all-to-all connectivity.</I>\n</P>\n<P><I>4. 'Working' means that the 'physical qubit' performs universal quantum computational work according to the system specifications for qubit operational fidelity.</I>\n</P>\n<P><I>5. Supporting 34 or more 'fully controlled', 'connected', 'working' 'physical qubits' refers to the capability of a quantum computer to confine, control, measure and process the quantum information embodied in 34 or more 'physical qubits'.</I>\n</P>\n<P><I>6. 'C-NOT error' is the average physical gate error for the nearest-neighbor two-'physical qubit' Controlled-NOT (C-NOT) gates.</I></P></NOTE>",
+            "text": "Technical Notes: For the purposes of 4A906: 1. A 'physical qubit' is a two-level quantum system used to represent the elementary unit of quantum logic by means of manipulations and measurements that are not error corrected. 'Physical qubits' are distinguished from logical qubits, in that logical qubits are error-corrected qubits comprised of many 'physical qubits'. 2. 'Fully controlled' means the 'physical qubit' can be calibrated, initialized, gated, and read out, as necessary. 3. 'Connected' means that two-qubit gate operations can be performed between any arbitrary pair of the available 'working' 'physical qubits'. This does not necessarily entail all-to-all connectivity. 4. 'Working' means that the 'physical qubit' performs universal quantum computational work according to the system specifications for qubit operational fidelity. 5. Supporting 34 or more 'fully controlled', 'connected', 'working' 'physical qubits' refers to the capability of a quantum computer to confine, control, measure and process the quantum information embodied in 34 or more 'physical qubits'. 6. 'C-NOT error' is the average physical gate error for the nearest-neighbor two-'physical qubit' Controlled-NOT (C-NOT) gates.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

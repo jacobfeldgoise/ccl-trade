@@ -1,0 +1,940 @@
+{
+  "eccn": "3A002.d.5.d",
+  "normalized": "3A002.D.5.D",
+  "history": [
+    {
+      "version": "2023-02-24",
+      "fetchedAt": "2025-10-02T20:33:42.390Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-02-24/title-15?format=xml",
+      "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "title": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "3A002 General purpose “electronic assemblies,” modules and equipment, as follows (see List of Items Controlled).",
+        "Signal generators having any of the following:",
+        "An 'RF modulation bandwidth' of digital baseband signals as specified by any of the following:"
+      ],
+      "ancestors": [
+        "3A002",
+        "3A002.d",
+        "3A002.d.5"
+      ],
+      "text": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or\nTechnical Note: 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+      "structure": {
+        "identifier": "3A002.d.5.d",
+        "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "label": "3A002.d.5.d – Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE><HED><I>Technical Note:</I></HED><P> <I>'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.</I></P></NOTE>",
+            "text": "Technical Note: 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-08-18",
+      "fetchedAt": "2025-10-02T20:33:42.783Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-08-18/title-15?format=xml",
+      "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "title": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A002 General purpose “electronic assemblies,” modules and equipment, as follows (see List of Items Controlled).",
+        "Signal generators having any of the following:",
+        "An 'RF modulation bandwidth' of digital baseband signals as specified by any of the following:"
+      ],
+      "ancestors": [
+        "3A002",
+        "3A002.d",
+        "3A002.d.5"
+      ],
+      "text": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or\nTechnical Note: 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+      "structure": {
+        "identifier": "3A002.d.5.d",
+        "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "label": "3A002.d.5.d – Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE><HED><I>Technical Note:</I></HED><P> <I>'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.</I></P></NOTE>",
+            "text": "Technical Note: 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-10-18",
+      "fetchedAt": "2025-10-02T20:33:43.173Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-10-18/title-15?format=xml",
+      "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "title": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A002 General purpose “electronic assemblies,” modules and equipment, as follows (see List of Items Controlled).",
+        "Signal generators having any of the following:",
+        "An 'RF modulation bandwidth' of digital baseband signals as specified by any of the following:"
+      ],
+      "ancestors": [
+        "3A002",
+        "3A002.d",
+        "3A002.d.5"
+      ],
+      "text": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or\nTechnical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+      "structure": {
+        "identifier": "3A002.d.5.d",
+        "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "label": "3A002.d.5.d – Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-11-17",
+      "fetchedAt": "2025-10-02T20:33:43.584Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-11-17/title-15?format=xml",
+      "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "title": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A002 General purpose “electronic assemblies,” modules and equipment, as follows (see List of Items Controlled).",
+        "Signal generators having any of the following:",
+        "An 'RF modulation bandwidth' of digital baseband signals as specified by any of the following:"
+      ],
+      "ancestors": [
+        "3A002",
+        "3A002.d",
+        "3A002.d.5"
+      ],
+      "text": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or\nTechnical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+      "structure": {
+        "identifier": "3A002.d.5.d",
+        "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "label": "3A002.d.5.d – Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-12-08",
+      "fetchedAt": "2025-10-02T20:33:43.980Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-12-08/title-15?format=xml",
+      "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "title": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A002 General purpose “electronic assemblies,” modules and equipment, as follows (see List of Items Controlled).",
+        "Signal generators having any of the following:",
+        "An 'RF modulation bandwidth' of digital baseband signals as specified by any of the following:"
+      ],
+      "ancestors": [
+        "3A002",
+        "3A002.d",
+        "3A002.d.5"
+      ],
+      "text": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or\nTechnical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+      "structure": {
+        "identifier": "3A002.d.5.d",
+        "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "label": "3A002.d.5.d – Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-03-08",
+      "fetchedAt": "2025-10-02T20:33:44.401Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-08/title-15?format=xml",
+      "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "title": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A002 General purpose “electronic assemblies,” modules and equipment, as follows (see List of Items Controlled).",
+        "Signal generators having any of the following:",
+        "An 'RF modulation bandwidth' of digital baseband signals as specified by any of the following:"
+      ],
+      "ancestors": [
+        "3A002",
+        "3A002.d",
+        "3A002.d.5"
+      ],
+      "text": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or\nTechnical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+      "structure": {
+        "identifier": "3A002.d.5.d",
+        "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "label": "3A002.d.5.d – Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-03-13",
+      "fetchedAt": "2025-10-02T20:33:44.826Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-13/title-15?format=xml",
+      "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "title": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A002 General purpose “electronic assemblies,” modules and equipment, as follows (see List of Items Controlled).",
+        "Signal generators having any of the following:",
+        "An 'RF modulation bandwidth' of digital baseband signals as specified by any of the following:"
+      ],
+      "ancestors": [
+        "3A002",
+        "3A002.d",
+        "3A002.d.5"
+      ],
+      "text": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or\nTechnical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+      "structure": {
+        "identifier": "3A002.d.5.d",
+        "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "label": "3A002.d.5.d – Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-04-04",
+      "fetchedAt": "2025-10-02T20:33:45.229Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-04/title-15?format=xml",
+      "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "title": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A002 General purpose “electronic assemblies,” modules and equipment, as follows (see List of Items Controlled).",
+        "Signal generators having any of the following:",
+        "An 'RF modulation bandwidth' of digital baseband signals as specified by any of the following:"
+      ],
+      "ancestors": [
+        "3A002",
+        "3A002.d",
+        "3A002.d.5"
+      ],
+      "text": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or\nTechnical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+      "structure": {
+        "identifier": "3A002.d.5.d",
+        "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "label": "3A002.d.5.d – Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-04-19",
+      "fetchedAt": "2025-10-02T20:33:45.630Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-19/title-15?format=xml",
+      "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "title": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A002 General purpose “electronic assemblies,” modules and equipment, as follows (see List of Items Controlled).",
+        "Signal generators having any of the following:",
+        "An 'RF modulation bandwidth' of digital baseband signals as specified by any of the following:"
+      ],
+      "ancestors": [
+        "3A002",
+        "3A002.d",
+        "3A002.d.5"
+      ],
+      "text": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or\nTechnical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+      "structure": {
+        "identifier": "3A002.d.5.d",
+        "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "label": "3A002.d.5.d – Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-05-30",
+      "fetchedAt": "2025-10-02T20:33:46.051Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-05-30/title-15?format=xml",
+      "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "title": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A002 General purpose “electronic assemblies,” modules and equipment, as follows (see List of Items Controlled).",
+        "Signal generators having any of the following:",
+        "An 'RF modulation bandwidth' of digital baseband signals as specified by any of the following:"
+      ],
+      "ancestors": [
+        "3A002",
+        "3A002.d",
+        "3A002.d.5"
+      ],
+      "text": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or\nTechnical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+      "structure": {
+        "identifier": "3A002.d.5.d",
+        "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "label": "3A002.d.5.d – Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-06-12",
+      "fetchedAt": "2025-10-02T20:33:46.460Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-06-12/title-15?format=xml",
+      "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "title": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A002 General purpose “electronic assemblies,” modules and equipment, as follows (see List of Items Controlled).",
+        "Signal generators having any of the following:",
+        "An 'RF modulation bandwidth' of digital baseband signals as specified by any of the following:"
+      ],
+      "ancestors": [
+        "3A002",
+        "3A002.d",
+        "3A002.d.5"
+      ],
+      "text": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or\nTechnical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+      "structure": {
+        "identifier": "3A002.d.5.d",
+        "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "label": "3A002.d.5.d – Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-09-06",
+      "fetchedAt": "2025-10-02T20:33:46.879Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-09-06/title-15?format=xml",
+      "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "title": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A002 General purpose “electronic assemblies,” modules and equipment, as follows (see List of Items Controlled).",
+        "Signal generators having any of the following:",
+        "An 'RF modulation bandwidth' of digital baseband signals as specified by any of the following:"
+      ],
+      "ancestors": [
+        "3A002",
+        "3A002.d",
+        "3A002.d.5"
+      ],
+      "text": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or\nTechnical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+      "structure": {
+        "identifier": "3A002.d.5.d",
+        "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "label": "3A002.d.5.d – Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-10-23",
+      "fetchedAt": "2025-10-02T20:33:47.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-10-23/title-15?format=xml",
+      "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "title": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A002 General purpose “electronic assemblies,” modules and equipment, as follows (see List of Items Controlled).",
+        "Signal generators having any of the following:",
+        "An 'RF modulation bandwidth' of digital baseband signals as specified by any of the following:"
+      ],
+      "ancestors": [
+        "3A002",
+        "3A002.d",
+        "3A002.d.5"
+      ],
+      "text": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or\nTechnical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+      "structure": {
+        "identifier": "3A002.d.5.d",
+        "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "label": "3A002.d.5.d – Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-02",
+      "fetchedAt": "2025-10-02T20:33:47.757Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-02/title-15?format=xml",
+      "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "title": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A002 General purpose “electronic assemblies,” modules and equipment, as follows (see List of Items Controlled).",
+        "Signal generators having any of the following:",
+        "An 'RF modulation bandwidth' of digital baseband signals as specified by any of the following:"
+      ],
+      "ancestors": [
+        "3A002",
+        "3A002.d",
+        "3A002.d.5"
+      ],
+      "text": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or\nTechnical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+      "structure": {
+        "identifier": "3A002.d.5.d",
+        "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "label": "3A002.d.5.d – Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "title": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A002 General purpose “electronic assemblies,” modules and equipment, as follows (see List of Items Controlled).",
+        "Signal generators having any of the following:",
+        "An 'RF modulation bandwidth' of digital baseband signals as specified by any of the following:"
+      ],
+      "ancestors": [
+        "3A002",
+        "3A002.d",
+        "3A002.d.5"
+      ],
+      "text": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or\nTechnical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+      "structure": {
+        "identifier": "3A002.d.5.d",
+        "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "label": "3A002.d.5.d – Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "title": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A002 General purpose “electronic assemblies,” modules and equipment, as follows (see List of Items Controlled).",
+        "Signal generators having any of the following:",
+        "An 'RF modulation bandwidth' of digital baseband signals as specified by any of the following:"
+      ],
+      "ancestors": [
+        "3A002",
+        "3A002.d",
+        "3A002.d.5"
+      ],
+      "text": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or\nTechnical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+      "structure": {
+        "identifier": "3A002.d.5.d",
+        "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "label": "3A002.d.5.d – Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "title": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A002 General purpose “electronic assemblies,” modules and equipment, as follows (see List of Items Controlled).",
+        "Signal generators having any of the following:",
+        "An 'RF modulation bandwidth' of digital baseband signals as specified by any of the following:"
+      ],
+      "ancestors": [
+        "3A002",
+        "3A002.d",
+        "3A002.d.5"
+      ],
+      "text": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or\nTechnical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+      "structure": {
+        "identifier": "3A002.d.5.d",
+        "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "label": "3A002.d.5.d – Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "title": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A002 General purpose “electronic assemblies,” modules and equipment, as follows (see List of Items Controlled).",
+        "Signal generators having any of the following:",
+        "An 'RF modulation bandwidth' of digital baseband signals as specified by any of the following:"
+      ],
+      "ancestors": [
+        "3A002",
+        "3A002.d",
+        "3A002.d.5"
+      ],
+      "text": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or\nTechnical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+      "structure": {
+        "identifier": "3A002.d.5.d",
+        "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "label": "3A002.d.5.d – Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "title": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A002 General purpose “electronic assemblies,” modules and equipment, as follows (see List of Items Controlled).",
+        "Signal generators having any of the following:",
+        "An 'RF modulation bandwidth' of digital baseband signals as specified by any of the following:"
+      ],
+      "ancestors": [
+        "3A002",
+        "3A002.d",
+        "3A002.d.5"
+      ],
+      "text": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or\nTechnical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+      "structure": {
+        "identifier": "3A002.d.5.d",
+        "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "label": "3A002.d.5.d – Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "title": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A002 General purpose “electronic assemblies,” modules and equipment, as follows (see List of Items Controlled).",
+        "Signal generators having any of the following:",
+        "An 'RF modulation bandwidth' of digital baseband signals as specified by any of the following:"
+      ],
+      "ancestors": [
+        "3A002",
+        "3A002.d",
+        "3A002.d.5"
+      ],
+      "text": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or\nTechnical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+      "structure": {
+        "identifier": "3A002.d.5.d",
+        "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "label": "3A002.d.5.d – Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "title": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A002 General purpose “electronic assemblies,” modules and equipment, as follows (see List of Items Controlled).",
+        "Signal generators having any of the following:",
+        "An 'RF modulation bandwidth' of digital baseband signals as specified by any of the following:"
+      ],
+      "ancestors": [
+        "3A002",
+        "3A002.d",
+        "3A002.d.5"
+      ],
+      "text": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or\nTechnical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+      "structure": {
+        "identifier": "3A002.d.5.d",
+        "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "label": "3A002.d.5.d – Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "title": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A002 General purpose “electronic assemblies,” modules and equipment, as follows (see List of Items Controlled).",
+        "Signal generators having any of the following:",
+        "An 'RF modulation bandwidth' of digital baseband signals as specified by any of the following:"
+      ],
+      "ancestors": [
+        "3A002",
+        "3A002.d",
+        "3A002.d.5"
+      ],
+      "text": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or\nTechnical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+      "structure": {
+        "identifier": "3A002.d.5.d",
+        "heading": "Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "label": "3A002.d.5.d – Exceeding 5.0 GHz within the frequency range exceeding 75 GHz but not exceeding 90 GHz; or",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 3A002.d.5, 'RF modulation bandwidth' is the Radio Frequency (RF) bandwidth occupied by a digitally encoded baseband signal modulated onto an RF signal. It is also referred to as information bandwidth or vector modulation bandwidth. I/Q digital modulation is the technical method for producing a vector-modulated RF output signal, and that output signal is typically specified as having an 'RF modulation bandwidth'.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

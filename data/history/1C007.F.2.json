@@ -1,0 +1,86 @@
+{
+  "eccn": "1C007.f.2",
+  "normalized": "1C007.F.2",
+  "history": [
+    {
+      "version": "2017-01-15",
+      "fetchedAt": "2025-10-02T20:33:28.357Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-15/title-15?format=xml",
+      "heading": "Si-C-N.",
+      "title": "Si-C-N.",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C007 Ceramic Powders, Non-”Composite” Ceramic Materials, Ceramic-”Matrix” “composite” Materials and Precursor Materials, as Follows (see List of Items Controlled).",
+        "Ceramic-ceramic “composite” materials with an oxide or glass “matrix” reinforced with continuous fibers from any of the following systems:"
+      ],
+      "ancestors": [
+        "1C007",
+        "1C007.f"
+      ],
+      "text": "Si-C-N.\nNote: 1C007.f does not control “composites” containing fibers from these systems with a fiber tensile strength of less than 700 MPa at 1,273 K (1,000 °C) or fiber tensile creep resistance of more than 1% creep strain at 100 MPa load and 1,273 K (1,000 °C) for 100 hours.",
+      "structure": {
+        "identifier": "1C007.f.2",
+        "heading": "Si-C-N.",
+        "label": "1C007.f.2 – Si-C-N.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>1C007.f does not control “composites” containing fibers from these systems with a fiber tensile strength of less than 700 MPa at 1,273 K (1,000 °C) or fiber tensile creep resistance of more than 1% creep strain at 100 MPa load and 1,273 K (1,000 °C) for 100 hours.</I></P></NOTE>",
+            "text": "Note: 1C007.f does not control “composites” containing fibers from these systems with a fiber tensile strength of less than 700 MPa at 1,273 K (1,000 °C) or fiber tensile creep resistance of more than 1% creep strain at 100 MPa load and 1,273 K (1,000 °C) for 100 hours.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-07-07",
+      "fetchedAt": "2025-10-02T20:33:28.904Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-07-07/title-15?format=xml",
+      "heading": "Si-C-N.",
+      "title": "Si-C-N.",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C007 Ceramic Powders, Non-”Composite” Ceramic Materials, Ceramic-”Matrix” “composite” Materials and Precursor Materials, as Follows (see List of Items Controlled).",
+        "Ceramic-ceramic “composite” materials with an oxide or glass “matrix” reinforced with continuous fibers from any of the following systems:"
+      ],
+      "ancestors": [
+        "1C007",
+        "1C007.f"
+      ],
+      "text": "Si-C-N.\nNote: 1C007.f does not control “composites” containing fibers from these systems with a fiber tensile strength of less than 700 MPa at 1,273 K (1,000 °C) or fiber tensile creep resistance of more than 1% creep strain at 100 MPa load and 1,273 K (1,000 °C) for 100 hours.",
+      "structure": {
+        "identifier": "1C007.f.2",
+        "heading": "Si-C-N.",
+        "label": "1C007.f.2 – Si-C-N.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>1C007.f does not control “composites” containing fibers from these systems with a fiber tensile strength of less than 700 MPa at 1,273 K (1,000 °C) or fiber tensile creep resistance of more than 1% creep strain at 100 MPa load and 1,273 K (1,000 °C) for 100 hours.</I></P></NOTE>",
+            "text": "Note: 1C007.f does not control “composites” containing fibers from these systems with a fiber tensile strength of less than 700 MPa at 1,273 K (1,000 °C) or fiber tensile creep resistance of more than 1% creep strain at 100 MPa load and 1,273 K (1,000 °C) for 100 hours.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

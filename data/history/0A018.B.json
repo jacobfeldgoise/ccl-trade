@@ -1,0 +1,819 @@
+{
+  "eccn": "0A018.b",
+  "normalized": "0A018.B",
+  "history": [
+    {
+      "version": "2017-01-15",
+      "fetchedAt": "2025-10-02T20:33:28.357Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-15/title-15?format=xml",
+      "heading": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+      "title": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "0A018 Items on the Wassenaar Munitions List (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "0A018"
+      ],
+      "text": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);\nNote: 0A018.b does not apply to “components” “specially designed” for blank or dummy ammunition as follows: a. Ammunition crimped without a projectile (blank star); b. Dummy ammunition with a pierced powder chamber; c. Other blank and dummy ammunition, not incorporating components designed for live ammunition.",
+      "structure": {
+        "identifier": "0A018.b",
+        "heading": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+        "label": "0A018.b – “Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I>\n</HED>\n<P><I>0A018.b does not apply to “components” “specially designed” for blank or dummy ammunition as follows:</I></P>\n<P><I>a. Ammunition crimped without a projectile (blank star);</I></P>\n<P><I>b. Dummy ammunition with a pierced powder chamber;</I></P>\n<P><I>c. Other blank and dummy ammunition, not incorporating components designed for live ammunition.</I></P></NOTE>",
+            "text": "Note: 0A018.b does not apply to “components” “specially designed” for blank or dummy ammunition as follows: a. Ammunition crimped without a projectile (blank star); b. Dummy ammunition with a pierced powder chamber; c. Other blank and dummy ammunition, not incorporating components designed for live ammunition.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-07-07",
+      "fetchedAt": "2025-10-02T20:33:28.904Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-07-07/title-15?format=xml",
+      "heading": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+      "title": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "0A018 Items on the Wassenaar Munitions List (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "0A018"
+      ],
+      "text": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);\nNote: 0A018.b does not apply to “components” “specially designed” for blank or dummy ammunition as follows: a. Ammunition crimped without a projectile (blank star); b. Dummy ammunition with a pierced powder chamber; c. Other blank and dummy ammunition, not incorporating components designed for live ammunition.",
+      "structure": {
+        "identifier": "0A018.b",
+        "heading": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+        "label": "0A018.b – “Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I>\n</HED>\n<P><I>0A018.b does not apply to “components” “specially designed” for blank or dummy ammunition as follows:</I></P>\n<P><I>a. Ammunition crimped without a projectile (blank star);</I></P>\n<P><I>b. Dummy ammunition with a pierced powder chamber;</I></P>\n<P><I>c. Other blank and dummy ammunition, not incorporating components designed for live ammunition.</I></P></NOTE>",
+            "text": "Note: 0A018.b does not apply to “components” “specially designed” for blank or dummy ammunition as follows: a. Ammunition crimped without a projectile (blank star); b. Dummy ammunition with a pierced powder chamber; c. Other blank and dummy ammunition, not incorporating components designed for live ammunition.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-08-15",
+      "fetchedAt": "2025-10-02T20:33:29.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-08-15/title-15?format=xml",
+      "heading": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+      "title": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "0A018 Items on the Wassenaar Munitions List (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "0A018"
+      ],
+      "text": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);\nNote: 0A018.b does not apply to “components” “specially designed” for blank or dummy ammunition as follows: a. Ammunition crimped without a projectile (blank star); b. Dummy ammunition with a pierced powder chamber; c. Other blank and dummy ammunition, not incorporating components designed for live ammunition.",
+      "structure": {
+        "identifier": "0A018.b",
+        "heading": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+        "label": "0A018.b – “Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I>\n</HED>\n<P><I>0A018.b does not apply to “components” “specially designed” for blank or dummy ammunition as follows:</I></P>\n<P><I>a. Ammunition crimped without a projectile (blank star);</I></P>\n<P><I>b. Dummy ammunition with a pierced powder chamber;</I></P>\n<P><I>c. Other blank and dummy ammunition, not incorporating components designed for live ammunition.</I></P></NOTE>",
+            "text": "Note: 0A018.b does not apply to “components” “specially designed” for blank or dummy ammunition as follows: a. Ammunition crimped without a projectile (blank star); b. Dummy ammunition with a pierced powder chamber; c. Other blank and dummy ammunition, not incorporating components designed for live ammunition.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-12-27",
+      "fetchedAt": "2025-10-02T20:33:29.759Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-12-27/title-15?format=xml",
+      "heading": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+      "title": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "0A018 Items on the Wassenaar Munitions List (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "0A018"
+      ],
+      "text": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);\nNote: 0A018.b does not apply to “components” “specially designed” for blank or dummy ammunition as follows: a. Ammunition crimped without a projectile (blank star); b. Dummy ammunition with a pierced powder chamber; c. Other blank and dummy ammunition, not incorporating components designed for live ammunition.",
+      "structure": {
+        "identifier": "0A018.b",
+        "heading": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+        "label": "0A018.b – “Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I>\n</HED>\n<P><I>0A018.b does not apply to “components” “specially designed” for blank or dummy ammunition as follows:</I></P>\n<P><I>a. Ammunition crimped without a projectile (blank star);</I></P>\n<P><I>b. Dummy ammunition with a pierced powder chamber;</I></P>\n<P><I>c. Other blank and dummy ammunition, not incorporating components designed for live ammunition.</I></P></NOTE>",
+            "text": "Note: 0A018.b does not apply to “components” “specially designed” for blank or dummy ammunition as follows: a. Ammunition crimped without a projectile (blank star); b. Dummy ammunition with a pierced powder chamber; c. Other blank and dummy ammunition, not incorporating components designed for live ammunition.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-01-08",
+      "fetchedAt": "2025-10-02T20:33:30.194Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-01-08/title-15?format=xml",
+      "heading": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+      "title": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "0A018 Items on the Wassenaar Munitions List (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "0A018"
+      ],
+      "text": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);\nNote: 0A018.b does not apply to “components” “specially designed” for blank or dummy ammunition as follows: a. Ammunition crimped without a projectile (blank star); b. Dummy ammunition with a pierced powder chamber; c. Other blank and dummy ammunition, not incorporating components designed for live ammunition.",
+      "structure": {
+        "identifier": "0A018.b",
+        "heading": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+        "label": "0A018.b – “Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I>\n</HED>\n<P><I>0A018.b does not apply to “components” “specially designed” for blank or dummy ammunition as follows:</I></P>\n<P><I>a. Ammunition crimped without a projectile (blank star);</I></P>\n<P><I>b. Dummy ammunition with a pierced powder chamber;</I></P>\n<P><I>c. Other blank and dummy ammunition, not incorporating components designed for live ammunition.</I></P></NOTE>",
+            "text": "Note: 0A018.b does not apply to “components” “specially designed” for blank or dummy ammunition as follows: a. Ammunition crimped without a projectile (blank star); b. Dummy ammunition with a pierced powder chamber; c. Other blank and dummy ammunition, not incorporating components designed for live ammunition.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-04-02",
+      "fetchedAt": "2025-10-02T20:33:30.716Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-02/title-15?format=xml",
+      "heading": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+      "title": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "0A018 Items on the Wassenaar Munitions List (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "0A018"
+      ],
+      "text": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);\nNote: 0A018.b does not apply to “components” “specially designed” for blank or dummy ammunition as follows: a. Ammunition crimped without a projectile (blank star); b. Dummy ammunition with a pierced powder chamber; c. Other blank and dummy ammunition, not incorporating components designed for live ammunition.",
+      "structure": {
+        "identifier": "0A018.b",
+        "heading": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+        "label": "0A018.b – “Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I>\n</HED>\n<P><I>0A018.b does not apply to “components” “specially designed” for blank or dummy ammunition as follows:</I></P>\n<P><I>a. Ammunition crimped without a projectile (blank star);</I></P>\n<P><I>b. Dummy ammunition with a pierced powder chamber;</I></P>\n<P><I>c. Other blank and dummy ammunition, not incorporating components designed for live ammunition.</I></P></NOTE>",
+            "text": "Note: 0A018.b does not apply to “components” “specially designed” for blank or dummy ammunition as follows: a. Ammunition crimped without a projectile (blank star); b. Dummy ammunition with a pierced powder chamber; c. Other blank and dummy ammunition, not incorporating components designed for live ammunition.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-04-05",
+      "fetchedAt": "2025-10-02T20:33:31.145Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-05/title-15?format=xml",
+      "heading": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+      "title": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "0A018 Items on the Wassenaar Munitions List (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "0A018"
+      ],
+      "text": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);\nNote: 0A018.b does not apply to “components” “specially designed” for blank or dummy ammunition as follows: a. Ammunition crimped without a projectile (blank star); b. Dummy ammunition with a pierced powder chamber; c. Other blank and dummy ammunition, not incorporating components designed for live ammunition.",
+      "structure": {
+        "identifier": "0A018.b",
+        "heading": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+        "label": "0A018.b – “Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I>\n</HED>\n<P><I>0A018.b does not apply to “components” “specially designed” for blank or dummy ammunition as follows:</I></P>\n<P><I>a. Ammunition crimped without a projectile (blank star);</I></P>\n<P><I>b. Dummy ammunition with a pierced powder chamber;</I></P>\n<P><I>c. Other blank and dummy ammunition, not incorporating components designed for live ammunition.</I></P></NOTE>",
+            "text": "Note: 0A018.b does not apply to “components” “specially designed” for blank or dummy ammunition as follows: a. Ammunition crimped without a projectile (blank star); b. Dummy ammunition with a pierced powder chamber; c. Other blank and dummy ammunition, not incorporating components designed for live ammunition.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-08-30",
+      "fetchedAt": "2025-10-02T20:33:31.567Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-08-30/title-15?format=xml",
+      "heading": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+      "title": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "0A018 Items on the Wassenaar Munitions List (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "0A018"
+      ],
+      "text": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);\nNote: 0A018.b does not apply to “components” “specially designed” for blank or dummy ammunition as follows: a. Ammunition crimped without a projectile (blank star); b. Dummy ammunition with a pierced powder chamber; c. Other blank and dummy ammunition, not incorporating components designed for live ammunition.",
+      "structure": {
+        "identifier": "0A018.b",
+        "heading": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+        "label": "0A018.b – “Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I>\n</HED>\n<P><I>0A018.b does not apply to “components” “specially designed” for blank or dummy ammunition as follows:</I></P>\n<P><I>a. Ammunition crimped without a projectile (blank star);</I></P>\n<P><I>b. Dummy ammunition with a pierced powder chamber;</I></P>\n<P><I>c. Other blank and dummy ammunition, not incorporating components designed for live ammunition.</I></P></NOTE>",
+            "text": "Note: 0A018.b does not apply to “components” “specially designed” for blank or dummy ammunition as follows: a. Ammunition crimped without a projectile (blank star); b. Dummy ammunition with a pierced powder chamber; c. Other blank and dummy ammunition, not incorporating components designed for live ammunition.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-10-24",
+      "fetchedAt": "2025-10-02T20:33:31.990Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-10-24/title-15?format=xml",
+      "heading": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+      "title": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "0A018 Items on the Wassenaar Munitions List (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "0A018"
+      ],
+      "text": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);\nNote: 0A018.b does not apply to “components” “specially designed” for blank or dummy ammunition as follows: a. Ammunition crimped without a projectile (blank star); b. Dummy ammunition with a pierced powder chamber; c. Other blank and dummy ammunition, not incorporating components designed for live ammunition.",
+      "structure": {
+        "identifier": "0A018.b",
+        "heading": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+        "label": "0A018.b – “Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I>\n</HED>\n<P><I>0A018.b does not apply to “components” “specially designed” for blank or dummy ammunition as follows:</I></P>\n<P><I>a. Ammunition crimped without a projectile (blank star);</I></P>\n<P><I>b. Dummy ammunition with a pierced powder chamber;</I></P>\n<P><I>c. Other blank and dummy ammunition, not incorporating components designed for live ammunition.</I></P></NOTE>",
+            "text": "Note: 0A018.b does not apply to “components” “specially designed” for blank or dummy ammunition as follows: a. Ammunition crimped without a projectile (blank star); b. Dummy ammunition with a pierced powder chamber; c. Other blank and dummy ammunition, not incorporating components designed for live ammunition.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-11-02",
+      "fetchedAt": "2025-10-02T20:33:32.381Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-11-02/title-15?format=xml",
+      "heading": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+      "title": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "0A018 Items on the Wassenaar Munitions List (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "0A018"
+      ],
+      "text": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);\nNote: 0A018.b does not apply to “components” “specially designed” for blank or dummy ammunition as follows: a. Ammunition crimped without a projectile (blank star); b. Dummy ammunition with a pierced powder chamber; c. Other blank and dummy ammunition, not incorporating components designed for live ammunition.",
+      "structure": {
+        "identifier": "0A018.b",
+        "heading": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+        "label": "0A018.b – “Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I>\n</HED>\n<P><I>0A018.b does not apply to “components” “specially designed” for blank or dummy ammunition as follows:</I></P>\n<P><I>a. Ammunition crimped without a projectile (blank star);</I></P>\n<P><I>b. Dummy ammunition with a pierced powder chamber;</I></P>\n<P><I>c. Other blank and dummy ammunition, not incorporating components designed for live ammunition.</I></P></NOTE>",
+            "text": "Note: 0A018.b does not apply to “components” “specially designed” for blank or dummy ammunition as follows: a. Ammunition crimped without a projectile (blank star); b. Dummy ammunition with a pierced powder chamber; c. Other blank and dummy ammunition, not incorporating components designed for live ammunition.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-12-20",
+      "fetchedAt": "2025-10-02T20:33:32.762Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-12-20/title-15?format=xml",
+      "heading": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+      "title": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "0A018 Items on the Wassenaar Munitions List (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "0A018"
+      ],
+      "text": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);\nNote: 0A018.b does not apply to “components” “specially designed” for blank or dummy ammunition as follows: a. Ammunition crimped without a projectile (blank star); b. Dummy ammunition with a pierced powder chamber; c. Other blank and dummy ammunition, not incorporating components designed for live ammunition.",
+      "structure": {
+        "identifier": "0A018.b",
+        "heading": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+        "label": "0A018.b – “Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>0A018.b does not apply to “components” “specially designed” for blank or dummy ammunition as follows:</I></P>\n<P><I>a. Ammunition crimped without a projectile (blank star);</I></P>\n<P><I>b. Dummy ammunition with a pierced powder chamber;</I></P>\n<P><I>c. Other blank and dummy ammunition, not incorporating components designed for live ammunition.</I></P></NOTE>",
+            "text": "Note: 0A018.b does not apply to “components” “specially designed” for blank or dummy ammunition as follows: a. Ammunition crimped without a projectile (blank star); b. Dummy ammunition with a pierced powder chamber; c. Other blank and dummy ammunition, not incorporating components designed for live ammunition.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2019-05-23",
+      "fetchedAt": "2025-10-02T20:33:33.148Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2019-05-23/title-15?format=xml",
+      "heading": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+      "title": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "0A018 Items on the Wassenaar Munitions List (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "0A018"
+      ],
+      "text": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);\nNote: 0A018.b does not apply to “components” “specially designed” for blank or dummy ammunition as follows: a. Ammunition crimped without a projectile (blank star); b. Dummy ammunition with a pierced powder chamber; c. Other blank and dummy ammunition, not incorporating components designed for live ammunition.",
+      "structure": {
+        "identifier": "0A018.b",
+        "heading": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+        "label": "0A018.b – “Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>0A018.b does not apply to “components” “specially designed” for blank or dummy ammunition as follows:</I></P>\n<P><I>a. Ammunition crimped without a projectile (blank star);</I></P>\n<P><I>b. Dummy ammunition with a pierced powder chamber;</I></P>\n<P><I>c. Other blank and dummy ammunition, not incorporating components designed for live ammunition.</I></P></NOTE>",
+            "text": "Note: 0A018.b does not apply to “components” “specially designed” for blank or dummy ammunition as follows: a. Ammunition crimped without a projectile (blank star); b. Dummy ammunition with a pierced powder chamber; c. Other blank and dummy ammunition, not incorporating components designed for live ammunition.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-01-06",
+      "fetchedAt": "2025-10-02T20:33:33.561Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-01-06/title-15?format=xml",
+      "heading": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+      "title": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "0A018 Items on the Wassenaar Munitions List (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "0A018"
+      ],
+      "text": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);\nNote: 0A018.b does not apply to “components” “specially designed” for blank or dummy ammunition as follows: a. Ammunition crimped without a projectile (blank star); b. Dummy ammunition with a pierced powder chamber; c. Other blank and dummy ammunition, not incorporating components designed for live ammunition.",
+      "structure": {
+        "identifier": "0A018.b",
+        "heading": "“Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+        "label": "0A018.b – “Specially designed” components and parts for ammunition, except cartridge cases, powder bags, bullets, jackets, cores, shells, projectiles, boosters, fuses and components, primers, and other detonating devices and ammunition belting and linking machines (all of which are “subject to the ITAR.” (See 22 CFR parts 120 through 130);",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>0A018.b does not apply to “components” “specially designed” for blank or dummy ammunition as follows:</I></P>\n<P><I>a. Ammunition crimped without a projectile (blank star);</I></P>\n<P><I>b. Dummy ammunition with a pierced powder chamber;</I></P>\n<P><I>c. Other blank and dummy ammunition, not incorporating components designed for live ammunition.</I></P></NOTE>",
+            "text": "Note: 0A018.b does not apply to “components” “specially designed” for blank or dummy ammunition as follows: a. Ammunition crimped without a projectile (blank star); b. Dummy ammunition with a pierced powder chamber; c. Other blank and dummy ammunition, not incorporating components designed for live ammunition.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-03-09",
+      "fetchedAt": "2025-10-02T20:33:33.960Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-03-09/title-15?format=xml",
+      "heading": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+      "title": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "0A018 Items on the Wassenaar Munitions List (see List of Items Controlled)"
+      ],
+      "ancestors": [
+        "0A018"
+      ],
+      "text": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+      "structure": {
+        "identifier": "0A018.b",
+        "heading": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+        "label": "0A018.b – No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-06-17",
+      "fetchedAt": "2025-10-02T20:33:34.354Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-06-17/title-15?format=xml",
+      "heading": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+      "title": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "0A018 Items on the Wassenaar Munitions List (see List of Items Controlled)"
+      ],
+      "ancestors": [
+        "0A018"
+      ],
+      "text": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+      "structure": {
+        "identifier": "0A018.b",
+        "heading": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+        "label": "0A018.b – No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-06-29",
+      "fetchedAt": "2025-10-02T20:33:34.750Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-06-29/title-15?format=xml",
+      "heading": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+      "title": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "0A018 Items on the Wassenaar Munitions List (see List of Items Controlled)"
+      ],
+      "ancestors": [
+        "0A018"
+      ],
+      "text": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+      "structure": {
+        "identifier": "0A018.b",
+        "heading": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+        "label": "0A018.b – No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-09-11",
+      "fetchedAt": "2025-10-02T20:33:35.161Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-09-11/title-15?format=xml",
+      "heading": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+      "title": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "0A018 Items on the Wassenaar Munitions List (see List of Items Controlled)"
+      ],
+      "ancestors": [
+        "0A018"
+      ],
+      "text": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+      "structure": {
+        "identifier": "0A018.b",
+        "heading": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+        "label": "0A018.b – No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-10-05",
+      "fetchedAt": "2025-10-02T20:33:35.641Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-10-05/title-15?format=xml",
+      "heading": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+      "title": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "0A018 Items on the Wassenaar Munitions List (see List of Items Controlled)"
+      ],
+      "ancestors": [
+        "0A018"
+      ],
+      "text": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+      "structure": {
+        "identifier": "0A018.b",
+        "heading": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+        "label": "0A018.b – No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-10-06",
+      "fetchedAt": "2025-10-02T20:33:36.026Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-10-06/title-15?format=xml",
+      "heading": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+      "title": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "0A018 Items on the Wassenaar Munitions List (see List of Items Controlled)"
+      ],
+      "ancestors": [
+        "0A018"
+      ],
+      "text": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+      "structure": {
+        "identifier": "0A018.b",
+        "heading": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+        "label": "0A018.b – No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-12-04",
+      "fetchedAt": "2025-10-02T20:33:36.431Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-12-04/title-15?format=xml",
+      "heading": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+      "title": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "0A018 Items on the Wassenaar Munitions List (see List of Items Controlled)"
+      ],
+      "ancestors": [
+        "0A018"
+      ],
+      "text": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+      "structure": {
+        "identifier": "0A018.b",
+        "heading": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+        "label": "0A018.b – No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2021-01-06",
+      "fetchedAt": "2025-10-02T20:33:36.829Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2021-01-06/title-15?format=xml",
+      "heading": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+      "title": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "0A018 Items on the Wassenaar Munitions List (see List of Items Controlled)"
+      ],
+      "ancestors": [
+        "0A018"
+      ],
+      "text": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+      "structure": {
+        "identifier": "0A018.b",
+        "heading": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+        "label": "0A018.b – No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2021-01-07",
+      "fetchedAt": "2025-10-02T20:33:37.217Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2021-01-07/title-15?format=xml",
+      "heading": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+      "title": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "0A018 Items on the Wassenaar Munitions List (see List of Items Controlled)"
+      ],
+      "ancestors": [
+        "0A018"
+      ],
+      "text": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+      "structure": {
+        "identifier": "0A018.b",
+        "heading": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+        "label": "0A018.b – No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2021-01-14",
+      "fetchedAt": "2025-10-02T20:33:37.609Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2021-01-14/title-15?format=xml",
+      "heading": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+      "title": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "0A018 Items on the Wassenaar Munitions List (see List of Items Controlled)"
+      ],
+      "ancestors": [
+        "0A018"
+      ],
+      "text": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+      "structure": {
+        "identifier": "0A018.b",
+        "heading": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+        "label": "0A018.b – No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2021-03-29",
+      "fetchedAt": "2025-10-02T20:33:37.994Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2021-03-29/title-15?format=xml",
+      "heading": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+      "title": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "0A018 Items on the Wassenaar Munitions List (see List of Items Controlled)"
+      ],
+      "ancestors": [
+        "0A018"
+      ],
+      "text": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+      "structure": {
+        "identifier": "0A018.b",
+        "heading": "No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+        "label": "0A018.b – No items currently are in this ECCN. See ECCN 0A505 for “parts” and “components” for ammunition that, immediately prior to March 9, 2020, were classified under 0A018.b.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

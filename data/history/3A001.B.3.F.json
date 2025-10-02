@@ -1,0 +1,1245 @@
+{
+  "eccn": "3A001.b.3.f",
+  "normalized": "3A001.B.3.F",
+  "history": [
+    {
+      "version": "2020-06-17",
+      "fetchedAt": "2025-10-02T20:33:34.354Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-06-17/title-15?format=xml",
+      "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "title": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "3A001 Electronic Items as Follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Discrete microwave transistors that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001",
+        "3A001.b",
+        "3A001.b.3"
+      ],
+      "text": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;\nNote 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.\nNote 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+      "structure": {
+        "identifier": "3A001.b.3.f",
+        "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "label": "3A001.b.3.f – Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.</I></P></NOTE>",
+            "text": "Note 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-06-29",
+      "fetchedAt": "2025-10-02T20:33:34.750Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-06-29/title-15?format=xml",
+      "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "title": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "3A001 Electronic Items as Follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Discrete microwave transistors that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001",
+        "3A001.b",
+        "3A001.b.3"
+      ],
+      "text": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;\nNote 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.\nNote 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+      "structure": {
+        "identifier": "3A001.b.3.f",
+        "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "label": "3A001.b.3.f – Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.</I></P></NOTE>",
+            "text": "Note 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-09-11",
+      "fetchedAt": "2025-10-02T20:33:35.161Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-09-11/title-15?format=xml",
+      "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "title": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3 - Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic Items as Follows (See List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Discrete microwave transistors that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.b.3"
+      ],
+      "text": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;\nNote 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.\nNote 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+      "structure": {
+        "identifier": "3A001.b.3.f",
+        "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "label": "3A001.b.3.f – Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I>\n</HED>\n<P><I>The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I>\n</HED>\n<P><I> 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.</I></P></NOTE>",
+            "text": "Note 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-10-05",
+      "fetchedAt": "2025-10-02T20:33:35.641Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-10-05/title-15?format=xml",
+      "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "title": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3 - Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic Items as Follows (See List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Discrete microwave transistors that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.b.3"
+      ],
+      "text": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;\nNote 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.\nNote 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+      "structure": {
+        "identifier": "3A001.b.3.f",
+        "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "label": "3A001.b.3.f – Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I>\n</HED>\n<P><I>The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I>\n</HED>\n<P><I> 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.</I></P></NOTE>",
+            "text": "Note 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-10-06",
+      "fetchedAt": "2025-10-02T20:33:36.026Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-10-06/title-15?format=xml",
+      "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "title": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3 - Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic Items as Follows (See List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Discrete microwave transistors that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.b.3"
+      ],
+      "text": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;\nNote 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.\nNote 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+      "structure": {
+        "identifier": "3A001.b.3.f",
+        "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "label": "3A001.b.3.f – Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I>\n</HED>\n<P><I>The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I>\n</HED>\n<P><I> 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.</I></P></NOTE>",
+            "text": "Note 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-08-18",
+      "fetchedAt": "2025-10-02T20:33:42.783Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-08-18/title-15?format=xml",
+      "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "title": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Discrete microwave transistors that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.b.3"
+      ],
+      "text": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;\nNote 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.\nNote 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+      "structure": {
+        "identifier": "3A001.b.3.f",
+        "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "label": "3A001.b.3.f – Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.</I></P></NOTE>",
+            "text": "Note 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-10-18",
+      "fetchedAt": "2025-10-02T20:33:43.173Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-10-18/title-15?format=xml",
+      "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "title": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Discrete microwave transistors that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.b.3"
+      ],
+      "text": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;\nNote 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.\nNote 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+      "structure": {
+        "identifier": "3A001.b.3.f",
+        "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "label": "3A001.b.3.f – Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.</I></P></NOTE>",
+            "text": "Note 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-11-17",
+      "fetchedAt": "2025-10-02T20:33:43.584Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-11-17/title-15?format=xml",
+      "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "title": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Discrete microwave transistors that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.b.3"
+      ],
+      "text": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;\nNote 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.\nNote 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+      "structure": {
+        "identifier": "3A001.b.3.f",
+        "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "label": "3A001.b.3.f – Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.</I></P></NOTE>",
+            "text": "Note 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-12-08",
+      "fetchedAt": "2025-10-02T20:33:43.980Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-12-08/title-15?format=xml",
+      "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "title": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Discrete microwave transistors that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.b.3"
+      ],
+      "text": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;\nNote 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.\nNote 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+      "structure": {
+        "identifier": "3A001.b.3.f",
+        "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "label": "3A001.b.3.f – Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.</I></P></NOTE>",
+            "text": "Note 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-03-08",
+      "fetchedAt": "2025-10-02T20:33:44.401Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-08/title-15?format=xml",
+      "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "title": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Discrete microwave transistors that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.b.3"
+      ],
+      "text": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;\nNote 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.\nNote 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+      "structure": {
+        "identifier": "3A001.b.3.f",
+        "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "label": "3A001.b.3.f – Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.</I></P></NOTE>",
+            "text": "Note 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-03-13",
+      "fetchedAt": "2025-10-02T20:33:44.826Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-13/title-15?format=xml",
+      "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "title": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Discrete microwave transistors that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.b.3"
+      ],
+      "text": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;\nNote 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.\nNote 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+      "structure": {
+        "identifier": "3A001.b.3.f",
+        "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "label": "3A001.b.3.f – Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.</I></P></NOTE>",
+            "text": "Note 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-04-04",
+      "fetchedAt": "2025-10-02T20:33:45.229Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-04/title-15?format=xml",
+      "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "title": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "See § 744.17 of the EAR for additional license requirements for microprocessors having a processing speed of 5 GFLOPS or more and an arithmetic logic unit with an access width of 32 bit or more, including those incorporating “information security” functionality, and associated “software” and “technology” for the “production” or “development” of such microprocessors.",
+        "Discrete microwave transistors that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.b.3"
+      ],
+      "text": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;\nNote 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.\nNote 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+      "structure": {
+        "identifier": "3A001.b.3.f",
+        "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "label": "3A001.b.3.f – Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.</I></P></NOTE>",
+            "text": "Note 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-04-19",
+      "fetchedAt": "2025-10-02T20:33:45.630Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-19/title-15?format=xml",
+      "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "title": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "See § 744.17 of the EAR for additional license requirements for microprocessors having a processing speed of 5 GFLOPS or more and an arithmetic logic unit with an access width of 32 bit or more, including those incorporating “information security” functionality, and associated “software” and “technology” for the “production” or “development” of such microprocessors.",
+        "Discrete microwave transistors that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.b.3"
+      ],
+      "text": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;\nNote 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.\nNote 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+      "structure": {
+        "identifier": "3A001.b.3.f",
+        "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "label": "3A001.b.3.f – Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.</I></P></NOTE>",
+            "text": "Note 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-05-30",
+      "fetchedAt": "2025-10-02T20:33:46.051Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-05-30/title-15?format=xml",
+      "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "title": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "See § 744.17 of the EAR for additional license requirements for microprocessors having a processing speed of 5 GFLOPS or more and an arithmetic logic unit with an access width of 32 bit or more, including those incorporating “information security” functionality, and associated “software” and “technology” for the “production” or “development” of such microprocessors.",
+        "Discrete microwave transistors that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.b.3"
+      ],
+      "text": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;\nNote 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.\nNote 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+      "structure": {
+        "identifier": "3A001.b.3.f",
+        "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "label": "3A001.b.3.f – Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.</I></P></NOTE>",
+            "text": "Note 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-06-12",
+      "fetchedAt": "2025-10-02T20:33:46.460Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-06-12/title-15?format=xml",
+      "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "title": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "See § 744.17 of the EAR for additional license requirements for microprocessors having a processing speed of 5 GFLOPS or more and an arithmetic logic unit with an access width of 32 bit or more, including those incorporating “information security” functionality, and associated “software” and “technology” for the “production” or “development” of such microprocessors.",
+        "Discrete microwave transistors that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.b.3"
+      ],
+      "text": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;\nNote 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.\nNote 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+      "structure": {
+        "identifier": "3A001.b.3.f",
+        "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "label": "3A001.b.3.f – Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.</I></P></NOTE>",
+            "text": "Note 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-09-06",
+      "fetchedAt": "2025-10-02T20:33:46.879Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-09-06/title-15?format=xml",
+      "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "title": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Discrete microwave transistors that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.b.3"
+      ],
+      "text": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;\nNote 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.\nNote 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+      "structure": {
+        "identifier": "3A001.b.3.f",
+        "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "label": "3A001.b.3.f – Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.</I></P></NOTE>",
+            "text": "Note 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-10-23",
+      "fetchedAt": "2025-10-02T20:33:47.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-10-23/title-15?format=xml",
+      "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "title": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Discrete microwave transistors that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.b.3"
+      ],
+      "text": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;\nNote 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.\nNote 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+      "structure": {
+        "identifier": "3A001.b.3.f",
+        "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "label": "3A001.b.3.f – Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.</I></P></NOTE>",
+            "text": "Note 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-02",
+      "fetchedAt": "2025-10-02T20:33:47.757Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-02/title-15?format=xml",
+      "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "title": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Discrete microwave transistors that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.b.3"
+      ],
+      "text": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;\nNote 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.\nNote 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+      "structure": {
+        "identifier": "3A001.b.3.f",
+        "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "label": "3A001.b.3.f – Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.</I></P></NOTE>",
+            "text": "Note 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "title": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Discrete microwave transistors that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.b.3"
+      ],
+      "text": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;\nNote 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.\nNote 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+      "structure": {
+        "identifier": "3A001.b.3.f",
+        "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "label": "3A001.b.3.f – Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.</I></P></NOTE>",
+            "text": "Note 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "title": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Discrete microwave transistors that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.b.3"
+      ],
+      "text": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;\nNote 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.\nNote 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+      "structure": {
+        "identifier": "3A001.b.3.f",
+        "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "label": "3A001.b.3.f – Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.</I></P></NOTE>",
+            "text": "Note 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "title": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Discrete microwave transistors that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.b.3"
+      ],
+      "text": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;\nNote 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.\nNote 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+      "structure": {
+        "identifier": "3A001.b.3.f",
+        "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "label": "3A001.b.3.f – Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.</I></P></NOTE>",
+            "text": "Note 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "title": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Discrete microwave transistors that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.b.3"
+      ],
+      "text": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;\nNote 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.\nNote 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+      "structure": {
+        "identifier": "3A001.b.3.f",
+        "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "label": "3A001.b.3.f – Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.</I></P></NOTE>",
+            "text": "Note 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "title": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Discrete microwave transistors that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.b.3"
+      ],
+      "text": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;\nNote 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.\nNote 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+      "structure": {
+        "identifier": "3A001.b.3.f",
+        "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "label": "3A001.b.3.f – Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.</I></P></NOTE>",
+            "text": "Note 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "title": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Discrete microwave transistors that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.b.3"
+      ],
+      "text": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;\nNote 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.\nNote 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+      "structure": {
+        "identifier": "3A001.b.3.f",
+        "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "label": "3A001.b.3.f – Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.</I></P></NOTE>",
+            "text": "Note 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "title": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Discrete microwave transistors that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.b.3"
+      ],
+      "text": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;\nNote 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.\nNote 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+      "structure": {
+        "identifier": "3A001.b.3.f",
+        "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "label": "3A001.b.3.f – Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.</I></P></NOTE>",
+            "text": "Note 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "title": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Discrete microwave transistors that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001.b.3"
+      ],
+      "text": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;\nNote 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.\nNote 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+      "structure": {
+        "identifier": "3A001.b.3.f",
+        "heading": "Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "label": "3A001.b.3.f – Other than those specified by 3A001.b.3.a to 3A001.b.3.e and rated for operation with a peak saturated power output greater than 5 W (37.0 dBm) at all frequencies exceeding 8.5 GHz up to and including 31.8 GHz;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 1: The control status of a transistor in 3A001.b.3.a through 3A001.b.3.e, whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.3.a through 3A001.b.3.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.</I></P></NOTE>",
+            "text": "Note 2: 3A001.b.3 includes bare dice, dice mounted on carriers, or dice mounted in packages. Some discrete transistors may also be referred to as power amplifiers, but the status of these discrete transistors is determined by 3A001.b.3.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

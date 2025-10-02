@@ -1,0 +1,847 @@
+{
+  "eccn": "5B002.a",
+  "normalized": "5B002.A",
+  "history": [
+    {
+      "version": "2017-01-15",
+      "fetchedAt": "2025-10-02T20:33:28.357Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-15/title-15?format=xml",
+      "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "title": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "category": "5",
+      "group": "5B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. Test, Inspection and “Production Equipment”",
+        "5B002 “Information Security” test, inspection and “production” equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5B002"
+      ],
+      "text": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "structure": {
+        "identifier": "5B002.a",
+        "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "label": "5B002.a – Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-07-07",
+      "fetchedAt": "2025-10-02T20:33:28.904Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-07-07/title-15?format=xml",
+      "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "title": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "category": "5",
+      "group": "5B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. Test, Inspection and “Production Equipment”",
+        "5B002 “Information Security” test, inspection and “production” equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5B002"
+      ],
+      "text": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "structure": {
+        "identifier": "5B002.a",
+        "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "label": "5B002.a – Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-08-15",
+      "fetchedAt": "2025-10-02T20:33:29.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-08-15/title-15?format=xml",
+      "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "title": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "category": "5",
+      "group": "5B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. Test, Inspection and “Production Equipment”",
+        "5B002 “Information Security” test, inspection and “production” equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5B002"
+      ],
+      "text": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "structure": {
+        "identifier": "5B002.a",
+        "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "label": "5B002.a – Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-12-27",
+      "fetchedAt": "2025-10-02T20:33:29.759Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-12-27/title-15?format=xml",
+      "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "title": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "category": "5",
+      "group": "5B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. Test, Inspection and “Production Equipment”",
+        "5B002 “Information Security” test, inspection and “production” equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5B002"
+      ],
+      "text": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "structure": {
+        "identifier": "5B002.a",
+        "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "label": "5B002.a – Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-01-08",
+      "fetchedAt": "2025-10-02T20:33:30.194Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-01-08/title-15?format=xml",
+      "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "title": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "category": "5",
+      "group": "5B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. Test, Inspection and “Production Equipment”",
+        "5B002 “Information Security” test, inspection and “production” equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5B002"
+      ],
+      "text": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "structure": {
+        "identifier": "5B002.a",
+        "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "label": "5B002.a – Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-04-02",
+      "fetchedAt": "2025-10-02T20:33:30.716Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-02/title-15?format=xml",
+      "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "title": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "category": "5",
+      "group": "5B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. Test, Inspection and “Production Equipment”",
+        "5B002 “Information Security” test, inspection and “production” equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5B002"
+      ],
+      "text": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "structure": {
+        "identifier": "5B002.a",
+        "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "label": "5B002.a – Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-04-05",
+      "fetchedAt": "2025-10-02T20:33:31.145Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-05/title-15?format=xml",
+      "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "title": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "category": "5",
+      "group": "5B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. Test, Inspection and “Production Equipment”",
+        "5B002 “Information Security” test, inspection and “production” equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5B002"
+      ],
+      "text": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "structure": {
+        "identifier": "5B002.a",
+        "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "label": "5B002.a – Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-08-30",
+      "fetchedAt": "2025-10-02T20:33:31.567Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-08-30/title-15?format=xml",
+      "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "title": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "category": "5",
+      "group": "5B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. Test, Inspection and “Production Equipment”",
+        "5B002 “Information Security” test, inspection and “production” equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5B002"
+      ],
+      "text": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "structure": {
+        "identifier": "5B002.a",
+        "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "label": "5B002.a – Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-10-24",
+      "fetchedAt": "2025-10-02T20:33:31.990Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-10-24/title-15?format=xml",
+      "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "title": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "category": "5",
+      "group": "5B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. Test, Inspection and “Production Equipment”",
+        "5B002 “Information Security” test, inspection and “production” equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5B002"
+      ],
+      "text": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "structure": {
+        "identifier": "5B002.a",
+        "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "label": "5B002.a – Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-11-02",
+      "fetchedAt": "2025-10-02T20:33:32.381Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-11-02/title-15?format=xml",
+      "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "title": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "category": "5",
+      "group": "5B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. Test, Inspection and “Production Equipment”",
+        "5B002 “Information Security” test, inspection and “production” equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5B002"
+      ],
+      "text": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "structure": {
+        "identifier": "5B002.a",
+        "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "label": "5B002.a – Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-11-17",
+      "fetchedAt": "2025-10-02T20:33:43.584Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-11-17/title-15?format=xml",
+      "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "title": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "category": "5",
+      "group": "5B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. Test, Inspection and “Production Equipment”",
+        "5B002 “Information Security” test, inspection and “production” equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5B002"
+      ],
+      "text": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "structure": {
+        "identifier": "5B002.a",
+        "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "label": "5B002.a – Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-12-08",
+      "fetchedAt": "2025-10-02T20:33:43.980Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-12-08/title-15?format=xml",
+      "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "title": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "category": "5",
+      "group": "5B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. Test, Inspection and “Production Equipment”",
+        "5B002 “Information Security” test, inspection and “production” equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5B002"
+      ],
+      "text": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "structure": {
+        "identifier": "5B002.a",
+        "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "label": "5B002.a – Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-03-08",
+      "fetchedAt": "2025-10-02T20:33:44.401Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-08/title-15?format=xml",
+      "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "title": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "category": "5",
+      "group": "5B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. Test, Inspection and “Production Equipment”",
+        "5B002 “Information Security” test, inspection and “production” equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5B002"
+      ],
+      "text": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "structure": {
+        "identifier": "5B002.a",
+        "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "label": "5B002.a – Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-03-13",
+      "fetchedAt": "2025-10-02T20:33:44.826Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-13/title-15?format=xml",
+      "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "title": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "category": "5",
+      "group": "5B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. Test, Inspection and “Production Equipment”",
+        "5B002 “Information Security” test, inspection and “production” equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5B002"
+      ],
+      "text": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "structure": {
+        "identifier": "5B002.a",
+        "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "label": "5B002.a – Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-04-04",
+      "fetchedAt": "2025-10-02T20:33:45.229Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-04/title-15?format=xml",
+      "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "title": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "category": "5",
+      "group": "5B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. Test, Inspection and “Production Equipment”",
+        "5B002 “Information Security” test, inspection and “production” equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5B002"
+      ],
+      "text": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "structure": {
+        "identifier": "5B002.a",
+        "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "label": "5B002.a – Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-04-19",
+      "fetchedAt": "2025-10-02T20:33:45.630Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-19/title-15?format=xml",
+      "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "title": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "category": "5",
+      "group": "5B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. Test, Inspection and “Production Equipment”",
+        "5B002 “Information Security” test, inspection and “production” equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5B002"
+      ],
+      "text": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "structure": {
+        "identifier": "5B002.a",
+        "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "label": "5B002.a – Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-05-30",
+      "fetchedAt": "2025-10-02T20:33:46.051Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-05-30/title-15?format=xml",
+      "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "title": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "category": "5",
+      "group": "5B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. Test, Inspection and “Production Equipment”",
+        "5B002 “Information Security” test, inspection and “production” equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5B002"
+      ],
+      "text": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "structure": {
+        "identifier": "5B002.a",
+        "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "label": "5B002.a – Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-06-12",
+      "fetchedAt": "2025-10-02T20:33:46.460Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-06-12/title-15?format=xml",
+      "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "title": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "category": "5",
+      "group": "5B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. Test, Inspection and “Production Equipment”",
+        "5B002 “Information Security” test, inspection and “production” equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5B002"
+      ],
+      "text": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "structure": {
+        "identifier": "5B002.a",
+        "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "label": "5B002.a – Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-09-06",
+      "fetchedAt": "2025-10-02T20:33:46.879Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-09-06/title-15?format=xml",
+      "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "title": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "category": "5",
+      "group": "5B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. Test, Inspection and “Production Equipment”",
+        "5B002 “Information Security” test, inspection and “production” equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5B002"
+      ],
+      "text": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "structure": {
+        "identifier": "5B002.a",
+        "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "label": "5B002.a – Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-10-23",
+      "fetchedAt": "2025-10-02T20:33:47.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-10-23/title-15?format=xml",
+      "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "title": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "category": "5",
+      "group": "5B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. Test, Inspection and “Production Equipment”",
+        "5B002 “Information Security” test, inspection and “production” equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5B002"
+      ],
+      "text": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "structure": {
+        "identifier": "5B002.a",
+        "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "label": "5B002.a – Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-02",
+      "fetchedAt": "2025-10-02T20:33:47.757Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-02/title-15?format=xml",
+      "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "title": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "category": "5",
+      "group": "5B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. Test, Inspection and “Production Equipment”",
+        "5B002 “Information Security” test, inspection and “production” equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5B002"
+      ],
+      "text": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "structure": {
+        "identifier": "5B002.a",
+        "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "label": "5B002.a – Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "title": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "category": "5",
+      "group": "5B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. Test, Inspection and “Production Equipment”",
+        "5B002 “Information Security” test, inspection and “production” equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5B002"
+      ],
+      "text": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "structure": {
+        "identifier": "5B002.a",
+        "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "label": "5B002.a – Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "title": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "category": "5",
+      "group": "5B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. Test, Inspection and “Production Equipment”",
+        "5B002 “Information Security” test, inspection and “production” equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5B002"
+      ],
+      "text": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "structure": {
+        "identifier": "5B002.a",
+        "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "label": "5B002.a – Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "title": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "category": "5",
+      "group": "5B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. Test, Inspection and “Production Equipment”",
+        "5B002 “Information Security” test, inspection and “production” equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5B002"
+      ],
+      "text": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "structure": {
+        "identifier": "5B002.a",
+        "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "label": "5B002.a – Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "title": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "category": "5",
+      "group": "5B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. Test, Inspection and “Production Equipment”",
+        "5B002 “Information Security” test, inspection and “production” equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5B002"
+      ],
+      "text": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "structure": {
+        "identifier": "5B002.a",
+        "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "label": "5B002.a – Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "title": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "category": "5",
+      "group": "5B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. Test, Inspection and “Production Equipment”",
+        "5B002 “Information Security” test, inspection and “production” equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5B002"
+      ],
+      "text": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "structure": {
+        "identifier": "5B002.a",
+        "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "label": "5B002.a – Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "title": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "category": "5",
+      "group": "5B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. Test, Inspection and “Production Equipment”",
+        "5B002 “Information Security” test, inspection and “production” equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5B002"
+      ],
+      "text": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "structure": {
+        "identifier": "5B002.a",
+        "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "label": "5B002.a – Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "title": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "category": "5",
+      "group": "5B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. Test, Inspection and “Production Equipment”",
+        "5B002 “Information Security” test, inspection and “production” equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5B002"
+      ],
+      "text": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "structure": {
+        "identifier": "5B002.a",
+        "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "label": "5B002.a – Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "title": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "category": "5",
+      "group": "5B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. Test, Inspection and “Production Equipment”",
+        "5B002 “Information Security” test, inspection and “production” equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "5B002"
+      ],
+      "text": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+      "structure": {
+        "identifier": "5B002.a",
+        "heading": "Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "label": "5B002.a – Equipment “specially designed” for the “development” or “production” of equipment controlled by 5A002, 5A003, 5A004 or 5B002.b;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

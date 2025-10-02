@@ -1,0 +1,267 @@
+{
+  "eccn": "1A002.i",
+  "normalized": "1A002.I",
+  "history": [
+    {
+      "version": "2017-01-15",
+      "fetchedAt": "2025-10-02T20:33:28.357Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-15/title-15?format=xml",
+      "heading": "1A002.",
+      "title": "1A002.",
+      "category": "1",
+      "group": "1A",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774 - Sensitive List"
+      },
+      "breadcrumbs": [
+        "(1) Category 1",
+        "(i) 1A002."
+      ],
+      "ancestors": [
+        "1A002"
+      ],
+      "text": "1A002.",
+      "structure": {
+        "identifier": "1A002.i",
+        "heading": "1A002.",
+        "label": "1A002.i – 1A002.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-07-07",
+      "fetchedAt": "2025-10-02T20:33:28.904Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-07-07/title-15?format=xml",
+      "heading": "1A002.",
+      "title": "1A002.",
+      "category": "1",
+      "group": "1A",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774 - Sensitive List"
+      },
+      "breadcrumbs": [
+        "(1) Category 1",
+        "(i) 1A002."
+      ],
+      "ancestors": [
+        "1A002"
+      ],
+      "text": "1A002.",
+      "structure": {
+        "identifier": "1A002.i",
+        "heading": "1A002.",
+        "label": "1A002.i – 1A002.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-08-15",
+      "fetchedAt": "2025-10-02T20:33:29.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-08-15/title-15?format=xml",
+      "heading": "1A002.",
+      "title": "1A002.",
+      "category": "1",
+      "group": "1A",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774 - Sensitive List"
+      },
+      "breadcrumbs": [
+        "(1) Category 1",
+        "(i) 1A002."
+      ],
+      "ancestors": [
+        "1A002"
+      ],
+      "text": "1A002.",
+      "structure": {
+        "identifier": "1A002.i",
+        "heading": "1A002.",
+        "label": "1A002.i – 1A002.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-12-27",
+      "fetchedAt": "2025-10-02T20:33:29.759Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-12-27/title-15?format=xml",
+      "heading": "1A002.",
+      "title": "1A002.",
+      "category": "1",
+      "group": "1A",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774 - Sensitive List"
+      },
+      "breadcrumbs": [
+        "(1) Category 1",
+        "(i) 1A002."
+      ],
+      "ancestors": [
+        "1A002"
+      ],
+      "text": "1A002.",
+      "structure": {
+        "identifier": "1A002.i",
+        "heading": "1A002.",
+        "label": "1A002.i – 1A002.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-01-08",
+      "fetchedAt": "2025-10-02T20:33:30.194Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-01-08/title-15?format=xml",
+      "heading": "1A002.",
+      "title": "1A002.",
+      "category": "1",
+      "group": "1A",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774 - Sensitive List"
+      },
+      "breadcrumbs": [
+        "(1) Category 1",
+        "(i) 1A002."
+      ],
+      "ancestors": [
+        "1A002"
+      ],
+      "text": "1A002.",
+      "structure": {
+        "identifier": "1A002.i",
+        "heading": "1A002.",
+        "label": "1A002.i – 1A002.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-04-02",
+      "fetchedAt": "2025-10-02T20:33:30.716Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-02/title-15?format=xml",
+      "heading": "1A002.",
+      "title": "1A002.",
+      "category": "1",
+      "group": "1A",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774 - Sensitive List"
+      },
+      "breadcrumbs": [
+        "(1) Category 1",
+        "(i) 1A002."
+      ],
+      "ancestors": [
+        "1A002"
+      ],
+      "text": "1A002.",
+      "structure": {
+        "identifier": "1A002.i",
+        "heading": "1A002.",
+        "label": "1A002.i – 1A002.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-04-05",
+      "fetchedAt": "2025-10-02T20:33:31.145Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-05/title-15?format=xml",
+      "heading": "1A002.",
+      "title": "1A002.",
+      "category": "1",
+      "group": "1A",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774 - Sensitive List"
+      },
+      "breadcrumbs": [
+        "(1) Category 1",
+        "(i) 1A002."
+      ],
+      "ancestors": [
+        "1A002"
+      ],
+      "text": "1A002.",
+      "structure": {
+        "identifier": "1A002.i",
+        "heading": "1A002.",
+        "label": "1A002.i – 1A002.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-08-30",
+      "fetchedAt": "2025-10-02T20:33:31.567Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-08-30/title-15?format=xml",
+      "heading": "1A002.",
+      "title": "1A002.",
+      "category": "1",
+      "group": "1A",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774 - Sensitive List"
+      },
+      "breadcrumbs": [
+        "(1) Category 1",
+        "(i) 1A002."
+      ],
+      "ancestors": [
+        "1A002"
+      ],
+      "text": "1A002.",
+      "structure": {
+        "identifier": "1A002.i",
+        "heading": "1A002.",
+        "label": "1A002.i – 1A002.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-10-24",
+      "fetchedAt": "2025-10-02T20:33:31.990Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-10-24/title-15?format=xml",
+      "heading": "1A002.",
+      "title": "1A002.",
+      "category": "1",
+      "group": "1A",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774 - Sensitive List"
+      },
+      "breadcrumbs": [
+        "(1) Category 1",
+        "(i) 1A002."
+      ],
+      "ancestors": [
+        "1A002"
+      ],
+      "text": "1A002.",
+      "structure": {
+        "identifier": "1A002.i",
+        "heading": "1A002.",
+        "label": "1A002.i – 1A002.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

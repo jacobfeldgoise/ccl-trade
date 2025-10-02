@@ -1,0 +1,3416 @@
+{
+  "eccn": "3B903",
+  "normalized": "3B903",
+  "history": [
+    {
+      "version": "2024-09-06",
+      "fetchedAt": "2025-10-02T20:33:46.879Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-09-06/title-15?format=xml",
+      "heading": "3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+      "title": "Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”"
+      ],
+      "ancestors": [],
+      "text": "3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).\nLicense Requirements\nReason for Control:\nNS, RS, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3B903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3B903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3B903) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nNS applies to entire entry\nWorldwide control.\nSee § 742.4(a)(5) and (b)(10) of the EAR.\nRS applies to the entire entry\nWorldwide control.\nSee § 742.6(a)(10) and (b)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nIEC:\nYes, see § 740.2(a)(22) and § 740.24 of the EAR.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No. 1 to part 740 of the EAR).\nList of Items Controlled\nRelated Controls:\nSee ECCNs\n3D901\nfor related “development” or “production” “software”, ECCN\n3E901\nfor related “development” and “production” “technology”.\nRelated Definition:\nN/A\nItems:\nStage placement accuracy less (better) than 30 nm;\na. Stage placement accuracy less (better) than 30 nm;\nStage positioning measurement performed using laser interferometry;\nb. Stage positioning measurement performed using laser interferometry;\nPosition calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;\nc. Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;\nCollection and storage of images having more than 2 x 10 8 pixels;\nd. Collection and storage of images having more than 2 x 10 8 pixels;\nFOV overlap of less than 5 percent in vertical and horizontal directions;\ne. FOV overlap of less than 5 percent in vertical and horizontal directions;\nStitching overlap of FOV less than 50 nm; and\nf. Stitching overlap of FOV less than 50 nm; and\nAccelerating voltage more than 21 kV.\ng. Accelerating voltage more than 21 kV.\nNote 1: 3B903 includes SEM equipment designed for chip design recovery.\nNote 2: 3B903 does not apply to SEM equipment designed to accept a Semiconductor Equipment and Materials International (SEMI) standard wafer carrier, such as a 200 mm or larger Front Opening Unified Pod (FOUP).",
+      "structure": {
+        "identifier": "3B903",
+        "heading": "3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+        "label": "3B903 – 3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">NS applies to entire entry (3B903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.4(a)(5) and (b)(10) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">RS applies to the entire entry (3B903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.6(a)(10) and (b)(11) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (3B903)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3B903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3B903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3B903) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.4(a)(5) and (b)(10) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "RS applies to the entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(10) and (b)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "IEC:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, see § 740.2(a)(22) and § 740.24 of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No. 1 to part 740 of the EAR)."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "See ECCNs"
+          },
+          {
+            "type": "text",
+            "text": "3D901"
+          },
+          {
+            "type": "text",
+            "text": "for related “development” or “production” “software”, ECCN"
+          },
+          {
+            "type": "text",
+            "text": "3E901"
+          },
+          {
+            "type": "text",
+            "text": "for related “development” and “production” “technology”."
+          },
+          {
+            "type": "text",
+            "text": "Related Definition:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "3B903.a",
+            "heading": "Stage placement accuracy less (better) than 30 nm;",
+            "label": "3B903.a – Stage placement accuracy less (better) than 30 nm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. Stage placement accuracy less (better) than 30 nm;</P>",
+                "text": "a. Stage placement accuracy less (better) than 30 nm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.b",
+            "heading": "Stage positioning measurement performed using laser interferometry;",
+            "label": "3B903.b – Stage positioning measurement performed using laser interferometry;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. Stage positioning measurement performed using laser interferometry;</P>",
+                "text": "b. Stage positioning measurement performed using laser interferometry;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.c",
+            "heading": "Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;",
+            "label": "3B903.c – Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c. Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;</P>",
+                "text": "c. Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.d",
+            "heading": "Collection and storage of images having more than 2 x 10 8 pixels;",
+            "label": "3B903.d – Collection and storage of images having more than 2 x 10 8 pixels;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d. Collection and storage of images having more than 2 x 10\n<SU>8</SU> pixels;</P>",
+                "text": "d. Collection and storage of images having more than 2 x 10 8 pixels;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.e",
+            "heading": "FOV overlap of less than 5 percent in vertical and horizontal directions;",
+            "label": "3B903.e – FOV overlap of less than 5 percent in vertical and horizontal directions;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>e. FOV overlap of less than 5 percent in vertical and horizontal directions;</P>",
+                "text": "e. FOV overlap of less than 5 percent in vertical and horizontal directions;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.f",
+            "heading": "Stitching overlap of FOV less than 50 nm; and",
+            "label": "3B903.f – Stitching overlap of FOV less than 50 nm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>f. Stitching overlap of FOV less than 50 nm; <I>and</I></P>",
+                "text": "f. Stitching overlap of FOV less than 50 nm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.g",
+            "heading": "Accelerating voltage more than 21 kV.",
+            "label": "3B903.g – Accelerating voltage more than 21 kV.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>g. Accelerating voltage more than 21 kV.</P>",
+                "text": "g. Accelerating voltage more than 21 kV.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>3B903 includes SEM equipment designed for chip design recovery.</I></P></NOTE>",
+                "text": "Note 1: 3B903 includes SEM equipment designed for chip design recovery.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3B903 does not apply to SEM equipment designed to accept a Semiconductor Equipment and Materials International (SEMI) standard wafer carrier, such as a 200 mm or larger Front Opening Unified Pod (FOUP).</I></P></NOTE>",
+                "text": "Note 2: 3B903 does not apply to SEM equipment designed to accept a Semiconductor Equipment and Materials International (SEMI) standard wafer carrier, such as a 200 mm or larger Front Opening Unified Pod (FOUP).",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-10-23",
+      "fetchedAt": "2025-10-02T20:33:47.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-10-23/title-15?format=xml",
+      "heading": "3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+      "title": "Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”"
+      ],
+      "ancestors": [],
+      "text": "3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).\nLicense Requirements\nReason for Control:\nNS, RS, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3B903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3B903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3B903) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nNS applies to entire entry\nWorldwide control.\nSee § 742.4(a)(5) and (b)(10) of the EAR.\nRS applies to the entire entry\nWorldwide control.\nSee § 742.6(a)(10) and (b)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nIEC:\nYes, see § 740.2(a)(22) and § 740.24 of the EAR.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No. 1 to part 740 of the EAR).\nList of Items Controlled\nRelated Controls:\nSee ECCNs\n3D901\nfor related “development” or “production” “software”, ECCN\n3E901\nfor related “development” and “production” “technology”.\nRelated Definition:\nN/A\nItems:\nStage placement accuracy less (better) than 30 nm;\na. Stage placement accuracy less (better) than 30 nm;\nStage positioning measurement performed using laser interferometry;\nb. Stage positioning measurement performed using laser interferometry;\nPosition calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;\nc. Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;\nCollection and storage of images having more than 2 x 10 8 pixels;\nd. Collection and storage of images having more than 2 x 10 8 pixels;\nFOV overlap of less than 5 percent in vertical and horizontal directions;\ne. FOV overlap of less than 5 percent in vertical and horizontal directions;\nStitching overlap of FOV less than 50 nm; and\nf. Stitching overlap of FOV less than 50 nm; and\nAccelerating voltage more than 21 kV.\ng. Accelerating voltage more than 21 kV.\nNote 1: 3B903 includes SEM equipment designed for chip design recovery.\nNote 2: 3B903 does not apply to SEM equipment designed to accept a Semiconductor Equipment and Materials International (SEMI) standard wafer carrier, such as a 200 mm or larger Front Opening Unified Pod (FOUP).",
+      "structure": {
+        "identifier": "3B903",
+        "heading": "3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+        "label": "3B903 – 3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">NS applies to entire entry (3B903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.4(a)(5) and (b)(10) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">RS applies to the entire entry (3B903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.6(a)(10) and (b)(11) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (3B903)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3B903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3B903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3B903) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.4(a)(5) and (b)(10) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "RS applies to the entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(10) and (b)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "IEC:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, see § 740.2(a)(22) and § 740.24 of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No. 1 to part 740 of the EAR)."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "See ECCNs"
+          },
+          {
+            "type": "text",
+            "text": "3D901"
+          },
+          {
+            "type": "text",
+            "text": "for related “development” or “production” “software”, ECCN"
+          },
+          {
+            "type": "text",
+            "text": "3E901"
+          },
+          {
+            "type": "text",
+            "text": "for related “development” and “production” “technology”."
+          },
+          {
+            "type": "text",
+            "text": "Related Definition:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "3B903.a",
+            "heading": "Stage placement accuracy less (better) than 30 nm;",
+            "label": "3B903.a – Stage placement accuracy less (better) than 30 nm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. Stage placement accuracy less (better) than 30 nm;</P>",
+                "text": "a. Stage placement accuracy less (better) than 30 nm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.b",
+            "heading": "Stage positioning measurement performed using laser interferometry;",
+            "label": "3B903.b – Stage positioning measurement performed using laser interferometry;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. Stage positioning measurement performed using laser interferometry;</P>",
+                "text": "b. Stage positioning measurement performed using laser interferometry;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.c",
+            "heading": "Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;",
+            "label": "3B903.c – Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c. Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;</P>",
+                "text": "c. Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.d",
+            "heading": "Collection and storage of images having more than 2 x 10 8 pixels;",
+            "label": "3B903.d – Collection and storage of images having more than 2 x 10 8 pixels;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d. Collection and storage of images having more than 2 x 10\n<SU>8</SU> pixels;</P>",
+                "text": "d. Collection and storage of images having more than 2 x 10 8 pixels;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.e",
+            "heading": "FOV overlap of less than 5 percent in vertical and horizontal directions;",
+            "label": "3B903.e – FOV overlap of less than 5 percent in vertical and horizontal directions;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>e. FOV overlap of less than 5 percent in vertical and horizontal directions;</P>",
+                "text": "e. FOV overlap of less than 5 percent in vertical and horizontal directions;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.f",
+            "heading": "Stitching overlap of FOV less than 50 nm; and",
+            "label": "3B903.f – Stitching overlap of FOV less than 50 nm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>f. Stitching overlap of FOV less than 50 nm; <I>and</I></P>",
+                "text": "f. Stitching overlap of FOV less than 50 nm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.g",
+            "heading": "Accelerating voltage more than 21 kV.",
+            "label": "3B903.g – Accelerating voltage more than 21 kV.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>g. Accelerating voltage more than 21 kV.</P>",
+                "text": "g. Accelerating voltage more than 21 kV.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>3B903 includes SEM equipment designed for chip design recovery.</I></P></NOTE>",
+                "text": "Note 1: 3B903 includes SEM equipment designed for chip design recovery.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3B903 does not apply to SEM equipment designed to accept a Semiconductor Equipment and Materials International (SEMI) standard wafer carrier, such as a 200 mm or larger Front Opening Unified Pod (FOUP).</I></P></NOTE>",
+                "text": "Note 2: 3B903 does not apply to SEM equipment designed to accept a Semiconductor Equipment and Materials International (SEMI) standard wafer carrier, such as a 200 mm or larger Front Opening Unified Pod (FOUP).",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-02",
+      "fetchedAt": "2025-10-02T20:33:47.757Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-02/title-15?format=xml",
+      "heading": "3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+      "title": "Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”"
+      ],
+      "ancestors": [],
+      "text": "3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).\nLicense Requirements\nReason for Control:\nNS, RS, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3B903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3B903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3B903) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nNS applies to entire entry\nWorldwide control.\nSee § 742.4(a)(5) and (b)(10) of the EAR.\nRS applies to the entire entry\nWorldwide control.\nSee § 742.6(a)(10) and (b)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nIEC:\nYes, see § 740.2(a)(22) and § 740.24 of the EAR.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No. 1 to part 740 of the EAR).\nList of Items Controlled\nRelated Controls:\nSee ECCNs\n3D901\nfor related “development” or “production” “software”, ECCN\n3E901\nfor related “development” and “production” “technology”.\nRelated Definition:\nN/A\nItems:\nStage placement accuracy less (better) than 30 nm;\na. Stage placement accuracy less (better) than 30 nm;\nStage positioning measurement performed using laser interferometry;\nb. Stage positioning measurement performed using laser interferometry;\nPosition calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;\nc. Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;\nCollection and storage of images having more than 2 x 10 8 pixels;\nd. Collection and storage of images having more than 2 x 10 8 pixels;\nFOV overlap of less than 5 percent in vertical and horizontal directions;\ne. FOV overlap of less than 5 percent in vertical and horizontal directions;\nStitching overlap of FOV less than 50 nm; and\nf. Stitching overlap of FOV less than 50 nm; and\nAccelerating voltage more than 21 kV.\ng. Accelerating voltage more than 21 kV.\nNote 1: 3B903 includes SEM equipment designed for chip design recovery.\nNote 2: 3B903 does not apply to SEM equipment designed to accept a Semiconductor Equipment and Materials International (SEMI) standard wafer carrier, such as a 200 mm or larger Front Opening Unified Pod (FOUP).",
+      "structure": {
+        "identifier": "3B903",
+        "heading": "3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+        "label": "3B903 – 3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">NS applies to entire entry (3B903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.4(a)(5) and (b)(10) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">RS applies to the entire entry (3B903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.6(a)(10) and (b)(11) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (3B903)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3B903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3B903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3B903) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.4(a)(5) and (b)(10) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "RS applies to the entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(10) and (b)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "IEC:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, see § 740.2(a)(22) and § 740.24 of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No. 1 to part 740 of the EAR)."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "See ECCNs"
+          },
+          {
+            "type": "text",
+            "text": "3D901"
+          },
+          {
+            "type": "text",
+            "text": "for related “development” or “production” “software”, ECCN"
+          },
+          {
+            "type": "text",
+            "text": "3E901"
+          },
+          {
+            "type": "text",
+            "text": "for related “development” and “production” “technology”."
+          },
+          {
+            "type": "text",
+            "text": "Related Definition:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "3B903.a",
+            "heading": "Stage placement accuracy less (better) than 30 nm;",
+            "label": "3B903.a – Stage placement accuracy less (better) than 30 nm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. Stage placement accuracy less (better) than 30 nm;</P>",
+                "text": "a. Stage placement accuracy less (better) than 30 nm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.b",
+            "heading": "Stage positioning measurement performed using laser interferometry;",
+            "label": "3B903.b – Stage positioning measurement performed using laser interferometry;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. Stage positioning measurement performed using laser interferometry;</P>",
+                "text": "b. Stage positioning measurement performed using laser interferometry;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.c",
+            "heading": "Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;",
+            "label": "3B903.c – Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c. Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;</P>",
+                "text": "c. Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.d",
+            "heading": "Collection and storage of images having more than 2 x 10 8 pixels;",
+            "label": "3B903.d – Collection and storage of images having more than 2 x 10 8 pixels;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d. Collection and storage of images having more than 2 x 10\n<SU>8</SU> pixels;</P>",
+                "text": "d. Collection and storage of images having more than 2 x 10 8 pixels;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.e",
+            "heading": "FOV overlap of less than 5 percent in vertical and horizontal directions;",
+            "label": "3B903.e – FOV overlap of less than 5 percent in vertical and horizontal directions;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>e. FOV overlap of less than 5 percent in vertical and horizontal directions;</P>",
+                "text": "e. FOV overlap of less than 5 percent in vertical and horizontal directions;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.f",
+            "heading": "Stitching overlap of FOV less than 50 nm; and",
+            "label": "3B903.f – Stitching overlap of FOV less than 50 nm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>f. Stitching overlap of FOV less than 50 nm; <I>and</I></P>",
+                "text": "f. Stitching overlap of FOV less than 50 nm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.g",
+            "heading": "Accelerating voltage more than 21 kV.",
+            "label": "3B903.g – Accelerating voltage more than 21 kV.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>g. Accelerating voltage more than 21 kV.</P>",
+                "text": "g. Accelerating voltage more than 21 kV.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>3B903 includes SEM equipment designed for chip design recovery.</I></P></NOTE>",
+                "text": "Note 1: 3B903 includes SEM equipment designed for chip design recovery.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3B903 does not apply to SEM equipment designed to accept a Semiconductor Equipment and Materials International (SEMI) standard wafer carrier, such as a 200 mm or larger Front Opening Unified Pod (FOUP).</I></P></NOTE>",
+                "text": "Note 2: 3B903 does not apply to SEM equipment designed to accept a Semiconductor Equipment and Materials International (SEMI) standard wafer carrier, such as a 200 mm or larger Front Opening Unified Pod (FOUP).",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+      "title": "Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”"
+      ],
+      "ancestors": [],
+      "text": "3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).\nLicense Requirements\nReason for Control:\nNS, RS, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3B903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3B903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3B903) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nNS applies to entire entry\nWorldwide control.\nSee § 742.4(a)(5) and (b)(10) of the EAR.\nRS applies to the entire entry\nWorldwide control.\nSee § 742.6(a)(10) and (b)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nIEC:\nYes, see § 740.2(a)(22) and § 740.24 of the EAR.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No. 1 to part 740 of the EAR).\nList of Items Controlled\nRelated Controls:\nSee ECCNs\n3D901\nfor related “development” or “production” “software”, ECCN\n3E901\nfor related “development” and “production” “technology”.\nRelated Definition:\nN/A\nItems:\nStage placement accuracy less (better) than 30 nm;\na. Stage placement accuracy less (better) than 30 nm;\nStage positioning measurement performed using laser interferometry;\nb. Stage positioning measurement performed using laser interferometry;\nPosition calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;\nc. Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;\nCollection and storage of images having more than 2 x 10 8 pixels;\nd. Collection and storage of images having more than 2 x 10 8 pixels;\nFOV overlap of less than 5 percent in vertical and horizontal directions;\ne. FOV overlap of less than 5 percent in vertical and horizontal directions;\nStitching overlap of FOV less than 50 nm; and\nf. Stitching overlap of FOV less than 50 nm; and\nAccelerating voltage more than 21 kV.\ng. Accelerating voltage more than 21 kV.\nNote 1: 3B903 includes SEM equipment designed for chip design recovery.\nNote 2: 3B903 does not apply to SEM equipment designed to accept a Semiconductor Equipment and Materials International (SEMI) standard wafer carrier, such as a 200 mm or larger Front Opening Unified Pod (FOUP).",
+      "structure": {
+        "identifier": "3B903",
+        "heading": "3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+        "label": "3B903 – 3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">NS applies to entire entry (3B903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.4(a)(5) and (b)(10) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">RS applies to the entire entry (3B903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.6(a)(10) and (b)(11) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (3B903)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3B903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3B903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3B903) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.4(a)(5) and (b)(10) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "RS applies to the entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(10) and (b)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "IEC:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, see § 740.2(a)(22) and § 740.24 of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No. 1 to part 740 of the EAR)."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "See ECCNs"
+          },
+          {
+            "type": "text",
+            "text": "3D901"
+          },
+          {
+            "type": "text",
+            "text": "for related “development” or “production” “software”, ECCN"
+          },
+          {
+            "type": "text",
+            "text": "3E901"
+          },
+          {
+            "type": "text",
+            "text": "for related “development” and “production” “technology”."
+          },
+          {
+            "type": "text",
+            "text": "Related Definition:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "3B903.a",
+            "heading": "Stage placement accuracy less (better) than 30 nm;",
+            "label": "3B903.a – Stage placement accuracy less (better) than 30 nm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. Stage placement accuracy less (better) than 30 nm;</P>",
+                "text": "a. Stage placement accuracy less (better) than 30 nm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.b",
+            "heading": "Stage positioning measurement performed using laser interferometry;",
+            "label": "3B903.b – Stage positioning measurement performed using laser interferometry;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. Stage positioning measurement performed using laser interferometry;</P>",
+                "text": "b. Stage positioning measurement performed using laser interferometry;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.c",
+            "heading": "Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;",
+            "label": "3B903.c – Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c. Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;</P>",
+                "text": "c. Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.d",
+            "heading": "Collection and storage of images having more than 2 x 10 8 pixels;",
+            "label": "3B903.d – Collection and storage of images having more than 2 x 10 8 pixels;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d. Collection and storage of images having more than 2 x 10\n<SU>8</SU> pixels;</P>",
+                "text": "d. Collection and storage of images having more than 2 x 10 8 pixels;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.e",
+            "heading": "FOV overlap of less than 5 percent in vertical and horizontal directions;",
+            "label": "3B903.e – FOV overlap of less than 5 percent in vertical and horizontal directions;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>e. FOV overlap of less than 5 percent in vertical and horizontal directions;</P>",
+                "text": "e. FOV overlap of less than 5 percent in vertical and horizontal directions;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.f",
+            "heading": "Stitching overlap of FOV less than 50 nm; and",
+            "label": "3B903.f – Stitching overlap of FOV less than 50 nm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>f. Stitching overlap of FOV less than 50 nm; <I>and</I></P>",
+                "text": "f. Stitching overlap of FOV less than 50 nm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.g",
+            "heading": "Accelerating voltage more than 21 kV.",
+            "label": "3B903.g – Accelerating voltage more than 21 kV.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>g. Accelerating voltage more than 21 kV.</P>",
+                "text": "g. Accelerating voltage more than 21 kV.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>3B903 includes SEM equipment designed for chip design recovery.</I></P></NOTE>",
+                "text": "Note 1: 3B903 includes SEM equipment designed for chip design recovery.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3B903 does not apply to SEM equipment designed to accept a Semiconductor Equipment and Materials International (SEMI) standard wafer carrier, such as a 200 mm or larger Front Opening Unified Pod (FOUP).</I></P></NOTE>",
+                "text": "Note 2: 3B903 does not apply to SEM equipment designed to accept a Semiconductor Equipment and Materials International (SEMI) standard wafer carrier, such as a 200 mm or larger Front Opening Unified Pod (FOUP).",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+      "title": "Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”"
+      ],
+      "ancestors": [],
+      "text": "3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).\nLicense Requirements\nReason for Control:\nNS, RS, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3B903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3B903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3B903) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nNS applies to entire entry\nWorldwide control.\nSee § 742.4(a)(5) and (b)(10) of the EAR.\nRS applies to the entire entry\nWorldwide control.\nSee § 742.6(a)(10) and (b)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nIEC:\nYes, see § 740.2(a)(22) and § 740.24 of the EAR.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No. 1 to part 740 of the EAR).\nList of Items Controlled\nRelated Controls:\nSee ECCNs\n3D901\nfor related “development” or “production” “software”, ECCN\n3E901\nfor related “development” and “production” “technology”.\nRelated Definition:\nN/A\nItems:\nStage placement accuracy less (better) than 30 nm;\na. Stage placement accuracy less (better) than 30 nm;\nStage positioning measurement performed using laser interferometry;\nb. Stage positioning measurement performed using laser interferometry;\nPosition calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;\nc. Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;\nCollection and storage of images having more than 2 x 10 8 pixels;\nd. Collection and storage of images having more than 2 x 10 8 pixels;\nFOV overlap of less than 5 percent in vertical and horizontal directions;\ne. FOV overlap of less than 5 percent in vertical and horizontal directions;\nStitching overlap of FOV less than 50 nm; and\nf. Stitching overlap of FOV less than 50 nm; and\nAccelerating voltage more than 21 kV.\ng. Accelerating voltage more than 21 kV.\nNote 1: 3B903 includes SEM equipment designed for chip design recovery.\nNote 2: 3B903 does not apply to SEM equipment designed to accept a Semiconductor Equipment and Materials International (SEMI) standard wafer carrier, such as a 200 mm or larger Front Opening Unified Pod (FOUP).",
+      "structure": {
+        "identifier": "3B903",
+        "heading": "3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+        "label": "3B903 – 3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">NS applies to entire entry (3B903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.4(a)(5) and (b)(10) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">RS applies to the entire entry (3B903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.6(a)(10) and (b)(11) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (3B903)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3B903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3B903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3B903) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.4(a)(5) and (b)(10) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "RS applies to the entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(10) and (b)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "IEC:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, see § 740.2(a)(22) and § 740.24 of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No. 1 to part 740 of the EAR)."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "See ECCNs"
+          },
+          {
+            "type": "text",
+            "text": "3D901"
+          },
+          {
+            "type": "text",
+            "text": "for related “development” or “production” “software”, ECCN"
+          },
+          {
+            "type": "text",
+            "text": "3E901"
+          },
+          {
+            "type": "text",
+            "text": "for related “development” and “production” “technology”."
+          },
+          {
+            "type": "text",
+            "text": "Related Definition:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "3B903.a",
+            "heading": "Stage placement accuracy less (better) than 30 nm;",
+            "label": "3B903.a – Stage placement accuracy less (better) than 30 nm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. Stage placement accuracy less (better) than 30 nm;</P>",
+                "text": "a. Stage placement accuracy less (better) than 30 nm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.b",
+            "heading": "Stage positioning measurement performed using laser interferometry;",
+            "label": "3B903.b – Stage positioning measurement performed using laser interferometry;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. Stage positioning measurement performed using laser interferometry;</P>",
+                "text": "b. Stage positioning measurement performed using laser interferometry;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.c",
+            "heading": "Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;",
+            "label": "3B903.c – Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c. Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;</P>",
+                "text": "c. Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.d",
+            "heading": "Collection and storage of images having more than 2 x 10 8 pixels;",
+            "label": "3B903.d – Collection and storage of images having more than 2 x 10 8 pixels;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d. Collection and storage of images having more than 2 x 10\n<SU>8</SU> pixels;</P>",
+                "text": "d. Collection and storage of images having more than 2 x 10 8 pixels;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.e",
+            "heading": "FOV overlap of less than 5 percent in vertical and horizontal directions;",
+            "label": "3B903.e – FOV overlap of less than 5 percent in vertical and horizontal directions;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>e. FOV overlap of less than 5 percent in vertical and horizontal directions;</P>",
+                "text": "e. FOV overlap of less than 5 percent in vertical and horizontal directions;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.f",
+            "heading": "Stitching overlap of FOV less than 50 nm; and",
+            "label": "3B903.f – Stitching overlap of FOV less than 50 nm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>f. Stitching overlap of FOV less than 50 nm; <I>and</I></P>",
+                "text": "f. Stitching overlap of FOV less than 50 nm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.g",
+            "heading": "Accelerating voltage more than 21 kV.",
+            "label": "3B903.g – Accelerating voltage more than 21 kV.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>g. Accelerating voltage more than 21 kV.</P>",
+                "text": "g. Accelerating voltage more than 21 kV.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>3B903 includes SEM equipment designed for chip design recovery.</I></P></NOTE>",
+                "text": "Note 1: 3B903 includes SEM equipment designed for chip design recovery.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3B903 does not apply to SEM equipment designed to accept a Semiconductor Equipment and Materials International (SEMI) standard wafer carrier, such as a 200 mm or larger Front Opening Unified Pod (FOUP).</I></P></NOTE>",
+                "text": "Note 2: 3B903 does not apply to SEM equipment designed to accept a Semiconductor Equipment and Materials International (SEMI) standard wafer carrier, such as a 200 mm or larger Front Opening Unified Pod (FOUP).",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+      "title": "Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”"
+      ],
+      "ancestors": [],
+      "text": "3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).\nLicense Requirements\nReason for Control:\nNS, RS, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3B903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3B903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3B903) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nNS applies to entire entry\nWorldwide control.\nSee § 742.4(a)(5) and (b)(10) of the EAR.\nRS applies to the entire entry\nWorldwide control.\nSee § 742.6(a)(10) and (b)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nIEC:\nYes, see § 740.2(a)(22) and § 740.24 of the EAR.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No. 1 to part 740 of the EAR).\nList of Items Controlled\nRelated Controls:\nSee ECCNs\n3D901\nfor related “development” or “production” “software”, ECCN\n3E901\nfor related “development” and “production” “technology”.\nRelated Definition:\nN/A\nItems:\nStage placement accuracy less (better) than 30 nm;\na. Stage placement accuracy less (better) than 30 nm;\nStage positioning measurement performed using laser interferometry;\nb. Stage positioning measurement performed using laser interferometry;\nPosition calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;\nc. Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;\nCollection and storage of images having more than 2 x 10 8 pixels;\nd. Collection and storage of images having more than 2 x 10 8 pixels;\nFOV overlap of less than 5 percent in vertical and horizontal directions;\ne. FOV overlap of less than 5 percent in vertical and horizontal directions;\nStitching overlap of FOV less than 50 nm; and\nf. Stitching overlap of FOV less than 50 nm; and\nAccelerating voltage more than 21 kV.\ng. Accelerating voltage more than 21 kV.\nNote 1: 3B903 includes SEM equipment designed for chip design recovery.\nNote 2: 3B903 does not apply to SEM equipment designed to accept a Semiconductor Equipment and Materials International (SEMI) standard wafer carrier, such as a 200 mm or larger Front Opening Unified Pod (FOUP).",
+      "structure": {
+        "identifier": "3B903",
+        "heading": "3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+        "label": "3B903 – 3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">NS applies to entire entry (3B903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.4(a)(5) and (b)(10) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">RS applies to the entire entry (3B903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.6(a)(10) and (b)(11) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (3B903)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3B903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3B903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3B903) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.4(a)(5) and (b)(10) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "RS applies to the entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(10) and (b)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "IEC:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, see § 740.2(a)(22) and § 740.24 of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No. 1 to part 740 of the EAR)."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "See ECCNs"
+          },
+          {
+            "type": "text",
+            "text": "3D901"
+          },
+          {
+            "type": "text",
+            "text": "for related “development” or “production” “software”, ECCN"
+          },
+          {
+            "type": "text",
+            "text": "3E901"
+          },
+          {
+            "type": "text",
+            "text": "for related “development” and “production” “technology”."
+          },
+          {
+            "type": "text",
+            "text": "Related Definition:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "3B903.a",
+            "heading": "Stage placement accuracy less (better) than 30 nm;",
+            "label": "3B903.a – Stage placement accuracy less (better) than 30 nm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. Stage placement accuracy less (better) than 30 nm;</P>",
+                "text": "a. Stage placement accuracy less (better) than 30 nm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.b",
+            "heading": "Stage positioning measurement performed using laser interferometry;",
+            "label": "3B903.b – Stage positioning measurement performed using laser interferometry;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. Stage positioning measurement performed using laser interferometry;</P>",
+                "text": "b. Stage positioning measurement performed using laser interferometry;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.c",
+            "heading": "Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;",
+            "label": "3B903.c – Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c. Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;</P>",
+                "text": "c. Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.d",
+            "heading": "Collection and storage of images having more than 2 x 10 8 pixels;",
+            "label": "3B903.d – Collection and storage of images having more than 2 x 10 8 pixels;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d. Collection and storage of images having more than 2 x 10\n<SU>8</SU> pixels;</P>",
+                "text": "d. Collection and storage of images having more than 2 x 10 8 pixels;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.e",
+            "heading": "FOV overlap of less than 5 percent in vertical and horizontal directions;",
+            "label": "3B903.e – FOV overlap of less than 5 percent in vertical and horizontal directions;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>e. FOV overlap of less than 5 percent in vertical and horizontal directions;</P>",
+                "text": "e. FOV overlap of less than 5 percent in vertical and horizontal directions;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.f",
+            "heading": "Stitching overlap of FOV less than 50 nm; and",
+            "label": "3B903.f – Stitching overlap of FOV less than 50 nm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>f. Stitching overlap of FOV less than 50 nm; <I>and</I></P>",
+                "text": "f. Stitching overlap of FOV less than 50 nm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.g",
+            "heading": "Accelerating voltage more than 21 kV.",
+            "label": "3B903.g – Accelerating voltage more than 21 kV.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>g. Accelerating voltage more than 21 kV.</P>",
+                "text": "g. Accelerating voltage more than 21 kV.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>3B903 includes SEM equipment designed for chip design recovery.</I></P></NOTE>",
+                "text": "Note 1: 3B903 includes SEM equipment designed for chip design recovery.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3B903 does not apply to SEM equipment designed to accept a Semiconductor Equipment and Materials International (SEMI) standard wafer carrier, such as a 200 mm or larger Front Opening Unified Pod (FOUP).</I></P></NOTE>",
+                "text": "Note 2: 3B903 does not apply to SEM equipment designed to accept a Semiconductor Equipment and Materials International (SEMI) standard wafer carrier, such as a 200 mm or larger Front Opening Unified Pod (FOUP).",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+      "title": "Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”"
+      ],
+      "ancestors": [],
+      "text": "3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).\nLicense Requirements\nReason for Control:\nNS, RS, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3B903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3B903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3B903) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nNS applies to entire entry\nWorldwide control.\nSee § 742.4(a)(5) and (b)(10) of the EAR.\nRS applies to the entire entry\nWorldwide control.\nSee § 742.6(a)(10) and (b)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nIEC:\nYes, see § 740.2(a)(22) and § 740.24 of the EAR.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No. 1 to part 740 of the EAR).\nList of Items Controlled\nRelated Controls:\nSee ECCNs\n3D901\nfor related “development” or “production” “software”, ECCN\n3E901\nfor related “development” and “production” “technology”.\nRelated Definition:\nN/A\nItems:\nStage placement accuracy less (better) than 30 nm;\na. Stage placement accuracy less (better) than 30 nm;\nStage positioning measurement performed using laser interferometry;\nb. Stage positioning measurement performed using laser interferometry;\nPosition calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;\nc. Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;\nCollection and storage of images having more than 2 x 10 8 pixels;\nd. Collection and storage of images having more than 2 x 10 8 pixels;\nFOV overlap of less than 5 percent in vertical and horizontal directions;\ne. FOV overlap of less than 5 percent in vertical and horizontal directions;\nStitching overlap of FOV less than 50 nm; and\nf. Stitching overlap of FOV less than 50 nm; and\nAccelerating voltage more than 21 kV.\ng. Accelerating voltage more than 21 kV.\nNote 1: 3B903 includes SEM equipment designed for chip design recovery.\nNote 2: 3B903 does not apply to SEM equipment designed to accept a Semiconductor Equipment and Materials International (SEMI) standard wafer carrier, such as a 200 mm or larger Front Opening Unified Pod (FOUP).",
+      "structure": {
+        "identifier": "3B903",
+        "heading": "3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+        "label": "3B903 – 3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">NS applies to entire entry (3B903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.4(a)(5) and (b)(10) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">RS applies to the entire entry (3B903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.6(a)(10) and (b)(11) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (3B903)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3B903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3B903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3B903) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.4(a)(5) and (b)(10) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "RS applies to the entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(10) and (b)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "IEC:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, see § 740.2(a)(22) and § 740.24 of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No. 1 to part 740 of the EAR)."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "See ECCNs"
+          },
+          {
+            "type": "text",
+            "text": "3D901"
+          },
+          {
+            "type": "text",
+            "text": "for related “development” or “production” “software”, ECCN"
+          },
+          {
+            "type": "text",
+            "text": "3E901"
+          },
+          {
+            "type": "text",
+            "text": "for related “development” and “production” “technology”."
+          },
+          {
+            "type": "text",
+            "text": "Related Definition:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "3B903.a",
+            "heading": "Stage placement accuracy less (better) than 30 nm;",
+            "label": "3B903.a – Stage placement accuracy less (better) than 30 nm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. Stage placement accuracy less (better) than 30 nm;</P>",
+                "text": "a. Stage placement accuracy less (better) than 30 nm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.b",
+            "heading": "Stage positioning measurement performed using laser interferometry;",
+            "label": "3B903.b – Stage positioning measurement performed using laser interferometry;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. Stage positioning measurement performed using laser interferometry;</P>",
+                "text": "b. Stage positioning measurement performed using laser interferometry;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.c",
+            "heading": "Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;",
+            "label": "3B903.c – Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c. Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;</P>",
+                "text": "c. Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.d",
+            "heading": "Collection and storage of images having more than 2 x 10 8 pixels;",
+            "label": "3B903.d – Collection and storage of images having more than 2 x 10 8 pixels;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d. Collection and storage of images having more than 2 x 10\n<SU>8</SU> pixels;</P>",
+                "text": "d. Collection and storage of images having more than 2 x 10 8 pixels;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.e",
+            "heading": "FOV overlap of less than 5 percent in vertical and horizontal directions;",
+            "label": "3B903.e – FOV overlap of less than 5 percent in vertical and horizontal directions;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>e. FOV overlap of less than 5 percent in vertical and horizontal directions;</P>",
+                "text": "e. FOV overlap of less than 5 percent in vertical and horizontal directions;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.f",
+            "heading": "Stitching overlap of FOV less than 50 nm; and",
+            "label": "3B903.f – Stitching overlap of FOV less than 50 nm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>f. Stitching overlap of FOV less than 50 nm; <I>and</I></P>",
+                "text": "f. Stitching overlap of FOV less than 50 nm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.g",
+            "heading": "Accelerating voltage more than 21 kV.",
+            "label": "3B903.g – Accelerating voltage more than 21 kV.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>g. Accelerating voltage more than 21 kV.</P>",
+                "text": "g. Accelerating voltage more than 21 kV.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>3B903 includes SEM equipment designed for chip design recovery.</I></P></NOTE>",
+                "text": "Note 1: 3B903 includes SEM equipment designed for chip design recovery.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3B903 does not apply to SEM equipment designed to accept a Semiconductor Equipment and Materials International (SEMI) standard wafer carrier, such as a 200 mm or larger Front Opening Unified Pod (FOUP).</I></P></NOTE>",
+                "text": "Note 2: 3B903 does not apply to SEM equipment designed to accept a Semiconductor Equipment and Materials International (SEMI) standard wafer carrier, such as a 200 mm or larger Front Opening Unified Pod (FOUP).",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+      "title": "Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”"
+      ],
+      "ancestors": [],
+      "text": "3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).\nLicense Requirements\nReason for Control:\nNS, RS, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3B903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3B903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3B903) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nNS applies to entire entry\nWorldwide control.\nSee § 742.4(a)(5) and (b)(10) of the EAR.\nRS applies to the entire entry\nWorldwide control.\nSee § 742.6(a)(10) and (b)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nIEC:\nYes, see § 740.2(a)(22) and § 740.24 of the EAR.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No. 1 to part 740 of the EAR).\nList of Items Controlled\nRelated Controls:\nSee ECCNs\n3D901\nfor related “development” or “production” “software”, ECCN\n3E901\nfor related “development” and “production” “technology”.\nRelated Definition:\nN/A\nItems:\nStage placement accuracy less (better) than 30 nm;\na. Stage placement accuracy less (better) than 30 nm;\nStage positioning measurement performed using laser interferometry;\nb. Stage positioning measurement performed using laser interferometry;\nPosition calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;\nc. Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;\nCollection and storage of images having more than 2 x 10 8 pixels;\nd. Collection and storage of images having more than 2 x 10 8 pixels;\nFOV overlap of less than 5 percent in vertical and horizontal directions;\ne. FOV overlap of less than 5 percent in vertical and horizontal directions;\nStitching overlap of FOV less than 50 nm; and\nf. Stitching overlap of FOV less than 50 nm; and\nAccelerating voltage more than 21 kV.\ng. Accelerating voltage more than 21 kV.\nNote 1: 3B903 includes SEM equipment designed for chip design recovery.\nNote 2: 3B903 does not apply to SEM equipment designed to accept a Semiconductor Equipment and Materials International (SEMI) standard wafer carrier, such as a 200 mm or larger Front Opening Unified Pod (FOUP).",
+      "structure": {
+        "identifier": "3B903",
+        "heading": "3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+        "label": "3B903 – 3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">NS applies to entire entry (3B903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.4(a)(5) and (b)(10) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">RS applies to the entire entry (3B903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.6(a)(10) and (b)(11) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (3B903)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3B903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3B903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3B903) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.4(a)(5) and (b)(10) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "RS applies to the entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(10) and (b)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "IEC:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, see § 740.2(a)(22) and § 740.24 of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No. 1 to part 740 of the EAR)."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "See ECCNs"
+          },
+          {
+            "type": "text",
+            "text": "3D901"
+          },
+          {
+            "type": "text",
+            "text": "for related “development” or “production” “software”, ECCN"
+          },
+          {
+            "type": "text",
+            "text": "3E901"
+          },
+          {
+            "type": "text",
+            "text": "for related “development” and “production” “technology”."
+          },
+          {
+            "type": "text",
+            "text": "Related Definition:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "3B903.a",
+            "heading": "Stage placement accuracy less (better) than 30 nm;",
+            "label": "3B903.a – Stage placement accuracy less (better) than 30 nm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. Stage placement accuracy less (better) than 30 nm;</P>",
+                "text": "a. Stage placement accuracy less (better) than 30 nm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.b",
+            "heading": "Stage positioning measurement performed using laser interferometry;",
+            "label": "3B903.b – Stage positioning measurement performed using laser interferometry;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. Stage positioning measurement performed using laser interferometry;</P>",
+                "text": "b. Stage positioning measurement performed using laser interferometry;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.c",
+            "heading": "Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;",
+            "label": "3B903.c – Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c. Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;</P>",
+                "text": "c. Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.d",
+            "heading": "Collection and storage of images having more than 2 x 10 8 pixels;",
+            "label": "3B903.d – Collection and storage of images having more than 2 x 10 8 pixels;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d. Collection and storage of images having more than 2 x 10\n<SU>8</SU> pixels;</P>",
+                "text": "d. Collection and storage of images having more than 2 x 10 8 pixels;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.e",
+            "heading": "FOV overlap of less than 5 percent in vertical and horizontal directions;",
+            "label": "3B903.e – FOV overlap of less than 5 percent in vertical and horizontal directions;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>e. FOV overlap of less than 5 percent in vertical and horizontal directions;</P>",
+                "text": "e. FOV overlap of less than 5 percent in vertical and horizontal directions;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.f",
+            "heading": "Stitching overlap of FOV less than 50 nm; and",
+            "label": "3B903.f – Stitching overlap of FOV less than 50 nm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>f. Stitching overlap of FOV less than 50 nm; <I>and</I></P>",
+                "text": "f. Stitching overlap of FOV less than 50 nm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.g",
+            "heading": "Accelerating voltage more than 21 kV.",
+            "label": "3B903.g – Accelerating voltage more than 21 kV.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>g. Accelerating voltage more than 21 kV.</P>",
+                "text": "g. Accelerating voltage more than 21 kV.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>3B903 includes SEM equipment designed for chip design recovery.</I></P></NOTE>",
+                "text": "Note 1: 3B903 includes SEM equipment designed for chip design recovery.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3B903 does not apply to SEM equipment designed to accept a Semiconductor Equipment and Materials International (SEMI) standard wafer carrier, such as a 200 mm or larger Front Opening Unified Pod (FOUP).</I></P></NOTE>",
+                "text": "Note 2: 3B903 does not apply to SEM equipment designed to accept a Semiconductor Equipment and Materials International (SEMI) standard wafer carrier, such as a 200 mm or larger Front Opening Unified Pod (FOUP).",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+      "title": "Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”"
+      ],
+      "ancestors": [],
+      "text": "3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).\nLicense Requirements\nReason for Control:\nNS, RS, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3B903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3B903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3B903) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nNS applies to entire entry\nWorldwide control.\nSee § 742.4(a)(5) and (b)(10) of the EAR.\nRS applies to the entire entry\nWorldwide control.\nSee § 742.6(a)(10) and (b)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nIEC:\nYes, see § 740.2(a)(22) and § 740.24 of the EAR.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No. 1 to part 740 of the EAR).\nList of Items Controlled\nRelated Controls:\nSee ECCNs\n3D901\nfor related “development” or “production” “software”, ECCN\n3E901\nfor related “development” and “production” “technology”.\nRelated Definition:\nN/A\nItems:\nStage placement accuracy less (better) than 30 nm;\na. Stage placement accuracy less (better) than 30 nm;\nStage positioning measurement performed using laser interferometry;\nb. Stage positioning measurement performed using laser interferometry;\nPosition calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;\nc. Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;\nCollection and storage of images having more than 2 x 10 8 pixels;\nd. Collection and storage of images having more than 2 x 10 8 pixels;\nFOV overlap of less than 5 percent in vertical and horizontal directions;\ne. FOV overlap of less than 5 percent in vertical and horizontal directions;\nStitching overlap of FOV less than 50 nm; and\nf. Stitching overlap of FOV less than 50 nm; and\nAccelerating voltage more than 21 kV.\ng. Accelerating voltage more than 21 kV.\nNote 1: 3B903 includes SEM equipment designed for chip design recovery.\nNote 2: 3B903 does not apply to SEM equipment designed to accept a Semiconductor Equipment and Materials International (SEMI) standard wafer carrier, such as a 200 mm or larger Front Opening Unified Pod (FOUP).",
+      "structure": {
+        "identifier": "3B903",
+        "heading": "3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+        "label": "3B903 – 3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">NS applies to entire entry (3B903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.4(a)(5) and (b)(10) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">RS applies to the entire entry (3B903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.6(a)(10) and (b)(11) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (3B903)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3B903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3B903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3B903) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.4(a)(5) and (b)(10) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "RS applies to the entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(10) and (b)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "IEC:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, see § 740.2(a)(22) and § 740.24 of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No. 1 to part 740 of the EAR)."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "See ECCNs"
+          },
+          {
+            "type": "text",
+            "text": "3D901"
+          },
+          {
+            "type": "text",
+            "text": "for related “development” or “production” “software”, ECCN"
+          },
+          {
+            "type": "text",
+            "text": "3E901"
+          },
+          {
+            "type": "text",
+            "text": "for related “development” and “production” “technology”."
+          },
+          {
+            "type": "text",
+            "text": "Related Definition:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "3B903.a",
+            "heading": "Stage placement accuracy less (better) than 30 nm;",
+            "label": "3B903.a – Stage placement accuracy less (better) than 30 nm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. Stage placement accuracy less (better) than 30 nm;</P>",
+                "text": "a. Stage placement accuracy less (better) than 30 nm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.b",
+            "heading": "Stage positioning measurement performed using laser interferometry;",
+            "label": "3B903.b – Stage positioning measurement performed using laser interferometry;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. Stage positioning measurement performed using laser interferometry;</P>",
+                "text": "b. Stage positioning measurement performed using laser interferometry;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.c",
+            "heading": "Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;",
+            "label": "3B903.c – Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c. Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;</P>",
+                "text": "c. Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.d",
+            "heading": "Collection and storage of images having more than 2 x 10 8 pixels;",
+            "label": "3B903.d – Collection and storage of images having more than 2 x 10 8 pixels;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d. Collection and storage of images having more than 2 x 10\n<SU>8</SU> pixels;</P>",
+                "text": "d. Collection and storage of images having more than 2 x 10 8 pixels;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.e",
+            "heading": "FOV overlap of less than 5 percent in vertical and horizontal directions;",
+            "label": "3B903.e – FOV overlap of less than 5 percent in vertical and horizontal directions;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>e. FOV overlap of less than 5 percent in vertical and horizontal directions;</P>",
+                "text": "e. FOV overlap of less than 5 percent in vertical and horizontal directions;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.f",
+            "heading": "Stitching overlap of FOV less than 50 nm; and",
+            "label": "3B903.f – Stitching overlap of FOV less than 50 nm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>f. Stitching overlap of FOV less than 50 nm; <I>and</I></P>",
+                "text": "f. Stitching overlap of FOV less than 50 nm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.g",
+            "heading": "Accelerating voltage more than 21 kV.",
+            "label": "3B903.g – Accelerating voltage more than 21 kV.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>g. Accelerating voltage more than 21 kV.</P>",
+                "text": "g. Accelerating voltage more than 21 kV.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>3B903 includes SEM equipment designed for chip design recovery.</I></P></NOTE>",
+                "text": "Note 1: 3B903 includes SEM equipment designed for chip design recovery.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3B903 does not apply to SEM equipment designed to accept a Semiconductor Equipment and Materials International (SEMI) standard wafer carrier, such as a 200 mm or larger Front Opening Unified Pod (FOUP).</I></P></NOTE>",
+                "text": "Note 2: 3B903 does not apply to SEM equipment designed to accept a Semiconductor Equipment and Materials International (SEMI) standard wafer carrier, such as a 200 mm or larger Front Opening Unified Pod (FOUP).",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+      "title": "Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”"
+      ],
+      "ancestors": [],
+      "text": "3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).\nLicense Requirements\nReason for Control:\nNS, RS, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3B903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3B903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3B903) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nNS applies to entire entry\nWorldwide control.\nSee § 742.4(a)(5) and (b)(10) of the EAR.\nRS applies to the entire entry\nWorldwide control.\nSee § 742.6(a)(10) and (b)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nIEC:\nYes, see § 740.2(a)(22) and § 740.24 of the EAR.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No. 1 to part 740 of the EAR).\nList of Items Controlled\nRelated Controls:\nSee ECCNs\n3D901\nfor related “development” or “production” “software”, ECCN\n3E901\nfor related “development” and “production” “technology”.\nRelated Definition:\nN/A\nItems:\nStage placement accuracy less (better) than 30 nm;\na. Stage placement accuracy less (better) than 30 nm;\nStage positioning measurement performed using laser interferometry;\nb. Stage positioning measurement performed using laser interferometry;\nPosition calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;\nc. Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;\nCollection and storage of images having more than 2 x 10 8 pixels;\nd. Collection and storage of images having more than 2 x 10 8 pixels;\nFOV overlap of less than 5 percent in vertical and horizontal directions;\ne. FOV overlap of less than 5 percent in vertical and horizontal directions;\nStitching overlap of FOV less than 50 nm; and\nf. Stitching overlap of FOV less than 50 nm; and\nAccelerating voltage more than 21 kV.\ng. Accelerating voltage more than 21 kV.\nNote 1: 3B903 includes SEM equipment designed for chip design recovery.\nNote 2: 3B903 does not apply to SEM equipment designed to accept a Semiconductor Equipment and Materials International (SEMI) standard wafer carrier, such as a 200 mm or larger Front Opening Unified Pod (FOUP).",
+      "structure": {
+        "identifier": "3B903",
+        "heading": "3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+        "label": "3B903 – 3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">NS applies to entire entry (3B903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.4(a)(5) and (b)(10) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">RS applies to the entire entry (3B903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.6(a)(10) and (b)(11) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (3B903)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3B903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3B903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3B903) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.4(a)(5) and (b)(10) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "RS applies to the entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(10) and (b)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "IEC:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, see § 740.2(a)(22) and § 740.24 of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No. 1 to part 740 of the EAR)."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "See ECCNs"
+          },
+          {
+            "type": "text",
+            "text": "3D901"
+          },
+          {
+            "type": "text",
+            "text": "for related “development” or “production” “software”, ECCN"
+          },
+          {
+            "type": "text",
+            "text": "3E901"
+          },
+          {
+            "type": "text",
+            "text": "for related “development” and “production” “technology”."
+          },
+          {
+            "type": "text",
+            "text": "Related Definition:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "3B903.a",
+            "heading": "Stage placement accuracy less (better) than 30 nm;",
+            "label": "3B903.a – Stage placement accuracy less (better) than 30 nm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. Stage placement accuracy less (better) than 30 nm;\n</P>",
+                "text": "a. Stage placement accuracy less (better) than 30 nm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.b",
+            "heading": "Stage positioning measurement performed using laser interferometry;",
+            "label": "3B903.b – Stage positioning measurement performed using laser interferometry;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. Stage positioning measurement performed using laser interferometry;\n</P>",
+                "text": "b. Stage positioning measurement performed using laser interferometry;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.c",
+            "heading": "Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;",
+            "label": "3B903.c – Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c. Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;\n</P>",
+                "text": "c. Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.d",
+            "heading": "Collection and storage of images having more than 2 x 10 8 pixels;",
+            "label": "3B903.d – Collection and storage of images having more than 2 x 10 8 pixels;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d. Collection and storage of images having more than 2 x 10\n<SU>8</SU> pixels;\n</P>",
+                "text": "d. Collection and storage of images having more than 2 x 10 8 pixels;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.e",
+            "heading": "FOV overlap of less than 5 percent in vertical and horizontal directions;",
+            "label": "3B903.e – FOV overlap of less than 5 percent in vertical and horizontal directions;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>e. FOV overlap of less than 5 percent in vertical and horizontal directions;\n</P>",
+                "text": "e. FOV overlap of less than 5 percent in vertical and horizontal directions;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.f",
+            "heading": "Stitching overlap of FOV less than 50 nm; and",
+            "label": "3B903.f – Stitching overlap of FOV less than 50 nm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>f. Stitching overlap of FOV less than 50 nm; <I>and</I>\n</P>",
+                "text": "f. Stitching overlap of FOV less than 50 nm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.g",
+            "heading": "Accelerating voltage more than 21 kV.",
+            "label": "3B903.g – Accelerating voltage more than 21 kV.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>g. Accelerating voltage more than 21 kV.\n</P>",
+                "text": "g. Accelerating voltage more than 21 kV.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>3B903 includes SEM equipment designed for chip design recovery.</I></P></NOTE>",
+                "text": "Note 1: 3B903 includes SEM equipment designed for chip design recovery.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3B903 does not apply to SEM equipment designed to accept a Semiconductor Equipment and Materials International (SEMI) standard wafer carrier, such as a 200 mm or larger Front Opening Unified Pod (FOUP).</I></P></NOTE>",
+                "text": "Note 2: 3B903 does not apply to SEM equipment designed to accept a Semiconductor Equipment and Materials International (SEMI) standard wafer carrier, such as a 200 mm or larger Front Opening Unified Pod (FOUP).",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+      "title": "Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”"
+      ],
+      "ancestors": [],
+      "text": "3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).\nLicense Requirements\nReason for Control:\nNS, RS, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3B903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3B903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3B903) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nNS applies to entire entry\nWorldwide control.\nSee § 742.4(a)(5) and (b)(10) of the EAR.\nRS applies to the entire entry\nWorldwide control.\nSee § 742.6(a)(10) and (b)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nIEC:\nYes, see § 740.2(a)(22) and § 740.24 of the EAR.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No. 1 to part 740 of the EAR).\nList of Items Controlled\nRelated Controls:\nSee ECCNs\n3D901\nfor related “development” or “production” “software”, ECCN\n3E901\nfor related “development” and “production” “technology”.\nRelated Definition:\nN/A\nItems:\nStage placement accuracy less (better) than 30 nm;\na. Stage placement accuracy less (better) than 30 nm;\nStage positioning measurement performed using laser interferometry;\nb. Stage positioning measurement performed using laser interferometry;\nPosition calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;\nc. Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;\nCollection and storage of images having more than 2 x 10 8 pixels;\nd. Collection and storage of images having more than 2 x 10 8 pixels;\nFOV overlap of less than 5 percent in vertical and horizontal directions;\ne. FOV overlap of less than 5 percent in vertical and horizontal directions;\nStitching overlap of FOV less than 50 nm; and\nf. Stitching overlap of FOV less than 50 nm; and\nAccelerating voltage more than 21 kV.\ng. Accelerating voltage more than 21 kV.\nNote 1: 3B903 includes SEM equipment designed for chip design recovery.\nNote 2: 3B903 does not apply to SEM equipment designed to accept a Semiconductor Equipment and Materials International (SEMI) standard wafer carrier, such as a 200 mm or larger Front Opening Unified Pod (FOUP).",
+      "structure": {
+        "identifier": "3B903",
+        "heading": "3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+        "label": "3B903 – 3B903 Scanning Electron Microscope (SEM) equipment designed for imaging semiconductor devices or integrated circuits, having all of the following (See List of Items Controlled).",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">NS applies to entire entry (3B903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.4(a)(5) and (b)(10) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">RS applies to the entire entry (3B903)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.6(a)(10) and (b)(11) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (3B903)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3B903) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3B903) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3B903) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.4(a)(5) and (b)(10) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "RS applies to the entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(10) and (b)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "IEC:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, see § 740.2(a)(22) and § 740.24 of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No. 1 to part 740 of the EAR)."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "See ECCNs"
+          },
+          {
+            "type": "text",
+            "text": "3D901"
+          },
+          {
+            "type": "text",
+            "text": "for related “development” or “production” “software”, ECCN"
+          },
+          {
+            "type": "text",
+            "text": "3E901"
+          },
+          {
+            "type": "text",
+            "text": "for related “development” and “production” “technology”."
+          },
+          {
+            "type": "text",
+            "text": "Related Definition:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "children": [
+          {
+            "identifier": "3B903.a",
+            "heading": "Stage placement accuracy less (better) than 30 nm;",
+            "label": "3B903.a – Stage placement accuracy less (better) than 30 nm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a. Stage placement accuracy less (better) than 30 nm;\n</P>",
+                "text": "a. Stage placement accuracy less (better) than 30 nm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.b",
+            "heading": "Stage positioning measurement performed using laser interferometry;",
+            "label": "3B903.b – Stage positioning measurement performed using laser interferometry;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b. Stage positioning measurement performed using laser interferometry;\n</P>",
+                "text": "b. Stage positioning measurement performed using laser interferometry;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.c",
+            "heading": "Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;",
+            "label": "3B903.c – Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>c. Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;\n</P>",
+                "text": "c. Position calibration within a field-of-view (FOV) based on laser interferometer length-scale measurement;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.d",
+            "heading": "Collection and storage of images having more than 2 x 10 8 pixels;",
+            "label": "3B903.d – Collection and storage of images having more than 2 x 10 8 pixels;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d. Collection and storage of images having more than 2 x 10\n<SU>8</SU> pixels;\n</P>",
+                "text": "d. Collection and storage of images having more than 2 x 10 8 pixels;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.e",
+            "heading": "FOV overlap of less than 5 percent in vertical and horizontal directions;",
+            "label": "3B903.e – FOV overlap of less than 5 percent in vertical and horizontal directions;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>e. FOV overlap of less than 5 percent in vertical and horizontal directions;\n</P>",
+                "text": "e. FOV overlap of less than 5 percent in vertical and horizontal directions;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.f",
+            "heading": "Stitching overlap of FOV less than 50 nm; and",
+            "label": "3B903.f – Stitching overlap of FOV less than 50 nm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>f. Stitching overlap of FOV less than 50 nm; <I>and</I>\n</P>",
+                "text": "f. Stitching overlap of FOV less than 50 nm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B903.g",
+            "heading": "Accelerating voltage more than 21 kV.",
+            "label": "3B903.g – Accelerating voltage more than 21 kV.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>g. Accelerating voltage more than 21 kV.\n</P>",
+                "text": "g. Accelerating voltage more than 21 kV.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>3B903 includes SEM equipment designed for chip design recovery.</I></P></NOTE>",
+                "text": "Note 1: 3B903 includes SEM equipment designed for chip design recovery.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3B903 does not apply to SEM equipment designed to accept a Semiconductor Equipment and Materials International (SEMI) standard wafer carrier, such as a 200 mm or larger Front Opening Unified Pod (FOUP).</I></P></NOTE>",
+                "text": "Note 2: 3B903 does not apply to SEM equipment designed to accept a Semiconductor Equipment and Materials International (SEMI) standard wafer carrier, such as a 200 mm or larger Front Opening Unified Pod (FOUP).",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+{
+  "eccn": "4A906.a.5",
+  "normalized": "4A906.A.5",
+  "history": [
+    {
+      "version": "2024-09-06",
+      "fetchedAt": "2025-10-02T20:33:46.879Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-09-06/title-15?format=xml",
+      "heading": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+      "title": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+      "category": "4",
+      "group": "4A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "4A906 Quantum computers and related “electronic assemblies,” and “components” therefor, as follows (see List of Items Controlled).",
+        "Quantum computers, as follows:"
+      ],
+      "ancestors": [
+        "4A906",
+        "4A906.a"
+      ],
+      "text": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+      "structure": {
+        "identifier": "4A906.a.5",
+        "heading": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+        "label": "4A906.a.5 – Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-10-23",
+      "fetchedAt": "2025-10-02T20:33:47.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-10-23/title-15?format=xml",
+      "heading": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+      "title": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+      "category": "4",
+      "group": "4A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "4A906 Quantum computers and related “electronic assemblies,” and “components” therefor, as follows (see List of Items Controlled).",
+        "Quantum computers, as follows:"
+      ],
+      "ancestors": [
+        "4A906",
+        "4A906.a"
+      ],
+      "text": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+      "structure": {
+        "identifier": "4A906.a.5",
+        "heading": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+        "label": "4A906.a.5 – Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-02",
+      "fetchedAt": "2025-10-02T20:33:47.757Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-02/title-15?format=xml",
+      "heading": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+      "title": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+      "category": "4",
+      "group": "4A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "4A906 Quantum computers and related “electronic assemblies,” and “components” therefor, as follows (see List of Items Controlled).",
+        "Quantum computers, as follows:"
+      ],
+      "ancestors": [
+        "4A906",
+        "4A906.a"
+      ],
+      "text": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+      "structure": {
+        "identifier": "4A906.a.5",
+        "heading": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+        "label": "4A906.a.5 – Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+      "title": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+      "category": "4",
+      "group": "4A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "4A906 Quantum computers and related “electronic assemblies,” and “components” therefor, as follows (see List of Items Controlled).",
+        "Quantum computers, as follows:"
+      ],
+      "ancestors": [
+        "4A906",
+        "4A906.a"
+      ],
+      "text": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+      "structure": {
+        "identifier": "4A906.a.5",
+        "heading": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+        "label": "4A906.a.5 – Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+      "title": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+      "category": "4",
+      "group": "4A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "4A906 Quantum computers and related “electronic assemblies,” and “components” therefor, as follows (see List of Items Controlled).",
+        "Quantum computers, as follows:"
+      ],
+      "ancestors": [
+        "4A906",
+        "4A906.a"
+      ],
+      "text": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+      "structure": {
+        "identifier": "4A906.a.5",
+        "heading": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+        "label": "4A906.a.5 – Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+      "title": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+      "category": "4",
+      "group": "4A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "4A906 Quantum computers and related “electronic assemblies,” and “components” therefor, as follows (see List of Items Controlled).",
+        "Quantum computers, as follows:"
+      ],
+      "ancestors": [
+        "4A906",
+        "4A906.a"
+      ],
+      "text": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+      "structure": {
+        "identifier": "4A906.a.5",
+        "heading": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+        "label": "4A906.a.5 – Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+      "title": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+      "category": "4",
+      "group": "4A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "4A906 Quantum computers and related “electronic assemblies,” and “components” therefor, as follows (see List of Items Controlled).",
+        "Quantum computers, as follows:"
+      ],
+      "ancestors": [
+        "4A906",
+        "4A906.a"
+      ],
+      "text": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+      "structure": {
+        "identifier": "4A906.a.5",
+        "heading": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+        "label": "4A906.a.5 – Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+      "title": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+      "category": "4",
+      "group": "4A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "4A906 Quantum computers and related “electronic assemblies,” and “components” therefor, as follows (see List of Items Controlled).",
+        "Quantum computers, as follows:"
+      ],
+      "ancestors": [
+        "4A906",
+        "4A906.a"
+      ],
+      "text": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+      "structure": {
+        "identifier": "4A906.a.5",
+        "heading": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+        "label": "4A906.a.5 – Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+      "title": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+      "category": "4",
+      "group": "4A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "4A906 Quantum computers and related “electronic assemblies,” and “components” therefor, as follows (see List of Items Controlled).",
+        "Quantum computers, as follows:"
+      ],
+      "ancestors": [
+        "4A906",
+        "4A906.a"
+      ],
+      "text": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+      "structure": {
+        "identifier": "4A906.a.5",
+        "heading": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+        "label": "4A906.a.5 – Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+      "title": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+      "category": "4",
+      "group": "4A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "4A906 Quantum computers and related “electronic assemblies,” and “components” therefor, as follows (see List of Items Controlled).",
+        "Quantum computers, as follows:"
+      ],
+      "ancestors": [
+        "4A906",
+        "4A906.a"
+      ],
+      "text": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+      "structure": {
+        "identifier": "4A906.a.5",
+        "heading": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+        "label": "4A906.a.5 – Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+      "title": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+      "category": "4",
+      "group": "4A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "4A906 Quantum computers and related “electronic assemblies,” and “components” therefor, as follows (see List of Items Controlled).",
+        "Quantum computers, as follows:"
+      ],
+      "ancestors": [
+        "4A906",
+        "4A906.a"
+      ],
+      "text": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+      "structure": {
+        "identifier": "4A906.a.5",
+        "heading": "Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+        "label": "4A906.a.5 – Quantum computers supporting 500 or more, but fewer than 700, 'fully controlled', 'connected' and 'working' 'physical qubits', and having a 'C-NOT error' of less than or equal to 4 × 10−3;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

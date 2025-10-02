@@ -1,0 +1,780 @@
+{
+  "eccn": "2B006.b.1.c",
+  "normalized": "2B006.B.1.C",
+  "history": [
+    {
+      "version": "2017-01-15",
+      "fetchedAt": "2025-10-02T20:33:28.357Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-15/title-15?format=xml",
+      "heading": "Measuring systems having all of the following:",
+      "title": "Measuring systems having all of the following:",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B006 Dimensional inspection or measuring systems, equipment, and “electronic assemblies”, as follows (see List of Items Controlled).",
+        "Linear and angular displacement measuring instruments, as follows:",
+        "‘Linear displacement’ measuring instruments having any of the following:"
+      ],
+      "ancestors": [
+        "2B006",
+        "2B006.b",
+        "2B006.b.1"
+      ],
+      "text": "Measuring systems having all of the following:\nContaining a “laser;”\nb.1.c.1. Containing a “laser;”\nA “resolution” over their full scale of 0.200 nm or less (better); and\nb.1.c.2. A “resolution” over their full scale of 0.200 nm or less (better); and\nCapable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or\nb.1.c.3. Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or",
+      "structure": {
+        "identifier": "2B006.b.1.c",
+        "heading": "Measuring systems having all of the following:",
+        "label": "2B006.b.1.c – Measuring systems having all of the following:",
+        "children": [
+          {
+            "identifier": "2B006.b.1.c.1",
+            "heading": "Containing a “laser;”",
+            "label": "2B006.b.1.c.1 – Containing a “laser;”",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.c.1. Containing a “laser;”</P>",
+                "text": "b.1.c.1. Containing a “laser;”",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B006.b.1.c.2",
+            "heading": "A “resolution” over their full scale of 0.200 nm or less (better); and",
+            "label": "2B006.b.1.c.2 – A “resolution” over their full scale of 0.200 nm or less (better); and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.c.2. A “resolution” over their full scale of 0.200 nm or less (better); <I>and</I></P>",
+                "text": "b.1.c.2. A “resolution” over their full scale of 0.200 nm or less (better); and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B006.b.1.c.3",
+            "heading": "Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or",
+            "label": "2B006.b.1.c.3 – Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.c.3. Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; <I>or</I></P>",
+                "text": "b.1.c.3. Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2017-07-07",
+      "fetchedAt": "2025-10-02T20:33:28.904Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-07-07/title-15?format=xml",
+      "heading": "Measuring systems having all of the following:",
+      "title": "Measuring systems having all of the following:",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B006 Dimensional inspection or measuring systems, equipment, and “electronic assemblies”, as follows (see List of Items Controlled).",
+        "Linear and angular displacement measuring instruments, as follows:",
+        "‘Linear displacement’ measuring instruments having any of the following:"
+      ],
+      "ancestors": [
+        "2B006",
+        "2B006.b",
+        "2B006.b.1"
+      ],
+      "text": "Measuring systems having all of the following:\nContaining a “laser;”\nb.1.c.1. Containing a “laser;”\nA “resolution” over their full scale of 0.200 nm or less (better); and\nb.1.c.2. A “resolution” over their full scale of 0.200 nm or less (better); and\nCapable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or\nb.1.c.3. Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or",
+      "structure": {
+        "identifier": "2B006.b.1.c",
+        "heading": "Measuring systems having all of the following:",
+        "label": "2B006.b.1.c – Measuring systems having all of the following:",
+        "children": [
+          {
+            "identifier": "2B006.b.1.c.1",
+            "heading": "Containing a “laser;”",
+            "label": "2B006.b.1.c.1 – Containing a “laser;”",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.c.1. Containing a “laser;”</P>",
+                "text": "b.1.c.1. Containing a “laser;”",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B006.b.1.c.2",
+            "heading": "A “resolution” over their full scale of 0.200 nm or less (better); and",
+            "label": "2B006.b.1.c.2 – A “resolution” over their full scale of 0.200 nm or less (better); and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.c.2. A “resolution” over their full scale of 0.200 nm or less (better); <I>and</I></P>",
+                "text": "b.1.c.2. A “resolution” over their full scale of 0.200 nm or less (better); and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B006.b.1.c.3",
+            "heading": "Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or",
+            "label": "2B006.b.1.c.3 – Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.c.3. Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; <I>or</I></P>",
+                "text": "b.1.c.3. Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2017-08-15",
+      "fetchedAt": "2025-10-02T20:33:29.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-08-15/title-15?format=xml",
+      "heading": "Measuring systems having all of the following:",
+      "title": "Measuring systems having all of the following:",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "2B006 Dimensional inspection or measuring systems, equipment, and “electronic assemblies”, as follows (see List of Items Controlled).",
+        "Linear and angular displacement measuring instruments, as follows:",
+        "‘Linear displacement’ measuring instruments having any of the following:"
+      ],
+      "ancestors": [
+        "2B006",
+        "2B006.b",
+        "2B006.b.1"
+      ],
+      "text": "Measuring systems having all of the following:\nContaining a “laser;”\nb.1.c.1. Containing a “laser;”\nA “resolution” over their full scale of 0.200 nm or less (better); and\nb.1.c.2. A “resolution” over their full scale of 0.200 nm or less (better); and\nCapable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or\nb.1.c.3. Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or",
+      "structure": {
+        "identifier": "2B006.b.1.c",
+        "heading": "Measuring systems having all of the following:",
+        "label": "2B006.b.1.c – Measuring systems having all of the following:",
+        "children": [
+          {
+            "identifier": "2B006.b.1.c.1",
+            "heading": "Containing a “laser;”",
+            "label": "2B006.b.1.c.1 – Containing a “laser;”",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.c.1. Containing a “laser;”</P>",
+                "text": "b.1.c.1. Containing a “laser;”",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B006.b.1.c.2",
+            "heading": "A “resolution” over their full scale of 0.200 nm or less (better); and",
+            "label": "2B006.b.1.c.2 – A “resolution” over their full scale of 0.200 nm or less (better); and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.c.2. A “resolution” over their full scale of 0.200 nm or less (better); <I>and</I></P>",
+                "text": "b.1.c.2. A “resolution” over their full scale of 0.200 nm or less (better); and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B006.b.1.c.3",
+            "heading": "Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or",
+            "label": "2B006.b.1.c.3 – Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.c.3. Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; <I>or</I></P>",
+                "text": "b.1.c.3. Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2017-12-27",
+      "fetchedAt": "2025-10-02T20:33:29.759Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-12-27/title-15?format=xml",
+      "heading": "Measuring systems having all of the following:",
+      "title": "Measuring systems having all of the following:",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B006 Dimensional inspection or measuring systems, equipment, and “electronic assemblies”, as follows (see List of Items Controlled).",
+        "Linear and angular displacement measuring instruments, as follows:",
+        "‘Linear displacement’ measuring instruments having any of the following:"
+      ],
+      "ancestors": [
+        "2B006",
+        "2B006.b",
+        "2B006.b.1"
+      ],
+      "text": "Measuring systems having all of the following:\nContaining a “laser;”\nb.1.c.1. Containing a “laser;”\nA “resolution” over their full scale of 0.200 nm or less (better); and\nb.1.c.2. A “resolution” over their full scale of 0.200 nm or less (better); and\nCapable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or\nb.1.c.3. Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or",
+      "structure": {
+        "identifier": "2B006.b.1.c",
+        "heading": "Measuring systems having all of the following:",
+        "label": "2B006.b.1.c – Measuring systems having all of the following:",
+        "children": [
+          {
+            "identifier": "2B006.b.1.c.1",
+            "heading": "Containing a “laser;”",
+            "label": "2B006.b.1.c.1 – Containing a “laser;”",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.c.1. Containing a “laser;”</P>",
+                "text": "b.1.c.1. Containing a “laser;”",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B006.b.1.c.2",
+            "heading": "A “resolution” over their full scale of 0.200 nm or less (better); and",
+            "label": "2B006.b.1.c.2 – A “resolution” over their full scale of 0.200 nm or less (better); and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.c.2. A “resolution” over their full scale of 0.200 nm or less (better); <I>and</I></P>",
+                "text": "b.1.c.2. A “resolution” over their full scale of 0.200 nm or less (better); and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B006.b.1.c.3",
+            "heading": "Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or",
+            "label": "2B006.b.1.c.3 – Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.c.3. Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; <I>or</I></P>",
+                "text": "b.1.c.3. Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2018-01-08",
+      "fetchedAt": "2025-10-02T20:33:30.194Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-01-08/title-15?format=xml",
+      "heading": "Measuring systems having all of the following:",
+      "title": "Measuring systems having all of the following:",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B006 Dimensional inspection or measuring systems, equipment, and “electronic assemblies”, as follows (see List of Items Controlled).",
+        "Linear and angular displacement measuring instruments, as follows:",
+        "‘Linear displacement’ measuring instruments having any of the following:"
+      ],
+      "ancestors": [
+        "2B006",
+        "2B006.b",
+        "2B006.b.1"
+      ],
+      "text": "Measuring systems having all of the following:\nContaining a “laser;”\nb.1.c.1. Containing a “laser;”\nA “resolution” over their full scale of 0.200 nm or less (better); and\nb.1.c.2. A “resolution” over their full scale of 0.200 nm or less (better); and\nCapable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or\nb.1.c.3. Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or",
+      "structure": {
+        "identifier": "2B006.b.1.c",
+        "heading": "Measuring systems having all of the following:",
+        "label": "2B006.b.1.c – Measuring systems having all of the following:",
+        "children": [
+          {
+            "identifier": "2B006.b.1.c.1",
+            "heading": "Containing a “laser;”",
+            "label": "2B006.b.1.c.1 – Containing a “laser;”",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.c.1. Containing a “laser;”</P>",
+                "text": "b.1.c.1. Containing a “laser;”",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B006.b.1.c.2",
+            "heading": "A “resolution” over their full scale of 0.200 nm or less (better); and",
+            "label": "2B006.b.1.c.2 – A “resolution” over their full scale of 0.200 nm or less (better); and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.c.2. A “resolution” over their full scale of 0.200 nm or less (better); <I>and</I></P>",
+                "text": "b.1.c.2. A “resolution” over their full scale of 0.200 nm or less (better); and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B006.b.1.c.3",
+            "heading": "Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or",
+            "label": "2B006.b.1.c.3 – Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.c.3. Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; <I>or</I></P>",
+                "text": "b.1.c.3. Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2018-04-02",
+      "fetchedAt": "2025-10-02T20:33:30.716Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-02/title-15?format=xml",
+      "heading": "Measuring systems having all of the following:",
+      "title": "Measuring systems having all of the following:",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B006 Dimensional inspection or measuring systems, equipment, and “electronic assemblies”, as follows (see List of Items Controlled).",
+        "Linear and angular displacement measuring instruments, as follows:",
+        "‘Linear displacement’ measuring instruments having any of the following:"
+      ],
+      "ancestors": [
+        "2B006",
+        "2B006.b",
+        "2B006.b.1"
+      ],
+      "text": "Measuring systems having all of the following:\nContaining a “laser;”\nb.1.c.1. Containing a “laser;”\nA “resolution” over their full scale of 0.200 nm or less (better); and\nb.1.c.2. A “resolution” over their full scale of 0.200 nm or less (better); and\nCapable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or\nb.1.c.3. Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or",
+      "structure": {
+        "identifier": "2B006.b.1.c",
+        "heading": "Measuring systems having all of the following:",
+        "label": "2B006.b.1.c – Measuring systems having all of the following:",
+        "children": [
+          {
+            "identifier": "2B006.b.1.c.1",
+            "heading": "Containing a “laser;”",
+            "label": "2B006.b.1.c.1 – Containing a “laser;”",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.c.1. Containing a “laser;”</P>",
+                "text": "b.1.c.1. Containing a “laser;”",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B006.b.1.c.2",
+            "heading": "A “resolution” over their full scale of 0.200 nm or less (better); and",
+            "label": "2B006.b.1.c.2 – A “resolution” over their full scale of 0.200 nm or less (better); and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.c.2. A “resolution” over their full scale of 0.200 nm or less (better); <I>and</I></P>",
+                "text": "b.1.c.2. A “resolution” over their full scale of 0.200 nm or less (better); and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B006.b.1.c.3",
+            "heading": "Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or",
+            "label": "2B006.b.1.c.3 – Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.c.3. Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; <I>or</I></P>",
+                "text": "b.1.c.3. Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2018-04-05",
+      "fetchedAt": "2025-10-02T20:33:31.145Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-05/title-15?format=xml",
+      "heading": "Measuring systems having all of the following:",
+      "title": "Measuring systems having all of the following:",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B006 Dimensional inspection or measuring systems, equipment, and “electronic assemblies”, as follows (see List of Items Controlled).",
+        "Linear and angular displacement measuring instruments, as follows:",
+        "‘Linear displacement’ measuring instruments having any of the following:"
+      ],
+      "ancestors": [
+        "2B006",
+        "2B006.b",
+        "2B006.b.1"
+      ],
+      "text": "Measuring systems having all of the following:\nContaining a “laser;”\nb.1.c.1. Containing a “laser;”\nA “resolution” over their full scale of 0.200 nm or less (better); and\nb.1.c.2. A “resolution” over their full scale of 0.200 nm or less (better); and\nCapable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or\nb.1.c.3. Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or",
+      "structure": {
+        "identifier": "2B006.b.1.c",
+        "heading": "Measuring systems having all of the following:",
+        "label": "2B006.b.1.c – Measuring systems having all of the following:",
+        "children": [
+          {
+            "identifier": "2B006.b.1.c.1",
+            "heading": "Containing a “laser;”",
+            "label": "2B006.b.1.c.1 – Containing a “laser;”",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.c.1. Containing a “laser;”</P>",
+                "text": "b.1.c.1. Containing a “laser;”",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B006.b.1.c.2",
+            "heading": "A “resolution” over their full scale of 0.200 nm or less (better); and",
+            "label": "2B006.b.1.c.2 – A “resolution” over their full scale of 0.200 nm or less (better); and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.c.2. A “resolution” over their full scale of 0.200 nm or less (better); <I>and</I></P>",
+                "text": "b.1.c.2. A “resolution” over their full scale of 0.200 nm or less (better); and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B006.b.1.c.3",
+            "heading": "Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or",
+            "label": "2B006.b.1.c.3 – Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.c.3. Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; <I>or</I></P>",
+                "text": "b.1.c.3. Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2018-08-30",
+      "fetchedAt": "2025-10-02T20:33:31.567Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-08-30/title-15?format=xml",
+      "heading": "Measuring systems having all of the following:",
+      "title": "Measuring systems having all of the following:",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B006 Dimensional inspection or measuring systems, equipment, and “electronic assemblies”, as follows (see List of Items Controlled).",
+        "Linear and angular displacement measuring instruments, as follows:",
+        "‘Linear displacement’ measuring instruments having any of the following:"
+      ],
+      "ancestors": [
+        "2B006",
+        "2B006.b",
+        "2B006.b.1"
+      ],
+      "text": "Measuring systems having all of the following:\nContaining a “laser;”\nb.1.c.1. Containing a “laser;”\nA “resolution” over their full scale of 0.200 nm or less (better); and\nb.1.c.2. A “resolution” over their full scale of 0.200 nm or less (better); and\nCapable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or\nb.1.c.3. Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or",
+      "structure": {
+        "identifier": "2B006.b.1.c",
+        "heading": "Measuring systems having all of the following:",
+        "label": "2B006.b.1.c – Measuring systems having all of the following:",
+        "children": [
+          {
+            "identifier": "2B006.b.1.c.1",
+            "heading": "Containing a “laser;”",
+            "label": "2B006.b.1.c.1 – Containing a “laser;”",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.c.1. Containing a “laser;”</P>",
+                "text": "b.1.c.1. Containing a “laser;”",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B006.b.1.c.2",
+            "heading": "A “resolution” over their full scale of 0.200 nm or less (better); and",
+            "label": "2B006.b.1.c.2 – A “resolution” over their full scale of 0.200 nm or less (better); and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.c.2. A “resolution” over their full scale of 0.200 nm or less (better); <I>and</I></P>",
+                "text": "b.1.c.2. A “resolution” over their full scale of 0.200 nm or less (better); and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B006.b.1.c.3",
+            "heading": "Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or",
+            "label": "2B006.b.1.c.3 – Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.c.3. Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; <I>or</I></P>",
+                "text": "b.1.c.3. Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2018-10-24",
+      "fetchedAt": "2025-10-02T20:33:31.990Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-10-24/title-15?format=xml",
+      "heading": "Measuring systems having all of the following:",
+      "title": "Measuring systems having all of the following:",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B006 Dimensional inspection or measuring systems, equipment, and “electronic assemblies”, as follows (see List of Items Controlled).",
+        "Linear and angular displacement measuring instruments, as follows:",
+        "‘Linear displacement’ measuring instruments having any of the following:"
+      ],
+      "ancestors": [
+        "2B006",
+        "2B006.b",
+        "2B006.b.1"
+      ],
+      "text": "Measuring systems having all of the following:\nContaining a “laser;”\nb.1.c.1. Containing a “laser;”\nA “resolution” over their full scale of 0.200 nm or less (better); and\nb.1.c.2. A “resolution” over their full scale of 0.200 nm or less (better); and\nCapable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or\nb.1.c.3. Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or",
+      "structure": {
+        "identifier": "2B006.b.1.c",
+        "heading": "Measuring systems having all of the following:",
+        "label": "2B006.b.1.c – Measuring systems having all of the following:",
+        "children": [
+          {
+            "identifier": "2B006.b.1.c.1",
+            "heading": "Containing a “laser;”",
+            "label": "2B006.b.1.c.1 – Containing a “laser;”",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.c.1. Containing a “laser;”</P>",
+                "text": "b.1.c.1. Containing a “laser;”",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B006.b.1.c.2",
+            "heading": "A “resolution” over their full scale of 0.200 nm or less (better); and",
+            "label": "2B006.b.1.c.2 – A “resolution” over their full scale of 0.200 nm or less (better); and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.c.2. A “resolution” over their full scale of 0.200 nm or less (better); <I>and</I></P>",
+                "text": "b.1.c.2. A “resolution” over their full scale of 0.200 nm or less (better); and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B006.b.1.c.3",
+            "heading": "Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or",
+            "label": "2B006.b.1.c.3 – Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.1.c.3. Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; <I>or</I></P>",
+                "text": "b.1.c.3. Capable of achieving a “measurement uncertainty” equal to or less (better) than (1.6 + L/2,000) nm (L is the measured length in mm) at any point within a measuring range, when compensated for the refractive index of air and measured over a period of 30 seconds at a temperature of 20±0.01 °C; or",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    }
+  ]
+}

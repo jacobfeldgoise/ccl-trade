@@ -1,0 +1,110 @@
+{
+  "eccn": "3A002.z",
+  "normalized": "3A002.Z",
+  "history": [
+    {
+      "version": "2023-11-17",
+      "fetchedAt": "2025-10-02T20:33:43.584Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-11-17/title-15?format=xml",
+      "heading": "(iv) 3D001—“Software” “specially designed” for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, equipment described under 3A001.b.2 or 3A001.b.3 that are controlled under 3A001.z, 3A002.g.1, and equipment described under 3A002.g.2 that are controlled under 3A002.z.",
+      "title": "(iv) 3D001—“Software” “specially designed” for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, equipment described under 3A001.b.2 or 3A001.b.3 that are controlled under 3A001.z, 3A002.g.1, and equipment described under 3A002.g.2 that are controlled under 3A002.z.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774—Sensitive List"
+      },
+      "breadcrumbs": [
+        "(3) Category 3"
+      ],
+      "ancestors": [],
+      "text": "(iv) 3D001—“Software” “specially designed” for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, equipment described under 3A001.b.2 or 3A001.b.3 that are controlled under 3A001.z, 3A002.g.1, and equipment described under 3A002.g.2 that are controlled under 3A002.z.",
+      "structure": {
+        "identifier": "3A002.z",
+        "heading": "(iv) 3D001—“Software” “specially designed” for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, equipment described under 3A001.b.2 or 3A001.b.3 that are controlled under 3A001.z, 3A002.g.1, and equipment described under 3A002.g.2 that are controlled under 3A002.z.",
+        "label": "3A002.z – (iv) 3D001—“Software” “specially designed” for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, equipment described under 3A001.b.2 or 3A001.b.3 that are controlled under 3A001.z, 3A002.g.1, and equipment described under 3A002.g.2 that are controlled under 3A002.z.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-12-08",
+      "fetchedAt": "2025-10-02T20:33:43.980Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-12-08/title-15?format=xml",
+      "heading": "(iv) 3D001—“Software” “specially designed” for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, equipment described under 3A001.b.2 or 3A001.b.3 that are controlled under 3A001.z, 3A002.g.1, and equipment described under 3A002.g.2 that are controlled under 3A002.z.",
+      "title": "(iv) 3D001—“Software” “specially designed” for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, equipment described under 3A001.b.2 or 3A001.b.3 that are controlled under 3A001.z, 3A002.g.1, and equipment described under 3A002.g.2 that are controlled under 3A002.z.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774—Sensitive List"
+      },
+      "breadcrumbs": [
+        "(3) Category 3"
+      ],
+      "ancestors": [],
+      "text": "(iv) 3D001—“Software” “specially designed” for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, equipment described under 3A001.b.2 or 3A001.b.3 that are controlled under 3A001.z, 3A002.g.1, and equipment described under 3A002.g.2 that are controlled under 3A002.z.",
+      "structure": {
+        "identifier": "3A002.z",
+        "heading": "(iv) 3D001—“Software” “specially designed” for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, equipment described under 3A001.b.2 or 3A001.b.3 that are controlled under 3A001.z, 3A002.g.1, and equipment described under 3A002.g.2 that are controlled under 3A002.z.",
+        "label": "3A002.z – (iv) 3D001—“Software” “specially designed” for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, equipment described under 3A001.b.2 or 3A001.b.3 that are controlled under 3A001.z, 3A002.g.1, and equipment described under 3A002.g.2 that are controlled under 3A002.z.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-03-08",
+      "fetchedAt": "2025-10-02T20:33:44.401Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-08/title-15?format=xml",
+      "heading": "(iv) 3D001—“Software” “specially designed” for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, equipment described under 3A001.b.2 or 3A001.b.3 that are controlled under 3A001.z, 3A002.g.1, and equipment described under 3A002.g.2 that are controlled under 3A002.z.",
+      "title": "(iv) 3D001—“Software” “specially designed” for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, equipment described under 3A001.b.2 or 3A001.b.3 that are controlled under 3A001.z, 3A002.g.1, and equipment described under 3A002.g.2 that are controlled under 3A002.z.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774—Sensitive List"
+      },
+      "breadcrumbs": [
+        "(3) Category 3"
+      ],
+      "ancestors": [],
+      "text": "(iv) 3D001—“Software” “specially designed” for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, equipment described under 3A001.b.2 or 3A001.b.3 that are controlled under 3A001.z, 3A002.g.1, and equipment described under 3A002.g.2 that are controlled under 3A002.z.",
+      "structure": {
+        "identifier": "3A002.z",
+        "heading": "(iv) 3D001—“Software” “specially designed” for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, equipment described under 3A001.b.2 or 3A001.b.3 that are controlled under 3A001.z, 3A002.g.1, and equipment described under 3A002.g.2 that are controlled under 3A002.z.",
+        "label": "3A002.z – (iv) 3D001—“Software” “specially designed” for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, equipment described under 3A001.b.2 or 3A001.b.3 that are controlled under 3A001.z, 3A002.g.1, and equipment described under 3A002.g.2 that are controlled under 3A002.z.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-03-13",
+      "fetchedAt": "2025-10-02T20:33:44.826Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-13/title-15?format=xml",
+      "heading": "(iv) 3D001—“Software” “specially designed” for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, equipment described under 3A001.b.2 or 3A001.b.3 that are controlled under 3A001.z, 3A002.g.1, and equipment described under 3A002.g.2 that are controlled under 3A002.z.",
+      "title": "(iv) 3D001—“Software” “specially designed” for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, equipment described under 3A001.b.2 or 3A001.b.3 that are controlled under 3A001.z, 3A002.g.1, and equipment described under 3A002.g.2 that are controlled under 3A002.z.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "6",
+        "heading": "Supplement No. 6 to Part 774—Sensitive List"
+      },
+      "breadcrumbs": [
+        "(3) Category 3"
+      ],
+      "ancestors": [],
+      "text": "(iv) 3D001—“Software” “specially designed” for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, equipment described under 3A001.b.2 or 3A001.b.3 that are controlled under 3A001.z, 3A002.g.1, and equipment described under 3A002.g.2 that are controlled under 3A002.z.",
+      "structure": {
+        "identifier": "3A002.z",
+        "heading": "(iv) 3D001—“Software” “specially designed” for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, equipment described under 3A001.b.2 or 3A001.b.3 that are controlled under 3A001.z, 3A002.g.1, and equipment described under 3A002.g.2 that are controlled under 3A002.z.",
+        "label": "3A002.z – (iv) 3D001—“Software” “specially designed” for the “development” or “production” of equipment controlled under 3A001.b.2, 3A001.b.3, equipment described under 3A001.b.2 or 3A001.b.3 that are controlled under 3A001.z, 3A002.g.1, and equipment described under 3A002.g.2 that are controlled under 3A002.z.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

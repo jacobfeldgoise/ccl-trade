@@ -1,0 +1,93 @@
+{
+  "eccn": "2B121.a",
+  "normalized": "2B121.A",
+  "history": [
+    {
+      "version": "2018-08-30",
+      "fetchedAt": "2025-10-02T20:33:31.567Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-08-30/title-15?format=xml",
+      "heading": "Two or more axes; and",
+      "title": "Two or more axes; and",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B121 Positioning tables (equipment capable of precise rotary position in any axis), other than those controlled in 2B120, having all the following characteristics (See List of Items Controlled)."
+      ],
+      "ancestors": [
+        "2B121"
+      ],
+      "text": "Two or more axes; and",
+      "structure": {
+        "identifier": "2B121.a",
+        "heading": "Two or more axes; and",
+        "label": "2B121.a – Two or more axes; and",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-10-24",
+      "fetchedAt": "2025-10-02T20:33:31.990Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-10-24/title-15?format=xml",
+      "heading": "Two or more axes; and",
+      "title": "Two or more axes; and",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B121 Positioning tables (equipment capable of precise rotary position in any axis), other than those controlled in 2B120, having all the following characteristics (See List of Items Controlled)."
+      ],
+      "ancestors": [
+        "2B121"
+      ],
+      "text": "Two or more axes; and",
+      "structure": {
+        "identifier": "2B121.a",
+        "heading": "Two or more axes; and",
+        "label": "2B121.a – Two or more axes; and",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-11-02",
+      "fetchedAt": "2025-10-02T20:33:32.381Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-11-02/title-15?format=xml",
+      "heading": "Two or more axes; and",
+      "title": "Two or more axes; and",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B121 Positioning tables (equipment capable of precise rotary position in any axis), other than those controlled in 2B120, having all the following characteristics (See List of Items Controlled)."
+      ],
+      "ancestors": [
+        "2B121"
+      ],
+      "text": "Two or more axes; and",
+      "structure": {
+        "identifier": "2B121.a",
+        "heading": "Two or more axes; and",
+        "label": "2B121.a – Two or more axes; and",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

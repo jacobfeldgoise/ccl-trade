@@ -1,0 +1,490 @@
+{
+  "eccn": "3B001.d.4.b.2",
+  "normalized": "3B001.D.4.B.2",
+  "history": [
+    {
+      "version": "2023-11-17",
+      "fetchedAt": "2025-10-02T20:33:43.584Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-11-17/title-15?format=xml",
+      "heading": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+      "title": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment or systems designed for multistep processing in multiple chambers or stations and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment between process steps, as follows:",
+        "Equipment designed to fabricate a metal contact by performing the following processes:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d",
+        "3B001.d.4",
+        "3B001.d.4.b"
+      ],
+      "text": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;\nNote: This control does not apply to equipment that is non-selective.",
+      "structure": {
+        "identifier": "3B001.d.4.b.2",
+        "heading": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+        "label": "3B001.d.4.b.2 – Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>This control does not apply to equipment that is non-selective.</I></P></NOTE>",
+            "text": "Note: This control does not apply to equipment that is non-selective.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-12-08",
+      "fetchedAt": "2025-10-02T20:33:43.980Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-12-08/title-15?format=xml",
+      "heading": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+      "title": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment or systems designed for multistep processing in multiple chambers or stations and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment between process steps, as follows:",
+        "Equipment designed to fabricate a metal contact by performing the following processes:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d",
+        "3B001.d.4",
+        "3B001.d.4.b"
+      ],
+      "text": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;\nNote: This control does not apply to equipment that is non-selective.",
+      "structure": {
+        "identifier": "3B001.d.4.b.2",
+        "heading": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+        "label": "3B001.d.4.b.2 – Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>This control does not apply to equipment that is non-selective.</I></P></NOTE>",
+            "text": "Note: This control does not apply to equipment that is non-selective.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-03-08",
+      "fetchedAt": "2025-10-02T20:33:44.401Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-08/title-15?format=xml",
+      "heading": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+      "title": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment or systems designed for multistep processing in multiple chambers or stations and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment between process steps, as follows:",
+        "Equipment designed to fabricate a metal contact by performing the following processes:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d",
+        "3B001.d.4",
+        "3B001.d.4.b"
+      ],
+      "text": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;\nNote: This control does not apply to equipment that is non-selective.",
+      "structure": {
+        "identifier": "3B001.d.4.b.2",
+        "heading": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+        "label": "3B001.d.4.b.2 – Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>This control does not apply to equipment that is non-selective.</I></P></NOTE>",
+            "text": "Note: This control does not apply to equipment that is non-selective.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-03-13",
+      "fetchedAt": "2025-10-02T20:33:44.826Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-13/title-15?format=xml",
+      "heading": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+      "title": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment or systems designed for multistep processing in multiple chambers or stations and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment between process steps, as follows:",
+        "Equipment designed to fabricate a metal contact by performing the following processes:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d",
+        "3B001.d.4",
+        "3B001.d.4.b"
+      ],
+      "text": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;\nNote: This control does not apply to equipment that is non-selective.",
+      "structure": {
+        "identifier": "3B001.d.4.b.2",
+        "heading": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+        "label": "3B001.d.4.b.2 – Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>This control does not apply to equipment that is non-selective.</I></P></NOTE>",
+            "text": "Note: This control does not apply to equipment that is non-selective.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-04-04",
+      "fetchedAt": "2025-10-02T20:33:45.229Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-04/title-15?format=xml",
+      "heading": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+      "title": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment or systems designed for multistep processing in multiple chambers or stations and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment between process steps, as follows:",
+        "Equipment designed to fabricate a metal contact by performing the following processes:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d",
+        "3B001.d.4",
+        "3B001.d.4.b"
+      ],
+      "text": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;\nNote: This control does not apply to equipment that is non-selective.",
+      "structure": {
+        "identifier": "3B001.d.4.b.2",
+        "heading": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+        "label": "3B001.d.4.b.2 – Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>This control does not apply to equipment that is non-selective.</I></P></NOTE>",
+            "text": "Note: This control does not apply to equipment that is non-selective.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-04-19",
+      "fetchedAt": "2025-10-02T20:33:45.630Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-19/title-15?format=xml",
+      "heading": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+      "title": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment or systems designed for multistep processing in multiple chambers or stations and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment between process steps, as follows:",
+        "Equipment designed to fabricate a metal contact by performing the following processes:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d",
+        "3B001.d.4",
+        "3B001.d.4.b"
+      ],
+      "text": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;\nNote: This control does not apply to equipment that is non-selective.",
+      "structure": {
+        "identifier": "3B001.d.4.b.2",
+        "heading": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+        "label": "3B001.d.4.b.2 – Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>This control does not apply to equipment that is non-selective.</I></P></NOTE>",
+            "text": "Note: This control does not apply to equipment that is non-selective.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-05-30",
+      "fetchedAt": "2025-10-02T20:33:46.051Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-05-30/title-15?format=xml",
+      "heading": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+      "title": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment or systems designed for multistep processing in multiple chambers or stations and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment between process steps, as follows:",
+        "Equipment designed to fabricate a metal contact by performing the following processes:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d",
+        "3B001.d.4",
+        "3B001.d.4.b"
+      ],
+      "text": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;\nNote: This control does not apply to equipment that is non-selective.",
+      "structure": {
+        "identifier": "3B001.d.4.b.2",
+        "heading": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+        "label": "3B001.d.4.b.2 – Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>This control does not apply to equipment that is non-selective.</I></P></NOTE>",
+            "text": "Note: This control does not apply to equipment that is non-selective.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-06-12",
+      "fetchedAt": "2025-10-02T20:33:46.460Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-06-12/title-15?format=xml",
+      "heading": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+      "title": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment or systems designed for multistep processing in multiple chambers or stations and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment between process steps, as follows:",
+        "Equipment designed to fabricate a metal contact by performing the following processes:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d",
+        "3B001.d.4",
+        "3B001.d.4.b"
+      ],
+      "text": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;\nNote: This control does not apply to equipment that is non-selective.",
+      "structure": {
+        "identifier": "3B001.d.4.b.2",
+        "heading": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+        "label": "3B001.d.4.b.2 – Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>This control does not apply to equipment that is non-selective.</I></P></NOTE>",
+            "text": "Note: This control does not apply to equipment that is non-selective.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-09-06",
+      "fetchedAt": "2025-10-02T20:33:46.879Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-09-06/title-15?format=xml",
+      "heading": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+      "title": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment or systems designed for multistep processing in multiple chambers or stations and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment between process steps, as follows:",
+        "Equipment designed to fabricate a metal contact by performing the following processes:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d",
+        "3B001.d.4",
+        "3B001.d.4.b"
+      ],
+      "text": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;\nNote: This control does not apply to equipment that is non-selective.",
+      "structure": {
+        "identifier": "3B001.d.4.b.2",
+        "heading": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+        "label": "3B001.d.4.b.2 – Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>This control does not apply to equipment that is non-selective.</I></P></NOTE>",
+            "text": "Note: This control does not apply to equipment that is non-selective.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-10-23",
+      "fetchedAt": "2025-10-02T20:33:47.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-10-23/title-15?format=xml",
+      "heading": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+      "title": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment or systems designed for multistep processing in multiple chambers or stations and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment between process steps, as follows:",
+        "Equipment designed to fabricate a metal contact by performing the following processes:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d",
+        "3B001.d.4",
+        "3B001.d.4.b"
+      ],
+      "text": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;\nNote: This control does not apply to equipment that is non-selective.",
+      "structure": {
+        "identifier": "3B001.d.4.b.2",
+        "heading": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+        "label": "3B001.d.4.b.2 – Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>This control does not apply to equipment that is non-selective.</I></P></NOTE>",
+            "text": "Note: This control does not apply to equipment that is non-selective.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-02",
+      "fetchedAt": "2025-10-02T20:33:47.757Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-02/title-15?format=xml",
+      "heading": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+      "title": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment or systems designed for multistep processing in multiple chambers or stations and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment between process steps, as follows:",
+        "Equipment designed to fabricate a metal contact by performing the following processes:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d",
+        "3B001.d.4",
+        "3B001.d.4.b"
+      ],
+      "text": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;\nNote: This control does not apply to equipment that is non-selective.",
+      "structure": {
+        "identifier": "3B001.d.4.b.2",
+        "heading": "Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+        "label": "3B001.d.4.b.2 – Deposition of a cobalt (Co) layer selectively onto copper (Cu) using an organometallic compound;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>This control does not apply to equipment that is non-selective.</I></P></NOTE>",
+            "text": "Note: This control does not apply to equipment that is non-selective.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

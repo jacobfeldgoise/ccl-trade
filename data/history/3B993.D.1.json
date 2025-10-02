@@ -1,0 +1,678 @@
+{
+  "eccn": "3B993.d.1",
+  "normalized": "3B993.D.1",
+  "history": [
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:",
+      "title": "Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls).",
+        "Semiconductor manufacturing deposition equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.d"
+      ],
+      "text": "Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:\nA dielectric constant (k) of less than 5.3;\nd.1.a. A dielectric constant (k) of less than 5.3;\nIn features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and\nd.1.b. In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and\nA feature-to-feature pitch of less than 100 nm.\nd.1.c. A feature-to-feature pitch of less than 100 nm.",
+      "structure": {
+        "identifier": "3B993.d.1",
+        "heading": "Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:",
+        "label": "3B993.d.1 – Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:",
+        "children": [
+          {
+            "identifier": "3B993.d.1.a",
+            "heading": "A dielectric constant (k) of less than 5.3;",
+            "label": "3B993.d.1.a – A dielectric constant (k) of less than 5.3;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.1.a. A dielectric constant (k) of less than 5.3;</P>",
+                "text": "d.1.a. A dielectric constant (k) of less than 5.3;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.d.1.b",
+            "heading": "In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and",
+            "label": "3B993.d.1.b – In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.1.b. In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; <I>and</I></P>",
+                "text": "d.1.b. In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.d.1.c",
+            "heading": "A feature-to-feature pitch of less than 100 nm.",
+            "label": "3B993.d.1.c – A feature-to-feature pitch of less than 100 nm.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.1.c. A feature-to-feature pitch of less than 100 nm.</P>",
+                "text": "d.1.c. A feature-to-feature pitch of less than 100 nm.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:",
+      "title": "Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls).",
+        "Semiconductor manufacturing deposition equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.d"
+      ],
+      "text": "Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:\nA dielectric constant (k) of less than 5.3;\nd.1.a. A dielectric constant (k) of less than 5.3;\nIn features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and\nd.1.b. In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and\nA feature-to-feature pitch of less than 100 nm.\nd.1.c. A feature-to-feature pitch of less than 100 nm.",
+      "structure": {
+        "identifier": "3B993.d.1",
+        "heading": "Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:",
+        "label": "3B993.d.1 – Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:",
+        "children": [
+          {
+            "identifier": "3B993.d.1.a",
+            "heading": "A dielectric constant (k) of less than 5.3;",
+            "label": "3B993.d.1.a – A dielectric constant (k) of less than 5.3;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.1.a. A dielectric constant (k) of less than 5.3;</P>",
+                "text": "d.1.a. A dielectric constant (k) of less than 5.3;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.d.1.b",
+            "heading": "In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and",
+            "label": "3B993.d.1.b – In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.1.b. In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; <I>and</I></P>",
+                "text": "d.1.b. In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.d.1.c",
+            "heading": "A feature-to-feature pitch of less than 100 nm.",
+            "label": "3B993.d.1.c – A feature-to-feature pitch of less than 100 nm.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.1.c. A feature-to-feature pitch of less than 100 nm.</P>",
+                "text": "d.1.c. A feature-to-feature pitch of less than 100 nm.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:",
+      "title": "Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls).",
+        "Semiconductor manufacturing deposition equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.d"
+      ],
+      "text": "Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:\nA dielectric constant (k) of less than 5.3;\nd.1.a. A dielectric constant (k) of less than 5.3;\nIn features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and\nd.1.b. In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and\nA feature-to-feature pitch of less than 100 nm.\nd.1.c. A feature-to-feature pitch of less than 100 nm.",
+      "structure": {
+        "identifier": "3B993.d.1",
+        "heading": "Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:",
+        "label": "3B993.d.1 – Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:",
+        "children": [
+          {
+            "identifier": "3B993.d.1.a",
+            "heading": "A dielectric constant (k) of less than 5.3;",
+            "label": "3B993.d.1.a – A dielectric constant (k) of less than 5.3;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.1.a. A dielectric constant (k) of less than 5.3;</P>",
+                "text": "d.1.a. A dielectric constant (k) of less than 5.3;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.d.1.b",
+            "heading": "In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and",
+            "label": "3B993.d.1.b – In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.1.b. In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; <I>and</I></P>",
+                "text": "d.1.b. In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.d.1.c",
+            "heading": "A feature-to-feature pitch of less than 100 nm.",
+            "label": "3B993.d.1.c – A feature-to-feature pitch of less than 100 nm.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.1.c. A feature-to-feature pitch of less than 100 nm.</P>",
+                "text": "d.1.c. A feature-to-feature pitch of less than 100 nm.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:",
+      "title": "Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls).",
+        "Semiconductor manufacturing deposition equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.d"
+      ],
+      "text": "Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:\nA dielectric constant (k) of less than 5.3;\nd.1.a. A dielectric constant (k) of less than 5.3;\nIn features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and\nd.1.b. In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and\nA feature-to-feature pitch of less than 100 nm.\nd.1.c. A feature-to-feature pitch of less than 100 nm.",
+      "structure": {
+        "identifier": "3B993.d.1",
+        "heading": "Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:",
+        "label": "3B993.d.1 – Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:",
+        "children": [
+          {
+            "identifier": "3B993.d.1.a",
+            "heading": "A dielectric constant (k) of less than 5.3;",
+            "label": "3B993.d.1.a – A dielectric constant (k) of less than 5.3;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.1.a. A dielectric constant (k) of less than 5.3;</P>",
+                "text": "d.1.a. A dielectric constant (k) of less than 5.3;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.d.1.b",
+            "heading": "In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and",
+            "label": "3B993.d.1.b – In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.1.b. In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; <I>and</I></P>",
+                "text": "d.1.b. In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.d.1.c",
+            "heading": "A feature-to-feature pitch of less than 100 nm.",
+            "label": "3B993.d.1.c – A feature-to-feature pitch of less than 100 nm.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.1.c. A feature-to-feature pitch of less than 100 nm.</P>",
+                "text": "d.1.c. A feature-to-feature pitch of less than 100 nm.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:",
+      "title": "Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls), and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.d"
+      ],
+      "text": "Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:\nA dielectric constant (k) of less than 5.3;\nd.1.a. A dielectric constant (k) of less than 5.3;\nIn features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and\nd.1.b. In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and\nA feature-to-feature pitch of less than 100 nm.\nd.1.c. A feature-to-feature pitch of less than 100 nm.",
+      "structure": {
+        "identifier": "3B993.d.1",
+        "heading": "Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:",
+        "label": "3B993.d.1 – Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:",
+        "children": [
+          {
+            "identifier": "3B993.d.1.a",
+            "heading": "A dielectric constant (k) of less than 5.3;",
+            "label": "3B993.d.1.a – A dielectric constant (k) of less than 5.3;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.1.a. A dielectric constant (k) of less than 5.3;</P>",
+                "text": "d.1.a. A dielectric constant (k) of less than 5.3;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.d.1.b",
+            "heading": "In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and",
+            "label": "3B993.d.1.b – In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.1.b. In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; <I>and</I></P>",
+                "text": "d.1.b. In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.d.1.c",
+            "heading": "A feature-to-feature pitch of less than 100 nm.",
+            "label": "3B993.d.1.c – A feature-to-feature pitch of less than 100 nm.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.1.c. A feature-to-feature pitch of less than 100 nm.</P>",
+                "text": "d.1.c. A feature-to-feature pitch of less than 100 nm.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:",
+      "title": "Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls), and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.d"
+      ],
+      "text": "Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:\nA dielectric constant (k) of less than 5.3;\nd.1.a. A dielectric constant (k) of less than 5.3;\nIn features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and\nd.1.b. In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and\nA feature-to-feature pitch of less than 100 nm.\nd.1.c. A feature-to-feature pitch of less than 100 nm.",
+      "structure": {
+        "identifier": "3B993.d.1",
+        "heading": "Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:",
+        "label": "3B993.d.1 – Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:",
+        "children": [
+          {
+            "identifier": "3B993.d.1.a",
+            "heading": "A dielectric constant (k) of less than 5.3;",
+            "label": "3B993.d.1.a – A dielectric constant (k) of less than 5.3;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.1.a. A dielectric constant (k) of less than 5.3;</P>",
+                "text": "d.1.a. A dielectric constant (k) of less than 5.3;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.d.1.b",
+            "heading": "In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and",
+            "label": "3B993.d.1.b – In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.1.b. In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; <I>and</I></P>",
+                "text": "d.1.b. In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.d.1.c",
+            "heading": "A feature-to-feature pitch of less than 100 nm.",
+            "label": "3B993.d.1.c – A feature-to-feature pitch of less than 100 nm.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.1.c. A feature-to-feature pitch of less than 100 nm.</P>",
+                "text": "d.1.c. A feature-to-feature pitch of less than 100 nm.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:",
+      "title": "Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls), and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.d"
+      ],
+      "text": "Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:\nA dielectric constant (k) of less than 5.3;\nd.1.a. A dielectric constant (k) of less than 5.3;\nIn features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and\nd.1.b. In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and\nA feature-to-feature pitch of less than 100 nm.\nd.1.c. A feature-to-feature pitch of less than 100 nm.",
+      "structure": {
+        "identifier": "3B993.d.1",
+        "heading": "Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:",
+        "label": "3B993.d.1 – Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:",
+        "children": [
+          {
+            "identifier": "3B993.d.1.a",
+            "heading": "A dielectric constant (k) of less than 5.3;",
+            "label": "3B993.d.1.a – A dielectric constant (k) of less than 5.3;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.1.a. A dielectric constant (k) of less than 5.3;\n</P>",
+                "text": "d.1.a. A dielectric constant (k) of less than 5.3;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.d.1.b",
+            "heading": "In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and",
+            "label": "3B993.d.1.b – In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.1.b. In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; <I>and</I>\n</P>",
+                "text": "d.1.b. In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.d.1.c",
+            "heading": "A feature-to-feature pitch of less than 100 nm.",
+            "label": "3B993.d.1.c – A feature-to-feature pitch of less than 100 nm.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.1.c. A feature-to-feature pitch of less than 100 nm.\n</P>",
+                "text": "d.1.c. A feature-to-feature pitch of less than 100 nm.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:",
+      "title": "Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls), and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.d"
+      ],
+      "text": "Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:\nA dielectric constant (k) of less than 5.3;\nd.1.a. A dielectric constant (k) of less than 5.3;\nIn features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and\nd.1.b. In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and\nA feature-to-feature pitch of less than 100 nm.\nd.1.c. A feature-to-feature pitch of less than 100 nm.",
+      "structure": {
+        "identifier": "3B993.d.1",
+        "heading": "Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:",
+        "label": "3B993.d.1 – Equipment designed, not specified by 3B001.d.14, for deposition assisted by remotely generated 'radicals', enabling the fabrication of a silicon (Si) and carbon (C) containing film, and having all of the following properties of the deposited film:",
+        "children": [
+          {
+            "identifier": "3B993.d.1.a",
+            "heading": "A dielectric constant (k) of less than 5.3;",
+            "label": "3B993.d.1.a – A dielectric constant (k) of less than 5.3;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.1.a. A dielectric constant (k) of less than 5.3;\n</P>",
+                "text": "d.1.a. A dielectric constant (k) of less than 5.3;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.d.1.b",
+            "heading": "In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and",
+            "label": "3B993.d.1.b – In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.1.b. In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; <I>and</I>\n</P>",
+                "text": "d.1.b. In features with an aspect ratio greater than 5:1 with lateral openings of less than 70 nm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.d.1.c",
+            "heading": "A feature-to-feature pitch of less than 100 nm.",
+            "label": "3B993.d.1.c – A feature-to-feature pitch of less than 100 nm.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.1.c. A feature-to-feature pitch of less than 100 nm.\n</P>",
+                "text": "d.1.c. A feature-to-feature pitch of less than 100 nm.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    }
+  ]
+}

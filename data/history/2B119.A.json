@@ -1,0 +1,1914 @@
+{
+  "eccn": "2B119.a",
+  "normalized": "2B119.A",
+  "history": [
+    {
+      "version": "2023-12-08",
+      "fetchedAt": "2025-10-02T20:33:43.980Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-12-08/title-15?format=xml",
+      "heading": "Balancing machines having all of the following characteristics:",
+      "title": "Balancing machines having all of the following characteristics:",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B119 Balancing machines and related equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "2B119"
+      ],
+      "text": "Balancing machines having all of the following characteristics:\nNot capable of balancing rotors/assemblies having a mass greater than 3 kg;\na.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;\nCapable of balancing rotors/assemblies at speeds greater than 12,500 rpm;\na.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;\nCapable of correcting unbalance in two planes or more; and\na.3. Capable of correcting unbalance in two planes or more; and\nCapable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.\na.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.\nNote: 2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.",
+      "structure": {
+        "identifier": "2B119.a",
+        "heading": "Balancing machines having all of the following characteristics:",
+        "label": "2B119.a – Balancing machines having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "2B119.a.1",
+            "heading": "Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+            "label": "2B119.a.1 – Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;</P>",
+                "text": "a.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.2",
+            "heading": "Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+            "label": "2B119.a.2 – Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;</P>",
+                "text": "a.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.3",
+            "heading": "Capable of correcting unbalance in two planes or more; and",
+            "label": "2B119.a.3 – Capable of correcting unbalance in two planes or more; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.3. Capable of correcting unbalance in two planes or more; and</P>",
+                "text": "a.3. Capable of correcting unbalance in two planes or more; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.4",
+            "heading": "Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+            "label": "2B119.a.4 – Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.</P>",
+                "text": "a.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.</I></P></NOTE>",
+                "text": "Note: 2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-03-08",
+      "fetchedAt": "2025-10-02T20:33:44.401Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-08/title-15?format=xml",
+      "heading": "Balancing machines having all of the following characteristics:",
+      "title": "Balancing machines having all of the following characteristics:",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B119 Balancing machines and related equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "2B119"
+      ],
+      "text": "Balancing machines having all of the following characteristics:\nNot capable of balancing rotors/assemblies having a mass greater than 3 kg;\na.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;\nCapable of balancing rotors/assemblies at speeds greater than 12,500 rpm;\na.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;\nCapable of correcting unbalance in two planes or more; and\na.3. Capable of correcting unbalance in two planes or more; and\nCapable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.\na.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.\nNote: 2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.",
+      "structure": {
+        "identifier": "2B119.a",
+        "heading": "Balancing machines having all of the following characteristics:",
+        "label": "2B119.a – Balancing machines having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "2B119.a.1",
+            "heading": "Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+            "label": "2B119.a.1 – Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;</P>",
+                "text": "a.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.2",
+            "heading": "Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+            "label": "2B119.a.2 – Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;</P>",
+                "text": "a.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.3",
+            "heading": "Capable of correcting unbalance in two planes or more; and",
+            "label": "2B119.a.3 – Capable of correcting unbalance in two planes or more; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.3. Capable of correcting unbalance in two planes or more; and</P>",
+                "text": "a.3. Capable of correcting unbalance in two planes or more; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.4",
+            "heading": "Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+            "label": "2B119.a.4 – Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.</P>",
+                "text": "a.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.</I></P></NOTE>",
+                "text": "Note: 2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-03-13",
+      "fetchedAt": "2025-10-02T20:33:44.826Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-13/title-15?format=xml",
+      "heading": "Balancing machines having all of the following characteristics:",
+      "title": "Balancing machines having all of the following characteristics:",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B119 Balancing machines and related equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "2B119"
+      ],
+      "text": "Balancing machines having all of the following characteristics:\nNot capable of balancing rotors/assemblies having a mass greater than 3 kg;\na.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;\nCapable of balancing rotors/assemblies at speeds greater than 12,500 rpm;\na.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;\nCapable of correcting unbalance in two planes or more; and\na.3. Capable of correcting unbalance in two planes or more; and\nCapable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.\na.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.\nNote: 2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.",
+      "structure": {
+        "identifier": "2B119.a",
+        "heading": "Balancing machines having all of the following characteristics:",
+        "label": "2B119.a – Balancing machines having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "2B119.a.1",
+            "heading": "Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+            "label": "2B119.a.1 – Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;</P>",
+                "text": "a.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.2",
+            "heading": "Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+            "label": "2B119.a.2 – Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;</P>",
+                "text": "a.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.3",
+            "heading": "Capable of correcting unbalance in two planes or more; and",
+            "label": "2B119.a.3 – Capable of correcting unbalance in two planes or more; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.3. Capable of correcting unbalance in two planes or more; and</P>",
+                "text": "a.3. Capable of correcting unbalance in two planes or more; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.4",
+            "heading": "Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+            "label": "2B119.a.4 – Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.</P>",
+                "text": "a.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.</I></P></NOTE>",
+                "text": "Note: 2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-04-04",
+      "fetchedAt": "2025-10-02T20:33:45.229Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-04/title-15?format=xml",
+      "heading": "Balancing machines having all of the following characteristics:",
+      "title": "Balancing machines having all of the following characteristics:",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B119 Balancing machines and related equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "2B119"
+      ],
+      "text": "Balancing machines having all of the following characteristics:\nNot capable of balancing rotors/assemblies having a mass greater than 3 kg;\na.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;\nCapable of balancing rotors/assemblies at speeds greater than 12,500 rpm;\na.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;\nCapable of correcting unbalance in two planes or more; and\na.3. Capable of correcting unbalance in two planes or more; and\nCapable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.\na.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.\nNote: 2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.",
+      "structure": {
+        "identifier": "2B119.a",
+        "heading": "Balancing machines having all of the following characteristics:",
+        "label": "2B119.a – Balancing machines having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "2B119.a.1",
+            "heading": "Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+            "label": "2B119.a.1 – Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;</P>",
+                "text": "a.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.2",
+            "heading": "Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+            "label": "2B119.a.2 – Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;</P>",
+                "text": "a.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.3",
+            "heading": "Capable of correcting unbalance in two planes or more; and",
+            "label": "2B119.a.3 – Capable of correcting unbalance in two planes or more; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.3. Capable of correcting unbalance in two planes or more; and</P>",
+                "text": "a.3. Capable of correcting unbalance in two planes or more; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.4",
+            "heading": "Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+            "label": "2B119.a.4 – Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.</P>",
+                "text": "a.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.</I></P></NOTE>",
+                "text": "Note: 2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-04-19",
+      "fetchedAt": "2025-10-02T20:33:45.630Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-19/title-15?format=xml",
+      "heading": "Balancing machines having all of the following characteristics:",
+      "title": "Balancing machines having all of the following characteristics:",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B119 Balancing machines and related equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "2B119"
+      ],
+      "text": "Balancing machines having all of the following characteristics:\nNot capable of balancing rotors/assemblies having a mass greater than 3 kg;\na.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;\nCapable of balancing rotors/assemblies at speeds greater than 12,500 rpm;\na.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;\nCapable of correcting unbalance in two planes or more; and\na.3. Capable of correcting unbalance in two planes or more; and\nCapable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.\na.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.\nNote: 2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.",
+      "structure": {
+        "identifier": "2B119.a",
+        "heading": "Balancing machines having all of the following characteristics:",
+        "label": "2B119.a – Balancing machines having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "2B119.a.1",
+            "heading": "Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+            "label": "2B119.a.1 – Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;</P>",
+                "text": "a.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.2",
+            "heading": "Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+            "label": "2B119.a.2 – Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;</P>",
+                "text": "a.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.3",
+            "heading": "Capable of correcting unbalance in two planes or more; and",
+            "label": "2B119.a.3 – Capable of correcting unbalance in two planes or more; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.3. Capable of correcting unbalance in two planes or more; and</P>",
+                "text": "a.3. Capable of correcting unbalance in two planes or more; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.4",
+            "heading": "Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+            "label": "2B119.a.4 – Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.</P>",
+                "text": "a.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.</I></P></NOTE>",
+                "text": "Note: 2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-05-30",
+      "fetchedAt": "2025-10-02T20:33:46.051Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-05-30/title-15?format=xml",
+      "heading": "Balancing machines having all of the following characteristics:",
+      "title": "Balancing machines having all of the following characteristics:",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B119 Balancing machines and related equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "2B119"
+      ],
+      "text": "Balancing machines having all of the following characteristics:\nNot capable of balancing rotors/assemblies having a mass greater than 3 kg;\na.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;\nCapable of balancing rotors/assemblies at speeds greater than 12,500 rpm;\na.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;\nCapable of correcting unbalance in two planes or more; and\na.3. Capable of correcting unbalance in two planes or more; and\nCapable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.\na.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.\nNote: 2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.",
+      "structure": {
+        "identifier": "2B119.a",
+        "heading": "Balancing machines having all of the following characteristics:",
+        "label": "2B119.a – Balancing machines having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "2B119.a.1",
+            "heading": "Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+            "label": "2B119.a.1 – Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;</P>",
+                "text": "a.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.2",
+            "heading": "Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+            "label": "2B119.a.2 – Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;</P>",
+                "text": "a.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.3",
+            "heading": "Capable of correcting unbalance in two planes or more; and",
+            "label": "2B119.a.3 – Capable of correcting unbalance in two planes or more; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.3. Capable of correcting unbalance in two planes or more; and</P>",
+                "text": "a.3. Capable of correcting unbalance in two planes or more; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.4",
+            "heading": "Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+            "label": "2B119.a.4 – Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.</P>",
+                "text": "a.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.</I></P></NOTE>",
+                "text": "Note: 2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-06-12",
+      "fetchedAt": "2025-10-02T20:33:46.460Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-06-12/title-15?format=xml",
+      "heading": "Balancing machines having all of the following characteristics:",
+      "title": "Balancing machines having all of the following characteristics:",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B119 Balancing machines and related equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "2B119"
+      ],
+      "text": "Balancing machines having all of the following characteristics:\nNot capable of balancing rotors/assemblies having a mass greater than 3 kg;\na.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;\nCapable of balancing rotors/assemblies at speeds greater than 12,500 rpm;\na.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;\nCapable of correcting unbalance in two planes or more; and\na.3. Capable of correcting unbalance in two planes or more; and\nCapable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.\na.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.\nNote: 2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.",
+      "structure": {
+        "identifier": "2B119.a",
+        "heading": "Balancing machines having all of the following characteristics:",
+        "label": "2B119.a – Balancing machines having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "2B119.a.1",
+            "heading": "Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+            "label": "2B119.a.1 – Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;</P>",
+                "text": "a.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.2",
+            "heading": "Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+            "label": "2B119.a.2 – Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;</P>",
+                "text": "a.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.3",
+            "heading": "Capable of correcting unbalance in two planes or more; and",
+            "label": "2B119.a.3 – Capable of correcting unbalance in two planes or more; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.3. Capable of correcting unbalance in two planes or more; and</P>",
+                "text": "a.3. Capable of correcting unbalance in two planes or more; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.4",
+            "heading": "Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+            "label": "2B119.a.4 – Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.</P>",
+                "text": "a.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.</I></P></NOTE>",
+                "text": "Note: 2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-09-06",
+      "fetchedAt": "2025-10-02T20:33:46.879Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-09-06/title-15?format=xml",
+      "heading": "Balancing machines having all of the following characteristics:",
+      "title": "Balancing machines having all of the following characteristics:",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B119 Balancing machines and related equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "2B119"
+      ],
+      "text": "Balancing machines having all of the following characteristics:\nNot capable of balancing rotors/assemblies having a mass greater than 3 kg;\na.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;\nCapable of balancing rotors/assemblies at speeds greater than 12,500 rpm;\na.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;\nCapable of correcting unbalance in two planes or more; and\na.3. Capable of correcting unbalance in two planes or more; and\nCapable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.\na.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.\nNote: 2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.",
+      "structure": {
+        "identifier": "2B119.a",
+        "heading": "Balancing machines having all of the following characteristics:",
+        "label": "2B119.a – Balancing machines having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "2B119.a.1",
+            "heading": "Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+            "label": "2B119.a.1 – Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;</P>",
+                "text": "a.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.2",
+            "heading": "Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+            "label": "2B119.a.2 – Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;</P>",
+                "text": "a.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.3",
+            "heading": "Capable of correcting unbalance in two planes or more; and",
+            "label": "2B119.a.3 – Capable of correcting unbalance in two planes or more; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.3. Capable of correcting unbalance in two planes or more; and</P>",
+                "text": "a.3. Capable of correcting unbalance in two planes or more; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.4",
+            "heading": "Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+            "label": "2B119.a.4 – Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.</P>",
+                "text": "a.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.</I></P></NOTE>",
+                "text": "Note: 2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-10-23",
+      "fetchedAt": "2025-10-02T20:33:47.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-10-23/title-15?format=xml",
+      "heading": "Balancing machines having all of the following characteristics:",
+      "title": "Balancing machines having all of the following characteristics:",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B119 Balancing machines and related equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "2B119"
+      ],
+      "text": "Balancing machines having all of the following characteristics:\nNot capable of balancing rotors/assemblies having a mass greater than 3 kg;\na.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;\nCapable of balancing rotors/assemblies at speeds greater than 12,500 rpm;\na.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;\nCapable of correcting unbalance in two planes or more; and\na.3. Capable of correcting unbalance in two planes or more; and\nCapable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.\na.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.\nNote: 2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.",
+      "structure": {
+        "identifier": "2B119.a",
+        "heading": "Balancing machines having all of the following characteristics:",
+        "label": "2B119.a – Balancing machines having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "2B119.a.1",
+            "heading": "Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+            "label": "2B119.a.1 – Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;</P>",
+                "text": "a.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.2",
+            "heading": "Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+            "label": "2B119.a.2 – Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;</P>",
+                "text": "a.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.3",
+            "heading": "Capable of correcting unbalance in two planes or more; and",
+            "label": "2B119.a.3 – Capable of correcting unbalance in two planes or more; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.3. Capable of correcting unbalance in two planes or more; and</P>",
+                "text": "a.3. Capable of correcting unbalance in two planes or more; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.4",
+            "heading": "Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+            "label": "2B119.a.4 – Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.</P>",
+                "text": "a.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.</I></P></NOTE>",
+                "text": "Note: 2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-02",
+      "fetchedAt": "2025-10-02T20:33:47.757Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-02/title-15?format=xml",
+      "heading": "Balancing machines having all of the following characteristics:",
+      "title": "Balancing machines having all of the following characteristics:",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B119 Balancing machines and related equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "2B119"
+      ],
+      "text": "Balancing machines having all of the following characteristics:\nNot capable of balancing rotors/assemblies having a mass greater than 3 kg;\na.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;\nCapable of balancing rotors/assemblies at speeds greater than 12,500 rpm;\na.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;\nCapable of correcting unbalance in two planes or more; and\na.3. Capable of correcting unbalance in two planes or more; and\nCapable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.\na.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.\nNote: 2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.",
+      "structure": {
+        "identifier": "2B119.a",
+        "heading": "Balancing machines having all of the following characteristics:",
+        "label": "2B119.a – Balancing machines having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "2B119.a.1",
+            "heading": "Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+            "label": "2B119.a.1 – Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;</P>",
+                "text": "a.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.2",
+            "heading": "Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+            "label": "2B119.a.2 – Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;</P>",
+                "text": "a.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.3",
+            "heading": "Capable of correcting unbalance in two planes or more; and",
+            "label": "2B119.a.3 – Capable of correcting unbalance in two planes or more; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.3. Capable of correcting unbalance in two planes or more; and</P>",
+                "text": "a.3. Capable of correcting unbalance in two planes or more; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.4",
+            "heading": "Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+            "label": "2B119.a.4 – Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.</P>",
+                "text": "a.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.</I></P></NOTE>",
+                "text": "Note: 2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "Balancing machines having all of the following characteristics:",
+      "title": "Balancing machines having all of the following characteristics:",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B119 Balancing machines and related equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "2B119"
+      ],
+      "text": "Balancing machines having all of the following characteristics:\nNot capable of balancing rotors/assemblies having a mass greater than 3 kg;\na.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;\nCapable of balancing rotors/assemblies at speeds greater than 12,500 rpm;\na.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;\nCapable of correcting unbalance in two planes or more; and\na.3. Capable of correcting unbalance in two planes or more; and\nCapable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.\na.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.\nNote: 2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.",
+      "structure": {
+        "identifier": "2B119.a",
+        "heading": "Balancing machines having all of the following characteristics:",
+        "label": "2B119.a – Balancing machines having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "2B119.a.1",
+            "heading": "Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+            "label": "2B119.a.1 – Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;</P>",
+                "text": "a.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.2",
+            "heading": "Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+            "label": "2B119.a.2 – Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;</P>",
+                "text": "a.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.3",
+            "heading": "Capable of correcting unbalance in two planes or more; and",
+            "label": "2B119.a.3 – Capable of correcting unbalance in two planes or more; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.3. Capable of correcting unbalance in two planes or more; and</P>",
+                "text": "a.3. Capable of correcting unbalance in two planes or more; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.4",
+            "heading": "Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+            "label": "2B119.a.4 – Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.</P>",
+                "text": "a.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.</I></P></NOTE>",
+                "text": "Note: 2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "Balancing machines having all of the following characteristics:",
+      "title": "Balancing machines having all of the following characteristics:",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B119 Balancing machines and related equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "2B119"
+      ],
+      "text": "Balancing machines having all of the following characteristics:\nNot capable of balancing rotors/assemblies having a mass greater than 3 kg;\na.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;\nCapable of balancing rotors/assemblies at speeds greater than 12,500 rpm;\na.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;\nCapable of correcting unbalance in two planes or more; and\na.3. Capable of correcting unbalance in two planes or more; and\nCapable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.\na.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.\nNote: 2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.",
+      "structure": {
+        "identifier": "2B119.a",
+        "heading": "Balancing machines having all of the following characteristics:",
+        "label": "2B119.a – Balancing machines having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "2B119.a.1",
+            "heading": "Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+            "label": "2B119.a.1 – Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;</P>",
+                "text": "a.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.2",
+            "heading": "Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+            "label": "2B119.a.2 – Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;</P>",
+                "text": "a.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.3",
+            "heading": "Capable of correcting unbalance in two planes or more; and",
+            "label": "2B119.a.3 – Capable of correcting unbalance in two planes or more; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.3. Capable of correcting unbalance in two planes or more; and</P>",
+                "text": "a.3. Capable of correcting unbalance in two planes or more; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.4",
+            "heading": "Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+            "label": "2B119.a.4 – Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.</P>",
+                "text": "a.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.</I></P></NOTE>",
+                "text": "Note: 2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "Balancing machines having all of the following characteristics:",
+      "title": "Balancing machines having all of the following characteristics:",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B119 Balancing machines and related equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "2B119"
+      ],
+      "text": "Balancing machines having all of the following characteristics:\nNot capable of balancing rotors/assemblies having a mass greater than 3 kg;\na.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;\nCapable of balancing rotors/assemblies at speeds greater than 12,500 rpm;\na.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;\nCapable of correcting unbalance in two planes or more; and\na.3. Capable of correcting unbalance in two planes or more; and\nCapable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.\na.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.\nNote: 2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.",
+      "structure": {
+        "identifier": "2B119.a",
+        "heading": "Balancing machines having all of the following characteristics:",
+        "label": "2B119.a – Balancing machines having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "2B119.a.1",
+            "heading": "Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+            "label": "2B119.a.1 – Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;</P>",
+                "text": "a.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.2",
+            "heading": "Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+            "label": "2B119.a.2 – Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;</P>",
+                "text": "a.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.3",
+            "heading": "Capable of correcting unbalance in two planes or more; and",
+            "label": "2B119.a.3 – Capable of correcting unbalance in two planes or more; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.3. Capable of correcting unbalance in two planes or more; and</P>",
+                "text": "a.3. Capable of correcting unbalance in two planes or more; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.4",
+            "heading": "Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+            "label": "2B119.a.4 – Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.</P>",
+                "text": "a.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.</I></P></NOTE>",
+                "text": "Note: 2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "Balancing machines having all of the following characteristics:",
+      "title": "Balancing machines having all of the following characteristics:",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B119 Balancing machines and related equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "2B119"
+      ],
+      "text": "Balancing machines having all of the following characteristics:\nNot capable of balancing rotors/assemblies having a mass greater than 3 kg;\na.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;\nCapable of balancing rotors/assemblies at speeds greater than 12,500 rpm;\na.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;\nCapable of correcting unbalance in two planes or more; and\na.3. Capable of correcting unbalance in two planes or more; and\nCapable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.\na.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.\nNote: 2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.",
+      "structure": {
+        "identifier": "2B119.a",
+        "heading": "Balancing machines having all of the following characteristics:",
+        "label": "2B119.a – Balancing machines having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "2B119.a.1",
+            "heading": "Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+            "label": "2B119.a.1 – Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;</P>",
+                "text": "a.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.2",
+            "heading": "Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+            "label": "2B119.a.2 – Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;</P>",
+                "text": "a.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.3",
+            "heading": "Capable of correcting unbalance in two planes or more; and",
+            "label": "2B119.a.3 – Capable of correcting unbalance in two planes or more; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.3. Capable of correcting unbalance in two planes or more; and</P>",
+                "text": "a.3. Capable of correcting unbalance in two planes or more; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.4",
+            "heading": "Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+            "label": "2B119.a.4 – Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.</P>",
+                "text": "a.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.</I></P></NOTE>",
+                "text": "Note: 2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "Balancing machines having all of the following characteristics:",
+      "title": "Balancing machines having all of the following characteristics:",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B119 Balancing machines and related equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "2B119"
+      ],
+      "text": "Balancing machines having all of the following characteristics:\nNot capable of balancing rotors/assemblies having a mass greater than 3 kg;\na.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;\nCapable of balancing rotors/assemblies at speeds greater than 12,500 rpm;\na.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;\nCapable of correcting unbalance in two planes or more; and\na.3. Capable of correcting unbalance in two planes or more; and\nCapable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.\na.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.\nNote: 2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.",
+      "structure": {
+        "identifier": "2B119.a",
+        "heading": "Balancing machines having all of the following characteristics:",
+        "label": "2B119.a – Balancing machines having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "2B119.a.1",
+            "heading": "Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+            "label": "2B119.a.1 – Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;</P>",
+                "text": "a.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.2",
+            "heading": "Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+            "label": "2B119.a.2 – Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;</P>",
+                "text": "a.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.3",
+            "heading": "Capable of correcting unbalance in two planes or more; and",
+            "label": "2B119.a.3 – Capable of correcting unbalance in two planes or more; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.3. Capable of correcting unbalance in two planes or more; and</P>",
+                "text": "a.3. Capable of correcting unbalance in two planes or more; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.4",
+            "heading": "Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+            "label": "2B119.a.4 – Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.</P>",
+                "text": "a.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.</I></P></NOTE>",
+                "text": "Note: 2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "Balancing machines having all of the following characteristics:",
+      "title": "Balancing machines having all of the following characteristics:",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B119 Balancing machines and related equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "2B119"
+      ],
+      "text": "Balancing machines having all of the following characteristics:\nNot capable of balancing rotors/assemblies having a mass greater than 3 kg;\na.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;\nCapable of balancing rotors/assemblies at speeds greater than 12,500 rpm;\na.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;\nCapable of correcting unbalance in two planes or more; and\na.3. Capable of correcting unbalance in two planes or more; and\nCapable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.\na.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.\nNote: 2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.",
+      "structure": {
+        "identifier": "2B119.a",
+        "heading": "Balancing machines having all of the following characteristics:",
+        "label": "2B119.a – Balancing machines having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "2B119.a.1",
+            "heading": "Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+            "label": "2B119.a.1 – Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;</P>",
+                "text": "a.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.2",
+            "heading": "Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+            "label": "2B119.a.2 – Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;</P>",
+                "text": "a.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.3",
+            "heading": "Capable of correcting unbalance in two planes or more; and",
+            "label": "2B119.a.3 – Capable of correcting unbalance in two planes or more; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.3. Capable of correcting unbalance in two planes or more; and</P>",
+                "text": "a.3. Capable of correcting unbalance in two planes or more; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.4",
+            "heading": "Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+            "label": "2B119.a.4 – Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.</P>",
+                "text": "a.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.</I></P></NOTE>",
+                "text": "Note: 2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "Balancing machines having all of the following characteristics:",
+      "title": "Balancing machines having all of the following characteristics:",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B119 Balancing machines and related equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "2B119"
+      ],
+      "text": "Balancing machines having all of the following characteristics:\nNot capable of balancing rotors/assemblies having a mass greater than 3 kg;\na.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;\nCapable of balancing rotors/assemblies at speeds greater than 12,500 rpm;\na.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;\nCapable of correcting unbalance in two planes or more; and\na.3. Capable of correcting unbalance in two planes or more; and\nCapable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.\na.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.\nNote: 2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.",
+      "structure": {
+        "identifier": "2B119.a",
+        "heading": "Balancing machines having all of the following characteristics:",
+        "label": "2B119.a – Balancing machines having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "2B119.a.1",
+            "heading": "Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+            "label": "2B119.a.1 – Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;\n</P>",
+                "text": "a.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.2",
+            "heading": "Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+            "label": "2B119.a.2 – Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;\n</P>",
+                "text": "a.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.3",
+            "heading": "Capable of correcting unbalance in two planes or more; and",
+            "label": "2B119.a.3 – Capable of correcting unbalance in two planes or more; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.3. Capable of correcting unbalance in two planes or more; and\n</P>",
+                "text": "a.3. Capable of correcting unbalance in two planes or more; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.4",
+            "heading": "Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+            "label": "2B119.a.4 – Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.\n</P>",
+                "text": "a.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.</I></P></NOTE>",
+                "text": "Note: 2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "Balancing machines having all of the following characteristics:",
+      "title": "Balancing machines having all of the following characteristics:",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B119 Balancing machines and related equipment, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "2B119"
+      ],
+      "text": "Balancing machines having all of the following characteristics:\nNot capable of balancing rotors/assemblies having a mass greater than 3 kg;\na.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;\nCapable of balancing rotors/assemblies at speeds greater than 12,500 rpm;\na.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;\nCapable of correcting unbalance in two planes or more; and\na.3. Capable of correcting unbalance in two planes or more; and\nCapable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.\na.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.\nNote: 2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.",
+      "structure": {
+        "identifier": "2B119.a",
+        "heading": "Balancing machines having all of the following characteristics:",
+        "label": "2B119.a – Balancing machines having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "2B119.a.1",
+            "heading": "Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+            "label": "2B119.a.1 – Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;\n</P>",
+                "text": "a.1. Not capable of balancing rotors/assemblies having a mass greater than 3 kg;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.2",
+            "heading": "Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+            "label": "2B119.a.2 – Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;\n</P>",
+                "text": "a.2. Capable of balancing rotors/assemblies at speeds greater than 12,500 rpm;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.3",
+            "heading": "Capable of correcting unbalance in two planes or more; and",
+            "label": "2B119.a.3 – Capable of correcting unbalance in two planes or more; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.3. Capable of correcting unbalance in two planes or more; and\n</P>",
+                "text": "a.3. Capable of correcting unbalance in two planes or more; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "2B119.a.4",
+            "heading": "Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+            "label": "2B119.a.4 – Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.\n</P>",
+                "text": "a.4. Capable of balancing to a residual specific unbalance of 0.2 g mm per kg of rotor mass.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.</I></P></NOTE>",
+                "text": "Note: 2B119.a. does not control balancing machines designed or modified for dental or other medical equipment.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    }
+  ]
+}

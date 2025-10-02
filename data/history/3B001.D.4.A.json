@@ -1,0 +1,694 @@
+{
+  "eccn": "3B001.d.4.a",
+  "normalized": "3B001.D.4.A",
+  "history": [
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "Equipment designed to fabricate a metal contact by performing all of the following processes:",
+      "title": "Equipment designed to fabricate a metal contact by performing all of the following processes:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment or systems designed for multistep processing in multiple chambers or stations, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d",
+        "3B001.d.4"
+      ],
+      "text": "Equipment designed to fabricate a metal contact by performing all of the following processes:\nSurface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;\nd.4.a.1. Surface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;\nSurface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and\nd.4.a.2. Surface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and\nDeposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;\nd.4.a.3. Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;",
+      "structure": {
+        "identifier": "3B001.d.4.a",
+        "heading": "Equipment designed to fabricate a metal contact by performing all of the following processes:",
+        "label": "3B001.d.4.a – Equipment designed to fabricate a metal contact by performing all of the following processes:",
+        "children": [
+          {
+            "identifier": "3B001.d.4.a.1",
+            "heading": "Surface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;",
+            "label": "3B001.d.4.a.1 – Surface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.a.1. Surface treatment plasma process using hydrogen (H<E T=\"52\">2</E>), including hydrogen and nitrogen (H<E T=\"52\">2</E> + N<E T=\"52\">2</E>) or ammonia (NH<E T=\"52\">3</E>), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;</P>",
+                "text": "d.4.a.1. Surface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.4.a.2",
+            "heading": "Surface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and",
+            "label": "3B001.d.4.a.2 – Surface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.a.2. Surface treatment plasma process using oxygen (O<E T=\"52\">2</E>) or ozone (O<E T=\"52\">3</E>), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; <I>and</I></P>",
+                "text": "d.4.a.2. Surface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.4.a.3",
+            "heading": "Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;",
+            "label": "3B001.d.4.a.3 – Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.a.3. Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;</P>",
+                "text": "d.4.a.3. Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "Equipment designed to fabricate a metal contact by performing all of the following processes:",
+      "title": "Equipment designed to fabricate a metal contact by performing all of the following processes:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment or systems designed for multistep processing in multiple chambers or stations, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d",
+        "3B001.d.4"
+      ],
+      "text": "Equipment designed to fabricate a metal contact by performing all of the following processes:\nSurface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;\nd.4.a.1. Surface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;\nSurface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and\nd.4.a.2. Surface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and\nDeposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;\nd.4.a.3. Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;",
+      "structure": {
+        "identifier": "3B001.d.4.a",
+        "heading": "Equipment designed to fabricate a metal contact by performing all of the following processes:",
+        "label": "3B001.d.4.a – Equipment designed to fabricate a metal contact by performing all of the following processes:",
+        "children": [
+          {
+            "identifier": "3B001.d.4.a.1",
+            "heading": "Surface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;",
+            "label": "3B001.d.4.a.1 – Surface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.a.1. Surface treatment plasma process using hydrogen (H<E T=\"52\">2</E>), including hydrogen and nitrogen (H<E T=\"52\">2</E> + N<E T=\"52\">2</E>) or ammonia (NH<E T=\"52\">3</E>), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;</P>",
+                "text": "d.4.a.1. Surface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.4.a.2",
+            "heading": "Surface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and",
+            "label": "3B001.d.4.a.2 – Surface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.a.2. Surface treatment plasma process using oxygen (O<E T=\"52\">2</E>) or ozone (O<E T=\"52\">3</E>), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; <I>and</I></P>",
+                "text": "d.4.a.2. Surface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.4.a.3",
+            "heading": "Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;",
+            "label": "3B001.d.4.a.3 – Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.a.3. Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;</P>",
+                "text": "d.4.a.3. Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "Equipment designed to fabricate a metal contact by performing all of the following processes:",
+      "title": "Equipment designed to fabricate a metal contact by performing all of the following processes:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment or systems designed for multistep processing in multiple chambers or stations, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d",
+        "3B001.d.4"
+      ],
+      "text": "Equipment designed to fabricate a metal contact by performing all of the following processes:\nSurface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;\nd.4.a.1. Surface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;\nSurface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and\nd.4.a.2. Surface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and\nDeposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;\nd.4.a.3. Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;",
+      "structure": {
+        "identifier": "3B001.d.4.a",
+        "heading": "Equipment designed to fabricate a metal contact by performing all of the following processes:",
+        "label": "3B001.d.4.a – Equipment designed to fabricate a metal contact by performing all of the following processes:",
+        "children": [
+          {
+            "identifier": "3B001.d.4.a.1",
+            "heading": "Surface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;",
+            "label": "3B001.d.4.a.1 – Surface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.a.1. Surface treatment plasma process using hydrogen (H<E T=\"52\">2</E>), including hydrogen and nitrogen (H<E T=\"52\">2</E> + N<E T=\"52\">2</E>) or ammonia (NH<E T=\"52\">3</E>), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;</P>",
+                "text": "d.4.a.1. Surface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.4.a.2",
+            "heading": "Surface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and",
+            "label": "3B001.d.4.a.2 – Surface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.a.2. Surface treatment plasma process using oxygen (O<E T=\"52\">2</E>) or ozone (O<E T=\"52\">3</E>), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; <I>and</I></P>",
+                "text": "d.4.a.2. Surface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.4.a.3",
+            "heading": "Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;",
+            "label": "3B001.d.4.a.3 – Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.a.3. Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;</P>",
+                "text": "d.4.a.3. Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "Equipment designed to fabricate a metal contact by performing all of the following processes:",
+      "title": "Equipment designed to fabricate a metal contact by performing all of the following processes:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment or systems designed for multistep processing in multiple chambers or stations, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d",
+        "3B001.d.4"
+      ],
+      "text": "Equipment designed to fabricate a metal contact by performing all of the following processes:\nSurface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;\nd.4.a.1. Surface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;\nSurface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and\nd.4.a.2. Surface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and\nDeposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;\nd.4.a.3. Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;",
+      "structure": {
+        "identifier": "3B001.d.4.a",
+        "heading": "Equipment designed to fabricate a metal contact by performing all of the following processes:",
+        "label": "3B001.d.4.a – Equipment designed to fabricate a metal contact by performing all of the following processes:",
+        "children": [
+          {
+            "identifier": "3B001.d.4.a.1",
+            "heading": "Surface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;",
+            "label": "3B001.d.4.a.1 – Surface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.a.1. Surface treatment plasma process using hydrogen (H<E T=\"52\">2</E>), including hydrogen and nitrogen (H<E T=\"52\">2</E> + N<E T=\"52\">2</E>) or ammonia (NH<E T=\"52\">3</E>), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;</P>",
+                "text": "d.4.a.1. Surface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.4.a.2",
+            "heading": "Surface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and",
+            "label": "3B001.d.4.a.2 – Surface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.a.2. Surface treatment plasma process using oxygen (O<E T=\"52\">2</E>) or ozone (O<E T=\"52\">3</E>), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; <I>and</I></P>",
+                "text": "d.4.a.2. Surface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.4.a.3",
+            "heading": "Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;",
+            "label": "3B001.d.4.a.3 – Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.a.3. Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;</P>",
+                "text": "d.4.a.3. Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "Equipment designed to fabricate a metal contact by performing all of the following processes:",
+      "title": "Equipment designed to fabricate a metal contact by performing all of the following processes:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment or systems designed for multistep processing in multiple chambers or stations, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d",
+        "3B001.d.4"
+      ],
+      "text": "Equipment designed to fabricate a metal contact by performing all of the following processes:\nSurface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;\nd.4.a.1. Surface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;\nSurface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and\nd.4.a.2. Surface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and\nDeposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;\nd.4.a.3. Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;",
+      "structure": {
+        "identifier": "3B001.d.4.a",
+        "heading": "Equipment designed to fabricate a metal contact by performing all of the following processes:",
+        "label": "3B001.d.4.a – Equipment designed to fabricate a metal contact by performing all of the following processes:",
+        "children": [
+          {
+            "identifier": "3B001.d.4.a.1",
+            "heading": "Surface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;",
+            "label": "3B001.d.4.a.1 – Surface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.a.1. Surface treatment plasma process using hydrogen (H<E T=\"52\">2</E>), including hydrogen and nitrogen (H<E T=\"52\">2</E> + N<E T=\"52\">2</E>) or ammonia (NH<E T=\"52\">3</E>), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;</P>",
+                "text": "d.4.a.1. Surface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.4.a.2",
+            "heading": "Surface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and",
+            "label": "3B001.d.4.a.2 – Surface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.a.2. Surface treatment plasma process using oxygen (O<E T=\"52\">2</E>) or ozone (O<E T=\"52\">3</E>), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; <I>and</I></P>",
+                "text": "d.4.a.2. Surface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.4.a.3",
+            "heading": "Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;",
+            "label": "3B001.d.4.a.3 – Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.a.3. Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;</P>",
+                "text": "d.4.a.3. Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "Equipment designed to fabricate a metal contact by performing all of the following processes:",
+      "title": "Equipment designed to fabricate a metal contact by performing all of the following processes:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment or systems designed for multistep processing in multiple chambers or stations, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d",
+        "3B001.d.4"
+      ],
+      "text": "Equipment designed to fabricate a metal contact by performing all of the following processes:\nSurface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;\nd.4.a.1. Surface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;\nSurface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and\nd.4.a.2. Surface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and\nDeposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;\nd.4.a.3. Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;",
+      "structure": {
+        "identifier": "3B001.d.4.a",
+        "heading": "Equipment designed to fabricate a metal contact by performing all of the following processes:",
+        "label": "3B001.d.4.a – Equipment designed to fabricate a metal contact by performing all of the following processes:",
+        "children": [
+          {
+            "identifier": "3B001.d.4.a.1",
+            "heading": "Surface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;",
+            "label": "3B001.d.4.a.1 – Surface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.a.1. Surface treatment plasma process using hydrogen (H<E T=\"52\">2</E>), including hydrogen and nitrogen (H<E T=\"52\">2</E> + N<E T=\"52\">2</E>) or ammonia (NH<E T=\"52\">3</E>), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;</P>",
+                "text": "d.4.a.1. Surface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.4.a.2",
+            "heading": "Surface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and",
+            "label": "3B001.d.4.a.2 – Surface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.a.2. Surface treatment plasma process using oxygen (O<E T=\"52\">2</E>) or ozone (O<E T=\"52\">3</E>), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; <I>and</I></P>",
+                "text": "d.4.a.2. Surface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.4.a.3",
+            "heading": "Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;",
+            "label": "3B001.d.4.a.3 – Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.a.3. Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;</P>",
+                "text": "d.4.a.3. Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "Equipment designed to fabricate a metal contact by performing all of the following processes:",
+      "title": "Equipment designed to fabricate a metal contact by performing all of the following processes:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment or systems designed for multistep processing in multiple chambers or stations, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d",
+        "3B001.d.4"
+      ],
+      "text": "Equipment designed to fabricate a metal contact by performing all of the following processes:\nSurface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;\nd.4.a.1. Surface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;\nSurface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and\nd.4.a.2. Surface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and\nDeposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;\nd.4.a.3. Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;",
+      "structure": {
+        "identifier": "3B001.d.4.a",
+        "heading": "Equipment designed to fabricate a metal contact by performing all of the following processes:",
+        "label": "3B001.d.4.a – Equipment designed to fabricate a metal contact by performing all of the following processes:",
+        "children": [
+          {
+            "identifier": "3B001.d.4.a.1",
+            "heading": "Surface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;",
+            "label": "3B001.d.4.a.1 – Surface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.a.1. Surface treatment plasma process using hydrogen (H<E T=\"52\">2</E>), including hydrogen and nitrogen (H<E T=\"52\">2</E> + N<E T=\"52\">2</E>) or ammonia (NH<E T=\"52\">3</E>), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;\n</P>",
+                "text": "d.4.a.1. Surface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.4.a.2",
+            "heading": "Surface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and",
+            "label": "3B001.d.4.a.2 – Surface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.a.2. Surface treatment plasma process using oxygen (O<E T=\"52\">2</E>) or ozone (O<E T=\"52\">3</E>), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; <I>and</I>\n</P>",
+                "text": "d.4.a.2. Surface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.4.a.3",
+            "heading": "Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;",
+            "label": "3B001.d.4.a.3 – Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.a.3. Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;\n</P>",
+                "text": "d.4.a.3. Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "Equipment designed to fabricate a metal contact by performing all of the following processes:",
+      "title": "Equipment designed to fabricate a metal contact by performing all of the following processes:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment or systems designed for multistep processing in multiple chambers or stations, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d",
+        "3B001.d.4"
+      ],
+      "text": "Equipment designed to fabricate a metal contact by performing all of the following processes:\nSurface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;\nd.4.a.1. Surface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;\nSurface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and\nd.4.a.2. Surface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and\nDeposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;\nd.4.a.3. Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;",
+      "structure": {
+        "identifier": "3B001.d.4.a",
+        "heading": "Equipment designed to fabricate a metal contact by performing all of the following processes:",
+        "label": "3B001.d.4.a – Equipment designed to fabricate a metal contact by performing all of the following processes:",
+        "children": [
+          {
+            "identifier": "3B001.d.4.a.1",
+            "heading": "Surface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;",
+            "label": "3B001.d.4.a.1 – Surface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.a.1. Surface treatment plasma process using hydrogen (H<E T=\"52\">2</E>), including hydrogen and nitrogen (H<E T=\"52\">2</E> + N<E T=\"52\">2</E>) or ammonia (NH<E T=\"52\">3</E>), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;\n</P>",
+                "text": "d.4.a.1. Surface treatment plasma process using hydrogen (H2), including hydrogen and nitrogen (H2 + N2) or ammonia (NH3), while maintaining the wafer substrate at a temperature greater than 100 °C and less than 500 °C;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.4.a.2",
+            "heading": "Surface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and",
+            "label": "3B001.d.4.a.2 – Surface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.a.2. Surface treatment plasma process using oxygen (O<E T=\"52\">2</E>) or ozone (O<E T=\"52\">3</E>), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; <I>and</I>\n</P>",
+                "text": "d.4.a.2. Surface treatment plasma process using oxygen (O2) or ozone (O3), while maintaining the wafer substrate at a temperature greater than 40 °C and less than 500 °C; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.4.a.3",
+            "heading": "Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;",
+            "label": "3B001.d.4.a.3 – Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.a.3. Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;\n</P>",
+                "text": "d.4.a.3. Deposition of a tungsten (W) layer while maintaining the wafer substrate temperature greater than 100 °C and less than 500 °C;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    }
+  ]
+}

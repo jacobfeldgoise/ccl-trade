@@ -1,0 +1,124 @@
+{
+  "eccn": "3A090.b",
+  "normalized": "3A090.B",
+  "history": [
+    {
+      "version": "2023-01-17",
+      "fetchedAt": "2025-10-02T20:33:41.990Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-01-17/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3 - Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A090 Integrated circuits as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "3A090"
+      ],
+      "text": "[Reserved]",
+      "structure": {
+        "identifier": "3A090.b",
+        "heading": "[Reserved]",
+        "label": "3A090.b – [Reserved]",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-02-24",
+      "fetchedAt": "2025-10-02T20:33:42.390Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-02-24/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "3A090 Integrated circuits as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "3A090"
+      ],
+      "text": "[Reserved]",
+      "structure": {
+        "identifier": "3A090.b",
+        "heading": "[Reserved]",
+        "label": "3A090.b – [Reserved]",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-08-18",
+      "fetchedAt": "2025-10-02T20:33:42.783Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-08-18/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "3A090 Integrated circuits as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "3A090"
+      ],
+      "text": "[Reserved]",
+      "structure": {
+        "identifier": "3A090.b",
+        "heading": "[Reserved]",
+        "label": "3A090.b – [Reserved]",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-10-18",
+      "fetchedAt": "2025-10-02T20:33:43.173Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-10-18/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A090 Integrated circuits as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "3A090"
+      ],
+      "text": "[Reserved]",
+      "structure": {
+        "identifier": "3A090.b",
+        "heading": "[Reserved]",
+        "label": "3A090.b – [Reserved]",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

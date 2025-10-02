@@ -1,0 +1,761 @@
+{
+  "eccn": "3A090.a.2",
+  "normalized": "3A090.A.2",
+  "history": [
+    {
+      "version": "2023-01-17",
+      "fetchedAt": "2025-10-02T20:33:41.990Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-01-17/title-15?format=xml",
+      "heading": "One or more digital 'primitive computational units,' excluding those units contributing to the execution of machine instructions relevant to the calculation of TOPS for 3A090.a.1, having a bit length per operation multiplied by processing performance measured in TOPS, aggregated over all computational units, of 4800 or more;",
+      "title": "One or more digital 'primitive computational units,' excluding those units contributing to the execution of machine instructions relevant to the calculation of TOPS for 3A090.a.1, having a bit length per operation multiplied by processing performance measured in TOPS, aggregated over all computational units, of 4800 or more;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3 - Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A090 Integrated circuits as follows (see List of Items Controlled).",
+        "Integrated circuits that have or are programmable to have an aggregate bidirectional transfer rate over all inputs and outputs of 600 Gbyte/s or more to or from integrated circuits other than volatile memories, and any of the following:"
+      ],
+      "ancestors": [
+        "3A090",
+        "3A090.a"
+      ],
+      "text": "One or more digital 'primitive computational units,' excluding those units contributing to the execution of machine instructions relevant to the calculation of TOPS for 3A090.a.1, having a bit length per operation multiplied by processing performance measured in TOPS, aggregated over all computational units, of 4800 or more;",
+      "structure": {
+        "identifier": "3A090.a.2",
+        "heading": "One or more digital 'primitive computational units,' excluding those units contributing to the execution of machine instructions relevant to the calculation of TOPS for 3A090.a.1, having a bit length per operation multiplied by processing performance measured in TOPS, aggregated over all computational units, of 4800 or more;",
+        "label": "3A090.a.2 – One or more digital 'primitive computational units,' excluding those units contributing to the execution of machine instructions relevant to the calculation of TOPS for 3A090.a.1, having a bit length per operation multiplied by processing performance measured in TOPS, aggregated over all computational units, of 4800 or more;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-02-24",
+      "fetchedAt": "2025-10-02T20:33:42.390Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-02-24/title-15?format=xml",
+      "heading": "One or more digital 'primitive computational units,' excluding those units contributing to the execution of machine instructions relevant to the calculation of TOPS for 3A090.a.1, having a bit length per operation multiplied by processing performance measured in TOPS, aggregated over all computational units, of 4800 or more;",
+      "title": "One or more digital 'primitive computational units,' excluding those units contributing to the execution of machine instructions relevant to the calculation of TOPS for 3A090.a.1, having a bit length per operation multiplied by processing performance measured in TOPS, aggregated over all computational units, of 4800 or more;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "3A090 Integrated circuits as follows (see List of Items Controlled).",
+        "Integrated circuits that have or are programmable to have an aggregate bidirectional transfer rate over all inputs and outputs of 600 Gbyte/s or more to or from integrated circuits other than volatile memories, and any of the following:"
+      ],
+      "ancestors": [
+        "3A090",
+        "3A090.a"
+      ],
+      "text": "One or more digital 'primitive computational units,' excluding those units contributing to the execution of machine instructions relevant to the calculation of TOPS for 3A090.a.1, having a bit length per operation multiplied by processing performance measured in TOPS, aggregated over all computational units, of 4800 or more;",
+      "structure": {
+        "identifier": "3A090.a.2",
+        "heading": "One or more digital 'primitive computational units,' excluding those units contributing to the execution of machine instructions relevant to the calculation of TOPS for 3A090.a.1, having a bit length per operation multiplied by processing performance measured in TOPS, aggregated over all computational units, of 4800 or more;",
+        "label": "3A090.a.2 – One or more digital 'primitive computational units,' excluding those units contributing to the execution of machine instructions relevant to the calculation of TOPS for 3A090.a.1, having a bit length per operation multiplied by processing performance measured in TOPS, aggregated over all computational units, of 4800 or more;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-08-18",
+      "fetchedAt": "2025-10-02T20:33:42.783Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-08-18/title-15?format=xml",
+      "heading": "One or more digital 'primitive computational units,' excluding those units contributing to the execution of machine instructions relevant to the calculation of TOPS for 3A090.a.1, having a bit length per operation multiplied by processing performance measured in TOPS, aggregated over all computational units, of 4800 or more;",
+      "title": "One or more digital 'primitive computational units,' excluding those units contributing to the execution of machine instructions relevant to the calculation of TOPS for 3A090.a.1, having a bit length per operation multiplied by processing performance measured in TOPS, aggregated over all computational units, of 4800 or more;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "3A090 Integrated circuits as follows (see List of Items Controlled).",
+        "Integrated circuits that have or are programmable to have an aggregate bidirectional transfer rate over all inputs and outputs of 600 Gbyte/s or more to or from integrated circuits other than volatile memories, and any of the following:"
+      ],
+      "ancestors": [
+        "3A090",
+        "3A090.a"
+      ],
+      "text": "One or more digital 'primitive computational units,' excluding those units contributing to the execution of machine instructions relevant to the calculation of TOPS for 3A090.a.1, having a bit length per operation multiplied by processing performance measured in TOPS, aggregated over all computational units, of 4800 or more;",
+      "structure": {
+        "identifier": "3A090.a.2",
+        "heading": "One or more digital 'primitive computational units,' excluding those units contributing to the execution of machine instructions relevant to the calculation of TOPS for 3A090.a.1, having a bit length per operation multiplied by processing performance measured in TOPS, aggregated over all computational units, of 4800 or more;",
+        "label": "3A090.a.2 – One or more digital 'primitive computational units,' excluding those units contributing to the execution of machine instructions relevant to the calculation of TOPS for 3A090.a.1, having a bit length per operation multiplied by processing performance measured in TOPS, aggregated over all computational units, of 4800 or more;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-10-18",
+      "fetchedAt": "2025-10-02T20:33:43.173Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-10-18/title-15?format=xml",
+      "heading": "One or more digital 'primitive computational units,' excluding those units contributing to the execution of machine instructions relevant to the calculation of TOPS for 3A090.a.1, having a bit length per operation multiplied by processing performance measured in TOPS, aggregated over all computational units, of 4800 or more;",
+      "title": "One or more digital 'primitive computational units,' excluding those units contributing to the execution of machine instructions relevant to the calculation of TOPS for 3A090.a.1, having a bit length per operation multiplied by processing performance measured in TOPS, aggregated over all computational units, of 4800 or more;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A090 Integrated circuits as follows (see List of Items Controlled).",
+        "Integrated circuits that have or are programmable to have an aggregate bidirectional transfer rate over all inputs and outputs of 600 Gbyte/s or more to or from integrated circuits other than volatile memories, and any of the following:"
+      ],
+      "ancestors": [
+        "3A090",
+        "3A090.a"
+      ],
+      "text": "One or more digital 'primitive computational units,' excluding those units contributing to the execution of machine instructions relevant to the calculation of TOPS for 3A090.a.1, having a bit length per operation multiplied by processing performance measured in TOPS, aggregated over all computational units, of 4800 or more;",
+      "structure": {
+        "identifier": "3A090.a.2",
+        "heading": "One or more digital 'primitive computational units,' excluding those units contributing to the execution of machine instructions relevant to the calculation of TOPS for 3A090.a.1, having a bit length per operation multiplied by processing performance measured in TOPS, aggregated over all computational units, of 4800 or more;",
+        "label": "3A090.a.2 – One or more digital 'primitive computational units,' excluding those units contributing to the execution of machine instructions relevant to the calculation of TOPS for 3A090.a.1, having a bit length per operation multiplied by processing performance measured in TOPS, aggregated over all computational units, of 4800 or more;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-11-17",
+      "fetchedAt": "2025-10-02T20:33:43.584Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-11-17/title-15?format=xml",
+      "heading": "a 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "title": "a 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A090 Integrated circuits as follows (see List of Items Controlled).",
+        "Integrated circuits having one or more digital processing units having either of the following:"
+      ],
+      "ancestors": [
+        "3A090",
+        "3A090.a"
+      ],
+      "text": "a 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "structure": {
+        "identifier": "3A090.a.2",
+        "heading": "a 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+        "label": "3A090.a.2 – a 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-12-08",
+      "fetchedAt": "2025-10-02T20:33:43.980Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-12-08/title-15?format=xml",
+      "heading": "a 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "title": "a 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A090 Integrated circuits as follows (see List of Items Controlled).",
+        "Integrated circuits having one or more digital processing units having either of the following:"
+      ],
+      "ancestors": [
+        "3A090",
+        "3A090.a"
+      ],
+      "text": "a 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "structure": {
+        "identifier": "3A090.a.2",
+        "heading": "a 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+        "label": "3A090.a.2 – a 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-03-08",
+      "fetchedAt": "2025-10-02T20:33:44.401Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-08/title-15?format=xml",
+      "heading": "a 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "title": "a 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A090 Integrated circuits as follows (see List of Items Controlled).",
+        "Integrated circuits having one or more digital processing units having either of the following:"
+      ],
+      "ancestors": [
+        "3A090",
+        "3A090.a"
+      ],
+      "text": "a 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "structure": {
+        "identifier": "3A090.a.2",
+        "heading": "a 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+        "label": "3A090.a.2 – a 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-03-13",
+      "fetchedAt": "2025-10-02T20:33:44.826Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-13/title-15?format=xml",
+      "heading": "a 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "title": "a 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A090 Integrated circuits as follows (see List of Items Controlled).",
+        "Integrated circuits having one or more digital processing units having either of the following:"
+      ],
+      "ancestors": [
+        "3A090",
+        "3A090.a"
+      ],
+      "text": "a 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "structure": {
+        "identifier": "3A090.a.2",
+        "heading": "a 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+        "label": "3A090.a.2 – a 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-04-04",
+      "fetchedAt": "2025-10-02T20:33:45.229Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-04/title-15?format=xml",
+      "heading": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "title": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A090 Integrated circuits as follows (see List of Items Controlled).",
+        "Integrated circuits having one or more digital processing units having either of the following:"
+      ],
+      "ancestors": [
+        "3A090",
+        "3A090.a"
+      ],
+      "text": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "structure": {
+        "identifier": "3A090.a.2",
+        "heading": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+        "label": "3A090.a.2 – A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-04-19",
+      "fetchedAt": "2025-10-02T20:33:45.630Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-19/title-15?format=xml",
+      "heading": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "title": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A090 Integrated circuits as follows (see List of Items Controlled).",
+        "Integrated circuits having one or more digital processing units having either of the following:"
+      ],
+      "ancestors": [
+        "3A090",
+        "3A090.a"
+      ],
+      "text": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "structure": {
+        "identifier": "3A090.a.2",
+        "heading": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+        "label": "3A090.a.2 – A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-05-30",
+      "fetchedAt": "2025-10-02T20:33:46.051Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-05-30/title-15?format=xml",
+      "heading": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "title": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A090 Integrated circuits as follows (see List of Items Controlled).",
+        "Integrated circuits having one or more digital processing units having either of the following:"
+      ],
+      "ancestors": [
+        "3A090",
+        "3A090.a"
+      ],
+      "text": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "structure": {
+        "identifier": "3A090.a.2",
+        "heading": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+        "label": "3A090.a.2 – A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-06-12",
+      "fetchedAt": "2025-10-02T20:33:46.460Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-06-12/title-15?format=xml",
+      "heading": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "title": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A090 Integrated circuits as follows (see List of Items Controlled).",
+        "Integrated circuits having one or more digital processing units having either of the following:"
+      ],
+      "ancestors": [
+        "3A090",
+        "3A090.a"
+      ],
+      "text": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "structure": {
+        "identifier": "3A090.a.2",
+        "heading": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+        "label": "3A090.a.2 – A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-09-06",
+      "fetchedAt": "2025-10-02T20:33:46.879Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-09-06/title-15?format=xml",
+      "heading": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "title": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A090 Integrated circuits as follows (see List of Items Controlled).",
+        "Integrated circuits having one or more digital processing units having either of the following:"
+      ],
+      "ancestors": [
+        "3A090",
+        "3A090.a"
+      ],
+      "text": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "structure": {
+        "identifier": "3A090.a.2",
+        "heading": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+        "label": "3A090.a.2 – A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-10-23",
+      "fetchedAt": "2025-10-02T20:33:47.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-10-23/title-15?format=xml",
+      "heading": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "title": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A090 Integrated circuits as follows (see List of Items Controlled).",
+        "Integrated circuits having one or more digital processing units having either of the following:"
+      ],
+      "ancestors": [
+        "3A090",
+        "3A090.a"
+      ],
+      "text": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "structure": {
+        "identifier": "3A090.a.2",
+        "heading": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+        "label": "3A090.a.2 – A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-02",
+      "fetchedAt": "2025-10-02T20:33:47.757Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-02/title-15?format=xml",
+      "heading": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "title": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A090 Integrated circuits as follows (see List of Items Controlled).",
+        "Integrated circuits having one or more digital processing units having either of the following:"
+      ],
+      "ancestors": [
+        "3A090",
+        "3A090.a"
+      ],
+      "text": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "structure": {
+        "identifier": "3A090.a.2",
+        "heading": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+        "label": "3A090.a.2 – A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "title": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A090 Integrated circuits as follows (see List of Items Controlled).",
+        "Integrated circuits having one or more digital processing units having either of the following:"
+      ],
+      "ancestors": [
+        "3A090",
+        "3A090.a"
+      ],
+      "text": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "structure": {
+        "identifier": "3A090.a.2",
+        "heading": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+        "label": "3A090.a.2 – A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "title": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A090 Integrated circuits as follows (see List of Items Controlled).",
+        "Integrated circuits having one or more digital processing units having either of the following:"
+      ],
+      "ancestors": [
+        "3A090",
+        "3A090.a"
+      ],
+      "text": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "structure": {
+        "identifier": "3A090.a.2",
+        "heading": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+        "label": "3A090.a.2 – A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "title": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A090 Integrated circuits as follows (see List of Items Controlled).",
+        "Integrated circuits having one or more digital processing units having either of the following:"
+      ],
+      "ancestors": [
+        "3A090",
+        "3A090.a"
+      ],
+      "text": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "structure": {
+        "identifier": "3A090.a.2",
+        "heading": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+        "label": "3A090.a.2 – A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "title": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A090 Integrated circuits as follows (see List of Items Controlled).",
+        "Integrated circuits having one or more digital processing units having either of the following:"
+      ],
+      "ancestors": [
+        "3A090",
+        "3A090.a"
+      ],
+      "text": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "structure": {
+        "identifier": "3A090.a.2",
+        "heading": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+        "label": "3A090.a.2 – A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "title": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A090 Integrated circuits as follows (see List of Items Controlled).",
+        "Integrated circuits having one or more digital processing units having either of the following:"
+      ],
+      "ancestors": [
+        "3A090",
+        "3A090.a"
+      ],
+      "text": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.\nNote 1 to 3A090.a: When a “front-end fabricator” or “OSAT” company is seeking to export, reexport, or transfer (in-country) an “applicable advanced logic integrated circuit,” there is a presumption that the item is 3A090.a and designed or marketed for datacenters. If the “front-end fabricator” or “OSAT” company cannot overcome this presumption, then it must comply with all license requirements applicable to items specified in 3A090.a. However, this presumption does not apply to any entity other than the “front-end fabricator” or “OSAT” company. A “front-end fabricator” or “OSAT” company can overcome this presumption in any of the following three ways outlined in paragraphs a. through c. of this Note 1. a. If the designer of the “applicable advanced logic integrated circuit” is an approved or authorized integrated circuit designer, then a datasheet or other attestation of the 'total processing performance' and the 'performance density' from the approved or authorized integrated circuit designer indicating that the IC is not specified in 3A090.a will overcome the presumption for the “front-end fabricator” or “OSAT” company that the IC is specified in ECCN 3A090.a. (1) Approved integrated circuit designers are listed in supplement no. 6 to this part of the EAR; (2) Prior to April 13, 2026, authorized integrated circuit designers include all integrated circuit designers: (i) Headquartered in Taiwan or a destination specified in Country Group A:1 or A:5, that are neither located in nor have an ultimate parent headquartered in Macau or a destination specified in Country Group D:5 of supplement no. 1 to part 740 of the EAR; and (ii) That have agreed to submit applicable information described in § 743.9(b) to the “front-end fabricator,” which the “front-end fabricator” must then report to BIS. (3) After April 13, 2026, authorized integrated circuit designers include any integrated circuit designer that both meets the criteria specified in subparagraph (2) and has submitted an application to become an approved integrated circuit designer. However, any company deemed an authorized IC designer after April 13, 2026, will cease to be an authorized IC designer 180 days after the submission of its application to become an approved IC designer. b. If the integrated circuit die is packaged by the “front-end fabricator” at a location outside of Macau or a destination specified in Country Group D:5 in supplement no. 1 to part 740, then the attestation of the “front-end fabricator” that (a) the “aggregated approximated transistor count” of the final packaged IC is below 30 billion transistors, or (b) the final packaged IC does not contain high-bandwidth memory and that the “aggregated approximated transistor count” of the final packaged IC is below (i) 35 billion transistors for any exports, reexports, or transfers (in-country) completed in 2027; or (ii) 40 billion transistors for any exports, reexports, or transfers (in-country) completed in 2029 or thereafter, then this overcomes the presumption by the “front-end fabricator” or “OSAT” company that the IC is specified in ECCN 3A090.a. c. If the integrated circuit is packaged by an approved “OSAT” company listed in supplement no. 7 to part 740 of the EAR, then the attestation of the approved “OSAT” company that (a) the “aggregated approximated transistor count” of the final packaged IC is below 30 billion transistors, or (b) the final packaged IC does not contain high-bandwidth memory and that the “aggregated approximated transistor count” of the final packaged IC is below (i) 35 billion transistors for any exports, reexports, or transfers (in-country) completed in 2027; or (ii) 40 billion transistors for any exports, reexports, or transfers (in-country) completed in 2029 or thereafter, then this overcomes the presumption by the “front-end fabricator” or “OSAT” company that the IC is specified in ECCN 3A090.a. d. It is not sufficient for the “front-end fabricator” or “OSAT” company to confirm the ECCN by relying on the attestation of the end user or other party to the transaction, except under one of the three ways enumerated in paragraphs a. through c. of this note. In the absence of an attestation of the 'total processing performance' and the 'performance density' by an approved integrated circuit designer listed in supplement no. 6 to part 740 of the EAR, the “front-end fabricator” or “OSAT” company must presume that any logic integrated circuit produced using the “16/14 nanometer node” or below, or using a non-planar transistor architecture and destined for a commodity with an (a) “aggregated approximated transistor count” of the final packaged IC is below 30 billion transistors, or (b) the final packaged IC does not contain high-bandwidth memory and that the “aggregated approximated transistor count” of the final packaged IC is below (i) 35 billion transistors for any exports, reexports, or transfers (in-country) completed in 2027; or (ii) 40 billion transistors for any exports, reexports, or transfers (in-country) completed in 2029 or thereafter, or where the “aggregated approximated transistor count,” of the final, packaged integrated circuit cannot be confirmed by the “front-end fabricator,” or an approved “OSAT” company listed in supplement no. 7 to part 740 of the EAR, is specified in ECCN 3A090.a and designed or marketed for a datacenter.\nTechnical Note 1 to 3A090.a: The 'approximated transistor count' of a die is the 'transistor density' of the die multiplied by the area of the die measured in square millimeters. The 'transistor density' of the die is the number of transistors that can be fabricated per square millimeter for the process node used to manufacture the die. To calculate the number of 'approximated transistor count' of a die, a “front end fabricator” or “OSAT” company has two options. First, the “front end fabricator” or “OSAT” company may take the transistor density of the process node used to manufacture the die and multiply this density by the area of the die. This number may be significantly higher than the true transistor count, but if the result is below the relevant transistor threshold, then the “front end fabricator” or “OSAT” company can be confident that the die in question will not exceed that threshold. Second, to adjudicate edge cases, the “front end fabricator” or “OSAT” company may use standard design verification tools to estimate the number of (both active and passive) transistors on the die using the GDS file.",
+      "structure": {
+        "identifier": "3A090.a.2",
+        "heading": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+        "label": "3A090.a.2 – A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1 to 3A090.a:</I></HED>\n<P><I>When a “front-end fabricator” or “OSAT” company is seeking to export, reexport, or transfer (in-country) an “applicable advanced logic integrated circuit,” there is a presumption that the item is 3A090.a and designed or marketed for datacenters. If the “front-end fabricator” or “OSAT” company cannot overcome this presumption, then it must comply with all license requirements applicable to items specified in 3A090.a. However, this presumption does not apply to any entity other than the “front-end fabricator” or “OSAT” company. A “front-end fabricator” or “OSAT” company can overcome this presumption in any of the following three ways outlined in paragraphs a. through c. of this Note 1.</I></P>\n<P>a. <I>If the designer of the “applicable advanced logic integrated circuit” is an approved or authorized integrated circuit designer, then a datasheet or other attestation of the 'total processing performance' and the 'performance density' from the approved or authorized integrated circuit designer indicating that the IC is not specified in 3A090.a will overcome the presumption for the “front-end fabricator” or “OSAT” company that the IC is specified in ECCN 3A090.a.</I></P>\n<P><I>(1) Approved integrated circuit designers are listed in supplement no. 6 to this part of the EAR;</I></P>\n<P><I>(2) Prior to April 13, 2026, authorized integrated circuit designers include all integrated circuit designers:</I></P>\n<P><I>(i) Headquartered in Taiwan or a destination specified in Country Group A:1 or A:5, that are neither located in nor have an ultimate parent headquartered in Macau or a destination specified in Country Group D:5 of supplement no. 1 to part 740 of the EAR; and</I></P>\n<P><I>(ii) That have agreed to submit applicable information described in § 743.9(b) to the “front-end fabricator,” which the “front-end fabricator” must then report to BIS.</I></P>\n<P><I>(3) After April 13, 2026, authorized integrated circuit designers include any integrated circuit designer that both meets the criteria specified in subparagraph (2) and has submitted an application to become an approved integrated circuit designer. However, any company deemed an authorized IC designer after April 13, 2026, will cease to be an authorized IC designer 180 days after the submission of its application to become an approved IC designer.</I></P>\n<P><I>b. If the integrated circuit die is packaged by the “front-end fabricator” at a location outside of Macau or a destination specified in Country Group D:5 in supplement no. 1 to part 740, then the attestation of the “front-end fabricator” that (a) the “aggregated approximated transistor count” of the final packaged IC is below 30 billion transistors, or (b) the final packaged IC does not contain high-bandwidth memory and that the “aggregated approximated transistor count” of the final packaged IC is below (i) 35 billion transistors for any exports, reexports, or transfers (in-country) completed in 2027; or (ii) 40 billion transistors for any exports, reexports, or transfers (in-country) completed in 2029 or thereafter, then this overcomes the presumption by the “front-end fabricator” or “OSAT” company that the IC is specified in ECCN 3A090.a.</I></P>\n<P><I>c. If the integrated circuit is packaged by an approved “OSAT” company listed in supplement no. 7 to part 740 of the EAR, then the attestation of the approved “OSAT” company that (a) the “aggregated approximated transistor count” of the final packaged IC is below 30 billion transistors, or (b) the final packaged IC does not contain high-bandwidth memory and that the “aggregated approximated transistor count” of the final packaged IC is below (i) 35 billion transistors for any exports, reexports, or transfers (in-country) completed in 2027; or (ii) 40 billion transistors for any exports, reexports, or transfers (in-country) completed in 2029 or thereafter, then this overcomes the presumption by the “front-end fabricator” or “OSAT” company that the IC is specified in ECCN 3A090.a.</I></P>\n<P><I>d. It is not sufficient for the “front-end fabricator” or “OSAT” company to confirm the ECCN by relying on the attestation of the end user or other party to the transaction, except under one of the three ways enumerated in paragraphs a. through c. of this note. In the absence of an attestation of the 'total processing performance' and the 'performance density' by an approved integrated circuit designer listed in supplement no. 6 to part 740 of the EAR, the “front-end fabricator” or “OSAT” company must presume that any logic integrated circuit produced using the “16/14 nanometer node” or below, or using a non-planar transistor architecture and destined for a commodity with an (a) “aggregated approximated transistor count” of the final packaged IC is below 30 billion transistors, or (b) the final packaged IC does not contain high-bandwidth memory and that the “aggregated approximated transistor count” of the final packaged IC is below (i) 35 billion transistors for any exports, reexports, or transfers (in-country) completed in 2027; or (ii) 40 billion transistors for any exports, reexports, or transfers (in-country) completed in 2029 or thereafter, or where the “aggregated approximated transistor count,” of the final, packaged integrated circuit cannot be confirmed by the “front-end fabricator,” or an approved “OSAT” company listed in supplement no. 7 to part 740 of the EAR, is specified in ECCN 3A090.a and designed or marketed for a datacenter.</I></P></NOTE>",
+            "text": "Note 1 to 3A090.a: When a “front-end fabricator” or “OSAT” company is seeking to export, reexport, or transfer (in-country) an “applicable advanced logic integrated circuit,” there is a presumption that the item is 3A090.a and designed or marketed for datacenters. If the “front-end fabricator” or “OSAT” company cannot overcome this presumption, then it must comply with all license requirements applicable to items specified in 3A090.a. However, this presumption does not apply to any entity other than the “front-end fabricator” or “OSAT” company. A “front-end fabricator” or “OSAT” company can overcome this presumption in any of the following three ways outlined in paragraphs a. through c. of this Note 1. a. If the designer of the “applicable advanced logic integrated circuit” is an approved or authorized integrated circuit designer, then a datasheet or other attestation of the 'total processing performance' and the 'performance density' from the approved or authorized integrated circuit designer indicating that the IC is not specified in 3A090.a will overcome the presumption for the “front-end fabricator” or “OSAT” company that the IC is specified in ECCN 3A090.a. (1) Approved integrated circuit designers are listed in supplement no. 6 to this part of the EAR; (2) Prior to April 13, 2026, authorized integrated circuit designers include all integrated circuit designers: (i) Headquartered in Taiwan or a destination specified in Country Group A:1 or A:5, that are neither located in nor have an ultimate parent headquartered in Macau or a destination specified in Country Group D:5 of supplement no. 1 to part 740 of the EAR; and (ii) That have agreed to submit applicable information described in § 743.9(b) to the “front-end fabricator,” which the “front-end fabricator” must then report to BIS. (3) After April 13, 2026, authorized integrated circuit designers include any integrated circuit designer that both meets the criteria specified in subparagraph (2) and has submitted an application to become an approved integrated circuit designer. However, any company deemed an authorized IC designer after April 13, 2026, will cease to be an authorized IC designer 180 days after the submission of its application to become an approved IC designer. b. If the integrated circuit die is packaged by the “front-end fabricator” at a location outside of Macau or a destination specified in Country Group D:5 in supplement no. 1 to part 740, then the attestation of the “front-end fabricator” that (a) the “aggregated approximated transistor count” of the final packaged IC is below 30 billion transistors, or (b) the final packaged IC does not contain high-bandwidth memory and that the “aggregated approximated transistor count” of the final packaged IC is below (i) 35 billion transistors for any exports, reexports, or transfers (in-country) completed in 2027; or (ii) 40 billion transistors for any exports, reexports, or transfers (in-country) completed in 2029 or thereafter, then this overcomes the presumption by the “front-end fabricator” or “OSAT” company that the IC is specified in ECCN 3A090.a. c. If the integrated circuit is packaged by an approved “OSAT” company listed in supplement no. 7 to part 740 of the EAR, then the attestation of the approved “OSAT” company that (a) the “aggregated approximated transistor count” of the final packaged IC is below 30 billion transistors, or (b) the final packaged IC does not contain high-bandwidth memory and that the “aggregated approximated transistor count” of the final packaged IC is below (i) 35 billion transistors for any exports, reexports, or transfers (in-country) completed in 2027; or (ii) 40 billion transistors for any exports, reexports, or transfers (in-country) completed in 2029 or thereafter, then this overcomes the presumption by the “front-end fabricator” or “OSAT” company that the IC is specified in ECCN 3A090.a. d. It is not sufficient for the “front-end fabricator” or “OSAT” company to confirm the ECCN by relying on the attestation of the end user or other party to the transaction, except under one of the three ways enumerated in paragraphs a. through c. of this note. In the absence of an attestation of the 'total processing performance' and the 'performance density' by an approved integrated circuit designer listed in supplement no. 6 to part 740 of the EAR, the “front-end fabricator” or “OSAT” company must presume that any logic integrated circuit produced using the “16/14 nanometer node” or below, or using a non-planar transistor architecture and destined for a commodity with an (a) “aggregated approximated transistor count” of the final packaged IC is below 30 billion transistors, or (b) the final packaged IC does not contain high-bandwidth memory and that the “aggregated approximated transistor count” of the final packaged IC is below (i) 35 billion transistors for any exports, reexports, or transfers (in-country) completed in 2027; or (ii) 40 billion transistors for any exports, reexports, or transfers (in-country) completed in 2029 or thereafter, or where the “aggregated approximated transistor count,” of the final, packaged integrated circuit cannot be confirmed by the “front-end fabricator,” or an approved “OSAT” company listed in supplement no. 7 to part 740 of the EAR, is specified in ECCN 3A090.a and designed or marketed for a datacenter.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note 1 to 3A090.a:</I></HED>\n<P><I>The 'approximated transistor count' of a die is the 'transistor density' of the die multiplied by the area of the die measured in square millimeters. The 'transistor density' of the die is the number of transistors that can be fabricated per square millimeter for the process node used to manufacture the die. To calculate the number of 'approximated transistor count' of a die, a “front end fabricator” or “OSAT” company has two options. First, the “front end fabricator” or “OSAT” company may take the transistor density of the process node used to manufacture the die and multiply this density by the area of the die. This number may be significantly higher than the true transistor count, but if the result is below the relevant transistor threshold, then the “front end fabricator” or “OSAT” company can be confident that the die in question will not exceed that threshold. Second, to adjudicate edge cases, the “front end fabricator” or “OSAT” company may use standard design verification tools to estimate the number of (both active and passive) transistors on the die using the GDS file.</I></P></NOTE>",
+            "text": "Technical Note 1 to 3A090.a: The 'approximated transistor count' of a die is the 'transistor density' of the die multiplied by the area of the die measured in square millimeters. The 'transistor density' of the die is the number of transistors that can be fabricated per square millimeter for the process node used to manufacture the die. To calculate the number of 'approximated transistor count' of a die, a “front end fabricator” or “OSAT” company has two options. First, the “front end fabricator” or “OSAT” company may take the transistor density of the process node used to manufacture the die and multiply this density by the area of the die. This number may be significantly higher than the true transistor count, but if the result is below the relevant transistor threshold, then the “front end fabricator” or “OSAT” company can be confident that the die in question will not exceed that threshold. Second, to adjudicate edge cases, the “front end fabricator” or “OSAT” company may use standard design verification tools to estimate the number of (both active and passive) transistors on the die using the GDS file.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "title": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A090 Integrated circuits as follows (see List of Items Controlled).",
+        "Integrated circuits having one or more digital processing units having either of the following:"
+      ],
+      "ancestors": [
+        "3A090",
+        "3A090.a"
+      ],
+      "text": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.\nNote 1 to 3A090.a: When a “front-end fabricator” or “OSAT” company is seeking to export, reexport, or transfer (in-country) an “applicable advanced logic integrated circuit,” there is a presumption that the item is 3A090.a and designed or marketed for datacenters. If the “front-end fabricator” or “OSAT” company cannot overcome this presumption, then it must comply with all license requirements applicable to items specified in 3A090.a. However, this presumption does not apply to any entity other than the “front-end fabricator” or “OSAT” company. A “front-end fabricator” or “OSAT” company can overcome this presumption in any of the following three ways outlined in paragraphs a. through c. of this Note 1. a. If the designer of the “applicable advanced logic integrated circuit” is an approved or authorized integrated circuit designer, then a datasheet or other attestation of the 'total processing performance' and the 'performance density' from the approved or authorized integrated circuit designer indicating that the IC is not specified in 3A090.a will overcome the presumption for the “front-end fabricator” or “OSAT” company that the IC is specified in ECCN 3A090.a. (1) Approved integrated circuit designers are listed in supplement no. 6 to this part of the EAR; (2) Prior to April 13, 2026, authorized integrated circuit designers include all integrated circuit designers: (i) Headquartered in Taiwan or a destination specified in Country Group A:1 or A:5, that are neither located in nor have an ultimate parent headquartered in Macau or a destination specified in Country Group D:5 of supplement no. 1 to part 740 of the EAR; and (ii) That have agreed to submit applicable information described in § 743.9(b) to the “front-end fabricator,” which the “front-end fabricator” must then report to BIS. (3) After April 13, 2026, authorized integrated circuit designers include any integrated circuit designer that both meets the criteria specified in subparagraph (2) and has submitted an application to become an approved integrated circuit designer. However, any company deemed an authorized IC designer after April 13, 2026, will cease to be an authorized IC designer 180 days after the submission of its application to become an approved IC designer. b. If the integrated circuit die is packaged by the “front-end fabricator” at a location outside of Macau or a destination specified in Country Group D:5 in supplement no. 1 to part 740, then the attestation of the “front-end fabricator” that (a) the “aggregated approximated transistor count” of the final packaged IC is below 30 billion transistors, or (b) the final packaged IC does not contain high-bandwidth memory and that the “aggregated approximated transistor count” of the final packaged IC is below (i) 35 billion transistors for any exports, reexports, or transfers (in-country) completed in 2027; or (ii) 40 billion transistors for any exports, reexports, or transfers (in-country) completed in 2029 or thereafter, then this overcomes the presumption by the “front-end fabricator” or “OSAT” company that the IC is specified in ECCN 3A090.a. c. If the integrated circuit is packaged by an approved “OSAT” company listed in supplement no. 7 to part 740 of the EAR, then the attestation of the approved “OSAT” company that (a) the “aggregated approximated transistor count” of the final packaged IC is below 30 billion transistors, or (b) the final packaged IC does not contain high-bandwidth memory and that the “aggregated approximated transistor count” of the final packaged IC is below (i) 35 billion transistors for any exports, reexports, or transfers (in-country) completed in 2027; or (ii) 40 billion transistors for any exports, reexports, or transfers (in-country) completed in 2029 or thereafter, then this overcomes the presumption by the “front-end fabricator” or “OSAT” company that the IC is specified in ECCN 3A090.a. d. It is not sufficient for the “front-end fabricator” or “OSAT” company to confirm the ECCN by relying on the attestation of the end user or other party to the transaction, except under one of the three ways enumerated in paragraphs a. through c. of this note. In the absence of an attestation of the 'total processing performance' and the 'performance density' by an approved integrated circuit designer listed in supplement no. 6 to part 740 of the EAR, the “front-end fabricator” or “OSAT” company must presume that any logic integrated circuit produced using the “16/14 nanometer node” or below, or using a non-planar transistor architecture and destined for a commodity with an (a) “aggregated approximated transistor count” of the final packaged IC is below 30 billion transistors, or (b) the final packaged IC does not contain high-bandwidth memory and that the “aggregated approximated transistor count” of the final packaged IC is below (i) 35 billion transistors for any exports, reexports, or transfers (in-country) completed in 2027; or (ii) 40 billion transistors for any exports, reexports, or transfers (in-country) completed in 2029 or thereafter, or where the “aggregated approximated transistor count,” of the final, packaged integrated circuit cannot be confirmed by the “front-end fabricator,” or an approved “OSAT” company listed in supplement no. 7 to part 740 of the EAR, is specified in ECCN 3A090.a and designed or marketed for a datacenter.\nTechnical Note 1 to 3A090.a: The 'approximated transistor count' of a die is the 'transistor density' of the die multiplied by the area of the die measured in square millimeters. The 'transistor density' of the die is the number of transistors that can be fabricated per square millimeter for the process node used to manufacture the die. To calculate the number of 'approximated transistor count' of a die, a “front end fabricator” or “OSAT” company has two options. First, the “front end fabricator” or “OSAT” company may take the transistor density of the process node used to manufacture the die and multiply this density by the area of the die. This number may be significantly higher than the true transistor count, but if the result is below the relevant transistor threshold, then the “front end fabricator” or “OSAT” company can be confident that the die in question will not exceed that threshold. Second, to adjudicate edge cases, the “front end fabricator” or “OSAT” company may use standard design verification tools to estimate the number of (both active and passive) transistors on the die using the GDS file.",
+      "structure": {
+        "identifier": "3A090.a.2",
+        "heading": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+        "label": "3A090.a.2 – A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1 to 3A090.a:</I></HED>\n<P><I>When a “front-end fabricator” or “OSAT” company is seeking to export, reexport, or transfer (in-country) an “applicable advanced logic integrated circuit,” there is a presumption that the item is 3A090.a and designed or marketed for datacenters. If the “front-end fabricator” or “OSAT” company cannot overcome this presumption, then it must comply with all license requirements applicable to items specified in 3A090.a. However, this presumption does not apply to any entity other than the “front-end fabricator” or “OSAT” company. A “front-end fabricator” or “OSAT” company can overcome this presumption in any of the following three ways outlined in paragraphs a. through c. of this Note 1.</I></P>\n<P>a. <I>If the designer of the “applicable advanced logic integrated circuit” is an approved or authorized integrated circuit designer, then a datasheet or other attestation of the 'total processing performance' and the 'performance density' from the approved or authorized integrated circuit designer indicating that the IC is not specified in 3A090.a will overcome the presumption for the “front-end fabricator” or “OSAT” company that the IC is specified in ECCN 3A090.a.</I></P>\n<P><I>(1) Approved integrated circuit designers are listed in supplement no. 6 to this part of the EAR;</I></P>\n<P><I>(2) Prior to April 13, 2026, authorized integrated circuit designers include all integrated circuit designers:</I></P>\n<P><I>(i) Headquartered in Taiwan or a destination specified in Country Group A:1 or A:5, that are neither located in nor have an ultimate parent headquartered in Macau or a destination specified in Country Group D:5 of supplement no. 1 to part 740 of the EAR; and</I></P>\n<P><I>(ii) That have agreed to submit applicable information described in § 743.9(b) to the “front-end fabricator,” which the “front-end fabricator” must then report to BIS.</I></P>\n<P><I>(3) After April 13, 2026, authorized integrated circuit designers include any integrated circuit designer that both meets the criteria specified in subparagraph (2) and has submitted an application to become an approved integrated circuit designer. However, any company deemed an authorized IC designer after April 13, 2026, will cease to be an authorized IC designer 180 days after the submission of its application to become an approved IC designer.</I></P>\n<P><I>b. If the integrated circuit die is packaged by the “front-end fabricator” at a location outside of Macau or a destination specified in Country Group D:5 in supplement no. 1 to part 740, then the attestation of the “front-end fabricator” that (a) the “aggregated approximated transistor count” of the final packaged IC is below 30 billion transistors, or (b) the final packaged IC does not contain high-bandwidth memory and that the “aggregated approximated transistor count” of the final packaged IC is below (i) 35 billion transistors for any exports, reexports, or transfers (in-country) completed in 2027; or (ii) 40 billion transistors for any exports, reexports, or transfers (in-country) completed in 2029 or thereafter, then this overcomes the presumption by the “front-end fabricator” or “OSAT” company that the IC is specified in ECCN 3A090.a.</I></P>\n<P><I>c. If the integrated circuit is packaged by an approved “OSAT” company listed in supplement no. 7 to part 740 of the EAR, then the attestation of the approved “OSAT” company that (a) the “aggregated approximated transistor count” of the final packaged IC is below 30 billion transistors, or (b) the final packaged IC does not contain high-bandwidth memory and that the “aggregated approximated transistor count” of the final packaged IC is below (i) 35 billion transistors for any exports, reexports, or transfers (in-country) completed in 2027; or (ii) 40 billion transistors for any exports, reexports, or transfers (in-country) completed in 2029 or thereafter, then this overcomes the presumption by the “front-end fabricator” or “OSAT” company that the IC is specified in ECCN 3A090.a.</I></P>\n<P><I>d. It is not sufficient for the “front-end fabricator” or “OSAT” company to confirm the ECCN by relying on the attestation of the end user or other party to the transaction, except under one of the three ways enumerated in paragraphs a. through c. of this note. In the absence of an attestation of the 'total processing performance' and the 'performance density' by an approved integrated circuit designer listed in supplement no. 6 to part 740 of the EAR, the “front-end fabricator” or “OSAT” company must presume that any logic integrated circuit produced using the “16/14 nanometer node” or below, or using a non-planar transistor architecture and destined for a commodity with an (a) “aggregated approximated transistor count” of the final packaged IC is below 30 billion transistors, or (b) the final packaged IC does not contain high-bandwidth memory and that the “aggregated approximated transistor count” of the final packaged IC is below (i) 35 billion transistors for any exports, reexports, or transfers (in-country) completed in 2027; or (ii) 40 billion transistors for any exports, reexports, or transfers (in-country) completed in 2029 or thereafter, or where the “aggregated approximated transistor count,” of the final, packaged integrated circuit cannot be confirmed by the “front-end fabricator,” or an approved “OSAT” company listed in supplement no. 7 to part 740 of the EAR, is specified in ECCN 3A090.a and designed or marketed for a datacenter.</I></P></NOTE>",
+            "text": "Note 1 to 3A090.a: When a “front-end fabricator” or “OSAT” company is seeking to export, reexport, or transfer (in-country) an “applicable advanced logic integrated circuit,” there is a presumption that the item is 3A090.a and designed or marketed for datacenters. If the “front-end fabricator” or “OSAT” company cannot overcome this presumption, then it must comply with all license requirements applicable to items specified in 3A090.a. However, this presumption does not apply to any entity other than the “front-end fabricator” or “OSAT” company. A “front-end fabricator” or “OSAT” company can overcome this presumption in any of the following three ways outlined in paragraphs a. through c. of this Note 1. a. If the designer of the “applicable advanced logic integrated circuit” is an approved or authorized integrated circuit designer, then a datasheet or other attestation of the 'total processing performance' and the 'performance density' from the approved or authorized integrated circuit designer indicating that the IC is not specified in 3A090.a will overcome the presumption for the “front-end fabricator” or “OSAT” company that the IC is specified in ECCN 3A090.a. (1) Approved integrated circuit designers are listed in supplement no. 6 to this part of the EAR; (2) Prior to April 13, 2026, authorized integrated circuit designers include all integrated circuit designers: (i) Headquartered in Taiwan or a destination specified in Country Group A:1 or A:5, that are neither located in nor have an ultimate parent headquartered in Macau or a destination specified in Country Group D:5 of supplement no. 1 to part 740 of the EAR; and (ii) That have agreed to submit applicable information described in § 743.9(b) to the “front-end fabricator,” which the “front-end fabricator” must then report to BIS. (3) After April 13, 2026, authorized integrated circuit designers include any integrated circuit designer that both meets the criteria specified in subparagraph (2) and has submitted an application to become an approved integrated circuit designer. However, any company deemed an authorized IC designer after April 13, 2026, will cease to be an authorized IC designer 180 days after the submission of its application to become an approved IC designer. b. If the integrated circuit die is packaged by the “front-end fabricator” at a location outside of Macau or a destination specified in Country Group D:5 in supplement no. 1 to part 740, then the attestation of the “front-end fabricator” that (a) the “aggregated approximated transistor count” of the final packaged IC is below 30 billion transistors, or (b) the final packaged IC does not contain high-bandwidth memory and that the “aggregated approximated transistor count” of the final packaged IC is below (i) 35 billion transistors for any exports, reexports, or transfers (in-country) completed in 2027; or (ii) 40 billion transistors for any exports, reexports, or transfers (in-country) completed in 2029 or thereafter, then this overcomes the presumption by the “front-end fabricator” or “OSAT” company that the IC is specified in ECCN 3A090.a. c. If the integrated circuit is packaged by an approved “OSAT” company listed in supplement no. 7 to part 740 of the EAR, then the attestation of the approved “OSAT” company that (a) the “aggregated approximated transistor count” of the final packaged IC is below 30 billion transistors, or (b) the final packaged IC does not contain high-bandwidth memory and that the “aggregated approximated transistor count” of the final packaged IC is below (i) 35 billion transistors for any exports, reexports, or transfers (in-country) completed in 2027; or (ii) 40 billion transistors for any exports, reexports, or transfers (in-country) completed in 2029 or thereafter, then this overcomes the presumption by the “front-end fabricator” or “OSAT” company that the IC is specified in ECCN 3A090.a. d. It is not sufficient for the “front-end fabricator” or “OSAT” company to confirm the ECCN by relying on the attestation of the end user or other party to the transaction, except under one of the three ways enumerated in paragraphs a. through c. of this note. In the absence of an attestation of the 'total processing performance' and the 'performance density' by an approved integrated circuit designer listed in supplement no. 6 to part 740 of the EAR, the “front-end fabricator” or “OSAT” company must presume that any logic integrated circuit produced using the “16/14 nanometer node” or below, or using a non-planar transistor architecture and destined for a commodity with an (a) “aggregated approximated transistor count” of the final packaged IC is below 30 billion transistors, or (b) the final packaged IC does not contain high-bandwidth memory and that the “aggregated approximated transistor count” of the final packaged IC is below (i) 35 billion transistors for any exports, reexports, or transfers (in-country) completed in 2027; or (ii) 40 billion transistors for any exports, reexports, or transfers (in-country) completed in 2029 or thereafter, or where the “aggregated approximated transistor count,” of the final, packaged integrated circuit cannot be confirmed by the “front-end fabricator,” or an approved “OSAT” company listed in supplement no. 7 to part 740 of the EAR, is specified in ECCN 3A090.a and designed or marketed for a datacenter.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note 1 to 3A090.a:</I></HED>\n<P><I>The 'approximated transistor count' of a die is the 'transistor density' of the die multiplied by the area of the die measured in square millimeters. The 'transistor density' of the die is the number of transistors that can be fabricated per square millimeter for the process node used to manufacture the die. To calculate the number of 'approximated transistor count' of a die, a “front end fabricator” or “OSAT” company has two options. First, the “front end fabricator” or “OSAT” company may take the transistor density of the process node used to manufacture the die and multiply this density by the area of the die. This number may be significantly higher than the true transistor count, but if the result is below the relevant transistor threshold, then the “front end fabricator” or “OSAT” company can be confident that the die in question will not exceed that threshold. Second, to adjudicate edge cases, the “front end fabricator” or “OSAT” company may use standard design verification tools to estimate the number of (both active and passive) transistors on the die using the GDS file.</I></P></NOTE>",
+            "text": "Technical Note 1 to 3A090.a: The 'approximated transistor count' of a die is the 'transistor density' of the die multiplied by the area of the die measured in square millimeters. The 'transistor density' of the die is the number of transistors that can be fabricated per square millimeter for the process node used to manufacture the die. To calculate the number of 'approximated transistor count' of a die, a “front end fabricator” or “OSAT” company has two options. First, the “front end fabricator” or “OSAT” company may take the transistor density of the process node used to manufacture the die and multiply this density by the area of the die. This number may be significantly higher than the true transistor count, but if the result is below the relevant transistor threshold, then the “front end fabricator” or “OSAT” company can be confident that the die in question will not exceed that threshold. Second, to adjudicate edge cases, the “front end fabricator” or “OSAT” company may use standard design verification tools to estimate the number of (both active and passive) transistors on the die using the GDS file.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "title": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A090 Integrated circuits as follows (see List of Items Controlled).",
+        "Integrated circuits having one or more digital processing units having either of the following:"
+      ],
+      "ancestors": [
+        "3A090",
+        "3A090.a"
+      ],
+      "text": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "structure": {
+        "identifier": "3A090.a.2",
+        "heading": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+        "label": "3A090.a.2 – A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "title": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A090 Integrated circuits as follows (see List of Items Controlled).",
+        "Integrated circuits having one or more digital processing units having either of the following:"
+      ],
+      "ancestors": [
+        "3A090",
+        "3A090.a"
+      ],
+      "text": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+      "structure": {
+        "identifier": "3A090.a.2",
+        "heading": "A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+        "label": "3A090.a.2 – A 'total processing performance' of 1600 or more and a 'performance density' of 5.92 or more.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,1317 @@
+{
+  "eccn": "3B001.d.4.d",
+  "normalized": "3B001.D.4.D",
+  "history": [
+    {
+      "version": "2023-11-17",
+      "fetchedAt": "2025-10-02T20:33:43.584Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-11-17/title-15?format=xml",
+      "heading": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+      "title": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment or systems designed for multistep processing in multiple chambers or stations and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment between process steps, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d",
+        "3B001.d.4"
+      ],
+      "text": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:\nDeposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and\nd.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and\nDeposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature below 500 °C;\nd.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature below 500 °C;",
+      "structure": {
+        "identifier": "3B001.d.4.d",
+        "heading": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+        "label": "3B001.d.4.d – Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+        "children": [
+          {
+            "identifier": "3B001.d.4.d.1",
+            "heading": "Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+            "label": "3B001.d.4.d.1 – Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; <I>and</I></P>",
+                "text": "d.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.4.d.2",
+            "heading": "Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature below 500 °C;",
+            "label": "3B001.d.4.d.2 – Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature below 500 °C;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature below 500 °C;</P>",
+                "text": "d.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature below 500 °C;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2023-12-08",
+      "fetchedAt": "2025-10-02T20:33:43.980Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-12-08/title-15?format=xml",
+      "heading": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+      "title": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment or systems designed for multistep processing in multiple chambers or stations and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment between process steps, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d",
+        "3B001.d.4"
+      ],
+      "text": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:\nDeposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and\nd.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and\nDeposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature below 500 °C;\nd.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature below 500 °C;",
+      "structure": {
+        "identifier": "3B001.d.4.d",
+        "heading": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+        "label": "3B001.d.4.d – Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+        "children": [
+          {
+            "identifier": "3B001.d.4.d.1",
+            "heading": "Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+            "label": "3B001.d.4.d.1 – Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; <I>and</I></P>",
+                "text": "d.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.4.d.2",
+            "heading": "Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature below 500 °C;",
+            "label": "3B001.d.4.d.2 – Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature below 500 °C;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature below 500 °C;</P>",
+                "text": "d.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature below 500 °C;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-03-08",
+      "fetchedAt": "2025-10-02T20:33:44.401Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-08/title-15?format=xml",
+      "heading": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+      "title": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment or systems designed for multistep processing in multiple chambers or stations and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment between process steps, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d",
+        "3B001.d.4"
+      ],
+      "text": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:\nDeposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and\nd.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and\nDeposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature below 500 °C;\nd.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature below 500 °C;",
+      "structure": {
+        "identifier": "3B001.d.4.d",
+        "heading": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+        "label": "3B001.d.4.d – Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+        "children": [
+          {
+            "identifier": "3B001.d.4.d.1",
+            "heading": "Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+            "label": "3B001.d.4.d.1 – Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; <I>and</I></P>",
+                "text": "d.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.4.d.2",
+            "heading": "Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature below 500 °C;",
+            "label": "3B001.d.4.d.2 – Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature below 500 °C;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature below 500 °C;</P>",
+                "text": "d.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature below 500 °C;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-03-13",
+      "fetchedAt": "2025-10-02T20:33:44.826Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-13/title-15?format=xml",
+      "heading": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+      "title": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment or systems designed for multistep processing in multiple chambers or stations and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment between process steps, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d",
+        "3B001.d.4"
+      ],
+      "text": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:\nDeposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and\nd.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and\nDeposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature below 500 °C;\nd.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature below 500 °C;",
+      "structure": {
+        "identifier": "3B001.d.4.d",
+        "heading": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+        "label": "3B001.d.4.d – Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+        "children": [
+          {
+            "identifier": "3B001.d.4.d.1",
+            "heading": "Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+            "label": "3B001.d.4.d.1 – Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; <I>and</I></P>",
+                "text": "d.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.4.d.2",
+            "heading": "Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature below 500 °C;",
+            "label": "3B001.d.4.d.2 – Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature below 500 °C;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature below 500 °C;</P>",
+                "text": "d.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature below 500 °C;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-04-04",
+      "fetchedAt": "2025-10-02T20:33:45.229Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-04/title-15?format=xml",
+      "heading": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+      "title": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment or systems designed for multistep processing in multiple chambers or stations and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment between process steps, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d",
+        "3B001.d.4"
+      ],
+      "text": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:\nDeposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and\nd.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and\nDeposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;\nd.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+      "structure": {
+        "identifier": "3B001.d.4.d",
+        "heading": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+        "label": "3B001.d.4.d – Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+        "children": [
+          {
+            "identifier": "3B001.d.4.d.1",
+            "heading": "Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+            "label": "3B001.d.4.d.1 – Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; <I>and</I></P>",
+                "text": "d.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.4.d.2",
+            "heading": "Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+            "label": "3B001.d.4.d.2 – Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;</P>",
+                "text": "d.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-04-19",
+      "fetchedAt": "2025-10-02T20:33:45.630Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-19/title-15?format=xml",
+      "heading": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+      "title": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment or systems designed for multistep processing in multiple chambers or stations and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment between process steps, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d",
+        "3B001.d.4"
+      ],
+      "text": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:\nDeposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and\nd.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and\nDeposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;\nd.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+      "structure": {
+        "identifier": "3B001.d.4.d",
+        "heading": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+        "label": "3B001.d.4.d – Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+        "children": [
+          {
+            "identifier": "3B001.d.4.d.1",
+            "heading": "Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+            "label": "3B001.d.4.d.1 – Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; <I>and</I></P>",
+                "text": "d.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.4.d.2",
+            "heading": "Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+            "label": "3B001.d.4.d.2 – Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;</P>",
+                "text": "d.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-05-30",
+      "fetchedAt": "2025-10-02T20:33:46.051Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-05-30/title-15?format=xml",
+      "heading": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+      "title": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment or systems designed for multistep processing in multiple chambers or stations and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment between process steps, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d",
+        "3B001.d.4"
+      ],
+      "text": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:\nDeposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and\nd.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and\nDeposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;\nd.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+      "structure": {
+        "identifier": "3B001.d.4.d",
+        "heading": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+        "label": "3B001.d.4.d – Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+        "children": [
+          {
+            "identifier": "3B001.d.4.d.1",
+            "heading": "Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+            "label": "3B001.d.4.d.1 – Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; <I>and</I></P>",
+                "text": "d.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.4.d.2",
+            "heading": "Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+            "label": "3B001.d.4.d.2 – Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;</P>",
+                "text": "d.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-06-12",
+      "fetchedAt": "2025-10-02T20:33:46.460Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-06-12/title-15?format=xml",
+      "heading": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+      "title": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment or systems designed for multistep processing in multiple chambers or stations and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment between process steps, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d",
+        "3B001.d.4"
+      ],
+      "text": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:\nDeposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and\nd.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and\nDeposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;\nd.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+      "structure": {
+        "identifier": "3B001.d.4.d",
+        "heading": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+        "label": "3B001.d.4.d – Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+        "children": [
+          {
+            "identifier": "3B001.d.4.d.1",
+            "heading": "Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+            "label": "3B001.d.4.d.1 – Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; <I>and</I></P>",
+                "text": "d.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.4.d.2",
+            "heading": "Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+            "label": "3B001.d.4.d.2 – Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;</P>",
+                "text": "d.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-09-06",
+      "fetchedAt": "2025-10-02T20:33:46.879Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-09-06/title-15?format=xml",
+      "heading": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+      "title": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment or systems designed for multistep processing in multiple chambers or stations and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment between process steps, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d",
+        "3B001.d.4"
+      ],
+      "text": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:\nDeposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and\nd.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and\nDeposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;\nd.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+      "structure": {
+        "identifier": "3B001.d.4.d",
+        "heading": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+        "label": "3B001.d.4.d – Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+        "children": [
+          {
+            "identifier": "3B001.d.4.d.1",
+            "heading": "Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+            "label": "3B001.d.4.d.1 – Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; <I>and</I></P>",
+                "text": "d.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.4.d.2",
+            "heading": "Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+            "label": "3B001.d.4.d.2 – Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;</P>",
+                "text": "d.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-10-23",
+      "fetchedAt": "2025-10-02T20:33:47.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-10-23/title-15?format=xml",
+      "heading": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+      "title": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment or systems designed for multistep processing in multiple chambers or stations and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment between process steps, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d",
+        "3B001.d.4"
+      ],
+      "text": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:\nDeposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and\nd.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and\nDeposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;\nd.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+      "structure": {
+        "identifier": "3B001.d.4.d",
+        "heading": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+        "label": "3B001.d.4.d – Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+        "children": [
+          {
+            "identifier": "3B001.d.4.d.1",
+            "heading": "Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+            "label": "3B001.d.4.d.1 – Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; <I>and</I></P>",
+                "text": "d.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.4.d.2",
+            "heading": "Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+            "label": "3B001.d.4.d.2 – Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;</P>",
+                "text": "d.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-02",
+      "fetchedAt": "2025-10-02T20:33:47.757Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-02/title-15?format=xml",
+      "heading": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+      "title": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment or systems designed for multistep processing in multiple chambers or stations and maintaining high vacuum (equal to or less than 0.01 Pa) or inert environment between process steps, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d",
+        "3B001.d.4"
+      ],
+      "text": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:\nDeposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and\nd.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and\nDeposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;\nd.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+      "structure": {
+        "identifier": "3B001.d.4.d",
+        "heading": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+        "label": "3B001.d.4.d – Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+        "children": [
+          {
+            "identifier": "3B001.d.4.d.1",
+            "heading": "Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+            "label": "3B001.d.4.d.1 – Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; <I>and</I></P>",
+                "text": "d.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.4.d.2",
+            "heading": "Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+            "label": "3B001.d.4.d.2 – Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;</P>",
+                "text": "d.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+      "title": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment or systems designed for multistep processing in multiple chambers or stations, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d",
+        "3B001.d.4"
+      ],
+      "text": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:\nDeposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and\nd.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and\nDeposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;\nd.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+      "structure": {
+        "identifier": "3B001.d.4.d",
+        "heading": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+        "label": "3B001.d.4.d – Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+        "children": [
+          {
+            "identifier": "3B001.d.4.d.1",
+            "heading": "Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+            "label": "3B001.d.4.d.1 – Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; <I>and</I></P>",
+                "text": "d.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.4.d.2",
+            "heading": "Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+            "label": "3B001.d.4.d.2 – Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;</P>",
+                "text": "d.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+      "title": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment or systems designed for multistep processing in multiple chambers or stations, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d",
+        "3B001.d.4"
+      ],
+      "text": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:\nDeposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and\nd.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and\nDeposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;\nd.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+      "structure": {
+        "identifier": "3B001.d.4.d",
+        "heading": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+        "label": "3B001.d.4.d – Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+        "children": [
+          {
+            "identifier": "3B001.d.4.d.1",
+            "heading": "Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+            "label": "3B001.d.4.d.1 – Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; <I>and</I></P>",
+                "text": "d.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.4.d.2",
+            "heading": "Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+            "label": "3B001.d.4.d.2 – Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;</P>",
+                "text": "d.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+      "title": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment or systems designed for multistep processing in multiple chambers or stations, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d",
+        "3B001.d.4"
+      ],
+      "text": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:\nDeposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and\nd.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and\nDeposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;\nd.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+      "structure": {
+        "identifier": "3B001.d.4.d",
+        "heading": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+        "label": "3B001.d.4.d – Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+        "children": [
+          {
+            "identifier": "3B001.d.4.d.1",
+            "heading": "Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+            "label": "3B001.d.4.d.1 – Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; <I>and</I></P>",
+                "text": "d.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.4.d.2",
+            "heading": "Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+            "label": "3B001.d.4.d.2 – Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;</P>",
+                "text": "d.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+      "title": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment or systems designed for multistep processing in multiple chambers or stations, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d",
+        "3B001.d.4"
+      ],
+      "text": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:\nDeposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and\nd.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and\nDeposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;\nd.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+      "structure": {
+        "identifier": "3B001.d.4.d",
+        "heading": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+        "label": "3B001.d.4.d – Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+        "children": [
+          {
+            "identifier": "3B001.d.4.d.1",
+            "heading": "Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+            "label": "3B001.d.4.d.1 – Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; <I>and</I></P>",
+                "text": "d.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.4.d.2",
+            "heading": "Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+            "label": "3B001.d.4.d.2 – Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;</P>",
+                "text": "d.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+      "title": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment or systems designed for multistep processing in multiple chambers or stations, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d",
+        "3B001.d.4"
+      ],
+      "text": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:\nDeposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and\nd.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and\nDeposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;\nd.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+      "structure": {
+        "identifier": "3B001.d.4.d",
+        "heading": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+        "label": "3B001.d.4.d – Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+        "children": [
+          {
+            "identifier": "3B001.d.4.d.1",
+            "heading": "Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+            "label": "3B001.d.4.d.1 – Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; <I>and</I></P>",
+                "text": "d.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.4.d.2",
+            "heading": "Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+            "label": "3B001.d.4.d.2 – Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;</P>",
+                "text": "d.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+      "title": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment or systems designed for multistep processing in multiple chambers or stations, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d",
+        "3B001.d.4"
+      ],
+      "text": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:\nDeposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and\nd.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and\nDeposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;\nd.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+      "structure": {
+        "identifier": "3B001.d.4.d",
+        "heading": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+        "label": "3B001.d.4.d – Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+        "children": [
+          {
+            "identifier": "3B001.d.4.d.1",
+            "heading": "Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+            "label": "3B001.d.4.d.1 – Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; <I>and</I></P>",
+                "text": "d.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.4.d.2",
+            "heading": "Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+            "label": "3B001.d.4.d.2 – Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;</P>",
+                "text": "d.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+      "title": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment or systems designed for multistep processing in multiple chambers or stations, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d",
+        "3B001.d.4"
+      ],
+      "text": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:\nDeposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and\nd.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and\nDeposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;\nd.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+      "structure": {
+        "identifier": "3B001.d.4.d",
+        "heading": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+        "label": "3B001.d.4.d – Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+        "children": [
+          {
+            "identifier": "3B001.d.4.d.1",
+            "heading": "Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+            "label": "3B001.d.4.d.1 – Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; <I>and</I>\n</P>",
+                "text": "d.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.4.d.2",
+            "heading": "Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+            "label": "3B001.d.4.d.2 – Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;\n</P>",
+                "text": "d.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+      "title": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B001 Equipment for the manufacturing of semiconductor devices, materials, or related equipment, as follows (see List of Items Controlled) and “specially designed” “components” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:",
+        "Equipment or systems designed for multistep processing in multiple chambers or stations, as follows:"
+      ],
+      "ancestors": [
+        "3B001",
+        "3B001.d",
+        "3B001.d.4"
+      ],
+      "text": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:\nDeposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and\nd.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and\nDeposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;\nd.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+      "structure": {
+        "identifier": "3B001.d.4.d",
+        "heading": "Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+        "label": "3B001.d.4.d – Equipment designed to fabricate copper (Cu) interconnects by performing all of the following processes:",
+        "children": [
+          {
+            "identifier": "3B001.d.4.d.1",
+            "heading": "Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+            "label": "3B001.d.4.d.1 – Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; <I>and</I>\n</P>",
+                "text": "d.4.d.1. Deposition of a cobalt (Co) or ruthenium (Ru) layer using an organometallic compound and having a process pressure greater than 133.3 Pa and less than 13.33 kPa, while maintaining the wafer substrate at a temperature greater than 20 °C and less than 500 °C; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B001.d.4.d.2",
+            "heading": "Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+            "label": "3B001.d.4.d.2 – Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>d.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;\n</P>",
+                "text": "d.4.d.2. Deposition of a copper layer using a physical vapor deposition technique and having a process pressure greater than 133.3 mPa and less than 13.33 Pa, while maintaining the wafer substrate at a temperature below 500 °C;",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "eccn": "3A090.a.4",
+  "normalized": "3A090.A.4",
+  "history": [
+    {
+      "version": "2023-01-17",
+      "fetchedAt": "2025-10-02T20:33:41.990Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-01-17/title-15?format=xml",
+      "heading": "Any combination of digital processor units and 'primitive computational units' whose calculations according to 3A090.a.1, 3A090.a.2, and 3A090.a.3 sum to 4800 or more.",
+      "title": "Any combination of digital processor units and 'primitive computational units' whose calculations according to 3A090.a.1, 3A090.a.2, and 3A090.a.3 sum to 4800 or more.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3 - Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A090 Integrated circuits as follows (see List of Items Controlled).",
+        "Integrated circuits that have or are programmable to have an aggregate bidirectional transfer rate over all inputs and outputs of 600 Gbyte/s or more to or from integrated circuits other than volatile memories, and any of the following:"
+      ],
+      "ancestors": [
+        "3A090",
+        "3A090.a"
+      ],
+      "text": "Any combination of digital processor units and 'primitive computational units' whose calculations according to 3A090.a.1, 3A090.a.2, and 3A090.a.3 sum to 4800 or more.\nNote: Integrated circuits specified by 3A090.a include graphical processing units (GPUs), tensor processing units (TPUs), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, field-programmable logic devices (FPLDs), and application-specific integrated circuits (ASICs). Examples of integrated circuits are in the Note to 3A001.a.\nTechnical Notes: 1. A 'primitive computational unit' is defined as containing zero or more modifiable weights, receiving one or more inputs, and producing one or more outputs. A computational unit is said to perform 2N-1 operations whenever an output is updated based on N inputs, where each modifiable weight contained in the processing element counts as an input. Each input, weight, and output might be an analog signal level or a scalar digital value represented using one or more bits. Such units include: - Artificial neurons - Multiply accumulate (MAC) units - Floating-point units (FPUs) - Analog multiplier units - Processing units using memristors, spintronics, or magnonics - Processing units using photonics or non-linear optics - Processing units using analog or multi-level nonvolatile weights - Processing units using multi-level memory or analog memory - Multi-value units - Spiking units 2. Operations relevant to the calculation of TOPS for 3A090.a include both scalar operations and the scalar constituents of composite operations such as vector operations, matrix operations, and tensor operations. Scalar operations include integer operations, floating-point operations (often measured by FLOPS), fixed-point operations, bit-manipulation operations, and/or bitwise operations. 3. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 4. The rate of TOPS is to be calculated at its maximum value theoretically possible when all processing elements are operating simultaneously. The rate of TOPS and aggregate bidirectional transfer rate is assumed to be the highest value the manufacturer claims in a manual or brochure for the integrated circuit. For example, the threshold of 4800 bits x TOPS can be met with 600 tera integer operations at 8 bits or 300 tera FLOPS at 16 bits. The bit length of an operation is equal to the highest bit length of any input or output of that operation. Additionally, if an item specified by this entry is designed for operations that achieve different bits x TOPS value, the highest bits x TOPS value should be used for the purposes of 3A090.a. 5. For integrated circuits specified by 3A090.a that provide processing of both sparse and dense matrices, the TOPS values are the values for processing of dense matrices (e.g., without sparsity).",
+      "structure": {
+        "identifier": "3A090.a.4",
+        "heading": "Any combination of digital processor units and 'primitive computational units' whose calculations according to 3A090.a.1, 3A090.a.2, and 3A090.a.3 sum to 4800 or more.",
+        "label": "3A090.a.4 – Any combination of digital processor units and 'primitive computational units' whose calculations according to 3A090.a.1, 3A090.a.2, and 3A090.a.3 sum to 4800 or more.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>Integrated circuits specified by 3A090.a include graphical processing units (GPUs), tensor processing units (TPUs), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, field-programmable logic devices (FPLDs), and application-specific integrated circuits (ASICs). Examples of integrated circuits are in the Note to 3A001.a.</I></P></NOTE>",
+            "text": "Note: Integrated circuits specified by 3A090.a include graphical processing units (GPUs), tensor processing units (TPUs), neural processors, in-memory processors, vision processors, text processors, co-processors/accelerators, adaptive processors, field-programmable logic devices (FPLDs), and application-specific integrated circuits (ASICs). Examples of integrated circuits are in the Note to 3A001.a.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Notes:</I></HED>\n<P><I>1. A 'primitive computational unit' is defined as containing zero or more modifiable weights, receiving one or more inputs, and producing one or more outputs. A computational unit is said to perform 2N-1 operations whenever an output is updated based on N inputs, where each modifiable weight contained in the processing element counts as an input. Each input, weight, and output might be an analog signal level or a scalar digital value represented using one or more bits. Such units include:</I></P>\n<FP-1> - <I>Artificial neurons</I>\n</FP-1>\n<FP-1> - <I>Multiply accumulate (MAC) units</I>\n</FP-1>\n<FP-1> - <I>Floating-point units (FPUs)</I>\n</FP-1>\n<FP-1> - <I>Analog multiplier units</I>\n</FP-1>\n<FP-1> - <I>Processing units using memristors, spintronics, or magnonics</I>\n</FP-1>\n<FP-1> - <I>Processing units using photonics or non-linear optics</I>\n</FP-1>\n<FP-1> - <I>Processing units using analog or multi-level nonvolatile weights</I>\n</FP-1>\n<FP-1> - <I>Processing units using multi-level memory or analog memory</I>\n</FP-1>\n<FP-1> - <I>Multi-value units</I>\n</FP-1>\n<FP-1> - <I>Spiking units</I>\n</FP-1>\n<P><I>2. Operations relevant to the calculation of TOPS for 3A090.a include both scalar operations and the scalar constituents of composite operations such as vector operations, matrix operations, and tensor operations. Scalar operations include integer operations, floating-point operations (often measured by FLOPS), fixed-point operations, bit-manipulation operations, and/or bitwise operations.</I></P>\n<P><I>3. TOPS is Tera Operations Per Second or 10\n<SU>12</SU> Operations per Second.</I></P>\n<P><I>4. The rate of TOPS is to be calculated at its maximum value theoretically possible when all processing elements are operating simultaneously. The rate of TOPS and aggregate bidirectional transfer rate is assumed to be the highest value the manufacturer claims in a manual or brochure for the integrated circuit. For example, the threshold of 4800 bits x TOPS can be met with 600 tera integer operations at 8 bits or 300 tera FLOPS at 16 bits. The bit length of an operation is equal to the highest bit length of any input or output of that operation. Additionally, if an item specified by this entry is designed for operations that achieve different bits x TOPS value, the highest bits x TOPS value should be used for the purposes of 3A090.a.</I></P>\n<P><I>5. For integrated circuits specified by 3A090.a that provide processing of both sparse and dense matrices, the TOPS values are the values for processing of dense matrices (e.g., without sparsity).</I></P></NOTE>",
+            "text": "Technical Notes: 1. A 'primitive computational unit' is defined as containing zero or more modifiable weights, receiving one or more inputs, and producing one or more outputs. A computational unit is said to perform 2N-1 operations whenever an output is updated based on N inputs, where each modifiable weight contained in the processing element counts as an input. Each input, weight, and output might be an analog signal level or a scalar digital value represented using one or more bits. Such units include: - Artificial neurons - Multiply accumulate (MAC) units - Floating-point units (FPUs) - Analog multiplier units - Processing units using memristors, spintronics, or magnonics - Processing units using photonics or non-linear optics - Processing units using analog or multi-level nonvolatile weights - Processing units using multi-level memory or analog memory - Multi-value units - Spiking units 2. Operations relevant to the calculation of TOPS for 3A090.a include both scalar operations and the scalar constituents of composite operations such as vector operations, matrix operations, and tensor operations. Scalar operations include integer operations, floating-point operations (often measured by FLOPS), fixed-point operations, bit-manipulation operations, and/or bitwise operations. 3. TOPS is Tera Operations Per Second or 10 12 Operations per Second. 4. The rate of TOPS is to be calculated at its maximum value theoretically possible when all processing elements are operating simultaneously. The rate of TOPS and aggregate bidirectional transfer rate is assumed to be the highest value the manufacturer claims in a manual or brochure for the integrated circuit. For example, the threshold of 4800 bits x TOPS can be met with 600 tera integer operations at 8 bits or 300 tera FLOPS at 16 bits. The bit length of an operation is equal to the highest bit length of any input or output of that operation. Additionally, if an item specified by this entry is designed for operations that achieve different bits x TOPS value, the highest bits x TOPS value should be used for the purposes of 3A090.a. 5. For integrated circuits specified by 3A090.a that provide processing of both sparse and dense matrices, the TOPS values are the values for processing of dense matrices (e.g., without sparsity).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-02-24",
+      "fetchedAt": "2025-10-02T20:33:42.390Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-02-24/title-15?format=xml",
+      "heading": "Any combination of digital processor units and 'primitive computational units' whose calculations according to 3A090.a.1, 3A090.a.2, and 3A090.a.3 sum to 4800 or more.",
+      "title": "Any combination of digital processor units and 'primitive computational units' whose calculations according to 3A090.a.1, 3A090.a.2, and 3A090.a.3 sum to 4800 or more.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "3A090 Integrated circuits as follows (see List of Items Controlled).",
+        "Integrated circuits that have or are programmable to have an aggregate bidirectional transfer rate over all inputs and outputs of 600 Gbyte/s or more to or from integrated circuits other than volatile memories, and any of the following:"
+      ],
+      "ancestors": [
+        "3A090",
+        "3A090.a"
+      ],
+      "text": "Any combination of digital processor units and 'primitive computational units' whose calculations according to 3A090.a.1, 3A090.a.2, and 3A090.a.3 sum to 4800 or more.",
+      "structure": {
+        "identifier": "3A090.a.4",
+        "heading": "Any combination of digital processor units and 'primitive computational units' whose calculations according to 3A090.a.1, 3A090.a.2, and 3A090.a.3 sum to 4800 or more.",
+        "label": "3A090.a.4 – Any combination of digital processor units and 'primitive computational units' whose calculations according to 3A090.a.1, 3A090.a.2, and 3A090.a.3 sum to 4800 or more.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-08-18",
+      "fetchedAt": "2025-10-02T20:33:42.783Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-08-18/title-15?format=xml",
+      "heading": "Any combination of digital processor units and 'primitive computational units' whose calculations according to 3A090.a.1, 3A090.a.2, and 3A090.a.3 sum to 4800 or more.",
+      "title": "Any combination of digital processor units and 'primitive computational units' whose calculations according to 3A090.a.1, 3A090.a.2, and 3A090.a.3 sum to 4800 or more.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "3A090 Integrated circuits as follows (see List of Items Controlled).",
+        "Integrated circuits that have or are programmable to have an aggregate bidirectional transfer rate over all inputs and outputs of 600 Gbyte/s or more to or from integrated circuits other than volatile memories, and any of the following:"
+      ],
+      "ancestors": [
+        "3A090",
+        "3A090.a"
+      ],
+      "text": "Any combination of digital processor units and 'primitive computational units' whose calculations according to 3A090.a.1, 3A090.a.2, and 3A090.a.3 sum to 4800 or more.",
+      "structure": {
+        "identifier": "3A090.a.4",
+        "heading": "Any combination of digital processor units and 'primitive computational units' whose calculations according to 3A090.a.1, 3A090.a.2, and 3A090.a.3 sum to 4800 or more.",
+        "label": "3A090.a.4 – Any combination of digital processor units and 'primitive computational units' whose calculations according to 3A090.a.1, 3A090.a.2, and 3A090.a.3 sum to 4800 or more.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-10-18",
+      "fetchedAt": "2025-10-02T20:33:43.173Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-10-18/title-15?format=xml",
+      "heading": "Any combination of digital processor units and 'primitive computational units' whose calculations according to 3A090.a.1, 3A090.a.2, and 3A090.a.3 sum to 4800 or more.",
+      "title": "Any combination of digital processor units and 'primitive computational units' whose calculations according to 3A090.a.1, 3A090.a.2, and 3A090.a.3 sum to 4800 or more.",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A090 Integrated circuits as follows (see List of Items Controlled).",
+        "Integrated circuits that have or are programmable to have an aggregate bidirectional transfer rate over all inputs and outputs of 600 Gbyte/s or more to or from integrated circuits other than volatile memories, and any of the following:"
+      ],
+      "ancestors": [
+        "3A090",
+        "3A090.a"
+      ],
+      "text": "Any combination of digital processor units and 'primitive computational units' whose calculations according to 3A090.a.1, 3A090.a.2, and 3A090.a.3 sum to 4800 or more.",
+      "structure": {
+        "identifier": "3A090.a.4",
+        "heading": "Any combination of digital processor units and 'primitive computational units' whose calculations according to 3A090.a.1, 3A090.a.2, and 3A090.a.3 sum to 4800 or more.",
+        "label": "3A090.a.4 – Any combination of digital processor units and 'primitive computational units' whose calculations according to 3A090.a.1, 3A090.a.2, and 3A090.a.3 sum to 4800 or more.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

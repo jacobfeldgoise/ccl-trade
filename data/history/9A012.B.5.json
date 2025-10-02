@@ -1,0 +1,223 @@
+{
+  "eccn": "9A012.b.5",
+  "normalized": "9A012.B.5",
+  "history": [
+    {
+      "version": "2017-01-15",
+      "fetchedAt": "2025-10-02T20:33:28.357Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-15/title-15?format=xml",
+      "heading": "Pneumatic, hydraulic, mechanical, electro-optical, or electromechanical flight control systems (including fly-by-wire and fly-by-light systems) and attitude control equipment designed or modified for UAVs or drones controlled by ECCN 9A012., and capable of delivering at least 500 kilograms payload to a range of at least 300 km.",
+      "title": "Pneumatic, hydraulic, mechanical, electro-optical, or electromechanical flight control systems (including fly-by-wire and fly-by-light systems) and attitude control equipment designed or modified for UAVs or drones controlled by ECCN 9A012., and capable of delivering at least 500 kilograms payload to a range of at least 300 km.",
+      "category": "9",
+      "group": "9A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "9A012 Non-military “Unmanned Aerial Vehicles,” (“UAVs”), Unmanned “Airships”, Related Equipment and “Components”, as Follows (see List of Items Controlled).",
+        "Related equipment and “components”, as follows:"
+      ],
+      "ancestors": [
+        "9A012",
+        "9A012.b"
+      ],
+      "text": "Pneumatic, hydraulic, mechanical, electro-optical, or electromechanical flight control systems (including fly-by-wire and fly-by-light systems) and attitude control equipment designed or modified for UAVs or drones controlled by ECCN 9A012., and capable of delivering at least 500 kilograms payload to a range of at least 300 km.",
+      "structure": {
+        "identifier": "9A012.b.5",
+        "heading": "Pneumatic, hydraulic, mechanical, electro-optical, or electromechanical flight control systems (including fly-by-wire and fly-by-light systems) and attitude control equipment designed or modified for UAVs or drones controlled by ECCN 9A012., and capable of delivering at least 500 kilograms payload to a range of at least 300 km.",
+        "label": "9A012.b.5 – Pneumatic, hydraulic, mechanical, electro-optical, or electromechanical flight control systems (including fly-by-wire and fly-by-light systems) and attitude control equipment designed or modified for UAVs or drones controlled by ECCN 9A012., and capable of delivering at least 500 kilograms payload to a range of at least 300 km.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-07-07",
+      "fetchedAt": "2025-10-02T20:33:28.904Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-07-07/title-15?format=xml",
+      "heading": "Pneumatic, hydraulic, mechanical, electro-optical, or electromechanical flight control systems (including fly-by-wire and fly-by-light systems) and attitude control equipment designed or modified for UAVs or drones controlled by ECCN 9A012., and capable of delivering at least 500 kilograms payload to a range of at least 300 km.",
+      "title": "Pneumatic, hydraulic, mechanical, electro-optical, or electromechanical flight control systems (including fly-by-wire and fly-by-light systems) and attitude control equipment designed or modified for UAVs or drones controlled by ECCN 9A012., and capable of delivering at least 500 kilograms payload to a range of at least 300 km.",
+      "category": "9",
+      "group": "9A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "9A012 Non-military “Unmanned Aerial Vehicles,” (“UAVs”), Unmanned “Airships”, Related Equipment and “Components”, as Follows (see List of Items Controlled).",
+        "Related equipment and “components”, as follows:"
+      ],
+      "ancestors": [
+        "9A012",
+        "9A012.b"
+      ],
+      "text": "Pneumatic, hydraulic, mechanical, electro-optical, or electromechanical flight control systems (including fly-by-wire and fly-by-light systems) and attitude control equipment designed or modified for UAVs or drones controlled by ECCN 9A012., and capable of delivering at least 500 kilograms payload to a range of at least 300 km.",
+      "structure": {
+        "identifier": "9A012.b.5",
+        "heading": "Pneumatic, hydraulic, mechanical, electro-optical, or electromechanical flight control systems (including fly-by-wire and fly-by-light systems) and attitude control equipment designed or modified for UAVs or drones controlled by ECCN 9A012., and capable of delivering at least 500 kilograms payload to a range of at least 300 km.",
+        "label": "9A012.b.5 – Pneumatic, hydraulic, mechanical, electro-optical, or electromechanical flight control systems (including fly-by-wire and fly-by-light systems) and attitude control equipment designed or modified for UAVs or drones controlled by ECCN 9A012., and capable of delivering at least 500 kilograms payload to a range of at least 300 km.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-08-15",
+      "fetchedAt": "2025-10-02T20:33:29.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-08-15/title-15?format=xml",
+      "heading": "Pneumatic, hydraulic, mechanical, electro-optical, or electromechanical flight control systems (including fly-by-wire and fly-by-light systems) and attitude control equipment designed or modified for UAVs or drones controlled by ECCN 9A012., and capable of delivering at least 500 kilograms payload to a range of at least 300 km.",
+      "title": "Pneumatic, hydraulic, mechanical, electro-optical, or electromechanical flight control systems (including fly-by-wire and fly-by-light systems) and attitude control equipment designed or modified for UAVs or drones controlled by ECCN 9A012., and capable of delivering at least 500 kilograms payload to a range of at least 300 km.",
+      "category": "9",
+      "group": "9A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "9A012 Non-military “Unmanned Aerial Vehicles,” (“UAVs”), Unmanned “Airships”, Related Equipment and “Components”, as Follows (see List of Items Controlled).",
+        "Related equipment and “components”, as follows:"
+      ],
+      "ancestors": [
+        "9A012",
+        "9A012.b"
+      ],
+      "text": "Pneumatic, hydraulic, mechanical, electro-optical, or electromechanical flight control systems (including fly-by-wire and fly-by-light systems) and attitude control equipment designed or modified for UAVs or drones controlled by ECCN 9A012., and capable of delivering at least 500 kilograms payload to a range of at least 300 km.",
+      "structure": {
+        "identifier": "9A012.b.5",
+        "heading": "Pneumatic, hydraulic, mechanical, electro-optical, or electromechanical flight control systems (including fly-by-wire and fly-by-light systems) and attitude control equipment designed or modified for UAVs or drones controlled by ECCN 9A012., and capable of delivering at least 500 kilograms payload to a range of at least 300 km.",
+        "label": "9A012.b.5 – Pneumatic, hydraulic, mechanical, electro-optical, or electromechanical flight control systems (including fly-by-wire and fly-by-light systems) and attitude control equipment designed or modified for UAVs or drones controlled by ECCN 9A012., and capable of delivering at least 500 kilograms payload to a range of at least 300 km.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-12-27",
+      "fetchedAt": "2025-10-02T20:33:29.759Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-12-27/title-15?format=xml",
+      "heading": "Pneumatic, hydraulic, mechanical, electro-optical, or electromechanical flight control systems (including fly-by-wire and fly-by-light systems) and attitude control equipment designed or modified for UAVs or drones controlled by ECCN 9A012., and capable of delivering at least 500 kilograms payload to a range of at least 300 km.",
+      "title": "Pneumatic, hydraulic, mechanical, electro-optical, or electromechanical flight control systems (including fly-by-wire and fly-by-light systems) and attitude control equipment designed or modified for UAVs or drones controlled by ECCN 9A012., and capable of delivering at least 500 kilograms payload to a range of at least 300 km.",
+      "category": "9",
+      "group": "9A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "9A012 Non-military “Unmanned Aerial Vehicles,” (“UAVs”), Unmanned “Airships”, Related Equipment and “Components”, as Follows (see List of Items Controlled).",
+        "Related equipment and “components”, as follows:"
+      ],
+      "ancestors": [
+        "9A012",
+        "9A012.b"
+      ],
+      "text": "Pneumatic, hydraulic, mechanical, electro-optical, or electromechanical flight control systems (including fly-by-wire and fly-by-light systems) and attitude control equipment designed or modified for UAVs or drones controlled by ECCN 9A012., and capable of delivering at least 500 kilograms payload to a range of at least 300 km.",
+      "structure": {
+        "identifier": "9A012.b.5",
+        "heading": "Pneumatic, hydraulic, mechanical, electro-optical, or electromechanical flight control systems (including fly-by-wire and fly-by-light systems) and attitude control equipment designed or modified for UAVs or drones controlled by ECCN 9A012., and capable of delivering at least 500 kilograms payload to a range of at least 300 km.",
+        "label": "9A012.b.5 – Pneumatic, hydraulic, mechanical, electro-optical, or electromechanical flight control systems (including fly-by-wire and fly-by-light systems) and attitude control equipment designed or modified for UAVs or drones controlled by ECCN 9A012., and capable of delivering at least 500 kilograms payload to a range of at least 300 km.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-01-08",
+      "fetchedAt": "2025-10-02T20:33:30.194Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-01-08/title-15?format=xml",
+      "heading": "Pneumatic, hydraulic, mechanical, electro-optical, or electromechanical flight control systems (including fly-by-wire and fly-by-light systems) and attitude control equipment designed or modified for UAVs or drones controlled by ECCN 9A012., and capable of delivering at least 500 kilograms payload to a range of at least 300 km.",
+      "title": "Pneumatic, hydraulic, mechanical, electro-optical, or electromechanical flight control systems (including fly-by-wire and fly-by-light systems) and attitude control equipment designed or modified for UAVs or drones controlled by ECCN 9A012., and capable of delivering at least 500 kilograms payload to a range of at least 300 km.",
+      "category": "9",
+      "group": "9A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "9A012 Non-military “Unmanned Aerial Vehicles,” (“UAVs”), Unmanned “Airships”, Related Equipment and “Components”, as Follows (see List of Items Controlled).",
+        "Related equipment and “components”, as follows:"
+      ],
+      "ancestors": [
+        "9A012",
+        "9A012.b"
+      ],
+      "text": "Pneumatic, hydraulic, mechanical, electro-optical, or electromechanical flight control systems (including fly-by-wire and fly-by-light systems) and attitude control equipment designed or modified for UAVs or drones controlled by ECCN 9A012., and capable of delivering at least 500 kilograms payload to a range of at least 300 km.",
+      "structure": {
+        "identifier": "9A012.b.5",
+        "heading": "Pneumatic, hydraulic, mechanical, electro-optical, or electromechanical flight control systems (including fly-by-wire and fly-by-light systems) and attitude control equipment designed or modified for UAVs or drones controlled by ECCN 9A012., and capable of delivering at least 500 kilograms payload to a range of at least 300 km.",
+        "label": "9A012.b.5 – Pneumatic, hydraulic, mechanical, electro-optical, or electromechanical flight control systems (including fly-by-wire and fly-by-light systems) and attitude control equipment designed or modified for UAVs or drones controlled by ECCN 9A012., and capable of delivering at least 500 kilograms payload to a range of at least 300 km.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-04-02",
+      "fetchedAt": "2025-10-02T20:33:30.716Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-02/title-15?format=xml",
+      "heading": "Pneumatic, hydraulic, mechanical, electro-optical, or electromechanical flight control systems (including fly-by-wire and fly-by-light systems) and attitude control equipment designed or modified for UAVs or drones controlled by ECCN 9A012., and capable of delivering at least 500 kilograms payload to a range of at least 300 km.",
+      "title": "Pneumatic, hydraulic, mechanical, electro-optical, or electromechanical flight control systems (including fly-by-wire and fly-by-light systems) and attitude control equipment designed or modified for UAVs or drones controlled by ECCN 9A012., and capable of delivering at least 500 kilograms payload to a range of at least 300 km.",
+      "category": "9",
+      "group": "9A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "9A012 Non-military “Unmanned Aerial Vehicles,” (“UAVs”), Unmanned “Airships”, Related Equipment and “Components”, as Follows (see List of Items Controlled).",
+        "Related equipment and “components”, as follows:"
+      ],
+      "ancestors": [
+        "9A012",
+        "9A012.b"
+      ],
+      "text": "Pneumatic, hydraulic, mechanical, electro-optical, or electromechanical flight control systems (including fly-by-wire and fly-by-light systems) and attitude control equipment designed or modified for UAVs or drones controlled by ECCN 9A012., and capable of delivering at least 500 kilograms payload to a range of at least 300 km.",
+      "structure": {
+        "identifier": "9A012.b.5",
+        "heading": "Pneumatic, hydraulic, mechanical, electro-optical, or electromechanical flight control systems (including fly-by-wire and fly-by-light systems) and attitude control equipment designed or modified for UAVs or drones controlled by ECCN 9A012., and capable of delivering at least 500 kilograms payload to a range of at least 300 km.",
+        "label": "9A012.b.5 – Pneumatic, hydraulic, mechanical, electro-optical, or electromechanical flight control systems (including fly-by-wire and fly-by-light systems) and attitude control equipment designed or modified for UAVs or drones controlled by ECCN 9A012., and capable of delivering at least 500 kilograms payload to a range of at least 300 km.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-04-05",
+      "fetchedAt": "2025-10-02T20:33:31.145Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-05/title-15?format=xml",
+      "heading": "Pneumatic, hydraulic, mechanical, electro-optical, or electromechanical flight control systems (including fly-by-wire and fly-by-light systems) and attitude control equipment designed or modified for UAVs or drones controlled by ECCN 9A012., and capable of delivering at least 500 kilograms payload to a range of at least 300 km.",
+      "title": "Pneumatic, hydraulic, mechanical, electro-optical, or electromechanical flight control systems (including fly-by-wire and fly-by-light systems) and attitude control equipment designed or modified for UAVs or drones controlled by ECCN 9A012., and capable of delivering at least 500 kilograms payload to a range of at least 300 km.",
+      "category": "9",
+      "group": "9A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "9A012 Non-military “Unmanned Aerial Vehicles,” (“UAVs”), Unmanned “Airships”, Related Equipment and “Components”, as Follows (see List of Items Controlled).",
+        "Related equipment and “components”, as follows:"
+      ],
+      "ancestors": [
+        "9A012",
+        "9A012.b"
+      ],
+      "text": "Pneumatic, hydraulic, mechanical, electro-optical, or electromechanical flight control systems (including fly-by-wire and fly-by-light systems) and attitude control equipment designed or modified for UAVs or drones controlled by ECCN 9A012., and capable of delivering at least 500 kilograms payload to a range of at least 300 km.",
+      "structure": {
+        "identifier": "9A012.b.5",
+        "heading": "Pneumatic, hydraulic, mechanical, electro-optical, or electromechanical flight control systems (including fly-by-wire and fly-by-light systems) and attitude control equipment designed or modified for UAVs or drones controlled by ECCN 9A012., and capable of delivering at least 500 kilograms payload to a range of at least 300 km.",
+        "label": "9A012.b.5 – Pneumatic, hydraulic, mechanical, electro-optical, or electromechanical flight control systems (including fly-by-wire and fly-by-light systems) and attitude control equipment designed or modified for UAVs or drones controlled by ECCN 9A012., and capable of delivering at least 500 kilograms payload to a range of at least 300 km.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

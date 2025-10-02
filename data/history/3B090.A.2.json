@@ -1,0 +1,130 @@
+{
+  "eccn": "3B090.a.2",
+  "normalized": "3B090.A.2",
+  "history": [
+    {
+      "version": "2023-01-17",
+      "fetchedAt": "2025-10-02T20:33:41.990Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-01-17/title-15?format=xml",
+      "heading": "Chemical vapor deposition equipment capable of deposition of cobalt or tungsten fill metal having a void/seam having a largest dimension less than or equal to 3 nm in the fill metal using a bottom-up fill process.",
+      "title": "Chemical vapor deposition equipment capable of deposition of cobalt or tungsten fill metal having a void/seam having a largest dimension less than or equal to 3 nm in the fill metal using a bottom-up fill process.",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B090 Semiconductor manufacturing equipment, not Controlled by 3B001, as follows (see List of Items Controlled) and “specially designed” “parts,” “components,” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:"
+      ],
+      "ancestors": [
+        "3B090",
+        "3B090.a"
+      ],
+      "text": "Chemical vapor deposition equipment capable of deposition of cobalt or tungsten fill metal having a void/seam having a largest dimension less than or equal to 3 nm in the fill metal using a bottom-up fill process.",
+      "structure": {
+        "identifier": "3B090.a.2",
+        "heading": "Chemical vapor deposition equipment capable of deposition of cobalt or tungsten fill metal having a void/seam having a largest dimension less than or equal to 3 nm in the fill metal using a bottom-up fill process.",
+        "label": "3B090.a.2 – Chemical vapor deposition equipment capable of deposition of cobalt or tungsten fill metal having a void/seam having a largest dimension less than or equal to 3 nm in the fill metal using a bottom-up fill process.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-02-24",
+      "fetchedAt": "2025-10-02T20:33:42.390Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-02-24/title-15?format=xml",
+      "heading": "Chemical vapor deposition equipment capable of deposition of cobalt or tungsten fill metal having a void/seam having a largest dimension less than or equal to 3 nm in the fill metal using a bottom-up fill process.",
+      "title": "Chemical vapor deposition equipment capable of deposition of cobalt or tungsten fill metal having a void/seam having a largest dimension less than or equal to 3 nm in the fill metal using a bottom-up fill process.",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B090 Semiconductor manufacturing equipment, not controlled by 3B001, as follows (see List of Items Controlled) and “specially designed” “parts,” “components,” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:"
+      ],
+      "ancestors": [
+        "3B090",
+        "3B090.a"
+      ],
+      "text": "Chemical vapor deposition equipment capable of deposition of cobalt or tungsten fill metal having a void/seam having a largest dimension less than or equal to 3 nm in the fill metal using a bottom-up fill process.",
+      "structure": {
+        "identifier": "3B090.a.2",
+        "heading": "Chemical vapor deposition equipment capable of deposition of cobalt or tungsten fill metal having a void/seam having a largest dimension less than or equal to 3 nm in the fill metal using a bottom-up fill process.",
+        "label": "3B090.a.2 – Chemical vapor deposition equipment capable of deposition of cobalt or tungsten fill metal having a void/seam having a largest dimension less than or equal to 3 nm in the fill metal using a bottom-up fill process.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-08-18",
+      "fetchedAt": "2025-10-02T20:33:42.783Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-08-18/title-15?format=xml",
+      "heading": "Chemical vapor deposition equipment capable of deposition of cobalt or tungsten fill metal having a void/seam having a largest dimension less than or equal to 3 nm in the fill metal using a bottom-up fill process.",
+      "title": "Chemical vapor deposition equipment capable of deposition of cobalt or tungsten fill metal having a void/seam having a largest dimension less than or equal to 3 nm in the fill metal using a bottom-up fill process.",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B090 Semiconductor manufacturing equipment, not controlled by 3B001, as follows (see List of Items Controlled) and “specially designed” “parts,” “components,” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:"
+      ],
+      "ancestors": [
+        "3B090",
+        "3B090.a"
+      ],
+      "text": "Chemical vapor deposition equipment capable of deposition of cobalt or tungsten fill metal having a void/seam having a largest dimension less than or equal to 3 nm in the fill metal using a bottom-up fill process.",
+      "structure": {
+        "identifier": "3B090.a.2",
+        "heading": "Chemical vapor deposition equipment capable of deposition of cobalt or tungsten fill metal having a void/seam having a largest dimension less than or equal to 3 nm in the fill metal using a bottom-up fill process.",
+        "label": "3B090.a.2 – Chemical vapor deposition equipment capable of deposition of cobalt or tungsten fill metal having a void/seam having a largest dimension less than or equal to 3 nm in the fill metal using a bottom-up fill process.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-10-18",
+      "fetchedAt": "2025-10-02T20:33:43.173Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-10-18/title-15?format=xml",
+      "heading": "Chemical vapor deposition equipment capable of deposition of cobalt or tungsten fill metal having a void/seam having a largest dimension less than or equal to 3 nm in the fill metal using a bottom-up fill process.",
+      "title": "Chemical vapor deposition equipment capable of deposition of cobalt or tungsten fill metal having a void/seam having a largest dimension less than or equal to 3 nm in the fill metal using a bottom-up fill process.",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B090 Semiconductor manufacturing equipment, not controlled by 3B001, as follows (see List of Items Controlled) and “specially designed” “parts,” “components,” and “accessories” therefor.",
+        "Semiconductor manufacturing deposition equipment, as follows:"
+      ],
+      "ancestors": [
+        "3B090",
+        "3B090.a"
+      ],
+      "text": "Chemical vapor deposition equipment capable of deposition of cobalt or tungsten fill metal having a void/seam having a largest dimension less than or equal to 3 nm in the fill metal using a bottom-up fill process.",
+      "structure": {
+        "identifier": "3B090.a.2",
+        "heading": "Chemical vapor deposition equipment capable of deposition of cobalt or tungsten fill metal having a void/seam having a largest dimension less than or equal to 3 nm in the fill metal using a bottom-up fill process.",
+        "label": "3B090.a.2 – Chemical vapor deposition equipment capable of deposition of cobalt or tungsten fill metal having a void/seam having a largest dimension less than or equal to 3 nm in the fill metal using a bottom-up fill process.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

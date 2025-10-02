@@ -1,0 +1,39 @@
+{
+  "eccn": "0A001",
+  "normalized": "0A001",
+  "history": [
+    {
+      "version": "2024-01-01",
+      "fetchedAt": "2025-10-02T20:33:44.024Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-01-01/title-15?format=xml",
+      "heading": "0A001 Example descriptive entry for demonstration purposes.",
+      "title": "Example descriptive entry for demonstration purposes.",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "5",
+        "heading": "Supplement No. 5 to Part 774—Items Classified Under ECCNs and Other Reasons for Control"
+      },
+      "breadcrumbs": [],
+      "ancestors": [],
+      "text": "0A001 Example descriptive entry for demonstration purposes.\nECCN Description 0A001 Example descriptive entry for demonstration purposes.",
+      "structure": {
+        "identifier": "0A001",
+        "heading": "0A001 Example descriptive entry for demonstration purposes.",
+        "label": "0A001 – 0A001 Example descriptive entry for demonstration purposes.",
+        "content": [
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<table class=\"supplement-table supplement-5-table\"><THEAD>\n          <TR>\n            <TH>ECCN</TH>\n            <TH>Description</TH>\n          </TR>\n        </THEAD><tbody><TR>\n            <TD>0A001</TD>\n            <TD>Example descriptive entry for demonstration purposes.</TD>\n          </TR></tbody></table>",
+            "text": null,
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

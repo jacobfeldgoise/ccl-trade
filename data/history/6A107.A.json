@@ -1,0 +1,1176 @@
+{
+  "eccn": "6A107.a",
+  "normalized": "6A107.A",
+  "history": [
+    {
+      "version": "2023-12-08",
+      "fetchedAt": "2025-10-02T20:33:43.980Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-12-08/title-15?format=xml",
+      "heading": "Gravity meters having all of the following characteristics:",
+      "title": "Gravity meters having all of the following characteristics:",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A107 Gravity meters (gravimeters) or gravity gradiometers, other than those controlled by 6A007, designed or modified for airborne or marine use, as follows, (see List of Items Controlled) and “specially designed” “parts” and “components” therefor."
+      ],
+      "ancestors": [
+        "6A107"
+      ],
+      "text": "Gravity meters having all of the following characteristics:\nA static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and\na.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and\nA 'time to steady-state registration' of two minutes or less.\na.2. A 'time to steady-state registration' of two minutes or less.",
+      "structure": {
+        "identifier": "6A107.a",
+        "heading": "Gravity meters having all of the following characteristics:",
+        "label": "6A107.a – Gravity meters having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "6A107.a.1",
+            "heading": "A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+            "label": "6A107.a.1 – A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); <I>and</I></P>",
+                "text": "a.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "6A107.a.2",
+            "heading": "A 'time to steady-state registration' of two minutes or less.",
+            "label": "6A107.a.2 – A 'time to steady-state registration' of two minutes or less.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. A 'time to steady-state registration' of two minutes or less.</P>",
+                "text": "a.2. A 'time to steady-state registration' of two minutes or less.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-03-08",
+      "fetchedAt": "2025-10-02T20:33:44.401Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-08/title-15?format=xml",
+      "heading": "Gravity meters having all of the following characteristics:",
+      "title": "Gravity meters having all of the following characteristics:",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A107 Gravity meters (gravimeters) or gravity gradiometers, other than those controlled by 6A007, designed or modified for airborne or marine use, as follows, (see List of Items Controlled) and “specially designed” “parts” and “components” therefor."
+      ],
+      "ancestors": [
+        "6A107"
+      ],
+      "text": "Gravity meters having all of the following characteristics:\nA static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and\na.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and\nA 'time to steady-state registration' of two minutes or less.\na.2. A 'time to steady-state registration' of two minutes or less.",
+      "structure": {
+        "identifier": "6A107.a",
+        "heading": "Gravity meters having all of the following characteristics:",
+        "label": "6A107.a – Gravity meters having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "6A107.a.1",
+            "heading": "A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+            "label": "6A107.a.1 – A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); <I>and</I></P>",
+                "text": "a.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "6A107.a.2",
+            "heading": "A 'time to steady-state registration' of two minutes or less.",
+            "label": "6A107.a.2 – A 'time to steady-state registration' of two minutes or less.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. A 'time to steady-state registration' of two minutes or less.</P>",
+                "text": "a.2. A 'time to steady-state registration' of two minutes or less.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-03-13",
+      "fetchedAt": "2025-10-02T20:33:44.826Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-13/title-15?format=xml",
+      "heading": "Gravity meters having all of the following characteristics:",
+      "title": "Gravity meters having all of the following characteristics:",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A107 Gravity meters (gravimeters) or gravity gradiometers, other than those controlled by 6A007, designed or modified for airborne or marine use, as follows, (see List of Items Controlled) and “specially designed” “parts” and “components” therefor."
+      ],
+      "ancestors": [
+        "6A107"
+      ],
+      "text": "Gravity meters having all of the following characteristics:\nA static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and\na.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and\nA 'time to steady-state registration' of two minutes or less.\na.2. A 'time to steady-state registration' of two minutes or less.",
+      "structure": {
+        "identifier": "6A107.a",
+        "heading": "Gravity meters having all of the following characteristics:",
+        "label": "6A107.a – Gravity meters having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "6A107.a.1",
+            "heading": "A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+            "label": "6A107.a.1 – A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); <I>and</I></P>",
+                "text": "a.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "6A107.a.2",
+            "heading": "A 'time to steady-state registration' of two minutes or less.",
+            "label": "6A107.a.2 – A 'time to steady-state registration' of two minutes or less.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. A 'time to steady-state registration' of two minutes or less.</P>",
+                "text": "a.2. A 'time to steady-state registration' of two minutes or less.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-04-04",
+      "fetchedAt": "2025-10-02T20:33:45.229Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-04/title-15?format=xml",
+      "heading": "Gravity meters having all of the following characteristics:",
+      "title": "Gravity meters having all of the following characteristics:",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A107 Gravity meters (gravimeters) or gravity gradiometers, other than those controlled by 6A007, designed or modified for airborne or marine use, as follows, (see List of Items Controlled) and “specially designed” “parts” and “components” therefor."
+      ],
+      "ancestors": [
+        "6A107"
+      ],
+      "text": "Gravity meters having all of the following characteristics:\nA static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and\na.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and\nA 'time to steady-state registration' of two minutes or less.\na.2. A 'time to steady-state registration' of two minutes or less.",
+      "structure": {
+        "identifier": "6A107.a",
+        "heading": "Gravity meters having all of the following characteristics:",
+        "label": "6A107.a – Gravity meters having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "6A107.a.1",
+            "heading": "A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+            "label": "6A107.a.1 – A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); <I>and</I></P>",
+                "text": "a.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "6A107.a.2",
+            "heading": "A 'time to steady-state registration' of two minutes or less.",
+            "label": "6A107.a.2 – A 'time to steady-state registration' of two minutes or less.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. A 'time to steady-state registration' of two minutes or less.</P>",
+                "text": "a.2. A 'time to steady-state registration' of two minutes or less.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-04-19",
+      "fetchedAt": "2025-10-02T20:33:45.630Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-19/title-15?format=xml",
+      "heading": "Gravity meters having all of the following characteristics:",
+      "title": "Gravity meters having all of the following characteristics:",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A107 Gravity meters (gravimeters) or gravity gradiometers, other than those controlled by 6A007, designed or modified for airborne or marine use, as follows, (see List of Items Controlled) and “specially designed” “parts” and “components” therefor."
+      ],
+      "ancestors": [
+        "6A107"
+      ],
+      "text": "Gravity meters having all of the following characteristics:\nA static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and\na.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and\nA 'time to steady-state registration' of two minutes or less.\na.2. A 'time to steady-state registration' of two minutes or less.",
+      "structure": {
+        "identifier": "6A107.a",
+        "heading": "Gravity meters having all of the following characteristics:",
+        "label": "6A107.a – Gravity meters having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "6A107.a.1",
+            "heading": "A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+            "label": "6A107.a.1 – A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); <I>and</I></P>",
+                "text": "a.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "6A107.a.2",
+            "heading": "A 'time to steady-state registration' of two minutes or less.",
+            "label": "6A107.a.2 – A 'time to steady-state registration' of two minutes or less.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. A 'time to steady-state registration' of two minutes or less.</P>",
+                "text": "a.2. A 'time to steady-state registration' of two minutes or less.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-05-30",
+      "fetchedAt": "2025-10-02T20:33:46.051Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-05-30/title-15?format=xml",
+      "heading": "Gravity meters having all of the following characteristics:",
+      "title": "Gravity meters having all of the following characteristics:",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A107 Gravity meters (gravimeters) or gravity gradiometers, other than those controlled by 6A007, designed or modified for airborne or marine use, as follows, (see List of Items Controlled) and “specially designed” “parts” and “components” therefor."
+      ],
+      "ancestors": [
+        "6A107"
+      ],
+      "text": "Gravity meters having all of the following characteristics:\nA static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and\na.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and\nA 'time to steady-state registration' of two minutes or less.\na.2. A 'time to steady-state registration' of two minutes or less.",
+      "structure": {
+        "identifier": "6A107.a",
+        "heading": "Gravity meters having all of the following characteristics:",
+        "label": "6A107.a – Gravity meters having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "6A107.a.1",
+            "heading": "A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+            "label": "6A107.a.1 – A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); <I>and</I></P>",
+                "text": "a.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "6A107.a.2",
+            "heading": "A 'time to steady-state registration' of two minutes or less.",
+            "label": "6A107.a.2 – A 'time to steady-state registration' of two minutes or less.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. A 'time to steady-state registration' of two minutes or less.</P>",
+                "text": "a.2. A 'time to steady-state registration' of two minutes or less.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-06-12",
+      "fetchedAt": "2025-10-02T20:33:46.460Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-06-12/title-15?format=xml",
+      "heading": "Gravity meters having all of the following characteristics:",
+      "title": "Gravity meters having all of the following characteristics:",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A107 Gravity meters (gravimeters) or gravity gradiometers, other than those controlled by 6A007, designed or modified for airborne or marine use, as follows, (see List of Items Controlled) and “specially designed” “parts” and “components” therefor."
+      ],
+      "ancestors": [
+        "6A107"
+      ],
+      "text": "Gravity meters having all of the following characteristics:\nA static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and\na.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and\nA 'time to steady-state registration' of two minutes or less.\na.2. A 'time to steady-state registration' of two minutes or less.",
+      "structure": {
+        "identifier": "6A107.a",
+        "heading": "Gravity meters having all of the following characteristics:",
+        "label": "6A107.a – Gravity meters having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "6A107.a.1",
+            "heading": "A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+            "label": "6A107.a.1 – A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); <I>and</I></P>",
+                "text": "a.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "6A107.a.2",
+            "heading": "A 'time to steady-state registration' of two minutes or less.",
+            "label": "6A107.a.2 – A 'time to steady-state registration' of two minutes or less.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. A 'time to steady-state registration' of two minutes or less.</P>",
+                "text": "a.2. A 'time to steady-state registration' of two minutes or less.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-09-06",
+      "fetchedAt": "2025-10-02T20:33:46.879Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-09-06/title-15?format=xml",
+      "heading": "Gravity meters having all of the following characteristics:",
+      "title": "Gravity meters having all of the following characteristics:",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A107 Gravity meters (gravimeters) or gravity gradiometers, other than those controlled by 6A007, designed or modified for airborne or marine use, as follows, (see List of Items Controlled) and “specially designed” “parts” and “components” therefor."
+      ],
+      "ancestors": [
+        "6A107"
+      ],
+      "text": "Gravity meters having all of the following characteristics:\nA static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and\na.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and\nA 'time to steady-state registration' of two minutes or less.\na.2. A 'time to steady-state registration' of two minutes or less.",
+      "structure": {
+        "identifier": "6A107.a",
+        "heading": "Gravity meters having all of the following characteristics:",
+        "label": "6A107.a – Gravity meters having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "6A107.a.1",
+            "heading": "A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+            "label": "6A107.a.1 – A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); <I>and</I></P>",
+                "text": "a.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "6A107.a.2",
+            "heading": "A 'time to steady-state registration' of two minutes or less.",
+            "label": "6A107.a.2 – A 'time to steady-state registration' of two minutes or less.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. A 'time to steady-state registration' of two minutes or less.</P>",
+                "text": "a.2. A 'time to steady-state registration' of two minutes or less.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-10-23",
+      "fetchedAt": "2025-10-02T20:33:47.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-10-23/title-15?format=xml",
+      "heading": "Gravity meters having all of the following characteristics:",
+      "title": "Gravity meters having all of the following characteristics:",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A107 Gravity meters (gravimeters) or gravity gradiometers, other than those controlled by 6A007, designed or modified for airborne or marine use, as follows, (see List of Items Controlled) and “specially designed” “parts” and “components” therefor."
+      ],
+      "ancestors": [
+        "6A107"
+      ],
+      "text": "Gravity meters having all of the following characteristics:\nA static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and\na.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and\nA 'time to steady-state registration' of two minutes or less.\na.2. A 'time to steady-state registration' of two minutes or less.",
+      "structure": {
+        "identifier": "6A107.a",
+        "heading": "Gravity meters having all of the following characteristics:",
+        "label": "6A107.a – Gravity meters having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "6A107.a.1",
+            "heading": "A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+            "label": "6A107.a.1 – A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); <I>and</I></P>",
+                "text": "a.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "6A107.a.2",
+            "heading": "A 'time to steady-state registration' of two minutes or less.",
+            "label": "6A107.a.2 – A 'time to steady-state registration' of two minutes or less.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. A 'time to steady-state registration' of two minutes or less.</P>",
+                "text": "a.2. A 'time to steady-state registration' of two minutes or less.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-02",
+      "fetchedAt": "2025-10-02T20:33:47.757Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-02/title-15?format=xml",
+      "heading": "Gravity meters having all of the following characteristics:",
+      "title": "Gravity meters having all of the following characteristics:",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A107 Gravity meters (gravimeters) or gravity gradiometers, other than those controlled by 6A007, designed or modified for airborne or marine use, as follows, (see List of Items Controlled) and “specially designed” “parts” and “components” therefor."
+      ],
+      "ancestors": [
+        "6A107"
+      ],
+      "text": "Gravity meters having all of the following characteristics:\nA static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and\na.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and\nA 'time to steady-state registration' of two minutes or less.\na.2. A 'time to steady-state registration' of two minutes or less.",
+      "structure": {
+        "identifier": "6A107.a",
+        "heading": "Gravity meters having all of the following characteristics:",
+        "label": "6A107.a – Gravity meters having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "6A107.a.1",
+            "heading": "A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+            "label": "6A107.a.1 – A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); <I>and</I></P>",
+                "text": "a.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "6A107.a.2",
+            "heading": "A 'time to steady-state registration' of two minutes or less.",
+            "label": "6A107.a.2 – A 'time to steady-state registration' of two minutes or less.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. A 'time to steady-state registration' of two minutes or less.</P>",
+                "text": "a.2. A 'time to steady-state registration' of two minutes or less.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "Gravity meters having all of the following characteristics:",
+      "title": "Gravity meters having all of the following characteristics:",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A107 Gravity meters (gravimeters) or gravity gradiometers, other than those controlled by 6A007, designed or modified for airborne or marine use, as follows, (see List of Items Controlled) and “specially designed” “parts” and “components” therefor."
+      ],
+      "ancestors": [
+        "6A107"
+      ],
+      "text": "Gravity meters having all of the following characteristics:\nA static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and\na.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and\nA 'time to steady-state registration' of two minutes or less.\na.2. A 'time to steady-state registration' of two minutes or less.",
+      "structure": {
+        "identifier": "6A107.a",
+        "heading": "Gravity meters having all of the following characteristics:",
+        "label": "6A107.a – Gravity meters having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "6A107.a.1",
+            "heading": "A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+            "label": "6A107.a.1 – A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); <I>and</I></P>",
+                "text": "a.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "6A107.a.2",
+            "heading": "A 'time to steady-state registration' of two minutes or less.",
+            "label": "6A107.a.2 – A 'time to steady-state registration' of two minutes or less.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. A 'time to steady-state registration' of two minutes or less.</P>",
+                "text": "a.2. A 'time to steady-state registration' of two minutes or less.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "Gravity meters having all of the following characteristics:",
+      "title": "Gravity meters having all of the following characteristics:",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A107 Gravity meters (gravimeters) or gravity gradiometers, other than those controlled by 6A007, designed or modified for airborne or marine use, as follows, (see List of Items Controlled) and “specially designed” “parts” and “components” therefor."
+      ],
+      "ancestors": [
+        "6A107"
+      ],
+      "text": "Gravity meters having all of the following characteristics:\nA static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and\na.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and\nA 'time to steady-state registration' of two minutes or less.\na.2. A 'time to steady-state registration' of two minutes or less.",
+      "structure": {
+        "identifier": "6A107.a",
+        "heading": "Gravity meters having all of the following characteristics:",
+        "label": "6A107.a – Gravity meters having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "6A107.a.1",
+            "heading": "A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+            "label": "6A107.a.1 – A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); <I>and</I></P>",
+                "text": "a.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "6A107.a.2",
+            "heading": "A 'time to steady-state registration' of two minutes or less.",
+            "label": "6A107.a.2 – A 'time to steady-state registration' of two minutes or less.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. A 'time to steady-state registration' of two minutes or less.</P>",
+                "text": "a.2. A 'time to steady-state registration' of two minutes or less.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "Gravity meters having all of the following characteristics:",
+      "title": "Gravity meters having all of the following characteristics:",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A107 Gravity meters (gravimeters) or gravity gradiometers, other than those controlled by 6A007, designed or modified for airborne or marine use, as follows, (see List of Items Controlled) and “specially designed” “parts” and “components” therefor."
+      ],
+      "ancestors": [
+        "6A107"
+      ],
+      "text": "Gravity meters having all of the following characteristics:\nA static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and\na.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and\nA 'time to steady-state registration' of two minutes or less.\na.2. A 'time to steady-state registration' of two minutes or less.",
+      "structure": {
+        "identifier": "6A107.a",
+        "heading": "Gravity meters having all of the following characteristics:",
+        "label": "6A107.a – Gravity meters having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "6A107.a.1",
+            "heading": "A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+            "label": "6A107.a.1 – A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); <I>and</I></P>",
+                "text": "a.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "6A107.a.2",
+            "heading": "A 'time to steady-state registration' of two minutes or less.",
+            "label": "6A107.a.2 – A 'time to steady-state registration' of two minutes or less.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. A 'time to steady-state registration' of two minutes or less.</P>",
+                "text": "a.2. A 'time to steady-state registration' of two minutes or less.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "Gravity meters having all of the following characteristics:",
+      "title": "Gravity meters having all of the following characteristics:",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A107 Gravity meters (gravimeters) or gravity gradiometers, other than those controlled by 6A007, designed or modified for airborne or marine use, as follows, (see List of Items Controlled) and “specially designed” “parts” and “components” therefor."
+      ],
+      "ancestors": [
+        "6A107"
+      ],
+      "text": "Gravity meters having all of the following characteristics:\nA static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and\na.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and\nA 'time to steady-state registration' of two minutes or less.\na.2. A 'time to steady-state registration' of two minutes or less.",
+      "structure": {
+        "identifier": "6A107.a",
+        "heading": "Gravity meters having all of the following characteristics:",
+        "label": "6A107.a – Gravity meters having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "6A107.a.1",
+            "heading": "A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+            "label": "6A107.a.1 – A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); <I>and</I></P>",
+                "text": "a.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "6A107.a.2",
+            "heading": "A 'time to steady-state registration' of two minutes or less.",
+            "label": "6A107.a.2 – A 'time to steady-state registration' of two minutes or less.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. A 'time to steady-state registration' of two minutes or less.</P>",
+                "text": "a.2. A 'time to steady-state registration' of two minutes or less.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "Gravity meters having all of the following characteristics:",
+      "title": "Gravity meters having all of the following characteristics:",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A107 Gravity meters (gravimeters) or gravity gradiometers, other than those controlled by 6A007, designed or modified for airborne or marine use, as follows, (see List of Items Controlled) and “specially designed” “parts” and “components” therefor."
+      ],
+      "ancestors": [
+        "6A107"
+      ],
+      "text": "Gravity meters having all of the following characteristics:\nA static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and\na.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and\nA 'time to steady-state registration' of two minutes or less.\na.2. A 'time to steady-state registration' of two minutes or less.",
+      "structure": {
+        "identifier": "6A107.a",
+        "heading": "Gravity meters having all of the following characteristics:",
+        "label": "6A107.a – Gravity meters having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "6A107.a.1",
+            "heading": "A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+            "label": "6A107.a.1 – A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); <I>and</I></P>",
+                "text": "a.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "6A107.a.2",
+            "heading": "A 'time to steady-state registration' of two minutes or less.",
+            "label": "6A107.a.2 – A 'time to steady-state registration' of two minutes or less.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. A 'time to steady-state registration' of two minutes or less.</P>",
+                "text": "a.2. A 'time to steady-state registration' of two minutes or less.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "Gravity meters having all of the following characteristics:",
+      "title": "Gravity meters having all of the following characteristics:",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A107 Gravity meters (gravimeters) or gravity gradiometers, other than those controlled by 6A007, designed or modified for airborne or marine use, as follows, (see List of Items Controlled) and “specially designed” “parts” and “components” therefor."
+      ],
+      "ancestors": [
+        "6A107"
+      ],
+      "text": "Gravity meters having all of the following characteristics:\nA static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and\na.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and\nA 'time to steady-state registration' of two minutes or less.\na.2. A 'time to steady-state registration' of two minutes or less.",
+      "structure": {
+        "identifier": "6A107.a",
+        "heading": "Gravity meters having all of the following characteristics:",
+        "label": "6A107.a – Gravity meters having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "6A107.a.1",
+            "heading": "A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+            "label": "6A107.a.1 – A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); <I>and</I></P>",
+                "text": "a.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "6A107.a.2",
+            "heading": "A 'time to steady-state registration' of two minutes or less.",
+            "label": "6A107.a.2 – A 'time to steady-state registration' of two minutes or less.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. A 'time to steady-state registration' of two minutes or less.</P>",
+                "text": "a.2. A 'time to steady-state registration' of two minutes or less.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "Gravity meters having all of the following characteristics:",
+      "title": "Gravity meters having all of the following characteristics:",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A107 Gravity meters (gravimeters) or gravity gradiometers, other than those controlled by 6A007, designed or modified for airborne or marine use, as follows, (see List of Items Controlled) and “specially designed” “parts” and “components” therefor."
+      ],
+      "ancestors": [
+        "6A107"
+      ],
+      "text": "Gravity meters having all of the following characteristics:\nA static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and\na.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and\nA 'time to steady-state registration' of two minutes or less.\na.2. A 'time to steady-state registration' of two minutes or less.",
+      "structure": {
+        "identifier": "6A107.a",
+        "heading": "Gravity meters having all of the following characteristics:",
+        "label": "6A107.a – Gravity meters having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "6A107.a.1",
+            "heading": "A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+            "label": "6A107.a.1 – A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); <I>and</I>\n</P>",
+                "text": "a.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "6A107.a.2",
+            "heading": "A 'time to steady-state registration' of two minutes or less.",
+            "label": "6A107.a.2 – A 'time to steady-state registration' of two minutes or less.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. A 'time to steady-state registration' of two minutes or less.\n</P>",
+                "text": "a.2. A 'time to steady-state registration' of two minutes or less.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "Gravity meters having all of the following characteristics:",
+      "title": "Gravity meters having all of the following characteristics:",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A107 Gravity meters (gravimeters) or gravity gradiometers, other than those controlled by 6A007, designed or modified for airborne or marine use, as follows, (see List of Items Controlled) and “specially designed” “parts” and “components” therefor."
+      ],
+      "ancestors": [
+        "6A107"
+      ],
+      "text": "Gravity meters having all of the following characteristics:\nA static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and\na.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and\nA 'time to steady-state registration' of two minutes or less.\na.2. A 'time to steady-state registration' of two minutes or less.",
+      "structure": {
+        "identifier": "6A107.a",
+        "heading": "Gravity meters having all of the following characteristics:",
+        "label": "6A107.a – Gravity meters having all of the following characteristics:",
+        "children": [
+          {
+            "identifier": "6A107.a.1",
+            "heading": "A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+            "label": "6A107.a.1 – A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); <I>and</I>\n</P>",
+                "text": "a.1. A static or operational accuracy equal to or less (better) than 0.7 milligal (mgal); and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "6A107.a.2",
+            "heading": "A 'time to steady-state registration' of two minutes or less.",
+            "label": "6A107.a.2 – A 'time to steady-state registration' of two minutes or less.",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>a.2. A 'time to steady-state registration' of two minutes or less.\n</P>",
+                "text": "a.2. A 'time to steady-state registration' of two minutes or less.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,766 @@
+{
+  "eccn": "1C003.a",
+  "normalized": "1C003.A",
+  "history": [
+    {
+      "version": "2023-10-18",
+      "fetchedAt": "2025-10-02T20:33:43.173Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-10-18/title-15?format=xml",
+      "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "title": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C003 Magnetic metals, of all types and of whatever form, having any of the following (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C003"
+      ],
+      "text": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;\nTechnical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+      "structure": {
+        "identifier": "1C003.a",
+        "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "label": "1C003.a – Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-11-17",
+      "fetchedAt": "2025-10-02T20:33:43.584Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-11-17/title-15?format=xml",
+      "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "title": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C003 Magnetic metals, of all types and of whatever form, having any of the following (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C003"
+      ],
+      "text": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;\nTechnical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+      "structure": {
+        "identifier": "1C003.a",
+        "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "label": "1C003.a – Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-12-08",
+      "fetchedAt": "2025-10-02T20:33:43.980Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-12-08/title-15?format=xml",
+      "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "title": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C003 Magnetic metals, of all types and of whatever form, having any of the following (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C003"
+      ],
+      "text": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;\nTechnical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+      "structure": {
+        "identifier": "1C003.a",
+        "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "label": "1C003.a – Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-03-08",
+      "fetchedAt": "2025-10-02T20:33:44.401Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-08/title-15?format=xml",
+      "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "title": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C003 Magnetic metals, of all types and of whatever form, having any of the following (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C003"
+      ],
+      "text": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;\nTechnical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+      "structure": {
+        "identifier": "1C003.a",
+        "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "label": "1C003.a – Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-03-13",
+      "fetchedAt": "2025-10-02T20:33:44.826Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-13/title-15?format=xml",
+      "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "title": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C003 Magnetic metals, of all types and of whatever form, having any of the following (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C003"
+      ],
+      "text": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;\nTechnical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+      "structure": {
+        "identifier": "1C003.a",
+        "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "label": "1C003.a – Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-04-04",
+      "fetchedAt": "2025-10-02T20:33:45.229Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-04/title-15?format=xml",
+      "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "title": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C003 Magnetic metals, of all types and of whatever form, having any of the following (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C003"
+      ],
+      "text": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;\nTechnical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+      "structure": {
+        "identifier": "1C003.a",
+        "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "label": "1C003.a – Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-04-19",
+      "fetchedAt": "2025-10-02T20:33:45.630Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-19/title-15?format=xml",
+      "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "title": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C003 Magnetic metals, of all types and of whatever form, having any of the following (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C003"
+      ],
+      "text": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;\nTechnical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+      "structure": {
+        "identifier": "1C003.a",
+        "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "label": "1C003.a – Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-05-30",
+      "fetchedAt": "2025-10-02T20:33:46.051Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-05-30/title-15?format=xml",
+      "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "title": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C003 Magnetic metals, of all types and of whatever form, having any of the following (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C003"
+      ],
+      "text": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;\nTechnical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+      "structure": {
+        "identifier": "1C003.a",
+        "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "label": "1C003.a – Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-06-12",
+      "fetchedAt": "2025-10-02T20:33:46.460Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-06-12/title-15?format=xml",
+      "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "title": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C003 Magnetic metals, of all types and of whatever form, having any of the following (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C003"
+      ],
+      "text": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;\nTechnical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+      "structure": {
+        "identifier": "1C003.a",
+        "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "label": "1C003.a – Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-09-06",
+      "fetchedAt": "2025-10-02T20:33:46.879Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-09-06/title-15?format=xml",
+      "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "title": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C003 Magnetic metals, of all types and of whatever form, having any of the following (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C003"
+      ],
+      "text": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;\nTechnical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+      "structure": {
+        "identifier": "1C003.a",
+        "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "label": "1C003.a – Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-10-23",
+      "fetchedAt": "2025-10-02T20:33:47.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-10-23/title-15?format=xml",
+      "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "title": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C003 Magnetic metals, of all types and of whatever form, having any of the following (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C003"
+      ],
+      "text": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;\nTechnical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+      "structure": {
+        "identifier": "1C003.a",
+        "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "label": "1C003.a – Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-02",
+      "fetchedAt": "2025-10-02T20:33:47.757Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-02/title-15?format=xml",
+      "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "title": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C003 Magnetic metals, of all types and of whatever form, having any of the following (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C003"
+      ],
+      "text": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;\nTechnical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+      "structure": {
+        "identifier": "1C003.a",
+        "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "label": "1C003.a – Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "title": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C003 Magnetic metals, of all types and of whatever form, having any of the following (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C003"
+      ],
+      "text": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;\nTechnical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+      "structure": {
+        "identifier": "1C003.a",
+        "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "label": "1C003.a – Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "title": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "1C003 Magnetic metals, of all types and of whatever form, having any of the following (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C003"
+      ],
+      "text": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;\nTechnical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+      "structure": {
+        "identifier": "1C003.a",
+        "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "label": "1C003.a – Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "title": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "1C003 Magnetic metals, of all types and of whatever form, having any of the following (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C003"
+      ],
+      "text": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;\nTechnical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+      "structure": {
+        "identifier": "1C003.a",
+        "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "label": "1C003.a – Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "title": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "1C003 Magnetic metals, of all types and of whatever form, having any of the following (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C003"
+      ],
+      "text": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;\nTechnical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+      "structure": {
+        "identifier": "1C003.a",
+        "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "label": "1C003.a – Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "title": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "1C003 Magnetic metals, of all types and of whatever form, having any of the following (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C003"
+      ],
+      "text": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;\nTechnical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+      "structure": {
+        "identifier": "1C003.a",
+        "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "label": "1C003.a – Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "title": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "1C003 Magnetic metals, of all types and of whatever form, having any of the following (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C003"
+      ],
+      "text": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;\nTechnical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+      "structure": {
+        "identifier": "1C003.a",
+        "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "label": "1C003.a – Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "title": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "1C003 Magnetic metals, of all types and of whatever form, having any of the following (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C003"
+      ],
+      "text": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;\nTechnical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+      "structure": {
+        "identifier": "1C003.a",
+        "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "label": "1C003.a – Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "title": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "1C003 Magnetic metals, of all types and of whatever form, having any of the following (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C003"
+      ],
+      "text": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;\nTechnical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+      "structure": {
+        "identifier": "1C003.a",
+        "heading": "Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "label": "1C003.a – Initial relative permeability of 120,000 or more and a thickness of 0.05 mm or less;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of 1C003.a, measurement of initial relative permeability must be performed on fully annealed materials.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

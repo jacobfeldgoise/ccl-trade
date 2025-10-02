@@ -1,0 +1,403 @@
+{
+  "eccn": "3A001.z.3",
+  "normalized": "3A001.Z.3",
+  "history": [
+    {
+      "version": "2024-04-04",
+      "fetchedAt": "2025-10-02T20:33:45.229Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-04/title-15?format=xml",
+      "heading": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090; or",
+      "title": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090; or",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Any commodity described in 3A001 that meets or exceeds the performance parameters in 3A090, as follows:"
+      ],
+      "ancestors": [
+        "3A001.z"
+      ],
+      "text": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090; or",
+      "structure": {
+        "identifier": "3A001.z.3",
+        "heading": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090; or",
+        "label": "3A001.z.3 – Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090; or",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-04-19",
+      "fetchedAt": "2025-10-02T20:33:45.630Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-19/title-15?format=xml",
+      "heading": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090; or",
+      "title": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090; or",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Any commodity described in 3A001 that meets or exceeds the performance parameters in 3A090, as follows:"
+      ],
+      "ancestors": [
+        "3A001.z"
+      ],
+      "text": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090; or",
+      "structure": {
+        "identifier": "3A001.z.3",
+        "heading": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090; or",
+        "label": "3A001.z.3 – Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090; or",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-05-30",
+      "fetchedAt": "2025-10-02T20:33:46.051Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-05-30/title-15?format=xml",
+      "heading": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090; or",
+      "title": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090; or",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Any commodity described in 3A001 that meets or exceeds the performance parameters in 3A090, as follows:"
+      ],
+      "ancestors": [
+        "3A001.z"
+      ],
+      "text": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090; or",
+      "structure": {
+        "identifier": "3A001.z.3",
+        "heading": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090; or",
+        "label": "3A001.z.3 – Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090; or",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-06-12",
+      "fetchedAt": "2025-10-02T20:33:46.460Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-06-12/title-15?format=xml",
+      "heading": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090; or",
+      "title": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090; or",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Any commodity described in 3A001 that meets or exceeds the performance parameters in 3A090, as follows:"
+      ],
+      "ancestors": [
+        "3A001.z"
+      ],
+      "text": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090; or",
+      "structure": {
+        "identifier": "3A001.z.3",
+        "heading": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090; or",
+        "label": "3A001.z.3 – Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090; or",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-09-06",
+      "fetchedAt": "2025-10-02T20:33:46.879Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-09-06/title-15?format=xml",
+      "heading": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090;",
+      "title": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Any commodity described in 3A001 that meets or exceeds the performance parameters in 3A090, as follows:"
+      ],
+      "ancestors": [
+        "3A001.z"
+      ],
+      "text": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090;\nor",
+      "structure": {
+        "identifier": "3A001.z.3",
+        "heading": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090;",
+        "label": "3A001.z.3 – Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>or</I></P>",
+            "text": "or",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-10-23",
+      "fetchedAt": "2025-10-02T20:33:47.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-10-23/title-15?format=xml",
+      "heading": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090;",
+      "title": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Any commodity described in 3A001 that meets or exceeds the performance parameters in 3A090, as follows:"
+      ],
+      "ancestors": [
+        "3A001.z"
+      ],
+      "text": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090;\nor",
+      "structure": {
+        "identifier": "3A001.z.3",
+        "heading": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090;",
+        "label": "3A001.z.3 – Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>or</I></P>",
+            "text": "or",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-02",
+      "fetchedAt": "2025-10-02T20:33:47.757Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-02/title-15?format=xml",
+      "heading": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090;",
+      "title": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Any commodity described in 3A001 that meets or exceeds the performance parameters in 3A090, as follows:"
+      ],
+      "ancestors": [
+        "3A001.z"
+      ],
+      "text": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090;\nor",
+      "structure": {
+        "identifier": "3A001.z.3",
+        "heading": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090;",
+        "label": "3A001.z.3 – Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>or</I></P>",
+            "text": "or",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090;",
+      "title": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Any commodity described in 3A001 that meets or exceeds the performance parameters in 3A090, as follows:"
+      ],
+      "ancestors": [
+        "3A001.z"
+      ],
+      "text": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090;\nor",
+      "structure": {
+        "identifier": "3A001.z.3",
+        "heading": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090;",
+        "label": "3A001.z.3 – Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>or</I></P>",
+            "text": "or",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090;",
+      "title": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Any commodity described in 3A001 that meets or exceeds the performance parameters in 3A090, as follows:"
+      ],
+      "ancestors": [
+        "3A001.z"
+      ],
+      "text": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090;\nor",
+      "structure": {
+        "identifier": "3A001.z.3",
+        "heading": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090;",
+        "label": "3A001.z.3 – Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>or</I></P>",
+            "text": "or",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090;",
+      "title": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Any commodity described in 3A001 that meets or exceeds the performance parameters in 3A090, as follows:"
+      ],
+      "ancestors": [
+        "3A001.z"
+      ],
+      "text": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090;\nor",
+      "structure": {
+        "identifier": "3A001.z.3",
+        "heading": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090;",
+        "label": "3A001.z.3 – Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>or</I></P>",
+            "text": "or",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090;",
+      "title": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090;",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Any commodity described in 3A001 that meets or exceeds the performance parameters in 3A090, as follows:"
+      ],
+      "ancestors": [
+        "3A001.z"
+      ],
+      "text": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090;\nor",
+      "structure": {
+        "identifier": "3A001.z.3",
+        "heading": "Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090;",
+        "label": "3A001.z.3 – Pulse discharge capacitors described in 3A001.e.2 and superconducting solenoidal electromagnets in 3A001.e.3 that meet or exceed the technical parameters in 3A201.a and 3A201.b, respectively and that also meet or exceed the performance parameters in ECCN 3A090;",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>or</I></P>",
+            "text": "or",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

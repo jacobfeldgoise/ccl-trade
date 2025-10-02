@@ -1,0 +1,161 @@
+{
+  "eccn": "1C353.b.1",
+  "normalized": "1C353.B.1",
+  "history": [
+    {
+      "version": "2017-01-15",
+      "fetchedAt": "2025-10-02T20:33:28.357Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-15/title-15?format=xml",
+      "heading": "Genetically modified organisms that contain nucleic acid sequences associated with the pathogenicity of microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354;",
+      "title": "Genetically modified organisms that contain nucleic acid sequences associated with the pathogenicity of microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354;",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C353 Genetic elements and genetically modified organisms, as follows (see List of Items Controlled).",
+        "Genetically modified organisms, as follows:"
+      ],
+      "ancestors": [
+        "1C353",
+        "1C353.b"
+      ],
+      "text": "Genetically modified organisms that contain nucleic acid sequences associated with the pathogenicity of microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354;",
+      "structure": {
+        "identifier": "1C353.b.1",
+        "heading": "Genetically modified organisms that contain nucleic acid sequences associated with the pathogenicity of microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354;",
+        "label": "1C353.b.1 – Genetically modified organisms that contain nucleic acid sequences associated with the pathogenicity of microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-07-07",
+      "fetchedAt": "2025-10-02T20:33:28.904Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-07-07/title-15?format=xml",
+      "heading": "Genetically modified organisms that contain nucleic acid sequences associated with the pathogenicity of microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354;",
+      "title": "Genetically modified organisms that contain nucleic acid sequences associated with the pathogenicity of microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354;",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C353 Genetic elements and genetically modified organisms, as follows (see List of Items Controlled).",
+        "Genetically modified organisms, as follows:"
+      ],
+      "ancestors": [
+        "1C353",
+        "1C353.b"
+      ],
+      "text": "Genetically modified organisms that contain nucleic acid sequences associated with the pathogenicity of microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354;",
+      "structure": {
+        "identifier": "1C353.b.1",
+        "heading": "Genetically modified organisms that contain nucleic acid sequences associated with the pathogenicity of microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354;",
+        "label": "1C353.b.1 – Genetically modified organisms that contain nucleic acid sequences associated with the pathogenicity of microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-08-15",
+      "fetchedAt": "2025-10-02T20:33:29.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-08-15/title-15?format=xml",
+      "heading": "Genetically modified organisms that contain nucleic acid sequences associated with the pathogenicity of microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354;",
+      "title": "Genetically modified organisms that contain nucleic acid sequences associated with the pathogenicity of microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354;",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "1C353 Genetic elements and genetically modified organisms, as follows (see List of Items Controlled).",
+        "Genetically modified organisms, as follows:"
+      ],
+      "ancestors": [
+        "1C353",
+        "1C353.b"
+      ],
+      "text": "Genetically modified organisms that contain nucleic acid sequences associated with the pathogenicity of microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354;",
+      "structure": {
+        "identifier": "1C353.b.1",
+        "heading": "Genetically modified organisms that contain nucleic acid sequences associated with the pathogenicity of microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354;",
+        "label": "1C353.b.1 – Genetically modified organisms that contain nucleic acid sequences associated with the pathogenicity of microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-12-27",
+      "fetchedAt": "2025-10-02T20:33:29.759Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-12-27/title-15?format=xml",
+      "heading": "Genetically modified organisms that contain nucleic acid sequences associated with the pathogenicity of microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354;",
+      "title": "Genetically modified organisms that contain nucleic acid sequences associated with the pathogenicity of microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354;",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "1C353 Genetic elements and genetically modified organisms, as follows (see List of Items Controlled).",
+        "Genetically modified organisms, as follows:"
+      ],
+      "ancestors": [
+        "1C353",
+        "1C353.b"
+      ],
+      "text": "Genetically modified organisms that contain nucleic acid sequences associated with the pathogenicity of microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354;",
+      "structure": {
+        "identifier": "1C353.b.1",
+        "heading": "Genetically modified organisms that contain nucleic acid sequences associated with the pathogenicity of microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354;",
+        "label": "1C353.b.1 – Genetically modified organisms that contain nucleic acid sequences associated with the pathogenicity of microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-01-08",
+      "fetchedAt": "2025-10-02T20:33:30.194Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-01-08/title-15?format=xml",
+      "heading": "Genetically modified organisms that contain nucleic acid sequences associated with the pathogenicity of microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354;",
+      "title": "Genetically modified organisms that contain nucleic acid sequences associated with the pathogenicity of microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354;",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "1C353 Genetic elements and genetically modified organisms, as follows (see List of Items Controlled).",
+        "Genetically modified organisms, as follows:"
+      ],
+      "ancestors": [
+        "1C353",
+        "1C353.b"
+      ],
+      "text": "Genetically modified organisms that contain nucleic acid sequences associated with the pathogenicity of microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354;",
+      "structure": {
+        "identifier": "1C353.b.1",
+        "heading": "Genetically modified organisms that contain nucleic acid sequences associated with the pathogenicity of microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354;",
+        "label": "1C353.b.1 – Genetically modified organisms that contain nucleic acid sequences associated with the pathogenicity of microorganisms controlled by 1C351.a, 1C351.b, 1C351.c or 1C354;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

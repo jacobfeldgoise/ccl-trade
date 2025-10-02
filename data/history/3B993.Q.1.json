@@ -1,0 +1,1102 @@
+{
+  "eccn": "3B993.q.1",
+  "normalized": "3B993.Q.1",
+  "history": [
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:",
+      "title": "Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls).",
+        "Inspection and metrology equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.q"
+      ],
+      "text": "Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:\nDesigned or modified to detect defects having a size equal to or less than 21 nm; and\nq.1.a. Designed or modified to detect defects having a size equal to or less than 21 nm; and\nHaving any of the following:\nq.1.b. Having any of the following:\nA light source with an optical wavelength less than 400 nm;\nq.1.b.1. A light source with an optical wavelength less than 400 nm;\nAn electron-beam source with a resolution less (better) than or equal to 1.65 nm;\nq.1.b.2. An electron-beam source with a resolution less (better) than or equal to 1.65 nm;\nA Cold Field Emission (CFE) electron-beam source; or\nq.1.b.3. A Cold Field Emission (CFE) electron-beam source; or\nTwo or more electron-beam sources.\nq.1.b.4. Two or more electron-beam sources.",
+      "structure": {
+        "identifier": "3B993.q.1",
+        "heading": "Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:",
+        "label": "3B993.q.1 – Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.q.1.a",
+            "heading": "Designed or modified to detect defects having a size equal to or less than 21 nm; and",
+            "label": "3B993.q.1.a – Designed or modified to detect defects having a size equal to or less than 21 nm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>q.1.a. Designed or modified to detect defects having a size equal to or less than 21 nm; <I>and</I></P>",
+                "text": "q.1.a. Designed or modified to detect defects having a size equal to or less than 21 nm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.q.1.b",
+            "heading": "Having any of the following:",
+            "label": "3B993.q.1.b – Having any of the following:",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>q.1.b. Having any of the following:</P>",
+                "text": "q.1.b. Having any of the following:",
+                "id": null
+              }
+            ],
+            "children": [
+              {
+                "identifier": "3B993.q.1.b.1",
+                "heading": "A light source with an optical wavelength less than 400 nm;",
+                "label": "3B993.q.1.b.1 – A light source with an optical wavelength less than 400 nm;",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>q.1.b.1. A light source with an optical wavelength less than 400 nm;</P>",
+                    "text": "q.1.b.1. A light source with an optical wavelength less than 400 nm;",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              },
+              {
+                "identifier": "3B993.q.1.b.2",
+                "heading": "An electron-beam source with a resolution less (better) than or equal to 1.65 nm;",
+                "label": "3B993.q.1.b.2 – An electron-beam source with a resolution less (better) than or equal to 1.65 nm;",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>q.1.b.2. An electron-beam source with a resolution less (better) than or equal to 1.65 nm;</P>",
+                    "text": "q.1.b.2. An electron-beam source with a resolution less (better) than or equal to 1.65 nm;",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              },
+              {
+                "identifier": "3B993.q.1.b.3",
+                "heading": "A Cold Field Emission (CFE) electron-beam source; or",
+                "label": "3B993.q.1.b.3 – A Cold Field Emission (CFE) electron-beam source; or",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>q.1.b.3. A Cold Field Emission (CFE) electron-beam source; <I>or</I></P>",
+                    "text": "q.1.b.3. A Cold Field Emission (CFE) electron-beam source; or",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              },
+              {
+                "identifier": "3B993.q.1.b.4",
+                "heading": "Two or more electron-beam sources.",
+                "label": "3B993.q.1.b.4 – Two or more electron-beam sources.",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>q.1.b.4. Two or more electron-beam sources.</P>",
+                    "text": "q.1.b.4. Two or more electron-beam sources.",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:",
+      "title": "Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls).",
+        "Inspection and metrology equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.q"
+      ],
+      "text": "Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:\nDesigned or modified to detect defects having a size equal to or less than 21 nm; and\nq.1.a. Designed or modified to detect defects having a size equal to or less than 21 nm; and\nHaving any of the following:\nq.1.b. Having any of the following:\nA light source with an optical wavelength less than 400 nm;\nq.1.b.1. A light source with an optical wavelength less than 400 nm;\nAn electron-beam source with a resolution less (better) than or equal to 1.65 nm;\nq.1.b.2. An electron-beam source with a resolution less (better) than or equal to 1.65 nm;\nA Cold Field Emission (CFE) electron-beam source; or\nq.1.b.3. A Cold Field Emission (CFE) electron-beam source; or\nTwo or more electron-beam sources.\nq.1.b.4. Two or more electron-beam sources.",
+      "structure": {
+        "identifier": "3B993.q.1",
+        "heading": "Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:",
+        "label": "3B993.q.1 – Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.q.1.a",
+            "heading": "Designed or modified to detect defects having a size equal to or less than 21 nm; and",
+            "label": "3B993.q.1.a – Designed or modified to detect defects having a size equal to or less than 21 nm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>q.1.a. Designed or modified to detect defects having a size equal to or less than 21 nm; <I>and</I></P>",
+                "text": "q.1.a. Designed or modified to detect defects having a size equal to or less than 21 nm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.q.1.b",
+            "heading": "Having any of the following:",
+            "label": "3B993.q.1.b – Having any of the following:",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>q.1.b. Having any of the following:</P>",
+                "text": "q.1.b. Having any of the following:",
+                "id": null
+              }
+            ],
+            "children": [
+              {
+                "identifier": "3B993.q.1.b.1",
+                "heading": "A light source with an optical wavelength less than 400 nm;",
+                "label": "3B993.q.1.b.1 – A light source with an optical wavelength less than 400 nm;",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>q.1.b.1. A light source with an optical wavelength less than 400 nm;</P>",
+                    "text": "q.1.b.1. A light source with an optical wavelength less than 400 nm;",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              },
+              {
+                "identifier": "3B993.q.1.b.2",
+                "heading": "An electron-beam source with a resolution less (better) than or equal to 1.65 nm;",
+                "label": "3B993.q.1.b.2 – An electron-beam source with a resolution less (better) than or equal to 1.65 nm;",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>q.1.b.2. An electron-beam source with a resolution less (better) than or equal to 1.65 nm;</P>",
+                    "text": "q.1.b.2. An electron-beam source with a resolution less (better) than or equal to 1.65 nm;",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              },
+              {
+                "identifier": "3B993.q.1.b.3",
+                "heading": "A Cold Field Emission (CFE) electron-beam source; or",
+                "label": "3B993.q.1.b.3 – A Cold Field Emission (CFE) electron-beam source; or",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>q.1.b.3. A Cold Field Emission (CFE) electron-beam source; <I>or</I></P>",
+                    "text": "q.1.b.3. A Cold Field Emission (CFE) electron-beam source; or",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              },
+              {
+                "identifier": "3B993.q.1.b.4",
+                "heading": "Two or more electron-beam sources.",
+                "label": "3B993.q.1.b.4 – Two or more electron-beam sources.",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>q.1.b.4. Two or more electron-beam sources.</P>",
+                    "text": "q.1.b.4. Two or more electron-beam sources.",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:",
+      "title": "Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls).",
+        "Inspection and metrology equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.q"
+      ],
+      "text": "Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:\nDesigned or modified to detect defects having a size equal to or less than 21 nm; and\nq.1.a. Designed or modified to detect defects having a size equal to or less than 21 nm; and\nHaving any of the following:\nq.1.b. Having any of the following:\nA light source with an optical wavelength less than 400 nm;\nq.1.b.1. A light source with an optical wavelength less than 400 nm;\nAn electron-beam source with a resolution less (better) than or equal to 1.65 nm;\nq.1.b.2. An electron-beam source with a resolution less (better) than or equal to 1.65 nm;\nA Cold Field Emission (CFE) electron-beam source; or\nq.1.b.3. A Cold Field Emission (CFE) electron-beam source; or\nTwo or more electron-beam sources.\nq.1.b.4. Two or more electron-beam sources.",
+      "structure": {
+        "identifier": "3B993.q.1",
+        "heading": "Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:",
+        "label": "3B993.q.1 – Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.q.1.a",
+            "heading": "Designed or modified to detect defects having a size equal to or less than 21 nm; and",
+            "label": "3B993.q.1.a – Designed or modified to detect defects having a size equal to or less than 21 nm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>q.1.a. Designed or modified to detect defects having a size equal to or less than 21 nm; <I>and</I></P>",
+                "text": "q.1.a. Designed or modified to detect defects having a size equal to or less than 21 nm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.q.1.b",
+            "heading": "Having any of the following:",
+            "label": "3B993.q.1.b – Having any of the following:",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>q.1.b. Having any of the following:</P>",
+                "text": "q.1.b. Having any of the following:",
+                "id": null
+              }
+            ],
+            "children": [
+              {
+                "identifier": "3B993.q.1.b.1",
+                "heading": "A light source with an optical wavelength less than 400 nm;",
+                "label": "3B993.q.1.b.1 – A light source with an optical wavelength less than 400 nm;",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>q.1.b.1. A light source with an optical wavelength less than 400 nm;</P>",
+                    "text": "q.1.b.1. A light source with an optical wavelength less than 400 nm;",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              },
+              {
+                "identifier": "3B993.q.1.b.2",
+                "heading": "An electron-beam source with a resolution less (better) than or equal to 1.65 nm;",
+                "label": "3B993.q.1.b.2 – An electron-beam source with a resolution less (better) than or equal to 1.65 nm;",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>q.1.b.2. An electron-beam source with a resolution less (better) than or equal to 1.65 nm;</P>",
+                    "text": "q.1.b.2. An electron-beam source with a resolution less (better) than or equal to 1.65 nm;",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              },
+              {
+                "identifier": "3B993.q.1.b.3",
+                "heading": "A Cold Field Emission (CFE) electron-beam source; or",
+                "label": "3B993.q.1.b.3 – A Cold Field Emission (CFE) electron-beam source; or",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>q.1.b.3. A Cold Field Emission (CFE) electron-beam source; <I>or</I></P>",
+                    "text": "q.1.b.3. A Cold Field Emission (CFE) electron-beam source; or",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              },
+              {
+                "identifier": "3B993.q.1.b.4",
+                "heading": "Two or more electron-beam sources.",
+                "label": "3B993.q.1.b.4 – Two or more electron-beam sources.",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>q.1.b.4. Two or more electron-beam sources.</P>",
+                    "text": "q.1.b.4. Two or more electron-beam sources.",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:",
+      "title": "Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls).",
+        "Inspection and metrology equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.q"
+      ],
+      "text": "Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:\nDesigned or modified to detect defects having a size equal to or less than 21 nm; and\nq.1.a. Designed or modified to detect defects having a size equal to or less than 21 nm; and\nHaving any of the following:\nq.1.b. Having any of the following:\nA light source with an optical wavelength less than 400 nm;\nq.1.b.1. A light source with an optical wavelength less than 400 nm;\nAn electron-beam source with a resolution less (better) than or equal to 1.65 nm;\nq.1.b.2. An electron-beam source with a resolution less (better) than or equal to 1.65 nm;\nA Cold Field Emission (CFE) electron-beam source; or\nq.1.b.3. A Cold Field Emission (CFE) electron-beam source; or\nTwo or more electron-beam sources.\nq.1.b.4. Two or more electron-beam sources.",
+      "structure": {
+        "identifier": "3B993.q.1",
+        "heading": "Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:",
+        "label": "3B993.q.1 – Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.q.1.a",
+            "heading": "Designed or modified to detect defects having a size equal to or less than 21 nm; and",
+            "label": "3B993.q.1.a – Designed or modified to detect defects having a size equal to or less than 21 nm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>q.1.a. Designed or modified to detect defects having a size equal to or less than 21 nm; <I>and</I></P>",
+                "text": "q.1.a. Designed or modified to detect defects having a size equal to or less than 21 nm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.q.1.b",
+            "heading": "Having any of the following:",
+            "label": "3B993.q.1.b – Having any of the following:",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>q.1.b. Having any of the following:</P>",
+                "text": "q.1.b. Having any of the following:",
+                "id": null
+              }
+            ],
+            "children": [
+              {
+                "identifier": "3B993.q.1.b.1",
+                "heading": "A light source with an optical wavelength less than 400 nm;",
+                "label": "3B993.q.1.b.1 – A light source with an optical wavelength less than 400 nm;",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>q.1.b.1. A light source with an optical wavelength less than 400 nm;</P>",
+                    "text": "q.1.b.1. A light source with an optical wavelength less than 400 nm;",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              },
+              {
+                "identifier": "3B993.q.1.b.2",
+                "heading": "An electron-beam source with a resolution less (better) than or equal to 1.65 nm;",
+                "label": "3B993.q.1.b.2 – An electron-beam source with a resolution less (better) than or equal to 1.65 nm;",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>q.1.b.2. An electron-beam source with a resolution less (better) than or equal to 1.65 nm;</P>",
+                    "text": "q.1.b.2. An electron-beam source with a resolution less (better) than or equal to 1.65 nm;",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              },
+              {
+                "identifier": "3B993.q.1.b.3",
+                "heading": "A Cold Field Emission (CFE) electron-beam source; or",
+                "label": "3B993.q.1.b.3 – A Cold Field Emission (CFE) electron-beam source; or",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>q.1.b.3. A Cold Field Emission (CFE) electron-beam source; <I>or</I></P>",
+                    "text": "q.1.b.3. A Cold Field Emission (CFE) electron-beam source; or",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              },
+              {
+                "identifier": "3B993.q.1.b.4",
+                "heading": "Two or more electron-beam sources.",
+                "label": "3B993.q.1.b.4 – Two or more electron-beam sources.",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>q.1.b.4. Two or more electron-beam sources.</P>",
+                    "text": "q.1.b.4. Two or more electron-beam sources.",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:",
+      "title": "Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls), and “specially designed” “components” and “accessories” therefor.",
+        "Inspection and metrology equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.q"
+      ],
+      "text": "Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:\nDesigned or modified to detect defects having a size equal to or less than 21 nm; and\nq.1.a. Designed or modified to detect defects having a size equal to or less than 21 nm; and\nHaving any of the following:\nq.1.b. Having any of the following:\nA light source with an optical wavelength less than 400 nm;\nq.1.b.1. A light source with an optical wavelength less than 400 nm;\nAn electron-beam source with a resolution less (better) than or equal to 1.65 nm;\nq.1.b.2. An electron-beam source with a resolution less (better) than or equal to 1.65 nm;\nA Cold Field Emission (CFE) electron-beam source; or\nq.1.b.3. A Cold Field Emission (CFE) electron-beam source; or\nTwo or more electron-beam sources.\nq.1.b.4. Two or more electron-beam sources.",
+      "structure": {
+        "identifier": "3B993.q.1",
+        "heading": "Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:",
+        "label": "3B993.q.1 – Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.q.1.a",
+            "heading": "Designed or modified to detect defects having a size equal to or less than 21 nm; and",
+            "label": "3B993.q.1.a – Designed or modified to detect defects having a size equal to or less than 21 nm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>q.1.a. Designed or modified to detect defects having a size equal to or less than 21 nm; <I>and</I></P>",
+                "text": "q.1.a. Designed or modified to detect defects having a size equal to or less than 21 nm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.q.1.b",
+            "heading": "Having any of the following:",
+            "label": "3B993.q.1.b – Having any of the following:",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>q.1.b. Having any of the following:</P>",
+                "text": "q.1.b. Having any of the following:",
+                "id": null
+              }
+            ],
+            "children": [
+              {
+                "identifier": "3B993.q.1.b.1",
+                "heading": "A light source with an optical wavelength less than 400 nm;",
+                "label": "3B993.q.1.b.1 – A light source with an optical wavelength less than 400 nm;",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>q.1.b.1. A light source with an optical wavelength less than 400 nm;</P>",
+                    "text": "q.1.b.1. A light source with an optical wavelength less than 400 nm;",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              },
+              {
+                "identifier": "3B993.q.1.b.2",
+                "heading": "An electron-beam source with a resolution less (better) than or equal to 1.65 nm;",
+                "label": "3B993.q.1.b.2 – An electron-beam source with a resolution less (better) than or equal to 1.65 nm;",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>q.1.b.2. An electron-beam source with a resolution less (better) than or equal to 1.65 nm;</P>",
+                    "text": "q.1.b.2. An electron-beam source with a resolution less (better) than or equal to 1.65 nm;",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              },
+              {
+                "identifier": "3B993.q.1.b.3",
+                "heading": "A Cold Field Emission (CFE) electron-beam source; or",
+                "label": "3B993.q.1.b.3 – A Cold Field Emission (CFE) electron-beam source; or",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>q.1.b.3. A Cold Field Emission (CFE) electron-beam source; <I>or</I></P>",
+                    "text": "q.1.b.3. A Cold Field Emission (CFE) electron-beam source; or",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              },
+              {
+                "identifier": "3B993.q.1.b.4",
+                "heading": "Two or more electron-beam sources.",
+                "label": "3B993.q.1.b.4 – Two or more electron-beam sources.",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>q.1.b.4. Two or more electron-beam sources.</P>",
+                    "text": "q.1.b.4. Two or more electron-beam sources.",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:",
+      "title": "Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls), and “specially designed” “components” and “accessories” therefor.",
+        "Inspection and metrology equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.q"
+      ],
+      "text": "Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:\nDesigned or modified to detect defects having a size equal to or less than 21 nm; and\nq.1.a. Designed or modified to detect defects having a size equal to or less than 21 nm; and\nHaving any of the following:\nq.1.b. Having any of the following:\nA light source with an optical wavelength less than 400 nm;\nq.1.b.1. A light source with an optical wavelength less than 400 nm;\nAn electron-beam source with a resolution less (better) than or equal to 1.65 nm;\nq.1.b.2. An electron-beam source with a resolution less (better) than or equal to 1.65 nm;\nA Cold Field Emission (CFE) electron-beam source; or\nq.1.b.3. A Cold Field Emission (CFE) electron-beam source; or\nTwo or more electron-beam sources.\nq.1.b.4. Two or more electron-beam sources.",
+      "structure": {
+        "identifier": "3B993.q.1",
+        "heading": "Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:",
+        "label": "3B993.q.1 – Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.q.1.a",
+            "heading": "Designed or modified to detect defects having a size equal to or less than 21 nm; and",
+            "label": "3B993.q.1.a – Designed or modified to detect defects having a size equal to or less than 21 nm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>q.1.a. Designed or modified to detect defects having a size equal to or less than 21 nm; <I>and</I></P>",
+                "text": "q.1.a. Designed or modified to detect defects having a size equal to or less than 21 nm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.q.1.b",
+            "heading": "Having any of the following:",
+            "label": "3B993.q.1.b – Having any of the following:",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>q.1.b. Having any of the following:</P>",
+                "text": "q.1.b. Having any of the following:",
+                "id": null
+              }
+            ],
+            "children": [
+              {
+                "identifier": "3B993.q.1.b.1",
+                "heading": "A light source with an optical wavelength less than 400 nm;",
+                "label": "3B993.q.1.b.1 – A light source with an optical wavelength less than 400 nm;",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>q.1.b.1. A light source with an optical wavelength less than 400 nm;</P>",
+                    "text": "q.1.b.1. A light source with an optical wavelength less than 400 nm;",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              },
+              {
+                "identifier": "3B993.q.1.b.2",
+                "heading": "An electron-beam source with a resolution less (better) than or equal to 1.65 nm;",
+                "label": "3B993.q.1.b.2 – An electron-beam source with a resolution less (better) than or equal to 1.65 nm;",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>q.1.b.2. An electron-beam source with a resolution less (better) than or equal to 1.65 nm;</P>",
+                    "text": "q.1.b.2. An electron-beam source with a resolution less (better) than or equal to 1.65 nm;",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              },
+              {
+                "identifier": "3B993.q.1.b.3",
+                "heading": "A Cold Field Emission (CFE) electron-beam source; or",
+                "label": "3B993.q.1.b.3 – A Cold Field Emission (CFE) electron-beam source; or",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>q.1.b.3. A Cold Field Emission (CFE) electron-beam source; <I>or</I></P>",
+                    "text": "q.1.b.3. A Cold Field Emission (CFE) electron-beam source; or",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              },
+              {
+                "identifier": "3B993.q.1.b.4",
+                "heading": "Two or more electron-beam sources.",
+                "label": "3B993.q.1.b.4 – Two or more electron-beam sources.",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>q.1.b.4. Two or more electron-beam sources.</P>",
+                    "text": "q.1.b.4. Two or more electron-beam sources.",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:",
+      "title": "Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls), and “specially designed” “components” and “accessories” therefor.",
+        "Inspection and metrology equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.q"
+      ],
+      "text": "Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:\nDesigned or modified to detect defects having a size equal to or less than 21 nm; and\nq.1.a. Designed or modified to detect defects having a size equal to or less than 21 nm; and\nHaving any of the following:\nq.1.b. Having any of the following:\nA light source with an optical wavelength less than 400 nm;\nq.1.b.1. A light source with an optical wavelength less than 400 nm;\nAn electron-beam source with a resolution less (better) than or equal to 1.65 nm;\nq.1.b.2. An electron-beam source with a resolution less (better) than or equal to 1.65 nm;\nA Cold Field Emission (CFE) electron-beam source; or\nq.1.b.3. A Cold Field Emission (CFE) electron-beam source; or\nTwo or more electron-beam sources.\nq.1.b.4. Two or more electron-beam sources.",
+      "structure": {
+        "identifier": "3B993.q.1",
+        "heading": "Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:",
+        "label": "3B993.q.1 – Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.q.1.a",
+            "heading": "Designed or modified to detect defects having a size equal to or less than 21 nm; and",
+            "label": "3B993.q.1.a – Designed or modified to detect defects having a size equal to or less than 21 nm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>q.1.a. Designed or modified to detect defects having a size equal to or less than 21 nm; <I>and</I>\n</P>",
+                "text": "q.1.a. Designed or modified to detect defects having a size equal to or less than 21 nm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.q.1.b",
+            "heading": "Having any of the following:",
+            "label": "3B993.q.1.b – Having any of the following:",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>q.1.b. Having any of the following:\n</P>",
+                "text": "q.1.b. Having any of the following:",
+                "id": null
+              }
+            ],
+            "children": [
+              {
+                "identifier": "3B993.q.1.b.1",
+                "heading": "A light source with an optical wavelength less than 400 nm;",
+                "label": "3B993.q.1.b.1 – A light source with an optical wavelength less than 400 nm;",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>q.1.b.1. A light source with an optical wavelength less than 400 nm;\n</P>",
+                    "text": "q.1.b.1. A light source with an optical wavelength less than 400 nm;",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              },
+              {
+                "identifier": "3B993.q.1.b.2",
+                "heading": "An electron-beam source with a resolution less (better) than or equal to 1.65 nm;",
+                "label": "3B993.q.1.b.2 – An electron-beam source with a resolution less (better) than or equal to 1.65 nm;",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>q.1.b.2. An electron-beam source with a resolution less (better) than or equal to 1.65 nm;\n</P>",
+                    "text": "q.1.b.2. An electron-beam source with a resolution less (better) than or equal to 1.65 nm;",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              },
+              {
+                "identifier": "3B993.q.1.b.3",
+                "heading": "A Cold Field Emission (CFE) electron-beam source; or",
+                "label": "3B993.q.1.b.3 – A Cold Field Emission (CFE) electron-beam source; or",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>q.1.b.3. A Cold Field Emission (CFE) electron-beam source; <I>or</I>\n</P>",
+                    "text": "q.1.b.3. A Cold Field Emission (CFE) electron-beam source; or",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              },
+              {
+                "identifier": "3B993.q.1.b.4",
+                "heading": "Two or more electron-beam sources.",
+                "label": "3B993.q.1.b.4 – Two or more electron-beam sources.",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>q.1.b.4. Two or more electron-beam sources.\n</P>",
+                    "text": "q.1.b.4. Two or more electron-beam sources.",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:",
+      "title": "Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:",
+      "category": "3",
+      "group": "3B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "3B993 Specified semiconductor manufacturing equipment as follows (see list of items controls), and “specially designed” “components” and “accessories” therefor.",
+        "Inspection and metrology equipment as follows:"
+      ],
+      "ancestors": [
+        "3B993",
+        "3B993.q"
+      ],
+      "text": "Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:\nDesigned or modified to detect defects having a size equal to or less than 21 nm; and\nq.1.a. Designed or modified to detect defects having a size equal to or less than 21 nm; and\nHaving any of the following:\nq.1.b. Having any of the following:\nA light source with an optical wavelength less than 400 nm;\nq.1.b.1. A light source with an optical wavelength less than 400 nm;\nAn electron-beam source with a resolution less (better) than or equal to 1.65 nm;\nq.1.b.2. An electron-beam source with a resolution less (better) than or equal to 1.65 nm;\nA Cold Field Emission (CFE) electron-beam source; or\nq.1.b.3. A Cold Field Emission (CFE) electron-beam source; or\nTwo or more electron-beam sources.\nq.1.b.4. Two or more electron-beam sources.",
+      "structure": {
+        "identifier": "3B993.q.1",
+        "heading": "Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:",
+        "label": "3B993.q.1 – Patterned wafer defect metrology or patterned wafer defect inspection equipment, designed or modified to accept wafers greater than or equal to 300 mm in diameter, and having all of the following:",
+        "children": [
+          {
+            "identifier": "3B993.q.1.a",
+            "heading": "Designed or modified to detect defects having a size equal to or less than 21 nm; and",
+            "label": "3B993.q.1.a – Designed or modified to detect defects having a size equal to or less than 21 nm; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>q.1.a. Designed or modified to detect defects having a size equal to or less than 21 nm; <I>and</I>\n</P>",
+                "text": "q.1.a. Designed or modified to detect defects having a size equal to or less than 21 nm; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3B993.q.1.b",
+            "heading": "Having any of the following:",
+            "label": "3B993.q.1.b – Having any of the following:",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>q.1.b. Having any of the following:\n</P>",
+                "text": "q.1.b. Having any of the following:",
+                "id": null
+              }
+            ],
+            "children": [
+              {
+                "identifier": "3B993.q.1.b.1",
+                "heading": "A light source with an optical wavelength less than 400 nm;",
+                "label": "3B993.q.1.b.1 – A light source with an optical wavelength less than 400 nm;",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>q.1.b.1. A light source with an optical wavelength less than 400 nm;\n</P>",
+                    "text": "q.1.b.1. A light source with an optical wavelength less than 400 nm;",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              },
+              {
+                "identifier": "3B993.q.1.b.2",
+                "heading": "An electron-beam source with a resolution less (better) than or equal to 1.65 nm;",
+                "label": "3B993.q.1.b.2 – An electron-beam source with a resolution less (better) than or equal to 1.65 nm;",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>q.1.b.2. An electron-beam source with a resolution less (better) than or equal to 1.65 nm;\n</P>",
+                    "text": "q.1.b.2. An electron-beam source with a resolution less (better) than or equal to 1.65 nm;",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              },
+              {
+                "identifier": "3B993.q.1.b.3",
+                "heading": "A Cold Field Emission (CFE) electron-beam source; or",
+                "label": "3B993.q.1.b.3 – A Cold Field Emission (CFE) electron-beam source; or",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>q.1.b.3. A Cold Field Emission (CFE) electron-beam source; <I>or</I>\n</P>",
+                    "text": "q.1.b.3. A Cold Field Emission (CFE) electron-beam source; or",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              },
+              {
+                "identifier": "3B993.q.1.b.4",
+                "heading": "Two or more electron-beam sources.",
+                "label": "3B993.q.1.b.4 – Two or more electron-beam sources.",
+                "content": [
+                  {
+                    "type": "html",
+                    "tag": "P",
+                    "html": "<P>q.1.b.4. Two or more electron-beam sources.\n</P>",
+                    "text": "q.1.b.4. Two or more electron-beam sources.",
+                    "id": null
+                  }
+                ],
+                "isEccn": true,
+                "boundToParent": true,
+                "requireAllChildren": false
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "eccn": "2B001.b.2.d",
+  "normalized": "2B001.B.2.D",
+  "history": [
+    {
+      "version": "2017-01-15",
+      "fetchedAt": "2025-10-02T20:33:28.357Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-15/title-15?format=xml",
+      "heading": "Being a 'parallel mechanism machine tool';",
+      "title": "Being a 'parallel mechanism machine tool';",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B001 Machine tools and any combination thereof, for removing (or cutting) metals, ceramics or “composites”, which, according to the manufacturer's technical specifications, can be equipped with electronic devices for “numerical control”; as follows (see List of Items Controlled).",
+        "Machine tools for milling having any of the following:",
+        "Five or more axes which can be coordinated simultaneously for “contouring control” having any of the following:"
+      ],
+      "ancestors": [
+        "2B001.b",
+        "2B001.b.2"
+      ],
+      "text": "Being a 'parallel mechanism machine tool';\nTechnical Note: A 'parallel mechanism machine tool' is a machine tool having multiple rods which are linked with a platform and actuators; each of the actuators operates the respective rod simultaneously and independently.",
+      "structure": {
+        "identifier": "2B001.b.2.d",
+        "heading": "Being a 'parallel mechanism machine tool';",
+        "label": "2B001.b.2.d – Being a 'parallel mechanism machine tool';",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE><HED><I>Technical Note: A 'parallel mechanism machine tool' is a machine tool having multiple rods which are linked with a platform and actuators; each of the actuators operates the respective rod simultaneously and independently.</I></HED></NOTE>",
+            "text": "Technical Note: A 'parallel mechanism machine tool' is a machine tool having multiple rods which are linked with a platform and actuators; each of the actuators operates the respective rod simultaneously and independently.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-07-07",
+      "fetchedAt": "2025-10-02T20:33:28.904Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-07-07/title-15?format=xml",
+      "heading": "Being a 'parallel mechanism machine tool';",
+      "title": "Being a 'parallel mechanism machine tool';",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B001 Machine tools and any combination thereof, for removing (or cutting) metals, ceramics or “composites”, which, according to the manufacturer's technical specifications, can be equipped with electronic devices for “numerical control”; as follows (see List of Items Controlled).",
+        "Machine tools for milling having any of the following:",
+        "Five or more axes which can be coordinated simultaneously for “contouring control” having any of the following:"
+      ],
+      "ancestors": [
+        "2B001.b",
+        "2B001.b.2"
+      ],
+      "text": "Being a 'parallel mechanism machine tool';\nTechnical Note: A 'parallel mechanism machine tool' is a machine tool having multiple rods which are linked with a platform and actuators; each of the actuators operates the respective rod simultaneously and independently.",
+      "structure": {
+        "identifier": "2B001.b.2.d",
+        "heading": "Being a 'parallel mechanism machine tool';",
+        "label": "2B001.b.2.d – Being a 'parallel mechanism machine tool';",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE><HED><I>Technical Note: A 'parallel mechanism machine tool' is a machine tool having multiple rods which are linked with a platform and actuators; each of the actuators operates the respective rod simultaneously and independently.</I></HED></NOTE>",
+            "text": "Technical Note: A 'parallel mechanism machine tool' is a machine tool having multiple rods which are linked with a platform and actuators; each of the actuators operates the respective rod simultaneously and independently.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

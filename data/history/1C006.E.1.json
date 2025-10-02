@@ -1,0 +1,37 @@
+{
+  "eccn": "1C006.e.1",
+  "normalized": "1C006.E.1",
+  "history": [
+    {
+      "version": "2018-11-02",
+      "fetchedAt": "2025-10-02T20:33:32.381Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-11-02/title-15?format=xml",
+      "heading": "Polydiorganosilanes;",
+      "title": "Polydiorganosilanes;",
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Reporting Requirements",
+        "1C006 Fluids and lubricating materials, as follows (see List of Items Controlled).",
+        "'Precursor materials' “specially designed” for the “production” of materials controlled by 1C007.c, as follows:"
+      ],
+      "ancestors": [
+        "1C006",
+        "1C006.e"
+      ],
+      "text": "Polydiorganosilanes;",
+      "structure": {
+        "identifier": "1C006.e.1",
+        "heading": "Polydiorganosilanes;",
+        "label": "1C006.e.1 – Polydiorganosilanes;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

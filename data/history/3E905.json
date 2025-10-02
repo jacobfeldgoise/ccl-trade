@@ -1,0 +1,2107 @@
+{
+  "eccn": "3E905",
+  "normalized": "3E905",
+  "history": [
+    {
+      "version": "2024-09-06",
+      "fetchedAt": "2025-10-02T20:33:46.879Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-09-06/title-15?format=xml",
+      "heading": "3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+      "title": "“Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+      "category": "3",
+      "group": "3E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.\nLicense Requirements\nReason for Control:\nNS, RS, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3E905) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3E905) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3E905) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nNS applies to entire entry\nWorldwide control.\nSee § 742.4(a)(5) and (b)(10) of the EAR.\nRS applies to the entire entry\nWorldwide control.\nSee § 742.6(a)(10) and (b)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nTSR:\nN/A\nIEC:\nYes, see § 740.2(a)(22) and § 740.24 of the EAR.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR).\nNote: See General Order No. 6 in supplement no. 1 to part 736 for additional authorization that may apply for exports, reexports, or transfers (in-country) of this item.\nList of Items Controlled\nRelated Controls:\n1. ECCN 3E905 applies to process “technology” exclusively for the “development” or “production” of GAAFET structures of integrated circuits at a semiconductor wafer production facility. ECCN 3E905 does not, for example, control an integrated circuit design such as the physical layout file in “GDSII” format or EDA tools, or any other technology used to produce the physical layout file for integrated circuit design. 2. ECCN 3E905 does not apply to vertical GAAFET architectures,\ne.g.,\nthose used for 3D NAND.\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.\nNote 1: 3E905 includes 'process recipes'.\nNote 2: 3E905. does not apply for tool qualification or maintenance.\nTechnical Note: For the purposes of Note 1 to 3E905, 3E905.a 'process recipe' is a set of conditions and parameters for a particular process step.",
+      "structure": {
+        "identifier": "3E905",
+        "heading": "3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+        "label": "3E905 – 3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">NS applies to entire entry (3E905)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.4(a)(5) and (b)(10) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">RS applies to the entire entry (3E905)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.6(a)(10) and (b)(11) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (3E905)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3E905) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3E905) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3E905) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.4(a)(5) and (b)(10) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "RS applies to the entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(10) and (b)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "IEC:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, see § 740.2(a)(22) and § 740.24 of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR)."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>See General Order No. 6 in supplement no. 1 to part 736 for additional authorization that may apply for exports, reexports, or transfers (in-country) of this item.</I></P></NOTE>",
+            "text": "Note: See General Order No. 6 in supplement no. 1 to part 736 for additional authorization that may apply for exports, reexports, or transfers (in-country) of this item.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "1. ECCN 3E905 applies to process “technology” exclusively for the “development” or “production” of GAAFET structures of integrated circuits at a semiconductor wafer production facility. ECCN 3E905 does not, for example, control an integrated circuit design such as the physical layout file in “GDSII” format or EDA tools, or any other technology used to produce the physical layout file for integrated circuit design. 2. ECCN 3E905 does not apply to vertical GAAFET architectures,"
+          },
+          {
+            "type": "text",
+            "text": "e.g.,"
+          },
+          {
+            "type": "text",
+            "text": "those used for 3D NAND."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>3E905 includes 'process recipes'.</I></P></NOTE>",
+            "text": "Note 1: 3E905 includes 'process recipes'.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3E905. does not apply for tool qualification or maintenance.</I></P></NOTE>",
+            "text": "Note 2: 3E905. does not apply for tool qualification or maintenance.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of Note 1 to 3E905, 3E905.a 'process recipe' is a set of conditions and parameters for a particular process step.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of Note 1 to 3E905, 3E905.a 'process recipe' is a set of conditions and parameters for a particular process step.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-10-23",
+      "fetchedAt": "2025-10-02T20:33:47.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-10-23/title-15?format=xml",
+      "heading": "3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+      "title": "“Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+      "category": "3",
+      "group": "3E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.\nLicense Requirements\nReason for Control:\nNS, RS, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3E905) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3E905) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3E905) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nNS applies to entire entry\nWorldwide control.\nSee § 742.4(a)(5) and (b)(10) of the EAR.\nRS applies to the entire entry\nWorldwide control.\nSee § 742.6(a)(10) and (b)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nTSR:\nN/A\nIEC:\nYes, see § 740.2(a)(22) and § 740.24 of the EAR.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR).\nNote: See General Order No. 6 in supplement no. 1 to part 736 for additional authorization that may apply for exports, reexports, or transfers (in-country) of this item.\nList of Items Controlled\nRelated Controls:\n1. ECCN 3E905 applies to process “technology” exclusively for the “development” or “production” of GAAFET structures of integrated circuits at a semiconductor wafer production facility. ECCN 3E905 does not, for example, control an integrated circuit design such as the physical layout file in “GDSII” format or EDA tools, or any other technology used to produce the physical layout file for integrated circuit design. 2. ECCN 3E905 does not apply to vertical GAAFET architectures,\ne.g.,\nthose used for 3D NAND.\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.\nNote 1: 3E905 includes 'process recipes'.\nNote 2: 3E905. does not apply for tool qualification or maintenance.\nTechnical Note: For the purposes of Note 1 to 3E905, 3E905.a 'process recipe' is a set of conditions and parameters for a particular process step.",
+      "structure": {
+        "identifier": "3E905",
+        "heading": "3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+        "label": "3E905 – 3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">NS applies to entire entry (3E905)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.4(a)(5) and (b)(10) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">RS applies to the entire entry (3E905)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.6(a)(10) and (b)(11) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (3E905)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3E905) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3E905) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3E905) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.4(a)(5) and (b)(10) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "RS applies to the entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(10) and (b)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "IEC:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, see § 740.2(a)(22) and § 740.24 of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR)."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>See General Order No. 6 in supplement no. 1 to part 736 for additional authorization that may apply for exports, reexports, or transfers (in-country) of this item.</I></P></NOTE>",
+            "text": "Note: See General Order No. 6 in supplement no. 1 to part 736 for additional authorization that may apply for exports, reexports, or transfers (in-country) of this item.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "1. ECCN 3E905 applies to process “technology” exclusively for the “development” or “production” of GAAFET structures of integrated circuits at a semiconductor wafer production facility. ECCN 3E905 does not, for example, control an integrated circuit design such as the physical layout file in “GDSII” format or EDA tools, or any other technology used to produce the physical layout file for integrated circuit design. 2. ECCN 3E905 does not apply to vertical GAAFET architectures,"
+          },
+          {
+            "type": "text",
+            "text": "e.g.,"
+          },
+          {
+            "type": "text",
+            "text": "those used for 3D NAND."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>3E905 includes 'process recipes'.</I></P></NOTE>",
+            "text": "Note 1: 3E905 includes 'process recipes'.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3E905. does not apply for tool qualification or maintenance.</I></P></NOTE>",
+            "text": "Note 2: 3E905. does not apply for tool qualification or maintenance.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of Note 1 to 3E905, 3E905.a 'process recipe' is a set of conditions and parameters for a particular process step.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of Note 1 to 3E905, 3E905.a 'process recipe' is a set of conditions and parameters for a particular process step.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-02",
+      "fetchedAt": "2025-10-02T20:33:47.757Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-02/title-15?format=xml",
+      "heading": "3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+      "title": "“Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+      "category": "3",
+      "group": "3E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.\nLicense Requirements\nReason for Control:\nNS, RS, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3E905) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3E905) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3E905) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nNS applies to entire entry\nWorldwide control.\nSee § 742.4(a)(5) and (b)(10) of the EAR.\nRS applies to the entire entry\nWorldwide control.\nSee § 742.6(a)(10) and (b)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nTSR:\nN/A\nIEC:\nYes, see § 740.2(a)(22) and § 740.24 of the EAR.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR).\nNote: See General Order No. 6 in supplement no. 1 to part 736 for additional authorization that may apply for exports, reexports, or transfers (in-country) of this item.\nList of Items Controlled\nRelated Controls:\n1. ECCN 3E905 applies to process “technology” exclusively for the “development” or “production” of GAAFET structures of integrated circuits at a semiconductor wafer production facility. ECCN 3E905 does not, for example, control an integrated circuit design such as the physical layout file in “GDSII” format or EDA tools, or any other technology used to produce the physical layout file for integrated circuit design. 2. ECCN 3E905 does not apply to vertical GAAFET architectures,\ne.g.,\nthose used for 3D NAND.\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.\nNote 1: 3E905 includes 'process recipes'.\nNote 2: 3E905. does not apply for tool qualification or maintenance.\nTechnical Note: For the purposes of Note 1 to 3E905, 3E905.a 'process recipe' is a set of conditions and parameters for a particular process step.",
+      "structure": {
+        "identifier": "3E905",
+        "heading": "3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+        "label": "3E905 – 3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">NS applies to entire entry (3E905)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.4(a)(5) and (b)(10) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">RS applies to the entire entry (3E905)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.6(a)(10) and (b)(11) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (3E905)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3E905) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3E905) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3E905) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.4(a)(5) and (b)(10) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "RS applies to the entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(10) and (b)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "IEC:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, see § 740.2(a)(22) and § 740.24 of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR)."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>See General Order No. 6 in supplement no. 1 to part 736 for additional authorization that may apply for exports, reexports, or transfers (in-country) of this item.</I></P></NOTE>",
+            "text": "Note: See General Order No. 6 in supplement no. 1 to part 736 for additional authorization that may apply for exports, reexports, or transfers (in-country) of this item.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "1. ECCN 3E905 applies to process “technology” exclusively for the “development” or “production” of GAAFET structures of integrated circuits at a semiconductor wafer production facility. ECCN 3E905 does not, for example, control an integrated circuit design such as the physical layout file in “GDSII” format or EDA tools, or any other technology used to produce the physical layout file for integrated circuit design. 2. ECCN 3E905 does not apply to vertical GAAFET architectures,"
+          },
+          {
+            "type": "text",
+            "text": "e.g.,"
+          },
+          {
+            "type": "text",
+            "text": "those used for 3D NAND."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>3E905 includes 'process recipes'.</I></P></NOTE>",
+            "text": "Note 1: 3E905 includes 'process recipes'.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3E905. does not apply for tool qualification or maintenance.</I></P></NOTE>",
+            "text": "Note 2: 3E905. does not apply for tool qualification or maintenance.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of Note 1 to 3E905, 3E905.a 'process recipe' is a set of conditions and parameters for a particular process step.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of Note 1 to 3E905, 3E905.a 'process recipe' is a set of conditions and parameters for a particular process step.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+      "title": "“Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+      "category": "3",
+      "group": "3E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.\nLicense Requirements\nReason for Control:\nNS, RS, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3E905) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3E905) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3E905) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nNS applies to entire entry\nWorldwide control.\nSee § 742.4(a)(5) and (b)(10) of the EAR.\nRS applies to the entire entry\nWorldwide control.\nSee § 742.6(a)(10) and (b)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nTSR:\nN/A\nIEC:\nYes, see § 740.2(a)(22) and § 740.24 of the EAR.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR).\nNote: See General Order No. 6 in supplement no. 1 to part 736 for additional authorization that may apply for exports, reexports, or transfers (in-country) of this item.\nList of Items Controlled\nRelated Controls:\n1. ECCN 3E905 applies to process “technology” exclusively for the “development” or “production” of GAAFET structures of integrated circuits at a semiconductor wafer production facility. ECCN 3E905 does not, for example, control an integrated circuit design such as the physical layout file in “GDSII” format or EDA tools, or any other technology used to produce the physical layout file for integrated circuit design. 2. ECCN 3E905 does not apply to vertical GAAFET architectures,\ne.g.,\nthose used for 3D NAND.\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.\nNote 1: 3E905 includes 'process recipes'.\nNote 2: 3E905. does not apply for tool qualification or maintenance.\nTechnical Note: For the purposes of Note 1 to 3E905, 3E905.a 'process recipe' is a set of conditions and parameters for a particular process step.",
+      "structure": {
+        "identifier": "3E905",
+        "heading": "3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+        "label": "3E905 – 3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">NS applies to entire entry (3E905)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.4(a)(5) and (b)(10) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">RS applies to the entire entry (3E905)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.6(a)(10) and (b)(11) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (3E905)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3E905) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3E905) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3E905) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.4(a)(5) and (b)(10) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "RS applies to the entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(10) and (b)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "IEC:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, see § 740.2(a)(22) and § 740.24 of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR)."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>See General Order No. 6 in supplement no. 1 to part 736 for additional authorization that may apply for exports, reexports, or transfers (in-country) of this item.</I></P></NOTE>",
+            "text": "Note: See General Order No. 6 in supplement no. 1 to part 736 for additional authorization that may apply for exports, reexports, or transfers (in-country) of this item.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "1. ECCN 3E905 applies to process “technology” exclusively for the “development” or “production” of GAAFET structures of integrated circuits at a semiconductor wafer production facility. ECCN 3E905 does not, for example, control an integrated circuit design such as the physical layout file in “GDSII” format or EDA tools, or any other technology used to produce the physical layout file for integrated circuit design. 2. ECCN 3E905 does not apply to vertical GAAFET architectures,"
+          },
+          {
+            "type": "text",
+            "text": "e.g.,"
+          },
+          {
+            "type": "text",
+            "text": "those used for 3D NAND."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>3E905 includes 'process recipes'.</I></P></NOTE>",
+            "text": "Note 1: 3E905 includes 'process recipes'.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3E905. does not apply for tool qualification or maintenance.</I></P></NOTE>",
+            "text": "Note 2: 3E905. does not apply for tool qualification or maintenance.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of Note 1 to 3E905, 3E905.a 'process recipe' is a set of conditions and parameters for a particular process step.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of Note 1 to 3E905, 3E905.a 'process recipe' is a set of conditions and parameters for a particular process step.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+      "title": "“Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+      "category": "3",
+      "group": "3E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.\nLicense Requirements\nReason for Control:\nNS, RS, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3E905) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3E905) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3E905) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nNS applies to entire entry\nWorldwide control.\nSee § 742.4(a)(5) and (b)(10) of the EAR.\nRS applies to the entire entry\nWorldwide control.\nSee § 742.6(a)(10) and (b)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nTSR:\nN/A\nIEC:\nYes, see § 740.2(a)(22) and § 740.24 of the EAR.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR).\nNote: See General Order No. 6 in supplement no. 1 to part 736 for additional authorization that may apply for exports, reexports, or transfers (in-country) of this item.\nList of Items Controlled\nRelated Controls:\n1. ECCN 3E905 applies to process “technology” exclusively for the “development” or “production” of GAAFET structures of integrated circuits at a semiconductor wafer production facility. ECCN 3E905 does not, for example, control an integrated circuit design such as the physical layout file in “GDSII” format or EDA tools, or any other technology used to produce the physical layout file for integrated circuit design. 2. ECCN 3E905 does not apply to vertical GAAFET architectures,\ne.g.,\nthose used for 3D NAND.\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.\nNote 1: 3E905 includes 'process recipes'.\nNote 2: 3E905. does not apply for tool qualification or maintenance.\nTechnical Note: For the purposes of Note 1 to 3E905, 3E905.a 'process recipe' is a set of conditions and parameters for a particular process step.",
+      "structure": {
+        "identifier": "3E905",
+        "heading": "3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+        "label": "3E905 – 3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">NS applies to entire entry (3E905)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.4(a)(5) and (b)(10) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">RS applies to the entire entry (3E905)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.6(a)(10) and (b)(11) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (3E905)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3E905) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3E905) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3E905) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.4(a)(5) and (b)(10) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "RS applies to the entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(10) and (b)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "IEC:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, see § 740.2(a)(22) and § 740.24 of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR)."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>See General Order No. 6 in supplement no. 1 to part 736 for additional authorization that may apply for exports, reexports, or transfers (in-country) of this item.</I></P></NOTE>",
+            "text": "Note: See General Order No. 6 in supplement no. 1 to part 736 for additional authorization that may apply for exports, reexports, or transfers (in-country) of this item.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "1. ECCN 3E905 applies to process “technology” exclusively for the “development” or “production” of GAAFET structures of integrated circuits at a semiconductor wafer production facility. ECCN 3E905 does not, for example, control an integrated circuit design such as the physical layout file in “GDSII” format or EDA tools, or any other technology used to produce the physical layout file for integrated circuit design. 2. ECCN 3E905 does not apply to vertical GAAFET architectures,"
+          },
+          {
+            "type": "text",
+            "text": "e.g.,"
+          },
+          {
+            "type": "text",
+            "text": "those used for 3D NAND."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>3E905 includes 'process recipes'.</I></P></NOTE>",
+            "text": "Note 1: 3E905 includes 'process recipes'.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3E905. does not apply for tool qualification or maintenance.</I></P></NOTE>",
+            "text": "Note 2: 3E905. does not apply for tool qualification or maintenance.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of Note 1 to 3E905, 3E905.a 'process recipe' is a set of conditions and parameters for a particular process step.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of Note 1 to 3E905, 3E905.a 'process recipe' is a set of conditions and parameters for a particular process step.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+      "title": "“Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+      "category": "3",
+      "group": "3E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.\nLicense Requirements\nReason for Control:\nNS, RS, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3E905) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3E905) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3E905) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nNS applies to entire entry\nWorldwide control.\nSee § 742.4(a)(5) and (b)(10) of the EAR.\nRS applies to the entire entry\nWorldwide control.\nSee § 742.6(a)(10) and (b)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nTSR:\nN/A\nIEC:\nYes, see § 740.2(a)(22) and § 740.24 of the EAR.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR).\nNote: See General Order No. 6 in supplement no. 1 to part 736 for additional authorization that may apply for exports, reexports, or transfers (in-country) of this item.\nList of Items Controlled\nRelated Controls:\n1. ECCN 3E905 applies to process “technology” exclusively for the “development” or “production” of GAAFET structures of integrated circuits at a semiconductor wafer production facility. ECCN 3E905 does not, for example, control an integrated circuit design such as the physical layout file in “GDSII” format or EDA tools, or any other technology used to produce the physical layout file for integrated circuit design. 2. ECCN 3E905 does not apply to vertical GAAFET architectures,\ne.g.,\nthose used for 3D NAND.\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.\nNote 1: 3E905 includes 'process recipes'.\nNote 2: 3E905. does not apply for tool qualification or maintenance.\nTechnical Note: For the purposes of Note 1 to 3E905, 3E905.a 'process recipe' is a set of conditions and parameters for a particular process step.",
+      "structure": {
+        "identifier": "3E905",
+        "heading": "3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+        "label": "3E905 – 3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">NS applies to entire entry (3E905)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.4(a)(5) and (b)(10) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">RS applies to the entire entry (3E905)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.6(a)(10) and (b)(11) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (3E905)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3E905) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3E905) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3E905) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.4(a)(5) and (b)(10) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "RS applies to the entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(10) and (b)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "IEC:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, see § 740.2(a)(22) and § 740.24 of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR)."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>See General Order No. 6 in supplement no. 1 to part 736 for additional authorization that may apply for exports, reexports, or transfers (in-country) of this item.</I></P></NOTE>",
+            "text": "Note: See General Order No. 6 in supplement no. 1 to part 736 for additional authorization that may apply for exports, reexports, or transfers (in-country) of this item.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "1. ECCN 3E905 applies to process “technology” exclusively for the “development” or “production” of GAAFET structures of integrated circuits at a semiconductor wafer production facility. ECCN 3E905 does not, for example, control an integrated circuit design such as the physical layout file in “GDSII” format or EDA tools, or any other technology used to produce the physical layout file for integrated circuit design. 2. ECCN 3E905 does not apply to vertical GAAFET architectures,"
+          },
+          {
+            "type": "text",
+            "text": "e.g.,"
+          },
+          {
+            "type": "text",
+            "text": "those used for 3D NAND."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>3E905 includes 'process recipes'.</I></P></NOTE>",
+            "text": "Note 1: 3E905 includes 'process recipes'.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3E905. does not apply for tool qualification or maintenance.</I></P></NOTE>",
+            "text": "Note 2: 3E905. does not apply for tool qualification or maintenance.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of Note 1 to 3E905, 3E905.a 'process recipe' is a set of conditions and parameters for a particular process step.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of Note 1 to 3E905, 3E905.a 'process recipe' is a set of conditions and parameters for a particular process step.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+      "title": "“Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+      "category": "3",
+      "group": "3E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.\nLicense Requirements\nReason for Control:\nNS, RS, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3E905) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3E905) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3E905) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nNS applies to entire entry\nWorldwide control.\nSee § 742.4(a)(5) and (b)(10) of the EAR.\nRS applies to the entire entry\nWorldwide control.\nSee § 742.6(a)(10) and (b)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nTSR:\nN/A\nIEC:\nYes, see § 740.2(a)(22) and § 740.24 of the EAR.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR).\nNote: See General Order No. 6 in supplement no. 1 to part 736 for additional authorization that may apply for exports, reexports, or transfers (in-country) of this item.\nList of Items Controlled\nRelated Controls:\n1. ECCN 3E905 applies to process “technology” exclusively for the “development” or “production” of GAAFET structures of integrated circuits at a semiconductor wafer production facility. ECCN 3E905 does not, for example, control an integrated circuit design such as the physical layout file in “GDSII” format or EDA tools, or any other technology used to produce the physical layout file for integrated circuit design. 2. ECCN 3E905 does not apply to vertical GAAFET architectures,\ne.g.,\nthose used for 3D NAND.\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.\nNote 1: 3E905 includes 'process recipes'.\nNote 2: 3E905. does not apply for tool qualification or maintenance.\nTechnical Note: For the purposes of Note 1 to 3E905, 3E905.a 'process recipe' is a set of conditions and parameters for a particular process step.",
+      "structure": {
+        "identifier": "3E905",
+        "heading": "3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+        "label": "3E905 – 3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">NS applies to entire entry (3E905)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.4(a)(5) and (b)(10) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">RS applies to the entire entry (3E905)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.6(a)(10) and (b)(11) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (3E905)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3E905) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3E905) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3E905) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.4(a)(5) and (b)(10) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "RS applies to the entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(10) and (b)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "IEC:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, see § 740.2(a)(22) and § 740.24 of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR)."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>See General Order No. 6 in supplement no. 1 to part 736 for additional authorization that may apply for exports, reexports, or transfers (in-country) of this item.</I></P></NOTE>",
+            "text": "Note: See General Order No. 6 in supplement no. 1 to part 736 for additional authorization that may apply for exports, reexports, or transfers (in-country) of this item.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "1. ECCN 3E905 applies to process “technology” exclusively for the “development” or “production” of GAAFET structures of integrated circuits at a semiconductor wafer production facility. ECCN 3E905 does not, for example, control an integrated circuit design such as the physical layout file in “GDSII” format or EDA tools, or any other technology used to produce the physical layout file for integrated circuit design. 2. ECCN 3E905 does not apply to vertical GAAFET architectures,"
+          },
+          {
+            "type": "text",
+            "text": "e.g.,"
+          },
+          {
+            "type": "text",
+            "text": "those used for 3D NAND."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>3E905 includes 'process recipes'.</I></P></NOTE>",
+            "text": "Note 1: 3E905 includes 'process recipes'.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3E905. does not apply for tool qualification or maintenance.</I></P></NOTE>",
+            "text": "Note 2: 3E905. does not apply for tool qualification or maintenance.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of Note 1 to 3E905, 3E905.a 'process recipe' is a set of conditions and parameters for a particular process step.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of Note 1 to 3E905, 3E905.a 'process recipe' is a set of conditions and parameters for a particular process step.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+      "title": "“Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+      "category": "3",
+      "group": "3E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.\nLicense Requirements\nReason for Control:\nNS, RS, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3E905) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3E905) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3E905) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nNS applies to entire entry\nWorldwide control.\nSee § 742.4(a)(5) and (b)(10) of the EAR.\nRS applies to the entire entry\nWorldwide control.\nSee § 742.6(a)(10) and (b)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nTSR:\nN/A\nIEC:\nYes, see § 740.2(a)(22) and § 740.24 of the EAR.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR).\nNote: See General Order No. 6 in supplement no. 1 to part 736 for additional authorization that may apply for exports, reexports, or transfers (in-country) of this item.\nList of Items Controlled\nRelated Controls:\n1. ECCN 3E905 applies to process “technology” exclusively for the “development” or “production” of GAAFET structures of integrated circuits at a semiconductor wafer production facility. ECCN 3E905 does not, for example, control an integrated circuit design such as the physical layout file in “GDSII” format or EDA tools, or any other technology used to produce the physical layout file for integrated circuit design. 2. ECCN 3E905 does not apply to vertical GAAFET architectures,\ne.g.,\nthose used for 3D NAND.\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.\nNote 1: 3E905 includes 'process recipes'.\nNote 2: 3E905. does not apply for tool qualification or maintenance.\nTechnical Note: For the purposes of Note 1 to 3E905, 3E905.a 'process recipe' is a set of conditions and parameters for a particular process step.",
+      "structure": {
+        "identifier": "3E905",
+        "heading": "3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+        "label": "3E905 – 3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">NS applies to entire entry (3E905)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.4(a)(5) and (b)(10) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">RS applies to the entire entry (3E905)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.6(a)(10) and (b)(11) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (3E905)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3E905) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3E905) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3E905) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.4(a)(5) and (b)(10) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "RS applies to the entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(10) and (b)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "IEC:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, see § 740.2(a)(22) and § 740.24 of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR)."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>See General Order No. 6 in supplement no. 1 to part 736 for additional authorization that may apply for exports, reexports, or transfers (in-country) of this item.</I></P></NOTE>",
+            "text": "Note: See General Order No. 6 in supplement no. 1 to part 736 for additional authorization that may apply for exports, reexports, or transfers (in-country) of this item.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "1. ECCN 3E905 applies to process “technology” exclusively for the “development” or “production” of GAAFET structures of integrated circuits at a semiconductor wafer production facility. ECCN 3E905 does not, for example, control an integrated circuit design such as the physical layout file in “GDSII” format or EDA tools, or any other technology used to produce the physical layout file for integrated circuit design. 2. ECCN 3E905 does not apply to vertical GAAFET architectures,"
+          },
+          {
+            "type": "text",
+            "text": "e.g.,"
+          },
+          {
+            "type": "text",
+            "text": "those used for 3D NAND."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>3E905 includes 'process recipes'.</I></P></NOTE>",
+            "text": "Note 1: 3E905 includes 'process recipes'.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3E905. does not apply for tool qualification or maintenance.</I></P></NOTE>",
+            "text": "Note 2: 3E905. does not apply for tool qualification or maintenance.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of Note 1 to 3E905, 3E905.a 'process recipe' is a set of conditions and parameters for a particular process step.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of Note 1 to 3E905, 3E905.a 'process recipe' is a set of conditions and parameters for a particular process step.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+      "title": "“Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+      "category": "3",
+      "group": "3E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.\nLicense Requirements\nReason for Control:\nNS, RS, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3E905) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3E905) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3E905) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nNS applies to entire entry\nWorldwide control.\nSee § 742.4(a)(5) and (b)(10) of the EAR.\nRS applies to the entire entry\nWorldwide control.\nSee § 742.6(a)(10) and (b)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nTSR:\nN/A\nIEC:\nYes, see § 740.2(a)(22) and § 740.24 of the EAR.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR).\nNote: See General Order No. 6 in supplement no. 1 to part 736 for additional authorization that may apply for exports, reexports, or transfers (in-country) of this item.\nList of Items Controlled\nRelated Controls:\n1. ECCN 3E905 applies to process “technology” exclusively for the “development” or “production” of GAAFET structures of integrated circuits at a semiconductor wafer production facility. ECCN 3E905 does not, for example, control an integrated circuit design such as the physical layout file in “GDSII” format or EDA tools, or any other technology used to produce the physical layout file for integrated circuit design. 2. ECCN 3E905 does not apply to vertical GAAFET architectures,\ne.g.,\nthose used for 3D NAND.\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.\nNote 1: 3E905 includes 'process recipes'.\nNote 2: 3E905. does not apply for tool qualification or maintenance.\nTechnical Note: For the purposes of Note 1 to 3E905, 3E905.a 'process recipe' is a set of conditions and parameters for a particular process step.",
+      "structure": {
+        "identifier": "3E905",
+        "heading": "3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+        "label": "3E905 – 3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">NS applies to entire entry (3E905)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.4(a)(5) and (b)(10) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">RS applies to the entire entry (3E905)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.6(a)(10) and (b)(11) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (3E905)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3E905) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3E905) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3E905) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.4(a)(5) and (b)(10) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "RS applies to the entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(10) and (b)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "IEC:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, see § 740.2(a)(22) and § 740.24 of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR)."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>See General Order No. 6 in supplement no. 1 to part 736 for additional authorization that may apply for exports, reexports, or transfers (in-country) of this item.</I></P></NOTE>",
+            "text": "Note: See General Order No. 6 in supplement no. 1 to part 736 for additional authorization that may apply for exports, reexports, or transfers (in-country) of this item.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "1. ECCN 3E905 applies to process “technology” exclusively for the “development” or “production” of GAAFET structures of integrated circuits at a semiconductor wafer production facility. ECCN 3E905 does not, for example, control an integrated circuit design such as the physical layout file in “GDSII” format or EDA tools, or any other technology used to produce the physical layout file for integrated circuit design. 2. ECCN 3E905 does not apply to vertical GAAFET architectures,"
+          },
+          {
+            "type": "text",
+            "text": "e.g.,"
+          },
+          {
+            "type": "text",
+            "text": "those used for 3D NAND."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>3E905 includes 'process recipes'.</I></P></NOTE>",
+            "text": "Note 1: 3E905 includes 'process recipes'.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3E905. does not apply for tool qualification or maintenance.</I></P></NOTE>",
+            "text": "Note 2: 3E905. does not apply for tool qualification or maintenance.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of Note 1 to 3E905, 3E905.a 'process recipe' is a set of conditions and parameters for a particular process step.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of Note 1 to 3E905, 3E905.a 'process recipe' is a set of conditions and parameters for a particular process step.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+      "title": "“Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+      "category": "3",
+      "group": "3E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.\nLicense Requirements\nReason for Control:\nNS, RS, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3E905) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3E905) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3E905) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nNS applies to entire entry\nWorldwide control.\nSee § 742.4(a)(5) and (b)(10) of the EAR.\nRS applies to the entire entry\nWorldwide control.\nSee § 742.6(a)(10) and (b)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nTSR:\nN/A\nIEC:\nYes, see § 740.2(a)(22) and § 740.24 of the EAR.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR).\nNote: See General Order No. 6 in supplement no. 1 to part 736 for additional authorization that may apply for exports, reexports, or transfers (in-country) of this item.\nList of Items Controlled\nRelated Controls:\n1. ECCN 3E905 applies to process “technology” exclusively for the “development” or “production” of GAAFET structures of integrated circuits at a semiconductor wafer production facility. ECCN 3E905 does not, for example, control an integrated circuit design such as the physical layout file in “GDSII” format or EDA tools, or any other technology used to produce the physical layout file for integrated circuit design. 2. ECCN 3E905 does not apply to vertical GAAFET architectures,\ne.g.,\nthose used for 3D NAND.\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.\nNote 1: 3E905 includes 'process recipes'.\nNote 2: 3E905. does not apply for tool qualification or maintenance.\nTechnical Note: For the purposes of Note 1 to 3E905, 3E905.a 'process recipe' is a set of conditions and parameters for a particular process step.",
+      "structure": {
+        "identifier": "3E905",
+        "heading": "3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+        "label": "3E905 – 3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">NS applies to entire entry (3E905)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.4(a)(5) and (b)(10) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">RS applies to the entire entry (3E905)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.6(a)(10) and (b)(11) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (3E905)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3E905) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3E905) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3E905) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.4(a)(5) and (b)(10) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "RS applies to the entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(10) and (b)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "IEC:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, see § 740.2(a)(22) and § 740.24 of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR)."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>See General Order No. 6 in supplement no. 1 to part 736 for additional authorization that may apply for exports, reexports, or transfers (in-country) of this item.</I></P></NOTE>",
+            "text": "Note: See General Order No. 6 in supplement no. 1 to part 736 for additional authorization that may apply for exports, reexports, or transfers (in-country) of this item.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "1. ECCN 3E905 applies to process “technology” exclusively for the “development” or “production” of GAAFET structures of integrated circuits at a semiconductor wafer production facility. ECCN 3E905 does not, for example, control an integrated circuit design such as the physical layout file in “GDSII” format or EDA tools, or any other technology used to produce the physical layout file for integrated circuit design. 2. ECCN 3E905 does not apply to vertical GAAFET architectures,"
+          },
+          {
+            "type": "text",
+            "text": "e.g.,"
+          },
+          {
+            "type": "text",
+            "text": "those used for 3D NAND."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>3E905 includes 'process recipes'.</I></P></NOTE>",
+            "text": "Note 1: 3E905 includes 'process recipes'.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3E905. does not apply for tool qualification or maintenance.</I></P></NOTE>",
+            "text": "Note 2: 3E905. does not apply for tool qualification or maintenance.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of Note 1 to 3E905, 3E905.a 'process recipe' is a set of conditions and parameters for a particular process step.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of Note 1 to 3E905, 3E905.a 'process recipe' is a set of conditions and parameters for a particular process step.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+      "title": "“Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+      "category": "3",
+      "group": "3E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”"
+      ],
+      "ancestors": [],
+      "text": "3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.\nLicense Requirements\nReason for Control:\nNS, RS, AT\nControl(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3E905) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3E905) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3E905) AT Column 1.\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nNS applies to entire entry\nWorldwide control.\nSee § 742.4(a)(5) and (b)(10) of the EAR.\nRS applies to the entire entry\nWorldwide control.\nSee § 742.6(a)(10) and (b)(11) of the EAR.\nAT applies to entire entry\nAT Column 1.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nTSR:\nN/A\nIEC:\nYes, see § 740.2(a)(22) and § 740.24 of the EAR.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR).\nNote: See General Order No. 6 in supplement no. 1 to part 736 for additional authorization that may apply for exports, reexports, or transfers (in-country) of this item.\nList of Items Controlled\nRelated Controls:\n1. ECCN 3E905 applies to process “technology” exclusively for the “development” or “production” of GAAFET structures of integrated circuits at a semiconductor wafer production facility. ECCN 3E905 does not, for example, control an integrated circuit design such as the physical layout file in “GDSII” format or EDA tools, or any other technology used to produce the physical layout file for integrated circuit design. 2. ECCN 3E905 does not apply to vertical GAAFET architectures,\ne.g.,\nthose used for 3D NAND.\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.\nNote 1: 3E905 includes 'process recipes'.\nNote 2: 3E905. does not apply for tool qualification or maintenance.\nTechnical Note: For the purposes of Note 1 to 3E905, 3E905.a 'process recipe' is a set of conditions and parameters for a particular process step.",
+      "structure": {
+        "identifier": "3E905",
+        "heading": "3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+        "label": "3E905 – 3E905 “Technology” according to the General Technology Note for the “development” or “production” of integrated circuits or devices, using “Gate all-around Field-Effect Transistor” (“GAAFET”) structures.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, RS, AT"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpo_table\" frame=\"void\" width=\"100%\">\n<THEAD>\n<TR>\n<TH class=\"center\">Control(s)</TH>\n<TH class=\"center\">Country chart\n<br/>(see Supp. No. 1\n<br/>to part 738)</TH>\n</TR>\n</THEAD>\n<TBODY>\n<TR>\n<TD class=\"left\">NS applies to entire entry (3E905)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.4(a)(5) and (b)(10) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">RS applies to the entire entry (3E905)</TD>\n<TD class=\"left\">Worldwide control. <E T=\"03\">See § 742.6(a)(10) and (b)(11) of the EAR.</E></TD>\n</TR>\n<TR>\n<TD class=\"left\">AT applies to entire entry (3E905)</TD>\n<TD class=\"left\">AT Column 1.</TD>\n</TR>\n</TBODY>\n</TABLE>",
+            "text": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to entire entry (3E905) Worldwide control. See § 742.4(a)(5) and (b)(10) of the EAR. RS applies to the entire entry (3E905) Worldwide control. See § 742.6(a)(10) and (b)(11) of the EAR. AT applies to entire entry (3E905) AT Column 1.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.4(a)(5) and (b)(10) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "RS applies to the entire entry"
+          },
+          {
+            "type": "text",
+            "text": "Worldwide control."
+          },
+          {
+            "type": "text",
+            "text": "See § 742.6(a)(10) and (b)(11) of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "IEC:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, see § 740.2(a)(22) and § 740.24 of the EAR."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship any item in this ECCN to any of the destinations listed in Country Group A:5 or A:6 (See Supplement No.1 to part 740 of the EAR)."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note:</I></HED>\n<P><I>See General Order No. 6 in supplement no. 1 to part 736 for additional authorization that may apply for exports, reexports, or transfers (in-country) of this item.</I></P></NOTE>",
+            "text": "Note: See General Order No. 6 in supplement no. 1 to part 736 for additional authorization that may apply for exports, reexports, or transfers (in-country) of this item.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "1. ECCN 3E905 applies to process “technology” exclusively for the “development” or “production” of GAAFET structures of integrated circuits at a semiconductor wafer production facility. ECCN 3E905 does not, for example, control an integrated circuit design such as the physical layout file in “GDSII” format or EDA tools, or any other technology used to produce the physical layout file for integrated circuit design. 2. ECCN 3E905 does not apply to vertical GAAFET architectures,"
+          },
+          {
+            "type": "text",
+            "text": "e.g.,"
+          },
+          {
+            "type": "text",
+            "text": "those used for 3D NAND."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>3E905 includes 'process recipes'.</I></P></NOTE>",
+            "text": "Note 1: 3E905 includes 'process recipes'.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>3E905. does not apply for tool qualification or maintenance.</I></P></NOTE>",
+            "text": "Note 2: 3E905. does not apply for tool qualification or maintenance.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Technical Note:</I></HED>\n<P><I>For the purposes of Note 1 to 3E905, 3E905.a 'process recipe' is a set of conditions and parameters for a particular process step.</I></P></NOTE>",
+            "text": "Technical Note: For the purposes of Note 1 to 3E905, 3E905.a 'process recipe' is a set of conditions and parameters for a particular process step.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

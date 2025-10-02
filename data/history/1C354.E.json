@@ -1,0 +1,416 @@
+{
+  "eccn": "1C354.e",
+  "normalized": "1C354.E",
+  "history": [
+    {
+      "version": "2023-01-17",
+      "fetchedAt": "2025-10-02T20:33:41.990Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-01-17/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C354 Plant pathogens, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C354"
+      ],
+      "text": "1C354.e\n2. Unless specified elsewhere in this ECCN 1C354, 1C354.e.g., in License Requirement Note 1), this ECCN controls all biological agents, regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including small quantities or attenuated strains of select biological agents that are excluded from the list of PPQ select agents and “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, in accordance with their regulations in 7 CFR part 331.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\n(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, maintains controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN (see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c)). (2) See 22 CFR part 121, Category XIV(b), for modified biological agents and biologically derived substances that are subject to the export licensing jurisdiction of the U.S. Department of State, Directorate of Defense Trade Controls.\nRelated Definitions:\nN/A\nItems:",
+      "structure": {
+        "identifier": "1C354.e",
+        "heading": null,
+        "label": "1C354.e",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>2. Unless specified elsewhere in this ECCN 1C354, 1C354.e.g., in License Requirement Note 1), this ECCN controls all biological agents, regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including small quantities or attenuated strains of select biological agents that are excluded from the list of PPQ select agents and “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, in accordance with their regulations in 7 CFR part 331.</I></P>",
+            "text": "2. Unless specified elsewhere in this ECCN 1C354, 1C354.e.g., in License Requirement Note 1), this ECCN controls all biological agents, regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including small quantities or attenuated strains of select biological agents that are excluded from the list of PPQ select agents and “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, in accordance with their regulations in 7 CFR part 331.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, maintains controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN (see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c)). (2) See 22 CFR part 121, Category XIV(b), for modified biological agents and biologically derived substances that are subject to the export licensing jurisdiction of the U.S. Department of State, Directorate of Defense Trade Controls."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-02-24",
+      "fetchedAt": "2025-10-02T20:33:42.390Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-02-24/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "1C354 Plant pathogens, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C354"
+      ],
+      "text": "1C354.e\n2. Unless specified elsewhere in this ECCN 1C354, 1C354.e.g., in License Requirement Note 1), this ECCN controls all biological agents, regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including small quantities or attenuated strains of select biological agents that are excluded from the list of PPQ select agents and “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, in accordance with their regulations in 7 CFR part 331.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\n(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, maintains controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN (see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c)). (2) See 22 CFR part 121, Category XIV(b), for modified biological agents and biologically derived substances that are subject to the export licensing jurisdiction of the U.S. Department of State, Directorate of Defense Trade Controls.\nRelated Definitions:\nN/A\nItems:",
+      "structure": {
+        "identifier": "1C354.e",
+        "heading": null,
+        "label": "1C354.e",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>2. Unless specified elsewhere in this ECCN 1C354, 1C354.e.g., in License Requirement Note 1), this ECCN controls all biological agents, regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including small quantities or attenuated strains of select biological agents that are excluded from the list of PPQ select agents and “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, in accordance with their regulations in 7 CFR part 331.</I></P>",
+            "text": "2. Unless specified elsewhere in this ECCN 1C354, 1C354.e.g., in License Requirement Note 1), this ECCN controls all biological agents, regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including small quantities or attenuated strains of select biological agents that are excluded from the list of PPQ select agents and “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, in accordance with their regulations in 7 CFR part 331.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, maintains controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN (see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c)). (2) See 22 CFR part 121, Category XIV(b), for modified biological agents and biologically derived substances that are subject to the export licensing jurisdiction of the U.S. Department of State, Directorate of Defense Trade Controls."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-08-18",
+      "fetchedAt": "2025-10-02T20:33:42.783Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-08-18/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)",
+        "1C354 Plant pathogens, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C354"
+      ],
+      "text": "1C354.e\n2. Unless specified elsewhere in this ECCN 1C354, 1C354.e.g., in License Requirement Note 1), this ECCN controls all biological agents, regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including small quantities or attenuated strains of select biological agents that are excluded from the list of PPQ select agents and “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, in accordance with their regulations in 7 CFR part 331.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\n(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, maintains controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN (see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c)). (2) See 22 CFR part 121, Category XIV(b), for modified biological agents and biologically derived substances that are subject to the export licensing jurisdiction of the U.S. Department of State, Directorate of Defense Trade Controls.\nRelated Definitions:\nN/A\nItems:",
+      "structure": {
+        "identifier": "1C354.e",
+        "heading": null,
+        "label": "1C354.e",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>2. Unless specified elsewhere in this ECCN 1C354, 1C354.e.g., in License Requirement Note 1), this ECCN controls all biological agents, regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including small quantities or attenuated strains of select biological agents that are excluded from the list of PPQ select agents and “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, in accordance with their regulations in 7 CFR part 331.</I></P>",
+            "text": "2. Unless specified elsewhere in this ECCN 1C354, 1C354.e.g., in License Requirement Note 1), this ECCN controls all biological agents, regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including small quantities or attenuated strains of select biological agents that are excluded from the list of PPQ select agents and “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, in accordance with their regulations in 7 CFR part 331.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, maintains controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN (see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c)). (2) See 22 CFR part 121, Category XIV(b), for modified biological agents and biologically derived substances that are subject to the export licensing jurisdiction of the U.S. Department of State, Directorate of Defense Trade Controls."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-10-18",
+      "fetchedAt": "2025-10-02T20:33:43.173Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-10-18/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)",
+        "1C354 Plant pathogens, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C354"
+      ],
+      "text": "1C354.e\n2. Unless specified elsewhere in this ECCN 1C354, 1C354.e.g., in License Requirement Note 1), this ECCN controls all biological agents, regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including small quantities or attenuated strains of select biological agents that are excluded from the list of PPQ select agents and “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, in accordance with their regulations in 7 CFR part 331.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\n(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, maintains controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN (see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c)). (2) See 22 CFR part 121, Category XIV(b), for modified biological agents and biologically derived substances that are subject to the export licensing jurisdiction of the U.S. Department of State, Directorate of Defense Trade Controls.\nRelated Definitions:\nN/A\nItems:",
+      "structure": {
+        "identifier": "1C354.e",
+        "heading": null,
+        "label": "1C354.e",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>2. Unless specified elsewhere in this ECCN 1C354, 1C354.e.g., in License Requirement Note 1), this ECCN controls all biological agents, regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including small quantities or attenuated strains of select biological agents that are excluded from the list of PPQ select agents and “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, in accordance with their regulations in 7 CFR part 331.</I></P>",
+            "text": "2. Unless specified elsewhere in this ECCN 1C354, 1C354.e.g., in License Requirement Note 1), this ECCN controls all biological agents, regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including small quantities or attenuated strains of select biological agents that are excluded from the list of PPQ select agents and “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, in accordance with their regulations in 7 CFR part 331.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, maintains controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN (see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c)). (2) See 22 CFR part 121, Category XIV(b), for modified biological agents and biologically derived substances that are subject to the export licensing jurisdiction of the U.S. Department of State, Directorate of Defense Trade Controls."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-11-17",
+      "fetchedAt": "2025-10-02T20:33:43.584Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-11-17/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)",
+        "1C354 Plant pathogens, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C354"
+      ],
+      "text": "1C354.e\n2. Unless specified elsewhere in this ECCN 1C354, 1C354.e.g., in License Requirement Note 1), this ECCN controls all biological agents, regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including small quantities or attenuated strains of select biological agents that are excluded from the list of PPQ select agents and “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, in accordance with their regulations in 7 CFR part 331.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\n(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, maintains controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN (see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c)). (2) See 22 CFR part 121, Category XIV(b), for modified biological agents and biologically derived substances that are subject to the export licensing jurisdiction of the U.S. Department of State, Directorate of Defense Trade Controls.\nRelated Definitions:\nN/A\nItems:",
+      "structure": {
+        "identifier": "1C354.e",
+        "heading": null,
+        "label": "1C354.e",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>2. Unless specified elsewhere in this ECCN 1C354, 1C354.e.g., in License Requirement Note 1), this ECCN controls all biological agents, regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including small quantities or attenuated strains of select biological agents that are excluded from the list of PPQ select agents and “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, in accordance with their regulations in 7 CFR part 331.</I></P>",
+            "text": "2. Unless specified elsewhere in this ECCN 1C354, 1C354.e.g., in License Requirement Note 1), this ECCN controls all biological agents, regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including small quantities or attenuated strains of select biological agents that are excluded from the list of PPQ select agents and “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, in accordance with their regulations in 7 CFR part 331.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, maintains controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN (see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c)). (2) See 22 CFR part 121, Category XIV(b), for modified biological agents and biologically derived substances that are subject to the export licensing jurisdiction of the U.S. Department of State, Directorate of Defense Trade Controls."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

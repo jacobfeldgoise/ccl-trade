@@ -1,0 +1,366 @@
+{
+  "eccn": "3E991.n.b",
+  "normalized": "3E991.N.B",
+  "history": [
+    {
+      "version": "2017-01-15",
+      "fetchedAt": "2025-10-02T20:33:28.357Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-15/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "3",
+      "group": "3E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”",
+        "3E991 “Technology” for the “development,” “production” or “use” of electronic devices, “parts” or “components” controlled by 3A991, general purpose electronic equipment controlled by 3A992, or manufacturing and test equipment controlled by 3B991 or 3B992, or materials controlled by 3C992.",
+        "3E991.n"
+      ],
+      "ancestors": [
+        "3E991",
+        "3E991.n"
+      ],
+      "text": "3E991.n.b\nN.B: For the control status of “software” “specially designed” for packet switching, see ECCN 5D001. (Telecommunications).",
+      "structure": {
+        "identifier": "3E991.n.b",
+        "heading": null,
+        "label": "3E991.n.b",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>N.B: For the control status of “software” “specially designed” for packet switching, see ECCN 5D001. (Telecommunications).</I></P>",
+            "text": "N.B: For the control status of “software” “specially designed” for packet switching, see ECCN 5D001. (Telecommunications).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-07-07",
+      "fetchedAt": "2025-10-02T20:33:28.904Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-07-07/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "3",
+      "group": "3E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”",
+        "3E991 “Technology” for the “development,” “production” or “use” of electronic devices, “parts” or “components” controlled by 3A991, general purpose electronic equipment controlled by 3A992, or manufacturing and test equipment controlled by 3B991 or 3B992, or materials controlled by 3C992.",
+        "3E991.n"
+      ],
+      "ancestors": [
+        "3E991",
+        "3E991.n"
+      ],
+      "text": "3E991.n.b\nN.B: For the control status of “software” “specially designed” for packet switching, see ECCN 5D001. (Telecommunications).",
+      "structure": {
+        "identifier": "3E991.n.b",
+        "heading": null,
+        "label": "3E991.n.b",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>N.B: For the control status of “software” “specially designed” for packet switching, see ECCN 5D001. (Telecommunications).</I></P>",
+            "text": "N.B: For the control status of “software” “specially designed” for packet switching, see ECCN 5D001. (Telecommunications).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-08-15",
+      "fetchedAt": "2025-10-02T20:33:29.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-08-15/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "3",
+      "group": "3E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "3E991 “Technology” for the “development,” “production” or “use” of electronic devices, “parts” or “components” controlled by 3A991, general purpose electronic equipment controlled by 3A992, or manufacturing and test equipment controlled by 3B991 or 3B992, or materials controlled by 3C992.",
+        "3E991.n"
+      ],
+      "ancestors": [
+        "3E991",
+        "3E991.n"
+      ],
+      "text": "3E991.n.b\nN.B: For the control status of “software” “specially designed” for packet switching, see ECCN 5D001. (Telecommunications).",
+      "structure": {
+        "identifier": "3E991.n.b",
+        "heading": null,
+        "label": "3E991.n.b",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>N.B: For the control status of “software” “specially designed” for packet switching, see ECCN 5D001. (Telecommunications).</I></P>",
+            "text": "N.B: For the control status of “software” “specially designed” for packet switching, see ECCN 5D001. (Telecommunications).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-12-27",
+      "fetchedAt": "2025-10-02T20:33:29.759Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-12-27/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "3",
+      "group": "3E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”",
+        "3E991 “Technology” for the “development,” “production” or “use” of electronic devices, “parts” or “components” controlled by 3A991, general purpose electronic equipment controlled by 3A992, or manufacturing and test equipment controlled by 3B991 or 3B992, or materials controlled by 3C992.",
+        "3E991.n"
+      ],
+      "ancestors": [
+        "3E991",
+        "3E991.n"
+      ],
+      "text": "3E991.n.b\nN.B: For the control status of “software” “specially designed” for packet switching, see ECCN 5D001. (Telecommunications).",
+      "structure": {
+        "identifier": "3E991.n.b",
+        "heading": null,
+        "label": "3E991.n.b",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>N.B: For the control status of “software” “specially designed” for packet switching, see ECCN 5D001. (Telecommunications).</I></P>",
+            "text": "N.B: For the control status of “software” “specially designed” for packet switching, see ECCN 5D001. (Telecommunications).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-01-08",
+      "fetchedAt": "2025-10-02T20:33:30.194Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-01-08/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "3",
+      "group": "3E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”",
+        "3E991 “Technology” for the “development,” “production” or “use” of electronic devices, “parts” or “components” controlled by 3A991, general purpose electronic equipment controlled by 3A992, or manufacturing and test equipment controlled by 3B991 or 3B992, or materials controlled by 3C992.",
+        "3E991.n"
+      ],
+      "ancestors": [
+        "3E991",
+        "3E991.n"
+      ],
+      "text": "3E991.n.b\nN.B: For the control status of “software” “specially designed” for packet switching, see ECCN 5D001. (Telecommunications).",
+      "structure": {
+        "identifier": "3E991.n.b",
+        "heading": null,
+        "label": "3E991.n.b",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>N.B: For the control status of “software” “specially designed” for packet switching, see ECCN 5D001. (Telecommunications).</I></P>",
+            "text": "N.B: For the control status of “software” “specially designed” for packet switching, see ECCN 5D001. (Telecommunications).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-04-02",
+      "fetchedAt": "2025-10-02T20:33:30.716Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-02/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "3",
+      "group": "3E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”",
+        "3E991 “Technology” for the “development,” “production” or “use” of electronic devices, “parts” or “components” controlled by 3A991, general purpose electronic equipment controlled by 3A992, or manufacturing and test equipment controlled by 3B991 or 3B992, or materials controlled by 3C992.",
+        "3E991.n"
+      ],
+      "ancestors": [
+        "3E991",
+        "3E991.n"
+      ],
+      "text": "3E991.n.b\nN.B: For the control status of “software” “specially designed” for packet switching, see ECCN 5D001. (Telecommunications).",
+      "structure": {
+        "identifier": "3E991.n.b",
+        "heading": null,
+        "label": "3E991.n.b",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>N.B: For the control status of “software” “specially designed” for packet switching, see ECCN 5D001. (Telecommunications).</I></P>",
+            "text": "N.B: For the control status of “software” “specially designed” for packet switching, see ECCN 5D001. (Telecommunications).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-04-05",
+      "fetchedAt": "2025-10-02T20:33:31.145Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-05/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "3",
+      "group": "3E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”",
+        "3E991 “Technology” for the “development,” “production” or “use” of electronic devices, “parts” or “components” controlled by 3A991, general purpose electronic equipment controlled by 3A992, or manufacturing and test equipment controlled by 3B991 or 3B992, or materials controlled by 3C992.",
+        "3E991.n"
+      ],
+      "ancestors": [
+        "3E991",
+        "3E991.n"
+      ],
+      "text": "3E991.n.b\nN.B: For the control status of “software” “specially designed” for packet switching, see ECCN 5D001. (Telecommunications).",
+      "structure": {
+        "identifier": "3E991.n.b",
+        "heading": null,
+        "label": "3E991.n.b",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>N.B: For the control status of “software” “specially designed” for packet switching, see ECCN 5D001. (Telecommunications).</I></P>",
+            "text": "N.B: For the control status of “software” “specially designed” for packet switching, see ECCN 5D001. (Telecommunications).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-08-30",
+      "fetchedAt": "2025-10-02T20:33:31.567Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-08-30/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "3",
+      "group": "3E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”",
+        "3E991 “Technology” for the “development,” “production” or “use” of electronic devices, “parts” or “components” controlled by 3A991, general purpose electronic equipment controlled by 3A992, or manufacturing and test equipment controlled by 3B991 or 3B992, or materials controlled by 3C992.",
+        "3E991.n"
+      ],
+      "ancestors": [
+        "3E991",
+        "3E991.n"
+      ],
+      "text": "3E991.n.b\nN.B: For the control status of “software” “specially designed” for packet switching, see ECCN 5D001. (Telecommunications).",
+      "structure": {
+        "identifier": "3E991.n.b",
+        "heading": null,
+        "label": "3E991.n.b",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>N.B: For the control status of “software” “specially designed” for packet switching, see ECCN 5D001. (Telecommunications).</I></P>",
+            "text": "N.B: For the control status of “software” “specially designed” for packet switching, see ECCN 5D001. (Telecommunications).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-10-24",
+      "fetchedAt": "2025-10-02T20:33:31.990Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-10-24/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "3",
+      "group": "3E",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "E. “Technology”",
+        "3E991 “Technology” for the “development,” “production” or “use” of electronic devices, “parts” or “components” controlled by 3A991, general purpose electronic equipment controlled by 3A992, or manufacturing and test equipment controlled by 3B991 or 3B992, or materials controlled by 3C992.",
+        "3E991.n"
+      ],
+      "ancestors": [
+        "3E991",
+        "3E991.n"
+      ],
+      "text": "3E991.n.b\nN.B: For the control status of “software” “specially designed” for packet switching, see ECCN 5D001. (Telecommunications).",
+      "structure": {
+        "identifier": "3E991.n.b",
+        "heading": null,
+        "label": "3E991.n.b",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>N.B: For the control status of “software” “specially designed” for packet switching, see ECCN 5D001. (Telecommunications).</I></P>",
+            "text": "N.B: For the control status of “software” “specially designed” for packet switching, see ECCN 5D001. (Telecommunications).",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

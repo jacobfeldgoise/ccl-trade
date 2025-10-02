@@ -1,0 +1,1969 @@
+{
+  "eccn": "0A984",
+  "normalized": "0A984",
+  "history": [
+    {
+      "version": "2017-01-15",
+      "fetchedAt": "2025-10-02T20:33:28.357Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-15/title-15?format=xml",
+      "heading": "0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+      "title": "Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.\nLicense Requirements\nReason for Control:\nCC, FC, UN\nControl(s) Country Chart (See Supp. No. 1 to part 738) FC applies to entire entryFC Column 1. CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-userCC Column 1 CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-userCC Column 2. CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcementCC Column 3. UN applies to entire entrySee § 746.1(b) for UN controls.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nFC applies to entire entry\nFC Column 1.\nCC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-user\nCC Column 1\nCC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-user\nCC Column 2.\nCC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcement\nCC Column 3.\nUN applies to entire entry\nSee § 746.1(b) for UN controls.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\nThis entry does not control shotguns with a barrel length of less than 18 inches (45.72 cm). These items are “subject to the ITAR” (see 22 CFR parts 120 through 130).\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "0A984",
+        "heading": "0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+        "label": "0A984 – 0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "CC, FC, UN"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">FC applies to entire entry (0A984)</TD><TD align=\"left\" class=\"gpotbl_cell\">FC Column 1.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-user</TD><TD align=\"left\" class=\"gpotbl_cell\">CC Column 1\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-user</TD><TD align=\"left\" class=\"gpotbl_cell\">CC Column 2.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcement</TD><TD align=\"left\" class=\"gpotbl_cell\">CC Column 3.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">UN applies to entire entry (0A984)</TD><TD align=\"left\" class=\"gpotbl_cell\">See § 746.1(b) for UN controls.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) FC applies to entire entryFC Column 1. CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-userCC Column 1 CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-userCC Column 2. CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcementCC Column 3. UN applies to entire entrySee § 746.1(b) for UN controls.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "FC applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "FC Column 1."
+          },
+          {
+            "type": "text",
+            "text": "CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-user"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 1"
+          },
+          {
+            "type": "text",
+            "text": "CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-user"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 2."
+          },
+          {
+            "type": "text",
+            "text": "CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcement"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 3."
+          },
+          {
+            "type": "text",
+            "text": "UN applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "See § 746.1(b) for UN controls."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "This entry does not control shotguns with a barrel length of less than 18 inches (45.72 cm). These items are “subject to the ITAR” (see 22 CFR parts 120 through 130)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-07-07",
+      "fetchedAt": "2025-10-02T20:33:28.904Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-07-07/title-15?format=xml",
+      "heading": "0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+      "title": "Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.\nLicense Requirements\nReason for Control:\nCC, FC, UN\nControl(s) Country Chart (See Supp. No. 1 to part 738) FC applies to entire entryFC Column 1. CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-userCC Column 1 CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-userCC Column 2. CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcementCC Column 3. UN applies to entire entrySee § 746.1(b) for UN controls.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nFC applies to entire entry\nFC Column 1.\nCC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-user\nCC Column 1\nCC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-user\nCC Column 2.\nCC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcement\nCC Column 3.\nUN applies to entire entry\nSee § 746.1(b) for UN controls.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\nThis entry does not control shotguns with a barrel length of less than 18 inches (45.72 cm). These items are “subject to the ITAR” (see 22 CFR parts 120 through 130).\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "0A984",
+        "heading": "0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+        "label": "0A984 – 0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "CC, FC, UN"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">FC applies to entire entry (0A984)</TD><TD align=\"left\" class=\"gpotbl_cell\">FC Column 1.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-user</TD><TD align=\"left\" class=\"gpotbl_cell\">CC Column 1\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-user</TD><TD align=\"left\" class=\"gpotbl_cell\">CC Column 2.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcement</TD><TD align=\"left\" class=\"gpotbl_cell\">CC Column 3.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">UN applies to entire entry (0A984)</TD><TD align=\"left\" class=\"gpotbl_cell\">See § 746.1(b) for UN controls.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) FC applies to entire entryFC Column 1. CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-userCC Column 1 CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-userCC Column 2. CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcementCC Column 3. UN applies to entire entrySee § 746.1(b) for UN controls.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "FC applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "FC Column 1."
+          },
+          {
+            "type": "text",
+            "text": "CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-user"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 1"
+          },
+          {
+            "type": "text",
+            "text": "CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-user"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 2."
+          },
+          {
+            "type": "text",
+            "text": "CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcement"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 3."
+          },
+          {
+            "type": "text",
+            "text": "UN applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "See § 746.1(b) for UN controls."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "This entry does not control shotguns with a barrel length of less than 18 inches (45.72 cm). These items are “subject to the ITAR” (see 22 CFR parts 120 through 130)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-08-15",
+      "fetchedAt": "2025-10-02T20:33:29.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-08-15/title-15?format=xml",
+      "heading": "0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+      "title": "Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.\nLicense Requirements\nReason for Control:\nCC, FC, UN\nControl(s) Country Chart (See Supp. No. 1 to part 738) FC applies to entire entryFC Column 1. CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-userCC Column 1 CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-userCC Column 2. CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcementCC Column 3. UN applies to entire entrySee § 746.1(b) for UN controls.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nFC applies to entire entry\nFC Column 1.\nCC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-user\nCC Column 1\nCC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-user\nCC Column 2.\nCC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcement\nCC Column 3.\nUN applies to entire entry\nSee § 746.1(b) for UN controls.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\nThis entry does not control shotguns with a barrel length of less than 18 inches (45.72 cm). These items are “subject to the ITAR” (see 22 CFR parts 120 through 130).\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "0A984",
+        "heading": "0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+        "label": "0A984 – 0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "CC, FC, UN"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">FC applies to entire entry (0A984)</TD><TD align=\"left\" class=\"gpotbl_cell\">FC Column 1.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-user</TD><TD align=\"left\" class=\"gpotbl_cell\">CC Column 1\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-user</TD><TD align=\"left\" class=\"gpotbl_cell\">CC Column 2.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcement</TD><TD align=\"left\" class=\"gpotbl_cell\">CC Column 3.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">UN applies to entire entry (0A984)</TD><TD align=\"left\" class=\"gpotbl_cell\">See § 746.1(b) for UN controls.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) FC applies to entire entryFC Column 1. CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-userCC Column 1 CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-userCC Column 2. CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcementCC Column 3. UN applies to entire entrySee § 746.1(b) for UN controls.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "FC applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "FC Column 1."
+          },
+          {
+            "type": "text",
+            "text": "CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-user"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 1"
+          },
+          {
+            "type": "text",
+            "text": "CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-user"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 2."
+          },
+          {
+            "type": "text",
+            "text": "CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcement"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 3."
+          },
+          {
+            "type": "text",
+            "text": "UN applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "See § 746.1(b) for UN controls."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "This entry does not control shotguns with a barrel length of less than 18 inches (45.72 cm). These items are “subject to the ITAR” (see 22 CFR parts 120 through 130)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-12-27",
+      "fetchedAt": "2025-10-02T20:33:29.759Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-12-27/title-15?format=xml",
+      "heading": "0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+      "title": "Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled"
+      ],
+      "ancestors": [],
+      "text": "0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.\nLicense Requirements\nReason for Control:\nCC, FC, UN\nControl(s) Country Chart (See Supp. No. 1 to part 738) FC applies to entire entryFC Column 1. CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-userCC Column 1 CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-userCC Column 2. CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcementCC Column 3. UN applies to entire entrySee § 746.1(b) for UN controls.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nFC applies to entire entry\nFC Column 1.\nCC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-user\nCC Column 1\nCC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-user\nCC Column 2.\nCC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcement\nCC Column 3.\nUN applies to entire entry\nSee § 746.1(b) for UN controls.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\nThis entry does not control shotguns with a barrel length of less than 18 inches (45.72 cm). These items are “subject to the ITAR” (see 22 CFR parts 120 through 130).\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "0A984",
+        "heading": "0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+        "label": "0A984 – 0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "CC, FC, UN"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">FC applies to entire entry (0A984)</TD><TD align=\"left\" class=\"gpotbl_cell\">FC Column 1.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-user</TD><TD align=\"left\" class=\"gpotbl_cell\">CC Column 1\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-user</TD><TD align=\"left\" class=\"gpotbl_cell\">CC Column 2.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcement</TD><TD align=\"left\" class=\"gpotbl_cell\">CC Column 3.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">UN applies to entire entry (0A984)</TD><TD align=\"left\" class=\"gpotbl_cell\">See § 746.1(b) for UN controls.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) FC applies to entire entryFC Column 1. CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-userCC Column 1 CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-userCC Column 2. CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcementCC Column 3. UN applies to entire entrySee § 746.1(b) for UN controls.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "FC applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "FC Column 1."
+          },
+          {
+            "type": "text",
+            "text": "CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-user"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 1"
+          },
+          {
+            "type": "text",
+            "text": "CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-user"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 2."
+          },
+          {
+            "type": "text",
+            "text": "CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcement"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 3."
+          },
+          {
+            "type": "text",
+            "text": "UN applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "See § 746.1(b) for UN controls."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "This entry does not control shotguns with a barrel length of less than 18 inches (45.72 cm). These items are “subject to the ITAR” (see 22 CFR parts 120 through 130)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-01-08",
+      "fetchedAt": "2025-10-02T20:33:30.194Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-01-08/title-15?format=xml",
+      "heading": "0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+      "title": "Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled"
+      ],
+      "ancestors": [],
+      "text": "0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.\nLicense Requirements\nReason for Control:\nCC, FC, UN\nControl(s) Country Chart (See Supp. No. 1 to part 738) FC applies to entire entryFC Column 1. CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-userCC Column 1 CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-userCC Column 2. CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcementCC Column 3. UN applies to entire entrySee § 746.1(b) for UN controls.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nFC applies to entire entry\nFC Column 1.\nCC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-user\nCC Column 1\nCC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-user\nCC Column 2.\nCC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcement\nCC Column 3.\nUN applies to entire entry\nSee § 746.1(b) for UN controls.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\nThis entry does not control shotguns with a barrel length of less than 18 inches (45.72 cm). These items are “subject to the ITAR” (see 22 CFR parts 120 through 130).\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "0A984",
+        "heading": "0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+        "label": "0A984 – 0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "CC, FC, UN"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">FC applies to entire entry (0A984)</TD><TD align=\"left\" class=\"gpotbl_cell\">FC Column 1.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-user</TD><TD align=\"left\" class=\"gpotbl_cell\">CC Column 1\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-user</TD><TD align=\"left\" class=\"gpotbl_cell\">CC Column 2.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcement</TD><TD align=\"left\" class=\"gpotbl_cell\">CC Column 3.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">UN applies to entire entry (0A984)</TD><TD align=\"left\" class=\"gpotbl_cell\">See § 746.1(b) for UN controls.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) FC applies to entire entryFC Column 1. CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-userCC Column 1 CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-userCC Column 2. CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcementCC Column 3. UN applies to entire entrySee § 746.1(b) for UN controls.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "FC applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "FC Column 1."
+          },
+          {
+            "type": "text",
+            "text": "CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-user"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 1"
+          },
+          {
+            "type": "text",
+            "text": "CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-user"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 2."
+          },
+          {
+            "type": "text",
+            "text": "CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcement"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 3."
+          },
+          {
+            "type": "text",
+            "text": "UN applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "See § 746.1(b) for UN controls."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "This entry does not control shotguns with a barrel length of less than 18 inches (45.72 cm). These items are “subject to the ITAR” (see 22 CFR parts 120 through 130)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-04-02",
+      "fetchedAt": "2025-10-02T20:33:30.716Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-02/title-15?format=xml",
+      "heading": "0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+      "title": "Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.\nLicense Requirements\nReason for Control:\nCC, FC, UN\nControl(s) Country Chart (See Supp. No. 1 to part 738) FC applies to entire entryFC Column 1. CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-userCC Column 1 CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-userCC Column 2. CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcementCC Column 3. UN applies to entire entrySee § 746.1(b) for UN controls.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nFC applies to entire entry\nFC Column 1.\nCC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-user\nCC Column 1\nCC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-user\nCC Column 2.\nCC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcement\nCC Column 3.\nUN applies to entire entry\nSee § 746.1(b) for UN controls.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\nThis entry does not control shotguns with a barrel length of less than 18 inches (45.72 cm). These items are “subject to the ITAR” (see 22 CFR parts 120 through 130).\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "0A984",
+        "heading": "0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+        "label": "0A984 – 0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "CC, FC, UN"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">FC applies to entire entry (0A984)</TD><TD align=\"left\" class=\"gpotbl_cell\">FC Column 1.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-user</TD><TD align=\"left\" class=\"gpotbl_cell\">CC Column 1\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-user</TD><TD align=\"left\" class=\"gpotbl_cell\">CC Column 2.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcement</TD><TD align=\"left\" class=\"gpotbl_cell\">CC Column 3.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">UN applies to entire entry (0A984)</TD><TD align=\"left\" class=\"gpotbl_cell\">See § 746.1(b) for UN controls.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) FC applies to entire entryFC Column 1. CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-userCC Column 1 CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-userCC Column 2. CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcementCC Column 3. UN applies to entire entrySee § 746.1(b) for UN controls.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "FC applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "FC Column 1."
+          },
+          {
+            "type": "text",
+            "text": "CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-user"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 1"
+          },
+          {
+            "type": "text",
+            "text": "CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-user"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 2."
+          },
+          {
+            "type": "text",
+            "text": "CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcement"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 3."
+          },
+          {
+            "type": "text",
+            "text": "UN applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "See § 746.1(b) for UN controls."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "This entry does not control shotguns with a barrel length of less than 18 inches (45.72 cm). These items are “subject to the ITAR” (see 22 CFR parts 120 through 130)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-04-05",
+      "fetchedAt": "2025-10-02T20:33:31.145Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-05/title-15?format=xml",
+      "heading": "0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+      "title": "Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.\nLicense Requirements\nReason for Control:\nCC, FC, UN\nControl(s) Country Chart (See Supp. No. 1 to part 738) FC applies to entire entryFC Column 1. CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-userCC Column 1 CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-userCC Column 2. CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcementCC Column 3. UN applies to entire entrySee § 746.1(b) for UN controls.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nFC applies to entire entry\nFC Column 1.\nCC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-user\nCC Column 1\nCC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-user\nCC Column 2.\nCC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcement\nCC Column 3.\nUN applies to entire entry\nSee § 746.1(b) for UN controls.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\nThis entry does not control shotguns with a barrel length of less than 18 inches (45.72 cm). These items are “subject to the ITAR” (see 22 CFR parts 120 through 130).\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "0A984",
+        "heading": "0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+        "label": "0A984 – 0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "CC, FC, UN"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">FC applies to entire entry (0A984)</TD><TD align=\"left\" class=\"gpotbl_cell\">FC Column 1.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-user</TD><TD align=\"left\" class=\"gpotbl_cell\">CC Column 1\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-user</TD><TD align=\"left\" class=\"gpotbl_cell\">CC Column 2.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcement</TD><TD align=\"left\" class=\"gpotbl_cell\">CC Column 3.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">UN applies to entire entry (0A984)</TD><TD align=\"left\" class=\"gpotbl_cell\">See § 746.1(b) for UN controls.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) FC applies to entire entryFC Column 1. CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-userCC Column 1 CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-userCC Column 2. CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcementCC Column 3. UN applies to entire entrySee § 746.1(b) for UN controls.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "FC applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "FC Column 1."
+          },
+          {
+            "type": "text",
+            "text": "CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-user"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 1"
+          },
+          {
+            "type": "text",
+            "text": "CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-user"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 2."
+          },
+          {
+            "type": "text",
+            "text": "CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcement"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 3."
+          },
+          {
+            "type": "text",
+            "text": "UN applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "See § 746.1(b) for UN controls."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "This entry does not control shotguns with a barrel length of less than 18 inches (45.72 cm). These items are “subject to the ITAR” (see 22 CFR parts 120 through 130)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-08-30",
+      "fetchedAt": "2025-10-02T20:33:31.567Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-08-30/title-15?format=xml",
+      "heading": "0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+      "title": "Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.\nLicense Requirements\nReason for Control:\nCC, FC, UN\nControl(s) Country Chart (See Supp. No. 1 to part 738) FC applies to entire entryFC Column 1. CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-userCC Column 1 CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-userCC Column 2. CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcementCC Column 3. UN applies to entire entrySee § 746.1(b) for UN controls.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nFC applies to entire entry\nFC Column 1.\nCC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-user\nCC Column 1\nCC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-user\nCC Column 2.\nCC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcement\nCC Column 3.\nUN applies to entire entry\nSee § 746.1(b) for UN controls.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\nThis entry does not control shotguns with a barrel length of less than 18 inches (45.72 cm). These items are “subject to the ITAR” (see 22 CFR parts 120 through 130).\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "0A984",
+        "heading": "0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+        "label": "0A984 – 0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "CC, FC, UN"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">FC applies to entire entry (0A984)</TD><TD align=\"left\" class=\"gpotbl_cell\">FC Column 1.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-user</TD><TD align=\"left\" class=\"gpotbl_cell\">CC Column 1\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-user</TD><TD align=\"left\" class=\"gpotbl_cell\">CC Column 2.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcement</TD><TD align=\"left\" class=\"gpotbl_cell\">CC Column 3.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">UN applies to entire entry (0A984)</TD><TD align=\"left\" class=\"gpotbl_cell\">See § 746.1(b) for UN controls.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) FC applies to entire entryFC Column 1. CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-userCC Column 1 CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-userCC Column 2. CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcementCC Column 3. UN applies to entire entrySee § 746.1(b) for UN controls.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "FC applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "FC Column 1."
+          },
+          {
+            "type": "text",
+            "text": "CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-user"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 1"
+          },
+          {
+            "type": "text",
+            "text": "CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-user"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 2."
+          },
+          {
+            "type": "text",
+            "text": "CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcement"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 3."
+          },
+          {
+            "type": "text",
+            "text": "UN applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "See § 746.1(b) for UN controls."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "This entry does not control shotguns with a barrel length of less than 18 inches (45.72 cm). These items are “subject to the ITAR” (see 22 CFR parts 120 through 130)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-10-24",
+      "fetchedAt": "2025-10-02T20:33:31.990Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-10-24/title-15?format=xml",
+      "heading": "0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+      "title": "Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.\nLicense Requirements\nReason for Control:\nCC, FC, UN\nControl(s) Country Chart (See Supp. No. 1 to part 738) FC applies to entire entryFC Column 1. CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-userCC Column 1 CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-userCC Column 2. CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcementCC Column 3. UN applies to entire entrySee § 746.1(b) for UN controls.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nFC applies to entire entry\nFC Column 1.\nCC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-user\nCC Column 1\nCC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-user\nCC Column 2.\nCC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcement\nCC Column 3.\nUN applies to entire entry\nSee § 746.1(b) for UN controls.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\nThis entry does not control shotguns with a barrel length of less than 18 inches (45.72 cm). These items are “subject to the ITAR” (see 22 CFR parts 120 through 130).\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "0A984",
+        "heading": "0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+        "label": "0A984 – 0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "CC, FC, UN"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">FC applies to entire entry (0A984)</TD><TD align=\"left\" class=\"gpotbl_cell\">FC Column 1.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-user</TD><TD align=\"left\" class=\"gpotbl_cell\">CC Column 1\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-user</TD><TD align=\"left\" class=\"gpotbl_cell\">CC Column 2.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcement</TD><TD align=\"left\" class=\"gpotbl_cell\">CC Column 3.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">UN applies to entire entry (0A984)</TD><TD align=\"left\" class=\"gpotbl_cell\">See § 746.1(b) for UN controls.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) FC applies to entire entryFC Column 1. CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-userCC Column 1 CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-userCC Column 2. CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcementCC Column 3. UN applies to entire entrySee § 746.1(b) for UN controls.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "FC applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "FC Column 1."
+          },
+          {
+            "type": "text",
+            "text": "CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-user"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 1"
+          },
+          {
+            "type": "text",
+            "text": "CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-user"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 2."
+          },
+          {
+            "type": "text",
+            "text": "CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcement"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 3."
+          },
+          {
+            "type": "text",
+            "text": "UN applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "See § 746.1(b) for UN controls."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "This entry does not control shotguns with a barrel length of less than 18 inches (45.72 cm). These items are “subject to the ITAR” (see 22 CFR parts 120 through 130)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-11-02",
+      "fetchedAt": "2025-10-02T20:33:32.381Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-11-02/title-15?format=xml",
+      "heading": "0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+      "title": "Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.\nLicense Requirements\nReason for Control:\nCC, FC, UN\nControl(s) Country Chart (See Supp. No. 1 to part 738) FC applies to entire entryFC Column 1. CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-userCC Column 1 CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-userCC Column 2. CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcementCC Column 3. UN applies to entire entrySee § 746.1(b) for UN controls.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nFC applies to entire entry\nFC Column 1.\nCC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-user\nCC Column 1\nCC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-user\nCC Column 2.\nCC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcement\nCC Column 3.\nUN applies to entire entry\nSee § 746.1(b) for UN controls.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\nThis entry does not control shotguns with a barrel length of less than 18 inches (45.72 cm). These items are “subject to the ITAR” (see 22 CFR parts 120 through 130).\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "0A984",
+        "heading": "0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+        "label": "0A984 – 0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "CC, FC, UN"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">FC applies to entire entry (0A984)</TD><TD align=\"left\" class=\"gpotbl_cell\">FC Column 1.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-user</TD><TD align=\"left\" class=\"gpotbl_cell\">CC Column 1\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-user</TD><TD align=\"left\" class=\"gpotbl_cell\">CC Column 2.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcement</TD><TD align=\"left\" class=\"gpotbl_cell\">CC Column 3.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">UN applies to entire entry (0A984)</TD><TD align=\"left\" class=\"gpotbl_cell\">See § 746.1(b) for UN controls.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) FC applies to entire entryFC Column 1. CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-userCC Column 1 CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-userCC Column 2. CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcementCC Column 3. UN applies to entire entrySee § 746.1(b) for UN controls.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "FC applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "FC Column 1."
+          },
+          {
+            "type": "text",
+            "text": "CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-user"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 1"
+          },
+          {
+            "type": "text",
+            "text": "CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-user"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 2."
+          },
+          {
+            "type": "text",
+            "text": "CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcement"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 3."
+          },
+          {
+            "type": "text",
+            "text": "UN applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "See § 746.1(b) for UN controls."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "This entry does not control shotguns with a barrel length of less than 18 inches (45.72 cm). These items are “subject to the ITAR” (see 22 CFR parts 120 through 130)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-12-20",
+      "fetchedAt": "2025-10-02T20:33:32.762Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-12-20/title-15?format=xml",
+      "heading": "0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+      "title": "Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.\nLicense Requirements\nReason for Control:\nCC, FC, UN\nControl(s) Country Chart (See Supp. No. 1 to part 738) FC applies to entire entryFC Column 1. CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-userCC Column 1 CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-userCC Column 2. CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcementCC Column 3. UN applies to entire entrySee § 746.1(b) for UN controls.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nFC applies to entire entry\nFC Column 1.\nCC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-user\nCC Column 1\nCC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-user\nCC Column 2.\nCC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcement\nCC Column 3.\nUN applies to entire entry\nSee § 746.1(b) for UN controls.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\nThis entry does not control shotguns with a barrel length of less than 18 inches (45.72 cm). These items are “subject to the ITAR” (see 22 CFR parts 120 through 130).\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "0A984",
+        "heading": "0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+        "label": "0A984 – 0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "CC, FC, UN"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">FC applies to entire entry (0A984)</TD><TD align=\"left\" class=\"gpotbl_cell\">FC Column 1.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-user</TD><TD align=\"left\" class=\"gpotbl_cell\">CC Column 1\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-user</TD><TD align=\"left\" class=\"gpotbl_cell\">CC Column 2.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcement</TD><TD align=\"left\" class=\"gpotbl_cell\">CC Column 3.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">UN applies to entire entry (0A984)</TD><TD align=\"left\" class=\"gpotbl_cell\">See § 746.1(b) for UN controls.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) FC applies to entire entryFC Column 1. CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-userCC Column 1 CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-userCC Column 2. CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcementCC Column 3. UN applies to entire entrySee § 746.1(b) for UN controls.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "FC applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "FC Column 1."
+          },
+          {
+            "type": "text",
+            "text": "CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-user"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 1"
+          },
+          {
+            "type": "text",
+            "text": "CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-user"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 2."
+          },
+          {
+            "type": "text",
+            "text": "CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcement"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 3."
+          },
+          {
+            "type": "text",
+            "text": "UN applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "See § 746.1(b) for UN controls."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "This entry does not control shotguns with a barrel length of less than 18 inches (45.72 cm). These items are “subject to the ITAR” (see 22 CFR parts 120 through 130)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2019-05-23",
+      "fetchedAt": "2025-10-02T20:33:33.148Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2019-05-23/title-15?format=xml",
+      "heading": "0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+      "title": "Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.\nLicense Requirements\nReason for Control:\nCC, FC, UN\nControl(s) Country Chart (See Supp. No. 1 to part 738) FC applies to entire entryFC Column 1. CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-userCC Column 1 CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-userCC Column 2. CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcementCC Column 3. UN applies to entire entrySee § 746.1(b) for UN controls.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nFC applies to entire entry\nFC Column 1.\nCC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-user\nCC Column 1\nCC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-user\nCC Column 2.\nCC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcement\nCC Column 3.\nUN applies to entire entry\nSee § 746.1(b) for UN controls.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\nThis entry does not control shotguns with a barrel length of less than 18 inches (45.72 cm). These items are “subject to the ITAR” (see 22 CFR parts 120 through 130).\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "0A984",
+        "heading": "0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+        "label": "0A984 – 0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "CC, FC, UN"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">FC applies to entire entry (0A984)</TD><TD align=\"left\" class=\"gpotbl_cell\">FC Column 1.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-user</TD><TD align=\"left\" class=\"gpotbl_cell\">CC Column 1\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-user</TD><TD align=\"left\" class=\"gpotbl_cell\">CC Column 2.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcement</TD><TD align=\"left\" class=\"gpotbl_cell\">CC Column 3.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">UN applies to entire entry (0A984)</TD><TD align=\"left\" class=\"gpotbl_cell\">See § 746.1(b) for UN controls.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) FC applies to entire entryFC Column 1. CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-userCC Column 1 CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-userCC Column 2. CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcementCC Column 3. UN applies to entire entrySee § 746.1(b) for UN controls.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "FC applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "FC Column 1."
+          },
+          {
+            "type": "text",
+            "text": "CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-user"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 1"
+          },
+          {
+            "type": "text",
+            "text": "CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-user"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 2."
+          },
+          {
+            "type": "text",
+            "text": "CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcement"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 3."
+          },
+          {
+            "type": "text",
+            "text": "UN applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "See § 746.1(b) for UN controls."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "This entry does not control shotguns with a barrel length of less than 18 inches (45.72 cm). These items are “subject to the ITAR” (see 22 CFR parts 120 through 130)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-01-06",
+      "fetchedAt": "2025-10-02T20:33:33.561Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-01-06/title-15?format=xml",
+      "heading": "0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+      "title": "Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+      "category": "0",
+      "group": "0A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”"
+      ],
+      "ancestors": [],
+      "text": "0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.\nLicense Requirements\nReason for Control:\nCC, FC, UN\nControl(s) Country Chart (See Supp. No. 1 to part 738) FC applies to entire entryFC Column 1. CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-userCC Column 1 CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-userCC Column 2. CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcementCC Column 3. UN applies to entire entrySee § 746.1(b) for UN controls.\nControl(s)\nCountry Chart (See Supp. No. 1 to part 738)\nFC applies to entire entry\nFC Column 1.\nCC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-user\nCC Column 1\nCC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-user\nCC Column 2.\nCC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcement\nCC Column 3.\nUN applies to entire entry\nSee § 746.1(b) for UN controls.\nList Based License Exceptions (See Part 740 for a description of all license exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\nThis entry does not control shotguns with a barrel length of less than 18 inches (45.72 cm). These items are “subject to the ITAR” (see 22 CFR parts 120 through 130).\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "0A984",
+        "heading": "0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+        "label": "0A984 – 0A984 Shotguns with barrel length 18 inches (45.72 cm) or over; receivers; barrels of 18 inches (45.72 cm) or longer but not longer than 24 inches (60.96 cm); complete trigger mechanisms; magazines and magazine extension tubes; complete breech mechanisms; buckshot shotgun shells; except equipment used exclusively to treat or tranquilize animals, and except arms designed solely for signal, flare, or saluting use.",
+        "content": [
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "CC, FC, UN"
+          },
+          {
+            "type": "html",
+            "tag": "TABLE",
+            "html": "<TABLE border=\"1\" cellpadding=\"1\" cellspacing=\"1\" class=\"gpotbl_table\" frame=\"void\" width=\"100%\"><TR><TH class=\"gpotbl_colhed\" scope=\"col\">Control(s)\n</TH><TH class=\"gpotbl_colhed\" scope=\"col\">Country Chart (See Supp. No. 1 to part 738)\n</TH></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">FC applies to entire entry (0A984)</TD><TD align=\"left\" class=\"gpotbl_cell\">FC Column 1.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-user</TD><TD align=\"left\" class=\"gpotbl_cell\">CC Column 1\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-user</TD><TD align=\"left\" class=\"gpotbl_cell\">CC Column 2.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcement</TD><TD align=\"left\" class=\"gpotbl_cell\">CC Column 3.\n</TD></TR><TR><TD align=\"left\" class=\"gpotbl_cell\" scope=\"row\">UN applies to entire entry (0A984)</TD><TD align=\"left\" class=\"gpotbl_cell\">See § 746.1(b) for UN controls.</TD></TR></TABLE>",
+            "text": "Control(s) Country Chart (See Supp. No. 1 to part 738) FC applies to entire entryFC Column 1. CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-userCC Column 1 CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-userCC Column 2. CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcementCC Column 3. UN applies to entire entrySee § 746.1(b) for UN controls.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country Chart (See Supp. No. 1 to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "FC applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "FC Column 1."
+          },
+          {
+            "type": "text",
+            "text": "CC applies to shotguns with a barrel length greater than or equal to 18 in. (45.72 cm), but less than 24 in. (60.96 cm), shotgun “components” controlled by this entry, and buckshot shotgun shells controlled by this entry, regardless of end-user"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 1"
+          },
+          {
+            "type": "text",
+            "text": "CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm), regardless of end-user"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 2."
+          },
+          {
+            "type": "text",
+            "text": "CC applies to shotguns with a barrel length greater than or equal to 24 in. (60.96 cm) if for sale or resale to police or law enforcement"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 3."
+          },
+          {
+            "type": "text",
+            "text": "UN applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "See § 746.1(b) for UN controls."
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a description of all license exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "This entry does not control shotguns with a barrel length of less than 18 inches (45.72 cm). These items are “subject to the ITAR” (see 22 CFR parts 120 through 130)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "The list of items controlled is contained in the ECCN heading."
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

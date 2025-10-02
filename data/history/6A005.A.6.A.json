@@ -1,0 +1,534 @@
+{
+  "eccn": "6A005.a.6.a",
+  "normalized": "6A005.A.6.A",
+  "history": [
+    {
+      "version": "2017-01-15",
+      "fetchedAt": "2025-10-02T20:33:28.357Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-15/title-15?format=xml",
+      "heading": "Single transverse mode output and output power exceeding 200 W; or",
+      "title": "Single transverse mode output and output power exceeding 200 W; or",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A005 “Lasers,” “components” and optical equipment, as follows (see List of Items Controlled), excluding items that are subject to the export licensing authority of the Nuclear Regulatory Commission (see 10 CFR part 110).",
+        "Non-“tunable” continuous wave “(CW) lasers” having any of the following:",
+        "Output wavelength exceeding 975 nm but not exceeding 1,150 nm and any of the following;"
+      ],
+      "ancestors": [
+        "6A005",
+        "6A005.a",
+        "6A005.a.6"
+      ],
+      "text": "Single transverse mode output and output power exceeding 200 W; or",
+      "structure": {
+        "identifier": "6A005.a.6.a",
+        "heading": "Single transverse mode output and output power exceeding 200 W; or",
+        "label": "6A005.a.6.a – Single transverse mode output and output power exceeding 200 W; or",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-07-07",
+      "fetchedAt": "2025-10-02T20:33:28.904Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-07-07/title-15?format=xml",
+      "heading": "Single transverse mode output and output power exceeding 200 W; or",
+      "title": "Single transverse mode output and output power exceeding 200 W; or",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A005 “Lasers,” “components” and optical equipment, as follows (see List of Items Controlled), excluding items that are subject to the export licensing authority of the Nuclear Regulatory Commission (see 10 CFR part 110).",
+        "Non-“tunable” continuous wave “(CW) lasers” having any of the following:",
+        "Output wavelength exceeding 975 nm but not exceeding 1,150 nm and any of the following;"
+      ],
+      "ancestors": [
+        "6A005",
+        "6A005.a",
+        "6A005.a.6"
+      ],
+      "text": "Single transverse mode output and output power exceeding 200 W; or",
+      "structure": {
+        "identifier": "6A005.a.6.a",
+        "heading": "Single transverse mode output and output power exceeding 200 W; or",
+        "label": "6A005.a.6.a – Single transverse mode output and output power exceeding 200 W; or",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-08-15",
+      "fetchedAt": "2025-10-02T20:33:29.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-08-15/title-15?format=xml",
+      "heading": "Single transverse mode output and output power exceeding 500 W; or",
+      "title": "Single transverse mode output and output power exceeding 500 W; or",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "6A005 “Lasers,” “components” and optical equipment, as follows (see List of Items Controlled), excluding items that are subject to the export licensing authority of the Nuclear Regulatory Commission (see 10 CFR part 110).",
+        "Non-“tunable” continuous wave “(CW) lasers” having any of the following:",
+        "Output wavelength exceeding 975 nm but not exceeding 1,150 nm and any of the following;"
+      ],
+      "ancestors": [
+        "6A005",
+        "6A005.a",
+        "6A005.a.6"
+      ],
+      "text": "Single transverse mode output and output power exceeding 500 W; or",
+      "structure": {
+        "identifier": "6A005.a.6.a",
+        "heading": "Single transverse mode output and output power exceeding 500 W; or",
+        "label": "6A005.a.6.a – Single transverse mode output and output power exceeding 500 W; or",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-12-27",
+      "fetchedAt": "2025-10-02T20:33:29.759Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-12-27/title-15?format=xml",
+      "heading": "Single transverse mode output and output power exceeding 500 W; or",
+      "title": "Single transverse mode output and output power exceeding 500 W; or",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A005 “Lasers,” “components” and optical equipment, as follows (see List of Items Controlled), excluding items that are subject to the export licensing authority of the Nuclear Regulatory Commission (see 10 CFR part 110).",
+        "Non-“tunable” continuous wave “(CW) lasers” having any of the following:",
+        "Output wavelength exceeding 975 nm but not exceeding 1,150 nm and any of the following;"
+      ],
+      "ancestors": [
+        "6A005",
+        "6A005.a",
+        "6A005.a.6"
+      ],
+      "text": "Single transverse mode output and output power exceeding 500 W; or",
+      "structure": {
+        "identifier": "6A005.a.6.a",
+        "heading": "Single transverse mode output and output power exceeding 500 W; or",
+        "label": "6A005.a.6.a – Single transverse mode output and output power exceeding 500 W; or",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-01-08",
+      "fetchedAt": "2025-10-02T20:33:30.194Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-01-08/title-15?format=xml",
+      "heading": "Single transverse mode output and output power exceeding 500 W; or",
+      "title": "Single transverse mode output and output power exceeding 500 W; or",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A005 “Lasers,” “components” and optical equipment, as follows (see List of Items Controlled), excluding items that are subject to the export licensing authority of the Nuclear Regulatory Commission (see 10 CFR part 110).",
+        "Non-“tunable” continuous wave “(CW) lasers” having any of the following:",
+        "Output wavelength exceeding 975 nm but not exceeding 1,150 nm and any of the following;"
+      ],
+      "ancestors": [
+        "6A005",
+        "6A005.a",
+        "6A005.a.6"
+      ],
+      "text": "Single transverse mode output and output power exceeding 500 W; or",
+      "structure": {
+        "identifier": "6A005.a.6.a",
+        "heading": "Single transverse mode output and output power exceeding 500 W; or",
+        "label": "6A005.a.6.a – Single transverse mode output and output power exceeding 500 W; or",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-04-02",
+      "fetchedAt": "2025-10-02T20:33:30.716Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-02/title-15?format=xml",
+      "heading": "Single transverse mode output and output power exceeding 500 W; or",
+      "title": "Single transverse mode output and output power exceeding 500 W; or",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A005 “Lasers,” “components” and optical equipment, as follows (see List of Items Controlled), excluding items that are subject to the export licensing authority of the Nuclear Regulatory Commission (see 10 CFR part 110).",
+        "Non-“tunable” continuous wave “(CW) lasers” having any of the following:",
+        "Output wavelength exceeding 975 nm but not exceeding 1,150 nm and any of the following;"
+      ],
+      "ancestors": [
+        "6A005",
+        "6A005.a",
+        "6A005.a.6"
+      ],
+      "text": "Single transverse mode output and output power exceeding 500 W; or",
+      "structure": {
+        "identifier": "6A005.a.6.a",
+        "heading": "Single transverse mode output and output power exceeding 500 W; or",
+        "label": "6A005.a.6.a – Single transverse mode output and output power exceeding 500 W; or",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-04-05",
+      "fetchedAt": "2025-10-02T20:33:31.145Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-05/title-15?format=xml",
+      "heading": "Single transverse mode output and output power exceeding 500 W; or",
+      "title": "Single transverse mode output and output power exceeding 500 W; or",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A005 “Lasers,” “components” and optical equipment, as follows (see List of Items Controlled), excluding items that are subject to the export licensing authority of the Nuclear Regulatory Commission (see 10 CFR part 110).",
+        "Non-“tunable” continuous wave “(CW) lasers” having any of the following:",
+        "Output wavelength exceeding 975 nm but not exceeding 1,150 nm and any of the following;"
+      ],
+      "ancestors": [
+        "6A005",
+        "6A005.a",
+        "6A005.a.6"
+      ],
+      "text": "Single transverse mode output and output power exceeding 500 W; or",
+      "structure": {
+        "identifier": "6A005.a.6.a",
+        "heading": "Single transverse mode output and output power exceeding 500 W; or",
+        "label": "6A005.a.6.a – Single transverse mode output and output power exceeding 500 W; or",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-08-30",
+      "fetchedAt": "2025-10-02T20:33:31.567Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-08-30/title-15?format=xml",
+      "heading": "Single transverse mode output and output power exceeding 500 W; or",
+      "title": "Single transverse mode output and output power exceeding 500 W; or",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A005 “Lasers,” “components” and optical equipment, as follows (see List of Items Controlled), excluding items that are subject to the export licensing authority of the Nuclear Regulatory Commission (see 10 CFR part 110).",
+        "Non-“tunable” continuous wave “(CW) lasers” having any of the following:",
+        "Output wavelength exceeding 975 nm but not exceeding 1,150 nm and any of the following;"
+      ],
+      "ancestors": [
+        "6A005",
+        "6A005.a",
+        "6A005.a.6"
+      ],
+      "text": "Single transverse mode output and output power exceeding 500 W; or",
+      "structure": {
+        "identifier": "6A005.a.6.a",
+        "heading": "Single transverse mode output and output power exceeding 500 W; or",
+        "label": "6A005.a.6.a – Single transverse mode output and output power exceeding 500 W; or",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-10-24",
+      "fetchedAt": "2025-10-02T20:33:31.990Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-10-24/title-15?format=xml",
+      "heading": "Single transverse mode output and output power exceeding 500 W; or",
+      "title": "Single transverse mode output and output power exceeding 500 W; or",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A005 “Lasers,” “components” and optical equipment, as follows (see List of Items Controlled), excluding items that are subject to the export licensing authority of the Nuclear Regulatory Commission (see 10 CFR part 110).",
+        "Non-“tunable” continuous wave “(CW) lasers” having any of the following:",
+        "Output wavelength exceeding 975 nm but not exceeding 1,150 nm and any of the following;"
+      ],
+      "ancestors": [
+        "6A005",
+        "6A005.a",
+        "6A005.a.6"
+      ],
+      "text": "Single transverse mode output and output power exceeding 500 W; or",
+      "structure": {
+        "identifier": "6A005.a.6.a",
+        "heading": "Single transverse mode output and output power exceeding 500 W; or",
+        "label": "6A005.a.6.a – Single transverse mode output and output power exceeding 500 W; or",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-11-02",
+      "fetchedAt": "2025-10-02T20:33:32.381Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-11-02/title-15?format=xml",
+      "heading": "Single transverse mode output and output power exceeding 500 W; or",
+      "title": "Single transverse mode output and output power exceeding 500 W; or",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Reporting Requirements",
+        "6A005 “Lasers”, “components” and optical equipment, as follows (see List of Items Controlled), excluding items that are subject to the export licensing authority of the Nuclear Regulatory Commission (see 10 CFR part 110).",
+        "Non-“tunable” continuous wave “(CW) lasers” having any of the following:",
+        "Output wavelength exceeding 975 nm but not exceeding 1,150 nm and any of the following;"
+      ],
+      "ancestors": [
+        "6A005",
+        "6A005.a",
+        "6A005.a.6"
+      ],
+      "text": "Single transverse mode output and output power exceeding 500 W; or",
+      "structure": {
+        "identifier": "6A005.a.6.a",
+        "heading": "Single transverse mode output and output power exceeding 500 W; or",
+        "label": "6A005.a.6.a – Single transverse mode output and output power exceeding 500 W; or",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-12-20",
+      "fetchedAt": "2025-10-02T20:33:32.762Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-12-20/title-15?format=xml",
+      "heading": "Single transverse mode output and output power exceeding 500 W; or",
+      "title": "Single transverse mode output and output power exceeding 500 W; or",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A005 “Lasers”, “components” and optical equipment, as follows (see List of Items Controlled), excluding items that are subject to the export licensing authority of the Nuclear Regulatory Commission (see 10 CFR part 110).",
+        "Non-“tunable” continuous wave “(CW) lasers” having any of the following:",
+        "Output wavelength exceeding 975 nm but not exceeding 1,150 nm and any of the following;"
+      ],
+      "ancestors": [
+        "6A005",
+        "6A005.a",
+        "6A005.a.6"
+      ],
+      "text": "Single transverse mode output and output power exceeding 500 W; or",
+      "structure": {
+        "identifier": "6A005.a.6.a",
+        "heading": "Single transverse mode output and output power exceeding 500 W; or",
+        "label": "6A005.a.6.a – Single transverse mode output and output power exceeding 500 W; or",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2019-05-23",
+      "fetchedAt": "2025-10-02T20:33:33.148Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2019-05-23/title-15?format=xml",
+      "heading": "Single transverse mode output and output power exceeding 500 W; or",
+      "title": "Single transverse mode output and output power exceeding 500 W; or",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A005 “Lasers”, “components” and optical equipment, as follows (see List of Items Controlled), excluding items that are subject to the export licensing authority of the Nuclear Regulatory Commission (see 10 CFR part 110).",
+        "Non-“tunable” continuous wave “(CW) lasers” having any of the following:",
+        "Output wavelength exceeding 975 nm but not exceeding 1,150 nm and any of the following;"
+      ],
+      "ancestors": [
+        "6A005",
+        "6A005.a",
+        "6A005.a.6"
+      ],
+      "text": "Single transverse mode output and output power exceeding 500 W; or",
+      "structure": {
+        "identifier": "6A005.a.6.a",
+        "heading": "Single transverse mode output and output power exceeding 500 W; or",
+        "label": "6A005.a.6.a – Single transverse mode output and output power exceeding 500 W; or",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-01-06",
+      "fetchedAt": "2025-10-02T20:33:33.561Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-01-06/title-15?format=xml",
+      "heading": "Single transverse mode output and output power exceeding 500 W; or",
+      "title": "Single transverse mode output and output power exceeding 500 W; or",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A005 “Lasers”, “components” and optical equipment, as follows (see List of Items Controlled), excluding items that are subject to the export licensing authority of the Nuclear Regulatory Commission (see 10 CFR part 110).",
+        "Non-“tunable” continuous wave “(CW) lasers” having any of the following:",
+        "Output wavelength exceeding 975 nm but not exceeding 1,150 nm and any of the following;"
+      ],
+      "ancestors": [
+        "6A005",
+        "6A005.a",
+        "6A005.a.6"
+      ],
+      "text": "Single transverse mode output and output power exceeding 500 W; or",
+      "structure": {
+        "identifier": "6A005.a.6.a",
+        "heading": "Single transverse mode output and output power exceeding 500 W; or",
+        "label": "6A005.a.6.a – Single transverse mode output and output power exceeding 500 W; or",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-03-09",
+      "fetchedAt": "2025-10-02T20:33:33.960Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-03-09/title-15?format=xml",
+      "heading": "Single transverse mode output and output power exceeding 500 W; or",
+      "title": "Single transverse mode output and output power exceeding 500 W; or",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A005 “Lasers”, “components” and optical equipment, as follows (see List of Items Controlled), excluding items that are subject to the export licensing authority of the Nuclear Regulatory Commission (see 10 CFR part 110).",
+        "Non-“tunable” continuous wave “(CW) lasers” having any of the following:",
+        "Output wavelength exceeding 975 nm but not exceeding 1,150 nm and any of the following;"
+      ],
+      "ancestors": [
+        "6A005",
+        "6A005.a",
+        "6A005.a.6"
+      ],
+      "text": "Single transverse mode output and output power exceeding 500 W; or",
+      "structure": {
+        "identifier": "6A005.a.6.a",
+        "heading": "Single transverse mode output and output power exceeding 500 W; or",
+        "label": "6A005.a.6.a – Single transverse mode output and output power exceeding 500 W; or",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-06-17",
+      "fetchedAt": "2025-10-02T20:33:34.354Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-06-17/title-15?format=xml",
+      "heading": "Single transverse mode output and output power exceeding 500 W; or",
+      "title": "Single transverse mode output and output power exceeding 500 W; or",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A005 “Lasers”, “components” and optical equipment, as follows (see List of Items Controlled), excluding items that are subject to the export licensing authority of the Nuclear Regulatory Commission (see 10 CFR part 110).",
+        "Non-“tunable” continuous wave “(CW) lasers” having any of the following:",
+        "Output wavelength exceeding 975 nm but not exceeding 1,150 nm and any of the following;"
+      ],
+      "ancestors": [
+        "6A005",
+        "6A005.a",
+        "6A005.a.6"
+      ],
+      "text": "Single transverse mode output and output power exceeding 500 W; or",
+      "structure": {
+        "identifier": "6A005.a.6.a",
+        "heading": "Single transverse mode output and output power exceeding 500 W; or",
+        "label": "6A005.a.6.a – Single transverse mode output and output power exceeding 500 W; or",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-06-29",
+      "fetchedAt": "2025-10-02T20:33:34.750Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-06-29/title-15?format=xml",
+      "heading": "Single transverse mode output and output power exceeding 500 W; or",
+      "title": "Single transverse mode output and output power exceeding 500 W; or",
+      "category": "6",
+      "group": "6A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "6A005 “Lasers”, “components” and optical equipment, as follows (see List of Items Controlled), excluding items that are subject to the export licensing authority of the Nuclear Regulatory Commission (see 10 CFR part 110).",
+        "Non-“tunable” continuous wave “(CW) lasers” having any of the following:",
+        "Output wavelength exceeding 975 nm but not exceeding 1,150 nm and any of the following;"
+      ],
+      "ancestors": [
+        "6A005",
+        "6A005.a",
+        "6A005.a.6"
+      ],
+      "text": "Single transverse mode output and output power exceeding 500 W; or",
+      "structure": {
+        "identifier": "6A005.a.6.a",
+        "heading": "Single transverse mode output and output power exceeding 500 W; or",
+        "label": "6A005.a.6.a – Single transverse mode output and output power exceeding 500 W; or",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

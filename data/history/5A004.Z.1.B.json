@@ -1,0 +1,138 @@
+{
+  "eccn": "5A004.z.1.b",
+  "normalized": "5A004.Z.1.B",
+  "history": [
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "b Commodities that are described in 5A004.a and that also meet or exceed the performance parameters in 3A090.b or 4A090.b;",
+      "title": "b Commodities that are described in 5A004.a and that also meet or exceed the performance parameters in 3A090.b or 4A090.b;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "III. DEFEATING, WEAKENING, OR BYPASSING “INFORMATION SECURITY”",
+        "5A004 “Systems,” “equipment” and “components” for defeating, weakening or bypassing “information security,” as follows (see List of Items Controlled).",
+        "Other commodities, as follows:",
+        "5A004.z.1"
+      ],
+      "ancestors": [
+        "5A004",
+        "5A004.z",
+        "5A004.z.1"
+      ],
+      "text": "b Commodities that are described in 5A004.a and that also meet or exceed the performance parameters in 3A090.b or 4A090.b;",
+      "structure": {
+        "identifier": "5A004.z.1.b",
+        "heading": "b Commodities that are described in 5A004.a and that also meet or exceed the performance parameters in 3A090.b or 4A090.b;",
+        "label": "5A004.z.1.b – b Commodities that are described in 5A004.a and that also meet or exceed the performance parameters in 3A090.b or 4A090.b;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "b Commodities that are described in 5A004.a and that also meet or exceed the performance parameters in 3A090.b or 4A090.b;",
+      "title": "b Commodities that are described in 5A004.a and that also meet or exceed the performance parameters in 3A090.b or 4A090.b;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "III. DEFEATING, WEAKENING, OR BYPASSING “INFORMATION SECURITY”",
+        "5A004 “Systems,” “equipment” and “components” for defeating, weakening or bypassing “information security,” as follows (see List of Items Controlled).",
+        "Other commodities, as follows:",
+        "5A004.z.1"
+      ],
+      "ancestors": [
+        "5A004",
+        "5A004.z",
+        "5A004.z.1"
+      ],
+      "text": "b Commodities that are described in 5A004.a and that also meet or exceed the performance parameters in 3A090.b or 4A090.b;",
+      "structure": {
+        "identifier": "5A004.z.1.b",
+        "heading": "b Commodities that are described in 5A004.a and that also meet or exceed the performance parameters in 3A090.b or 4A090.b;",
+        "label": "5A004.z.1.b – b Commodities that are described in 5A004.a and that also meet or exceed the performance parameters in 3A090.b or 4A090.b;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "b Commodities that are described in 5A004.a and that also meet or exceed the performance parameters in 3A090.b or 4A090.b;",
+      "title": "b Commodities that are described in 5A004.a and that also meet or exceed the performance parameters in 3A090.b or 4A090.b;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "III. DEFEATING, WEAKENING, OR BYPASSING “INFORMATION SECURITY”",
+        "5A004 “Systems,” “equipment” and “components” for defeating, weakening or bypassing “information security,” as follows (see List of Items Controlled).",
+        "Other commodities, as follows:",
+        "5A004.z.1"
+      ],
+      "ancestors": [
+        "5A004",
+        "5A004.z",
+        "5A004.z.1"
+      ],
+      "text": "b Commodities that are described in 5A004.a and that also meet or exceed the performance parameters in 3A090.b or 4A090.b;",
+      "structure": {
+        "identifier": "5A004.z.1.b",
+        "heading": "b Commodities that are described in 5A004.a and that also meet or exceed the performance parameters in 3A090.b or 4A090.b;",
+        "label": "5A004.z.1.b – b Commodities that are described in 5A004.a and that also meet or exceed the performance parameters in 3A090.b or 4A090.b;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "b Commodities that are described in 5A004.a and that also meet or exceed the performance parameters in 3A090.b or 4A090.b;",
+      "title": "b Commodities that are described in 5A004.a and that also meet or exceed the performance parameters in 3A090.b or 4A090.b;",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "III. DEFEATING, WEAKENING, OR BYPASSING “INFORMATION SECURITY”",
+        "5A004 “Systems,” “equipment” and “components” for defeating, weakening or bypassing “information security,” as follows (see List of Items Controlled).",
+        "Other commodities, as follows:",
+        "5A004.z.1"
+      ],
+      "ancestors": [
+        "5A004",
+        "5A004.z",
+        "5A004.z.1"
+      ],
+      "text": "b Commodities that are described in 5A004.a and that also meet or exceed the performance parameters in 3A090.b or 4A090.b;",
+      "structure": {
+        "identifier": "5A004.z.1.b",
+        "heading": "b Commodities that are described in 5A004.a and that also meet or exceed the performance parameters in 3A090.b or 4A090.b;",
+        "label": "5A004.z.1.b – b Commodities that are described in 5A004.a and that also meet or exceed the performance parameters in 3A090.b or 4A090.b;",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

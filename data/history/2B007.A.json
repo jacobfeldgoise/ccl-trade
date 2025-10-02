@@ -1,0 +1,35 @@
+{
+  "eccn": "2B007.a",
+  "normalized": "2B007.A",
+  "history": [
+    {
+      "version": "2018-11-02",
+      "fetchedAt": "2025-10-02T20:33:32.381Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-11-02/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "2",
+      "group": "2B",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "2B007 “Robots” having any of the following characteristics described in the List of Items Controlled and “specially designed” controllers and “end-effectors” therefor."
+      ],
+      "ancestors": [
+        "2B007"
+      ],
+      "text": "[Reserved]",
+      "structure": {
+        "identifier": "2B007.a",
+        "heading": "[Reserved]",
+        "label": "2B007.a – [Reserved]",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

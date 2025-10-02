@@ -1,0 +1,76 @@
+{
+  "eccn": "5A002.a.1.b.3",
+  "normalized": "5A002.A.1.B.3",
+  "history": [
+    {
+      "version": "2017-01-15",
+      "fetchedAt": "2025-10-02T20:33:28.357Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-15/title-15?format=xml",
+      "heading": "Discrete logarithms in a group other than mentioned in 5A002.a.1.b.2 in excess of 112 bits (e.g., Diffie-Hellman over an elliptic curve);",
+      "title": "Discrete logarithms in a group other than mentioned in 5A002.a.1.b.2 in excess of 112 bits (e.g., Diffie-Hellman over an elliptic curve);",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Systems, equipment and components, for cryptographic “information security,” as follows:",
+        "Designed or modified to use “cryptography” employing digital techniques performing any cryptographic function other than authentication, digital signature, or execution of copy-protected “software,” and having any of the following:",
+        "An “asymmetric algorithm” where the security of the algorithm is based on any of the following:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a",
+        "5A002.a.1",
+        "5A002.a.1.b"
+      ],
+      "text": "Discrete logarithms in a group other than mentioned in 5A002.a.1.b.2 in excess of 112 bits (e.g., Diffie-Hellman over an elliptic curve);",
+      "structure": {
+        "identifier": "5A002.a.1.b.3",
+        "heading": "Discrete logarithms in a group other than mentioned in 5A002.a.1.b.2 in excess of 112 bits (e.g., Diffie-Hellman over an elliptic curve);",
+        "label": "5A002.a.1.b.3 – Discrete logarithms in a group other than mentioned in 5A002.a.1.b.2 in excess of 112 bits (e.g., Diffie-Hellman over an elliptic curve);",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-07-07",
+      "fetchedAt": "2025-10-02T20:33:28.904Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-07-07/title-15?format=xml",
+      "heading": "Discrete logarithms in a group other than mentioned in 5A002.a.1.b.2 in excess of 112 bits (e.g., Diffie-Hellman over an elliptic curve);",
+      "title": "Discrete logarithms in a group other than mentioned in 5A002.a.1.b.2 in excess of 112 bits (e.g., Diffie-Hellman over an elliptic curve);",
+      "category": "5",
+      "group": "5A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "I. Cryptographic “Information Security”",
+        "5A002 “Information security” systems, equipment and “components,” as follows (see List of Items Controlled).",
+        "Systems, equipment and components, for cryptographic “information security,” as follows:",
+        "Designed or modified to use “cryptography” employing digital techniques performing any cryptographic function other than authentication, digital signature, or execution of copy-protected “software,” and having any of the following:",
+        "An “asymmetric algorithm” where the security of the algorithm is based on any of the following:"
+      ],
+      "ancestors": [
+        "5A002",
+        "5A002.a",
+        "5A002.a.1",
+        "5A002.a.1.b"
+      ],
+      "text": "Discrete logarithms in a group other than mentioned in 5A002.a.1.b.2 in excess of 112 bits (e.g., Diffie-Hellman over an elliptic curve);",
+      "structure": {
+        "identifier": "5A002.a.1.b.3",
+        "heading": "Discrete logarithms in a group other than mentioned in 5A002.a.1.b.2 in excess of 112 bits (e.g., Diffie-Hellman over an elliptic curve);",
+        "label": "5A002.a.1.b.3 – Discrete logarithms in a group other than mentioned in 5A002.a.1.b.2 in excess of 112 bits (e.g., Diffie-Hellman over an elliptic curve);",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

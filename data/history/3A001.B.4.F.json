@@ -1,0 +1,2306 @@
+{
+  "eccn": "3A001.b.4.f",
+  "normalized": "3A001.B.4.F",
+  "history": [
+    {
+      "version": "2017-01-15",
+      "fetchedAt": "2025-10-02T20:33:28.357Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-15/title-15?format=xml",
+      "heading": "Rated for operation at frequencies above 2.7 GHz and all of the following:",
+      "title": "Rated for operation at frequencies above 2.7 GHz and all of the following:",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Microwave solid state amplifiers and microwave assemblies/modules containing microwave solid state amplifiers, that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001",
+        "3A001.b",
+        "3A001.b.4"
+      ],
+      "text": "Rated for operation at frequencies above 2.7 GHz and all of the following:\nA peak saturated power output (in watts), Psat, greater than 400 divided by the maximum operating frequency (in GHz) squared [Psat > 400 W*GHz 2/fGHz 2];\nb.4.f.1. A peak saturated power output (in watts), Psat, greater than 400 divided by the maximum operating frequency (in GHz) squared [Psat > 400 W*GHz 2/fGHz 2];\nA “fractional bandwidth” of 5% or greater; and\nb.4.f.2. A “fractional bandwidth” of 5% or greater; and\nAny two sides perpendicular to one another with either length d (in cm) equal to or less than 15 divided by the lowest operating frequency in GHz [d ≤ 15 cm*GHz/fGHz];\nb.4.f.3. Any two sides perpendicular to one another with either length d (in cm) equal to or less than 15 divided by the lowest operating frequency in GHz [d ≤ 15 cm*GHz/fGHz];\nTechnical Note: 2.7 GHz should be used as the lowest operating frequency (fGHz) in the formula in 3A001.b.4.f.3., for amplifiers that have a rated operation range extending downward to 2.7 GHz and below [d ≤ 15 cm*GHz/2.7 GHz].\nN.B.: MMIC power amplifiers should be evaluated against the criteria in 3A001.b.2.\nNote 1: [Reserved]\nNote 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.\nNote 3: 3A001.b.4 includes transmit/receive modules and transmit modules.",
+      "structure": {
+        "identifier": "3A001.b.4.f",
+        "heading": "Rated for operation at frequencies above 2.7 GHz and all of the following:",
+        "label": "3A001.b.4.f – Rated for operation at frequencies above 2.7 GHz and all of the following:",
+        "children": [
+          {
+            "identifier": "3A001.b.4.f.1",
+            "heading": "A peak saturated power output (in watts), Psat, greater than 400 divided by the maximum operating frequency (in GHz) squared [Psat > 400 W*GHz 2/fGHz 2];",
+            "label": "3A001.b.4.f.1 – A peak saturated power output (in watts), Psat, greater than 400 divided by the maximum operating frequency (in GHz) squared [Psat > 400 W*GHz 2/fGHz 2];",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.4.f.1. A peak saturated power output (in watts), P<E T=\"52\">sat</E>, greater than 400 divided by the maximum operating frequency (in GHz) squared [P<E T=\"52\">sat</E> > 400 W*GHz\n<SU>2</SU>/f<E T=\"52\">GHz</E>\n<SU>2</SU>];</P>",
+                "text": "b.4.f.1. A peak saturated power output (in watts), Psat, greater than 400 divided by the maximum operating frequency (in GHz) squared [Psat > 400 W*GHz 2/fGHz 2];",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3A001.b.4.f.2",
+            "heading": "A “fractional bandwidth” of 5% or greater; and",
+            "label": "3A001.b.4.f.2 – A “fractional bandwidth” of 5% or greater; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.4.f.2. A “fractional bandwidth” of 5% or greater; <I>and</I></P>",
+                "text": "b.4.f.2. A “fractional bandwidth” of 5% or greater; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3A001.b.4.f.3",
+            "heading": "Any two sides perpendicular to one another with either length d (in cm) equal to or less than 15 divided by the lowest operating frequency in GHz [d ≤ 15 cm*GHz/fGHz];",
+            "label": "3A001.b.4.f.3 – Any two sides perpendicular to one another with either length d (in cm) equal to or less than 15 divided by the lowest operating frequency in GHz [d ≤ 15 cm*GHz/fGHz];",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.4.f.3. Any two sides perpendicular to one another with either length d (in cm) equal to or less than 15 divided by the lowest operating frequency in GHz [d ≤ 15 cm*GHz/f<E T=\"52\">GHz</E>];</P>",
+                "text": "b.4.f.3. Any two sides perpendicular to one another with either length d (in cm) equal to or less than 15 divided by the lowest operating frequency in GHz [d ≤ 15 cm*GHz/fGHz];",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Note:</I>\n</HED>\n<P><I>2.7 GHz should be used as the lowest operating frequency (f</I><E T=\"54\">GHz</E><I>) in the formula in 3A001.b.4.f.3., for amplifiers that have a rated operation range extending downward to 2.7 GHz and below [d ≤ 15 cm*GHz/2.7 GHz].</I></P></NOTE>",
+                "text": "Technical Note: 2.7 GHz should be used as the lowest operating frequency (fGHz) in the formula in 3A001.b.4.f.3., for amplifiers that have a rated operation range extending downward to 2.7 GHz and below [d ≤ 15 cm*GHz/2.7 GHz].",
+                "id": null
+              },
+              {
+                "type": "text",
+                "text": "N.B.: MMIC power amplifiers should be evaluated against the criteria in 3A001.b.2."
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 1:</I>\n</HED>\n<P><I>[Reserved]</I></P></NOTE>",
+                "text": "Note 1: [Reserved]",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 2:</I>\n</HED>\n<P><I>The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+                "text": "Note 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 3:</I>\n</HED>\n<P><I>3A001.b.4 includes transmit/receive modules and transmit modules.</I></P></NOTE>",
+                "text": "Note 3: 3A001.b.4 includes transmit/receive modules and transmit modules.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2017-07-07",
+      "fetchedAt": "2025-10-02T20:33:28.904Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-07-07/title-15?format=xml",
+      "heading": "Rated for operation at frequencies above 2.7 GHz and all of the following:",
+      "title": "Rated for operation at frequencies above 2.7 GHz and all of the following:",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Microwave solid state amplifiers and microwave assemblies/modules containing microwave solid state amplifiers, that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001",
+        "3A001.b",
+        "3A001.b.4"
+      ],
+      "text": "Rated for operation at frequencies above 2.7 GHz and all of the following:\nA peak saturated power output (in watts), Psat, greater than 400 divided by the maximum operating frequency (in GHz) squared [Psat > 400 W*GHz 2/fGHz 2];\nb.4.f.1. A peak saturated power output (in watts), Psat, greater than 400 divided by the maximum operating frequency (in GHz) squared [Psat > 400 W*GHz 2/fGHz 2];\nA “fractional bandwidth” of 5% or greater; and\nb.4.f.2. A “fractional bandwidth” of 5% or greater; and\nAny two sides perpendicular to one another with either length d (in cm) equal to or less than 15 divided by the lowest operating frequency in GHz [d ≤ 15 cm*GHz/fGHz];\nb.4.f.3. Any two sides perpendicular to one another with either length d (in cm) equal to or less than 15 divided by the lowest operating frequency in GHz [d ≤ 15 cm*GHz/fGHz];\nTechnical Note: 2.7 GHz should be used as the lowest operating frequency (fGHz) in the formula in 3A001.b.4.f.3., for amplifiers that have a rated operation range extending downward to 2.7 GHz and below [d ≤ 15 cm*GHz/2.7 GHz].\nN.B.: MMIC power amplifiers should be evaluated against the criteria in 3A001.b.2.\nNote 1: [Reserved]\nNote 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.\nNote 3: 3A001.b.4 includes transmit/receive modules and transmit modules.",
+      "structure": {
+        "identifier": "3A001.b.4.f",
+        "heading": "Rated for operation at frequencies above 2.7 GHz and all of the following:",
+        "label": "3A001.b.4.f – Rated for operation at frequencies above 2.7 GHz and all of the following:",
+        "children": [
+          {
+            "identifier": "3A001.b.4.f.1",
+            "heading": "A peak saturated power output (in watts), Psat, greater than 400 divided by the maximum operating frequency (in GHz) squared [Psat > 400 W*GHz 2/fGHz 2];",
+            "label": "3A001.b.4.f.1 – A peak saturated power output (in watts), Psat, greater than 400 divided by the maximum operating frequency (in GHz) squared [Psat > 400 W*GHz 2/fGHz 2];",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.4.f.1. A peak saturated power output (in watts), P<E T=\"52\">sat</E>, greater than 400 divided by the maximum operating frequency (in GHz) squared [P<E T=\"52\">sat</E> > 400 W*GHz\n<SU>2</SU>/f<E T=\"52\">GHz</E>\n<SU>2</SU>];</P>",
+                "text": "b.4.f.1. A peak saturated power output (in watts), Psat, greater than 400 divided by the maximum operating frequency (in GHz) squared [Psat > 400 W*GHz 2/fGHz 2];",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3A001.b.4.f.2",
+            "heading": "A “fractional bandwidth” of 5% or greater; and",
+            "label": "3A001.b.4.f.2 – A “fractional bandwidth” of 5% or greater; and",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.4.f.2. A “fractional bandwidth” of 5% or greater; <I>and</I></P>",
+                "text": "b.4.f.2. A “fractional bandwidth” of 5% or greater; and",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          },
+          {
+            "identifier": "3A001.b.4.f.3",
+            "heading": "Any two sides perpendicular to one another with either length d (in cm) equal to or less than 15 divided by the lowest operating frequency in GHz [d ≤ 15 cm*GHz/fGHz];",
+            "label": "3A001.b.4.f.3 – Any two sides perpendicular to one another with either length d (in cm) equal to or less than 15 divided by the lowest operating frequency in GHz [d ≤ 15 cm*GHz/fGHz];",
+            "content": [
+              {
+                "type": "html",
+                "tag": "P",
+                "html": "<P>b.4.f.3. Any two sides perpendicular to one another with either length d (in cm) equal to or less than 15 divided by the lowest operating frequency in GHz [d ≤ 15 cm*GHz/f<E T=\"52\">GHz</E>];</P>",
+                "text": "b.4.f.3. Any two sides perpendicular to one another with either length d (in cm) equal to or less than 15 divided by the lowest operating frequency in GHz [d ≤ 15 cm*GHz/fGHz];",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Technical Note:</I>\n</HED>\n<P><I>2.7 GHz should be used as the lowest operating frequency (f</I><E T=\"54\">GHz</E><I>) in the formula in 3A001.b.4.f.3., for amplifiers that have a rated operation range extending downward to 2.7 GHz and below [d ≤ 15 cm*GHz/2.7 GHz].</I></P></NOTE>",
+                "text": "Technical Note: 2.7 GHz should be used as the lowest operating frequency (fGHz) in the formula in 3A001.b.4.f.3., for amplifiers that have a rated operation range extending downward to 2.7 GHz and below [d ≤ 15 cm*GHz/2.7 GHz].",
+                "id": null
+              },
+              {
+                "type": "text",
+                "text": "N.B.: MMIC power amplifiers should be evaluated against the criteria in 3A001.b.2."
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 1:</I>\n</HED>\n<P><I>[Reserved]</I></P></NOTE>",
+                "text": "Note 1: [Reserved]",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 2:</I>\n</HED>\n<P><I>The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+                "text": "Note 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+                "id": null
+              },
+              {
+                "type": "html",
+                "tag": "NOTE",
+                "html": "<NOTE>\n<HED><I>Note 3:</I>\n</HED>\n<P><I>3A001.b.4 includes transmit/receive modules and transmit modules.</I></P></NOTE>",
+                "text": "Note 3: 3A001.b.4 includes transmit/receive modules and transmit modules.",
+                "id": null
+              }
+            ],
+            "isEccn": true,
+            "boundToParent": true,
+            "requireAllChildren": false
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": true
+      }
+    },
+    {
+      "version": "2017-08-15",
+      "fetchedAt": "2025-10-02T20:33:29.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-08-15/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Microwave solid state amplifiers and microwave assemblies/modules containing microwave solid state amplifiers, that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001",
+        "3A001.b",
+        "3A001.b.4"
+      ],
+      "text": "[Reserved]\nN.B.: 1. For “MMIC ” amplifiers see 3A001.b.2.\n2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.\nNote 1: [Reserved]\nNote 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+      "structure": {
+        "identifier": "3A001.b.4.f",
+        "heading": "[Reserved]",
+        "label": "3A001.b.4.f – [Reserved]",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>N.B.: 1. For “MMIC ” amplifiers see 3A001.b.2.</I></P>",
+            "text": "N.B.: 1. For “MMIC ” amplifiers see 3A001.b.2.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.</I></P>",
+            "text": "2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I>\n</HED>\n<P><I>[Reserved]</I></P></NOTE>",
+            "text": "Note 1: [Reserved]",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I>\n</HED>\n<P><I>The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-12-27",
+      "fetchedAt": "2025-10-02T20:33:29.759Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-12-27/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Microwave solid state amplifiers and microwave assemblies/modules containing microwave solid state amplifiers, that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001",
+        "3A001.b",
+        "3A001.b.4"
+      ],
+      "text": "[Reserved]\nN.B.: 1. For “MMIC ” amplifiers see 3A001.b.2.\n2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.\nNote 1: [Reserved]\nNote 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+      "structure": {
+        "identifier": "3A001.b.4.f",
+        "heading": "[Reserved]",
+        "label": "3A001.b.4.f – [Reserved]",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>N.B.: 1. For “MMIC ” amplifiers see 3A001.b.2.</I></P>",
+            "text": "N.B.: 1. For “MMIC ” amplifiers see 3A001.b.2.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.</I></P>",
+            "text": "2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I>\n</HED>\n<P><I>[Reserved]</I></P></NOTE>",
+            "text": "Note 1: [Reserved]",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I>\n</HED>\n<P><I>The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-01-08",
+      "fetchedAt": "2025-10-02T20:33:30.194Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-01-08/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Microwave solid state amplifiers and microwave assemblies/modules containing microwave solid state amplifiers, that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001",
+        "3A001.b",
+        "3A001.b.4"
+      ],
+      "text": "[Reserved]\nN.B.: 1. For “MMIC ” amplifiers see 3A001.b.2.\n2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.\nNote 1: [Reserved]\nNote 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+      "structure": {
+        "identifier": "3A001.b.4.f",
+        "heading": "[Reserved]",
+        "label": "3A001.b.4.f – [Reserved]",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>N.B.: 1. For “MMIC ” amplifiers see 3A001.b.2.</I></P>",
+            "text": "N.B.: 1. For “MMIC ” amplifiers see 3A001.b.2.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.</I></P>",
+            "text": "2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I>\n</HED>\n<P><I>[Reserved]</I></P></NOTE>",
+            "text": "Note 1: [Reserved]",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I>\n</HED>\n<P><I>The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-04-02",
+      "fetchedAt": "2025-10-02T20:33:30.716Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-02/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Microwave solid state amplifiers and microwave assemblies/modules containing microwave solid state amplifiers, that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001",
+        "3A001.b",
+        "3A001.b.4"
+      ],
+      "text": "[Reserved]\nN.B.: 1. For “MMIC ” amplifiers see 3A001.b.2.\n2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.\nNote 1: [Reserved]\nNote 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+      "structure": {
+        "identifier": "3A001.b.4.f",
+        "heading": "[Reserved]",
+        "label": "3A001.b.4.f – [Reserved]",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>N.B.: 1. For “MMIC ” amplifiers see 3A001.b.2.</I></P>",
+            "text": "N.B.: 1. For “MMIC ” amplifiers see 3A001.b.2.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.</I></P>",
+            "text": "2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I>\n</HED>\n<P><I>[Reserved]</I></P></NOTE>",
+            "text": "Note 1: [Reserved]",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I>\n</HED>\n<P><I>The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-04-05",
+      "fetchedAt": "2025-10-02T20:33:31.145Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-05/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Microwave solid state amplifiers and microwave assemblies/modules containing microwave solid state amplifiers, that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001",
+        "3A001.b",
+        "3A001.b.4"
+      ],
+      "text": "[Reserved]\nN.B.: 1. For “MMIC ” amplifiers see 3A001.b.2.\n2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.\nNote 1: [Reserved]\nNote 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+      "structure": {
+        "identifier": "3A001.b.4.f",
+        "heading": "[Reserved]",
+        "label": "3A001.b.4.f – [Reserved]",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>N.B.: 1. For “MMIC ” amplifiers see 3A001.b.2.</I></P>",
+            "text": "N.B.: 1. For “MMIC ” amplifiers see 3A001.b.2.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.</I></P>",
+            "text": "2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I>\n</HED>\n<P><I>[Reserved]</I></P></NOTE>",
+            "text": "Note 1: [Reserved]",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I>\n</HED>\n<P><I>The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-08-30",
+      "fetchedAt": "2025-10-02T20:33:31.567Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-08-30/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Microwave solid state amplifiers and microwave assemblies/modules containing microwave solid state amplifiers, that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001",
+        "3A001.b",
+        "3A001.b.4"
+      ],
+      "text": "[Reserved]\nN.B.: 1. For “MMIC ” amplifiers see 3A001.b.2.\n2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.\nNote 1: [Reserved]\nNote 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+      "structure": {
+        "identifier": "3A001.b.4.f",
+        "heading": "[Reserved]",
+        "label": "3A001.b.4.f – [Reserved]",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>N.B.: 1. For “MMIC ” amplifiers see 3A001.b.2.</I></P>",
+            "text": "N.B.: 1. For “MMIC ” amplifiers see 3A001.b.2.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.</I></P>",
+            "text": "2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I>\n</HED>\n<P><I>[Reserved]</I></P></NOTE>",
+            "text": "Note 1: [Reserved]",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I>\n</HED>\n<P><I>The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-10-24",
+      "fetchedAt": "2025-10-02T20:33:31.990Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-10-24/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Microwave solid state amplifiers and microwave assemblies/modules containing microwave solid state amplifiers, that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001",
+        "3A001.b",
+        "3A001.b.4"
+      ],
+      "text": "[Reserved]\nN.B.: 1. For “MMIC ” amplifiers see 3A001.b.2.\n2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.\nNote 1: [Reserved]\nNote 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+      "structure": {
+        "identifier": "3A001.b.4.f",
+        "heading": "[Reserved]",
+        "label": "3A001.b.4.f – [Reserved]",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>N.B.: 1. For “MMIC ” amplifiers see 3A001.b.2.</I></P>",
+            "text": "N.B.: 1. For “MMIC ” amplifiers see 3A001.b.2.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.</I></P>",
+            "text": "2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I>\n</HED>\n<P><I>[Reserved]</I></P></NOTE>",
+            "text": "Note 1: [Reserved]",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I>\n</HED>\n<P><I>The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-11-02",
+      "fetchedAt": "2025-10-02T20:33:32.381Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-11-02/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Microwave solid state amplifiers and microwave assemblies/modules containing microwave solid state amplifiers, that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001",
+        "3A001.b",
+        "3A001.b.4"
+      ],
+      "text": "[Reserved]\nN.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.\nNote 1: [Reserved]\nNote 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+      "structure": {
+        "identifier": "3A001.b.4.f",
+        "heading": "[Reserved]",
+        "label": "3A001.b.4.f – [Reserved]",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>N.B.:</I>\n</HED>\n<P><I>1. For “MMIC” amplifiers see 3A001.b.2.</I></P>\n<P><I>2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.</I></P>\n<P><I>3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.</I></P></NOTE>",
+            "text": "N.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I>\n</HED>\n<P><I>[Reserved]</I></P></NOTE>",
+            "text": "Note 1: [Reserved]",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I>\n</HED>\n<P><I>The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-12-20",
+      "fetchedAt": "2025-10-02T20:33:32.762Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-12-20/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Microwave solid state amplifiers and microwave assemblies/modules containing microwave solid state amplifiers, that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001",
+        "3A001.b",
+        "3A001.b.4"
+      ],
+      "text": "[Reserved]\nN.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.\nNote 1: [Reserved]\nNote 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+      "structure": {
+        "identifier": "3A001.b.4.f",
+        "heading": "[Reserved]",
+        "label": "3A001.b.4.f – [Reserved]",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>N.B.:</I></HED>\n<P><I>1. For “MMIC” amplifiers see 3A001.b.2.</I></P>\n<P><I>2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.</I></P>\n<P><I>3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.</I></P></NOTE>",
+            "text": "N.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>[Reserved]</I></P></NOTE>",
+            "text": "Note 1: [Reserved]",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-06-17",
+      "fetchedAt": "2025-10-02T20:33:34.354Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-06-17/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "3A001 Electronic Items as Follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Microwave solid state amplifiers and microwave assemblies/modules containing microwave solid state amplifiers, that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001",
+        "3A001.b",
+        "3A001.b.4"
+      ],
+      "text": "[Reserved]\nN.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.\nNote 1: [Reserved]\nNote 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+      "structure": {
+        "identifier": "3A001.b.4.f",
+        "heading": "[Reserved]",
+        "label": "3A001.b.4.f – [Reserved]",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>N.B.:</I></HED>\n<P><I>1. For “MMIC” amplifiers see 3A001.b.2.</I></P>\n<P><I>2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.</I></P>\n<P><I>3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.</I></P></NOTE>",
+            "text": "N.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>[Reserved]</I></P></NOTE>",
+            "text": "Note 1: [Reserved]",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-06-29",
+      "fetchedAt": "2025-10-02T20:33:34.750Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-06-29/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items”, “Equipment”, “Accessories”, “Attachments”, “Parts”, “Components” and “Systems”",
+        "3A001 Electronic Items as Follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Microwave solid state amplifiers and microwave assemblies/modules containing microwave solid state amplifiers, that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001",
+        "3A001.b",
+        "3A001.b.4"
+      ],
+      "text": "[Reserved]\nN.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.\nNote 1: [Reserved]\nNote 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+      "structure": {
+        "identifier": "3A001.b.4.f",
+        "heading": "[Reserved]",
+        "label": "3A001.b.4.f – [Reserved]",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>N.B.:</I></HED>\n<P><I>1. For “MMIC” amplifiers see 3A001.b.2.</I></P>\n<P><I>2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.</I></P>\n<P><I>3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.</I></P></NOTE>",
+            "text": "N.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>[Reserved]</I></P></NOTE>",
+            "text": "Note 1: [Reserved]",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-09-11",
+      "fetchedAt": "2025-10-02T20:33:35.161Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-09-11/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3 - Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic Items as Follows (See List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Microwave solid state amplifiers and microwave assemblies/modules containing microwave solid state amplifiers, that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001",
+        "3A001.b",
+        "3A001.b.4"
+      ],
+      "text": "[Reserved]\nN.B.:\n1. For “ MMIC” amplifiers see 3A001.b.2.\n2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.\nNote 1: [Reserved]\nNote 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+      "structure": {
+        "identifier": "3A001.b.4.f",
+        "heading": "[Reserved]",
+        "label": "3A001.b.4.f – [Reserved]",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>N.B.:</I></P>",
+            "text": "N.B.:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>1. For “ MMIC” amplifiers see 3A001.b.2.</I></P>",
+            "text": "1. For “ MMIC” amplifiers see 3A001.b.2.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.</I></P>",
+            "text": "2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I>\n</HED>\n<P><I> [Reserved]</I></P></NOTE>",
+            "text": "Note 1: [Reserved]",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-10-05",
+      "fetchedAt": "2025-10-02T20:33:35.641Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-10-05/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3 - Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic Items as Follows (See List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Microwave solid state amplifiers and microwave assemblies/modules containing microwave solid state amplifiers, that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001",
+        "3A001.b",
+        "3A001.b.4"
+      ],
+      "text": "[Reserved]\nN.B.:\n1. For “ MMIC” amplifiers see 3A001.b.2.\n2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.\nNote 1: [Reserved]\nNote 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+      "structure": {
+        "identifier": "3A001.b.4.f",
+        "heading": "[Reserved]",
+        "label": "3A001.b.4.f – [Reserved]",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>N.B.:</I></P>",
+            "text": "N.B.:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>1. For “ MMIC” amplifiers see 3A001.b.2.</I></P>",
+            "text": "1. For “ MMIC” amplifiers see 3A001.b.2.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.</I></P>",
+            "text": "2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I>\n</HED>\n<P><I> [Reserved]</I></P></NOTE>",
+            "text": "Note 1: [Reserved]",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-10-06",
+      "fetchedAt": "2025-10-02T20:33:36.026Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-10-06/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3 - Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic Items as Follows (See List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Microwave solid state amplifiers and microwave assemblies/modules containing microwave solid state amplifiers, that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001",
+        "3A001.b",
+        "3A001.b.4"
+      ],
+      "text": "[Reserved]\nN.B.:\n1. For “ MMIC” amplifiers see 3A001.b.2.\n2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.\nNote 1: [Reserved]\nNote 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+      "structure": {
+        "identifier": "3A001.b.4.f",
+        "heading": "[Reserved]",
+        "label": "3A001.b.4.f – [Reserved]",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>N.B.:</I></P>",
+            "text": "N.B.:",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>1. For “ MMIC” amplifiers see 3A001.b.2.</I></P>",
+            "text": "1. For “ MMIC” amplifiers see 3A001.b.2.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.</I></P>",
+            "text": "2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I>\n</HED>\n<P><I> [Reserved]</I></P></NOTE>",
+            "text": "Note 1: [Reserved]",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-08-18",
+      "fetchedAt": "2025-10-02T20:33:42.783Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-08-18/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Microwave solid state amplifiers and microwave assemblies/modules containing microwave solid state amplifiers, that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001",
+        "3A001.b",
+        "3A001.b.4"
+      ],
+      "text": "[Reserved]\nN.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.\nNote 1: [Reserved]\nNote 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+      "structure": {
+        "identifier": "3A001.b.4.f",
+        "heading": "[Reserved]",
+        "label": "3A001.b.4.f – [Reserved]",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>N.B.:</I>\n</HED>\n<P><I>1.</I> <I>For</I> <I>“MMIC” amplifiers see 3A001.b.2.</I></P>\n<P><I>2.</I> <I>For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.</I></P>\n<P><I>3.</I> <I>For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.</I></P></NOTE>",
+            "text": "N.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>[Reserved]</I></P></NOTE>",
+            "text": "Note 1: [Reserved]",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-10-18",
+      "fetchedAt": "2025-10-02T20:33:43.173Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-10-18/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Microwave solid state amplifiers and microwave assemblies/modules containing microwave solid state amplifiers, that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001",
+        "3A001.b",
+        "3A001.b.4"
+      ],
+      "text": "[Reserved]\nN.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.\nNote 1: [Reserved]\nNote 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+      "structure": {
+        "identifier": "3A001.b.4.f",
+        "heading": "[Reserved]",
+        "label": "3A001.b.4.f – [Reserved]",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>N.B.:</I>\n</HED>\n<P><I>1.</I> <I>For “MMIC” amplifiers see 3A001.b.2.</I></P>\n<P><I>2.</I> <I>For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.</I></P>\n<P><I>3.</I> <I>For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.</I></P></NOTE>",
+            "text": "N.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>[Reserved]</I></P></NOTE>",
+            "text": "Note 1: [Reserved]",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-11-17",
+      "fetchedAt": "2025-10-02T20:33:43.584Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-11-17/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Microwave solid state amplifiers and microwave assemblies/modules containing microwave solid state amplifiers, that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001",
+        "3A001.b",
+        "3A001.b.4"
+      ],
+      "text": "[Reserved]\nN.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.\nNote 1: [Reserved]\nNote 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+      "structure": {
+        "identifier": "3A001.b.4.f",
+        "heading": "[Reserved]",
+        "label": "3A001.b.4.f – [Reserved]",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>N.B.:</I>\n</HED>\n<P><I>1. For “MMIC” amplifiers see 3A001.b.2.</I></P>\n<P><I>2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.</I></P>\n<P><I>3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.</I></P></NOTE>",
+            "text": "N.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>[Reserved]</I></P></NOTE>",
+            "text": "Note 1: [Reserved]",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-12-08",
+      "fetchedAt": "2025-10-02T20:33:43.980Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-12-08/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Microwave solid state amplifiers and microwave assemblies/modules containing microwave solid state amplifiers, that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001",
+        "3A001.b",
+        "3A001.b.4"
+      ],
+      "text": "[Reserved]\nN.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.\nNote 1: [Reserved]\nNote 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+      "structure": {
+        "identifier": "3A001.b.4.f",
+        "heading": "[Reserved]",
+        "label": "3A001.b.4.f – [Reserved]",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>N.B.:</I>\n</HED>\n<P><I>1. For “MMIC” amplifiers see 3A001.b.2.</I></P>\n<P><I>2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.</I></P>\n<P><I>3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.</I></P></NOTE>",
+            "text": "N.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>[Reserved]</I></P></NOTE>",
+            "text": "Note 1: [Reserved]",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-03-08",
+      "fetchedAt": "2025-10-02T20:33:44.401Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-08/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Microwave solid state amplifiers and microwave assemblies/modules containing microwave solid state amplifiers, that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001",
+        "3A001.b",
+        "3A001.b.4"
+      ],
+      "text": "[Reserved]\nN.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.\nNote 1: [Reserved]\nNote 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+      "structure": {
+        "identifier": "3A001.b.4.f",
+        "heading": "[Reserved]",
+        "label": "3A001.b.4.f – [Reserved]",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>N.B.:</I>\n</HED>\n<P><I>1. For “MMIC” amplifiers see 3A001.b.2.</I></P>\n<P><I>2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.</I></P>\n<P><I>3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.</I></P></NOTE>",
+            "text": "N.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>[Reserved]</I></P></NOTE>",
+            "text": "Note 1: [Reserved]",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-03-13",
+      "fetchedAt": "2025-10-02T20:33:44.826Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-13/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Microwave solid state amplifiers and microwave assemblies/modules containing microwave solid state amplifiers, that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001",
+        "3A001.b",
+        "3A001.b.4"
+      ],
+      "text": "[Reserved]\nN.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.\nNote 1: [Reserved]\nNote 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+      "structure": {
+        "identifier": "3A001.b.4.f",
+        "heading": "[Reserved]",
+        "label": "3A001.b.4.f – [Reserved]",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>N.B.:</I>\n</HED>\n<P><I>1. For “MMIC” amplifiers see 3A001.b.2.</I></P>\n<P><I>2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.</I></P>\n<P><I>3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.</I></P></NOTE>",
+            "text": "N.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>[Reserved]</I></P></NOTE>",
+            "text": "Note 1: [Reserved]",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-04-04",
+      "fetchedAt": "2025-10-02T20:33:45.229Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-04/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "See § 744.17 of the EAR for additional license requirements for microprocessors having a processing speed of 5 GFLOPS or more and an arithmetic logic unit with an access width of 32 bit or more, including those incorporating “information security” functionality, and associated “software” and “technology” for the “production” or “development” of such microprocessors.",
+        "Microwave solid state amplifiers and microwave assemblies/modules containing microwave solid state amplifiers, that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001",
+        "3A001.b",
+        "3A001.b.4"
+      ],
+      "text": "[Reserved]\nN.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.\nNote 1: [Reserved]\nNote 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+      "structure": {
+        "identifier": "3A001.b.4.f",
+        "heading": "[Reserved]",
+        "label": "3A001.b.4.f – [Reserved]",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>N.B.:</I></HED>\n<P><E T=\"04\">1.</E> For “<I>MMIC” amplifiers see 3A001.b.2.</I></P>\n<P><E T=\"04\">2.</E> <I>For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.</I></P>\n<P><E T=\"04\">3.</E> <I>For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.</I></P></NOTE>",
+            "text": "N.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>[Reserved]</I></P></NOTE>",
+            "text": "Note 1: [Reserved]",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-04-19",
+      "fetchedAt": "2025-10-02T20:33:45.630Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-19/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "See § 744.17 of the EAR for additional license requirements for microprocessors having a processing speed of 5 GFLOPS or more and an arithmetic logic unit with an access width of 32 bit or more, including those incorporating “information security” functionality, and associated “software” and “technology” for the “production” or “development” of such microprocessors.",
+        "Microwave solid state amplifiers and microwave assemblies/modules containing microwave solid state amplifiers, that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001",
+        "3A001.b",
+        "3A001.b.4"
+      ],
+      "text": "[Reserved]\nN.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.\nNote 1: [Reserved]\nNote 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+      "structure": {
+        "identifier": "3A001.b.4.f",
+        "heading": "[Reserved]",
+        "label": "3A001.b.4.f – [Reserved]",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>N.B.:</I></HED>\n<P><E T=\"04\">1.</E> For “<I>MMIC” amplifiers see 3A001.b.2.</I></P>\n<P><E T=\"04\">2.</E> <I>For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.</I></P>\n<P><E T=\"04\">3.</E> <I>For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.</I></P></NOTE>",
+            "text": "N.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>[Reserved]</I></P></NOTE>",
+            "text": "Note 1: [Reserved]",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-05-30",
+      "fetchedAt": "2025-10-02T20:33:46.051Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-05-30/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "See § 744.17 of the EAR for additional license requirements for microprocessors having a processing speed of 5 GFLOPS or more and an arithmetic logic unit with an access width of 32 bit or more, including those incorporating “information security” functionality, and associated “software” and “technology” for the “production” or “development” of such microprocessors.",
+        "Microwave solid state amplifiers and microwave assemblies/modules containing microwave solid state amplifiers, that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001",
+        "3A001.b",
+        "3A001.b.4"
+      ],
+      "text": "[Reserved]\nN.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.\nNote 1: [Reserved]\nNote 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+      "structure": {
+        "identifier": "3A001.b.4.f",
+        "heading": "[Reserved]",
+        "label": "3A001.b.4.f – [Reserved]",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>N.B.:</I></HED>\n<P><E T=\"04\">1.</E> For “<I>MMIC” amplifiers see 3A001.b.2.</I></P>\n<P><E T=\"04\">2.</E> <I>For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.</I></P>\n<P><E T=\"04\">3.</E> <I>For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.</I></P></NOTE>",
+            "text": "N.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>[Reserved]</I></P></NOTE>",
+            "text": "Note 1: [Reserved]",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-06-12",
+      "fetchedAt": "2025-10-02T20:33:46.460Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-06-12/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Category 3—Electronics",
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "See § 744.17 of the EAR for additional license requirements for microprocessors having a processing speed of 5 GFLOPS or more and an arithmetic logic unit with an access width of 32 bit or more, including those incorporating “information security” functionality, and associated “software” and “technology” for the “production” or “development” of such microprocessors.",
+        "Microwave solid state amplifiers and microwave assemblies/modules containing microwave solid state amplifiers, that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001",
+        "3A001.b",
+        "3A001.b.4"
+      ],
+      "text": "[Reserved]\nN.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.\nNote 1: [Reserved]\nNote 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+      "structure": {
+        "identifier": "3A001.b.4.f",
+        "heading": "[Reserved]",
+        "label": "3A001.b.4.f – [Reserved]",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>N.B.:</I></HED>\n<P><E T=\"04\">1.</E> For “<I>MMIC” amplifiers see 3A001.b.2.</I></P>\n<P><E T=\"04\">2.</E> <I>For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.</I></P>\n<P><E T=\"04\">3.</E> <I>For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.</I></P></NOTE>",
+            "text": "N.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>[Reserved]</I></P></NOTE>",
+            "text": "Note 1: [Reserved]",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-09-06",
+      "fetchedAt": "2025-10-02T20:33:46.879Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-09-06/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Microwave solid state amplifiers and microwave assemblies/modules containing microwave solid state amplifiers, that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001",
+        "3A001.b",
+        "3A001.b.4"
+      ],
+      "text": "[Reserved]\nN.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.\nNote 1: [Reserved]\nNote 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+      "structure": {
+        "identifier": "3A001.b.4.f",
+        "heading": "[Reserved]",
+        "label": "3A001.b.4.f – [Reserved]",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>N.B.:</I>\n</HED>\n<P>1. For “<I>MMIC” amplifiers see 3A001.b.2.</I></P>\n<P>2. <I>For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.</I></P>\n<P>3. <I>For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.</I></P></NOTE>",
+            "text": "N.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>[Reserved]</I></P></NOTE>",
+            "text": "Note 1: [Reserved]",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-10-23",
+      "fetchedAt": "2025-10-02T20:33:47.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-10-23/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Microwave solid state amplifiers and microwave assemblies/modules containing microwave solid state amplifiers, that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001",
+        "3A001.b",
+        "3A001.b.4"
+      ],
+      "text": "[Reserved]\nN.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.\nNote 1: [Reserved]\nNote 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+      "structure": {
+        "identifier": "3A001.b.4.f",
+        "heading": "[Reserved]",
+        "label": "3A001.b.4.f – [Reserved]",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>N.B.:</I>\n</HED>\n<P>1. For “<I>MMIC” amplifiers see 3A001.b.2.</I></P>\n<P>2. <I>For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.</I></P>\n<P>3. <I>For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.</I></P></NOTE>",
+            "text": "N.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>[Reserved]</I></P></NOTE>",
+            "text": "Note 1: [Reserved]",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-02",
+      "fetchedAt": "2025-10-02T20:33:47.757Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-02/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Microwave solid state amplifiers and microwave assemblies/modules containing microwave solid state amplifiers, that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001",
+        "3A001.b",
+        "3A001.b.4"
+      ],
+      "text": "[Reserved]\nN.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.\nNote 1: [Reserved]\nNote 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+      "structure": {
+        "identifier": "3A001.b.4.f",
+        "heading": "[Reserved]",
+        "label": "3A001.b.4.f – [Reserved]",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>N.B.:</I>\n</HED>\n<P>1. For “<I>MMIC” amplifiers see 3A001.b.2.</I></P>\n<P>2. <I>For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.</I></P>\n<P>3. <I>For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.</I></P></NOTE>",
+            "text": "N.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>[Reserved]</I></P></NOTE>",
+            "text": "Note 1: [Reserved]",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Microwave solid state amplifiers and microwave assemblies/modules containing microwave solid state amplifiers, that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001",
+        "3A001.b",
+        "3A001.b.4"
+      ],
+      "text": "[Reserved]\nN.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.\nNote 1: [Reserved]\nNote 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+      "structure": {
+        "identifier": "3A001.b.4.f",
+        "heading": "[Reserved]",
+        "label": "3A001.b.4.f – [Reserved]",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>N.B.:</I>\n</HED>\n<P>1. For “<I>MMIC” amplifiers see 3A001.b.2.</I></P>\n<P>2. <I>For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.</I></P>\n<P>3. <I>For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.</I></P></NOTE>",
+            "text": "N.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>[Reserved]</I></P></NOTE>",
+            "text": "Note 1: [Reserved]",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Microwave solid state amplifiers and microwave assemblies/modules containing microwave solid state amplifiers, that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001",
+        "3A001.b",
+        "3A001.b.4"
+      ],
+      "text": "[Reserved]\nN.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.\nNote 1: [Reserved]\nNote 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+      "structure": {
+        "identifier": "3A001.b.4.f",
+        "heading": "[Reserved]",
+        "label": "3A001.b.4.f – [Reserved]",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>N.B.:</I>\n</HED>\n<P>1. For “<I>MMIC” amplifiers see 3A001.b.2.</I></P>\n<P>2. <I>For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.</I></P>\n<P>3. <I>For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.</I></P></NOTE>",
+            "text": "N.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>[Reserved]</I></P></NOTE>",
+            "text": "Note 1: [Reserved]",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Microwave solid state amplifiers and microwave assemblies/modules containing microwave solid state amplifiers, that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001",
+        "3A001.b",
+        "3A001.b.4"
+      ],
+      "text": "[Reserved]\nN.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.\nNote 1: [Reserved]\nNote 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+      "structure": {
+        "identifier": "3A001.b.4.f",
+        "heading": "[Reserved]",
+        "label": "3A001.b.4.f – [Reserved]",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>N.B.:</I>\n</HED>\n<P>1. For “<I>MMIC” amplifiers see 3A001.b.2.</I></P>\n<P>2. <I>For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.</I></P>\n<P>3. <I>For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.</I></P></NOTE>",
+            "text": "N.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>[Reserved]</I></P></NOTE>",
+            "text": "Note 1: [Reserved]",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Microwave solid state amplifiers and microwave assemblies/modules containing microwave solid state amplifiers, that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001",
+        "3A001.b",
+        "3A001.b.4"
+      ],
+      "text": "[Reserved]\nN.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.\nNote 1: [Reserved]\nNote 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+      "structure": {
+        "identifier": "3A001.b.4.f",
+        "heading": "[Reserved]",
+        "label": "3A001.b.4.f – [Reserved]",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>N.B.:</I>\n</HED>\n<P>1. For “<I>MMIC” amplifiers see 3A001.b.2.</I></P>\n<P>2. <I>For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.</I></P>\n<P>3. <I>For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.</I></P></NOTE>",
+            "text": "N.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>[Reserved]</I></P></NOTE>",
+            "text": "Note 1: [Reserved]",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Microwave solid state amplifiers and microwave assemblies/modules containing microwave solid state amplifiers, that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001",
+        "3A001.b",
+        "3A001.b.4"
+      ],
+      "text": "[Reserved]\nN.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.\nNote 1: [Reserved]\nNote 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+      "structure": {
+        "identifier": "3A001.b.4.f",
+        "heading": "[Reserved]",
+        "label": "3A001.b.4.f – [Reserved]",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>N.B.:</I>\n</HED>\n<P><I>1. For “MMIC” amplifiers see 3A001.b.2.</I></P>\n<P><I>2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.</I></P>\n<P><I>3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.</I></P></NOTE>",
+            "text": "N.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>[Reserved]</I></P></NOTE>",
+            "text": "Note 1: [Reserved]",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Microwave solid state amplifiers and microwave assemblies/modules containing microwave solid state amplifiers, that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001",
+        "3A001.b",
+        "3A001.b.4"
+      ],
+      "text": "[Reserved]\nN.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.\nNote 1: [Reserved]\nNote 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+      "structure": {
+        "identifier": "3A001.b.4.f",
+        "heading": "[Reserved]",
+        "label": "3A001.b.4.f – [Reserved]",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>N.B.:</I>\n</HED>\n<P><I>1. For “MMIC” amplifiers see 3A001.b.2.</I></P>\n<P><I>2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.</I></P>\n<P><I>3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.</I></P></NOTE>",
+            "text": "N.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>[Reserved]</I></P></NOTE>",
+            "text": "Note 1: [Reserved]",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Microwave solid state amplifiers and microwave assemblies/modules containing microwave solid state amplifiers, that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001",
+        "3A001.b",
+        "3A001.b.4"
+      ],
+      "text": "[Reserved]\nN.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.\nNote 1: [Reserved]\nNote 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+      "structure": {
+        "identifier": "3A001.b.4.f",
+        "heading": "[Reserved]",
+        "label": "3A001.b.4.f – [Reserved]",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>N.B.:</I>\n</HED>\n<P><I>1. For “MMIC” amplifiers see 3A001.b.2.</I>\n</P>\n<P><I>2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.</I>\n</P>\n<P><I>3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.</I></P></NOTE>",
+            "text": "N.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>[Reserved]</I></P></NOTE>",
+            "text": "Note 1: [Reserved]",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "[Reserved]",
+      "title": "[Reserved]",
+      "category": "3",
+      "group": "3A",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "A. “End Items,” “Equipment,” “Accessories,” “Attachments,” “Parts,” “Components,” and “Systems”",
+        "3A001 Electronic items as follows (see List of Items Controlled).",
+        "Microwave or millimeter wave items, as follows:",
+        "Microwave solid state amplifiers and microwave assemblies/modules containing microwave solid state amplifiers, that are any of the following:"
+      ],
+      "ancestors": [
+        "3A001",
+        "3A001.b",
+        "3A001.b.4"
+      ],
+      "text": "[Reserved]\nN.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.\nNote 1: [Reserved]\nNote 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+      "structure": {
+        "identifier": "3A001.b.4.f",
+        "heading": "[Reserved]",
+        "label": "3A001.b.4.f – [Reserved]",
+        "content": [
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>N.B.:</I>\n</HED>\n<P><I>1. For “MMIC” amplifiers see 3A001.b.2.</I>\n</P>\n<P><I>2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12.</I>\n</P>\n<P><I>3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.</I></P></NOTE>",
+            "text": "N.B.: 1. For “MMIC” amplifiers see 3A001.b.2. 2. For 'transmit/receive modules' and 'transmit modules' see 3A001.b.12. 3. For converters and harmonic mixers, designed to extend the operating or frequency range of signal analyzers, signal generators, network analyzers or microwave test receivers, see 3A001.b.7.",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 1:</I></HED>\n<P><I>[Reserved]</I></P></NOTE>",
+            "text": "Note 1: [Reserved]",
+            "id": null
+          },
+          {
+            "type": "html",
+            "tag": "NOTE",
+            "html": "<NOTE>\n<HED><I>Note 2:</I></HED>\n<P><I>The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.</I></P></NOTE>",
+            "text": "Note 2: The control status of an item whose rated operating frequency includes frequencies listed in more than one frequency range, as defined by 3A001.b.4.a through 3A001.b.4.e, is determined by the lowest peak saturated power output control threshold.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

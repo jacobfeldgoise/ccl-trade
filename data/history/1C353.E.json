@@ -1,0 +1,1898 @@
+{
+  "eccn": "1C353.e",
+  "normalized": "1C353.E",
+  "history": [
+    {
+      "version": "2018-04-02",
+      "fetchedAt": "2025-10-02T20:33:30.716Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-02/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "License Requirements",
+        "1C353 Genetic elements and genetically modified organisms, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C353"
+      ],
+      "text": "1C353.e\n2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\n(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See 22 CFR part 121, Category XIV(b), for modified biological agents and biologically derived substances that are subject to the export licensing jurisdiction of the U.S. Department of State, Directorate of Defense Trade Controls.\nRelated Definition:\nN/A\nItems:",
+      "structure": {
+        "identifier": "1C353.e",
+        "heading": null,
+        "label": "1C353.e",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.</I></P>",
+            "text": "2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See 22 CFR part 121, Category XIV(b), for modified biological agents and biologically derived substances that are subject to the export licensing jurisdiction of the U.S. Department of State, Directorate of Defense Trade Controls."
+          },
+          {
+            "type": "text",
+            "text": "Related Definition:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-04-05",
+      "fetchedAt": "2025-10-02T20:33:31.145Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-05/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "License Requirements",
+        "1C353 Genetic elements and genetically modified organisms, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C353"
+      ],
+      "text": "1C353.e\n2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\n(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See 22 CFR part 121, Category XIV(b), for modified biological agents and biologically derived substances that are subject to the export licensing jurisdiction of the U.S. Department of State, Directorate of Defense Trade Controls.\nRelated Definition:\nN/A\nItems:",
+      "structure": {
+        "identifier": "1C353.e",
+        "heading": null,
+        "label": "1C353.e",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.</I></P>",
+            "text": "2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See 22 CFR part 121, Category XIV(b), for modified biological agents and biologically derived substances that are subject to the export licensing jurisdiction of the U.S. Department of State, Directorate of Defense Trade Controls."
+          },
+          {
+            "type": "text",
+            "text": "Related Definition:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-08-30",
+      "fetchedAt": "2025-10-02T20:33:31.567Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-08-30/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "License Requirements",
+        "1C353 Genetic elements and genetically modified organisms, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C353"
+      ],
+      "text": "1C353.e\n2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\n(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See 22 CFR part 121, Category XIV(b), for modified biological agents and biologically derived substances that are subject to the export licensing jurisdiction of the U.S. Department of State, Directorate of Defense Trade Controls.\nRelated Definition:\nN/A\nItems:",
+      "structure": {
+        "identifier": "1C353.e",
+        "heading": null,
+        "label": "1C353.e",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.</I></P>",
+            "text": "2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See 22 CFR part 121, Category XIV(b), for modified biological agents and biologically derived substances that are subject to the export licensing jurisdiction of the U.S. Department of State, Directorate of Defense Trade Controls."
+          },
+          {
+            "type": "text",
+            "text": "Related Definition:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-10-24",
+      "fetchedAt": "2025-10-02T20:33:31.990Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-10-24/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "License Requirements",
+        "1C353 Genetic elements and genetically modified organisms, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C353"
+      ],
+      "text": "1C353.e\n2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\n(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See 22 CFR part 121, Category XIV(b), for modified biological agents and biologically derived substances that are subject to the export licensing jurisdiction of the U.S. Department of State, Directorate of Defense Trade Controls.\nRelated Definition:\nN/A\nItems:",
+      "structure": {
+        "identifier": "1C353.e",
+        "heading": null,
+        "label": "1C353.e",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.</I></P>",
+            "text": "2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See 22 CFR part 121, Category XIV(b), for modified biological agents and biologically derived substances that are subject to the export licensing jurisdiction of the U.S. Department of State, Directorate of Defense Trade Controls."
+          },
+          {
+            "type": "text",
+            "text": "Related Definition:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-11-02",
+      "fetchedAt": "2025-10-02T20:33:32.381Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-11-02/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "License Requirements",
+        "1C353 Genetic elements and genetically modified organisms, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C353"
+      ],
+      "text": "1C353.e\n2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\n(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See 22 CFR part 121, Category XIV(b), for modified biological agents and biologically derived substances that are subject to the export licensing jurisdiction of the U.S. Department of State, Directorate of Defense Trade Controls.\nRelated Definition:\nN/A\nItems:",
+      "structure": {
+        "identifier": "1C353.e",
+        "heading": null,
+        "label": "1C353.e",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.</I></P>",
+            "text": "2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See 22 CFR part 121, Category XIV(b), for modified biological agents and biologically derived substances that are subject to the export licensing jurisdiction of the U.S. Department of State, Directorate of Defense Trade Controls."
+          },
+          {
+            "type": "text",
+            "text": "Related Definition:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-12-20",
+      "fetchedAt": "2025-10-02T20:33:32.762Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-12-20/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C353 Genetic elements and genetically modified organisms, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C353"
+      ],
+      "text": "1C353.e\n2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\n(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See 22 CFR part 121, Category XIV(b), for modified biological agents and biologically derived substances that are subject to the export licensing jurisdiction of the U.S. Department of State, Directorate of Defense Trade Controls.\nRelated Definition:\nN/A\nItems:\na. Any genetically modified organism that contains, or any genetic element that codes for, any of the following:",
+      "structure": {
+        "identifier": "1C353.e",
+        "heading": null,
+        "label": "1C353.e",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.</I></P>",
+            "text": "2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See 22 CFR part 121, Category XIV(b), for modified biological agents and biologically derived substances that are subject to the export licensing jurisdiction of the U.S. Department of State, Directorate of Defense Trade Controls."
+          },
+          {
+            "type": "text",
+            "text": "Related Definition:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "a. Any genetically modified organism that contains, or any genetic element that codes for, any of the following:"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2019-05-23",
+      "fetchedAt": "2025-10-02T20:33:33.148Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2019-05-23/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C353 Genetic elements and genetically modified organisms, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C353"
+      ],
+      "text": "1C353.e\n2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\n(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See 22 CFR part 121, Category XIV(b), for modified biological agents and biologically derived substances that are subject to the export licensing jurisdiction of the U.S. Department of State, Directorate of Defense Trade Controls.\nRelated Definition:\nN/A\nItems:\na. Any genetically modified organism that contains, or any genetic element that codes for, any of the following:",
+      "structure": {
+        "identifier": "1C353.e",
+        "heading": null,
+        "label": "1C353.e",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.</I></P>",
+            "text": "2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See 22 CFR part 121, Category XIV(b), for modified biological agents and biologically derived substances that are subject to the export licensing jurisdiction of the U.S. Department of State, Directorate of Defense Trade Controls."
+          },
+          {
+            "type": "text",
+            "text": "Related Definition:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "a. Any genetically modified organism that contains, or any genetic element that codes for, any of the following:"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-01-06",
+      "fetchedAt": "2025-10-02T20:33:33.561Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-01-06/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C353 Genetic elements and genetically modified organisms, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C353"
+      ],
+      "text": "1C353.e\n2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\n(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See 22 CFR part 121, Category XIV(b), for modified biological agents and biologically derived substances that are subject to the export licensing jurisdiction of the U.S. Department of State, Directorate of Defense Trade Controls.\nRelated Definition:\nN/A\nItems:\na. Any genetically modified organism that contains, or any genetic element that codes for, any of the following:",
+      "structure": {
+        "identifier": "1C353.e",
+        "heading": null,
+        "label": "1C353.e",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.</I></P>",
+            "text": "2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See 22 CFR part 121, Category XIV(b), for modified biological agents and biologically derived substances that are subject to the export licensing jurisdiction of the U.S. Department of State, Directorate of Defense Trade Controls."
+          },
+          {
+            "type": "text",
+            "text": "Related Definition:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "a. Any genetically modified organism that contains, or any genetic element that codes for, any of the following:"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-03-09",
+      "fetchedAt": "2025-10-02T20:33:33.960Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-03-09/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C353 Genetic elements and genetically modified organisms, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C353"
+      ],
+      "text": "1C353.e\n2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nCIV:\nN/A\nList of Items Controlled\nRelated Controls:\n(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See 22 CFR part 121, Category XIV(b), for modified biological agents and biologically derived substances that are subject to the export licensing jurisdiction of the U.S. Department of State, Directorate of Defense Trade Controls.\nRelated Definition:\nN/A\nItems:\na. Any genetically modified organism that contains, or any genetic element that codes for, any of the following:",
+      "structure": {
+        "identifier": "1C353.e",
+        "heading": null,
+        "label": "1C353.e",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.</I></P>",
+            "text": "2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "CIV:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See 22 CFR part 121, Category XIV(b), for modified biological agents and biologically derived substances that are subject to the export licensing jurisdiction of the U.S. Department of State, Directorate of Defense Trade Controls."
+          },
+          {
+            "type": "text",
+            "text": "Related Definition:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "text",
+            "text": "a. Any genetically modified organism that contains, or any genetic element that codes for, any of the following:"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-01-17",
+      "fetchedAt": "2025-10-02T20:33:41.990Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-01-17/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C353 Genetic elements and genetically modified organisms, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C353"
+      ],
+      "text": "1C353.e\n2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\n(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See 22 CFR part 121, Category XIV(b), for modified biological agents and biologically derived substances that are subject to the export licensing jurisdiction of the U.S. Department of State, Directorate of Defense Trade Controls.\nRelated Definition:\nN/A\nItems:",
+      "structure": {
+        "identifier": "1C353.e",
+        "heading": null,
+        "label": "1C353.e",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.</I></P>",
+            "text": "2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See 22 CFR part 121, Category XIV(b), for modified biological agents and biologically derived substances that are subject to the export licensing jurisdiction of the U.S. Department of State, Directorate of Defense Trade Controls."
+          },
+          {
+            "type": "text",
+            "text": "Related Definition:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-02-24",
+      "fetchedAt": "2025-10-02T20:33:42.390Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-02-24/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "1C353 Genetic elements and genetically modified organisms, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C353"
+      ],
+      "text": "1C353.e\n2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\n(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See 22 CFR part 121, Category XIV(b), for modified biological agents and biologically derived substances that are subject to the export licensing jurisdiction of the U.S. Department of State, Directorate of Defense Trade Controls.\nRelated Definition:\nN/A\nItems:",
+      "structure": {
+        "identifier": "1C353.e",
+        "heading": null,
+        "label": "1C353.e",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.</I></P>",
+            "text": "2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See 22 CFR part 121, Category XIV(b), for modified biological agents and biologically derived substances that are subject to the export licensing jurisdiction of the U.S. Department of State, Directorate of Defense Trade Controls."
+          },
+          {
+            "type": "text",
+            "text": "Related Definition:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-08-18",
+      "fetchedAt": "2025-10-02T20:33:42.783Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-08-18/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)",
+        "1C353 Genetic elements and genetically modified organisms, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C353"
+      ],
+      "text": "1C353.e\n2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\n(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See 22 CFR part 121, Category XIV(b), for modified biological agents and biologically derived substances that are subject to the export licensing jurisdiction of the U.S. Department of State, Directorate of Defense Trade Controls.\nRelated Definition:\nN/A\nItems:",
+      "structure": {
+        "identifier": "1C353.e",
+        "heading": null,
+        "label": "1C353.e",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.</I></P>",
+            "text": "2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See 22 CFR part 121, Category XIV(b), for modified biological agents and biologically derived substances that are subject to the export licensing jurisdiction of the U.S. Department of State, Directorate of Defense Trade Controls."
+          },
+          {
+            "type": "text",
+            "text": "Related Definition:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-10-18",
+      "fetchedAt": "2025-10-02T20:33:43.173Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-10-18/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)",
+        "1C353 Genetic elements and genetically modified organisms, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C353"
+      ],
+      "text": "1C353.e\n2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\n(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See 22 CFR part 121, Category XIV(b), for modified biological agents and biologically derived substances that are subject to the export licensing jurisdiction of the U.S. Department of State, Directorate of Defense Trade Controls.\nRelated Definition:\nN/A\nItems:",
+      "structure": {
+        "identifier": "1C353.e",
+        "heading": null,
+        "label": "1C353.e",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.</I></P>",
+            "text": "2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See 22 CFR part 121, Category XIV(b), for modified biological agents and biologically derived substances that are subject to the export licensing jurisdiction of the U.S. Department of State, Directorate of Defense Trade Controls."
+          },
+          {
+            "type": "text",
+            "text": "Related Definition:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-11-17",
+      "fetchedAt": "2025-10-02T20:33:43.584Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-11-17/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)",
+        "1C353 Genetic elements and genetically modified organisms, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C353"
+      ],
+      "text": "1C353.e\n2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\n(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See 22 CFR part 121, Category XIV(b), for modified biological agents and biologically derived substances that are subject to the export licensing jurisdiction of the U.S. Department of State, Directorate of Defense Trade Controls.\nRelated Definition:\nN/A\nItems:",
+      "structure": {
+        "identifier": "1C353.e",
+        "heading": null,
+        "label": "1C353.e",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.</I></P>",
+            "text": "2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See 22 CFR part 121, Category XIV(b), for modified biological agents and biologically derived substances that are subject to the export licensing jurisdiction of the U.S. Department of State, Directorate of Defense Trade Controls."
+          },
+          {
+            "type": "text",
+            "text": "Related Definition:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "C. “Materials”",
+        "1C353 Genetic elements and genetically modified organisms, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C353"
+      ],
+      "text": "1C353.e\n2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\n(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See USML Category XIV for modified biological agents and biologically derived substances that are “subject to the ITAR” (see 22 CFR parts 120 through 130).\nRelated Definition:\nN/A\nItems:",
+      "structure": {
+        "identifier": "1C353.e",
+        "heading": null,
+        "label": "1C353.e",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.</I></P>",
+            "text": "2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See USML Category XIV for modified biological agents and biologically derived substances that are “subject to the ITAR” (see 22 CFR parts 120 through 130)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definition:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "1C353 Genetic elements and genetically modified organisms, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C353"
+      ],
+      "text": "1C353.e\n2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\n(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See USML Category XIV for modified biological agents and biologically derived substances that are “subject to the ITAR” (see 22 CFR parts 120 through 130).\nRelated Definition:\nN/A\nItems:",
+      "structure": {
+        "identifier": "1C353.e",
+        "heading": null,
+        "label": "1C353.e",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.</I></P>",
+            "text": "2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See USML Category XIV for modified biological agents and biologically derived substances that are “subject to the ITAR” (see 22 CFR parts 120 through 130)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definition:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "1C353 Genetic elements and genetically modified organisms, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C353"
+      ],
+      "text": "1C353.e\n2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\n(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See USML Category XIV for modified biological agents and biologically derived substances that are “subject to the ITAR” (see 22 CFR parts 120 through 130).\nRelated Definition:\nN/A\nItems:",
+      "structure": {
+        "identifier": "1C353.e",
+        "heading": null,
+        "label": "1C353.e",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.</I></P>",
+            "text": "2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See USML Category XIV for modified biological agents and biologically derived substances that are “subject to the ITAR” (see 22 CFR parts 120 through 130)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definition:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "1C353 Genetic elements and genetically modified organisms, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C353"
+      ],
+      "text": "1C353.e\n2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\n(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See USML Category XIV for modified biological agents and biologically derived substances that are “subject to the ITAR” (see 22 CFR parts 120 through 130).\nRelated Definition:\nN/A\nItems:",
+      "structure": {
+        "identifier": "1C353.e",
+        "heading": null,
+        "label": "1C353.e",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.</I></P>",
+            "text": "2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See USML Category XIV for modified biological agents and biologically derived substances that are “subject to the ITAR” (see 22 CFR parts 120 through 130)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definition:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "1C353 Genetic elements and genetically modified organisms, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C353"
+      ],
+      "text": "1C353.e\n2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\n(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See USML Category XIV for modified biological agents and biologically derived substances that are “subject to the ITAR” (see 22 CFR parts 120 through 130).\nRelated Definition:\nN/A\nItems:",
+      "structure": {
+        "identifier": "1C353.e",
+        "heading": null,
+        "label": "1C353.e",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.</I></P>",
+            "text": "2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See USML Category XIV for modified biological agents and biologically derived substances that are “subject to the ITAR” (see 22 CFR parts 120 through 130)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definition:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "1C353 Genetic elements and genetically modified organisms, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C353"
+      ],
+      "text": "1C353.e\n2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\n(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See USML Category XIV for modified biological agents and biologically derived substances that are “subject to the ITAR” (see 22 CFR parts 120 through 130).\nRelated Definition:\nN/A\nItems:",
+      "structure": {
+        "identifier": "1C353.e",
+        "heading": null,
+        "label": "1C353.e",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.</I></P>",
+            "text": "2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See USML Category XIV for modified biological agents and biologically derived substances that are “subject to the ITAR” (see 22 CFR parts 120 through 130)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definition:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "1C353 Genetic elements and genetically modified organisms, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C353"
+      ],
+      "text": "1C353.e\n2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\n(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See USML Category XIV for modified biological agents and biologically derived substances that are “subject to the ITAR” (see 22 CFR parts 120 through 130).\nRelated Definition:\nN/A\nItems:",
+      "structure": {
+        "identifier": "1C353.e",
+        "heading": null,
+        "label": "1C353.e",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.</I>\n</P>",
+            "text": "2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See USML Category XIV for modified biological agents and biologically derived substances that are “subject to the ITAR” (see 22 CFR parts 120 through 130)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definition:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": null,
+      "title": null,
+      "category": "1",
+      "group": "1C",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "B. “Test”, “Inspection” and “Production Equipment”",
+        "1C353 Genetic elements and genetically modified organisms, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "1C353"
+      ],
+      "text": "1C353.e\n2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nLVS:\nN/A\nGBS:\nN/A\nList of Items Controlled\nRelated Controls:\n(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See USML Category XIV for modified biological agents and biologically derived substances that are “subject to the ITAR” (see 22 CFR parts 120 through 130).\nRelated Definition:\nN/A\nItems:",
+      "structure": {
+        "identifier": "1C353.e",
+        "heading": null,
+        "label": "1C353.e",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P><I>2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.</I>\n</P>",
+            "text": "2. Unless specified elsewhere in this ECCN 1C353, 1C353.e.g., in License Requirement Note 1), this ECCN controls genetic elements or genetically modified organisms for all biological agents and “toxins,” regardless of quantity or attenuation, that are identified in the List of Items Controlled for this ECCN, including genetic elements or genetically modified organisms for attenuated strains of select biological agents or “toxins” that are excluded from the lists of select biological agents or “toxins” by the Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, or the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, in accordance with the APHIS regulations in 7 CFR part 331 and 9 CFR part 121 and the CDC regulations in 42 CFR part 73.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "LVS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "GBS:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) The Animal and Plant Health Inspection Service (APHIS), U.S. Department of Agriculture, and the Centers for Disease Control and Prevention (CDC), U.S. Department of Health and Human Services, maintain controls on the possession, use, and transfer within the United States of certain items controlled by this ECCN, including (but not limited to) certain genetic elements, recombinant nucleic acids, and recombinant organisms associated with the agents or toxins in ECCN 1C351 or 1C354 (for APHIS, see 7 CFR 331.3(c), 9 CFR 121.3(c), and 9 CFR 121.4(c); for CDC, see 42 CFR 73.3(c) and 42 CFR 73.4(c)). (2) See USML Category XIV for modified biological agents and biologically derived substances that are “subject to the ITAR” (see 22 CFR parts 120 through 130)."
+          },
+          {
+            "type": "text",
+            "text": "Related Definition:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}

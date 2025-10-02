@@ -1,0 +1,2295 @@
+{
+  "eccn": "6D993.c",
+  "normalized": "6D993.C",
+  "history": [
+    {
+      "version": "2017-01-15",
+      "fetchedAt": "2025-10-02T20:33:28.357Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-01-15/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-07-07",
+      "fetchedAt": "2025-10-02T20:33:28.904Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-07-07/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-08-15",
+      "fetchedAt": "2025-10-02T20:33:29.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-08-15/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "Radar",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2017-12-27",
+      "fetchedAt": "2025-10-02T20:33:29.759Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2017-12-27/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "Optics",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-01-08",
+      "fetchedAt": "2025-10-02T20:33:30.194Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-01-08/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "Optics",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-04-02",
+      "fetchedAt": "2025-10-02T20:33:30.716Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-02/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "Optics",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-04-05",
+      "fetchedAt": "2025-10-02T20:33:31.145Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-04-05/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "Optics",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-08-30",
+      "fetchedAt": "2025-10-02T20:33:31.567Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-08-30/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "Optics",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-10-24",
+      "fetchedAt": "2025-10-02T20:33:31.990Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-10-24/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "Optics",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-11-02",
+      "fetchedAt": "2025-10-02T20:33:32.381Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-11-02/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "Reporting Requirements",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2018-12-20",
+      "fetchedAt": "2025-10-02T20:33:32.762Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2018-12-20/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2019-05-23",
+      "fetchedAt": "2025-10-02T20:33:33.148Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2019-05-23/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-01-06",
+      "fetchedAt": "2025-10-02T20:33:33.561Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-01-06/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-03-09",
+      "fetchedAt": "2025-10-02T20:33:33.960Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-03-09/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-06-17",
+      "fetchedAt": "2025-10-02T20:33:34.354Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-06-17/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-06-29",
+      "fetchedAt": "2025-10-02T20:33:34.750Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-06-29/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-09-11",
+      "fetchedAt": "2025-10-02T20:33:35.161Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-09-11/title-15?format=xml",
+      "heading": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to “technology” for items controlled by 6A001 to 6A008, 6B002 to 6B008, 6C002 to 6C005, or 6D001 to 6D003NS Column 1 MT applies to “technology” for items controlled by 6A002, 6A007, 6A008, 6A102, 6A107, 6A108, 6B008, 6B108, 6D001, 6D002, 6D102 or 6D103 for MT reasonsMT Column 1 NP applies to “technology” for items controlled by 6A003, 6A005, 6A202, 6A203, 6A205, 6A225, 6A226, 6D001, or 6D201 for NP reasonsNP Column 1 RS applies to “technology” for items controlled by 6A002.a.1, 6A002.a.2, 6A002.a.3, 6A002.c, 6A002.f, 6A003.b.3, 6A003.b.4, or 6A008.j.1RS Column 1 CC applies to “technology” for equipment controlled by 6A002 for CC reasonsCC Column 1 AT applies to entire entryAT Column 1 UN applies to “technology” for equipment controlled by 6A002 or 6A003 for UN reasonsSee § 746.1(b) for UN controls",
+      "title": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to “technology” for items controlled by 6A001 to 6A008, 6B002 to 6B008, 6C002 to 6C005, or 6D001 to 6D003NS Column 1 MT applies to “technology” for items controlled by 6A002, 6A007, 6A008, 6A102, 6A107, 6A108, 6B008, 6B108, 6D001, 6D002, 6D102 or 6D103 for MT reasonsMT Column 1 NP applies to “technology” for items controlled by 6A003, 6A005, 6A202, 6A203, 6A205, 6A225, 6A226, 6D001, or 6D201 for NP reasonsNP Column 1 RS applies to “technology” for items controlled by 6A002.a.1, 6A002.a.2, 6A002.a.3, 6A002.c, 6A002.f, 6A003.b.3, 6A003.b.4, or 6A008.j.1RS Column 1 CC applies to “technology” for equipment controlled by 6A002 for CC reasonsCC Column 1 AT applies to entire entryAT Column 1 UN applies to “technology” for equipment controlled by 6A002 or 6A003 for UN reasonsSee § 746.1(b) for UN controls",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to “technology” for items controlled by 6A001 to 6A008, 6B002 to 6B008, 6C002 to 6C005, or 6D001 to 6D003NS Column 1 MT applies to “technology” for items controlled by 6A002, 6A007, 6A008, 6A102, 6A107, 6A108, 6B008, 6B108, 6D001, 6D002, 6D102 or 6D103 for MT reasonsMT Column 1 NP applies to “technology” for items controlled by 6A003, 6A005, 6A202, 6A203, 6A205, 6A225, 6A226, 6D001, or 6D201 for NP reasonsNP Column 1 RS applies to “technology” for items controlled by 6A002.a.1, 6A002.a.2, 6A002.a.3, 6A002.c, 6A002.f, 6A003.b.3, 6A003.b.4, or 6A008.j.1RS Column 1 CC applies to “technology” for equipment controlled by 6A002 for CC reasonsCC Column 1 AT applies to entire entryAT Column 1 UN applies to “technology” for equipment controlled by 6A002 or 6A003 for UN reasonsSee § 746.1(b) for UN controls\nc. “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.\nLicense Requirements\nReason for Control:\nNS, MT, NP, RS, CC, AT, UN\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nNS applies to “technology” for items controlled by 6A001 to 6A008, 6B002 to 6B008, 6C002 to 6C005, or 6D001 to 6D003\nNS Column 1\nMT applies to “technology” for items controlled by 6A002, 6A007, 6A008, 6A102, 6A107, 6A108, 6B008, 6B108, 6D001, 6D002, 6D102 or 6D103 for MT reasons\nMT Column 1\nNP applies to “technology” for items controlled by 6A003, 6A005, 6A202, 6A203, 6A205, 6A225, 6A226, 6D001, or 6D201 for NP reasons\nNP Column 1\nRS applies to “technology” for items controlled by 6A002.a.1, .a.2, .a.3, .c, or .f, 6A003.b.3 or .b.4, or 6A008.j.1\nRS Column 1\nCC applies to “technology” for equipment controlled by 6A002 for CC reasons\nCC Column 1\nAT applies to entire entry\nAT Column 1\nUN applies to “technology” for equipment controlled by 6A002 or 6A003 for UN reasons\nSee § 746.1(b) for UN controls\nReporting Requirements\nSee § 743.1 of the EAR for reporting requirements for exports under License Exceptions, and Validated End-User authorizations.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nTSR:\nYes, except for the following: (1) Items controlled for MT reasons; (2) “Technology” for commodities controlled by 6A002, 6A004.e or 6A008.j.1; (3) “Technology” for 6A003 cameras, unless for “technology” for the integration of 6A003 cameras into camera systems “specially designed” for civil automotive applications; (4) “Technology” for “software” “specially designed” for “space qualified” “laser” radar or Light Detection and Ranging (LIDAR) equipment defined in 6A008.j.1 and controlled by 6D001 or 6D002; or (5) Exports or reexports to destinations outside of those countries listed in Country Group A:5 (See Supplement No. 1 to part 740 of the EAR) of “technology” for the “development” of the following: (a) Items controlled by 6A001.a.1.b, 6A001.a.1.e, 6A001.a.2.a.1, 6A001.a.2.a.2, 6A001.a.2.a.3, 6A001.a.2.a.5, 6A001.a.2.a.6, 6A001.a.2.b, 6A001.a.2.d, 6A001.a.2.e., 6A004.c, 6A004.d, 6A006.a.2, 6A006.c.1, 6A006.d, 6A006.e, 6A008.d, 6A008.h, 6A008.k, 6B008, or 6D003.a; (b) Equipment controlled by 6A001.a.2.c or 6A001.a.2.f when “specially designed” for real time applications; or (c) “Software” controlled by 6D001 and “specially designed” for the “development” or “production” of equipment controlled by 6B008, or 6D003.a.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship or transmit any technology in this entry to any of the destinations listed in Country Group A:6 (See Supplement No.1 to part 740 of the EAR).\nList of Items Controlled\nRelated Controls:\n(1) Technical data directly related to satellites and all other items described in USML Category XV are subject to the ITAR under USML Category XV(f). (2) Technical data directly related to laser systems, infrared imaging systems, and all other items described in USML Category XII are subject to the ITAR under USML Category XII(f). (3) Technical data directly related to read-out integrated circuits described in USML Categories XII(e) or XV(e)(3) is subject to the ITAR under USML Categories XII(f) or XV(f), respectively. (4) See also 6E101, 6E201, and 6E991.\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to “technology” for items controlled by 6A001 to 6A008, 6B002 to 6B008, 6C002 to 6C005, or 6D001 to 6D003NS Column 1 MT applies to “technology” for items controlled by 6A002, 6A007, 6A008, 6A102, 6A107, 6A108, 6B008, 6B108, 6D001, 6D002, 6D102 or 6D103 for MT reasonsMT Column 1 NP applies to “technology” for items controlled by 6A003, 6A005, 6A202, 6A203, 6A205, 6A225, 6A226, 6D001, or 6D201 for NP reasonsNP Column 1 RS applies to “technology” for items controlled by 6A002.a.1, 6A002.a.2, 6A002.a.3, 6A002.c, 6A002.f, 6A003.b.3, 6A003.b.4, or 6A008.j.1RS Column 1 CC applies to “technology” for equipment controlled by 6A002 for CC reasonsCC Column 1 AT applies to entire entryAT Column 1 UN applies to “technology” for equipment controlled by 6A002 or 6A003 for UN reasonsSee § 746.1(b) for UN controls",
+        "label": "6D993.c – Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to “technology” for items controlled by 6A001 to 6A008, 6B002 to 6B008, 6C002 to 6C005, or 6D001 to 6D003NS Column 1 MT applies to “technology” for items controlled by 6A002, 6A007, 6A008, 6A102, 6A107, 6A108, 6B008, 6B108, 6D001, 6D002, 6D102 or 6D103 for MT reasonsMT Column 1 NP applies to “technology” for items controlled by 6A003, 6A005, 6A202, 6A203, 6A205, 6A225, 6A226, 6D001, or 6D201 for NP reasonsNP Column 1 RS applies to “technology” for items controlled by 6A002.a.1, 6A002.a.2, 6A002.a.3, 6A002.c, 6A002.f, 6A003.b.3, 6A003.b.4, or 6A008.j.1RS Column 1 CC applies to “technology” for equipment controlled by 6A002 for CC reasonsCC Column 1 AT applies to entire entryAT Column 1 UN applies to “technology” for equipment controlled by 6A002 or 6A003 for UN reasonsSee § 746.1(b) for UN controls",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>c. “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.</P>",
+            "text": "c. “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, MT, NP, RS, CC, AT, UN"
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to “technology” for items controlled by 6A001 to 6A008, 6B002 to 6B008, 6C002 to 6C005, or 6D001 to 6D003"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 1"
+          },
+          {
+            "type": "text",
+            "text": "MT applies to “technology” for items controlled by 6A002, 6A007, 6A008, 6A102, 6A107, 6A108, 6B008, 6B108, 6D001, 6D002, 6D102 or 6D103 for MT reasons"
+          },
+          {
+            "type": "text",
+            "text": "MT Column 1"
+          },
+          {
+            "type": "text",
+            "text": "NP applies to “technology” for items controlled by 6A003, 6A005, 6A202, 6A203, 6A205, 6A225, 6A226, 6D001, or 6D201 for NP reasons"
+          },
+          {
+            "type": "text",
+            "text": "NP Column 1"
+          },
+          {
+            "type": "text",
+            "text": "RS applies to “technology” for items controlled by 6A002.a.1, .a.2, .a.3, .c, or .f, 6A003.b.3 or .b.4, or 6A008.j.1"
+          },
+          {
+            "type": "text",
+            "text": "RS Column 1"
+          },
+          {
+            "type": "text",
+            "text": "CC applies to “technology” for equipment controlled by 6A002 for CC reasons"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 1"
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1"
+          },
+          {
+            "type": "text",
+            "text": "UN applies to “technology” for equipment controlled by 6A002 or 6A003 for UN reasons"
+          },
+          {
+            "type": "text",
+            "text": "See § 746.1(b) for UN controls"
+          },
+          {
+            "type": "text",
+            "text": "Reporting Requirements"
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>See § 743.1 of the EAR for reporting requirements for exports under License Exceptions, and Validated End-User authorizations.</P>",
+            "text": "See § 743.1 of the EAR for reporting requirements for exports under License Exceptions, and Validated End-User authorizations.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, except for the following: (1) Items controlled for MT reasons; (2) “Technology” for commodities controlled by 6A002, 6A004.e or 6A008.j.1; (3) “Technology” for 6A003 cameras, unless for “technology” for the integration of 6A003 cameras into camera systems “specially designed” for civil automotive applications; (4) “Technology” for “software” “specially designed” for “space qualified” “laser” radar or Light Detection and Ranging (LIDAR) equipment defined in 6A008.j.1 and controlled by 6D001 or 6D002; or (5) Exports or reexports to destinations outside of those countries listed in Country Group A:5 (See Supplement No. 1 to part 740 of the EAR) of “technology” for the “development” of the following: (a) Items controlled by 6A001.a.1.b, 6A001.a.1.e, 6A001.a.2.a.1, 6A001.a.2.a.2, 6A001.a.2.a.3, 6A001.a.2.a.5, 6A001.a.2.a.6, 6A001.a.2.b, 6A001.a.2.d, 6A001.a.2.e., 6A004.c, 6A004.d, 6A006.a.2, 6A006.c.1, 6A006.d, 6A006.e, 6A008.d, 6A008.h, 6A008.k, 6B008, or 6D003.a; (b) Equipment controlled by 6A001.a.2.c or 6A001.a.2.f when “specially designed” for real time applications; or (c) “Software” controlled by 6D001 and “specially designed” for the “development” or “production” of equipment controlled by 6B008, or 6D003.a."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship or transmit any technology in this entry to any of the destinations listed in Country Group A:6 (See Supplement No.1 to part 740 of the EAR)."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) Technical data directly related to satellites and all other items described in USML Category XV are subject to the ITAR under USML Category XV(f). (2) Technical data directly related to laser systems, infrared imaging systems, and all other items described in USML Category XII are subject to the ITAR under USML Category XII(f). (3) Technical data directly related to read-out integrated circuits described in USML Categories XII(e) or XV(e)(3) is subject to the ITAR under USML Categories XII(f) or XV(f), respectively. (4) See also 6E101, 6E201, and 6E991."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>The list of items controlled is contained in the ECCN heading.</P>",
+            "text": "The list of items controlled is contained in the ECCN heading.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-10-05",
+      "fetchedAt": "2025-10-02T20:33:35.641Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-10-05/title-15?format=xml",
+      "heading": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to “technology” for items controlled by 6A001 to 6A008, 6B002 to 6B008, 6C002 to 6C005, or 6D001 to 6D003NS Column 1 MT applies to “technology” for items controlled by 6A002, 6A007, 6A008, 6A102, 6A107, 6A108, 6B008, 6B108, 6D001, 6D002, 6D102 or 6D103 for MT reasonsMT Column 1 NP applies to “technology” for items controlled by 6A003, 6A005, 6A202, 6A203, 6A205, 6A225, 6A226, 6D001, or 6D201 for NP reasonsNP Column 1 RS applies to “technology” for items controlled by 6A002.a.1, 6A002.a.2, 6A002.a.3, 6A002.c, 6A002.f, 6A003.b.3, 6A003.b.4, or 6A008.j.1RS Column 1 CC applies to “technology” for equipment controlled by 6A002 for CC reasonsCC Column 1 AT applies to entire entryAT Column 1 UN applies to “technology” for equipment controlled by 6A002 or 6A003 for UN reasonsSee § 746.1(b) for UN controls",
+      "title": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to “technology” for items controlled by 6A001 to 6A008, 6B002 to 6B008, 6C002 to 6C005, or 6D001 to 6D003NS Column 1 MT applies to “technology” for items controlled by 6A002, 6A007, 6A008, 6A102, 6A107, 6A108, 6B008, 6B108, 6D001, 6D002, 6D102 or 6D103 for MT reasonsMT Column 1 NP applies to “technology” for items controlled by 6A003, 6A005, 6A202, 6A203, 6A205, 6A225, 6A226, 6D001, or 6D201 for NP reasonsNP Column 1 RS applies to “technology” for items controlled by 6A002.a.1, 6A002.a.2, 6A002.a.3, 6A002.c, 6A002.f, 6A003.b.3, 6A003.b.4, or 6A008.j.1RS Column 1 CC applies to “technology” for equipment controlled by 6A002 for CC reasonsCC Column 1 AT applies to entire entryAT Column 1 UN applies to “technology” for equipment controlled by 6A002 or 6A003 for UN reasonsSee § 746.1(b) for UN controls",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to “technology” for items controlled by 6A001 to 6A008, 6B002 to 6B008, 6C002 to 6C005, or 6D001 to 6D003NS Column 1 MT applies to “technology” for items controlled by 6A002, 6A007, 6A008, 6A102, 6A107, 6A108, 6B008, 6B108, 6D001, 6D002, 6D102 or 6D103 for MT reasonsMT Column 1 NP applies to “technology” for items controlled by 6A003, 6A005, 6A202, 6A203, 6A205, 6A225, 6A226, 6D001, or 6D201 for NP reasonsNP Column 1 RS applies to “technology” for items controlled by 6A002.a.1, 6A002.a.2, 6A002.a.3, 6A002.c, 6A002.f, 6A003.b.3, 6A003.b.4, or 6A008.j.1RS Column 1 CC applies to “technology” for equipment controlled by 6A002 for CC reasonsCC Column 1 AT applies to entire entryAT Column 1 UN applies to “technology” for equipment controlled by 6A002 or 6A003 for UN reasonsSee § 746.1(b) for UN controls\nc. “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.\nLicense Requirements\nReason for Control:\nNS, MT, NP, RS, CC, AT, UN\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nNS applies to “technology” for items controlled by 6A001 to 6A008, 6B002 to 6B008, 6C002 to 6C005, or 6D001 to 6D003\nNS Column 1\nMT applies to “technology” for items controlled by 6A002, 6A007, 6A008, 6A102, 6A107, 6A108, 6B008, 6B108, 6D001, 6D002, 6D102 or 6D103 for MT reasons\nMT Column 1\nNP applies to “technology” for items controlled by 6A003, 6A005, 6A202, 6A203, 6A205, 6A225, 6A226, 6D001, or 6D201 for NP reasons\nNP Column 1\nRS applies to “technology” for items controlled by 6A002.a.1, .a.2, .a.3, .c, or .f, 6A003.b.3 or .b.4, or 6A008.j.1\nRS Column 1\nCC applies to “technology” for equipment controlled by 6A002 for CC reasons\nCC Column 1\nAT applies to entire entry\nAT Column 1\nUN applies to “technology” for equipment controlled by 6A002 or 6A003 for UN reasons\nSee § 746.1(b) for UN controls\nReporting Requirements\nSee § 743.1 of the EAR for reporting requirements for exports under License Exceptions, and Validated End-User authorizations.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nTSR:\nYes, except for the following: (1) Items controlled for MT reasons; (2) “Technology” for commodities controlled by 6A002, 6A004.e or 6A008.j.1; (3) “Technology” for 6A003 cameras, unless for “technology” for the integration of 6A003 cameras into camera systems “specially designed” for civil automotive applications; (4) “Technology” for “software” “specially designed” for “space qualified” “laser” radar or Light Detection and Ranging (LIDAR) equipment defined in 6A008.j.1 and controlled by 6D001 or 6D002; or (5) Exports or reexports to destinations outside of those countries listed in Country Group A:5 (See Supplement No. 1 to part 740 of the EAR) of “technology” for the “development” of the following: (a) Items controlled by 6A001.a.1.b, 6A001.a.1.e, 6A001.a.2.a.1, 6A001.a.2.a.2, 6A001.a.2.a.3, 6A001.a.2.a.5, 6A001.a.2.a.6, 6A001.a.2.b, 6A001.a.2.d, 6A001.a.2.e., 6A004.c, 6A004.d, 6A006.a.2, 6A006.c.1, 6A006.d, 6A006.e, 6A008.d, 6A008.h, 6A008.k, 6B008, or 6D003.a; (b) Equipment controlled by 6A001.a.2.c or 6A001.a.2.f when “specially designed” for real time applications; or (c) “Software” controlled by 6D001 and “specially designed” for the “development” or “production” of equipment controlled by 6B008, or 6D003.a.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship or transmit any technology in this entry to any of the destinations listed in Country Group A:6 (See Supplement No.1 to part 740 of the EAR).\nList of Items Controlled\nRelated Controls:\n(1) Technical data directly related to satellites and all other items described in USML Category XV are subject to the ITAR under USML Category XV(f). (2) Technical data directly related to laser systems, infrared imaging systems, and all other items described in USML Category XII are subject to the ITAR under USML Category XII(f). (3) Technical data directly related to read-out integrated circuits described in USML Categories XII(e) or XV(e)(3) is subject to the ITAR under USML Categories XII(f) or XV(f), respectively. (4) See also 6E101, 6E201, and 6E991.\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to “technology” for items controlled by 6A001 to 6A008, 6B002 to 6B008, 6C002 to 6C005, or 6D001 to 6D003NS Column 1 MT applies to “technology” for items controlled by 6A002, 6A007, 6A008, 6A102, 6A107, 6A108, 6B008, 6B108, 6D001, 6D002, 6D102 or 6D103 for MT reasonsMT Column 1 NP applies to “technology” for items controlled by 6A003, 6A005, 6A202, 6A203, 6A205, 6A225, 6A226, 6D001, or 6D201 for NP reasonsNP Column 1 RS applies to “technology” for items controlled by 6A002.a.1, 6A002.a.2, 6A002.a.3, 6A002.c, 6A002.f, 6A003.b.3, 6A003.b.4, or 6A008.j.1RS Column 1 CC applies to “technology” for equipment controlled by 6A002 for CC reasonsCC Column 1 AT applies to entire entryAT Column 1 UN applies to “technology” for equipment controlled by 6A002 or 6A003 for UN reasonsSee § 746.1(b) for UN controls",
+        "label": "6D993.c – Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to “technology” for items controlled by 6A001 to 6A008, 6B002 to 6B008, 6C002 to 6C005, or 6D001 to 6D003NS Column 1 MT applies to “technology” for items controlled by 6A002, 6A007, 6A008, 6A102, 6A107, 6A108, 6B008, 6B108, 6D001, 6D002, 6D102 or 6D103 for MT reasonsMT Column 1 NP applies to “technology” for items controlled by 6A003, 6A005, 6A202, 6A203, 6A205, 6A225, 6A226, 6D001, or 6D201 for NP reasonsNP Column 1 RS applies to “technology” for items controlled by 6A002.a.1, 6A002.a.2, 6A002.a.3, 6A002.c, 6A002.f, 6A003.b.3, 6A003.b.4, or 6A008.j.1RS Column 1 CC applies to “technology” for equipment controlled by 6A002 for CC reasonsCC Column 1 AT applies to entire entryAT Column 1 UN applies to “technology” for equipment controlled by 6A002 or 6A003 for UN reasonsSee § 746.1(b) for UN controls",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>c. “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.</P>",
+            "text": "c. “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, MT, NP, RS, CC, AT, UN"
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to “technology” for items controlled by 6A001 to 6A008, 6B002 to 6B008, 6C002 to 6C005, or 6D001 to 6D003"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 1"
+          },
+          {
+            "type": "text",
+            "text": "MT applies to “technology” for items controlled by 6A002, 6A007, 6A008, 6A102, 6A107, 6A108, 6B008, 6B108, 6D001, 6D002, 6D102 or 6D103 for MT reasons"
+          },
+          {
+            "type": "text",
+            "text": "MT Column 1"
+          },
+          {
+            "type": "text",
+            "text": "NP applies to “technology” for items controlled by 6A003, 6A005, 6A202, 6A203, 6A205, 6A225, 6A226, 6D001, or 6D201 for NP reasons"
+          },
+          {
+            "type": "text",
+            "text": "NP Column 1"
+          },
+          {
+            "type": "text",
+            "text": "RS applies to “technology” for items controlled by 6A002.a.1, .a.2, .a.3, .c, or .f, 6A003.b.3 or .b.4, or 6A008.j.1"
+          },
+          {
+            "type": "text",
+            "text": "RS Column 1"
+          },
+          {
+            "type": "text",
+            "text": "CC applies to “technology” for equipment controlled by 6A002 for CC reasons"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 1"
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1"
+          },
+          {
+            "type": "text",
+            "text": "UN applies to “technology” for equipment controlled by 6A002 or 6A003 for UN reasons"
+          },
+          {
+            "type": "text",
+            "text": "See § 746.1(b) for UN controls"
+          },
+          {
+            "type": "text",
+            "text": "Reporting Requirements"
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>See § 743.1 of the EAR for reporting requirements for exports under License Exceptions, and Validated End-User authorizations.</P>",
+            "text": "See § 743.1 of the EAR for reporting requirements for exports under License Exceptions, and Validated End-User authorizations.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, except for the following: (1) Items controlled for MT reasons; (2) “Technology” for commodities controlled by 6A002, 6A004.e or 6A008.j.1; (3) “Technology” for 6A003 cameras, unless for “technology” for the integration of 6A003 cameras into camera systems “specially designed” for civil automotive applications; (4) “Technology” for “software” “specially designed” for “space qualified” “laser” radar or Light Detection and Ranging (LIDAR) equipment defined in 6A008.j.1 and controlled by 6D001 or 6D002; or (5) Exports or reexports to destinations outside of those countries listed in Country Group A:5 (See Supplement No. 1 to part 740 of the EAR) of “technology” for the “development” of the following: (a) Items controlled by 6A001.a.1.b, 6A001.a.1.e, 6A001.a.2.a.1, 6A001.a.2.a.2, 6A001.a.2.a.3, 6A001.a.2.a.5, 6A001.a.2.a.6, 6A001.a.2.b, 6A001.a.2.d, 6A001.a.2.e., 6A004.c, 6A004.d, 6A006.a.2, 6A006.c.1, 6A006.d, 6A006.e, 6A008.d, 6A008.h, 6A008.k, 6B008, or 6D003.a; (b) Equipment controlled by 6A001.a.2.c or 6A001.a.2.f when “specially designed” for real time applications; or (c) “Software” controlled by 6D001 and “specially designed” for the “development” or “production” of equipment controlled by 6B008, or 6D003.a."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship or transmit any technology in this entry to any of the destinations listed in Country Group A:6 (See Supplement No.1 to part 740 of the EAR)."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) Technical data directly related to satellites and all other items described in USML Category XV are subject to the ITAR under USML Category XV(f). (2) Technical data directly related to laser systems, infrared imaging systems, and all other items described in USML Category XII are subject to the ITAR under USML Category XII(f). (3) Technical data directly related to read-out integrated circuits described in USML Categories XII(e) or XV(e)(3) is subject to the ITAR under USML Categories XII(f) or XV(f), respectively. (4) See also 6E101, 6E201, and 6E991."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>The list of items controlled is contained in the ECCN heading.</P>",
+            "text": "The list of items controlled is contained in the ECCN heading.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-10-06",
+      "fetchedAt": "2025-10-02T20:33:36.026Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-10-06/title-15?format=xml",
+      "heading": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to “technology” for items controlled by 6A001 to 6A008, 6B002 to 6B008, 6C002 to 6C005, or 6D001 to 6D003NS Column 1 MT applies to “technology” for items controlled by 6A002, 6A007, 6A008, 6A102, 6A107, 6A108, 6B008, 6B108, 6D001, 6D002, 6D102 or 6D103 for MT reasonsMT Column 1 NP applies to “technology” for items controlled by 6A003, 6A005, 6A202, 6A203, 6A205, 6A225, 6A226, 6D001, or 6D201 for NP reasonsNP Column 1 RS applies to “technology” for items controlled by 6A002.a.1, 6A002.a.2, 6A002.a.3, 6A002.c, 6A002.f, 6A003.b.3, 6A003.b.4, or 6A008.j.1RS Column 1 CC applies to “technology” for equipment controlled by 6A002 for CC reasonsCC Column 1 AT applies to entire entryAT Column 1 UN applies to “technology” for equipment controlled by 6A002 or 6A003 for UN reasonsSee § 746.1(b) for UN controls",
+      "title": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to “technology” for items controlled by 6A001 to 6A008, 6B002 to 6B008, 6C002 to 6C005, or 6D001 to 6D003NS Column 1 MT applies to “technology” for items controlled by 6A002, 6A007, 6A008, 6A102, 6A107, 6A108, 6B008, 6B108, 6D001, 6D002, 6D102 or 6D103 for MT reasonsMT Column 1 NP applies to “technology” for items controlled by 6A003, 6A005, 6A202, 6A203, 6A205, 6A225, 6A226, 6D001, or 6D201 for NP reasonsNP Column 1 RS applies to “technology” for items controlled by 6A002.a.1, 6A002.a.2, 6A002.a.3, 6A002.c, 6A002.f, 6A003.b.3, 6A003.b.4, or 6A008.j.1RS Column 1 CC applies to “technology” for equipment controlled by 6A002 for CC reasonsCC Column 1 AT applies to entire entryAT Column 1 UN applies to “technology” for equipment controlled by 6A002 or 6A003 for UN reasonsSee § 746.1(b) for UN controls",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to “technology” for items controlled by 6A001 to 6A008, 6B002 to 6B008, 6C002 to 6C005, or 6D001 to 6D003NS Column 1 MT applies to “technology” for items controlled by 6A002, 6A007, 6A008, 6A102, 6A107, 6A108, 6B008, 6B108, 6D001, 6D002, 6D102 or 6D103 for MT reasonsMT Column 1 NP applies to “technology” for items controlled by 6A003, 6A005, 6A202, 6A203, 6A205, 6A225, 6A226, 6D001, or 6D201 for NP reasonsNP Column 1 RS applies to “technology” for items controlled by 6A002.a.1, 6A002.a.2, 6A002.a.3, 6A002.c, 6A002.f, 6A003.b.3, 6A003.b.4, or 6A008.j.1RS Column 1 CC applies to “technology” for equipment controlled by 6A002 for CC reasonsCC Column 1 AT applies to entire entryAT Column 1 UN applies to “technology” for equipment controlled by 6A002 or 6A003 for UN reasonsSee § 746.1(b) for UN controls\nc. “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.\nLicense Requirements\nReason for Control:\nNS, MT, NP, RS, CC, AT, UN\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nNS applies to “technology” for items controlled by 6A001 to 6A008, 6B002 to 6B008, 6C002 to 6C005, or 6D001 to 6D003\nNS Column 1\nMT applies to “technology” for items controlled by 6A002, 6A007, 6A008, 6A102, 6A107, 6A108, 6B008, 6B108, 6D001, 6D002, 6D102 or 6D103 for MT reasons\nMT Column 1\nNP applies to “technology” for items controlled by 6A003, 6A005, 6A202, 6A203, 6A205, 6A225, 6A226, 6D001, or 6D201 for NP reasons\nNP Column 1\nRS applies to “technology” for items controlled by 6A002.a.1, .a.2, .a.3, .c, or .f, 6A003.b.3 or .b.4, or 6A008.j.1\nRS Column 1\nCC applies to “technology” for equipment controlled by 6A002 for CC reasons\nCC Column 1\nAT applies to entire entry\nAT Column 1\nUN applies to “technology” for equipment controlled by 6A002 or 6A003 for UN reasons\nSee § 746.1(b) for UN controls\nReporting Requirements\nSee § 743.1 of the EAR for reporting requirements for exports under License Exceptions, and Validated End-User authorizations.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nTSR:\nYes, except for the following: (1) Items controlled for MT reasons; (2) “Technology” for commodities controlled by 6A002, 6A004.e or 6A008.j.1; (3) “Technology” for 6A003 cameras, unless for “technology” for the integration of 6A003 cameras into camera systems “specially designed” for civil automotive applications; (4) “Technology” for “software” “specially designed” for “space qualified” “laser” radar or Light Detection and Ranging (LIDAR) equipment defined in 6A008.j.1 and controlled by 6D001 or 6D002; or (5) Exports or reexports to destinations outside of those countries listed in Country Group A:5 (See Supplement No. 1 to part 740 of the EAR) of “technology” for the “development” of the following: (a) Items controlled by 6A001.a.1.b, 6A001.a.1.e, 6A001.a.2.a.1, 6A001.a.2.a.2, 6A001.a.2.a.3, 6A001.a.2.a.5, 6A001.a.2.a.6, 6A001.a.2.b, 6A001.a.2.d, 6A001.a.2.e., 6A004.c, 6A004.d, 6A006.a.2, 6A006.c.1, 6A006.d, 6A006.e, 6A008.d, 6A008.h, 6A008.k, 6B008, or 6D003.a; (b) Equipment controlled by 6A001.a.2.c or 6A001.a.2.f when “specially designed” for real time applications; or (c) “Software” controlled by 6D001 and “specially designed” for the “development” or “production” of equipment controlled by 6B008, or 6D003.a.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship or transmit any technology in this entry to any of the destinations listed in Country Group A:6 (See Supplement No.1 to part 740 of the EAR).\nList of Items Controlled\nRelated Controls:\n(1) Technical data directly related to satellites and all other items described in USML Category XV are subject to the ITAR under USML Category XV(f). (2) Technical data directly related to laser systems, infrared imaging systems, and all other items described in USML Category XII are subject to the ITAR under USML Category XII(f). (3) Technical data directly related to read-out integrated circuits described in USML Categories XII(e) or XV(e)(3) is subject to the ITAR under USML Categories XII(f) or XV(f), respectively. (4) See also 6E101, 6E201, and 6E991.\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to “technology” for items controlled by 6A001 to 6A008, 6B002 to 6B008, 6C002 to 6C005, or 6D001 to 6D003NS Column 1 MT applies to “technology” for items controlled by 6A002, 6A007, 6A008, 6A102, 6A107, 6A108, 6B008, 6B108, 6D001, 6D002, 6D102 or 6D103 for MT reasonsMT Column 1 NP applies to “technology” for items controlled by 6A003, 6A005, 6A202, 6A203, 6A205, 6A225, 6A226, 6D001, or 6D201 for NP reasonsNP Column 1 RS applies to “technology” for items controlled by 6A002.a.1, 6A002.a.2, 6A002.a.3, 6A002.c, 6A002.f, 6A003.b.3, 6A003.b.4, or 6A008.j.1RS Column 1 CC applies to “technology” for equipment controlled by 6A002 for CC reasonsCC Column 1 AT applies to entire entryAT Column 1 UN applies to “technology” for equipment controlled by 6A002 or 6A003 for UN reasonsSee § 746.1(b) for UN controls",
+        "label": "6D993.c – Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to “technology” for items controlled by 6A001 to 6A008, 6B002 to 6B008, 6C002 to 6C005, or 6D001 to 6D003NS Column 1 MT applies to “technology” for items controlled by 6A002, 6A007, 6A008, 6A102, 6A107, 6A108, 6B008, 6B108, 6D001, 6D002, 6D102 or 6D103 for MT reasonsMT Column 1 NP applies to “technology” for items controlled by 6A003, 6A005, 6A202, 6A203, 6A205, 6A225, 6A226, 6D001, or 6D201 for NP reasonsNP Column 1 RS applies to “technology” for items controlled by 6A002.a.1, 6A002.a.2, 6A002.a.3, 6A002.c, 6A002.f, 6A003.b.3, 6A003.b.4, or 6A008.j.1RS Column 1 CC applies to “technology” for equipment controlled by 6A002 for CC reasonsCC Column 1 AT applies to entire entryAT Column 1 UN applies to “technology” for equipment controlled by 6A002 or 6A003 for UN reasonsSee § 746.1(b) for UN controls",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>c. “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.</P>",
+            "text": "c. “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, MT, NP, RS, CC, AT, UN"
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to “technology” for items controlled by 6A001 to 6A008, 6B002 to 6B008, 6C002 to 6C005, or 6D001 to 6D003"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 1"
+          },
+          {
+            "type": "text",
+            "text": "MT applies to “technology” for items controlled by 6A002, 6A007, 6A008, 6A102, 6A107, 6A108, 6B008, 6B108, 6D001, 6D002, 6D102 or 6D103 for MT reasons"
+          },
+          {
+            "type": "text",
+            "text": "MT Column 1"
+          },
+          {
+            "type": "text",
+            "text": "NP applies to “technology” for items controlled by 6A003, 6A005, 6A202, 6A203, 6A205, 6A225, 6A226, 6D001, or 6D201 for NP reasons"
+          },
+          {
+            "type": "text",
+            "text": "NP Column 1"
+          },
+          {
+            "type": "text",
+            "text": "RS applies to “technology” for items controlled by 6A002.a.1, .a.2, .a.3, .c, or .f, 6A003.b.3 or .b.4, or 6A008.j.1"
+          },
+          {
+            "type": "text",
+            "text": "RS Column 1"
+          },
+          {
+            "type": "text",
+            "text": "CC applies to “technology” for equipment controlled by 6A002 for CC reasons"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 1"
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1"
+          },
+          {
+            "type": "text",
+            "text": "UN applies to “technology” for equipment controlled by 6A002 or 6A003 for UN reasons"
+          },
+          {
+            "type": "text",
+            "text": "See § 746.1(b) for UN controls"
+          },
+          {
+            "type": "text",
+            "text": "Reporting Requirements"
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>See § 743.1 of the EAR for reporting requirements for exports under License Exceptions, and Validated End-User authorizations.</P>",
+            "text": "See § 743.1 of the EAR for reporting requirements for exports under License Exceptions, and Validated End-User authorizations.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, except for the following: (1) Items controlled for MT reasons; (2) “Technology” for commodities controlled by 6A002, 6A004.e or 6A008.j.1; (3) “Technology” for 6A003 cameras, unless for “technology” for the integration of 6A003 cameras into camera systems “specially designed” for civil automotive applications; (4) “Technology” for “software” “specially designed” for “space qualified” “laser” radar or Light Detection and Ranging (LIDAR) equipment defined in 6A008.j.1 and controlled by 6D001 or 6D002; or (5) Exports or reexports to destinations outside of those countries listed in Country Group A:5 (See Supplement No. 1 to part 740 of the EAR) of “technology” for the “development” of the following: (a) Items controlled by 6A001.a.1.b, 6A001.a.1.e, 6A001.a.2.a.1, 6A001.a.2.a.2, 6A001.a.2.a.3, 6A001.a.2.a.5, 6A001.a.2.a.6, 6A001.a.2.b, 6A001.a.2.d, 6A001.a.2.e., 6A004.c, 6A004.d, 6A006.a.2, 6A006.c.1, 6A006.d, 6A006.e, 6A008.d, 6A008.h, 6A008.k, 6B008, or 6D003.a; (b) Equipment controlled by 6A001.a.2.c or 6A001.a.2.f when “specially designed” for real time applications; or (c) “Software” controlled by 6D001 and “specially designed” for the “development” or “production” of equipment controlled by 6B008, or 6D003.a."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship or transmit any technology in this entry to any of the destinations listed in Country Group A:6 (See Supplement No.1 to part 740 of the EAR)."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) Technical data directly related to satellites and all other items described in USML Category XV are subject to the ITAR under USML Category XV(f). (2) Technical data directly related to laser systems, infrared imaging systems, and all other items described in USML Category XII are subject to the ITAR under USML Category XII(f). (3) Technical data directly related to read-out integrated circuits described in USML Categories XII(e) or XV(e)(3) is subject to the ITAR under USML Categories XII(f) or XV(f), respectively. (4) See also 6E101, 6E201, and 6E991."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>The list of items controlled is contained in the ECCN heading.</P>",
+            "text": "The list of items controlled is contained in the ECCN heading.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2020-12-04",
+      "fetchedAt": "2025-10-02T20:33:36.431Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2020-12-04/title-15?format=xml",
+      "heading": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to “technology” for items controlled by 6A001 to 6A008, 6B002 to 6B008, 6C002 to 6C005, or 6D001 to 6D003NS Column 1 MT applies to “technology” for items controlled by 6A002, 6A007, 6A008, 6A102, 6A107, 6A108, 6B008, 6B108, 6D001, 6D002, 6D102 or 6D103 for MT reasonsMT Column 1 NP applies to “technology” for items controlled by 6A003, 6A005, 6A202, 6A203, 6A205, 6A225, 6A226, 6D001, or 6D201 for NP reasonsNP Column 1 RS applies to “technology” for items controlled by 6A002.a.1, 6A002.a.2, 6A002.a.3, 6A002.c, 6A002.f, 6A003.b.3, 6A003.b.4, or 6A008.j.1RS Column 1 CC applies to “technology” for equipment controlled by 6A002 for CC reasonsCC Column 1 AT applies to entire entryAT Column 1 UN applies to “technology” for equipment controlled by 6A002 or 6A003 for UN reasonsSee § 746.1(b) for UN controls",
+      "title": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to “technology” for items controlled by 6A001 to 6A008, 6B002 to 6B008, 6C002 to 6C005, or 6D001 to 6D003NS Column 1 MT applies to “technology” for items controlled by 6A002, 6A007, 6A008, 6A102, 6A107, 6A108, 6B008, 6B108, 6D001, 6D002, 6D102 or 6D103 for MT reasonsMT Column 1 NP applies to “technology” for items controlled by 6A003, 6A005, 6A202, 6A203, 6A205, 6A225, 6A226, 6D001, or 6D201 for NP reasonsNP Column 1 RS applies to “technology” for items controlled by 6A002.a.1, 6A002.a.2, 6A002.a.3, 6A002.c, 6A002.f, 6A003.b.3, 6A003.b.4, or 6A008.j.1RS Column 1 CC applies to “technology” for equipment controlled by 6A002 for CC reasonsCC Column 1 AT applies to entire entryAT Column 1 UN applies to “technology” for equipment controlled by 6A002 or 6A003 for UN reasonsSee § 746.1(b) for UN controls",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to “technology” for items controlled by 6A001 to 6A008, 6B002 to 6B008, 6C002 to 6C005, or 6D001 to 6D003NS Column 1 MT applies to “technology” for items controlled by 6A002, 6A007, 6A008, 6A102, 6A107, 6A108, 6B008, 6B108, 6D001, 6D002, 6D102 or 6D103 for MT reasonsMT Column 1 NP applies to “technology” for items controlled by 6A003, 6A005, 6A202, 6A203, 6A205, 6A225, 6A226, 6D001, or 6D201 for NP reasonsNP Column 1 RS applies to “technology” for items controlled by 6A002.a.1, 6A002.a.2, 6A002.a.3, 6A002.c, 6A002.f, 6A003.b.3, 6A003.b.4, or 6A008.j.1RS Column 1 CC applies to “technology” for equipment controlled by 6A002 for CC reasonsCC Column 1 AT applies to entire entryAT Column 1 UN applies to “technology” for equipment controlled by 6A002 or 6A003 for UN reasonsSee § 746.1(b) for UN controls\nc. “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.\nLicense Requirements\nReason for Control:\nNS, MT, NP, RS, CC, AT, UN\nControl(s)\nCountry chart\n(see Supp. No. 1\nto part 738)\nNS applies to “technology” for items controlled by 6A001 to 6A008, 6B002 to 6B008, 6C002 to 6C005, or 6D001 to 6D003\nNS Column 1\nMT applies to “technology” for items controlled by 6A002, 6A007, 6A008, 6A102, 6A107, 6A108, 6B008, 6B108, 6D001, 6D002, 6D102 or 6D103 for MT reasons\nMT Column 1\nNP applies to “technology” for items controlled by 6A003, 6A005, 6A202, 6A203, 6A205, 6A225, 6A226, 6D001, or 6D201 for NP reasons\nNP Column 1\nRS applies to “technology” for items controlled by 6A002.a.1, .a.2, .a.3, .c, or .f, 6A003.b.3 or .b.4, or 6A008.j.1\nRS Column 1\nCC applies to “technology” for equipment controlled by 6A002 for CC reasons\nCC Column 1\nAT applies to entire entry\nAT Column 1\nUN applies to “technology” for equipment controlled by 6A002 or 6A003 for UN reasons\nSee § 746.1(b) for UN controls\nReporting Requirements\nSee § 743.1 of the EAR for reporting requirements for exports under License Exceptions, and Validated End-User authorizations.\nList Based License Exceptions (See Part 740 for a Description of All License Exceptions)\nTSR:\nYes, except for the following: (1) Items controlled for MT reasons; (2) “Technology” for commodities controlled by 6A002, 6A004.e or 6A008.j.1; (3) “Technology” for 6A003 cameras, unless for “technology” for the integration of 6A003 cameras into camera systems “specially designed” for civil automotive applications; (4) “Technology” for “software” “specially designed” for “space qualified” “laser” radar or Light Detection and Ranging (LIDAR) equipment defined in 6A008.j.1 and controlled by 6D001 or 6D002; or (5) Exports or reexports to destinations outside of those countries listed in Country Group A:5 (See Supplement No. 1 to part 740 of the EAR) of “technology” for the “development” of the following: (a) Items controlled by 6A001.a.1.b, 6A001.a.1.e, 6A001.a.2.a.1, 6A001.a.2.a.2, 6A001.a.2.a.3, 6A001.a.2.a.5, 6A001.a.2.a.6, 6A001.a.2.b, 6A001.a.2.d, 6A001.a.2.e., 6A004.c, 6A004.d, 6A006.a.2, 6A006.c.1, 6A006.d, 6A006.e, 6A008.d, 6A008.h, 6A008.k, 6B008, or 6D003.a; (b) Equipment controlled by 6A001.a.2.c or 6A001.a.2.f when “specially designed” for real time applications; or (c) “Software” controlled by 6D001 and “specially designed” for the “development” or “production” of equipment controlled by 6B008, or 6D003.a.\nSpecial Conditions for STA\nSTA:\nLicense Exception STA may not be used to ship or transmit any technology in this entry to any of the destinations listed in Country Group A:6 (See Supplement No.1 to part 740 of the EAR).\nList of Items Controlled\nRelated Controls:\n(1) Technical data directly related to satellites and all other items described in USML Category XV are subject to the ITAR under USML Category XV(f). (2) Technical data directly related to laser systems, infrared imaging systems, and all other items described in USML Category XII are subject to the ITAR under USML Category XII(f). (3) Technical data directly related to read-out integrated circuits described in USML Categories XII(e) or XV(e)(3) is subject to the ITAR under USML Categories XII(f) or XV(f), respectively. (4) See also 6E101, 6E201, and 6E991.\nRelated Definitions:\nN/A\nItems:\nThe list of items controlled is contained in the ECCN heading.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to “technology” for items controlled by 6A001 to 6A008, 6B002 to 6B008, 6C002 to 6C005, or 6D001 to 6D003NS Column 1 MT applies to “technology” for items controlled by 6A002, 6A007, 6A008, 6A102, 6A107, 6A108, 6B008, 6B108, 6D001, 6D002, 6D102 or 6D103 for MT reasonsMT Column 1 NP applies to “technology” for items controlled by 6A003, 6A005, 6A202, 6A203, 6A205, 6A225, 6A226, 6D001, or 6D201 for NP reasonsNP Column 1 RS applies to “technology” for items controlled by 6A002.a.1, 6A002.a.2, 6A002.a.3, 6A002.c, 6A002.f, 6A003.b.3, 6A003.b.4, or 6A008.j.1RS Column 1 CC applies to “technology” for equipment controlled by 6A002 for CC reasonsCC Column 1 AT applies to entire entryAT Column 1 UN applies to “technology” for equipment controlled by 6A002 or 6A003 for UN reasonsSee § 746.1(b) for UN controls",
+        "label": "6D993.c – Control(s) Country chart (see Supp. No. 1 to part 738) NS applies to “technology” for items controlled by 6A001 to 6A008, 6B002 to 6B008, 6C002 to 6C005, or 6D001 to 6D003NS Column 1 MT applies to “technology” for items controlled by 6A002, 6A007, 6A008, 6A102, 6A107, 6A108, 6B008, 6B108, 6D001, 6D002, 6D102 or 6D103 for MT reasonsMT Column 1 NP applies to “technology” for items controlled by 6A003, 6A005, 6A202, 6A203, 6A205, 6A225, 6A226, 6D001, or 6D201 for NP reasonsNP Column 1 RS applies to “technology” for items controlled by 6A002.a.1, 6A002.a.2, 6A002.a.3, 6A002.c, 6A002.f, 6A003.b.3, 6A003.b.4, or 6A008.j.1RS Column 1 CC applies to “technology” for equipment controlled by 6A002 for CC reasonsCC Column 1 AT applies to entire entryAT Column 1 UN applies to “technology” for equipment controlled by 6A002 or 6A003 for UN reasonsSee § 746.1(b) for UN controls",
+        "content": [
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>c. “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.</P>",
+            "text": "c. “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "License Requirements"
+          },
+          {
+            "type": "text",
+            "text": "Reason for Control:"
+          },
+          {
+            "type": "text",
+            "text": "NS, MT, NP, RS, CC, AT, UN"
+          },
+          {
+            "type": "text",
+            "text": "Control(s)"
+          },
+          {
+            "type": "text",
+            "text": "Country chart"
+          },
+          {
+            "type": "text",
+            "text": "(see Supp. No. 1"
+          },
+          {
+            "type": "text",
+            "text": "to part 738)"
+          },
+          {
+            "type": "text",
+            "text": "NS applies to “technology” for items controlled by 6A001 to 6A008, 6B002 to 6B008, 6C002 to 6C005, or 6D001 to 6D003"
+          },
+          {
+            "type": "text",
+            "text": "NS Column 1"
+          },
+          {
+            "type": "text",
+            "text": "MT applies to “technology” for items controlled by 6A002, 6A007, 6A008, 6A102, 6A107, 6A108, 6B008, 6B108, 6D001, 6D002, 6D102 or 6D103 for MT reasons"
+          },
+          {
+            "type": "text",
+            "text": "MT Column 1"
+          },
+          {
+            "type": "text",
+            "text": "NP applies to “technology” for items controlled by 6A003, 6A005, 6A202, 6A203, 6A205, 6A225, 6A226, 6D001, or 6D201 for NP reasons"
+          },
+          {
+            "type": "text",
+            "text": "NP Column 1"
+          },
+          {
+            "type": "text",
+            "text": "RS applies to “technology” for items controlled by 6A002.a.1, .a.2, .a.3, .c, or .f, 6A003.b.3 or .b.4, or 6A008.j.1"
+          },
+          {
+            "type": "text",
+            "text": "RS Column 1"
+          },
+          {
+            "type": "text",
+            "text": "CC applies to “technology” for equipment controlled by 6A002 for CC reasons"
+          },
+          {
+            "type": "text",
+            "text": "CC Column 1"
+          },
+          {
+            "type": "text",
+            "text": "AT applies to entire entry"
+          },
+          {
+            "type": "text",
+            "text": "AT Column 1"
+          },
+          {
+            "type": "text",
+            "text": "UN applies to “technology” for equipment controlled by 6A002 or 6A003 for UN reasons"
+          },
+          {
+            "type": "text",
+            "text": "See § 746.1(b) for UN controls"
+          },
+          {
+            "type": "text",
+            "text": "Reporting Requirements"
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>See § 743.1 of the EAR for reporting requirements for exports under License Exceptions, and Validated End-User authorizations.</P>",
+            "text": "See § 743.1 of the EAR for reporting requirements for exports under License Exceptions, and Validated End-User authorizations.",
+            "id": null
+          },
+          {
+            "type": "text",
+            "text": "List Based License Exceptions (See Part 740 for a Description of All License Exceptions)"
+          },
+          {
+            "type": "text",
+            "text": "TSR:"
+          },
+          {
+            "type": "text",
+            "text": "Yes, except for the following: (1) Items controlled for MT reasons; (2) “Technology” for commodities controlled by 6A002, 6A004.e or 6A008.j.1; (3) “Technology” for 6A003 cameras, unless for “technology” for the integration of 6A003 cameras into camera systems “specially designed” for civil automotive applications; (4) “Technology” for “software” “specially designed” for “space qualified” “laser” radar or Light Detection and Ranging (LIDAR) equipment defined in 6A008.j.1 and controlled by 6D001 or 6D002; or (5) Exports or reexports to destinations outside of those countries listed in Country Group A:5 (See Supplement No. 1 to part 740 of the EAR) of “technology” for the “development” of the following: (a) Items controlled by 6A001.a.1.b, 6A001.a.1.e, 6A001.a.2.a.1, 6A001.a.2.a.2, 6A001.a.2.a.3, 6A001.a.2.a.5, 6A001.a.2.a.6, 6A001.a.2.b, 6A001.a.2.d, 6A001.a.2.e., 6A004.c, 6A004.d, 6A006.a.2, 6A006.c.1, 6A006.d, 6A006.e, 6A008.d, 6A008.h, 6A008.k, 6B008, or 6D003.a; (b) Equipment controlled by 6A001.a.2.c or 6A001.a.2.f when “specially designed” for real time applications; or (c) “Software” controlled by 6D001 and “specially designed” for the “development” or “production” of equipment controlled by 6B008, or 6D003.a."
+          },
+          {
+            "type": "text",
+            "text": "Special Conditions for STA"
+          },
+          {
+            "type": "text",
+            "text": "STA:"
+          },
+          {
+            "type": "text",
+            "text": "License Exception STA may not be used to ship or transmit any technology in this entry to any of the destinations listed in Country Group A:6 (See Supplement No.1 to part 740 of the EAR)."
+          },
+          {
+            "type": "text",
+            "text": "List of Items Controlled"
+          },
+          {
+            "type": "text",
+            "text": "Related Controls:"
+          },
+          {
+            "type": "text",
+            "text": "(1) Technical data directly related to satellites and all other items described in USML Category XV are subject to the ITAR under USML Category XV(f). (2) Technical data directly related to laser systems, infrared imaging systems, and all other items described in USML Category XII are subject to the ITAR under USML Category XII(f). (3) Technical data directly related to read-out integrated circuits described in USML Categories XII(e) or XV(e)(3) is subject to the ITAR under USML Categories XII(f) or XV(f), respectively. (4) See also 6E101, 6E201, and 6E991."
+          },
+          {
+            "type": "text",
+            "text": "Related Definitions:"
+          },
+          {
+            "type": "text",
+            "text": "N/A"
+          },
+          {
+            "type": "text",
+            "text": "Items:"
+          },
+          {
+            "type": "html",
+            "tag": "P",
+            "html": "<P>The list of items controlled is contained in the ECCN heading.</P>",
+            "text": "The list of items controlled is contained in the ECCN heading.",
+            "id": null
+          }
+        ],
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2021-01-06",
+      "fetchedAt": "2025-10-02T20:33:36.829Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2021-01-06/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2021-01-07",
+      "fetchedAt": "2025-10-02T20:33:37.217Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2021-01-07/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2021-01-14",
+      "fetchedAt": "2025-10-02T20:33:37.609Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2021-01-14/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2021-03-29",
+      "fetchedAt": "2025-10-02T20:33:37.994Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2021-03-29/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2021-09-20",
+      "fetchedAt": "2025-10-02T20:33:38.383Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2021-09-20/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2021-10-05",
+      "fetchedAt": "2025-10-02T20:33:38.778Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2021-10-05/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2021-12-06",
+      "fetchedAt": "2025-10-02T20:33:39.172Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2021-12-06/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2022-01-06",
+      "fetchedAt": "2025-10-02T20:33:39.613Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2022-01-06/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2022-01-19",
+      "fetchedAt": "2025-10-02T20:33:40.017Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2022-01-19/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2022-02-03",
+      "fetchedAt": "2025-10-02T20:33:40.404Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2022-02-03/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2022-05-26",
+      "fetchedAt": "2025-10-02T20:33:40.828Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2022-05-26/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2022-08-15",
+      "fetchedAt": "2025-10-02T20:33:41.210Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2022-08-15/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2022-10-07",
+      "fetchedAt": "2025-10-02T20:33:41.595Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2022-10-07/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-01-17",
+      "fetchedAt": "2025-10-02T20:33:41.990Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-01-17/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-02-24",
+      "fetchedAt": "2025-10-02T20:33:42.390Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-02-24/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774 - The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "List of Items Controlled",
+        "Radar",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-08-18",
+      "fetchedAt": "2025-10-02T20:33:42.783Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-08-18/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "Radar",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-10-18",
+      "fetchedAt": "2025-10-02T20:33:43.173Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-10-18/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "Radar",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-11-17",
+      "fetchedAt": "2025-10-02T20:33:43.584Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-11-17/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "Radar",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2023-12-08",
+      "fetchedAt": "2025-10-02T20:33:43.980Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2023-12-08/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "Radar",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-03-08",
+      "fetchedAt": "2025-10-02T20:33:44.401Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-08/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "Radar",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-03-13",
+      "fetchedAt": "2025-10-02T20:33:44.826Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-03-13/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "Radar",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-04-04",
+      "fetchedAt": "2025-10-02T20:33:45.229Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-04/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "Radar",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-04-19",
+      "fetchedAt": "2025-10-02T20:33:45.630Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-04-19/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "Radar",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-05-30",
+      "fetchedAt": "2025-10-02T20:33:46.051Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-05-30/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "Radar",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-06-12",
+      "fetchedAt": "2025-10-02T20:33:46.460Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-06-12/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "Radar",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-09-06",
+      "fetchedAt": "2025-10-02T20:33:46.879Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-09-06/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "Radar",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-10-23",
+      "fetchedAt": "2025-10-02T20:33:47.324Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-10-23/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "Radar",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-02",
+      "fetchedAt": "2025-10-02T20:33:47.757Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-02/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "Radar",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-23",
+      "fetchedAt": "2025-10-02T20:33:48.203Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-23/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "Radar",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-26",
+      "fetchedAt": "2025-10-02T20:33:48.642Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-26/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "Radar",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2024-12-27",
+      "fetchedAt": "2025-10-02T20:33:49.100Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2024-12-27/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "Radar",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-13",
+      "fetchedAt": "2025-10-02T20:33:49.554Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-13/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "Radar",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-01-16",
+      "fetchedAt": "2025-10-02T20:33:49.999Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-01-16/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "Radar",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-02-11",
+      "fetchedAt": "2025-10-02T20:33:50.452Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-02-11/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "Radar",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-28",
+      "fetchedAt": "2025-10-02T20:33:50.918Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-28/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "Radar",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    },
+    {
+      "version": "2025-09-29",
+      "fetchedAt": "2025-10-02T20:33:51.399Z",
+      "sourceUrl": "https://www.ecfr.gov/api/versioner/v1/full/2025-09-29/title-15?format=xml",
+      "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "title": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "category": "6",
+      "group": "6D",
+      "supplement": {
+        "number": "1",
+        "heading": "Supplement No. 1 to Part 774—The Commerce Control List"
+      },
+      "breadcrumbs": [
+        "D. “Software”",
+        "Radar",
+        "6D993 Other “software,” not controlled by 6D003, as follows (see List of Items Controlled)."
+      ],
+      "ancestors": [
+        "6D993"
+      ],
+      "text": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+      "structure": {
+        "identifier": "6D993.c",
+        "heading": "“Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "label": "6D993.c – “Source Code” “specially designed” for seismic intrusion detection systems in 6A999.c.",
+        "isEccn": true,
+        "boundToParent": false,
+        "requireAllChildren": false
+      }
+    }
+  ]
+}
