@@ -365,6 +365,13 @@ async function runFederalRegisterRefresh() {
     return `${count} ${count === 1 ? singular : plural}`;
   };
 
+  const formatProgressPrefix = (index, total) => {
+    if (!total || total <= 0) {
+      return '';
+    }
+    return `[${index + 1}/${total}] `;
+  };
+
   try {
     const previousRegister = await readFederalRegisterDocuments();
     const previousMissingDates = new Set(
@@ -411,32 +418,37 @@ async function runFederalRegisterRefresh() {
       );
       return missingEffectiveDates;
     };
-    for (const date of sortedEffectiveDates) {
-      recordFederalRegisterProgress(`Checking raw XML cache for ${date}…`);
+    const totalEffectiveDates = sortedEffectiveDates.length;
+    for (let index = 0; index < totalEffectiveDates; index += 1) {
+      const date = sortedEffectiveDates[index];
+      const prefix = formatProgressPrefix(index, totalEffectiveDates);
+      recordFederalRegisterProgress(`${prefix}Checking raw XML cache for ${date}…`);
       const info = await getRawXmlInfo(date);
       if (info) {
-        recordFederalRegisterProgress(`Raw XML already cached for ${date}.`);
+        recordFederalRegisterProgress(`${prefix}Raw XML already cached for ${date}.`);
         missingEffectiveDateSet.delete(date);
         continue;
       }
 
       if (missingEffectiveDateSet.has(date)) {
         recordFederalRegisterProgress(
-          `Skipping raw XML download for ${date}; previously marked unavailable.`
+          `${prefix}Skipping raw XML download for ${date}; previously marked unavailable.`
         );
         continue;
       }
 
-      recordFederalRegisterProgress(`Downloading raw XML for ${date}…`);
+      recordFederalRegisterProgress(`${prefix}Downloading raw XML for ${date}…`);
       try {
         const { filePath } = await getRawXml(date, { forceDownload: true });
         rawDownloads.push({ date, filePath });
-        recordFederalRegisterProgress(`Stored raw XML for ${date} at ${filePath}.`);
+        recordFederalRegisterProgress(`${prefix}Stored raw XML for ${date} at ${filePath}.`);
       } catch (error) {
         if (isMissingEcfrContentError(error)) {
           const detail = extractMissingEcfrDetail(error);
           const suffix = detail ? ` (${detail})` : '';
-          recordFederalRegisterProgress(`No XML available from eCFR for ${date}${suffix}.`);
+          recordFederalRegisterProgress(
+            `${prefix}No XML available from eCFR for ${date}${suffix}.`
+          );
           missingEffectiveDateSet.add(date);
           await persistMissingEffectiveDates();
           continue;
@@ -451,15 +463,18 @@ async function runFederalRegisterRefresh() {
     if (rawDates.length === 0) {
       recordFederalRegisterProgress('No stored raw XML files available to parse.');
     }
-    for (const date of rawDates) {
-      recordFederalRegisterProgress(`Re-parsing ${date}…`);
+    const totalRawDates = rawDates.length;
+    for (let index = 0; index < totalRawDates; index += 1) {
+      const date = rawDates[index];
+      const prefix = formatProgressPrefix(index, totalRawDates);
+      recordFederalRegisterProgress(`${prefix}Re-parsing ${date}…`);
       try {
         const dataset = await loadVersion(date, { forceParse: true });
         processedDates.push({ date, fetchedAt: dataset.fetchedAt });
-        recordFederalRegisterProgress(`Finished parsing ${date}.`);
+        recordFederalRegisterProgress(`${prefix}Finished parsing ${date}.`);
       } catch (error) {
         console.error('Failed to re-parse stored XML', date, error.message);
-        recordFederalRegisterProgress(`Failed to parse ${date}: ${error.message}`);
+        recordFederalRegisterProgress(`${prefix}Failed to parse ${date}: ${error.message}`);
       }
     }
 
