@@ -18,6 +18,28 @@ function getEffectiveDate(doc: FederalRegisterDocument): string | null {
 
 const ISO_DATE_ONLY_REGEX = /^(\d{4})-(\d{2})-(\d{2})$/;
 
+function normalizeDateValue(value: string | null): string | null {
+  if (!value) {
+    return null;
+  }
+
+  const trimmed = value.trim();
+  if (!trimmed) {
+    return null;
+  }
+
+  if (ISO_DATE_ONLY_REGEX.test(trimmed)) {
+    return trimmed;
+  }
+
+  const parsed = new Date(trimmed);
+  if (Number.isNaN(parsed.getTime())) {
+    return trimmed;
+  }
+
+  return parsed.toISOString().slice(0, 10);
+}
+
 function getYearLabel(value: string | null): string {
   if (!value) {
     return 'Unknown';
@@ -82,13 +104,17 @@ export function FederalRegisterTimeline({
     const seenLabels = new Set<string>();
     const navEntries: TimelineNavItem[] = [];
     const items: TimelineItem[] = sortedDocuments.map((doc, index) => {
-      const effectiveDate = getEffectiveDate(doc);
+      const effectiveDateRaw = getEffectiveDate(doc);
+      const normalizedEffectiveDate = normalizeDateValue(effectiveDateRaw);
+      const effectiveDate = normalizedEffectiveDate ?? effectiveDateRaw?.trim() ?? null;
       const anchorId = `fr-doc-${index}`;
-      const version = doc.effectiveOn ? versionMap.get(doc.effectiveOn) : undefined;
+      const version = normalizedEffectiveDate ? versionMap.get(normalizedEffectiveDate) : undefined;
       const supplementsLabel = doc.supplements.length
         ? doc.supplements.map((number) => `Supplement No. ${number}`).join(', ')
         : '—';
-      const missingEffectiveDate = effectiveDate ? missingSet.has(effectiveDate) : false;
+      const missingEffectiveDate = normalizedEffectiveDate
+        ? missingSet.has(normalizedEffectiveDate)
+        : false;
 
       const label = getYearLabel(effectiveDate);
       if (!seenLabels.has(label)) {
@@ -296,7 +322,7 @@ export function FederalRegisterTimeline({
                             {version ? (
                               <span className="fr-status cached">Stored {formatDateTime(version.fetchedAt)}</span>
                             ) : missingEffectiveDate ? (
-                              <span className="fr-status unavailable">No eCFR XML available</span>
+                              <span className="fr-status unavailable">Unavailable</span>
                             ) : effectiveDate ? (
                               <span className="fr-status missing">Not yet cached</span>
                             ) : (
