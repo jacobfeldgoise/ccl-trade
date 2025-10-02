@@ -1543,67 +1543,56 @@ body {
   color: #0f172a;
 }
 
+.fr-content {
+  margin-top: 2rem;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.fr-timeline-area {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
 .fr-timeline-nav {
   position: sticky;
-  top: 1rem;
-  z-index: 5;
+  top: 6.5rem;
+  align-self: start;
   display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  padding: 0.65rem 1rem;
-  background: rgba(255, 255, 255, 0.95);
-  border-radius: 999px;
-  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.12);
-  backdrop-filter: blur(10px);
-  align-self: stretch;
-}
-
-.fr-nav-label {
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: #64748b;
-  flex-shrink: 0;
-}
-
-.fr-nav-list {
-  display: flex;
-  gap: 0.5rem;
-  overflow-x: auto;
-  padding-bottom: 0.25rem;
-  scrollbar-width: none;
-}
-
-.fr-nav-list::-webkit-scrollbar {
-  display: none;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 0.5rem 0;
 }
 
 .fr-nav-button {
   border: none;
-  background: #e2e8f0;
-  color: #0f172a;
-  border-radius: 999px;
-  padding: 0.45rem 1.05rem;
-  font-size: 0.9rem;
+  background: transparent;
+  color: #475569;
+  border-radius: 0.75rem;
+  padding: 0.35rem 0.65rem;
+  font-size: 0.95rem;
   font-weight: 600;
+  text-align: left;
+  width: 100%;
   cursor: pointer;
-  transition: background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
-  flex-shrink: 0;
+  transition: color 0.2s ease, background 0.2s ease, transform 0.2s ease;
 }
 
 .fr-nav-button:hover,
 .fr-nav-button:focus-visible {
-  background: #dbeafe;
-  color: #1e3a8a;
-  box-shadow: 0 6px 16px rgba(37, 99, 235, 0.2);
+  color: #1d4ed8;
+  background: rgba(59, 130, 246, 0.12);
 }
 
 .fr-nav-button:focus-visible {
   outline: none;
 }
 
-.fr-nav-button:active {
-  transform: translateY(1px);
+.fr-nav-button.active {
+  color: #1d4ed8;
+  background: rgba(59, 130, 246, 0.18);
 }
 
 .fr-empty {
@@ -1798,6 +1787,17 @@ body {
   .fr-meta {
     max-width: 460px;
   }
+
+  .fr-content {
+    grid-template-columns: 200px 1fr;
+    align-items: start;
+  }
+
+  .fr-timeline-nav {
+    padding-right: 1rem;
+    border-right: 1px solid #e2e8f0;
+    gap: 0.25rem;
+  }
 }
 
 @media (max-width: 960px) {
@@ -1811,18 +1811,7 @@ body {
 
   .fr-timeline-nav {
     position: static;
-    border-radius: 1rem;
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0.5rem;
-  }
-
-  .fr-nav-label {
-    font-size: 0.7rem;
-  }
-
-  .fr-nav-list {
-    padding-bottom: 0;
+    padding: 0;
   }
 
   .fr-timeline-item {

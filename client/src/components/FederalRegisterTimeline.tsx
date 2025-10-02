@@ -1,4 +1,4 @@
-import { useCallback, useMemo } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 
 import { FederalRegisterDocument, VersionSummary } from '../types';
 import { formatDate, formatDateTime, formatNumber } from '../utils/format';
@@ -105,6 +105,60 @@ export function FederalRegisterTimeline({
     };
   }, [documents, versions]);
 
+  const [activeAnchor, setActiveAnchor] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (!navItems.length) {
+      setActiveAnchor(null);
+      return;
+    }
+
+    setActiveAnchor((previous) => {
+      if (previous && navItems.some((item) => item.anchorId === previous)) {
+        return previous;
+      }
+      return navItems[0].anchorId;
+    });
+  }, [navItems]);
+
+  useEffect(() => {
+    if (typeof window === 'undefined') {
+      return;
+    }
+
+    if (!navItems.length) {
+      return;
+    }
+
+    const handleScroll = () => {
+      const offset = 160;
+      let current: string | null = navItems[0]?.anchorId ?? null;
+
+      for (const item of navItems) {
+        const element = document.getElementById(item.anchorId);
+        if (!element) {
+          continue;
+        }
+
+        const rect = element.getBoundingClientRect();
+        if (rect.top - offset <= 0) {
+          current = item.anchorId;
+        } else {
+          break;
+        }
+      }
+
+      setActiveAnchor(current);
+    };
+
+    handleScroll();
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, [navItems]);
+
   const handleNavigate = useCallback((anchorId: string) => {
     if (typeof document === 'undefined') {
       return;
@@ -114,6 +168,7 @@ export function FederalRegisterTimeline({
     if (element) {
       element.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
+    setActiveAnchor(anchorId);
   }, []);
 
   return (
@@ -142,105 +197,108 @@ export function FederalRegisterTimeline({
         </div>
       </header>
 
-      {navItems.length > 1 && (
-        <nav className="fr-timeline-nav" aria-label="Federal Register timeline navigation">
-          <span className="fr-nav-label">Jump to</span>
-          <div className="fr-nav-list">
-            {navItems.map((item) => (
-              <button
-                key={item.anchorId}
-                type="button"
-                className="fr-nav-button"
-                onClick={() => handleNavigate(item.anchorId)}
-              >
-                {item.label}
-              </button>
-            ))}
-          </div>
-        </nav>
-      )}
+      <div className="fr-content">
+        {navItems.length > 0 && (
+          <nav className="fr-timeline-nav" aria-label="Federal Register timeline years">
+            {navItems.map((item) => {
+              const isActive = activeAnchor === item.anchorId;
+              return (
+                <button
+                  key={item.anchorId}
+                  type="button"
+                  className={`fr-nav-button${isActive ? ' active' : ''}`}
+                  onClick={() => handleNavigate(item.anchorId)}
+                  aria-current={isActive ? 'true' : undefined}
+                >
+                  {item.label}
+                </button>
+              );
+            })}
+          </nav>
+        )}
 
-      {error && <div className="alert error">{error}</div>}
-      {loading && <div className="alert info">Loading Federal Register documents…</div>}
+        <div className="fr-timeline-area">
+          {error && <div className="alert error">{error}</div>}
+          {loading && <div className="alert info">Loading Federal Register documents…</div>}
 
-      {!loading && totalDocuments === 0 && !error && (
-        <div className="fr-empty">
-          <h3>No Federal Register documents captured yet</h3>
-          <p>
-            Use the Settings tab to refresh the Federal Register metadata. Documents will appear here after
-            they are downloaded from the API.
-          </p>
+          {!loading && totalDocuments === 0 && !error && (
+            <div className="fr-empty">
+              <h3>No Federal Register documents captured yet</h3>
+              <p>
+                Use the Settings tab to refresh the Federal Register metadata. Documents will appear here
+                after they are downloaded from the API.
+              </p>
+            </div>
+          )}
+
+          {timelineItems.length > 0 && (
+            <ol className="fr-timeline">
+              {timelineItems.map(({ doc, effectiveDate, supplementsLabel, anchorId, version }, index) => {
+                return (
+                  <li
+                    key={doc.documentNumber ?? `${doc.title}-${effectiveDate ?? 'unknown'}`}
+                    id={anchorId}
+                    className="fr-timeline-item"
+                    aria-label={`Federal Register document ${index + 1}`}
+                  >
+                    <div className="fr-timeline-date">
+                      <div className="fr-date-primary">
+                        <span className="fr-date-label">Effective</span>
+                        <time dateTime={doc.effectiveOn ?? undefined}>{formatDate(doc.effectiveOn ?? undefined)}</time>
+                      </div>
+                      <div className="fr-date-secondary">
+                        <span className="fr-date-label">Published</span>
+                        <time dateTime={doc.publicationDate ?? undefined}>{formatDate(doc.publicationDate ?? undefined)}</time>
+                      </div>
+                    </div>
+                    <div className="fr-card" data-cached={version ? 'true' : 'false'}>
+                      <header className="fr-card-header">
+                        <h3>
+                          {doc.htmlUrl ? (
+                            <a href={doc.htmlUrl} target="_blank" rel="noreferrer">
+                              {doc.title ?? 'Untitled rule'}
+                            </a>
+                          ) : (
+                            doc.title ?? 'Untitled rule'
+                          )}
+                        </h3>
+                        <div className="fr-card-tags">
+                          {doc.documentNumber && <span className="fr-tag">FR Doc. {doc.documentNumber}</span>}
+                          {doc.citation && <span className="fr-tag">{doc.citation}</span>}
+                          {doc.type && <span className="fr-tag">{doc.type}</span>}
+                        </div>
+                      </header>
+                      {doc.action && <p className="fr-card-action">{doc.action}</p>}
+                      <dl className="fr-card-details">
+                        <div>
+                          <dt>Supplements affected</dt>
+                          <dd>{supplementsLabel}</dd>
+                        </div>
+                        <div>
+                          <dt>Agencies</dt>
+                          <dd>{doc.agencies.length ? doc.agencies.join(', ') : '—'}</dd>
+                        </div>
+                        <div>
+                          <dt>CCL cache status</dt>
+                          <dd>
+                            {version ? (
+                              <span className="fr-status cached">Stored {formatDateTime(version.fetchedAt)}</span>
+                            ) : effectiveDate ? (
+                              <span className="fr-status missing">Not yet cached</span>
+                            ) : (
+                              <span className="fr-status unknown">Effective date unknown</span>
+                            )}
+                          </dd>
+                        </div>
+                      </dl>
+                    </div>
+                  </li>
+                );
+              })}
+            </ol>
+          )}
         </div>
-      )}
-
-      {timelineItems.length > 0 && (
-        <ol className="fr-timeline">
-          {timelineItems.map(({ doc, effectiveDate, supplementsLabel, anchorId, version }, index) => {
-            return (
-              <li
-                key={doc.documentNumber ?? `${doc.title}-${effectiveDate ?? 'unknown'}`}
-                id={anchorId}
-                className="fr-timeline-item"
-                aria-label={`Federal Register document ${index + 1}`}
-              >
-                <div className="fr-timeline-date">
-                  <div className="fr-date-primary">
-                    <span className="fr-date-label">Effective</span>
-                    <time dateTime={doc.effectiveOn ?? undefined}>{formatDate(doc.effectiveOn ?? undefined)}</time>
-                  </div>
-                  <div className="fr-date-secondary">
-                    <span className="fr-date-label">Published</span>
-                    <time dateTime={doc.publicationDate ?? undefined}>{formatDate(doc.publicationDate ?? undefined)}</time>
-                  </div>
-                </div>
-                <div className="fr-card" data-cached={version ? 'true' : 'false'}>
-                  <header className="fr-card-header">
-                    <h3>
-                      {doc.htmlUrl ? (
-                        <a href={doc.htmlUrl} target="_blank" rel="noreferrer">
-                          {doc.title ?? 'Untitled rule'}
-                        </a>
-                      ) : (
-                        doc.title ?? 'Untitled rule'
-                      )}
-                    </h3>
-                    <div className="fr-card-tags">
-                      {doc.documentNumber && <span className="fr-tag">FR Doc. {doc.documentNumber}</span>}
-                      {doc.citation && <span className="fr-tag">{doc.citation}</span>}
-                      {doc.type && <span className="fr-tag">{doc.type}</span>}
-                    </div>
-                  </header>
-                  {doc.action && <p className="fr-card-action">{doc.action}</p>}
-                  <dl className="fr-card-details">
-                    <div>
-                      <dt>Supplements affected</dt>
-                      <dd>{supplementsLabel}</dd>
-                    </div>
-                    <div>
-                      <dt>Agencies</dt>
-                      <dd>{doc.agencies.length ? doc.agencies.join(', ') : '—'}</dd>
-                    </div>
-                    <div>
-                      <dt>CCL cache status</dt>
-                      <dd>
-                        {version ? (
-                          <span className="fr-status cached">
-                            Stored {formatDateTime(version.fetchedAt)}
-                          </span>
-                        ) : effectiveDate ? (
-                          <span className="fr-status missing">Not yet cached</span>
-                        ) : (
-                          <span className="fr-status unknown">Effective date unknown</span>
-                        )}
-                      </dd>
-                    </div>
-                  </dl>
-                </div>
-              </li>
-            );
-          })}
-        </ol>
-      )}
+      </div>
     </section>
   );
 }
