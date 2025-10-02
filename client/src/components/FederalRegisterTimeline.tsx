@@ -181,7 +181,6 @@ export function FederalRegisterTimeline({
 
   const navRef = useRef<HTMLDivElement | null>(null);
   const [activeAnchor, setActiveAnchor] = useState<string | null>(null);
-  const [navCondensed, setNavCondensed] = useState(false);
   const [navOverflowing, setNavOverflowing] = useState(false);
   const activeYearLabel = useMemo(() => {
     if (!activeAnchor) {
@@ -245,13 +244,6 @@ export function FederalRegisterTimeline({
 
       setActiveAnchor(current);
 
-      const condense = window.scrollY > 160;
-      setNavCondensed((previous) => {
-        if (previous === condense) {
-          return previous;
-        }
-        return condense;
-      });
     };
 
     handleScroll();
@@ -263,7 +255,7 @@ export function FederalRegisterTimeline({
   }, [navItems]);
 
   useEffect(() => {
-    if (!navCondensed) {
+    if (!navItems.length) {
       setNavOverflowing(false);
       return;
     }
@@ -275,7 +267,7 @@ export function FederalRegisterTimeline({
     return () => {
       window.cancelAnimationFrame(frame);
     };
-  }, [navCondensed, navItems, recomputeNavOverflow]);
+  }, [navItems, recomputeNavOverflow]);
 
   useEffect(() => {
     if (typeof window === 'undefined') {
@@ -283,10 +275,6 @@ export function FederalRegisterTimeline({
     }
 
     const handleResize = () => {
-      if (!navCondensed) {
-        return;
-      }
-
       recomputeNavOverflow();
     };
 
@@ -294,7 +282,7 @@ export function FederalRegisterTimeline({
     return () => {
       window.removeEventListener('resize', handleResize);
     };
-  }, [navCondensed, recomputeNavOverflow]);
+  }, [recomputeNavOverflow]);
 
   const handleNavigate = useCallback((anchorId: string) => {
     if (typeof document === 'undefined') {
@@ -338,9 +326,7 @@ export function FederalRegisterTimeline({
         {navItems.length > 0 && (
           <nav
             ref={navRef}
-            className={`fr-timeline-nav${navCondensed ? ' condensed' : ''}${
-              navOverflowing ? ' overflowing' : ''
-            }`}
+            className={`fr-timeline-nav condensed${navOverflowing ? ' overflowing' : ''}`}
             aria-label="Federal Register timeline years"
           >
             {navItems.map((item) => {
