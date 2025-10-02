@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 
 import { FederalRegisterDocument, VersionSummary } from '../types';
 import { formatDate, formatDateTime, formatNumber } from '../utils/format';
@@ -179,7 +179,10 @@ export function FederalRegisterTimeline({
     };
   }, [documents, versions, missingEffectiveDates, notYetAvailableEffectiveDates]);
 
+  const navRef = useRef<HTMLDivElement | null>(null);
   const [activeAnchor, setActiveAnchor] = useState<string | null>(null);
+  const [navCondensed, setNavCondensed] = useState(false);
+  const [navOverflowing, setNavOverflowing] = useState(false);
   const activeYearLabel = useMemo(() => {
     if (!activeAnchor) {
       return null;
@@ -187,6 +190,17 @@ export function FederalRegisterTimeline({
 
     return anchorYearMap.get(activeAnchor) ?? null;
   }, [activeAnchor, anchorYearMap]);
+
+  const recomputeNavOverflow = useCallback(() => {
+    const element = navRef.current;
+    if (!element) {
+      setNavOverflowing(false);
+      return;
+    }
+
+    const hasOverflow = element.scrollHeight - element.clientHeight > 1;
+    setNavOverflowing(hasOverflow);
+  }, []);
 
   useEffect(() => {
     if (!navItems.length) {
@@ -230,6 +244,14 @@ export function FederalRegisterTimeline({
       }
 
       setActiveAnchor(current);
+
+      const condense = window.scrollY > 160;
+      setNavCondensed((previous) => {
+        if (previous === condense) {
+          return previous;
+        }
+        return condense;
+      });
     };
 
     handleScroll();
@@ -239,6 +261,40 @@ export function FederalRegisterTimeline({
       window.removeEventListener('scroll', handleScroll);
     };
   }, [navItems]);
+
+  useEffect(() => {
+    if (!navCondensed) {
+      setNavOverflowing(false);
+      return;
+    }
+
+    const frame = window.requestAnimationFrame(() => {
+      recomputeNavOverflow();
+    });
+
+    return () => {
+      window.cancelAnimationFrame(frame);
+    };
+  }, [navCondensed, navItems, recomputeNavOverflow]);
+
+  useEffect(() => {
+    if (typeof window === 'undefined') {
+      return;
+    }
+
+    const handleResize = () => {
+      if (!navCondensed) {
+        return;
+      }
+
+      recomputeNavOverflow();
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, [navCondensed, recomputeNavOverflow]);
 
   const handleNavigate = useCallback((anchorId: string) => {
     if (typeof document === 'undefined') {
@@ -280,7 +336,13 @@ export function FederalRegisterTimeline({
 
       <div className="fr-content">
         {navItems.length > 0 && (
-          <nav className="fr-timeline-nav" aria-label="Federal Register timeline years">
+          <nav
+            ref={navRef}
+            className={`fr-timeline-nav${navCondensed ? ' condensed' : ''}${
+              navOverflowing ? ' overflowing' : ''
+            }`}
+            aria-label="Federal Register timeline years"
+          >
             {navItems.map((item) => {
               const isActive = activeAnchor === item.anchorId;
               return (
