@@ -9,11 +9,20 @@ import {
 } from '../types';
 import { formatDateTime, formatNumber } from '../utils/format';
 import { EccnNodeView } from './EccnNodeView';
+import {
+  eccnSegmentsMatchQuery,
+  extractEccnQuery,
+  ECCN_SEARCH_DEFAULT_LIMIT,
+  normalizeSearchText,
+  truncateEccnTitle,
+  type EccnSegment,
+} from '../utils/eccnSearch';
 
 interface HistorySearchOption {
   entry: EccnEntry;
   normalizedCode: string;
   searchText: string;
+  segments: EccnSegment[] | null;
 }
 
 interface EccnHistoryViewProps {
@@ -69,15 +78,6 @@ type PreparedLeaf = {
 
 function normalizeCode(value: string): string {
   return value.trim().toUpperCase().replace(/\s+/g, '');
-}
-
-function normalizeSearchValue(value: string): string {
-  return value
-    .normalize('NFKD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, ' ')
-    .trim();
 }
 
 function determineChangeStatus(
@@ -203,29 +203,37 @@ export function EccnHistoryView({
     onQueryChange?.(value);
   };
 
-  const normalizedQuery = useMemo(() => normalizeSearchValue(query), [query]);
   const normalizedSelected = useMemo(() => normalizeCode(selectedCode), [selectedCode]);
 
+  const normalizedQuery = useMemo(() => normalizeSearchText(query), [query]);
+  const querySegments = useMemo(() => extractEccnQuery(query)?.segments ?? null, [query]);
+  const queryTokens = useMemo(
+    () => (normalizedQuery ? normalizedQuery.split(/\s+/).filter(Boolean) : []),
+    [normalizedQuery]
+  );
+  const trimmedQuery = useMemo(() => query.trim(), [query]);
+
   const filteredOptions = useMemo(() => {
-    if (!normalizedQuery && !query.trim()) {
-      return options;
+    if (!trimmedQuery) {
+      return options.slice(0, ECCN_SEARCH_DEFAULT_LIMIT);
     }
 
-    const codeQuery = normalizeCode(query);
-    const tokens = normalizedQuery ? normalizedQuery.split(/\s+/).filter(Boolean) : [];
+    return options.filter(({ searchText, segments }) => {
+      if (querySegments) {
+        if (!segments) {
+          return false;
+        }
 
-    return options.filter((option) => {
-      if (codeQuery && option.normalizedCode.includes(codeQuery)) {
-        return true;
+        return eccnSegmentsMatchQuery(querySegments, segments);
       }
-      if (tokens.length === 0) {
+
+      if (queryTokens.length === 0) {
         return false;
       }
-      return tokens.every((token) => option.searchText.includes(token));
-    });
-  }, [options, normalizedQuery, query]);
 
-  const limitedOptions = useMemo(() => filteredOptions.slice(0, 200), [filteredOptions]);
+      return queryTokens.every((token) => searchText.includes(token));
+    });
+  }, [options, trimmedQuery, querySegments, queryTokens]);
 
   const selectedOption = useMemo(
     () => options.find((option) => option.normalizedCode === normalizedSelected) ?? null,
@@ -305,7 +313,6 @@ export function EccnHistoryView({
 
   const handleSelectOption = (option: HistorySearchOption) => {
     updateSelectedCode(option.entry.eccn);
-    updateQuery(option.entry.eccn);
   };
 
   const preparedLeaves = useMemo<PreparedLeaf[]>(() => {
@@ -415,28 +422,52 @@ export function EccnHistoryView({
               autoComplete="off"
             />
             <p className="help-text">
-              Showing {formatNumber(limitedOptions.length)} of {formatNumber(options.length)} ECCNs.
-              {filteredOptions.length > limitedOptions.length ? ' Narrow your search to see more.' : ''}
+              Showing {formatNumber(filteredOptions.length)} of {formatNumber(options.length)} ECCNs.
             </p>
           </form>
           <ul className="history-option-list" role="list">
-            {limitedOptions.map((option) => (
-              <li key={option.normalizedCode}>
-                <button
-                  type="button"
-                  className="history-option-button"
-                  data-active={option.normalizedCode === normalizedSelected}
-                  onClick={() => handleSelectOption(option)}
+            {filteredOptions.map((option) => {
+              const isActive = option.normalizedCode === normalizedSelected;
+              const trimmedCode = option.entry.eccn.trim();
+              const displayCode = trimmedCode || option.entry.eccn;
+              const trimmedTitle = option.entry.title?.trim();
+              const trimmedHeading = option.entry.heading?.trim();
+              const displayTitle = trimmedTitle || trimmedHeading || null;
+              const previewTitle = truncateEccnTitle(displayTitle);
+              return (
+                <li
+                  key={option.normalizedCode}
+                  className={`history-option-item${isActive ? ' active' : ''}`}
                 >
-                  <span className="history-option-code">{option.entry.eccn}</span>
-                  {option.entry.title ? (
-                    <span className="history-option-title">{option.entry.title}</span>
-                  ) : option.entry.heading ? (
-                    <span className="history-option-title">{option.entry.heading}</span>
-                  ) : null}
-                </button>
-              </li>
-            ))}
+                  <button
+                    type="button"
+                    className="history-option-button"
+                    onClick={() => handleSelectOption(option)}
+                  >
+                    <div className="history-option-header">
+                      <span className="history-option-code">{displayCode}</span>
+                      {option.entry.supplement ? (
+                        <span
+                          className="history-option-tag"
+                          title={
+                            option.entry.supplement.heading
+                              ? `Supplement No. ${option.entry.supplement.number} – ${option.entry.supplement.heading}`
+                              : `Supplement No. ${option.entry.supplement.number}`
+                          }
+                        >
+                          {`Supp. No. ${option.entry.supplement.number}`}
+                        </span>
+                      ) : null}
+                    </div>
+                    {previewTitle ? (
+                      <span className="history-option-title" title={displayTitle ?? undefined}>
+                        {previewTitle}
+                      </span>
+                    ) : null}
+                  </button>
+                </li>
+              );
+            })}
           </ul>
         </section>
       </aside>

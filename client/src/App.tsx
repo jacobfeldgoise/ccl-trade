@@ -30,10 +30,17 @@ import { TradeDataView } from './components/TradeDataView';
 import { FederalRegisterTimeline } from './components/FederalRegisterTimeline';
 import { EccnHistoryView } from './components/EccnHistoryView';
 import { formatDateTime, formatNumber } from './utils/format';
-
-const ECCN_BASE_PATTERN = /^[0-9][A-Z][0-9]{3}$/;
-const ECCN_SEGMENT_PATTERN = /^[A-Z0-9]+(?:-[A-Z0-9]+)*$/;
-const ECCN_ALLOWED_CHARS_PATTERN = /^[0-9A-Z.\-\s]+$/;
+import {
+  ECCN_ALLOWED_CHARS_PATTERN,
+  buildEccnSearchTarget,
+  eccnSegmentsMatchQuery,
+  extractEccnQuery,
+  ECCN_SEARCH_DEFAULT_LIMIT,
+  normalizeSearchText,
+  parseNormalizedEccn,
+  truncateEccnTitle,
+  type EccnSegment,
+} from './utils/eccnSearch';
 const SCROLL_TOP_THRESHOLD = 480;
 
 type AppTab = 'explorer' | 'history' | 'trade' | 'federal-register' | 'settings';
@@ -118,189 +125,12 @@ function readInitialUrlState(): UrlState {
   return getUrlStateFromSearch(window.location.search);
 }
 
-type EccnSegment = {
-  raw: string;
-  parts: string[];
-};
-
-type ParsedEccnCode = {
-  code: string;
-  segments: EccnSegment[];
-};
-
 type SearchableEccn = {
   entry: EccnEntry;
   searchText: string;
   normalizedCode: string;
   segments: EccnSegment[] | null;
 };
-
-function stripWrappingPunctuation(value: string): string {
-  let working = value.trim();
-
-  while (working && /[).,;:–—]+$/u.test(working)) {
-    working = working.replace(/[).,;:–—]+$/u, '').trimEnd();
-  }
-
-  while (working && /^[([{"'`]+/u.test(working)) {
-    working = working.replace(/^[([{"'`]+/u, '').trimStart();
-  }
-
-  return working;
-}
-
-function parseNormalizedEccn(value: string | null | undefined): ParsedEccnCode | null {
-  if (!value) {
-    return null;
-  }
-
-  const trimmed = value.trim().toUpperCase();
-  if (!trimmed) {
-    return null;
-  }
-
-  const squished = trimmed.replace(/\s+/g, '');
-  if (!squished) {
-    return null;
-  }
-
-  if (squished.length < 5) {
-    return null;
-  }
-
-  const base = squished.slice(0, 5);
-  if (!ECCN_BASE_PATTERN.test(base)) {
-    return null;
-  }
-  const segments: EccnSegment[] = [
-    {
-      raw: base,
-      parts: base.split('-'),
-    },
-  ];
-
-  let index = base.length;
-
-  while (index < squished.length) {
-    if (squished[index] !== '.') {
-      return null;
-    }
-    index += 1;
-
-    const segmentStart = index;
-    while (index < squished.length && squished[index] !== '.') {
-      index += 1;
-    }
-
-    const segmentRaw = squished.slice(segmentStart, index);
-    if (!segmentRaw) {
-      return null;
-    }
-    if (!ECCN_SEGMENT_PATTERN.test(segmentRaw)) {
-      return null;
-    }
-
-    segments.push({
-      raw: segmentRaw,
-      parts: segmentRaw.split('-'),
-    });
-  }
-
-  return {
-    code: segments.map((segment) => segment.raw).join('.'),
-    segments,
-  };
-}
-
-function eccnSegmentsMatchQuery(querySegments: EccnSegment[], entrySegments: EccnSegment[]): boolean {
-  if (!querySegments.length || !entrySegments.length) {
-    return false;
-  }
-
-  if (entrySegments[0].raw !== querySegments[0].raw) {
-    return false;
-  }
-
-  if (entrySegments.length < querySegments.length) {
-    return false;
-  }
-
-  return querySegments.every((querySegment, index) => {
-    const target = entrySegments[index];
-    if (!target) {
-      return false;
-    }
-
-    if (index === 0) {
-      return target.raw === querySegment.raw;
-    }
-
-    if (target.raw === querySegment.raw) {
-      return true;
-    }
-
-    if (target.parts.length < querySegment.parts.length) {
-      return false;
-    }
-
-    return querySegment.parts.every((part, partIndex) => target.parts[partIndex] === part);
-  });
-}
-
-function normalizeSearchText(value: string | null | undefined): string {
-  if (!value) {
-    return '';
-  }
-
-  return value
-    .normalize('NFKD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, ' ')
-    .trim();
-}
-
-function buildEccnSearchTarget(entry: EccnEntry): string {
-  const fields: Array<string | null | undefined> = [
-    entry.eccn,
-    entry.heading,
-    entry.title,
-    entry.category ? `category ${entry.category}` : null,
-    entry.group ? `group ${entry.group}` : null,
-    entry.parentEccn ? `parent ${entry.parentEccn}` : null,
-    entry.childEccns && entry.childEccns.length > 0 ? entry.childEccns.join(' ') : null,
-    entry.breadcrumbs.length > 0 ? entry.breadcrumbs.join(' ') : null,
-    entry.supplement?.heading,
-    entry.supplement?.number,
-    entry.supplement ? `supplement ${entry.supplement.number}` : null,
-    entry.supplement ? `supp no ${entry.supplement.number}` : null,
-  ];
-
-  return normalizeSearchText(fields.filter(Boolean).join(' '));
-}
-
-function extractEccnQuery(value: string | null | undefined): ParsedEccnCode | null {
-  if (!value) {
-    return null;
-  }
-
-  const trimmed = value.trim();
-  if (!trimmed) {
-    return null;
-  }
-
-  const stripped = stripWrappingPunctuation(trimmed);
-  if (!stripped) {
-    return null;
-  }
-
-  const upper = stripped.toUpperCase();
-  if (!ECCN_ALLOWED_CHARS_PATTERN.test(upper)) {
-    return null;
-  }
-
-  return parseNormalizedEccn(upper);
-}
 
 interface HighLevelField {
   id: string;
@@ -1505,12 +1335,12 @@ function App() {
     () => {
       const unique = new Map<
         string,
-        { entry: EccnEntry; normalizedCode: string; searchText: string }
+        { entry: EccnEntry; normalizedCode: string; searchText: string; segments: EccnSegment[] | null }
       >();
 
-      searchableEccns.forEach(({ entry, normalizedCode, searchText }) => {
+      searchableEccns.forEach(({ entry, normalizedCode, searchText, segments }) => {
         if (!unique.has(normalizedCode)) {
-          unique.set(normalizedCode, { entry, normalizedCode, searchText });
+          unique.set(normalizedCode, { entry, normalizedCode, searchText, segments });
         }
       });
 
@@ -1531,6 +1361,7 @@ function App() {
   }, [allEccns]);
 
   const filteredEccns: EccnEntry[] = useMemo(() => {
+    const trimmedFilter = eccnFilter.trim();
     const normalizedTerm = normalizeSearchText(eccnFilter);
     const tokens = normalizedTerm.split(/\s+/).filter(Boolean);
     const eccnQuery = extractEccnQuery(eccnFilter);
@@ -1540,11 +1371,12 @@ function App() {
       return [];
     }
 
-    return searchableEccns
+    const matches = searchableEccns
       .filter(({ entry, searchText, segments }) => {
         if (!selectedSupplements.includes(entry.supplement.number)) {
           return false;
         }
+
         if (querySegments) {
           if (!segments) {
             return false;
@@ -1552,13 +1384,21 @@ function App() {
 
           return eccnSegmentsMatchQuery(querySegments, segments);
         }
+
         if (tokens.length === 0) {
           return true;
         }
+
         return tokens.every((token) => searchText.includes(token));
       })
       .map(({ entry }) => entry);
-  }, [searchableEccns, eccnFilter, selectedSupplements]);
+
+    if (!trimmedFilter) {
+      return matches.slice(0, ECCN_SEARCH_DEFAULT_LIMIT);
+    }
+
+    return matches;
+  }, [searchableEccns, selectedSupplements, eccnFilter]);
 
   const singleSelectedSupplement = useMemo(() => {
     if (selectedSupplements.length !== 1) {
@@ -2090,29 +1930,40 @@ function App() {
                         </div>
     
                         <ul className="eccn-list">
-                          {filteredEccns.map((entry) => (
-                            <li
-                              key={`${entry.supplement.number}-${entry.eccn}`}
-                              className={entry.eccn === activeEccn?.eccn ? 'active' : ''}
-                            >
-                              <button type="button" onClick={() => handleSelectEccn(entry.eccn)}>
-                                <div className="eccn-list-header">
-                                  <span className="eccn-code">{entry.eccn}</span>
-                                  <span
-                                    className="eccn-tag"
-                                    title={
-                                      entry.supplement.heading
-                                        ? `Supplement No. ${entry.supplement.number} – ${entry.supplement.heading}`
-                                        : `Supplement No. ${entry.supplement.number}`
-                                    }
-                                  >
-                                    {`Supp. No. ${entry.supplement.number}`}
-                                  </span>
-                                </div>
-                                {entry.title && <span className="eccn-title">{entry.title}</span>}
-                              </button>
-                            </li>
-                          ))}
+                          {filteredEccns.map((entry) => {
+                            const trimmedCode = entry.eccn.trim();
+                            const displayCode = trimmedCode || entry.eccn;
+                            const trimmedTitle = entry.title?.trim();
+                            const displayTitle = trimmedTitle ?? entry.title ?? null;
+                            const previewTitle = truncateEccnTitle(displayTitle);
+                            return (
+                              <li
+                                key={`${entry.supplement.number}-${entry.eccn}`}
+                                className={entry.eccn === activeEccn?.eccn ? 'active' : ''}
+                              >
+                                <button type="button" onClick={() => handleSelectEccn(entry.eccn)}>
+                                  <div className="eccn-list-header">
+                                    <span className="eccn-code">{displayCode}</span>
+                                    <span
+                                      className="eccn-tag"
+                                      title={
+                                        entry.supplement.heading
+                                          ? `Supplement No. ${entry.supplement.number} – ${entry.supplement.heading}`
+                                          : `Supplement No. ${entry.supplement.number}`
+                                      }
+                                    >
+                                      {`Supp. No. ${entry.supplement.number}`}
+                                    </span>
+                                  </div>
+                                  {previewTitle && (
+                                    <span className="eccn-title" title={displayTitle ?? undefined}>
+                                      {previewTitle}
+                                    </span>
+                                  )}
+                                </button>
+                              </li>
+                            );
+                          })}
                         </ul>
                       </aside>
     
