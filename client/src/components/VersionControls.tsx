@@ -1,6 +1,6 @@
-import { ChangeEvent, useMemo } from 'react';
+import { useMemo } from 'react';
 import { VersionSummary } from '../types';
-import { formatDate, formatDateTime, formatNumber } from '../utils/format';
+import { formatDate, formatNumber } from '../utils/format';
 
 interface VersionControlsProps {
   versions: VersionSummary[];
@@ -21,13 +21,6 @@ export function VersionControls({
     return [...versions].sort((a, b) => (a.date < b.date ? 1 : -1));
   }, [versions]);
 
-  const handleSelectChange = (event: ChangeEvent<HTMLSelectElement>) => {
-    const { value } = event.target;
-    if (value) {
-      onSelect(value);
-    }
-  };
-
   return (
     <section className="panel version-controls">
       <header className="panel-header">
@@ -36,67 +29,61 @@ export function VersionControls({
       </header>
 
       <div className="control-group">
-        <label htmlFor="version-select">Stored versions</label>
-        <select
-          id="version-select"
-          className="control"
-          value={selectedDate ?? ''}
-          onChange={handleSelectChange}
-          disabled={loadingVersions || sortedVersions.length === 0}
-        >
-          {sortedVersions.length === 0 && <option value="">No versions cached</option>}
-          {sortedVersions.map((version) => (
-            <option key={version.date} value={version.date}>
-              {`${version.date} (fetched ${formatDateTime(version.fetchedAt)})`}
-            </option>
-          ))}
-        </select>
+        <div className="control-group-header">
+          <span className="control-label">Stored versions</span>
+          {sortedVersions.length > 0 && (
+            <span className="control-label-meta">
+              {formatNumber(sortedVersions.length)} cached
+            </span>
+          )}
+        </div>
+
+        {sortedVersions.length === 0 ? (
+          <div className="empty-state">No versions cached.</div>
+        ) : (
+          <ul className="version-selector" role="list">
+            {sortedVersions.map((version) => {
+              const isActive = version.date === selectedDate;
+              const xmlStatus = version.rawDownloadedAt
+                ? version.canRedownloadXml
+                  ? 'XML ready for refresh'
+                  : 'XML cached'
+                : 'XML not cached';
+
+              return (
+                <li key={`summary-${version.date}`}>
+                  <label
+                    className={`version-option${isActive ? ' active' : ''}${loadingVersions ? ' disabled' : ''}`}
+                  >
+                    <input
+                      type="radio"
+                      name="stored-version"
+                      value={version.date}
+                      checked={isActive}
+                      onChange={() => onSelect(version.date)}
+                      disabled={loadingVersions}
+                    />
+                    <span className="version-option-content">
+                      <span className="version-option-main">
+                        <span className="version-option-date">{formatDate(version.date)}</span>
+                        {version.date === defaultDate && <span className="badge">Latest</span>}
+                      </span>
+                      <span className="version-option-sub">
+                        <span>{formatNumber(version.counts?.eccns ?? 0)} ECCNs</span>
+                        <span className={`version-option-chip${version.rawDownloadedAt ? ' success' : ' muted'}`}>
+                          {xmlStatus}
+                        </span>
+                      </span>
+                    </span>
+                  </label>
+                </li>
+              );
+            })}
+          </ul>
+        )}
+
         <p className="help-text">Select a cached version to explore in the CCL browser.</p>
       </div>
-
-      {sortedVersions.length > 0 && (
-        <div className="control-group">
-          <h3>Stored version details</h3>
-          <ul className="version-list">
-            {sortedVersions.map((version) => (
-              <li key={`summary-${version.date}`} className={version.date === selectedDate ? 'active' : ''}>
-                <div>
-                  <strong>{version.date}</strong>
-                  {version.date === defaultDate && <span className="badge">Latest</span>}
-                </div>
-                <dl>
-                  <div>
-                    <dt>Fetched</dt>
-                    <dd>{formatDateTime(version.fetchedAt)}</dd>
-                  </div>
-                  <div>
-                    <dt>ECCNs</dt>
-                    <dd>{formatNumber(version.counts?.eccns ?? 0)}</dd>
-                  </div>
-                  <div>
-                    <dt>Raw XML</dt>
-                    <dd>
-                      {version.rawDownloadedAt
-                        ? formatDateTime(version.rawDownloadedAt)
-                        : 'Not downloaded'}
-                    </dd>
-                  </div>
-                  {version.rawDownloadedAt ? (
-                    <div>
-                      <dt>Refresh status</dt>
-                      <dd>
-                        {version.canRedownloadXml
-                          ? 'Eligible for refresh on next fetch'
-                          : 'Refresh available after 30 days'}
-                      </dd>
-                    </div>
-                  ) : null}
-                </dl>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
     </section>
   );
 }
