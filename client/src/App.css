@@ -200,6 +200,13 @@ body {
   font-weight: 500;
 }
 
+.history-option-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
 .history-option-button:hover {
   border-color: #94a3b8;
   transform: translateY(-1px);
@@ -213,6 +220,18 @@ body {
 
 .history-option-code {
   font-weight: 600;
+}
+
+.history-option-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.05rem 0.6rem;
+  border-radius: 999px;
+  background: #dbeafe;
+  color: #1d4ed8;
+  font-size: 0.75rem;
+  font-weight: 600;
+  white-space: nowrap;
 }
 
 .history-option-title {

@@ -233,8 +233,6 @@ export function EccnHistoryView({
     });
   }, [options, trimmedQuery, querySegments, queryTokens]);
 
-  const limitedOptions = useMemo(() => filteredOptions.slice(0, 200), [filteredOptions]);
-
   const selectedOption = useMemo(
     () => options.find((option) => option.normalizedCode === normalizedSelected) ?? null,
     [options, normalizedSelected]
@@ -423,12 +421,11 @@ export function EccnHistoryView({
               autoComplete="off"
             />
             <p className="help-text">
-              Showing {formatNumber(limitedOptions.length)} of {formatNumber(options.length)} ECCNs.
-              {filteredOptions.length > limitedOptions.length ? ' Narrow your search to see more.' : ''}
+              Showing {formatNumber(filteredOptions.length)} of {formatNumber(options.length)} ECCNs.
             </p>
           </form>
           <ul className="history-option-list" role="list">
-            {limitedOptions.map((option) => (
+            {filteredOptions.map((option) => (
               <li key={option.normalizedCode}>
                 <button
                   type="button"
@@ -436,7 +433,21 @@ export function EccnHistoryView({
                   data-active={option.normalizedCode === normalizedSelected}
                   onClick={() => handleSelectOption(option)}
                 >
-                  <span className="history-option-code">{option.entry.eccn}</span>
+                  <div className="history-option-header">
+                    <span className="history-option-code">{option.entry.eccn}</span>
+                    {option.entry.supplement ? (
+                      <span
+                        className="history-option-tag"
+                        title={
+                          option.entry.supplement.heading
+                            ? `Supplement No. ${option.entry.supplement.number} – ${option.entry.supplement.heading}`
+                            : `Supplement No. ${option.entry.supplement.number}`
+                        }
+                      >
+                        {`Supp. No. ${option.entry.supplement.number}`}
+                      </span>
+                    ) : null}
+                  </div>
                   {option.entry.title ? (
                     <span className="history-option-title">{option.entry.title}</span>
                   ) : option.entry.heading ? (
