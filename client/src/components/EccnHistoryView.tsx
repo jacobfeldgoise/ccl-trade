@@ -428,6 +428,9 @@ export function EccnHistoryView({
               const isActive = option.normalizedCode === normalizedSelected;
               const trimmedCode = option.entry.eccn.trim();
               const displayCode = trimmedCode || option.entry.eccn;
+              const trimmedTitle = option.entry.title?.trim();
+              const trimmedHeading = option.entry.heading?.trim();
+              const displayTitle = trimmedTitle || trimmedHeading;
               return (
                 <li
                   key={option.normalizedCode}
@@ -453,10 +456,8 @@ export function EccnHistoryView({
                         </span>
                       ) : null}
                     </div>
-                    {option.entry.title ? (
-                      <span className="history-option-title">{option.entry.title}</span>
-                    ) : option.entry.heading ? (
-                      <span className="history-option-title">{option.entry.heading}</span>
+                    {displayTitle ? (
+                      <span className="history-option-title">{displayTitle}</span>
                     ) : null}
                   </button>
                 </li>

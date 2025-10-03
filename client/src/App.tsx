@@ -1924,6 +1924,8 @@ function App() {
                           {filteredEccns.map((entry) => {
                             const trimmedCode = entry.eccn.trim();
                             const displayCode = trimmedCode || entry.eccn;
+                            const trimmedTitle = entry.title?.trim();
+                            const displayTitle = trimmedTitle ?? entry.title;
                             return (
                               <li
                                 key={`${entry.supplement.number}-${entry.eccn}`}
@@ -1943,7 +1945,9 @@ function App() {
                                       {`Supp. No. ${entry.supplement.number}`}
                                     </span>
                                   </div>
-                                  {entry.title && <span className="eccn-title">{entry.title}</span>}
+                                  {displayTitle && (
+                                    <span className="eccn-title">{displayTitle}</span>
+                                  )}
                                 </button>
                               </li>
                             );
