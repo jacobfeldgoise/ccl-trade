@@ -425,37 +425,42 @@ export function EccnHistoryView({
             </p>
           </form>
           <ul className="history-option-list" role="list">
-            {filteredOptions.map((option) => (
-              <li key={option.normalizedCode}>
-                <button
-                  type="button"
-                  className="history-option-button"
-                  data-active={option.normalizedCode === normalizedSelected}
-                  onClick={() => handleSelectOption(option)}
+            {filteredOptions.map((option) => {
+              const isActive = option.normalizedCode === normalizedSelected;
+              return (
+                <li
+                  key={option.normalizedCode}
+                  className={`history-option-item${isActive ? ' active' : ''}`}
                 >
-                  <div className="history-option-header">
-                    <span className="history-option-code">{option.entry.eccn}</span>
-                    {option.entry.supplement ? (
-                      <span
-                        className="history-option-tag"
-                        title={
-                          option.entry.supplement.heading
-                            ? `Supplement No. ${option.entry.supplement.number} – ${option.entry.supplement.heading}`
-                            : `Supplement No. ${option.entry.supplement.number}`
-                        }
-                      >
-                        {`Supp. No. ${option.entry.supplement.number}`}
-                      </span>
+                  <button
+                    type="button"
+                    className="history-option-button"
+                    onClick={() => handleSelectOption(option)}
+                  >
+                    <div className="history-option-header">
+                      <span className="history-option-code">{option.entry.eccn}</span>
+                      {option.entry.supplement ? (
+                        <span
+                          className="history-option-tag"
+                          title={
+                            option.entry.supplement.heading
+                              ? `Supplement No. ${option.entry.supplement.number} – ${option.entry.supplement.heading}`
+                              : `Supplement No. ${option.entry.supplement.number}`
+                          }
+                        >
+                          {`Supp. No. ${option.entry.supplement.number}`}
+                        </span>
+                      ) : null}
+                    </div>
+                    {option.entry.title ? (
+                      <span className="history-option-title">{option.entry.title}</span>
+                    ) : option.entry.heading ? (
+                      <span className="history-option-title">{option.entry.heading}</span>
                     ) : null}
-                  </div>
-                  {option.entry.title ? (
-                    <span className="history-option-title">{option.entry.title}</span>
-                  ) : option.entry.heading ? (
-                    <span className="history-option-title">{option.entry.heading}</span>
-                  ) : null}
-                </button>
-              </li>
-            ))}
+                  </button>
+                </li>
+              );
+            })}
           </ul>
         </section>
       </aside>
