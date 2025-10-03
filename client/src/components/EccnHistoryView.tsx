@@ -311,7 +311,6 @@ export function EccnHistoryView({
 
   const handleSelectOption = (option: HistorySearchOption) => {
     updateSelectedCode(option.entry.eccn);
-    updateQuery(option.entry.eccn);
   };
 
   const preparedLeaves = useMemo<PreparedLeaf[]>(() => {
