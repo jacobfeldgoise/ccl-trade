@@ -1921,29 +1921,33 @@ function App() {
                         </div>
     
                         <ul className="eccn-list">
-                          {filteredEccns.map((entry) => (
-                            <li
-                              key={`${entry.supplement.number}-${entry.eccn}`}
-                              className={entry.eccn === activeEccn?.eccn ? 'active' : ''}
-                            >
-                              <button type="button" onClick={() => handleSelectEccn(entry.eccn)}>
-                                <div className="eccn-list-header">
-                                  <span className="eccn-code">{entry.eccn}</span>
-                                  <span
-                                    className="eccn-tag"
-                                    title={
-                                      entry.supplement.heading
-                                        ? `Supplement No. ${entry.supplement.number} – ${entry.supplement.heading}`
-                                        : `Supplement No. ${entry.supplement.number}`
-                                    }
-                                  >
-                                    {`Supp. No. ${entry.supplement.number}`}
-                                  </span>
-                                </div>
-                                {entry.title && <span className="eccn-title">{entry.title}</span>}
-                              </button>
-                            </li>
-                          ))}
+                          {filteredEccns.map((entry) => {
+                            const trimmedCode = entry.eccn.trim();
+                            const displayCode = trimmedCode || entry.eccn;
+                            return (
+                              <li
+                                key={`${entry.supplement.number}-${entry.eccn}`}
+                                className={entry.eccn === activeEccn?.eccn ? 'active' : ''}
+                              >
+                                <button type="button" onClick={() => handleSelectEccn(entry.eccn)}>
+                                  <div className="eccn-list-header">
+                                    <span className="eccn-code">{displayCode}</span>
+                                    <span
+                                      className="eccn-tag"
+                                      title={
+                                        entry.supplement.heading
+                                          ? `Supplement No. ${entry.supplement.number} – ${entry.supplement.heading}`
+                                          : `Supplement No. ${entry.supplement.number}`
+                                      }
+                                    >
+                                      {`Supp. No. ${entry.supplement.number}`}
+                                    </span>
+                                  </div>
+                                  {entry.title && <span className="eccn-title">{entry.title}</span>}
+                                </button>
+                              </li>
+                            );
+                          })}
                         </ul>
                       </aside>
     

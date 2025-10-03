@@ -426,6 +426,8 @@ export function EccnHistoryView({
           <ul className="history-option-list" role="list">
             {filteredOptions.map((option) => {
               const isActive = option.normalizedCode === normalizedSelected;
+              const trimmedCode = option.entry.eccn.trim();
+              const displayCode = trimmedCode || option.entry.eccn;
               return (
                 <li
                   key={option.normalizedCode}
@@ -437,7 +439,7 @@ export function EccnHistoryView({
                     onClick={() => handleSelectOption(option)}
                   >
                     <div className="history-option-header">
-                      <span className="history-option-code">{option.entry.eccn}</span>
+                      <span className="history-option-code">{displayCode}</span>
                       {option.entry.supplement ? (
                         <span
                           className="history-option-tag"
