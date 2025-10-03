@@ -13,6 +13,7 @@ import {
   eccnSegmentsMatchQuery,
   extractEccnQuery,
   normalizeSearchText,
+  truncateEccnTitle,
   type EccnSegment,
 } from '../utils/eccnSearch';
 
@@ -430,7 +431,8 @@ export function EccnHistoryView({
               const displayCode = trimmedCode || option.entry.eccn;
               const trimmedTitle = option.entry.title?.trim();
               const trimmedHeading = option.entry.heading?.trim();
-              const displayTitle = trimmedTitle || trimmedHeading;
+              const displayTitle = trimmedTitle || trimmedHeading || null;
+              const previewTitle = truncateEccnTitle(displayTitle);
               return (
                 <li
                   key={option.normalizedCode}
@@ -456,8 +458,10 @@ export function EccnHistoryView({
                         </span>
                       ) : null}
                     </div>
-                    {displayTitle ? (
-                      <span className="history-option-title">{displayTitle}</span>
+                    {previewTitle ? (
+                      <span className="history-option-title" title={displayTitle ?? undefined}>
+                        {previewTitle}
+                      </span>
                     ) : null}
                   </button>
                 </li>

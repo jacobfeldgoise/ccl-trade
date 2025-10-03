@@ -37,6 +37,7 @@ import {
   extractEccnQuery,
   normalizeSearchText,
   parseNormalizedEccn,
+  truncateEccnTitle,
   type EccnSegment,
 } from './utils/eccnSearch';
 const SCROLL_TOP_THRESHOLD = 480;
@@ -1925,7 +1926,8 @@ function App() {
                             const trimmedCode = entry.eccn.trim();
                             const displayCode = trimmedCode || entry.eccn;
                             const trimmedTitle = entry.title?.trim();
-                            const displayTitle = trimmedTitle ?? entry.title;
+                            const displayTitle = trimmedTitle ?? entry.title ?? null;
+                            const previewTitle = truncateEccnTitle(displayTitle);
                             return (
                               <li
                                 key={`${entry.supplement.number}-${entry.eccn}`}
@@ -1945,8 +1947,10 @@ function App() {
                                       {`Supp. No. ${entry.supplement.number}`}
                                     </span>
                                   </div>
-                                  {displayTitle && (
-                                    <span className="eccn-title">{displayTitle}</span>
+                                  {previewTitle && (
+                                    <span className="eccn-title" title={displayTitle ?? undefined}>
+                                      {previewTitle}
+                                    </span>
                                   )}
                                 </button>
                               </li>

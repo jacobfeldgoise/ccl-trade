@@ -22,6 +22,28 @@ export type PreparedEccnSearchQuery = {
   eccn: ParsedEccnCode | null;
 };
 
+export const ECCN_TITLE_PREVIEW_LIMIT = 120;
+
+export function truncateEccnTitle(
+  title: string | null | undefined,
+  limit: number = ECCN_TITLE_PREVIEW_LIMIT
+): string | null {
+  if (!title) {
+    return null;
+  }
+
+  const trimmed = title.trim();
+  if (!trimmed) {
+    return null;
+  }
+
+  if (trimmed.length <= limit) {
+    return trimmed;
+  }
+
+  return `${trimmed.slice(0, limit).replace(/\s+$/u, '')}…`;
+}
+
 function stripWrappingPunctuation(value: string): string {
   let working = value.trim();
 
