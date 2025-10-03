@@ -33,9 +33,9 @@ import { formatDateTime, formatNumber } from './utils/format';
 import {
   ECCN_ALLOWED_CHARS_PATTERN,
   buildEccnSearchTarget,
-  matchesEccnSearchTarget,
-  prepareEccnSearchQuery,
+  eccnSegmentsMatchQuery,
   extractEccnQuery,
+  normalizeSearchText,
   parseNormalizedEccn,
   type EccnSegment,
 } from './utils/eccnSearch';
@@ -1358,9 +1358,12 @@ function App() {
     return map;
   }, [allEccns]);
 
-  const explorerSearchQuery = useMemo(() => prepareEccnSearchQuery(eccnFilter), [eccnFilter]);
-
   const filteredEccns: EccnEntry[] = useMemo(() => {
+    const normalizedTerm = normalizeSearchText(eccnFilter);
+    const tokens = normalizedTerm.split(/\s+/).filter(Boolean);
+    const eccnQuery = extractEccnQuery(eccnFilter);
+    const querySegments = eccnQuery?.segments ?? null;
+
     if (selectedSupplements.length === 0) {
       return [];
     }
@@ -1371,10 +1374,22 @@ function App() {
           return false;
         }
 
-        return matchesEccnSearchTarget(explorerSearchQuery, { searchText, segments });
+        if (querySegments) {
+          if (!segments) {
+            return false;
+          }
+
+          return eccnSegmentsMatchQuery(querySegments, segments);
+        }
+
+        if (tokens.length === 0) {
+          return true;
+        }
+
+        return tokens.every((token) => searchText.includes(token));
       })
       .map(({ entry }) => entry);
-  }, [searchableEccns, selectedSupplements, explorerSearchQuery]);
+  }, [searchableEccns, selectedSupplements, eccnFilter]);
 
   const singleSelectedSupplement = useMemo(() => {
     if (selectedSupplements.length !== 1) {
