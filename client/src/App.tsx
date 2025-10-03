@@ -35,6 +35,7 @@ import {
   buildEccnSearchTarget,
   eccnSegmentsMatchQuery,
   extractEccnQuery,
+  ECCN_SEARCH_DEFAULT_LIMIT,
   normalizeSearchText,
   parseNormalizedEccn,
   truncateEccnTitle,
@@ -1360,6 +1361,7 @@ function App() {
   }, [allEccns]);
 
   const filteredEccns: EccnEntry[] = useMemo(() => {
+    const trimmedFilter = eccnFilter.trim();
     const normalizedTerm = normalizeSearchText(eccnFilter);
     const tokens = normalizedTerm.split(/\s+/).filter(Boolean);
     const eccnQuery = extractEccnQuery(eccnFilter);
@@ -1369,7 +1371,7 @@ function App() {
       return [];
     }
 
-    return searchableEccns
+    const matches = searchableEccns
       .filter(({ entry, searchText, segments }) => {
         if (!selectedSupplements.includes(entry.supplement.number)) {
           return false;
@@ -1390,6 +1392,12 @@ function App() {
         return tokens.every((token) => searchText.includes(token));
       })
       .map(({ entry }) => entry);
+
+    if (!trimmedFilter) {
+      return matches.slice(0, ECCN_SEARCH_DEFAULT_LIMIT);
+    }
+
+    return matches;
   }, [searchableEccns, selectedSupplements, eccnFilter]);
 
   const singleSelectedSupplement = useMemo(() => {

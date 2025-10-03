@@ -12,6 +12,7 @@ import { EccnNodeView } from './EccnNodeView';
 import {
   eccnSegmentsMatchQuery,
   extractEccnQuery,
+  ECCN_SEARCH_DEFAULT_LIMIT,
   normalizeSearchText,
   truncateEccnTitle,
   type EccnSegment,
@@ -214,7 +215,7 @@ export function EccnHistoryView({
 
   const filteredOptions = useMemo(() => {
     if (!trimmedQuery) {
-      return options;
+      return options.slice(0, ECCN_SEARCH_DEFAULT_LIMIT);
     }
 
     return options.filter(({ searchText, segments }) => {

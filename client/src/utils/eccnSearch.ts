@@ -23,6 +23,7 @@ export type PreparedEccnSearchQuery = {
 };
 
 export const ECCN_TITLE_PREVIEW_LIMIT = 120;
+export const ECCN_SEARCH_DEFAULT_LIMIT = 100;
 
 export function truncateEccnTitle(
   title: string | null | undefined,
